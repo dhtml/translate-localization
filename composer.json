@@ -24,11 +24,11 @@
     "extra": {
         "flarum-extension": {
             "title": "Flarum Language Localization",
-            "category": "",
+            "category": "language",
             "icon": {
-                "name": "",
-                "color": "",
-                "backgroundColor": ""
+                "name": "far fa-eye",
+                "backgroundColor": "#008000",
+                "color": "#fff"
             }
         },
         "flarum-cli": {
