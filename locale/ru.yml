@@ -3,7 +3,6 @@ core:
     change_email:
       incorrect_password_message: 'Введен неверный пароль.'
       confirm_password_placeholder: 'Подтвердите пароль'
-      confirmation_message: 'Мы отправили письмо с подтверждением на {email}. Если оно не пришло в ближайшее время, проверьте папку со спамом.'
       dismiss_button: ХОРОШО
       submit_button: 'Сохранить изменения'
       title: 'Изменить адрес электронной почты'
@@ -26,7 +25,6 @@ core:
     composer_edit:
       discard_confirmation: 'Вы не сохранили изменения. Хотите ли вы их выбросить?'
       edited_message: 'Ваша правка была сделана.'
-      post_link: 'Сообщение #{число} в {обсуждение}'
       submit_button: 'Сохранить изменения'
       view_button: Вид
     composer_reply:
@@ -48,10 +46,6 @@ core:
       restore_button: Восстанавливать
     discussion_list:
       empty_text: 'Похоже, что здесь нет никаких обсуждений.'
-      replied_text: '{username} ответил {ago}'
-      started_text: '{username} начато {ago}'
-      total_replies_a11y_label: '{количество, множественное число, один {# ответ} другой {# ответы}}'
-      unread_replies_a11y_label: '{количество, множественное число, один {# непрочитанный ответ} другой {# непрочитанные ответы}}. Пометьте непрочитанные {количество, множественное число, один {ответ} другой {ответы}} как прочитанные.'
       load_more_button: 'Загрузить еще'
     forgot_password:
       email_sent_message: 'Если введенное вами электронное письмо зарегистрировано на этом сайте, мы отправим вам электронное письмо, содержащее ссылку для сброса вашего пароля. Проверьте папку спама, если вы не получите ее в течение следующей минуты или двух.'
@@ -107,7 +101,6 @@ core:
     notifications:
       delete_all_confirm: 'Вы уверены, что хотите удалить все уведомления? Это действие нельзя отменить'
       delete_all_tooltip: 'Удалить все уведомления'
-      discussion_renamed_text: '{username} изменил заголовок'
       empty_text: 'Нет уведомлений'
       mark_as_read_tooltip: 'Пометить как прочитанное'
       toggle_dropdown_accessible_label: 'Просмотр уведомлений'
@@ -116,8 +109,6 @@ core:
       tooltip: Уведомления
     post:
       edited_text: Отредактированы
-      edited_tooltip: '{username} отредактировано {ago}'
-      number_tooltip: 'Сообщение #{число}'
     post_controls:
       delete_confirmation: 'Вы уверены, что хотите удалить этот пост навсегда? Это действие нельзя отменить.'
       hide_confirmation: 'Вы уверены, что хотите удалить этот пост?'
@@ -131,23 +122,16 @@ core:
     post_scrubber:
       now_link: Сейчас
       original_post_link: 'Оригинальный пост'
-      unread_text: '{count} непрочитано'
-      viewing_text: '{count, множественное число, один {{index} из {formattedCount} post} другой {{index} из {formattedCount} posts}}'
     post_stream:
-      discussion_renamed_old_tooltip: 'Старое название было: «{старый}»'
-      discussion_renamed_text: '{username} изменил заголовок на {new} {time}.'
-      time_lapsed_text: '{точка} позже'
       load_more_button: 'Загрузить еще'
       reply_placeholder: 'Написать ответ...'
     rename_discussion:
       title: 'Обсуждение переименования'
       submit_button: Переименовать
     search:
-      all_discussions_button: 'Поиск во всех обсуждениях по запросу "{query}"'
       discussions_heading: Обсуждения
       users_heading: Пользователей
     security:
-      browser_on_operating_system: '{browser} на {os}'
       cannot_terminate_current_session: 'Невозможно завершить текущий активный сеанс. Вместо этого выйдите из системы.'
       created: Созданный
       current_active_session: 'Текущая активная сессия'
@@ -159,13 +143,11 @@ core:
       new_access_token_modal: { submit_button: 'Создать токен', title_placeholder: Титул, title: 'Новый токен' }
       revoke_access_token: Отменять
       sessions_heading: 'Активные сессии'
-      session_terminated: '{count, множественное число, один {Сессия завершена} другая {# Сессия завершена}}.'
       session_termination_failed: 'Произошла ошибка при завершении сеанса.'
       show_access_token: 'Посмотреть токен'
       terminate_all_other_sessions: 'Завершение всех остальных сеансов'
       terminate_session: Кончать
       token_revoked: 'Токен отозван.'
-      token_item_title: '{title} - {token}'
       token_title_placeholder: /
       never: Никогда
       new_access_token_button: 'Новый токен'
@@ -174,7 +156,6 @@ core:
       title: Безопасность
     settings:
       account_heading: Счет
-      notification_checkbox_a11y_label_template: 'Получение уведомлений "{description}" через {method}'
       notify_by_web_heading: Паутина
       notify_discussion_renamed_label: 'Кто-то переименовывает дискуссию, которую я начал'
       privacy_disclose_online_label: 'Позволять другим видеть, когда я в сети'
@@ -186,7 +167,6 @@ core:
       title: Параметры
     sign_up:
       log_in_text: 'У вас уже есть учетная запись? <a>Войти</a>'
-      welcome_text: 'Добро пожаловать, {имя пользователя}!'
       dismiss_button: ХОРОШО
       email_placeholder: Email
       password_placeholder: Пароль
@@ -196,8 +176,6 @@ core:
     user:
       avatar_upload_button: Закачать
       avatar_upload_tooltip: 'Загрузите новый аватар'
-      in_discussion_text: 'В {обсуждении}'
-      joined_date_text: 'Присоединился {ago}'
       online_text: Онлайн
       posts_empty_text: 'Похоже, что здесь нет никаких постов.'
       avatar_remove_button: Убирать
@@ -209,15 +187,12 @@ core:
     user_controls:
       button: 'Рычаги управления'
       delete_confirmation: 'Вы уверены, что хотите удалить этого пользователя? Сообщения пользователя НЕ будут удалены.'
-      delete_error_message: 'Не удалось удалить пользователя <i>{username} ({email})</i>'
-      delete_success_message: 'Пользователь <i>{username} ({email})</i> был удален'
       toggle_dropdown_accessible_label: 'Переключение пользовательских элементов управления в раскрывающемся меню'
       delete_button: Удалить
       edit_button: Редактировать
     user_email_confirmation:
       resend_button: 'Повторная отправка электронного письма с подтверждением'
       sent_message: Посылать
-      alert_message: 'Мы отправили письмо с подтверждением на {email}. Если оно не пришло в ближайшее время, проверьте папку со спамом.'
     welcome_hero:
       hide: 'Скрыть приветственное сообщение'
     badge:
@@ -230,8 +205,6 @@ core:
       hidden_tooltip: Скрытый
     dropdown:
       toggle_dropdown_accessible_label: 'Переключить выпадающее меню'
-    data_segment:
-      label: '{метка}:'
     edit_user:
       activate_button: 'Активировать пользователя'
       groups_heading: Группы
@@ -246,33 +219,17 @@ core:
       username_heading: 'Имя пользователя'
       username_label: 'Имя пользователя'
     error:
-      circular_dependencies_message: 'Обнаружены циклические зависимости: {extensions}. Прерывание. Пожалуйста, отключите одно из расширений и повторите попытку.'
-      dependent_extensions_message: 'Невозможно отключить {extension} до тех пор, пока не будут отключены следующие зависимые расширения: {extensions}'
-      extension_initialiation_failed_message: '{extension} не удалось инициализировать, проверьте консоль браузера для получения дополнительной информации.'
       generic_message: 'Ой! Что-то пошло не так. Пожалуйста, перезагрузите страницу и повторите попытку.'
       generic_cross_origin_message: 'Ой! Что-то пошло не так во время запроса о перекрестном происхождении. Пожалуйста, перезагрузите страницу и повторите попытку.'
-      missing_dependencies_message: 'Невозможно включить {extension}, пока не будут включены следующие зависимости: {extensions}'
       not_found_message: 'Запрошенный ресурс не найден.'
       payload_too_large_message: 'Полезная нагрузка запроса была слишком большой.'
       permission_denied_message: 'У вас нет на это разрешения.'
       rate_limit_exceeded_message: 'Вы едете слишком быстро. Повторите попытку через несколько секунд.'
       render_failed_message: 'К сожалению, при отображении этого содержимого произошла ошибка. Если вы пользователь, повторите попытку позже. Если вы являетесь администратором, загляните в файлы журналов Flarum для получения дополнительной информации.'
-    meta_titles:
-      with_page_title: '{pageNumber, множественное число, =1 {{pageTitle} - {forumName}} другое {{pageTitle}: Page # - {forumName}}}'
-      without_page_title: '{pageNumber, множественное число, =1 {{forumName}} other {Page # - {forumName}}}'
     modal:
       close: Закрывать
     nav:
       drawer_button: 'Откройте панель навигации'
-    number_suffix:
-      kilo_text: К
-      mega_text: M
-    series:
-      glue_text: ', '
-      three_text: '{первый}, {второй} и {третий}'
-      two_text: '{первый} и {второй}'
-    username:
-      deleted_text: '[удалено]'
     loading_indicator:
       accessible_label: Погрузка...
   views:
@@ -290,11 +247,9 @@ core:
       invalid_confirmation_token: 'Эта ссылка для подтверждения уже использовалась или недействительна.'
       not_authenticated: 'У вас нет разрешения на доступ к этой странице. Повторите попытку после входа в систему.'
       not_found: 'Запрошенная вами страница не найдена.'
-      not_found_return_link: 'Вернуться на {форум}'
       permission_denied: 'У вас нет разрешения на доступ к этой странице.'
       unknown: 'При попытке загрузить эту страницу произошла ошибка.'
     log_out:
-      log_out_confirmation: 'Вы уверены, что хотите выйти из {forum}?'
       log_out_button: Выходить
       title: Выходить
     reset_password:
@@ -311,23 +266,15 @@ core:
       previous_page_button: 'Предыдущая страница'
   api:
     invalid_username_message: 'Имя пользователя может содержать только буквы, цифры и тире.'
-    invalid_filter_type:
-      must_be_numeric_message: 'Фильтр {filter} должен быть числовым.'
-      must_not_be_array_message: 'Фильтр {filter} не должен быть массивом.'
-      must_not_be_multidimensional_array_message: 'Фильтр {filter} не должен быть многомерным массивом.'
   email:
     activate_account:
       subject: 'Активируйте свою новую учетную запись'
-      body: "Привет, {имя пользователя}!\n\nКто-то (надеюсь, вы!) зарегистрировался на {forum} с этим адресом электронной почты.\n\nЕсли это были вы, просто нажмите на следующую ссылку, и ваша учетная запись будет активирована:\n{url}\n\nЕсли вы не регистрировались, пожалуйста, проигнорируйте это письмо.\n"
     confirm_email:
       subject: 'Подтвердите свой новый адрес электронной почты'
-      body: "Привет, {имя пользователя}!\n\nКто-то (надеюсь, вы!) изменил свой адрес электронной почты на {forum} на этот.\n\nЕсли это были вы, просто нажмите на следующую ссылку, и ваш адрес электронной почты будет подтвержден:\n{url}\n\nЕсли это были не вы, пожалуйста, проигнорируйте это письмо.\n"
     reset_password:
-      body: "Привет, {имя пользователя}!\n\nКто-то (надеюсь, вы!) отправил запрос на забытый пароль для вашей учетной записи на {forum}.\n\nЕсли это были вы, нажмите на следующую ссылку, чтобы сбросить пароль:\n{url}\n\nЕсли вы не хотите менять пароль, просто проигнорируйте это письмо, и ничего не произойдет.\n"
       subject: 'Сброс пароля'
     send_test:
       subject: 'Тест электронной почты Flarum'
-      body: "Привет, {имя пользователя}!\n\nЭто тестовое письмо для подтверждения того, что конфигурация письма Flarum работает правильно.\n\nЕсли это были вы, то это письмо означает, что ваша конфигурация работает!\n\nЕсли это были не вы, пожалуйста, проигнорируйте это письмо.\n"
   ref:
     all_discussions: 'Все обсуждения'
     change_email: 'Изменить адрес электронной почты'
@@ -335,7 +282,6 @@ core:
     color: Цвет
     confirm_password: 'Подтвердите пароль'
     confirm_email: 'Подтвердить адрес электронной почты'
-    confirmation_email_sent: 'Мы отправили письмо с подтверждением на {email}. Если оно не пришло в ближайшее время, проверьте папку со спамом.'
     custom_footer_text: 'Добавьте HTML, который будет отображаться в самом низу страницы.'
     custom_footer_title: 'Редактирование пользовательского нижнего колонтитула'
     custom_header_text: 'Добавьте HTML, который будет отображаться в самом верху страницы, над собственным заголовком Flarum.'
@@ -349,7 +295,6 @@ core:
     extensions: Расширения
     generic_confirmation_message: 'Вы уверены, что хотите продолжить? Это действие нельзя отменить.'
     icon: Икона
-    icon_text: 'Введите имя любого класса значков <a>FontAwesome</a>, <em>включая</em> префикс <code>fas fa-</code>.'
     load_more: 'Загрузить еще'
     loading: Погрузка...
     log_in: Войти
@@ -373,7 +318,6 @@ core:
     security: Безопасность
     settings: Параметры
     sign_up: Регистрация
-    some_others: '{количество, множественное число, один {# другой} другой {# другие}}'
     start_a_discussion: 'Начать обсуждение'
     username: 'Имя пользователя'
     users: Пользователей
@@ -389,128 +333,12 @@ core:
     members: Члены
     mod: Способ
     mods: Моды
-validation:
-  accepted: 'Атрибут :должен быть принят.'
-  active_url: ':attribute не является допустимым URL.'
-  after: ':attribute должен быть датой после :d ate.'
-  after_or_equal: 'Атрибут :должен быть датой после или равным :d ate.'
-  alpha: 'Атрибут :должен содержать только буквы.'
-  alpha_dash: 'Атрибут :должен содержать только буквы, цифры, тире и символы подчеркивания.'
-  alpha_num: 'Атрибут :должен содержать только буквы и цифры.'
-  array: ':attribute должен быть массивом.'
-  before: ':attribute должен быть датой перед :d ate.'
-  before_or_equal: 'Атрибут :должен быть датой до или равной :d ate.'
-  between:
-    numeric: 'Атрибут :должен находиться между :min и :max.'
-    file: 'Атрибут :должен находиться в диапазоне от :min до :max килобайт.'
-    string: 'Атрибут :должен находиться между символами :min и :max.'
-    array: 'Атрибут :attribute должен иметь между элементами :min и :max.'
-  boolean: 'Поле :attribute должно иметь значение true или false.'
-  confirmed: 'Подтверждение :attribute не совпадает.'
-  date: ':attribute не является допустимой датой.'
-  date_equals: 'Атрибут :должен быть датой, равной :d ate.'
-  date_format: 'Атрибут :не соответствует формату :format.'
-  different: ':attribute и :other должны быть разными.'
-  digits: ':attribute должен быть :d igits digits.'
-  digits_between: 'Атрибут :должен находиться между цифрами :min и :max.'
-  dimensions: 'Атрибут :attribute имеет недопустимые размеры изображения.'
-  distinct: 'Поле :attribute имеет повторяющееся значение.'
-  email: 'Атрибут :должен быть действительным адресом электронной почты.'
-  ends_with: 'Атрибут :должен заканчиваться одним из следующих: :values.'
-  exists: 'Выбранный :attribute недействителен.'
-  file: ':attribute должен быть файлом.'
-  file_too_large: 'Атрибут :attribute слишком велик.'
-  file_upload_failed: ':attribute не удалось загрузить.'
-  filled: 'Поле :attribute должно иметь значение.'
-  gt:
-    numeric: ':attribute должен быть больше, чем :value.'
-    file: 'Атрибут :должен быть больше, чем :value килобайт.'
-    string: 'Атрибут :должен быть больше, чем символы :value.'
-    array: 'Атрибут :attribute должен содержать больше элементов, чем :value.'
-  gte:
-    numeric: 'Атрибут :должен быть больше или равен :value.'
-    file: 'Атрибут :должен быть больше или равен килобайтам :value.'
-    string: 'Атрибут :должен быть больше или равен символам :value.'
-    array: 'Атрибут :должен иметь элементы :value или более.'
-  image: ':attribute должен быть изображением.'
-  in: 'Выбранный :attribute недействителен.'
-  in_array: 'Поле :attribute не существует в :other.'
-  integer: ':attribute должен быть целым числом.'
-  ip: ':attribute должен быть действительным IP-адресом.'
-  ipv4: 'Атрибут :должен быть действительным IPv4-адресом.'
-  ipv6: ':attribute должен быть действительным IPv6-адресом.'
-  json: ':attribute должен быть допустимой строкой JSON.'
-  lt:
-    numeric: 'Атрибут :должен быть меньше :value.'
-    file: 'Атрибут :attribute должен быть меньше килобайт :value.'
-    string: 'Атрибут :должен быть меньше символов :value.'
-    array: 'Атрибут :attribute должен иметь меньше элементов :value.'
-  lte:
-    numeric: 'Атрибут :должен быть меньше или равен :value.'
-    file: 'Атрибут :должен быть меньше или равен килобайтам :value.'
-    string: 'Атрибут :должен быть меньше или равен символам :value.'
-    array: 'Атрибут :attribute не должен содержать больше элементов :value.'
-  max:
-    numeric: 'Атрибут :attribute не должен быть больше :max.'
-    file: 'Атрибут :attribute не должен превышать :max килобайт.'
-    string: 'Атрибут :attribute не должен быть больше символов :max.'
-    array: 'Атрибут :attribute не должен содержать больше элементов :max.'
-  mimes: ':attribute должен быть файлом типа: :values.'
-  mimetypes: ':attribute должен быть файлом типа: :values.'
-  min:
-    numeric: 'Атрибут :должен быть не менее :min.'
-    file: 'Атрибут :должен быть не менее :min килобайт.'
-    string: 'Атрибут :должен содержать не менее символов :min.'
-    array: 'Атрибут :attribute должен содержать не менее элементов :min.'
-  multiple_of: 'Атрибут :должен быть кратен :value.'
-  not_in: 'Выбранный :attribute недействителен.'
-  not_regex: 'Недопустимый формат :attribute.'
-  numeric: ':attribute должен быть числом.'
-  password: 'Пароль неверный.'
-  present: 'Поле :attribute должно присутствовать.'
-  regex: 'Недопустимый формат :attribute.'
-  required: 'Поле :attribute является обязательным.'
-  required_if: 'Поле :attribute является обязательным, если :other равно :value.'
-  required_unless: 'Поле :attribute является обязательным, если :other не находится в :values.'
-  required_with: 'Поле :attribute является обязательным, если присутствует :values.'
-  required_with_all: 'Поле :attribute является обязательным, если присутствует :values.'
-  required_without: 'Поле :attribute является обязательным, если :values отсутствует.'
-  required_without_all: 'Поле :attribute является обязательным, если ни одно из значений :value отсутствует.'
-  prohibited: 'Поле :attribute запрещено.'
-  prohibited_if: 'Поле :attribute запрещено, если :other равно :value.'
-  prohibited_unless: 'Поле :attribute запрещено, если :other не находится в :values.'
-  same: ':attribute и :other должны совпадать.'
-  size:
-    numeric: 'Атрибут :должен быть :size.'
-    file: 'Атрибут :attribute должен быть :size килобайт.'
-    string: 'Атрибут :должен быть символом :size.'
-    array: 'Атрибут :должен содержать элементы :size.'
-  starts_with: 'Атрибут :должен начинаться с одного из следующих: :values.'
-  string: ':attribute должен быть строкой.'
-  timezone: ':attribute должен быть допустимой зоной.'
-  unique: ':attribute уже занят.'
-  uploaded: ':attribute не удалось загрузить.'
-  url: 'Недопустимый формат :attribute.'
-  uuid: ':attribute должен быть допустимым UUID.'
-  attributes:
-    username: 'имя пользователя'
-    password: пароль
-    email: 'Отправить по электронной почте'
-    title: титул
-    content: содержание
-    name_singular: 'Единственное число'
-    name_plural: 'множественное название'
-    tag_count_primary: 'Количество основных тегов'
-    tag_count_secondary: 'Количество вторичных тегов'
-  recaptcha: 'Проверка reCAPTCHA не удалась.'
-  recaptcha-unknown: 'При проверке reCAPTCHA произошла неизвестная ошибка ({errors}).'
 flarum-tags:
   forum:
     all_tags:
       meta_description_text: 'Все теги'
       meta_title_text: Теги
     choose_tags:
-      edit_title: 'Редактирование тегов для {title}'
       title: 'Выбор тегов для обсуждения'
     discussion_controls:
       edit_tags_button: 'Редактировать теги'
@@ -520,48 +348,27 @@ flarum-tags:
       more_link: Больше...
       untagged_link: Немаркированный
       tags_link: Теги
-    post_stream:
-      added_and_removed_tags_text: '{username} добавил {tagsAdded} и удалил {tagsRemoved} {time}.'
-      added_tags_text: '{username} добавил {tagsAdded} {time}.'
-      removed_tags_text: '{username} удалил {tagsRemoved} {time}.'
-      tags_text: '{количество, множественное число, один тег {{tags} другие теги {{tags}'
-    tag:
-      meta_description_text: 'Все обсуждения с тегом {tag}'
     composer_discussion:
       choose_tags_link: 'Выберите теги'
   lib:
     deleted_tag_text: Уничтоженный
     tag_selection_modal:
       bypass_requirements: 'Требования к обходу тегов'
-      choose_primary_placeholder: '{количество, множественное число, один {Выберите основной тег} другой {Выберите # основные теги}}'
-      choose_secondary_placeholder: '{количество, множественное число, один {Выберите еще 1 тег} другой {Выберите # больше тегов}}'
-      choose_tags_placeholder: '{количество, множественное число, один {Выберите еще 1 тег} другой {Выберите # больше тегов}}'
       submit_button: ХОРОШО
       title: 'Выберите теги'
   ref:
     choose_tags: 'Выберите теги'
-    choose_tags_placeholder: '{количество, множественное число, один {Выберите еще 1 тег} другой {Выберите # больше тегов}}'
     name: Имя
     tags: Теги
 flarum-mentions:
   forum:
     composer:
       mention_tooltip: 'Упоминание пользователя, группы или публикации'
-      reply_to_post_text: 'Ответить на #{number}'
     mentioned_by:
       title: 'Ответы на этот пост'
       load_more_button: 'Загрузить еще'
-    notifications:
-      post_mentioned_text: '{username} ответил(а) на ваш пост'
-      user_mentioned_text: '{username} упомянул вас'
-      group_mentioned_text: '{username} упомянул группу, в которой вы состоите.'
-      others_text: '{количество, множественное число, один {# другой} другой {# другие}}'
     post:
-      mentioned_by_more_text: '{count} больше ответов.'
-      mentioned_by_self_text: '{пользователи} ответили на это.'
-      mentioned_by_text: '{пользователи} ответили на это.'
       quote_button: Цитировать
-      others_text: '{количество, множественное число, один {# другой} другой {# другие}}'
       reply_link: Ответ
       you_text: Ты
     settings:
@@ -570,28 +377,12 @@ flarum-mentions:
       notify_group_mentioned_label: 'Кто-то упоминает группу, в которой я состою, в сообщении'
     user:
       mentions_link: Упоминает
-    post_mention:
-      deleted_text: '[неизвестно]'
-    group_mention:
-      deleted_text: '[неизвестная группа]'
-  email:
-    post_mentioned:
-      subject: '{replier_display_name} ответил на ваш пост в {title}'
-      body: "Привет, {recipient_display_name}!\n\n{replier_display_name} ответил на ваш пост (#{post_number}) в {title}.\n\n{url}\n\n---\n\n{содержание}\n"
-    user_mentioned:
-      subject: '{mentioner_display_name} упомянул вас в {title}'
-      body: "Привет, {recipient_display_name}!\n\n{mentioner_display_name} упомянул вас в сообщении в {title}.\n\n{url}\n\n---\n\n{содержание}\n"
-    group_mentioned:
-      subject: '{mentioner_display_name} упомянул группу, членом которой вы являетесь, в {title}'
-      body: "Привет, {recipient_display_name}!\n\n{mentioner_display_name} упомянул группу, членом которой вы являетесь, в {title}.\n\n{url}\n\n---\n\n{содержание}\n"
 flarum-subscriptions:
   forum:
     discussion_controls:
       unfollow_button: Отписаться
       unignore_button: Унсир
       follow_button: Следовать
-    notifications:
-      new_post_text: '{username} опубликовано'
     settings:
       follow_after_reply_label: 'Автоматически следить за обсуждениями, на которые я отвечаю'
       notify_for_all_posts_label: 'Уведомляйте о каждом новом сообщении, а не только о последнем в обсуждении'
@@ -613,10 +404,6 @@ flarum-subscriptions:
       meta_title_text: Следующий
     index:
       following_link: Следующий
-  email:
-    new_post:
-      subject: '[Новое сообщение] {название}'
-      body: "Привет, {recipient_display_name}!\n\n{poster_display_name} сделал сообщение в обсуждении, на которое вы подписаны: {title}.\n\nЧтобы просмотреть новую активность, перейдите по следующей ссылке:\n{url}\n\n---\n\n{содержание}\n\n---\n\nВы больше не будете получать уведомления об этом обсуждении, пока не получите обновленную информацию.\n"
   ref:
     follow: Следовать
     following: Следующий
@@ -625,7 +412,6 @@ flarum-flags:
   forum:
     flag_post:
       confirmation_message: 'Спасибо, что отметили этот пост. Наши модераторы разберутся.'
-      reason_details_placeholder: 'Дополнительные сведения (необязательно)'
       reason_inappropriate_label: Неуместный
       reason_inappropriate_text: 'Этот пост является оскорбительным, оскорбительным или нарушает <a>наши правила сообщества</a>.'
       reason_missing_message: 'Пожалуйста, предоставьте некоторые подробности нашим модераторам.'
@@ -639,13 +425,10 @@ flarum-flags:
       title: Флагшток
     flagged_posts:
       empty_text: 'Без флагов'
-      item_text: '{username} в <em>{обсуждение}</em>'
       title: 'Помеченные сообщения'
       tooltip: 'Помеченные сообщения'
     post:
       dismiss_flag_button: 'Отклонить флаг'
-      flagged_by_text: 'Помечено {username}'
-      flagged_by_with_reason_text: 'Помечено {username} как {reason}'
     post_controls:
       flag_button: Флаг
   ref:
@@ -654,13 +437,11 @@ flarum-flags:
 flarum-suspend:
   forum:
     notifications:
-      user_suspended_text: 'Вы были заблокированы на {timeReadable}'
       user_suspended_indefinite_text: 'Вы были отстранены на неопределенный срок'
       user_unsuspended_text: 'Вас разблокировали'
     suspension_info:
       dismiss_button: Увольнять
       indefinite: 'Это бессрочная приостановка'
-      limited: 'Эта приостановка будет действовать до {date}'
       title: 'Эта учетная запись заблокирована'
     suspend_user:
       display_message: 'Отображение сообщения для пользователя'
@@ -671,7 +452,6 @@ flarum-suspend:
       placeholder_optional: Необязательный
       reason: 'Причина приостановки'
       status_heading: 'Статус приостановки'
-      title: 'Приостановить {имя пользователя}'
       submit_button: 'Сохранить изменения'
     user_badge:
       suspended_tooltip: Подвешенный
@@ -681,10 +461,8 @@ flarum-suspend:
     no_reason_given: 'Причина такого отстранения не была названа.'
     suspended:
       subject: 'Ваша учетная запись заблокирована'
-      body: "Привет, {recipient_display_name}!\n\nВы были отстранены по следующей причине:\n\n---\n{suspension_message}\n---\n"
     unsuspended:
       subject: 'Ваша учетная запись была разблокирована'
-      body: "Привет, {recipient_display_name}!\n\nВас разблокировали. Вы можете вернуться на форум, нажав на следующую ссылку:\n\n{forum_url}\n"
 blomstra-gdpr:
   lib:
     data:
@@ -707,8 +485,6 @@ fof-upload:
       error: Ошибка
       loading: Загрузки
       unauthorized: 'Вы не имеете права скачивать файлы'
-    validation:
-      max_size: 'Загрузки свыше {max} kb не принимаются.'
     text_preview:
       expand: 'Развернуть предварительный просмотр'
       collapse: 'Свернуть предварительный просмотр'
@@ -718,7 +494,6 @@ fof-upload:
   api:
     upload_errors:
       forbidden_type: 'Загрузка файлов такого типа не допускается.'
-      unsupported_type: 'Адаптер загрузки не поддерживает предоставленный тип MIME: {mime}.'
       could_not_detect_mime: 'Не удалось определить MIME-тип этого файла, повторите попытку.'
       max_upload_file_size_ini: 'Максимальный размер файла загрузки достигнут от php.ini.'
       max_upload_file_size_form: 'Максимальный размер файла загрузки, достигнутый из формы.'
@@ -727,7 +502,6 @@ fof-upload:
       no_upload_tmp_folder: 'Нет папки tmp для загрузки файлов.'
       cannot_write_to_disk: 'Не удается записать на диск.'
       upload_blocked_by_php_extension: 'Расширение php заблокировало загрузку.'
-      no_files_made_it_to_upload: 'Пожалуйста, загружайте файлы размером не более {max} kb.'
   lib:
     upload-shared-file-modal:
       title: 'Новый общий файл'
@@ -740,13 +514,9 @@ fof-upload:
       release_to_upload: 'Отпустить для загрузки'
       modal_empty_desktop: 'Список файлов пуст. Нажмите кнопку или перетащите файл сюда, чтобы загрузить.'
       modal_empty_phone: 'Список файлов пуст. Нажмите кнопку выше, чтобы загрузить файл.'
-      select_file_a11y_label: 'Выберите файл "{fileName}"'
-      confirm_selection_btn: '{fileCount, множественное число, =0 {Не выбрано} один {Выбрать файл} другой {Выбрать файлы}}'
       load_more_files_btn: 'Загрузите больше файлов'
-      delete_file_a11y_label: 'Удаление файла "{fileName}"'
-      delete_confirmation: 'Вы действительно хотите удалить "{fileName}"?'
-      hide_file: { btn_a11y_label_hide: 'Скрыть "{fileName}" из медиа-менеджера', btn_a11y_label_show: 'Отображение "{fileName}" в медиаменеджере', hide_confirmation: 'Вы уверены, что хотите скрыть "{fileName}"? Скрытие файла приведет только к удалению его из медиаменеджера и не повлияет на существующие публикации.', hide_success: 'Файл скрыт', show_confirmation: 'Вы уверены, что хотите показать "{fileName}"? При отображении файла он будет виден в медиаменеджере.', show_success: 'Показанный файл', hide_fail: 'Не удалось скрыть файл "{fileName}"', show_fail: 'Не удалось отобразить файл "{fileName}"', loading: 'Скрытие файла...' }
-      hide_shared_file: { btn_a11y_label_hide: 'Сделать "{fileName}" приватным (без общедоступного URL-адреса)', btn_a11y_label_show: 'Сделать "{fileName}" общедоступным (с публичным URL-адресом)', hide_confirmation: 'Вы уверены, что хотите сделать "{fileName}" частным? Если сделать файл закрытым, его публичный URL-адрес будет удален, но это не повлияет на существующие сообщения. Он также больше не будет виден в медиа-менеджере неавторизованным пользователям.', hide_success: 'Файл стал приватным', show_confirmation: 'Вы уверены, что хотите сделать "{fileName}" общедоступным? Сделав файл общедоступным, он будет доступен любому, у кого есть общедоступный URL-адрес, и любой может поделиться им с помощью медиа-менеджера.', show_success: 'Файл опубликован', hide_fail: 'Не удалось сделать файл "{fileName}" приватным', show_fail: 'Не удалось сделать файл "{fileName}" общедоступным', loading: 'Делаем файл частным...' }
+      hide_file: { hide_success: 'Файл скрыт', show_success: 'Показанный файл', loading: 'Скрытие файла...' }
+      hide_shared_file: { hide_success: 'Файл стал приватным', show_success: 'Файл опубликован', loading: 'Делаем файл частным...' }
 flarum-bbcode:
   forum:
     quote:
@@ -779,8 +549,6 @@ fof-follow-tags:
       following_tag_tooltip: Следующий
       lurking_tag_tooltip: Скрывается
     sub_controls:
-      header: 'Подписка на {tagName}'
-      subscription_label: 'Выберите уровень подписки для {tagName}'
       following_text: 'Получайте уведомления обо всех новых обсуждениях.'
       hiding_text: 'Скрыть обсуждения со страницы Все обсуждения.'
       ignoring_text: 'Никогда не получайте уведомления.'
@@ -795,21 +563,8 @@ fof-follow-tags:
       hiding_button: Сокрытие
       ignoring_button: Игнорирование
       lurking_button: Скрывается
-    notifications:
-      new_discussion_text: '{username} начато'
-      new_post_text: '{username} опубликовано'
-      new_discussion_tag_text: '{username} изменил тег'
     user:
       settings: { heading: 'Подписаться на теги', filter_label: 'Что показывать по умолчанию на странице "Подписки"' }
-  email:
-    subject:
-      newDiscussionInTag: '[Тег | Новое обсуждение] {title}'
-      newPostInTag: '[Тег | Новое сообщение] {title}'
-      newDiscussionTag: '[Тег | Измененный тег] {title}'
-    body:
-      newDiscussionInTag: "Привет, {recipient_display_name}!\n\n{actor_display_name} начал обсуждение в теге, на который вы подписаны: {discussion_title}\n\nЧтобы просмотреть новое обсуждение, перейдите по следующей ссылке:\n{discussion_url}\n\n---\n\n{post_content}\n"
-      newPostInTag: "Привет, {recipient_display_name}!\n\n{actor_display_name} опубликовано в обсуждении тега, на который вы подписаны: {discussion_title}\n\nЧтобы просмотреть новую активность, перейдите по следующей ссылке:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nВы больше не будете получать уведомления об этом обсуждении, пока не пройдете курсы.\n"
-      newDiscussionTag: "Привет, {recipient_display_name}!\n\n{actor_display_name} только что изменил тег в обсуждении {author_display_name} на тег, на который вы подписаны {discussion_title}\n\nЧтобы просмотреть новое обсуждение, перейдите по следующей ссылке:\n{discussion_url}\n"
   ref:
     follow: Следовать
     following: Следующий
@@ -838,17 +593,8 @@ flarum-nicknames:
       nickname_placeholder: Прозвище
 fof-oauth:
   forum:
-    log_in:
-      with_button: 'Войти с помощью {provider}'
-      with_discord_button: 'Войти с помощью {provider}'
-      with_facebook_button: 'Войти с помощью {provider}'
-      with_github_button: 'Войти с помощью {provider}'
-      with_gitlab_button: 'Войти с помощью {provider}'
-      with_google_button: 'Войти с помощью {provider}'
-      with_linkedin_button: 'Войти с помощью {provider}'
-      with_twitter_button: 'Войти с помощью {provider}'
     user:
-      settings: { linked-account: { label: 'Связанные аккаунты', last-used-label: 'Последнее использование', link-created-label: 'Ссылка создана', orphaned-account: 'Ранее вы входили в систему через этого поставщика, но с тех пор на этом форуме вход с помощью этого метода отключен.', help: 'Эти связанные учетные записи позволяют вам входить на форум с помощью других провайдеров.', identifier-label: '{поставщик} ИДЕНТИФИКАТОР', unlink-confirm: 'Вы уверены, что хотите удалить ссылку с {provider}? Вы больше не сможете войти на этот форум, пока не пройдете повторную аутентификацию в будущем.' } }
+      settings: { linked-account: { label: 'Связанные аккаунты', last-used-label: 'Последнее использование', link-created-label: 'Ссылка создана', orphaned-account: 'Ранее вы входили в систему через этого поставщика, но с тех пор на этом форуме вход с помощью этого метода отключен.', help: 'Эти связанные учетные записи позволяют вам входить на форум с помощью других провайдеров.' } }
     signup:
       username_help: 'Пожалуйста, выберите имя пользователя, под которым вы будете известны здесь.'
     unlink: 'Удалить ссылку'
@@ -882,10 +628,8 @@ fof-impersonate:
   forum:
     modal:
       title: 'Войти как другой пользователь'
-      label: 'С большой властью приходит большая ответственность. Продолжив, вы станете {username} до тех пор, пока не выйдете из системы.'
       placeholder_optional: '(Дополнительный) Укажите причину перехода к этому пользователю'
       placeholder_required: 'Вы должны указать причину перехода на этого пользователя, прежде чем продолжить.'
-      impersonate_username: 'Вход как {username}'
     user_controls:
       impersonate_button: 'Войти как пользователь'
 fof-byobu:
@@ -896,7 +640,6 @@ fof-byobu:
       add_recipients: Получателей
       submit: ХОРОШО
       edit_recipients: 'Редактирование получателей'
-      send_pd: 'Отправьте {username} сообщение'
       cancel: Отмена
       make_public: 'Сделайте это обсуждение публичным'
       remove_from_discussion: 'Покиньте эту частную дискуссию'
@@ -905,8 +648,6 @@ fof-byobu:
       title_placeholder: 'Название частной беседы'
     confirm:
       make_public: 'Вы уверены, что хотите удалить получателей и сделать это обсуждение видимым для всех, кто может просмотреть назначенный тег?'
-    labels:
-      recipients: '{count, множественное число, один {{count} Получатель} другие {{count} Получатели}}'
     nav:
       start_button: 'Обсудите наедине'
       nav_item: 'Частные обсуждения'
@@ -915,11 +656,9 @@ fof-byobu:
     search:
       headings: { groups: 'Группы разрешений' }
     modal:
-      titles: { update_recipients: 'Обновление получателей {title}', add_recipients: 'Добавление получателей в обсуждение' }
+      titles: { add_recipients: 'Добавление получателей в обсуждение' }
       labels: { selected_users: 'Избранные пользователи', search_field: 'Поиск пользователя' }
       help: { add_recipients: 'Это обсуждение будет видно только тем пользователям, которых вы здесь выберете. Требуется как минимум 1 получатель (кроме вас).', update_recipients: 'Это обсуждение будет видно только тем пользователям, которых вы здесь выберете.', selected_users: 'Щелкните имя пользователя, чтобы удалить его.', click_user_to_remove_tooltip: 'Нажмите, чтобы удалить' }
-    post:
-      recipients_modified: { added_and_removed: '{username} добавил получателей {added} и удалил {removed}.', added: '{username} добавлены получатели {added}.', made_public: '{username} удалил всех получателей и сделал обсуждение публичным', removed: '{username} удаленные получатели {удалены}.', removed_self: '{username} покинул частную дискуссию.' }
     user:
       settings: { block_pd: 'Блокировка приватных обсуждений' }
       byobu_link: 'Частные обсуждения'
@@ -927,23 +666,9 @@ fof-byobu:
     notifications:
       pd_label: 'Кто-то включает меня в новую частную дискуссию'
       pd_reply_label: 'Кто-то публикует сообщение в частной дискуссии, в которой я являюсь'
-      pd_reply_text: '{username} опубликовано в частном обсуждении, в котором вы участвуете'
-      pd_text: '{username} начал с вами новую частную дискуссию'
       pd_user_left_label: 'Пользователь-получатель покидает частную дискуссию, в которой я участвую'
-      pd_user_left_text: '{username} покинул приватную дискуссию'
-      pd_added_text: '{username} добавил вас в приватное обсуждение'
       pd_added_label: 'Кто-то добавляет меня в существующую частную дискуссию'
-  email:
-    subject:
-      private_discussion_created: '[Частная беседа] {display_name} начал с вами новую частную дискуссию'
-      private_discussion_replied: '[Частная беседа] {display_name} опубликовано в частном обсуждении'
-      recipient_removed: '[Частная беседа] {display_name} покинул обсуждение'
-      private_discussion_added: '[Частная беседа] {display_name} добавил вас в частную дискуссию'
-    body:
-      private_discussion_created: "Привет, {recipient_display_name}!\n\n{actor_display_name} начал новую частную дискуссию с вами как с получателем: {discussion_title}.\n\nПосмотреть его можно здесь:\n{discussion_url}\n\nВозможно, вам потребуется сначала войти в систему, прежде чем вы сможете получить доступ к этой ссылке.\n"
-      private_discussion_replied: "Привет, {recipient_display_name}!\n\n{actor_display_name} опубликовано в частной беседе с вами как с получателем: {discussion_title}.\n\nПосмотреть его можно здесь:\n{post_url}\n\nВозможно, вам потребуется сначала войти в систему, прежде чем вы сможете получить доступ к этой ссылке.\n"
-      recipient_removed: "Привет, {recipient_display_name}!\n\n{actor_display_name} покинул частную дискуссию: {discussion_title}. Они больше не смогут просматривать его содержимое.\n\nПосмотреть его можно здесь:\n{discussion_url}\n\nВозможно, вам потребуется сначала войти в систему, прежде чем вы сможете получить доступ к этой ссылке.\n"
-      private_discussion_added: "Привет, {recipient_display_name}!\n\n{actor_display_name} добавил вас в существующую частную дискуссию: {discussion_title}.\n\nПосмотреть его можно здесь:\n{discussion_url}\n\nВозможно, вам потребуется сначала войти в систему, прежде чем вы сможете получить доступ к этой ссылке.\n"
+  email: null
 v17development-flarum-badges:
   forum:
     badge_information: 'Информация о значке'
@@ -966,17 +691,11 @@ v17development-flarum-badges:
       no_earning_reason: 'Причина заработка не указана'
       earned_on: 'Значок, полученный на'
       category: 'Категория значка'
-      received_on: 'Получено {дата}'
       badge_details: 'Информация о значке'
-      earned_count: '{количество, множественное число, один {<b># пользователь</b> заработал этот значок} другие {<b># пользователи</b> заслужили этот значок}}'
-      earned_by_count: '{количество, множественное число, один {Заработано <b># пользователем</b>} другой {Заработано <b># пользователями</b>}}'
-      others_link: '+ {count} Еще'
     badges_in_card:
       title: 'Бейджи в карточке пользователя'
       manage_badges: 'Управление значками'
       description: 'Вы можете изменить видимые эмблемы в карточке пользователя на одну из других эмблем. Если вы не выберете ни одного из них, они будут выбраны автоматически.'
-      select_limit: 'Вы можете выбрать {ограничение, множественное число, один <b>{один значок</b>} другой {<b># значков</b>}}, чтобы они отображались на карточке пользователя.'
-      hit_limit: 'В вашей карточке есть место только для <b> {лимит, множественное число, один {<b>один значок</b>} другой {<b># значков</b>}}</b>. Отмените выбор эмблемы, чтобы освободить место для нее.'
     moderation:
       remove_badge: 'Удаление значка у пользователя'
       remove_badge_confirm: 'Вы уверены, что хотите удалить этот значок у этого пользователя?'
@@ -985,14 +704,10 @@ v17development-flarum-badges:
       title: 'Вы получили новый значок'
       settings: 'Я получил значок'
     uncategorized: 'Без рубрики'
-v17development-flarum-seo:
-  forum:
-    profile_title: 'Профиль {имя пользователя}'
-    profile_description: 'Профиль {имя пользователя} | {discussion_count} обсуждения | {comment_count} сообщений'
+v17development-flarum-seo: null
 the-turk-miserable-users:
   forum:
     miserable_user:
-      title: 'Жалкий {имя пользователя}'
       status_heading: 'Жалкое положение'
       not_miserable_label: 'Не жалкий'
       indefinitely_label: 'Несчастный на неопределенный срок'
@@ -1009,7 +724,6 @@ sycho-profile-cover:
   forum:
     cover: Крышка
     edit_cover: 'Редактировать обложку'
-    notice: 'Максимальный размер: {size}'
     added:
       success: 'Обновлена обложка профиля.'
       error: 'Не удалось загрузить изображение.'
@@ -1018,10 +732,7 @@ sycho-profile-cover:
       error: 'Не удалось снять крышку, повторите попытку позже.'
 sycho-photoswipe: null
 nearata-tags-color-generator: null
-nearata-prevent-double-posting:
-  forum:
-    exception:
-      too_many_replies: 'Допускается не более {count} последовательных ответов. Вместо этого отредактируйте свой предыдущий ответ или подождите, пока кто-нибудь ответит вам.'
+nearata-prevent-double-posting: null
 nearata-copy-code-to-clipboard:
   forum:
     copy: 'Копировать в буфер'
@@ -1030,7 +741,6 @@ michaelbelgium-flarum-profile-views:
   forum:
     user:
       viewlist: { title: 'Последние посетители', guest: Гость }
-      view_count_text: '{количество просмотров, множественное число, один {просмотрено {количество просмотров} раз} другое {просмотрено {количество просмотров}'
 justoverclock-country-flags:
   forum:
     inputCountryCode: 'Код страны'
@@ -1058,13 +768,10 @@ ianm-syndication:
     autodiscovery:
       forum_activity: 'Деятельность Форума'
       forum_new_discussions: 'Новые дискуссии Форума'
-      tag_activity: 'Активность для тега {tag}'
-      tag_new_discussions: 'Обсуждения в теге {tag}'
       discussion_last_posts: 'Это обсуждение'
       user_last_posts: 'Сообщения и комментарии этого пользователя'
     feeds:
-      entries: { user_posts: { title_reply: 'Re: {обсуждение}' } }
-      titles: { main_title: '{forum_name}', main_subtitle: 'Последние сообщения на форуме', main_d_title: 'Новые обсуждения в {forum_name}', main_d_subtitle: 'Последние обсуждения на форуме', tag_title: 'Активность в теге {tag}', tag_subtitle: 'Последние посты в теге {tag}', tag_d_title: 'Новые обсуждения в теге {tag}', tag_d_subtitle: 'Новейшие обсуждения в теге {tag}', discussion_title: '{discussion_name}', discussion_subtitle: 'Последние сообщения в этой дискуссии', user_title: '{имя пользователя}', user_subtitle: 'Последние сообщения и комментарии этого пользователя.' }
+      titles: { main_subtitle: 'Последние сообщения на форуме', main_d_subtitle: 'Последние обсуждения на форуме', discussion_subtitle: 'Последние сообщения в этой дискуссии', user_subtitle: 'Последние сообщения и комментарии этого пользователя.' }
     discussion:
       feed_link: Кормить
 ianm-log-viewer: null
@@ -1072,7 +779,6 @@ ianm-html-head: null
 ianm-follow-users:
   forum:
     followed: Следовал
-    followers: '{количество, множественное число, один {Подписчик} другой {Подписчики}}'
     profile_page:
       no_following: 'Похоже, вы ни на кого не подписаны.'
     settings:
@@ -1081,17 +787,12 @@ ianm-follow-users:
       notify_new_discussion_label: 'Кто-то, за кем я слежу, начинает обсуждение'
       notify_new_post_label: 'Кто-то, за кем я слежу, сообщения в существующем обсуждении'
       block_follow: 'Запретить пользователям следить за мной'
-    notifications:
-      new_discussion_text: '{username} начато'
-      new_post_text: '{username} опубликовано в обсуждении'
-      new_follower_text: '{username} подписался на вас'
-      new_unfollower_text: '{username} перестал следить за вами'
     badge:
       label: { follow: 'По итогам обсуждений', lurk: 'Следим за всем' }
     filter:
       following: 'Пользователей, на которых подписаны'
     modals:
-      select_follow_level: { title: 'Выберите уровень подписки для {username}', description: 'Выберите, как вы хотите подписаться на <em>{username}</em>.', follow_levels_heading: 'Следите за уровнями', follow_select_label: 'Следовать типу', no_user_attr_provided_err: 'О, что-то пошло не так при открытии этого модального окна.', no_user_attr_provided_err_debug: 'Атрибут user не передавался модальному окну SelectFollowUserLevel при создании. Модальное окно не может быть визуализировано.', save_btn: Спасать, cancel_btn: Отмена }
+      select_follow_level: { follow_levels_heading: 'Следите за уровнями', follow_select_label: 'Следовать типу', no_user_attr_provided_err: 'О, что-то пошло не так при открытии этого модального окна.', no_user_attr_provided_err_debug: 'Атрибут user не передавался модальному окну SelectFollowUserLevel при создании. Модальное окно не может быть визуализировано.', save_btn: Спасать, cancel_btn: Отмена }
     profile_link: 'Пользователи, на которых подписаны'
     user_controls:
       follow_button: Следовать
@@ -1101,37 +802,28 @@ ianm-follow-users:
       follow_tag_button: Следовать
       unfollow_tag_button: 'Изменение типа подписки'
   email:
-    new_discussion_by_user_subject: '[Подписаться на пользователя] {название}'
     new_follower_subject: '[Подписаться на пользователя] У вас появился новый подписчик!'
-    new_post_subject: '[Подписаться на пользователя] Новый пост в {title}'
-    new_discussion_by_user_body: "Привет, {recipient_display_name}!\n\n{user_display_name} начал новое обсуждение: {discussion_title}\n\nЧтобы просмотреть новое обсуждение, перейдите по следующей ссылке:\n\n{discussion_url}\n\n---\n\n{post_content}\n"
-    new_follower_body: "Привет, {recipient_display_name}!\n\n{follower_display_name} начал подписываться на вас, поэтому он получит уведомление, когда вы начнете новое обсуждение.\n\nЧтобы просмотреть их профиль, перейдите по следующей ссылке:\n\n{profile_url}\n"
-    new_post_body: "Привет, {recipient_display_name}!\n\n{user_display_name} опубликовано в обсуждении: {discussion_title}\n\nЧтобы просмотреть новую активность, перейдите по следующей ссылке:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nВы больше не будете получать уведомления об этом обсуждении, пока не получите обновленную информацию.\n"
   lib:
     following_link: 'Пользователи, на которых подписаны'
     follow: Следовать
     change_follow_type: 'Изменение типа подписки'
     unfollow: Отписаться
     follow_levels:
-      unfollow: { name: 'Не подписывайтесь', description: "Не получайте никаких уведомлений о действиях <em>{username}</em>.\n" }
-      follow: { name: 'Следите за обсуждениями', description: "Получать уведомления, когда <em>{username}</em> начинает новое обсуждение.\n" }
-      lurk: { name: 'Следить за всеми', description: "Получайте уведомления, когда <em>{username}</em> начинает новое обсуждение или публикует сообщения в любом обсуждении.\n" }
+      unfollow: { name: 'Не подписывайтесь' }
+      follow: { name: 'Следите за обсуждениями' }
+      lurk: { name: 'Следить за всеми' }
 fof-username-request:
   forum:
     nickname_modals:
-      action: { help_text: 'Пожалуйста, убедитесь, что запрашиваемое изменение ника соответствует правилам форума.', decision_title: Решение, approval_label: Одобрять, rejected_label: Отвергать, submit_button: Отправить, reason_title: 'Причина отказа', success: 'Решение отправлено.', name: '{name} запросил изменение своего ника на "{requestedName}"', title: 'Запрос на смену никнейма' }
-      results: { title: 'Запрос на смену никнейма', approved: 'Ваш запрос на смену никнейма одобрен', new_name: 'Ваш никнейм успешно изменен на: {name}', rejected: 'Ваш запрос на смену никнейма был отклонен', reason: 'Причина отклонения: <i>"{reason}</i>".', resubmit: 'В настоящее время вы можете повторно отправить новый запрос на изменение псевдонима в настройках своей учетной записи, если захотите.', dismiss_button: ХОРОШО }
-      request: { title: 'Запрос на смену никнейма', current_request: 'Вы уже попросили изменить свой ник на "{name}". Вы можете обновить свой запрос или удалить его.', submit_button: 'Отправить запрос', delete_button: 'Удалить запрос', confirmation_message: 'Ваш запрос на смену никнейма отправлен и ожидает одобрения.', deleted: 'Запрос на никнейм удален.', dismiss_button: ХОРОШО }
+      action: { help_text: 'Пожалуйста, убедитесь, что запрашиваемое изменение ника соответствует правилам форума.', decision_title: Решение, approval_label: Одобрять, rejected_label: Отвергать, submit_button: Отправить, reason_title: 'Причина отказа', success: 'Решение отправлено.', title: 'Запрос на смену никнейма' }
+      results: { title: 'Запрос на смену никнейма', approved: 'Ваш запрос на смену никнейма одобрен', rejected: 'Ваш запрос на смену никнейма был отклонен', resubmit: 'В настоящее время вы можете повторно отправить новый запрос на изменение псевдонима в настройках своей учетной записи, если захотите.', dismiss_button: ХОРОШО }
+      request: { title: 'Запрос на смену никнейма', submit_button: 'Отправить запрос', delete_button: 'Удалить запрос', confirmation_message: 'Ваш запрос на смену никнейма отправлен и ожидает одобрения.', deleted: 'Запрос на никнейм удален.', dismiss_button: ХОРОШО }
     username_modals:
-      action: { help_text: 'Пожалуйста, убедитесь, что запрашиваемое изменение имени пользователя соответствует правилам форума.', decision_title: Решение, approval_label: Одобрять, rejected_label: Отвергать, submit_button: Отправить, reason_title: 'Причина отказа', success: 'Решение отправлено.', name: '{name} попросил изменить свое имя пользователя на "{requestedName}"', title: 'Запрос на изменение имени пользователя' }
-      results: { title: 'Запрос на изменение имени пользователя', approved: 'Ваш запрос на изменение имени пользователя одобрен', new_name: 'Ваше имя пользователя успешно изменено на: {name}', rejected: 'Ваш запрос на изменение имени пользователя был отклонен', reason: 'Причина отклонения: <i>"{reason}</i>".', resubmit: 'В настоящее время вы можете повторно отправить новый запрос на изменение имени пользователя в настройках своей учетной записи, если захотите.', dismiss_button: ХОРОШО }
-      request: { title: 'Запрос на изменение имени пользователя', current_request: 'Вы уже запросили изменение имени пользователя на "{name}". Вы можете обновить свой запрос или удалить его.', submit_button: 'Отправить запрос', delete_button: 'Удалить запрос', confirmation_message: 'Ваш запрос на изменение имени пользователя отправлен и ожидает утверждения.', deleted: 'Запрос имени пользователя удален.', dismiss_button: ХОРОШО }
+      action: { help_text: 'Пожалуйста, убедитесь, что запрашиваемое изменение имени пользователя соответствует правилам форума.', decision_title: Решение, approval_label: Одобрять, rejected_label: Отвергать, submit_button: Отправить, reason_title: 'Причина отказа', success: 'Решение отправлено.', title: 'Запрос на изменение имени пользователя' }
+      results: { title: 'Запрос на изменение имени пользователя', approved: 'Ваш запрос на изменение имени пользователя одобрен', rejected: 'Ваш запрос на изменение имени пользователя был отклонен', resubmit: 'В настоящее время вы можете повторно отправить новый запрос на изменение имени пользователя в настройках своей учетной записи, если захотите.', dismiss_button: ХОРОШО }
+      request: { title: 'Запрос на изменение имени пользователя', submit_button: 'Отправить запрос', delete_button: 'Удалить запрос', confirmation_message: 'Ваш запрос на изменение имени пользователя отправлен и ожидает утверждения.', deleted: 'Запрос имени пользователя удален.', dismiss_button: ХОРОШО }
     pending_requests:
       empty_text: 'Запросы на изменение имени не найдены.'
-      nickname_item_text: '{name} запросил смену ника'
-      nickname_exerpt: 'Запрашиваемый никнейм: {requestedName}'
-      username_item_text: '{name} запросил изменение имени пользователя'
-      username_exerpt: 'Запрашиваемое имя пользователя: {requestedName}'
       tooltip: 'Запросы на изменение имени'
       title: 'Запросы на изменение имени'
     settings:
@@ -1149,15 +841,9 @@ fof-username-request:
   email:
     body:
       noReasonProvided: 'Причина не указана.'
-      approved: "Здравствуйте, {recipient_display_name},\n\nВаш запрос на изменение имени пользователя на \"{new_username}\" был одобрен {actor_display_name}.\n\nТеперь вы можете войти в систему под своим новым именем пользователя: {login_url}\n"
-      rejected: "Здравствуйте, {recipient_display_name},\n\nВаш запрос на изменение имени пользователя с \"{old_username}\" на \"{requested_username}\" был отклонен {actor_display_name}.\n\nПричина: {причина}\n"
-    subject:
-      approved: '{display_name} одобрил изменение вашего имени пользователя на {requested_username}'
-      rejected: '{display_name} отклонил изменение вашего имени пользователя на {requested_username}'
 fof-user-bio:
   forum:
     userbioPlaceholder: 'Напишите что-нибудь о себе'
-    userbioPlaceholderOtherUser: 'Напишите биографию для {username}'
     profile:
       cancel_confirm: 'Вы уверены, что хотите отменить редактирование своей биографии? Вы потеряете все внесенные изменения.'
       cancel_button: Отмена
@@ -1165,9 +851,6 @@ fof-user-bio:
       edit_bio_label: 'Редактировать биографию'
 fof-split:
   forum:
-    post:
-      was_split_to: '{count, множественное число, один пост {{count} был разделен на {target}.} другие сообщения {{count} были разделены на {target}.}}'
-      was_split_from: '{count, множественное число, один пост {{count} был отделен от {target}.} другие сообщения {{count} были отделены от {target}.}}'
     split:
       from: 'Разделитесь отсюда'
       to: 'Сплит сюда'
@@ -1221,13 +904,11 @@ fof-reactions:
   forum:
     disabled-reaction: 'Вы не можете использовать эту реакцию прямо сейчас, пожалуйста, обновите страницу'
     warning: 'Ваша реакция была конвертирована'
-    notification: '{username} отреагировал {reaction} на ваш пост'
     settings:
       notify_post_reacted_label: 'Кто-то реагирует на один из моих постов'
     reacting-own-post: 'Вы не можете отреагировать на собственный пост'
     modal:
       title: Реакции
-      anonymous_count: '{количество, множественное число, один {# анонимный пользователь} другой {# анонимный пользователь}}'
       no_reactions: 'Реакции пока нет'
     mod_item: 'Просмотр реакций'
     react_button_label: Реагировать
@@ -1241,22 +922,19 @@ fof-profile-image-crop:
 fof-prevent-necrobumping:
   forum:
     composer:
-      warning: { title: 'Этой дискуссии уже более <b>{времени}</b>.', description: 'Весьма вероятно, что он не нуждается в дальнейшем обсуждении, и поэтому его выталкивание не имеет смысла.', checkbox_label: 'Я знаю, что эта дискуссия довольно старая, но все же хотел бы ответить.', error: 'Эта дискуссия слишком стара, чтобы на нее отвечать.' }
+      warning: { description: 'Весьма вероятно, что он не нуждается в дальнейшем обсуждении, и поэтому его выталкивание не имеет смысла.', checkbox_label: 'Я знаю, что эта дискуссия довольно старая, но все же хотел бы ответить.', error: 'Эта дискуссия слишком стара, чтобы на нее отвечать.' }
 fof-pretty-mail: null
 fof-polls:
   forum:
-    days_remaining: 'Опрос заканчивается {time}.'
     no_permission: 'У вас нет права голоса'
     poll_ended: 'Этот опрос закончился.'
     public_poll: 'Посмотреть голосующих'
-    max_votes_allowed: 'Опрос позволяет голосовать за {max, plural, one {# option} other {# options}}.'
     composer_discussion:
       add_poll: 'Добавить опрос'
       edit_poll: 'Редактировать опрос'
     modal:
       add_title: 'Добавить опрос'
       add_option_label: 'Добавить опцию'
-      date_placeholder: 'Дата окончания опроса (необязательно)'
       edit_title: 'Редактировать опрос'
       include_question: 'Вы должны включить вопрос'
       max: 'У вас может быть не более 10 ответов'
@@ -1277,7 +955,6 @@ fof-polls:
       edit: 'Редактировать опрос'
     tooltip:
       badge: Опрос
-      votes: '{количество, множественное число, один {# голос} другой {# голоса}}'
     votes_modal:
       title: Избирателей
 fof-nightmode:
@@ -1297,11 +974,9 @@ fof-moderator-notes:
   forum:
     no_content_given: 'Пустая банкнота не допускается.'
     moderatorNotes:
-      created_text: '{username} создал эту заметку {date}'
       add_button: 'Новая заметка'
       create-heading: 'Создание новой заметки модератора'
       dismiss_button: Договорились
-      input_heading: 'Введите свои заметки <strong>для {username}</strong> (поддерживается Markdown)'
       noNotes: 'Похоже, что здесь нет никаких нот.'
       submit_button: 'Сохранить примечание'
       delete: Удалить
@@ -1309,8 +984,6 @@ fof-moderator-notes:
     user:
       notes: 'Заметки модератора'
   api:
-    auto_note: '_I перешел на этого пользователя:_ {reason}'
-    auto_note_actor: '_Switched to_ @{username}: {причина}'
     no_reason_provided: 'Причина не указана'
 fof-linguist: null
 fof-html-errors: null
@@ -1325,12 +998,8 @@ fof-gamification:
       name: Пользователь
       amount: Точки
     notification:
-      upvote: '{username} проголосовал за ваш пост'
-      downvote: '{username} заминусовал ваш пост'
       prefrences: { vote: 'Когда за один из моих постов голосуют «за» или «против»' }
     user:
-      card: { points: '{count, множественное число, один { {count} пункт} другой {{count} пункт}}' }
-      rank: '{ранг}'
       votes_link: Голосов
     modal:
       downvotes_label: 'Минусующие:'
@@ -1344,11 +1013,6 @@ fof-gamification:
     post:
       upvote_button: 'Голосование за публикацию'
       downvote_button: 'Минусуйте пост'
-  email:
-    body:
-      postVoted: "Привет, {recipient_display_name}!\n\n{actor_display_name} только что проголосовал за ваш пост в {discussion_title}.\n\nПосмотреть его можно здесь: {discussion_url}\n"
-    subject:
-      postVoted: 'За ваш пост проголосовал {display_name}'
 fof-formatting: null
 fof-drafts:
   console:
@@ -1367,7 +1031,6 @@ fof-drafts:
       title: Проекты
       delete_all_button: 'Удалить все черновики'
       delete_button: 'Удалить черновик'
-      scheduled_icon_tooltip: 'Запланировано на {datetime}'
       scheduled_icon_tooltip_formatter: 'L [at] LT'
       alert: 'Вы уверены, что хотите удалить свой черновик?'
       delete_all_alert: 'Вы уверены, что хотите удалить все свои черновики?'
@@ -1375,13 +1038,10 @@ fof-drafts:
       tooltip: Проекты
     schedule_draft_modal:
       text: 'Запланируйте свой черновик на автоматическую публикацию позже!'
-      scheduled_text: 'В настоящее время планируется публикация на {datetime}.'
-      scheduled_error: 'Невозможно запланировать драфт: {error}.'
       unschedule_button: Нерасписание
       unschedule_warning: 'Вы уверены, что хотите отменить этот драфт?'
       reschedule_button: Перепланировать
       schedule_button: Расписание
-      schedule_time_preview: 'Этот черновик будет автоматически опубликован в <b>{datetime}</b>.'
       schedule_time_preview_formatter: LLLL
       schedule_time_preview_invalid: 'Неверная дата и/или время'
       title: 'Проект графика'
@@ -1393,13 +1053,10 @@ fof-best-answer:
     this_best_answer: 'Выберите лучший ответ'
     remove_best_answer: 'Отменить выбор лучшего ответа'
     best_answer_button: 'Лучший ответ'
-    best_answer_label: 'устанавливается <a>{username}</a> {time_set}'
     errors:
       mismatch: 'Выбранный пост не существует в этом обсуждении.'
     notification:
-      best_answer_in_discussion: '{username} установить лучший ответ в этом обсуждении'
       content: 'Выберите лучший ответ, если на ваш вопрос был дан ответ'
-      awarded: 'Ваш пост был установлен как лучший ответ {username}'
       preferences: { awarded_best_answer: 'Кто-то считает мой пост лучшим ответом', best_answer_in_discussion: 'Лучший ответ - это дискуссия, в которой я участвовал', select_best_answer: 'Автоматическое напоминание о выборе лучшего ответа в начатой мной дискуссии' }
     index:
       ask_question: 'Задать вопрос'
@@ -1413,22 +1070,13 @@ fof-best-answer:
       accessible_label: 'Решенный/Нерешенный выбор'
     composer:
       titlePlaceholder: 'Заголовок вопроса'
-    user:
-      best-answer-count: '{количество, множественное число, один { {количество} лучший ответ} другой {{количество} лучшие ответы}}'
     search:
       discussions_solutions_heading: 'Обсуждения с решениями'
-      all_discussions_solutions_button: 'Поиск во всех обсуждениях с решениями по запросу "{query}"'
     discussion:
       jump_to_best_answer_button: 'Смотреть Лучший ответ'
   email:
     subject:
-      awarded: 'Ваш пост был определен как лучший ответ {displaystyle}'
-      ba-set: 'Лучший ответ был установлен {displaystyle}'
       select: 'Удалось ли вам ответить на ваш вопрос?'
-    body:
-      awarded: "Эй, {recipient_displaystyle}\n\nОтличная работа, {actor_displaystyle} Просто установите свой пост как лучший ответ в дискуссии: {discussion_title} . Спасибо за помощь.\n\nСмотрите здесь: [обсуждение]\n"
-      ba-set: "Эй, {recipient_displaystyle}\n\n{actor_displaystyle_name} просто задал лучший ответ в дискуссии: {discussion_title_}, в котором вы участвовали.\n\nПроверяйте: [обсуждение]\n"
-      select: "Эй, {recipient_displaystyle}\n\nПросто зарегистрируйтесь; к настоящему времени у вас должно быть много ответов на ваш вопрос: {discussion_title} . Надеюсь, один из них помог вам решить вашу проблему.\n\nЕсли это так, это было бы очень полезно для будущих членов, если бы вы могли дать лучший ответ на ваш вопрос. Это поможет людям с той же проблемой найти ответ, который им нужен, и это также большая благодарность членам, которые помогли вам. Они отдают свое время добровольно, поэтому приятно сообщить им, что у них все хорошо.\n\nПосетите обсуждение здесь: {discussion_url}, и выберите наиболее подходящий пост как лучший ответ.\n\nСпасибо!\n"
 fof-user-directory:
   lib:
     sort:
@@ -1437,8 +1085,6 @@ fof-user-directory:
 fof-ban-ips:
   forum:
     modal:
-      ban_options_only_ip: 'Банить только текущий IP (<code>{ip}</code>)'
-      ban_options_all_ip: 'Запретить все IP-адреса, используемые <i>{username}</i>'
       ban_ip_no_users: 'Больше никто не будет забанен'
     user_badge:
       banned_tooltip: Запрещены
@@ -1455,13 +1101,8 @@ fof-ban-ips:
       check_button: Проверка
       save_button: Спасать
       ban_ip_confirmation: 'Вы уверены, что хотите заблокировать использование этого IP-адреса на форуме? Это заблокирует вход и регистрацию пользователей с этим IP-адресом.'
-      ban_ip_users: '{количество, множественное число, один {Пользователь {пользователи} будет забанен} другие {Пользователи {пользователи} будут забанены}}'
       unban_ip_confirmation: 'Вы уверены, что хотите разблокировать этого пользователя и всех других пользователей, не забаненных другими IP-адресами?'
-      unban_options_only_ip: 'Разблокировать только текущий IP (<code>{ip}</code>)'
-      unban_options_all_ip: 'Разблокировать все IP-адреса, используемые <i>{username}</i>'
       unban_ip_no_users: 'Больше никто не будет разбанен'
-      unban_ip_users: '{количество, множественное число, один {Пользователь {пользователи} будет разблокирован} другие {Пользователи {пользователи} будут разблокированы}}'
-      unbanned_ips: 'Разблокирован <code>{ips}</code>.'
       title: 'Бан IP-адресов'
       unban_title: 'Разблокировка IP-адресов'
       address_label: IP-адрес
@@ -1492,7 +1133,6 @@ fof-anti-spam:
       move_discussions_tag_label: 'Перемещение обсуждений в тег quarantined'
       move_discussions_tag_help: 'Это переместит все обсуждения, начатые этим пользователем, в тег, который вы указали в настройках форума. Если отключено, обсуждения останутся в своих текущих тегах.'
       process_button: Процесс
-      title: 'Пометьте {имя пользователя} как спамера'
       report_to_sfs_label: 'Сообщить в StopForumSpam'
       report_to_sfs_help: 'Это сообщит основные данные пользователя (имя пользователя, адрес электронной почты, IP-адрес) в StopForumSpam. Это поможет предотвратить регистрацию пользователя на других форумах, которые используют сервис StopForumSpam.'
     user_controls:
@@ -1511,18 +1151,11 @@ flarum-sticky:
     discussion_controls:
       unsticky_button: Нелипкий
       sticky_button: Липкий
-    post_stream:
-      discussion_stickied_text: '{username} закрепил обсуждение {time}.'
-      discussion_unstickied_text: '{username} отклеил обсуждение {time}.'
     badge:
       sticky_tooltip: Липкий
   ref:
     sticky: Липкий
 flarum-statistics: null
-flarum-pusher:
-  forum:
-    discussion_list:
-      show_updates_text: '{количество, множественное число, один {Показать # обновленное обсуждение} другой {Показать # обновленные обсуждения}}'
 flarum-lock:
   forum:
     badge:
@@ -1530,24 +1163,13 @@ flarum-lock:
     discussion_controls:
       lock_button: Замок
       unlock_button: Отпирать
-    notifications:
-      discussion_locked_text: '{username} заблокирован'
-    post_stream:
-      discussion_locked_text: '{username} заблокировал обсуждение {time}.'
-      discussion_unlocked_text: '{username} разблокировал обсуждение {time}.'
     settings:
       notify_discussion_locked_label: 'Кто-то блокирует дискуссию, которую я начал'
 flarum-likes:
   forum:
-    notifications:
-      post_liked_text: '{username} понравилось ваше сообщение'
-      others_text: '{количество, множественное число, один {# другой} другой {# другие}}'
     post:
       like_link: Любить
-      liked_by_self_text: '{пользователи} вот так.'
-      liked_by_text: '{количество, множественное число, одному {{users} нравится это} другим {{users} нравится это}}.'
       unlike_link: 'В отличие от'
-      others_link: '{количество, множественное число, один {# другой} другой {# другие}}'
       you_text: Ты
     post_likes:
       title: 'Пользователи, которым нравится это'
@@ -1602,9 +1224,6 @@ dhtml-composer:
       character_counter: 'Счетчик символов'
 datlechin-birthdays:
   forum:
-    user:
-      birthday_text: 'День рождения: {date}'
-      age_text: 'Возраст: {age}'
     change_dob:
       title: 'Редактировать дату рождения'
       date_of_birth_text: 'Дата рождения'
@@ -1617,16 +1236,12 @@ datlechin-birthdays:
       dob_heading: 'Дата рождения'
     nav:
       nav_item: 'Сегодняшние дни рождения'
-    page:
-      discussion_count: '{количество, множественное число, один {Обсуждение: #} другое {Обсуждение: #}}'
-      post_count: '{количество, множественное число, один {Сообщение: #} другое {Сообщение: #}}'
     edit_user:
       dob_heading: 'Дата рождения'
     sign_up:
       dob_placeholder: 'Дата рождения'
   api:
     invalid_dob_message: 'Неверная дата рождения'
-    invalid_age_message: 'Ваш возраст должен быть не моложе {minAge} лет.'
   ref:
     date_of_birth: 'Дата рождения'
 clarkwinkelmann-post-permissions: null
@@ -1662,24 +1277,13 @@ askvortsov-rich-text:
       insert_image: { src_placeholder: Связь, title_placeholder: Титул }
       insert_link: { text_placeholder: СМС, href_placeholder: URL-адрес, title_placeholder: 'Название (отображается при наведении)', remove_button: Убирать }
       additional_items_tooltip: 'Дополнительные элементы управления'
-      bold_tooltip: 'Полужирный текст <{modifierKey}-b>'
-      code_tooltip: 'Встроенный код <{modifierKey}-''>'
       code_block_tooltip: 'Вставка блока кода'
-      header_tooltip: 'Измените на заголовок {level} <shift-{modifierKey}-{level}>'
       horizontal_rule_tooltip: 'Вставить горизонтальную линейку'
       image_tooltip: 'Добавить изображение'
-      italic_tooltip: 'Курсивный текст <{modifierKey}-i>'
       link_tooltip: 'Добавить ссылку'
-      ordered_list_tooltip: 'Нумерованный список <shift-{modifierKey}-9>'
-      paragraph_tooltip: 'Измените на пункт <shift-{modifierKey}-0>'
-      quote_tooltip: 'Вставьте кавычки <{modifierKey}-q>'
       spoiler_block_tooltip: 'Спойлер/выпадающий список блоков'
-      spoiler_inline_tooltip: 'Спойлер <{modifierKey}-;>'
       strike_tooltip: 'Зачеркнутый <alt-shift-5>'
-      sub_tooltip: 'Подстрочный индекс <{modifierKey}-,>'
-      sup_tooltip: 'Верхний индекс <{modifierKey}-.>'
       text_type_tooltip: 'Выберите тип текста'
-      unordered_list_tooltip: 'Маркированный список <shift-{modifierKey}-8>'
   forum:
     settings:
       composer_heading: Композитор
@@ -1694,7 +1298,6 @@ askvortsov-pwa:
       share_button: 'Предоставить общий доступ'
     post_controls:
       share_button: 'Предоставить общий доступ'
-      share_api: { title: 'Ответ {username} на {title}''' }
     user_controls:
       share_button: 'Предоставить общий доступ'
     settings:
@@ -1705,20 +1308,7 @@ askvortsov-pwa:
       header: 'Ошибка сетевого подключения'
       text: 'Для этого приложения требуется подключение к сети; Его нельзя использовать в автономном режиме. Пожалуйста, проверьте подключение.'
 askvortsov-moderator-warnings:
-  emails:
-    post_warned:
-      subject: '{warner_display_name} предупредил вас {strikes, множественное число, one {# strike} other {# strikes}} в {discussion_title}'
-      body: "Привет, {warnee_display_name}!\n\n{warner_display_name} предупредил вас {strikes, множественное число, one {# strike} other {# strikes}} в {discussion_title}\n\nБыла приведена следующая причина:\n\n---\n\n{public_comment}\n"
-    user_warned:
-      subject: '{warner_display_name} предупредил вас {страйками, множественное число, один {# страйк} другой {# страйк}}'
-      body: "Привет, {warnee_display_name}!\n\n{warner_display_name} предупредил вас {страйками, множественное число, один {# страйк} другой {# страйк}}\n\nБыла приведена следующая причина:\n\n---\n\n{public_comment}\n"
   forum:
-    notifications:
-      warning_text: '{strikes, множественное число, один {Вы были предупреждены # strike от {mod_username}} другой {Вы были предупреждены # strike от {mod_username}}}'
-      warning_no_strikes_text: 'Вы были предупреждены {mod_username} (без предупреждений)'
-    post:
-      warning: '{strikes, множественное число, один {Предупрежден # удар {mod_username}} другой {Предупрежден # ударами {mod_username}}}'
-      warning_no_strikes: 'Предупреждено, что {mod_username} не наносит ударов'
     post_controls:
       warning_button: 'Предупредить пользователя'
     user:
@@ -1735,20 +1325,14 @@ askvortsov-moderator-warnings:
     warning_list:
       add_button: 'Новое предупреждение'
       no_warnings: 'Похоже, что здесь нет никаких предупреждений.'
-      warnings: '{предупреждения, множественное число, одно {Предупреждения модератора: # Предупреждение получено} другое {Предупреждения модератора: # Предупреждения получено}}'
       warnings_no_strikes: 'Предупреждения модераторов: Предупреждений не получено'
     warning_list_item:
-      list_item_heading: '{страйки, множественное число, один {<strong>#</strong> страйк, {время}} другие {<strong>#</strong> страйки, {время}}}'
-      list_item_heading_hidden: '{страйки, множественное число, один {<strong>#</strong> страйк, {время} <strong>(удалено)</strong>} другие {<strong>#</strong> страйки, {время} <strong>(удалено)</strong>}}'
       public_comment: Предупреждение
       private_comment: 'Видимые комментарии модератора'
       linked_post: 'Связанный пост'
     warning_modal:
       confirmation_message: 'Ваше предупреждение сохранено. Возможно, вам потребуется обновить страницу, чтобы увидеть ее.'
-      heading: 'Предупредить <strong>{имя пользователя}</strong>'
       strikes_heading: 'Сколько ударов должно быть нанесено?'
-      public_comment_heading: 'Почему <strong>{username}</strong> получает эти предупреждения? Эти комментарии будут видны пользователю и другим модераторам.'
-      private_comment_heading: 'Почему <strong>{username}</strong> получает эти предупреждения? Эти комментарии будут видны ТОЛЬКО другим модераторам.'
       submit_button: 'Сохранить предупреждение'
 askvortsov-discussion-templates:
   forum:

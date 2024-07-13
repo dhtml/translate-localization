@@ -3,7 +3,6 @@ core:
     change_email:
       incorrect_password_message: 'Zadané heslo je nesprávne.'
       confirm_password_placeholder: 'Potvrdiť heslo'
-      confirmation_message: 'Na adresu {email} sme odoslali potvrdzovací e-mail. Ak čoskoro nedorazí, skontrolujte priečinok so spamom.'
       dismiss_button: OK
       submit_button: 'Uložiť zmeny'
       title: 'Zmeniť e-mail'
@@ -26,7 +25,6 @@ core:
     composer_edit:
       discard_confirmation: 'Zmeny ste neuložili. Chcete sa ich zbaviť?'
       edited_message: 'Vaša úprava bola vykonaná.'
-      post_link: 'Uverejnite #{číslo} v {diskusia}'
       submit_button: 'Uložiť zmeny'
       view_button: Pohľad
     composer_reply:
@@ -48,10 +46,6 @@ core:
       restore_button: Obnoviť
     discussion_list:
       empty_text: 'Zdá sa, že tu nie sú žiadne diskusie.'
-      replied_text: '{používateľské meno} odpovedal {ago}'
-      started_text: '{používateľské meno} začalo {ago}'
-      total_replies_a11y_label: '{počet, množné číslo, jedna {# odpoveď} iná {# odpovede}}'
-      unread_replies_a11y_label: '{počet, množné číslo, jedna {# neprečítaná odpoveď} iná {# neprečítané odpovede}}. Označte neprečítané {počet, množné číslo, jedno {odpovede} ostatné {odpovede}} ako prečítané.'
       load_more_button: 'Načítať viac'
     forgot_password:
       email_sent_message: 'Ak je e-mail, ktorý ste zadali, pošleme vám e-mail obsahujúci odkaz na obnovenie hesla. Skontrolujte priečinok nevyžiadanej pošty, ak ho nedostanete do ďalšej minúty alebo dvoch.'
@@ -107,7 +101,6 @@ core:
     notifications:
       delete_all_confirm: 'Naozaj chcete odstrániť všetky upozornenia? Táto akcia nie je vratná'
       delete_all_tooltip: 'Odstránenie všetkých upozornení'
-      discussion_renamed_text: '{používateľské meno} zmenil názov'
       empty_text: 'Žiadne upozornenia'
       mark_as_read_tooltip: 'Označiť ako prečítané'
       toggle_dropdown_accessible_label: 'Zobrazenie upozornení'
@@ -116,8 +109,6 @@ core:
       tooltip: Oznámenia
     post:
       edited_text: Upravovať
-      edited_tooltip: '{používateľské meno} upravené {ago}'
-      number_tooltip: 'Príspevok #{číslo}'
     post_controls:
       delete_confirmation: 'Ste si istí, že chcete tento príspevok navždy odstrániť? Túto akciu nie je možné vrátiť späť.'
       hide_confirmation: 'Naozaj chcete odstrániť tento príspevok?'
@@ -131,23 +122,16 @@ core:
     post_scrubber:
       now_link: Teraz
       original_post_link: 'Pôvodný príspevok'
-      unread_text: '{počet} neprečítané'
-      viewing_text: '{count, množné číslo, jeden {{index} z {formattedCount} post} iné {{index} z {formattedCount} posts}}'
     post_stream:
-      discussion_renamed_old_tooltip: 'Starý názov bol: "{starý}"'
-      discussion_renamed_text: '{username} zmenil názov na {new} {time}.'
-      time_lapsed_text: '{bodka} neskôr'
       load_more_button: 'Načítať viac'
       reply_placeholder: 'Napíšte odpoveď...'
     rename_discussion:
       title: 'Premenovať diskusiu'
       submit_button: Premenovať
     search:
-      all_discussions_button: 'Vo všetkých diskusiách vyhľadajte výraz "{query}"'
       discussions_heading: Diskusie
       users_heading: Používateľov
     security:
-      browser_on_operating_system: '{browser} na {OS}'
       cannot_terminate_current_session: 'Nie je možné ukončiť aktuálnu aktívnu reláciu. Namiesto toho sa odhláste.'
       created: Vytvorený
       current_active_session: 'Aktuálna aktívna relácia'
@@ -159,13 +143,11 @@ core:
       new_access_token_modal: { submit_button: 'Vytvoriť token', title_placeholder: Titul, title: 'Nový token' }
       revoke_access_token: Zrušiť
       sessions_heading: 'Aktívne relácie'
-      session_terminated: '{počet, množné číslo, jeden {Relácia ukončená} iný {# Relácie ukončené}}.'
       session_termination_failed: 'Pri ukončovaní relácií sa vyskytla chyba.'
       show_access_token: 'Zobraziť token'
       terminate_all_other_sessions: 'Ukončenie všetkých ostatných relácií'
       terminate_session: Ukončiť
       token_revoked: 'Token bol zrušený.'
-      token_item_title: '{title} - {token}'
       token_title_placeholder: /
       never: Nikdy
       new_access_token_button: 'Nový token'
@@ -174,7 +156,6 @@ core:
       title: Bezpečnosť
     settings:
       account_heading: Účet
-      notification_checkbox_a11y_label_template: 'Dostávajte upozornenia "{description}" prostredníctvom {method}'
       notify_by_web_heading: Web
       notify_discussion_renamed_label: 'Niekto premenuje diskusiu, ktorú som začal'
       privacy_disclose_online_label: 'Umožniť ostatným, aby videli, kedy som online'
@@ -186,7 +167,6 @@ core:
       title: Nastavenia
     sign_up:
       log_in_text: 'Už máte účet? <a>prihlásiť sa</a>'
-      welcome_text: 'Vitajte, {používateľské meno}!'
       dismiss_button: OK
       email_placeholder: E-mail
       password_placeholder: Heslo
@@ -196,8 +176,6 @@ core:
     user:
       avatar_upload_button: Nahrať
       avatar_upload_tooltip: 'Nahratie nového avatara'
-      in_discussion_text: 'V {diskusia}'
-      joined_date_text: 'Pridal sa {ago}'
       online_text: Online
       posts_empty_text: 'Vyzerá to, že tu nie sú žiadne príspevky.'
       avatar_remove_button: Odstrániť
@@ -209,15 +187,12 @@ core:
     user_controls:
       button: 'Ovládacie prvky'
       delete_confirmation: 'Naozaj chcete odstrániť tohto používateľa? Príspevky používateľa NEBUDÚ odstránené.'
-      delete_error_message: 'Odstránenie používateľa <i>{username} ({email})</i> zlyhalo'
-      delete_success_message: 'Používateľ <i>{username} ({email})</i> bol odstránený'
       toggle_dropdown_accessible_label: 'Prepnúť rozbaľovaciu ponuku používateľských ovládacích prvkov'
       delete_button: Odstrániť
       edit_button: Editovať
     user_email_confirmation:
       resend_button: 'Znova odoslať potvrdzovací e-mail'
       sent_message: Poslal
-      alert_message: 'Na adresu {email} sme odoslali potvrdzovací e-mail. Ak čoskoro nedorazí, skontrolujte priečinok so spamom.'
     welcome_hero:
       hide: 'Skryť uvítaciu správu'
     badge:
@@ -230,8 +205,6 @@ core:
       hidden_tooltip: Skrytý
     dropdown:
       toggle_dropdown_accessible_label: 'Prepnúť rozbaľovaciu ponuku'
-    data_segment:
-      label: '{štítok}:'
     edit_user:
       activate_button: 'Aktivovať používateľa'
       groups_heading: Skupiny
@@ -246,33 +219,17 @@ core:
       username_heading: 'Používateľské meno'
       username_label: 'Používateľské meno'
     error:
-      circular_dependencies_message: 'Zistené kruhové závislosti: {rozšírenia}. Prerušuje. Zakážte jedno z rozšírení a skúste to znova.'
-      dependent_extensions_message: 'Nie je možné zakázať {rozšírenie}, kým nie sú zakázané nasledujúce závislé rozšírenia: {rozšírenia}'
-      extension_initialiation_failed_message: '{rozšírenie} sa nepodarilo inicializovať, ďalšie informácie nájdete v konzole prehliadača.'
       generic_message: 'Jejda! Vyskytla sa chyba. Znova načítajte stránku a skúste to znova.'
       generic_cross_origin_message: 'Jejda! Počas žiadosti o krížový pôvod sa vyskytla chyba. Znova načítajte stránku a skúste to znova.'
-      missing_dependencies_message: 'Nie je možné povoliť {rozšírenie}, kým nie sú povolené nasledujúce závislosti: {rozšírenia}'
       not_found_message: 'Požadovaný zdroj sa nenašiel.'
       payload_too_large_message: 'Objem dát žiadosti bol príliš veľký.'
       permission_denied_message: 'Nemáte na to povolenie.'
       rate_limit_exceeded_message: 'Idete trochu príliš rýchlo. Skúste to znova o niekoľko sekúnd.'
       render_failed_message: 'Ľutujeme, pri zobrazovaní tohto obsahu sa vyskytla chyba. Ak ste používateľ, skúste to znova neskôr. Ak ste správca, ďalšie informácie nájdete v súboroch denníka Flarum.'
-    meta_titles:
-      with_page_title: '{pageNumber, množné číslo, =1 {{pageTitle} - {forumName}} iné {{pageTitle}: Strana # - {forumName}}}'
-      without_page_title: '{pageNumber, množné číslo, =1 {{forumName}} iné {Page # - {forumName}}}'
     modal:
       close: Zavrieť
     nav:
       drawer_button: 'Otvoriť navigačnú zásuvku'
-    number_suffix:
-      kilo_text: K
-      mega_text: M
-    series:
-      glue_text: ', '
-      three_text: '{prvý}, {druhý} a {tretí}'
-      two_text: '{prvý} a {druhý}'
-    username:
-      deleted_text: '[vypúšťa sa]'
     loading_indicator:
       accessible_label: Nakladanie...
   views:
@@ -290,11 +247,9 @@ core:
       invalid_confirmation_token: 'Tento potvrdzovací odkaz už bol použitý alebo je neplatný.'
       not_authenticated: 'Nemáte povolenie na prístup na túto stránku. Po prihlásení to skúste znova.'
       not_found: 'Požadovanú stránku sa nepodarilo nájsť.'
-      not_found_return_link: 'Späť na {fórum}'
       permission_denied: 'Nemáte povolenie na prístup na túto stránku.'
       unknown: 'Pri pokuse o načítanie tejto stránky sa vyskytla chyba.'
     log_out:
-      log_out_confirmation: 'Naozaj sa chcete odhlásiť z {fórum}?'
       log_out_button: 'Odhlásiť sa'
       title: 'Odhlásiť sa'
     reset_password:
@@ -311,23 +266,15 @@ core:
       previous_page_button: 'Predchádzajúca strana'
   api:
     invalid_username_message: 'Používateľské meno môže obsahovať iba písmená, číslice a pomlčky.'
-    invalid_filter_type:
-      must_be_numeric_message: 'Filter {filter} musí byť číselný.'
-      must_not_be_array_message: 'Filter {filter} nesmie byť pole.'
-      must_not_be_multidimensional_array_message: 'Filter {filter} nesmie byť viacrozmerné pole.'
   email:
     activate_account:
       subject: 'Aktivácia nového účtu'
-      body: "Ahoj {používateľské meno}!\n\nNiekto (dúfajme, že vy!) sa zaregistroval do {fóra} s touto e-mailovou adresou.\n\nAk ste to boli vy, jednoducho kliknite na nasledujúci odkaz a váš účet bude aktivovaný:\n{url}\n\nAk ste sa nezaregistrovali, ignorujte tento e-mail.\n"
     confirm_email:
       subject: 'Potvrďte svoju novú e-mailovú adresu'
-      body: "Ahoj {používateľské meno}!\n\nNiekto (dúfajme, že vy!) zmenil svoju e-mailovú adresu na {fóre} na túto.\n\nAk ste to boli vy, jednoducho kliknite na nasledujúci odkaz a váš e-mail bude potvrdený:\n{url}\n\nAk ste to neboli vy, ignorujte tento e-mail.\n"
     reset_password:
-      body: "Ahoj {používateľské meno}!\n\nNiekto (dúfajme, že vy!) odoslal zabudnutú žiadosť o heslo pre váš účet na {fórum}.\n\nAk ste to boli vy, kliknutím na nasledujúce prepojenie si vytvorte nové heslo:\n{url}\n\nAk si neželáte zmeniť svoje heslo, jednoducho ignorujte tento e-mail a nič sa nestane.\n"
       subject: 'Vytvorenie nového hesla'
     send_test:
       subject: 'E-mailový test Flarum'
-      body: "Ahoj {používateľské meno}!\n\nToto je testovací e-mail na potvrdenie, že vaša konfigurácia e-mailu Flarum funguje správne.\n\nAk ste to boli vy, tento e-mail znamená, že vaša konfigurácia funguje!\n\nAk ste to neboli vy, ignorujte tento e-mail.\n"
   ref:
     all_discussions: 'Všetky diskusie'
     change_email: 'Zmeniť e-mail'
@@ -335,7 +282,6 @@ core:
     color: Farba
     confirm_password: 'Potvrdiť heslo'
     confirm_email: 'Potvrdiť e-mail'
-    confirmation_email_sent: 'Na adresu {email} sme odoslali potvrdzovací e-mail. Ak čoskoro nedorazí, skontrolujte priečinok so spamom.'
     custom_footer_text: 'Pridajte kód HTML, ktorý sa zobrazí úplne dole na stránke.'
     custom_footer_title: 'Úprava vlastnej päty'
     custom_header_text: 'Pridajte HTML, ktorý sa zobrazí v hornej časti stránky nad vlastnou hlavičkou Flarum.'
@@ -349,7 +295,6 @@ core:
     extensions: Rozšírenia
     generic_confirmation_message: 'Naozaj chcete pokračovať? Túto akciu nie je možné vrátiť späť.'
     icon: Ikona
-    icon_text: 'Zadajte názov ľubovoľnej triedy ikon <a>FontAwesome</a> <em>vrátane</em> predpony <code>fa-</code>.'
     load_more: 'Načítať viac'
     loading: Nakladanie...
     log_in: 'Prihlásiť sa'
@@ -373,7 +318,6 @@ core:
     security: Bezpečnosť
     settings: Nastavenia
     sign_up: 'Zaregistrovať sa'
-    some_others: '{počet, množné číslo, jeden {# iný} iný {# ostatné}}'
     start_a_discussion: 'Začať diskusiu'
     username: 'Používateľské meno'
     users: Používateľov
@@ -389,128 +333,12 @@ core:
     members: Členov
     mod: Spôsob
     mods: Mods
-validation:
-  accepted: 'Atribút :atribút musí byť akceptovaný.'
-  active_url: 'Atribút :[atribút] nie je platná webová adresa.'
-  after: 'Atribút :atribút musí nasledovať za :d ate.'
-  after_or_equal: 'Atribút :[atribút] musí byť dátum za alebo rovný :d ate.'
-  alpha: 'Atribút :atribút musí obsahovať iba písmená.'
-  alpha_dash: 'Atribút :atribút musí obsahovať iba písmená, číslice, pomlčky a podčiarkovníky.'
-  alpha_num: 'Atribút :[atribút] musí obsahovať iba písmená a číslice.'
-  array: ':atribút musí byť pole.'
-  before: 'Atribút :atribút musí byť dátum pred :d ate.'
-  before_or_equal: 'Atribút :atribút musí byť dátum pred alebo rovný :d ate.'
-  between:
-    numeric: 'Atribút :musí byť v rozmedzí :min a :max.'
-    file: 'Atribút :musí byť v rozmedzí od :min do :max kilobajtov.'
-    string: 'Atribút :atribút musí byť medzi znakmi :min a :max.'
-    array: 'Atribút :atribút musí mať položky medzi :min a :max.'
-  boolean: 'Pole :atribút musí byť pravdivé alebo nepravdivé.'
-  confirmed: 'Potvrdenie atribútu :atribút sa nezhoduje.'
-  date: 'Atribút :atribút nie je platný dátum.'
-  date_equals: 'Atribút :atribút musí byť dátum, ktorý sa rovná :d ate.'
-  date_format: 'Atribút :sa nezhoduje s formátom :format.'
-  different: 'Atribúty :atribút a :other musia byť odlišné.'
-  digits: 'Atribút :atribút musí byť :d igits číslice.'
-  digits_between: 'Atribút :[atribút] musí byť v rozmedzí číslic :min a :max.'
-  dimensions: 'Atribút :atribút má neplatné rozmery obrázka.'
-  distinct: 'Pole :attribute obsahuje duplicitnú hodnotu.'
-  email: 'Atribút :atribút musí byť platná e-mailová adresa.'
-  ends_with: 'Atribút :atribút musí končiť jedným z nasledujúcich reťazcov: :values.'
-  exists: 'Vybratý atribút :atribút je neplatný.'
-  file: 'Atribút :atribút musí byť súbor.'
-  file_too_large: 'Atribút :je príliš veľký.'
-  file_upload_failed: 'Atribút :atribút sa nepodarilo nahrať.'
-  filled: 'Pole :atribút musí mať hodnotu.'
-  gt:
-    numeric: 'Atribút :musí byť väčší ako :value.'
-    file: 'Atribút :atribút musí byť väčší ako kilobajty :value.'
-    string: 'Atribút :atribút musí byť väčší ako znaky :value.'
-    array: 'Atribút :atribút musí obsahovať viac položiek ako :value.'
-  gte:
-    numeric: 'Atribút :atribút musí byť väčší alebo rovný :value.'
-    file: 'Atribút :atribút musí byť väčší alebo rovný :value kilobajtov.'
-    string: 'Atribút :atribút musí byť väčší alebo rovný znakom :value.'
-    array: 'Atribút :atribút musí obsahovať :value items alebo viac.'
-  image: ':atribút musí byť obrázok.'
-  in: 'Vybratý atribút :atribút je neplatný.'
-  in_array: 'Pole :atribút neexistuje v :other.'
-  integer: 'Atribút :atribút musí byť celé číslo.'
-  ip: 'Atribút :atribút musí byť platná adresa IP.'
-  ipv4: 'Atribút :atribút musí byť platná adresa protokolu IPv4.'
-  ipv6: 'Atribút :atribút musí byť platná adresa protokolu IPv6.'
-  json: 'Atribút :atribút musí byť platný reťazec JSON.'
-  lt:
-    numeric: 'Atribút :musí byť menší ako :value.'
-    file: 'Atribút :atribút musí byť menší ako kilobajty :value.'
-    string: 'Atribút :atribút musí byť menší ako :value.'
-    array: 'Atribút :musí obsahovať položky menšie ako :value.'
-  lte:
-    numeric: 'Atribút :atribút musí byť menší alebo rovný :value.'
-    file: 'Atribút :atribút musí byť menší alebo rovný :value kilobajtov.'
-    string: 'Atribút :atribút musí byť menší alebo rovný znakom :value.'
-    array: 'Atribút :atribút nesmie mať viac než :value items.'
-  max:
-    numeric: 'Atribút :nesmie byť väčší ako :max.'
-    file: 'Atribút :nesmie byť väčší ako :max kilobajtov.'
-    string: 'Atribút :atribút nesmie byť väčší ako znaky :max.'
-    array: 'Atribút :atribút nesmie mať viac ako :max položiek.'
-  mimes: 'Atribút :atribút musí byť súbor typu: :values.'
-  mimetypes: 'Atribút :atribút musí byť súbor typu: :values.'
-  min:
-    numeric: 'Atribút :atribút musí byť aspoň :min.'
-    file: 'Atribút :atribút musí byť aspoň :min kilobajty.'
-    string: 'Atribút :atribút musí obsahovať aspoň :min.'
-    array: 'Atribút :atribút musí obsahovať aspoň :min položky.'
-  multiple_of: 'Atribút :musí byť násobkom čísla :value.'
-  not_in: 'Vybratý atribút :atribút je neplatný.'
-  not_regex: 'Formát :atribút je neplatný.'
-  numeric: ':atribút musí byť číslo.'
-  password: 'Heslo je nesprávne.'
-  present: 'Pole :atribút musí byť prítomné.'
-  regex: 'Formát :atribút je neplatný.'
-  required: 'Pole :atribút je povinné.'
-  required_if: 'Pole :atribút je povinné, keď :other je :hodnota.'
-  required_unless: 'Pole :atribút je povinné, pokiaľ :other nie je v :values.'
-  required_with: 'Pole :atribút je povinné, ak je prítomná funkcia :values.'
-  required_with_all: 'Pole :atribút je povinné, ak je prítomná funkcia :values.'
-  required_without: 'Pole :atribút je povinné, ak funkcia :values nie je prítomná.'
-  required_without_all: 'Pole :atribút je povinné, ak nie je prítomná žiadna z hodnôt :value.'
-  prohibited: 'Pole :atribút je zakázané.'
-  prohibited_if: 'Pole :atribút je zakázané, ak :other je :hodnota.'
-  prohibited_unless: 'Pole :atribút je zakázané, pokiaľ sa :other nenachádza v :values.'
-  same: 'Atribúty :atribút a :other sa musia zhodovať.'
-  size:
-    numeric: 'Atribút :atribút musí byť :size.'
-    file: 'Atribút :musí byť :size kilobajty.'
-    string: 'Atribút :atribút musí byť znaky :size.'
-    array: 'Atribút :atribút musí obsahovať položky :size.'
-  starts_with: 'Atribút :atribút musí začínať jedným z nasledujúcich reťazcov: :values.'
-  string: 'Atribút :atribút musí byť reťazec.'
-  timezone: 'Atribút :atribút musí byť platnou zónou.'
-  unique: 'Atribút :atribút už bol prevzatý.'
-  uploaded: 'Atribút :atribút sa nepodarilo nahrať.'
-  url: 'Formát :atribút je neplatný.'
-  uuid: 'Atribút :atribút musí byť platný UUID.'
-  attributes:
-    username: 'používateľské meno'
-    password: heslo
-    email: E-mail
-    title: titul
-    content: obsah
-    name_singular: 'Názov v jednotnom čísle'
-    name_plural: 'Meno čísla'
-    tag_count_primary: 'Počet primárnych značiek'
-    tag_count_secondary: 'počet sekundárnych značiek'
-  recaptcha: 'Overenie reCAPTCHA zlyhalo.'
-  recaptcha-unknown: 'Pri overovaní reCAPTCHA ({errors}) sa vyskytla neznáma chyba.'
 flarum-tags:
   forum:
     all_tags:
       meta_description_text: 'Všetky značky'
       meta_title_text: Tagy
     choose_tags:
-      edit_title: 'Úprava značiek pre {title}'
       title: 'Výber značiek pre diskusiu'
     discussion_controls:
       edit_tags_button: 'Úprava značiek'
@@ -520,48 +348,27 @@ flarum-tags:
       more_link: Viacej...
       untagged_link: Netagované
       tags_link: Tagy
-    post_stream:
-      added_and_removed_tags_text: '{používateľské meno} pridal {tagsAdded } a odstránil {tagsRemoved} {time}.'
-      added_tags_text: '{username} pridal {tagsAdded } {time}.'
-      removed_tags_text: '{username} odstránil {tagsRemoved} {time}.'
-      tags_text: '{počet, množné číslo, jedna značka {{tags}} ostatné značky {{tags}'
-    tag:
-      meta_description_text: 'Všetky diskusie so značkou {tag}'
     composer_discussion:
       choose_tags_link: 'Vyberte značky'
   lib:
     deleted_tag_text: Odstránené
     tag_selection_modal:
       bypass_requirements: 'Obídenie požiadaviek na značku'
-      choose_primary_placeholder: '{počet, množné číslo, jeden {Vyberte primárnu značku} iný {Vyberte # primárne značky}}'
-      choose_secondary_placeholder: '{počet, množné číslo, jeden {Vyberte 1 ďalšiu značku} iný {Vyberte # viac značiek}}'
-      choose_tags_placeholder: '{počet, množné číslo, jeden {Vyberte 1 ďalšiu značku} iný {Vyberte # viac značiek}}'
       submit_button: OK
       title: 'Vyberte značky'
   ref:
     choose_tags: 'Vyberte značky'
-    choose_tags_placeholder: '{počet, množné číslo, jeden {Vyberte 1 ďalšiu značku} iný {Vyberte # viac značiek}}'
     name: Meno
     tags: Tagy
 flarum-mentions:
   forum:
     composer:
       mention_tooltip: 'Zmienka o používateľovi, skupine alebo príspevku'
-      reply_to_post_text: 'Odpovedanie na #{číslo}'
     mentioned_by:
       title: 'Odpovede na tento príspevok'
       load_more_button: 'Načítať viac'
-    notifications:
-      post_mentioned_text: '{používateľské meno} odpovedal na váš príspevok'
-      user_mentioned_text: '{používateľské meno} spomenul vás'
-      group_mentioned_text: '{username} spomenul skupinu, ktorej ste členom'
-      others_text: '{počet, množné číslo, jeden {# iný} iný {# ostatné}}'
     post:
-      mentioned_by_more_text: '{počet} viac odpovedí.'
-      mentioned_by_self_text: '{users} na to odpovedal.'
-      mentioned_by_text: '{users} na to odpovedal.'
       quote_button: Citát
-      others_text: '{počet, množné číslo, jeden {# iný} iný {# ostatné}}'
       reply_link: Odpoveď
       you_text: Vy
     settings:
@@ -570,28 +377,12 @@ flarum-mentions:
       notify_group_mentioned_label: 'Niekto v príspevku spomenie skupinu, ktorej som členom'
     user:
       mentions_link: Spomína
-    post_mention:
-      deleted_text: '[neznáme]'
-    group_mention:
-      deleted_text: '[neznáma skupina]'
-  email:
-    post_mentioned:
-      subject: '{replier_display_name} odpovedal na váš príspevok v {title}'
-      body: "Ahoj {recipient_display_name}!\n\n{replier_display_name} odpovedal na váš príspevok (#{post_number}) v {title}.\n\n{url}\n\n---\n\n{obsah}\n"
-    user_mentioned:
-      subject: '{mentioner_display_name} vás spomenul v {title}'
-      body: "Ahoj {recipient_display_name}!\n\n{mentioner_display_name} vás spomenul v príspevku v {title}.\n\n{url}\n\n---\n\n{obsah}\n"
-    group_mentioned:
-      subject: '{mentioner_display_name} spomenul skupinu, ktorej ste členom, v {title}'
-      body: "Ahoj {recipient_display_name}!\n\n{mentioner_display_name} spomenul skupinu, ktorej ste členom, v {title}.\n\n{url}\n\n---\n\n{obsah}\n"
 flarum-subscriptions:
   forum:
     discussion_controls:
       unfollow_button: 'Zrušiť sledovanie'
       unignore_button: Unsir
       follow_button: Nasledovať
-    notifications:
-      new_post_text: '{používateľské meno} uverejnené'
     settings:
       follow_after_reply_label: 'Automatické sledovanie diskusií, na ktoré odpovedám'
       notify_for_all_posts_label: 'Upozorniť na každý nový príspevok namiesto posledného v diskusii'
@@ -613,10 +404,6 @@ flarum-subscriptions:
       meta_title_text: Nasledujúci
     index:
       following_link: Nasledujúci
-  email:
-    new_post:
-      subject: '[Nový príspevok] {názov}'
-      body: "Ahoj {recipient_display_name}!\n\n{poster_display_name} uverejnil príspevok v diskusii, ktorú sledujete: {title}.\n\nAk chcete zobraziť novú aktivitu, pozrite si nasledujúce prepojenie:\n{url}\n\n---\n\n{obsah}\n\n---\n\nNebudete dostávať žiadne ďalšie upozornenia na túto diskusiu, kým nebudete mať aktuálne informácie.\n"
   ref:
     follow: Nasledovať
     following: Nasledujúci
@@ -625,7 +412,6 @@ flarum-flags:
   forum:
     flag_post:
       confirmation_message: 'Ďakujeme za nahlásenie tohto príspevku. Naši moderátori sa tým budú zaoberať.'
-      reason_details_placeholder: 'Ďalšie podrobnosti (voliteľné)'
       reason_inappropriate_label: Nevhodný
       reason_inappropriate_text: 'Tento príspevok je urážlivý, urážlivý alebo porušuje naše <a>pokyny pre komunitu</a>.'
       reason_missing_message: 'Prosím, uveďte nejaké podrobnosti pre našich moderátorov.'
@@ -639,13 +425,10 @@ flarum-flags:
       title: 'Vlajkový príspevok'
     flagged_posts:
       empty_text: 'Žiadne vlajky'
-      item_text: '{používateľské meno} v <em>{diskusia}</em>'
       title: 'Príspevky s príznakom'
       tooltip: 'Príspevky s príznakom'
     post:
       dismiss_flag_button: 'Zrušiť príznak'
-      flagged_by_text: 'Označené používateľom {username}'
-      flagged_by_with_reason_text: 'Označené používateľom {username} ako {reason}'
     post_controls:
       flag_button: Vlajka
   ref:
@@ -654,13 +437,11 @@ flarum-flags:
 flarum-suspend:
   forum:
     notifications:
-      user_suspended_text: 'Boli ste pozastavení na {timeReadable}'
       user_suspended_indefinite_text: 'Bol vám pozastavený výkon funkcie na dobu neurčitú'
       user_unsuspended_text: 'Boli ste nesuspendovaný'
     suspension_info:
       dismiss_button: Prepustiť
       indefinite: 'Toto je pozastavenie na dobu neurčitú'
-      limited: 'Toto pozastavenie bude účinné do {date}'
       title: 'Tento účet je pozastavený'
     suspend_user:
       display_message: 'Zobraziť správu pre používateľa'
@@ -671,7 +452,6 @@ flarum-suspend:
       placeholder_optional: Voliteľný
       reason: 'Dôvod pozastavenia'
       status_heading: 'Stav pozastavenia'
-      title: 'Pozastaviť {používateľské meno}'
       submit_button: 'Uložiť zmeny'
     user_badge:
       suspended_tooltip: Pozastavené
@@ -681,10 +461,8 @@ flarum-suspend:
     no_reason_given: 'Na toto pozastavenie nebol uvedený žiadny dôvod.'
     suspended:
       subject: 'Váš účet bol pozastavený'
-      body: "Ahoj {recipient_display_name},\n\nBoli ste suspendovaný z tohto dôvodu:\n\n---\n{suspension_message}\n---\n"
     unsuspended:
       subject: 'Váš účet bol pozastavený'
-      body: "Ahoj {recipient_display_name},\n\nBoli ste nesuspendovaný. Môžete sa vrátiť späť na fórum kliknutím na nasledujúci odkaz:\n\n{forum_url}\n"
 blomstra-gdpr:
   lib:
     data:
@@ -707,8 +485,6 @@ fof-upload:
       error: Chyba
       loading: Nahrávanie
       unauthorized: 'Nie je povolené sťahovať súbory'
-    validation:
-      max_size: 'Nahrané položky nad {max} kb nie sú akceptované.'
     text_preview:
       expand: 'Rozbalenie verzie Preview'
       collapse: 'Ukážka zbalenia'
@@ -718,7 +494,6 @@ fof-upload:
   api:
     upload_errors:
       forbidden_type: 'Nahrávanie súborov tohto typu nie je povolené.'
-      unsupported_type: 'Adaptér na nahrávanie nepodporuje poskytnutý typ mime: {mime}.'
       could_not_detect_mime: 'Nepodarilo sa zistiť typ MIME tohto súboru, skúste to znova.'
       max_upload_file_size_ini: 'Nahrajte maximálny limit veľkosti súboru dosiahnutý od php.ini.'
       max_upload_file_size_form: 'Nahrajte maximálny limit veľkosti súboru dosiahnutý z formulára.'
@@ -727,7 +502,6 @@ fof-upload:
       no_upload_tmp_folder: 'Žiadny priečinok tmp na nahrávanie súborov.'
       cannot_write_to_disk: 'Nedá sa zapísať na disk.'
       upload_blocked_by_php_extension: 'Rozšírenie php zablokovalo nahrávanie.'
-      no_files_made_it_to_upload: 'Nahrajte súbory, ktoré nie sú väčšie ako {max} kb.'
   lib:
     upload-shared-file-modal:
       title: 'Nový zdieľaný súbor'
@@ -740,13 +514,9 @@ fof-upload:
       release_to_upload: 'Uvoľnenie na nahranie'
       modal_empty_desktop: 'Zoznam súborov je prázdny. Kliknite na tlačidlo alebo presuňte súbor sem a nahrajte ho.'
       modal_empty_phone: 'Zoznam súborov je prázdny. Klepnutím na tlačidlo vyššie nahrajte súbor.'
-      select_file_a11y_label: 'Vyberte súbor "{fileName}"'
-      confirm_selection_btn: '{fileCount, množné číslo, =0 {Žiadne vybraté} jeden {Vybrať súbor} iný {Vybrať súbor}}'
       load_more_files_btn: 'Načítať ďalšie súbory'
-      delete_file_a11y_label: 'Odstrániť súbor "{fileName}"'
-      delete_confirmation: 'Naozaj chcete odstrániť "{fileName}"?'
-      hide_file: { btn_a11y_label_hide: 'Skryť "{fileName}" v správcovi médií', btn_a11y_label_show: 'Zobraziť "{fileName}" v správcovi médií', hide_confirmation: 'Naozaj chcete skryť "{fileName}"? Skrytím sa súbor odstráni iba zo správcu médií a neovplyvní existujúce príspevky.', hide_success: 'Súbor skrytý', show_confirmation: 'Naozaj chcete zobraziť "{fileName}"? Zobrazením súboru sa súbor zobrazí v správcovi médií.', show_success: 'Zobrazený súbor', hide_fail: 'Nepodarilo sa skryť súbor "{fileName}"', show_fail: 'Nepodarilo sa zobraziť súbor "{fileName}"', loading: 'Skrýva sa súbor...' }
-      hide_shared_file: { btn_a11y_label_hide: 'Nastavenie parametra {fileName} ako súkromného (bez verejnej URL adresy)', btn_a11y_label_show: 'Nastaviť "{fileName}" ako verejný (s verejnou URL adresou)', hide_confirmation: 'Naozaj chcete, aby bol text {fileName} súkromný? Ak súbor nastavíte ako súkromný, odstráni sa jeho verejná adresa URL, neovplyvní to však existujúce príspevky. Neoprávneným používateľom sa už nebude zobrazovať ani v správcovi médií.', hide_success: 'Súbor ako súkromný', show_confirmation: 'Naozaj chcete zverejniť výraz {fileName}? Ak súbor nastavíte ako verejný, sprístupní sa každému s verejnou adresou URL a ktokoľvek ho bude môcť zdieľať pomocou správcu médií.', show_success: 'Zverejnenie súboru', hide_fail: 'Súbor "{fileName}" nebolo možné nastaviť ako súkromný', show_fail: 'Súbor "{fileName}" sa nepodarilo zverejniť', loading: 'Nastavenie súboru ako súkromného...' }
+      hide_file: { hide_success: 'Súbor skrytý', show_success: 'Zobrazený súbor', loading: 'Skrýva sa súbor...' }
+      hide_shared_file: { hide_success: 'Súbor ako súkromný', show_success: 'Zverejnenie súboru', loading: 'Nastavenie súboru ako súkromného...' }
 flarum-bbcode:
   forum:
     quote:
@@ -779,8 +549,6 @@ fof-follow-tags:
       following_tag_tooltip: Nasledujúci
       lurking_tag_tooltip: Číhajú
     sub_controls:
-      header: 'Predplatné pre {tagName}'
-      subscription_label: 'Vyberte úroveň predplatného pre {tagName}'
       following_text: 'Buďte informovaní o všetkých nových diskusiách.'
       hiding_text: 'Skryť diskusie na stránke Všetky diskusie.'
       ignoring_text: 'Nikdy nedostávajte upozornenia.'
@@ -795,21 +563,8 @@ fof-follow-tags:
       hiding_button: Skrýva
       ignoring_button: Ignorovanie
       lurking_button: Číhajú
-    notifications:
-      new_discussion_text: '{používateľské meno} sa začalo'
-      new_post_text: '{používateľské meno} uverejnené'
-      new_discussion_tag_text: '{používateľské meno} zmenilo značku'
     user:
       settings: { heading: 'Sledujte značky', filter_label: 'Čo sa má predvolene zobrazovať na nasledujúcej stránke' }
-  email:
-    subject:
-      newDiscussionInTag: '[Značka | Nová diskusia] {title}'
-      newPostInTag: '[Značka | Nový príspevok] {title}'
-      newDiscussionTag: '[Značka | Zmenená značka] {title}'
-    body:
-      newDiscussionInTag: "Ahoj {recipient_display_name},\n\n{actor_display_name} začal diskusiu v značke, ktorú sledujete: {discussion_title}\n\nAk chcete zobraziť novú diskusiu, pozrite si nasledujúce prepojenie:\n{discussion_url}\n\n---\n\n{post_content}\n"
-      newPostInTag: "Ahoj {recipient_display_name},\n\n{actor_display_name} uverejnené v diskusii na značke, ktorú sledujete: {discussion_title}\n\nAk chcete zobraziť novú aktivitu, pozrite si nasledujúce prepojenie:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nKým nebudete mať aktuálne informácie, nebudete dostávať žiadne ďalšie upozornenia na túto diskusiu.\n"
-      newDiscussionTag: "Ahoj {recipient_display_name},\n\n{actor_display_name} práve zmenil značku v diskusii pomocou {author_display_name} na značku, ktorú sledujete {discussion_title}\n\nAk chcete zobraziť novú diskusiu, pozrite si nasledujúce prepojenie:\n{discussion_url}\n"
   ref:
     follow: Nasledovať
     following: Nasledujúci
@@ -838,17 +593,8 @@ flarum-nicknames:
       nickname_placeholder: Prezývka
 fof-oauth:
   forum:
-    log_in:
-      with_button: 'Prihláste sa pomocou {provider}'
-      with_discord_button: 'Prihláste sa pomocou {provider}'
-      with_facebook_button: 'Prihláste sa pomocou {provider}'
-      with_github_button: 'Prihláste sa pomocou {provider}'
-      with_gitlab_button: 'Prihláste sa pomocou {provider}'
-      with_google_button: 'Prihláste sa pomocou {provider}'
-      with_linkedin_button: 'Prihláste sa pomocou {provider}'
-      with_twitter_button: 'Prihláste sa pomocou {provider}'
     user:
-      settings: { linked-account: { label: 'Prepojené účty', last-used-label: 'Naposledy použité', link-created-label: 'Odkaz bol vytvorený', orphaned-account: 'V minulosti ste sa prihlásili prostredníctvom tohto poskytovateľa, ale toto fórum odvtedy zakázalo prihlásenie týmto spôsobom.', help: 'Tieto prepojené účty vám umožňujú prihlásiť sa do fóra pomocou iných poskytovateľov.', identifier-label: '{poskytovateľ} ID', unlink-confirm: 'Naozaj chcete odstrániť prepojenie s {provider}? Už sa nebudete môcť prihlásiť do tohto fóra, pokiaľ sa v budúcnosti znova neoveríte.' } }
+      settings: { linked-account: { label: 'Prepojené účty', last-used-label: 'Naposledy použité', link-created-label: 'Odkaz bol vytvorený', orphaned-account: 'V minulosti ste sa prihlásili prostredníctvom tohto poskytovateľa, ale toto fórum odvtedy zakázalo prihlásenie týmto spôsobom.', help: 'Tieto prepojené účty vám umožňujú prihlásiť sa do fóra pomocou iných poskytovateľov.' } }
     signup:
       username_help: 'Vyberte si používateľské meno, ktoré tu poznáte'
     unlink: 'Odstrániť odkaz'
@@ -882,10 +628,8 @@ fof-impersonate:
   forum:
     modal:
       title: 'Prihláste sa ako iný používateľ'
-      label: 'S veľkou mocou prichádza veľká zodpovednosť. Pokračovaním sa stanete {používateľské meno}, kým sa neodhlásite.'
       placeholder_optional: '(Voliteľné) Uveďte dôvod prechodu na tohto používateľa'
       placeholder_required: 'Pred pokračovaním musíte uviesť dôvod prechodu na tohto používateľa'
-      impersonate_username: 'Prihláste sa ako {používateľské meno}'
     user_controls:
       impersonate_button: 'Prihlásiť sa ako používateľ'
 fof-byobu:
@@ -896,7 +640,6 @@ fof-byobu:
       add_recipients: Príjemcov
       submit: OK
       edit_recipients: 'Upraviť príjemcov'
-      send_pd: 'Odoslať správu {používateľské meno}'
       cancel: Zrušiť
       make_public: 'Zverejniť túto diskusiu'
       remove_from_discussion: 'Opustite túto súkromnú diskusiu'
@@ -905,8 +648,6 @@ fof-byobu:
       title_placeholder: 'Názov súkromnej diskusie'
     confirm:
       make_public: 'Naozaj chcete odstrániť príjemcov a zviditeľniť túto diskusiu každému, kto si môže zobraziť priradenú značku?'
-    labels:
-      recipients: '{počet, množné číslo, jeden {{počet} Príjemca} iný {{počet} Príjemcovia}}'
     nav:
       start_button: 'Diskutujte súkromne'
       nav_item: 'Súkromné diskusie'
@@ -915,11 +656,9 @@ fof-byobu:
     search:
       headings: { groups: 'Skupiny povolení' }
     modal:
-      titles: { update_recipients: 'Aktualizácia príjemcov {title}', add_recipients: 'Pridanie príjemcov do diskusie' }
+      titles: { add_recipients: 'Pridanie príjemcov do diskusie' }
       labels: { selected_users: 'Vybraní používatelia', search_field: 'Vyhľadať používateľa' }
       help: { add_recipients: 'Táto diskusia bude viditeľná iba pre používateľov, ktorých si tu vyberiete. Vyžaduje sa aspoň 1 príjemca (okrem vás).', update_recipients: 'Táto diskusia bude viditeľná iba pre používateľov, ktorých si tu vyberiete.', selected_users: 'Kliknutím na meno používateľa ho odstránite.', click_user_to_remove_tooltip: 'Kliknutím odstránite' }
-    post:
-      recipients_modified: { added_and_removed: '{používateľské meno} pridali príjemcov {pridané} a odstránili {odstránené}.', added: '{používateľské meno} pridaní príjemcovia {pridané}.', made_public: '{username} odstránil všetkých príjemcov a diskusiu zverejnil', removed: '{používateľské meno} odstránení príjemcovia {odstránené}.', removed_self: '{username} opustil súkromnú diskusiu.' }
     user:
       settings: { block_pd: 'Blokovanie súkromných diskusií' }
       byobu_link: 'Súkromné diskusie'
@@ -927,23 +666,9 @@ fof-byobu:
     notifications:
       pd_label: 'Niekto ma zahrnie do novej súkromnej diskusie'
       pd_reply_label: 'Niekto uverejní príspevok v súkromnej diskusii, ktorej som príjemcom'
-      pd_reply_text: '{používateľské meno} uverejnené v súkromnej diskusii, ktorej ste súčasťou,'
-      pd_text: '{používateľské meno} začal s vami novú súkromnú diskusiu'
       pd_user_left_label: 'Prijímajúci používateľ opustí súkromnú diskusiu, ktorej som súčasťou'
-      pd_user_left_text: '{username} opustil súkromnú diskusiu'
-      pd_added_text: '{používateľské meno} vás pridalo do súkromnej diskusie'
       pd_added_label: 'Niekto ma pridá do existujúcej súkromnej diskusie'
-  email:
-    subject:
-      private_discussion_created: '[Súkromná diskusia] {display_name} s vami začal novú súkromnú diskusiu'
-      private_discussion_replied: '[Súkromná diskusia] {display_name} uverejnené v súkromnej diskusii'
-      recipient_removed: '[Súkromná diskusia] {display_name} opustil diskusiu'
-      private_discussion_added: '[Súkromná diskusia] {display_name} vás pridal do súkromnej diskusie'
-    body:
-      private_discussion_created: "Ahoj {recipient_display_name},\n\n{actor_display_name} začal novú súkromnú diskusiu s vami ako príjemcom: {discussion_title}.\n\nPozrite si ho tu:\n{discussion_url}\n\nMožno sa budete musieť najprv prihlásiť, aby ste získali prístup k tomuto odkazu.\n"
-      private_discussion_replied: "Ahoj {recipient_display_name},\n\n{actor_display_name} uverejnené v súkromnej diskusii s vami ako príjemcom: {discussion_title}.\n\nPozrite si ho tu:\n{post_url}\n\nMožno sa budete musieť najprv prihlásiť, aby ste získali prístup k tomuto odkazu.\n"
-      recipient_removed: "Ahoj {recipient_display_name},\n\n{actor_display_name} opustil súkromnú diskusiu: {discussion_title}. Už nebudú môcť zobraziť žiadny jeho obsah.\n\nPozrite si ho tu:\n{discussion_url}\n\nMožno sa budete musieť najprv prihlásiť, aby ste získali prístup k tomuto odkazu.\n"
-      private_discussion_added: "Ahoj {recipient_display_name},\n\n{actor_display_name} vás pridal do existujúcej súkromnej diskusie: {discussion_title}.\n\nPozrite si ho tu:\n{discussion_url}\n\nMožno sa budete musieť najprv prihlásiť, aby ste získali prístup k tomuto odkazu.\n"
+  email: null
 v17development-flarum-badges:
   forum:
     badge_information: 'Informácie o odznaku'
@@ -966,17 +691,11 @@ v17development-flarum-badges:
       no_earning_reason: 'Nie je stanovený žiadny dôvod zárobku'
       earned_on: 'Odznak získaný dňa'
       category: 'Kategória odznaku'
-      received_on: 'Prijaté dňa {date}'
       badge_details: 'Podrobnosti o odznaku'
-      earned_count: '{počet, množné číslo, jeden <b>používateľ {#</b> získal tento odznak} ostatní <b>používatelia {# získali</b> tento odznak}}'
-      earned_by_count: '{počet, množné číslo, jeden {Zarobil <b># používateľ</b>} iný {Získané <b># používateľmi</b>}}'
-      others_link: '+ {počet} Viac'
     badges_in_card:
       title: 'Odznaky na karte používateľa'
       manage_badges: 'Správa odznakov'
       description: 'Viditeľné odznaky na karte používateľa môžete zmeniť pomocou niektorého z ďalších odznakov. Ak nevyberiete žiadne, budú vybraté automaticky.'
-      select_limit: 'Môžete vybrať {limit, množné číslo, jeden {<b>jeden odznak</b>} druhý {<b># odznaky</b>}}, aby bol viditeľný na vašej karte používateľa.'
-      hit_limit: 'Na karte je miesto len pre <b> {limit, množné číslo, jeden {<b>jeden odznak</b>} a druhý {<b># odznaky</b>}}</b>. Zrušením výberu odznaku uvoľnite miesto pre tento odznak.'
     moderation:
       remove_badge: 'Odobratie odznaku používateľovi'
       remove_badge_confirm: 'Naozaj chcete tomuto používateľovi odobrať tento odznak?'
@@ -985,14 +704,10 @@ v17development-flarum-badges:
       title: 'Dostali ste nový odznak'
       settings: 'Dostal som odznak'
     uncategorized: Nekategorizované
-v17development-flarum-seo:
-  forum:
-    profile_title: 'Profil používateľa {username}'
-    profile_description: 'Profil používateľského mena} | Diskusie {discussion_count} | {comment_count} príspevky'
+v17development-flarum-seo: null
 the-turk-miserable-users:
   forum:
     miserable_user:
-      title: 'Mizerné {používateľské meno}'
       status_heading: 'Mizerný stav'
       not_miserable_label: 'Nie je to nešťastné'
       indefinitely_label: 'Nešťastné na neurčito'
@@ -1009,7 +724,6 @@ sycho-profile-cover:
   forum:
     cover: Prikryť
     edit_cover: 'Upraviť obal'
-    notice: 'Maximálna veľkosť: {size}'
     added:
       success: 'Kryt profilu bol aktualizovaný.'
       error: 'Obrázok sa nepodarilo nahrať.'
@@ -1018,10 +732,7 @@ sycho-profile-cover:
       error: 'Kryt sa nepodarilo odstrániť, skúste to znova neskôr.'
 sycho-photoswipe: null
 nearata-tags-color-generator: null
-nearata-prevent-double-posting:
-  forum:
-    exception:
-      too_many_replies: 'Nie je povolených viac ako {počet} po sebe nasledujúcich odpovedí. Namiesto toho upravte svoju predchádzajúcu odpoveď alebo počkajte, kým vám niekto odpovie.'
+nearata-prevent-double-posting: null
 nearata-copy-code-to-clipboard:
   forum:
     copy: 'Kopírovanie do schránky'
@@ -1030,7 +741,6 @@ michaelbelgium-flarum-profile-views:
   forum:
     user:
       viewlist: { title: 'Poslední návštevníci', guest: Hosť }
-      view_count_text: '{viewcount, množné číslo, jeden {viewed {viewcount} čas} iné {viewcount} krát {viewcount}}'
 justoverclock-country-flags:
   forum:
     inputCountryCode: 'Kód krajiny'
@@ -1058,13 +768,10 @@ ianm-syndication:
     autodiscovery:
       forum_activity: 'Činnosť fóra'
       forum_new_discussions: 'Nové diskusie fóra'
-      tag_activity: 'Aktivita značky {tag}'
-      tag_new_discussions: 'Diskusie v značke {tag}'
       discussion_last_posts: 'Táto diskusia'
       user_last_posts: 'Príspevky a komentáre tohto používateľa'
     feeds:
-      entries: { user_posts: { title_reply: 'Re: {diskusia}' } }
-      titles: { main_title: '{forum_name}', main_subtitle: 'Posledné príspevky vo fóre', main_d_title: 'Nové diskusie v {forum_name}', main_d_subtitle: 'Najnovšie diskusie vo fóre', tag_title: 'Aktivita v značke {tag}', tag_subtitle: 'Posledné príspevky v značke {tag}', tag_d_title: 'Nové diskusie v značke {tag}', tag_d_subtitle: 'Najnovšie diskusie v značke {tag}', discussion_title: '{discussion_name}', discussion_subtitle: 'Posledné posolstvá v tejto diskusii', user_title: '{používateľské meno}', user_subtitle: 'Najnovšie príspevky a komentáre tohto používateľa.' }
+      titles: { main_subtitle: 'Posledné príspevky vo fóre', main_d_subtitle: 'Najnovšie diskusie vo fóre', discussion_subtitle: 'Posledné posolstvá v tejto diskusii', user_subtitle: 'Najnovšie príspevky a komentáre tohto používateľa.' }
     discussion:
       feed_link: Kŕmiť
 ianm-log-viewer: null
@@ -1072,7 +779,6 @@ ianm-html-head: null
 ianm-follow-users:
   forum:
     followed: Nasledoval
-    followers: '{počet, množné číslo, jeden {Sledovateľ} iný {Sledovatelia}}'
     profile_page:
       no_following: 'Vyzerá to, že nikoho nesledujete.'
     settings:
@@ -1081,17 +787,12 @@ ianm-follow-users:
       notify_new_discussion_label: 'Niekto, koho sledujem, začne diskusiu'
       notify_new_post_label: 'Niekto, koho sledujem, uverejňuje príspevky v existujúcej diskusii'
       block_follow: 'Zabrániť používateľom, aby ma sledovali'
-    notifications:
-      new_discussion_text: '{používateľské meno} sa začalo'
-      new_post_text: '{používateľské meno} uverejnené v diskusii'
-      new_follower_text: '{používateľské meno} vás sledovalo'
-      new_unfollower_text: '{používateľské meno} vás prestalo sledovať'
     badge:
       label: { follow: 'Po diskusiách', lurk: 'Sledovanie všetkých' }
     filter:
       following: 'Sledovaní používatelia'
     modals:
-      select_follow_level: { title: 'Vyberte úroveň sledovania pre {používateľské meno}', description: 'Vyberte, ako chcete sledovať <em>{používateľské meno}</em>.', follow_levels_heading: 'Sledovanie úrovní', follow_select_label: 'Typ sledovania', no_user_attr_provided_err: 'Uh oh, pri otváraní tohto modálu sa niečo pokazilo.', no_user_attr_provided_err_debug: 'Pri vytváraní nebol modálu SelectFollowUserLevel odovzdaný žiadny atribút "user". Modal nie je možné poskytnúť.', save_btn: Zachrániť, cancel_btn: Zrušiť }
+      select_follow_level: { follow_levels_heading: 'Sledovanie úrovní', follow_select_label: 'Typ sledovania', no_user_attr_provided_err: 'Uh oh, pri otváraní tohto modálu sa niečo pokazilo.', no_user_attr_provided_err_debug: 'Pri vytváraní nebol modálu SelectFollowUserLevel odovzdaný žiadny atribút "user". Modal nie je možné poskytnúť.', save_btn: Zachrániť, cancel_btn: Zrušiť }
     profile_link: 'Sledovaní používatelia'
     user_controls:
       follow_button: Nasledovať
@@ -1101,37 +802,28 @@ ianm-follow-users:
       follow_tag_button: Nasledovať
       unfollow_tag_button: 'Zmena typu sledovania'
   email:
-    new_discussion_by_user_subject: '[Sledovať používateľa] {názov}'
     new_follower_subject: '[Sledovať používateľa] Máte nového nasledovníka!'
-    new_post_subject: '[Sledovať používateľa] Nový príspevok v {title}'
-    new_discussion_by_user_body: "Ahoj {recipient_display_name},\n\n{user_display_name} začal novú diskusiu: {discussion_title}\n\nAk chcete zobraziť novú diskusiu, pozrite si nasledujúce prepojenie:\n\n{discussion_url}\n\n---\n\n{post_content}\n"
-    new_follower_body: "Ahoj {recipient_display_name},\n\nSpoločnosť {follower_display_name} vás začala sledovať, takže keď začnete novú diskusiu, dostane upozornenie.\n\nAk chcete zobraziť ich profil, pozrite si nasledujúci odkaz:\n\n{profile_url}\n"
-    new_post_body: "Ahoj {recipient_display_name},\n\n{user_display_name} uverejnené v diskusii: {discussion_title}\n\nAk chcete zobraziť novú aktivitu, pozrite si nasledujúce prepojenie:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNebudete dostávať žiadne ďalšie upozornenia na túto diskusiu, kým nebudete mať aktuálne informácie.\n"
   lib:
     following_link: 'Sledovaní používatelia'
     follow: Nasledovať
     change_follow_type: 'Zmena typu sledovania'
     unfollow: 'Zrušiť sledovanie'
     follow_levels:
-      unfollow: { name: Nenasledovať, description: "Nedostávajte žiadne upozornenia na aktivitu <em>používateľského mena.</em>\n" }
-      follow: { name: 'Sledovanie diskusií', description: "Dostávajte upozornenia, keď <em>{username}</em> začne novú diskusiu.\n" }
-      lurk: { name: 'Sledovať všetko', description: "Dostávajte upozornenia, keď <em>{používateľské meno}</em> začne novú diskusiu alebo uverejní príspevky v ľubovoľnej diskusii.\n" }
+      unfollow: { name: Nenasledovať }
+      follow: { name: 'Sledovanie diskusií' }
+      lurk: { name: 'Sledovať všetko' }
 fof-username-request:
   forum:
     nickname_modals:
-      action: { help_text: 'Uistite sa, že táto požadovaná zmena prezývky je v súlade s pokynmi fóra.', decision_title: Rozhodnutie, approval_label: Schváliť, rejected_label: Odmietnuť, submit_button: Predložiť, reason_title: 'Dôvod zamietnutia', success: 'Rozhodnutie odoslané.', name: '{meno} požiadal o zmenu svojej prezývky na "{requestedName}"', title: 'Žiadosť o zmenu prezývky' }
-      results: { title: 'Žiadosť o zmenu prezývky', approved: 'Vaša žiadosť o zmenu prezývky bola schválená', new_name: 'Vaša prezývka bola úspešne zmenená na: {meno}', rejected: 'Vaša žiadosť o zmenu prezývky bola zamietnutá', reason: 'Dôvod odmietnutia: <i>"{dôvod}".</i>', resubmit: 'V súčasnosti môžete znova odoslať novú žiadosť o zmenu prezývky v nastaveniach účtu, ak sa tak rozhodnete.', dismiss_button: OK }
-      request: { title: 'Požiadajte o zmenu prezývky', current_request: 'Už ste požiadali o zmenu prezývky na "{meno}". Svoju žiadosť môžete aktualizovať alebo odstrániť.', submit_button: 'Odoslať žiadosť', delete_button: 'Žiadosť o odstránenie', confirmation_message: 'Vaša žiadosť o zmenu prezývky bola odoslaná a čaká na schválenie.', deleted: 'Žiadosť o prezývku bola odstránená.', dismiss_button: OK }
+      action: { help_text: 'Uistite sa, že táto požadovaná zmena prezývky je v súlade s pokynmi fóra.', decision_title: Rozhodnutie, approval_label: Schváliť, rejected_label: Odmietnuť, submit_button: Predložiť, reason_title: 'Dôvod zamietnutia', success: 'Rozhodnutie odoslané.', title: 'Žiadosť o zmenu prezývky' }
+      results: { title: 'Žiadosť o zmenu prezývky', approved: 'Vaša žiadosť o zmenu prezývky bola schválená', rejected: 'Vaša žiadosť o zmenu prezývky bola zamietnutá', resubmit: 'V súčasnosti môžete znova odoslať novú žiadosť o zmenu prezývky v nastaveniach účtu, ak sa tak rozhodnete.', dismiss_button: OK }
+      request: { title: 'Požiadajte o zmenu prezývky', submit_button: 'Odoslať žiadosť', delete_button: 'Žiadosť o odstránenie', confirmation_message: 'Vaša žiadosť o zmenu prezývky bola odoslaná a čaká na schválenie.', deleted: 'Žiadosť o prezývku bola odstránená.', dismiss_button: OK }
     username_modals:
-      action: { help_text: 'Uistite sa, že táto požadovaná zmena používateľského mena je v súlade s pokynmi fóra.', decision_title: Rozhodnutie, approval_label: Schváliť, rejected_label: Odmietnuť, submit_button: Predložiť, reason_title: 'Dôvod zamietnutia', success: 'Rozhodnutie odoslané.', name: '{name} požiadal o zmenu svojho používateľského mena na "{requestedName}"', title: 'Žiadosť o zmenu používateľského mena' }
-      results: { title: 'Žiadosť o zmenu používateľského mena', approved: 'Vaša žiadosť o zmenu používateľského mena bola schválená', new_name: 'Vaše používateľské meno bolo úspešne zmenené na: {meno}', rejected: 'Vaša žiadosť o zmenu používateľského mena bola zamietnutá', reason: 'Dôvod odmietnutia: <i>"{dôvod}".</i>', resubmit: 'V súčasnosti môžete znova odoslať novú žiadosť o zmenu používateľského mena v nastaveniach účtu, ak sa tak rozhodnete.', dismiss_button: OK }
-      request: { title: 'Požiadať o zmenu používateľského mena', current_request: 'Už ste požiadali o zmenu používateľského mena na "{meno}". Svoju žiadosť môžete aktualizovať alebo odstrániť.', submit_button: 'Odoslať žiadosť', delete_button: 'Žiadosť o odstránenie', confirmation_message: 'Vaša žiadosť o zmenu používateľského mena bola odoslaná a čaká na schválenie.', deleted: 'Žiadosť o používateľské meno bola odstránená.', dismiss_button: OK }
+      action: { help_text: 'Uistite sa, že táto požadovaná zmena používateľského mena je v súlade s pokynmi fóra.', decision_title: Rozhodnutie, approval_label: Schváliť, rejected_label: Odmietnuť, submit_button: Predložiť, reason_title: 'Dôvod zamietnutia', success: 'Rozhodnutie odoslané.', title: 'Žiadosť o zmenu používateľského mena' }
+      results: { title: 'Žiadosť o zmenu používateľského mena', approved: 'Vaša žiadosť o zmenu používateľského mena bola schválená', rejected: 'Vaša žiadosť o zmenu používateľského mena bola zamietnutá', resubmit: 'V súčasnosti môžete znova odoslať novú žiadosť o zmenu používateľského mena v nastaveniach účtu, ak sa tak rozhodnete.', dismiss_button: OK }
+      request: { title: 'Požiadať o zmenu používateľského mena', submit_button: 'Odoslať žiadosť', delete_button: 'Žiadosť o odstránenie', confirmation_message: 'Vaša žiadosť o zmenu používateľského mena bola odoslaná a čaká na schválenie.', deleted: 'Žiadosť o používateľské meno bola odstránená.', dismiss_button: OK }
     pending_requests:
       empty_text: 'Nenašli sa žiadne žiadosti o zmenu mena.'
-      nickname_item_text: '{meno} požiadal o zmenu prezývky'
-      nickname_exerpt: 'Požadovaná prezývka: {requestedName}'
-      username_item_text: '{meno} požiadal o zmenu používateľského mena'
-      username_exerpt: 'Požadované používateľské meno: {requestedName}'
       tooltip: 'Žiadosti o zmenu mena'
       title: 'Žiadosti o zmenu mena'
     settings:
@@ -1149,15 +841,9 @@ fof-username-request:
   email:
     body:
       noReasonProvided: 'Nebol uvedený žiadny dôvod.'
-      approved: "Dobrý deň {recipient_display_name},\n\nVašu žiadosť o zmenu používateľského mena na \"{new_username}\" schválila spoločnosť {actor_display_name}.\n\nTeraz sa môžete prihlásiť pomocou svojho nového používateľského mena: {login_url}\n"
-      rejected: "Dobrý deň {recipient_display_name},\n\nVašu žiadosť o zmenu používateľského mena z \"{old_username}\" na \"{requested_username}\" bola zamietnutá spoločnosťou {actor_display_name}.\n\nDôvod: {dôvod}\n"
-    subject:
-      approved: '{display_name} schválil zmenu používateľského mena na {requested_username}'
-      rejected: '{display_name} odmietol zmenu používateľského mena na {requested_username}'
 fof-user-bio:
   forum:
     userbioPlaceholder: 'Napíšte niečo o sebe'
-    userbioPlaceholderOtherUser: 'Napíšte životopis pre {používateľské meno}'
     profile:
       cancel_confirm: 'Naozaj chcete zrušiť úpravu svojho životopisu? Prídete o všetky vykonané zmeny.'
       cancel_button: Zrušiť
@@ -1165,9 +851,6 @@ fof-user-bio:
       edit_bio_label: 'Upraviť životopis'
 fof-split:
   forum:
-    post:
-      was_split_to: '{count, množné číslo, jeden príspevok {{count} bol rozdelený na {target}.} ostatné príspevky {{count} boli rozdelené na {target}.}}'
-      was_split_from: '{count, množné číslo, jeden príspevok {{count} bol oddelený od {target}.} ostatné príspevky {{count} boli oddelené od {target}.}}'
     split:
       from: 'Odtiaľto sa oddelil'
       to: 'Rozdeliť sem'
@@ -1221,13 +904,11 @@ fof-reactions:
   forum:
     disabled-reaction: 'Túto reakciu momentálne nemôžete použiť, obnovte stránku'
     warning: 'Vaša reakcia sa obrátila'
-    notification: '{username} reagoval s {reaction} na váš príspevok'
     settings:
       notify_post_reacted_label: 'Niekto reaguje na jeden z mojich príspevkov'
     reacting-own-post: 'Nemôžete reagovať na svoj vlastný príspevok'
     modal:
       title: Reakcie
-      anonymous_count: '{počet, množné číslo, jeden {# anonymný používateľ} ďalší {# anonymní používatelia}}'
       no_reactions: 'Zatiaľ žiadne reakcie'
     mod_item: 'Zobraziť reakcie'
     react_button_label: Reagovať
@@ -1241,22 +922,19 @@ fof-profile-image-crop:
 fof-prevent-necrobumping:
   forum:
     composer:
-      warning: { title: 'Táto diskusia je staršia ako <b>{time}</b>.', description: 'Je veľmi pravdepodobné, že nepotrebuje ďalšiu diskusiu, a preto jej narážanie nemá zmysel.', checkbox_label: 'Som si vedomý toho, že táto diskusia je dosť stará, ale aj tak by som chcel odpovedať.', error: 'Táto diskusia je príliš stará na to, aby sa na ňu dalo odpovedať.' }
+      warning: { description: 'Je veľmi pravdepodobné, že nepotrebuje ďalšiu diskusiu, a preto jej narážanie nemá zmysel.', checkbox_label: 'Som si vedomý toho, že táto diskusia je dosť stará, ale aj tak by som chcel odpovedať.', error: 'Táto diskusia je príliš stará na to, aby sa na ňu dalo odpovedať.' }
 fof-pretty-mail: null
 fof-polls:
   forum:
-    days_remaining: 'Anketa sa skončí {time}.'
     no_permission: 'Nemáte povolenie hlasovať'
     poll_ended: 'Táto anketa sa skončila.'
     public_poll: 'Zobraziť voličov'
-    max_votes_allowed: 'Anketa umožňuje hlasovať za {max, množné číslo, jedna {# možnosť} iné {# možnosti}}.'
     composer_discussion:
       add_poll: 'Pridať anketu'
       edit_poll: 'Upraviť anketu'
     modal:
       add_title: 'Pridanie ankety'
       add_option_label: 'Pridať možnosť'
-      date_placeholder: 'Dátum ukončenia ankety (voliteľné)'
       edit_title: 'Upraviť anketu'
       include_question: 'Musíte uviesť otázku'
       max: 'Môžete mať maximálne 10 odpovedí'
@@ -1277,7 +955,6 @@ fof-polls:
       edit: 'Upraviť anketu'
     tooltip:
       badge: Anketa
-      votes: '{počet, množné číslo, jeden {# hlas} iný {# hlasy}}'
     votes_modal:
       title: Voličov
 fof-nightmode:
@@ -1297,11 +974,9 @@ fof-moderator-notes:
   forum:
     no_content_given: 'Prázdna poznámka nie je povolená.'
     moderatorNotes:
-      created_text: '{username} vytvoril túto poznámku dňa {date}'
       add_button: 'Nová poznámka'
       create-heading: 'Vytvorenie novej poznámky moderátora'
       dismiss_button: Robené
-      input_heading: 'Zadajte poznámky pre <strong>{username}</strong> (markdown je podporovaný)'
       noNotes: 'Vyzerá to, že tu nie sú žiadne poznámky.'
       submit_button: 'Uložiť poznámku'
       delete: Odstrániť
@@ -1309,8 +984,6 @@ fof-moderator-notes:
     user:
       notes: 'Poznámky moderátora'
   api:
-    auto_note: '_I prešiel na tohto používateľa:_ {dôvod}'
-    auto_note_actor: '_Switched to_ @{používateľské meno}: {dôvod}'
     no_reason_provided: 'Bez udania dôvodu'
 fof-linguist: null
 fof-html-errors: null
@@ -1325,12 +998,8 @@ fof-gamification:
       name: Užívateľ
       amount: Body
     notification:
-      upvote: '{používateľské meno} hlasoval za váš príspevok'
-      downvote: '{používateľské meno} prehlasoval váš príspevok'
       prefrences: { vote: 'Keď sa hlasuje o jednom z mojich príspevkov hore / dole' }
     user:
-      card: { points: '{počet, množné číslo, jeden { {počet} bod} ostatné {{počet} body}}' }
-      rank: '{hodnosť}'
       votes_link: Hlasov
     modal:
       downvotes_label: 'Dolní voliči:'
@@ -1344,11 +1013,6 @@ fof-gamification:
     post:
       upvote_button: 'Príspevok Upvote'
       downvote_button: 'Príspevok proti hlasovaniu'
-  email:
-    body:
-      postVoted: "Ahoj {recipient_display_name},\n\n{actor_display_name} práve hlasoval o vašom príspevku v {discussion_title}.\n\nPozrite si ho tu: {discussion_url}\n"
-    subject:
-      postVoted: 'O vašom príspevku hlasoval {display_name}'
 fof-formatting: null
 fof-drafts:
   console:
@@ -1367,7 +1031,6 @@ fof-drafts:
       title: Koncepty
       delete_all_button: 'Odstránenie všetkých konceptov'
       delete_button: 'Odstránenie konceptu'
-      scheduled_icon_tooltip: 'Naplánované na {datetime}'
       scheduled_icon_tooltip_formatter: 'L [at] LT'
       alert: 'Naozaj chcete koncept odstrániť?'
       delete_all_alert: 'Naozaj chcete odstrániť všetky koncepty?'
@@ -1375,13 +1038,10 @@ fof-drafts:
       tooltip: Koncepty
     schedule_draft_modal:
       text: 'Naplánujte si koncept tak, aby sa automaticky uverejňoval neskôr!'
-      scheduled_text: 'Momentálne je naplánované uverejňovanie príspevkov dňa {datetime}.'
-      scheduled_error: 'Nie je možné naplánovať koncept: {error}.'
       unschedule_button: 'Zrušiť plán'
       unschedule_warning: 'Naozaj chcete zrušiť naplánovanie tohto konceptu?'
       reschedule_button: Preplánovať
       schedule_button: Rozvrh
-      schedule_time_preview: 'Tento koncept sa automaticky zverejní dňa <b>{datetime}</b>.'
       schedule_time_preview_formatter: LLLL
       schedule_time_preview_invalid: 'Neplatný dátum a/alebo čas'
       title: 'Naplánovať koncept'
@@ -1393,13 +1053,10 @@ fof-best-answer:
     this_best_answer: 'Vyberte najlepšiu odpoveď'
     remove_best_answer: 'Zrušte výber možnosti Najlepšia odpoveď'
     best_answer_button: 'Najlepšia odpoveď'
-    best_answer_label: 'Nastavil <a>{username}</a> {time_set}'
     errors:
       mismatch: 'Vybraný príspevok v tejto diskusii neexistuje.'
     notification:
-      best_answer_in_discussion: '{používateľské meno} nastavte najlepšiu odpoveď v tejto diskusii'
       content: 'Vyberte najlepšiu odpoveď, ak bola vaša otázka zodpovedaná'
-      awarded: 'Váš príspevok bol nastavený ako najlepšia odpoveď od {username}'
       preferences: { awarded_best_answer: 'Niekto nastaví môj príspevok ako najlepšiu odpoveď', best_answer_in_discussion: 'Najlepšia odpoveď je uvedená v diskusii, ktorej som sa zúčastnil', select_best_answer: 'Automatické pripomenutie výberu najlepšej odpovede v diskusii, ktorú som začal' }
     index:
       ask_question: 'Položiť otázku'
@@ -1413,22 +1070,13 @@ fof-best-answer:
       accessible_label: 'Vyriešený/nevyriešený výber'
     composer:
       titlePlaceholder: 'Názov otázky'
-    user:
-      best-answer-count: '{počet, množné číslo, jedna { {počet} najlepšia odpoveď} iné {{počet} najlepšie odpovede}}'
     search:
       discussions_solutions_heading: 'Diskusie s riešeniami'
-      all_discussions_solutions_button: 'Vyhľadajte vo všetkých diskusiách s riešeniami výraz "{query}"'
     discussion:
       jump_to_best_answer_button: 'Zobraziť najlepšiu odpoveď'
   email:
     subject:
-      awarded: 'Váš príspevok bol nastavený ako najlepšia odpoveď {display_name}'
-      ba-set: 'Najlepšia odpoveď bola nastavená {display_name}'
       select: 'Podarilo sa vám získať odpoveď na vašu otázku?'
-    body:
-      awarded: "Hej {reven_display_name},\n\nSkvelá práca, {actor_display_name} stačí nastaviť svoj príspevok ako najlepšiu odpoveď na diskusiu: {discussion_title}. Vďaka za pomoc.\n\nZobraziť tu: {discussion_url}\n"
-      ba-set: "Hej {reven_display_name},\n\n{actor_display_name} stačí nastaviť najlepšiu odpoveď v diskusii: {discussion_title}, v ktorej ste sa zúčastnili.\n\nPozrite sa na to: {discussion_url}\n"
-      select: "Hej {reven_display_name},\n\nStačí skontrolovať; teraz by ste mali mať veľa odpovedí na vašu otázku: {discussion_title}. Dúfajme, že jeden z nich vám pomohol vyriešiť váš problém.\n\nAk áno, bolo by naozaj užitočné pre budúcich členov, ak by ste mohli nastaviť najlepšiu odpoveď na vašu otázku. Pomôže ľuďom s rovnakým problémom nájsť odpoveď, ktorú potrebujú, a je to tiež veľká vďaka členom, ktorí vám pomohli. Dajú svoj čas dobrovoľne, takže je pekné, aby im vedieť, že sa dobre darí.\n\nNavštívte diskusiu tu: {discussion_url} a vyberte najvhodnejší príspevok ako najlepšiu odpoveď.\n\nVďaka!\n"
 fof-user-directory:
   lib:
     sort:
@@ -1437,8 +1085,6 @@ fof-user-directory:
 fof-ban-ips:
   forum:
     modal:
-      ban_options_only_ip: 'Zakázať iba aktuálnu IP adresu (<code>{ip}</code>)'
-      ban_options_all_ip: 'Zakázať všetky adresy IP používané <i>používateľom {username}</i>'
       ban_ip_no_users: 'Nikto iný nebude zakázaný'
     user_badge:
       banned_tooltip: Zakázané
@@ -1455,13 +1101,8 @@ fof-ban-ips:
       check_button: Kontrola
       save_button: Zachrániť
       ban_ip_confirmation: 'Naozaj chcete zablokovať používanie tejto adresy IP na fóre? Tým sa používateľom s touto IP adresou (adresami) zablokuje prihlásenie a registrácia.'
-      ban_ip_users: '{počet, množné číslo, jeden {Používateľ {používatelia} bude zakázaný} ostatní {Používatelia {používatelia} budú zakázaní}}'
       unban_ip_confirmation: 'Naozaj chcete zrušiť zakázanie prístupu tomuto používateľovi a všetkým ostatným používateľom, ktorí nie sú zakázaní inými adresami IP?'
-      unban_options_only_ip: 'Iba zrušenie zákazu aktuálnej adresy IP (<code>{ip}</code>)'
-      unban_options_all_ip: 'Zrušiť zákaz všetkých adries IP, ktoré používa <i>{používateľské meno}</i>'
       unban_ip_no_users: 'Nikto iný nebude zakázaný'
-      unban_ip_users: '{počet, množné číslo, jeden {Používateľ {používatelia} bude zrušený zákaz} ostatné {Používatelia {používatelia} budú zakázané}}'
-      unbanned_ips: 'Nezakázané <code>{ips}</code>.'
       title: 'Zakázať IP adresy'
       unban_title: 'Zrušenie zákazu adries IP'
       address_label: 'IP adresa'
@@ -1492,7 +1133,6 @@ fof-anti-spam:
       move_discussions_tag_label: 'Presunutie diskusií na značku v karanténe'
       move_discussions_tag_help: 'Tým sa všetky diskusie začaté týmto používateľom presunú na značku, ktorú ste zadali v nastaveniach fóra. Ak je táto možnosť vypnutá, diskusie zostanú vo svojich aktuálnych značkách.'
       process_button: Proces
-      title: 'Označenie používateľského mena ako spamera'
       report_to_sfs_label: 'Nahlásiť na StopForumSpam'
       report_to_sfs_help: 'Toto nahlási základné údaje používateľa (používateľské meno, e-mail, IP adresa) spoločnosti StopForumSpam. To pomôže zabrániť používateľovi v registrácii na iných fórach, ktoré používajú službu StopForumSpam.'
     user_controls:
@@ -1511,18 +1151,11 @@ flarum-sticky:
     discussion_controls:
       unsticky_button: Nelepivý
       sticky_button: Lepkavý
-    post_stream:
-      discussion_stickied_text: '{používateľské meno} nalepilo diskusiu {time}.'
-      discussion_unstickied_text: '{používateľské meno} odlepil diskusiu {time}.'
     badge:
       sticky_tooltip: Lepkavý
   ref:
     sticky: Lepkavý
 flarum-statistics: null
-flarum-pusher:
-  forum:
-    discussion_list:
-      show_updates_text: '{počet, množné číslo, jeden {Zobraziť # aktualizovanú diskusiu} iné {Zobraziť # aktualizované diskusie}}'
 flarum-lock:
   forum:
     badge:
@@ -1530,24 +1163,13 @@ flarum-lock:
     discussion_controls:
       lock_button: Zámok
       unlock_button: Odomknúť
-    notifications:
-      discussion_locked_text: '{používateľské meno} uzamknuté'
-    post_stream:
-      discussion_locked_text: '{username} uzamkol diskusiu {time}.'
-      discussion_unlocked_text: '{username} odomkol diskusiu {time}.'
     settings:
       notify_discussion_locked_label: 'Niekto zamkne diskusiu, ktorú som začal'
 flarum-likes:
   forum:
-    notifications:
-      post_liked_text: '{používateľské meno} páčil sa mi váš príspevok'
-      others_text: '{počet, množné číslo, jeden {# iný} iný {# ostatné}}'
     post:
       like_link: Ako
-      liked_by_self_text: '{users} takto.'
-      liked_by_text: '{počet, množné číslo, jednému {{používateľov} sa to páči} iným {{používateľom} sa páči toto}}.'
       unlike_link: 'Na rozdiel od'
-      others_link: '{počet, množné číslo, jeden {# iný} iný {# ostatné}}'
       you_text: Vy
     post_likes:
       title: 'Používatelia, ktorým sa to páči'
@@ -1602,9 +1224,6 @@ dhtml-composer:
       character_counter: 'Počítadlo znakov'
 datlechin-birthdays:
   forum:
-    user:
-      birthday_text: 'Narodeniny: {dátum}'
-      age_text: 'Vek: {vek}'
     change_dob:
       title: 'Upraviť dátum narodenia'
       date_of_birth_text: 'Dátum narodenia'
@@ -1617,16 +1236,12 @@ datlechin-birthdays:
       dob_heading: 'Dátum narodenia'
     nav:
       nav_item: 'Dnešné narodeniny'
-    page:
-      discussion_count: '{počet, množné číslo, jedno {Diskusia: #} iné {Diskusie: #}}'
-      post_count: '{počet, množné číslo, jeden {Príspevok: #} iný {Príspevky: #}}'
     edit_user:
       dob_heading: 'Dátum narodenia'
     sign_up:
       dob_placeholder: 'Dátum narodenia'
   api:
     invalid_dob_message: 'Neplatný dátum narodenia'
-    invalid_age_message: 'Váš vek musí byť najmenej {minAge} rokov.'
   ref:
     date_of_birth: 'Dátum narodenia'
 clarkwinkelmann-post-permissions: null
@@ -1662,24 +1277,13 @@ askvortsov-rich-text:
       insert_image: { src_placeholder: Väzba, title_placeholder: Titul }
       insert_link: { text_placeholder: Text, href_placeholder: 'URL adresa', title_placeholder: 'Názov (zobrazuje sa pri ukázaní)', remove_button: Odstrániť }
       additional_items_tooltip: 'Ďalšie ovládacie prvky'
-      bold_tooltip: 'Tučný text <{modifierKey}-b>'
-      code_tooltip: 'Inline kód <{modifierKey}-''>'
       code_block_tooltip: 'Vloženie bloku kódov'
-      header_tooltip: 'Zmena na hlavičku {level} <shift-{modifierKey}-{level}>'
       horizontal_rule_tooltip: 'Vloženie vodorovného pravidla'
       image_tooltip: 'Pridanie obrázka'
-      italic_tooltip: 'Text kurzívou <{modifierKey}-i>'
       link_tooltip: 'Pridanie prepojenia'
-      ordered_list_tooltip: 'Číslovaný zoznam <shift-{modifierKey}-9>'
-      paragraph_tooltip: 'Zmena na odsek <shift-{modifierKey}-0>'
-      quote_tooltip: 'Vloženie cenovej ponuky <{modifierKey}-q>'
       spoiler_block_tooltip: 'Blokovať spojler/rozbaľovací zoznam'
-      spoiler_inline_tooltip: 'Spoiler <{modifierKey}-;>'
       strike_tooltip: 'Prečiarknutie <alt-shift-5>'
-      sub_tooltip: 'Dolný index <{modifierKey}-,>'
-      sup_tooltip: 'Horný index <{modifierKey}-.>'
       text_type_tooltip: 'Vyberte typ textu'
-      unordered_list_tooltip: 'Zoznam s odrážkami <shift-{modifierKey}-8>'
   forum:
     settings:
       composer_heading: Skladateľ
@@ -1694,7 +1298,6 @@ askvortsov-pwa:
       share_button: Akcia
     post_controls:
       share_button: Akcia
-      share_api: { title: 'Odpoveď používateľského mena na {title}''' }
     user_controls:
       share_button: Akcia
     settings:
@@ -1705,20 +1308,7 @@ askvortsov-pwa:
       header: 'Chyba sieťového pripojenia'
       text: 'Táto aplikácia vyžaduje sieťové pripojenie. Nedá sa použiť offline. Skontrolujte pripojenie.'
 askvortsov-moderator-warnings:
-  emails:
-    post_warned:
-      subject: '{warner_display_name} vás varoval {strikes, množné číslo, jeden {# strike} ďalší {# strikes}} v {discussion_title}'
-      body: "Ahoj {warnee_display_name}!\n\n{warner_display_name} vás varoval {strikes, množné číslo, jeden {# strike} ďalší {# strikes}} v {discussion_title}\n\nBol uvedený tento dôvod:\n\n---\n\n{public_comment}\n"
-    user_warned:
-      subject: '{warner_display_name} vás varoval {strikes, množné číslo, jeden {# strike} druhý {# strikes}}'
-      body: "Ahoj {warnee_display_name}!\n\n{warner_display_name} vás varoval {strikes, množné číslo, jeden {# strike} druhý {# strikes}}\n\nBol uvedený tento dôvod:\n\n---\n\n{public_comment}\n"
   forum:
-    notifications:
-      warning_text: '{údery, množné číslo, jeden {{{mod_username}} vás varoval # úderom iný {{Boli ste upozornení # údermi {mod_username}}}'
-      warning_no_strikes_text: '{mod_username} vás upozornil (žiadne sankcie)'
-    post:
-      warning: '{štrajky, množné číslo, jeden {Varovaný # úderom {mod_username}} iný {Varovaný # údermi {mod_username}}}'
-      warning_no_strikes: 'Varovanie bez sankcií od {mod_username}'
     post_controls:
       warning_button: 'Upozorniť používateľa'
     user:
@@ -1735,20 +1325,14 @@ askvortsov-moderator-warnings:
     warning_list:
       add_button: 'Nové varovanie'
       no_warnings: 'Zdá sa, že tu nie sú žiadne varovania.'
-      warnings: '{štrajky, množné číslo, jedno {Upozornenia moderátora: # Prijaté sankcie} iné {Upozornenia moderátora: # Prijaté sankcie}}'
       warnings_no_strikes: 'Upozornenia moderátora: Nedostali sme žiadne sankcie'
     warning_list_item:
-      list_item_heading: '{štrajky, množné číslo, jeden {<strong>#</strong> strike, {time}} iné {<strong>#</strong> strikes, {time}}}'
-      list_item_heading_hidden: '{údery, množné číslo, jeden {<strong>#</strong> strike, {time} <strong>(odstránený)</strong>} ostatné {<strong>#</strong> strikes, {time} <strong>(odstránené)</strong>}}'
       public_comment: Varovanie
       private_comment: 'Komentáre viditeľné pre moderátorov'
       linked_post: 'Prepojený príspevok'
     warning_modal:
       confirmation_message: 'Vaše upozornenie bolo uložené. Možno budete musieť obnoviť stránku, aby sa zobrazila.'
-      heading: 'Upozorniť <strong>{používateľské meno}</strong>'
       strikes_heading: 'Koľko sankcií by sa malo uplatniť?'
-      public_comment_heading: 'Prečo <strong>sa používateľovi {username}</strong> zobrazujú tieto upozornenia? Tieto komentáre budú viditeľné pre používateľa a ostatných moderátorov.'
-      private_comment_heading: 'Prečo <strong>sa používateľovi {username}</strong> zobrazujú tieto upozornenia? Tieto komentáre budú viditeľné IBA pre ostatných moderátorov.'
       submit_button: 'Uložiť upozornenie'
 askvortsov-discussion-templates:
   forum:

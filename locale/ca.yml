@@ -3,7 +3,6 @@ core:
     change_email:
       incorrect_password_message: 'La contrasenya que heu introduït és incorrecta.'
       confirm_password_placeholder: 'Confirma la contrasenya'
-      confirmation_message: 'Hem enviat un correu electrònic de confirmació a {email}. Si no arriba aviat, revisa la carpeta de correu brossa.'
       dismiss_button: 'D''ACORD'
       submit_button: 'Desa els canvis'
       title: 'Canvia el correu electrònic'
@@ -26,7 +25,6 @@ core:
     composer_edit:
       discard_confirmation: 'No has desat els canvis. Voleu descartar-los?'
       edited_message: 'La teva edició s''ha fet.'
-      post_link: 'Publicar #{número} a {discussió}'
       submit_button: 'Desa els canvis'
       view_button: Vista
     composer_reply:
@@ -48,10 +46,6 @@ core:
       restore_button: Restaurar
     discussion_list:
       empty_text: 'Sembla que aquí no hi ha discussions.'
-      replied_text: '{nom d''usuari} va respondre {ago}'
-      started_text: '{nom d''usuari} iniciat {ago}'
-      total_replies_a11y_label: '{comptar, plural, un {# respondre} altres {# respostes}}'
-      unread_replies_a11y_label: '{comptar, plural, una {# resposta no llegida} altres {# respostes no llegides}}. Marqueu com a llegits {compte, plural, una {resposta} i altres {respostes}} com a llegits.'
       load_more_button: 'Carrega més'
     forgot_password:
       email_sent_message: 'Si el correu electrònic que heu introduït està registrat en aquest lloc, us enviarem un correu electrònic que contingui un enllaç per a reiniciar la vostra contrasenya. Comproveu la vostra carpeta de correu brossa si no la rebeu en el següent minut o dos.'
@@ -107,7 +101,6 @@ core:
     notifications:
       delete_all_confirm: 'Estàs segur que vols eliminar totes les notificacions? Aquesta acció no és reversible'
       delete_all_tooltip: 'Suprimir totes les notificacions'
-      discussion_renamed_text: '{username} ha canviat el títol'
       empty_text: 'Sense notificacions'
       mark_as_read_tooltip: 'Marcar com a llegit'
       toggle_dropdown_accessible_label: 'Veure notificacions'
@@ -116,8 +109,6 @@ core:
       tooltip: Notificacions
     post:
       edited_text: Editat
-      edited_tooltip: '{nom d''usuari} editat {ago}'
-      number_tooltip: 'Publicació #{número}'
     post_controls:
       delete_confirmation: 'Estàs segur que vols esborrar aquest post per sempre? Aquesta acció no es pot desfer.'
       hide_confirmation: 'Estàs segur que vols esborrar aquest post?'
@@ -131,23 +122,16 @@ core:
     post_scrubber:
       now_link: Ara
       original_post_link: 'Missatge original'
-      unread_text: '{comptar} no llegit'
-      viewing_text: '{count, plural, un {{index} de {formattedCount} post} altres {{index} de {formattedCount}}'
     post_stream:
-      discussion_renamed_old_tooltip: 'El títol antic era: "{antic}"'
-      discussion_renamed_text: '{username} ha canviat el títol a {new} {time}.'
-      time_lapsed_text: '{període} més tard'
       load_more_button: 'Carrega més'
       reply_placeholder: 'Escriu una resposta...'
     rename_discussion:
       title: 'Reanomenar discussió'
       submit_button: Rebatejar
     search:
-      all_discussions_button: 'Cerqueu a totes les discussions "{consulta}"'
       discussions_heading: Discussions
       users_heading: Usuaris
     security:
-      browser_on_operating_system: '{navegador} a {OS}'
       cannot_terminate_current_session: 'No es pot finalitzar la sessió activa actual. Tanqueu la sessió.'
       created: Creada
       current_active_session: 'Sessió activa actual'
@@ -159,13 +143,11 @@ core:
       new_access_token_modal: { submit_button: 'Crea un testimoni', title_placeholder: Títol, title: 'Nou testimoni' }
       revoke_access_token: Revocar
       sessions_heading: 'Sessions actives'
-      session_terminated: '{count, plural, un {Session terminated} altre {# Sessions finalitzades}}.'
       session_termination_failed: 'S''ha produït un error en finalitzar les sessions.'
       show_access_token: 'Veure fitxa'
       terminate_all_other_sessions: 'Donar per finalitzades la resta de sessions'
       terminate_session: Acabar
       token_revoked: 'Testimoni revocat.'
-      token_item_title: '{títol} - {fitxa}'
       token_title_placeholder: /
       never: Mai
       new_access_token_button: 'Nou testimoni'
@@ -174,7 +156,6 @@ core:
       title: Seguretat
     settings:
       account_heading: Compte
-      notification_checkbox_a11y_label_template: 'Rebre notificacions "{description}" a través de {method}'
       notify_by_web_heading: Web
       notify_discussion_renamed_label: 'Algú reanomena una discussió que he iniciat'
       privacy_disclose_online_label: 'Permetre que altres persones vegin quan estic en línia'
@@ -186,7 +167,6 @@ core:
       title: Configuració
     sign_up:
       log_in_text: 'Ja tens un compte? <a>Inici de sessió</a>'
-      welcome_text: 'Benvinguda, {nom d''usuari}!'
       dismiss_button: 'D''ACORD'
       email_placeholder: 'Correu electrònic'
       password_placeholder: Contrasenya
@@ -196,8 +176,6 @@ core:
     user:
       avatar_upload_button: Pujar
       avatar_upload_tooltip: 'Pujar un avatar nou'
-      in_discussion_text: 'A {discussió}'
-      joined_date_text: 'Membre {ago}'
       online_text: 'En línia'
       posts_empty_text: 'Sembla que aquí no hi ha publicacions.'
       avatar_remove_button: Treure
@@ -209,15 +187,12 @@ core:
     user_controls:
       button: Controls
       delete_confirmation: 'Estàs segur que vols esborrar aquest usuari? Les publicacions de l''usuari NO se suprimiran.'
-      delete_error_message: 'S''ha produït un error en la supressió de l''usuari <i>{nom d''usuari} ({email})</i>'
-      delete_success_message: 'S''ha suprimit <i>l''usuari {nom d''usuari} ({email}</i>)'
       toggle_dropdown_accessible_label: 'Commuta el menú desplegable de controls d''usuari'
       delete_button: Esborrar
       edit_button: Editar
     user_email_confirmation:
       resend_button: 'Tornar a enviar el correu electrònic de confirmació'
       sent_message: Enviat
-      alert_message: 'Hem enviat un correu electrònic de confirmació a {email}. Si no arriba aviat, revisa la carpeta de correu brossa.'
     welcome_hero:
       hide: 'Amaga el missatge de benvinguda'
     badge:
@@ -230,8 +205,6 @@ core:
       hidden_tooltip: Amagat
     dropdown:
       toggle_dropdown_accessible_label: 'Commuta el menú desplegable'
-    data_segment:
-      label: '{label}:'
     edit_user:
       activate_button: 'Activar usuari'
       groups_heading: Grups
@@ -246,33 +219,17 @@ core:
       username_heading: 'Nom d''usuari'
       username_label: 'Nom d''usuari'
     error:
-      circular_dependencies_message: 'Dependències circulars detectades: {extensions}. Avortament. Desactiveu una de les extensions i torneu-ho a provar.'
-      dependent_extensions_message: 'No es pot desactivar {extension} fins que no es desactivin les extensions dependents següents: {extensions}'
-      extension_initialiation_failed_message: '{extensió} no s''ha pogut inicialitzar, consulteu la consola del navegador per obtenir més informació.'
       generic_message: 'Ui! Alguna cosa ha anat malament. Torneu a carregar la pàgina i torneu-ho a provar.'
       generic_cross_origin_message: 'Ui! Alguna cosa ha fallat durant una sol·licitud d''origen creuat. Torneu a carregar la pàgina i torneu-ho a provar.'
-      missing_dependencies_message: 'No es pot habilitar {extension} fins que no s''habilitin les dependències següents: {extensions}'
       not_found_message: 'No s''ha trobat el recurs sol·licitat.'
       payload_too_large_message: 'La càrrega útil de la sol·licitud era massa gran.'
       permission_denied_message: 'No teniu permís per fer-ho.'
       rate_limit_exceeded_message: 'Vas una mica massa ràpid. Torneu-ho a provar en uns segons.'
       render_failed_message: 'Ho sentim, hem trobat un error en mostrar aquest contingut. Si sou un usuari, torneu-ho a provar més tard. Si sou administrador, doneu un cop d''ull als fitxers de registre de Flarum per obtenir més informació.'
-    meta_titles:
-      with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} altres {{pageTitle}: Pàgina # - {nomFòrum}}}'
-      without_page_title: '{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}'
     modal:
       close: Tancar
     nav:
       drawer_button: 'Obrir calaix de navegació'
-    number_suffix:
-      kilo_text: Cap
-      mega_text: M
-    series:
-      glue_text: ', '
-      three_text: '{primer}, {segon} i {tercer}'
-      two_text: '{primer} i {segon}'
-    username:
-      deleted_text: '[suprimit]'
     loading_indicator:
       accessible_label: Càrrega...
   views:
@@ -290,11 +247,9 @@ core:
       invalid_confirmation_token: 'Aquest enllaç de confirmació ja s''ha utilitzat o no és vàlid.'
       not_authenticated: 'No teniu permís per accedir a aquesta pàgina. Torna-ho a provar després d''iniciar sessió.'
       not_found: 'No s''ha pogut trobar la pàgina que heu sol·licitat.'
-      not_found_return_link: 'Torna a {fòrum}'
       permission_denied: 'No teniu permís per accedir a aquesta pàgina.'
       unknown: 'S''ha produït un error en intentar carregar aquesta pàgina.'
     log_out:
-      log_out_confirmation: 'Esteu segur que voleu tancar la sessió de {fòrum}?'
       log_out_button: 'Tancar sessió'
       title: 'Tancar sessió'
     reset_password:
@@ -311,23 +266,15 @@ core:
       previous_page_button: 'Pàgina anterior'
   api:
     invalid_username_message: 'El nom d''usuari només pot contenir lletres, números i guions.'
-    invalid_filter_type:
-      must_be_numeric_message: 'El filtre {filter} ha de ser numèric.'
-      must_not_be_array_message: 'El filtre {filter} no ha de ser una matriu.'
-      must_not_be_multidimensional_array_message: 'El filtre {filter} no ha de ser una matriu multidimensional.'
   email:
     activate_account:
       subject: 'Activa el teu nou compte'
-      body: "Hola {nom d'usuari}!\n\nAlgú (espero que tu!) s'ha registrat a {fòrum} amb aquesta adreça electrònica.\n\nSi has estat tu, només has de clicar el següent enllaç i el teu compte s'activarà:\n{url}\n\nSi no us heu registrat, ignoreu aquest correu electrònic.\n"
     confirm_email:
       subject: 'Confirmeu la vostra adreça electrònica nova'
-      body: "Hola {nom d'usuari}!\n\nAlgú (espero que tu!) ha canviat la seva adreça de correu electrònic a {fòrum} per aquesta.\n\nSi has estat tu, només has de clicar el següent enllaç i el teu correu electrònic quedarà confirmat:\n{url}\n\nSi no heu estat vosaltres, ignoreu aquest correu electrònic.\n"
     reset_password:
-      body: "Hola {nom d'usuari}!\n\nAlgú (espero que tu!) ha enviat una sol·licitud de contrasenya oblidada per al teu compte a {fòrum}.\n\nSi heu estat vosaltres, feu clic al següent enllaç per restablir la contrasenya:\n{url}\n\nSi no voleu canviar la contrasenya, ignoreu aquest correu electrònic i no passarà res.\n"
       subject: 'Restableix la contrasenya'
     send_test:
       subject: 'Prova de correu electrònic Flarum'
-      body: "Hola {nom d'usuari}!\n\nAquest és un correu electrònic de prova per confirmar que la configuració del correu electrònic de Flarum funciona correctament.\n\nSi heu estat vosaltres, aquest correu electrònic vol dir que la vostra configuració funciona.\n\nSi no heu estat vosaltres, ignoreu aquest correu electrònic.\n"
   ref:
     all_discussions: 'Tots els debats'
     change_email: 'Canvia el correu electrònic'
@@ -335,7 +282,6 @@ core:
     color: Color
     confirm_password: 'Confirma la contrasenya'
     confirm_email: 'Confirmeu el correu electrònic'
-    confirmation_email_sent: 'Hem enviat un correu electrònic de confirmació a {email}. Si no arriba aviat, revisa la carpeta de correu brossa.'
     custom_footer_text: 'Afegiu HTML perquè es mostri a la part inferior de la pàgina.'
     custom_footer_title: 'Editeu el peu de pàgina personalitzat'
     custom_header_text: 'Afegiu HTML per mostrar-lo a la part superior de la pàgina, a sobre de la capçalera de Flarum.'
@@ -349,7 +295,6 @@ core:
     extensions: Extensions
     generic_confirmation_message: 'Estàs segur que vols continuar? Aquesta acció no es pot desfer.'
     icon: Icona
-    icon_text: 'Introduïu el nom de qualsevol classe d''icones de <a>FontAwesome</a>, <em>inclòs</em> el prefix <code>fas fa-</code>.'
     load_more: 'Carrega més'
     loading: Càrrega...
     log_in: 'Inici de sessió'
@@ -373,7 +318,6 @@ core:
     security: Seguretat
     settings: Configuració
     sign_up: 'Registra''t'
-    some_others: '{comptar, plural, un {# altre} altres {# altres}}'
     start_a_discussion: 'Iniciar una discussió'
     username: 'Nom d''usuari'
     users: Usuaris
@@ -389,128 +333,12 @@ core:
     members: Membres
     mod: Manera
     mods: Mods
-validation:
-  accepted: 'Cal acceptar l''atribut :.'
-  active_url: 'L''atribut :no és un URL vàlid.'
-  after: 'L''atribut :ha de ser una data posterior a :d ate.'
-  after_or_equal: 'L''atribut :ha de ser una data posterior o igual a :d ate.'
-  alpha: 'L''atribut :només ha de contenir lletres.'
-  alpha_dash: 'L''atribut :només ha de contenir lletres, números, guions i guions baixos.'
-  alpha_num: 'L''atribut :només ha de contenir lletres i números.'
-  array: 'L''atribut :ha de ser una matriu.'
-  before: 'L''atribut :ha de ser una data anterior a :d ate.'
-  before_or_equal: 'L''atribut :ha de ser una data anterior o igual a :d ate.'
-  between:
-    numeric: 'L''atribut :ha d''estar entre :min i :max.'
-    file: 'L''atribut :ha d''estar entre :min i :max kilobytes.'
-    string: 'L''atribut :ha d''estar entre els caràcters :min i :max.'
-    array: 'L''atribut :ha de tenir entre els elements :min i :max.'
-  boolean: 'El camp :attribute ha de ser true o false.'
-  confirmed: 'La confirmació de l''atribut :no coincideix.'
-  date: 'L''atribut :no és una data vàlida.'
-  date_equals: 'L''atribut :ha de ser una data igual a :d ate.'
-  date_format: 'L''atribut :no coincideix amb el format :format.'
-  different: 'L''atribut :i :other han de ser diferents.'
-  digits: 'L''atribut :ha de ser :d igits digits.'
-  digits_between: 'L''atribut :ha d''estar entre els dígits :min i :max.'
-  dimensions: 'L''atribut :té dimensions d''imatge no vàlides.'
-  distinct: 'El camp :attribute té un valor duplicat.'
-  email: 'L''atribut :ha de ser una adreça electrònica vàlida.'
-  ends_with: 'L''atribut :ha d''acabar amb un dels següents: :values.'
-  exists: 'L''atribut :seleccionat no és vàlid.'
-  file: 'L''atribut :ha de ser un fitxer.'
-  file_too_large: 'L''atribut :és massa gran.'
-  file_upload_failed: 'L''atribut :no s''ha pogut carregar.'
-  filled: 'El camp :attribute ha de tenir un valor.'
-  gt:
-    numeric: 'L''atribut :ha de ser més gran que :value.'
-    file: 'L''atribut :ha de ser més gran que :value kilobytes.'
-    string: 'L''atribut :ha de ser més gran que els caràcters :value.'
-    array: 'L''atribut :ha de tenir més d''elements :value.'
-  gte:
-    numeric: 'L''atribut :ha de ser més gran o igual que :value.'
-    file: 'L''atribut :ha de ser més gran o igual que els kilobytes de valor.'
-    string: 'L''atribut :ha de ser més gran o igual que els caràcters :value.'
-    array: 'L''atribut :ha de tenir elements :value o més.'
-  image: 'L''atribut :ha de ser una imatge.'
-  in: 'L''atribut :seleccionat no és vàlid.'
-  in_array: 'El camp :attribute no existeix a :other.'
-  integer: 'L''atribut :ha de ser un enter.'
-  ip: 'L''atribut :ha de ser una adreça IP vàlida.'
-  ipv4: 'L''atribut :ha de ser una adreça IPv4 vàlida.'
-  ipv6: 'L''atribut :ha de ser una adreça IPv6 vàlida.'
-  json: 'L''atribut :ha de ser una cadena JSON vàlida.'
-  lt:
-    numeric: 'L''atribut :ha de ser inferior a :value.'
-    file: 'L''atribut :ha de ser inferior a :value kilobytes.'
-    string: 'L''atribut :ha de ser inferior a caràcters :value.'
-    array: 'L''atribut :ha de tenir menys que els elements :value.'
-  lte:
-    numeric: 'L''atribut :ha de ser menor o igual que :value.'
-    file: 'L''atribut :ha de ser inferior o igual a :value kilobytes.'
-    string: 'L''atribut :ha de ser menor o igual que els caràcters :value.'
-    array: 'L''atribut :no ha de tenir més d''elements :value.'
-  max:
-    numeric: 'L''atribut :no ha de ser més gran que :max.'
-    file: 'L''atribut :no ha de ser superior a :max kilobytes.'
-    string: 'L''atribut :no ha de ser més gran que els caràcters :max.'
-    array: 'L''atribut :no ha de tenir més d''elements :max.'
-  mimes: 'L''atribut :ha de ser un fitxer del tipus: :values.'
-  mimetypes: 'L''atribut :ha de ser un fitxer del tipus: :values.'
-  min:
-    numeric: 'L''atribut :ha de ser com a mínim :min.'
-    file: 'L''atribut :ha de ser com a mínim :min kilobytes.'
-    string: 'L''atribut :ha de ser com a mínim caràcters :min.'
-    array: 'L''atribut :ha de tenir com a mínim elements :min.'
-  multiple_of: 'L''atribut :ha de ser múltiple de :value.'
-  not_in: 'L''atribut :seleccionat no és vàlid.'
-  not_regex: 'El format :attribute no és vàlid.'
-  numeric: 'L''atribut :ha de ser un número.'
-  password: 'La contrasenya és incorrecta.'
-  present: 'El camp :attribute ha d''estar present.'
-  regex: 'El format :attribute no és vàlid.'
-  required: 'El camp :attribute és obligatori.'
-  required_if: 'El camp :attribute és obligatori quan :other és :value.'
-  required_unless: 'El camp :attribute és obligatori tret que :other estigui a :values.'
-  required_with: 'El camp :attribute és obligatori quan hi ha :values.'
-  required_with_all: 'El camp :attribute és obligatori quan hi ha :values.'
-  required_without: 'El camp :attribute és obligatori quan :values no està present.'
-  required_without_all: 'El camp :attribute és obligatori quan no hi ha cap dels valors :.'
-  prohibited: 'El camp :attribute està prohibit.'
-  prohibited_if: 'El camp :attribute està prohibit quan :other és :value.'
-  prohibited_unless: 'El camp :attribute està prohibit tret que :other estigui a :values.'
-  same: 'L''atribut :i :other han de coincidir.'
-  size:
-    numeric: 'L''atribut :ha de ser :size.'
-    file: 'L''atribut :ha de ser :size kilobytes.'
-    string: 'L''atribut :ha de ser caràcters :size.'
-    array: 'L''atribut :ha de contenir elements :size.'
-  starts_with: 'L''atribut :ha de començar per un dels següents: :values.'
-  string: 'L''atribut :ha de ser una cadena.'
-  timezone: 'L''atribut :ha de ser una zona vàlida.'
-  unique: 'L''atribut :ja s''ha pres.'
-  uploaded: 'L''atribut :no s''ha pogut carregar.'
-  url: 'El format :attribute no és vàlid.'
-  uuid: 'L''atribut :ha de ser un UUID vàlid.'
-  attributes:
-    username: 'Nom d''usuari'
-    password: contrasenya
-    email: 'Correu electrònic'
-    title: títol
-    content: contingut
-    name_singular: 'Nom singular'
-    name_plural: 'Nom plural'
-    tag_count_primary: 'Nombre d''etiquetes principals'
-    tag_count_secondary: 'Nombre d''etiquetes secundàries'
-  recaptcha: 'La validació de reCAPTCHA ha fallat.'
-  recaptcha-unknown: 'S''ha produït un error desconegut en validar reCAPTCHA ({errors}).'
 flarum-tags:
   forum:
     all_tags:
       meta_description_text: 'Totes les etiquetes'
       meta_title_text: Etiquetes
     choose_tags:
-      edit_title: 'Edita les etiquetes de {títol}'
       title: 'Trieu etiquetes per a la vostra discussió'
     discussion_controls:
       edit_tags_button: 'Edita etiquetes'
@@ -520,48 +348,27 @@ flarum-tags:
       more_link: Més...
       untagged_link: 'Sense etiquetar'
       tags_link: Etiquetes
-    post_stream:
-      added_and_removed_tags_text: '{nom d''usuari} ha afegit la {tagsAdded} i ha tret la {tagsRemoved} {time}.'
-      added_tags_text: '{nom d''usuari} ha afegit el {tagsAdded} {time}.'
-      removed_tags_text: '{nom d''usuari} ha tret el {tagsRemoved} {time}.'
-      tags_text: '{comptar, plural, una etiqueta {{etiquetes}} altres {{etiquetes}'
-    tag:
-      meta_description_text: 'Totes les discussions amb l''etiqueta {tag}'
     composer_discussion:
       choose_tags_link: 'Trieu etiquetes'
   lib:
     deleted_tag_text: Suprimit
     tag_selection_modal:
       bypass_requirements: 'Omet els requisits de les etiquetes'
-      choose_primary_placeholder: '{comptar, plural, un {Tria una etiqueta primària} altres {Tria # etiquetes primàries}}'
-      choose_secondary_placeholder: '{comptar, plural, un {Tria 1 etiqueta més} altres {Tria # més etiquetes}}'
-      choose_tags_placeholder: '{comptar, plural, un {Tria 1 etiqueta més} altres {Tria # més etiquetes}}'
       submit_button: 'D''ACORD'
       title: 'Trieu etiquetes'
   ref:
     choose_tags: 'Trieu etiquetes'
-    choose_tags_placeholder: '{comptar, plural, un {Tria 1 etiqueta més} altres {Tria # més etiquetes}}'
     name: Nom
     tags: Etiquetes
 flarum-mentions:
   forum:
     composer:
       mention_tooltip: 'Mencionar un usuari, un grup o una publicació'
-      reply_to_post_text: 'Respondre a #{número}'
     mentioned_by:
       title: 'Respostes a aquest post'
       load_more_button: 'Carrega més'
-    notifications:
-      post_mentioned_text: '{nom d''usuari} va respondre al vostre missatge'
-      user_mentioned_text: '{nom d''usuari} t''ha esmentat'
-      group_mentioned_text: '{nom d''usuari} ha esmentat un grup del qual sou membre'
-      others_text: '{comptar, plural, un {# altre} altres {# altres}}'
     post:
-      mentioned_by_more_text: '{comptar} més respostes.'
-      mentioned_by_self_text: '{usuaris} va respondre a això.'
-      mentioned_by_text: '{usuaris} va respondre a això.'
       quote_button: Citar
-      others_text: '{comptar, plural, un {# altre} altres {# altres}}'
       reply_link: Resposta
       you_text: Tu
     settings:
@@ -570,28 +377,12 @@ flarum-mentions:
       notify_group_mentioned_label: 'Algú esmenta un grup del qual sóc membre en una publicació'
     user:
       mentions_link: Esmenta
-    post_mention:
-      deleted_text: '[desconegut]'
-    group_mention:
-      deleted_text: '[grup desconegut]'
-  email:
-    post_mentioned:
-      subject: '{replier_display_name} va respondre al teu missatge a {title}'
-      body: "Hola {recipient_display_name}!\n\n{replier_display_name} va respondre al teu missatge (#{post_number}) a {title}.\n\n{url}\n\n---\n\n{contingut}\n"
-    user_mentioned:
-      subject: '{mentioner_display_name} t''ha mencionat a {title}'
-      body: "Hola {recipient_display_name}!\n\n{mentioner_display_name} t'ha esmentat en una entrada a {title}.\n\n{url}\n\n---\n\n{contingut}\n"
-    group_mentioned:
-      subject: '{mentioner_display_name} ha esmentat un grup del qual sou membre a {title}'
-      body: "Hola {recipient_display_name}!\n\n{mentioner_display_name} ha esmentat un grup del qual sou membre a {title}.\n\n{url}\n\n---\n\n{contingut}\n"
 flarum-subscriptions:
   forum:
     discussion_controls:
       unfollow_button: 'Deixar de seguir'
       unignore_button: Unsir
       follow_button: Seguir
-    notifications:
-      new_post_text: '{nom d''usuari} publicat'
     settings:
       follow_after_reply_label: 'Seguiu automàticament les discussions a les quals responc'
       notify_for_all_posts_label: 'Notifiqueu sobre cada entrada nova en lloc de només l''última d''una discussió'
@@ -613,10 +404,6 @@ flarum-subscriptions:
       meta_title_text: Següent
     index:
       following_link: Següent
-  email:
-    new_post:
-      subject: '[Entrada nova] {títol}'
-      body: "Hola {recipient_display_name}!\n\n{poster_display_name} ha fet una entrada en una discussió que estàs seguint: {títol}.\n\nPer veure la nova activitat, consulteu el següent enllaç:\n{url}\n\n---\n\n{contingut}\n\n---\n\nNo rebreu més notificacions sobre aquesta discussió fins que no estigueu al dia.\n"
   ref:
     follow: Seguir
     following: Següent
@@ -625,7 +412,6 @@ flarum-flags:
   forum:
     flag_post:
       confirmation_message: 'Gràcies per marcar aquest post. Els nostres moderadors ho estudiaran.'
-      reason_details_placeholder: 'Detalls addicionals (opcional)'
       reason_inappropriate_label: Inadequat
       reason_inappropriate_text: 'Aquesta publicació és ofensiva, abusiva o infringeix les directrius de la <a>comunitat</a>.'
       reason_missing_message: 'Proporcioneu alguns detalls per als nostres moderadors.'
@@ -639,13 +425,10 @@ flarum-flags:
       title: 'Senyal de bandera'
     flagged_posts:
       empty_text: 'Sense banderes'
-      item_text: '{nom d''usuari} a <em>{discussió}</em>'
       title: 'Publicacions marcades'
       tooltip: 'Publicacions marcades'
     post:
       dismiss_flag_button: 'Descarta la bandera'
-      flagged_by_text: 'Marcat per {nom d''usuari}'
-      flagged_by_with_reason_text: 'Marcat per {nom d''usuari} com a {motiu}'
     post_controls:
       flag_button: Bandera
   ref:
@@ -654,13 +437,11 @@ flarum-flags:
 flarum-suspend:
   forum:
     notifications:
-      user_suspended_text: 'Se us ha suspès per {timeReadable}'
       user_suspended_indefinite_text: 'Ha estat suspès indefinidament'
       user_unsuspended_text: 'Has estat suspès sense suspendre'
     suspension_info:
       dismiss_button: Acomiadar
       indefinite: 'Es tracta d''una suspensió indefinida'
-      limited: 'Aquesta suspensió estarà vigent fins a {date}'
       title: 'Aquest compte està suspès'
     suspend_user:
       display_message: 'Missatge de visualització per a l''usuari'
@@ -671,7 +452,6 @@ flarum-suspend:
       placeholder_optional: Opcional
       reason: 'Motiu de la suspensió'
       status_heading: 'Estat de suspensió'
-      title: 'Suspendre {nom d''usuari}'
       submit_button: 'Desa els canvis'
     user_badge:
       suspended_tooltip: Suspès
@@ -681,10 +461,8 @@ flarum-suspend:
     no_reason_given: 'No es va donar cap motiu per a aquesta suspensió.'
     suspended:
       subject: 'El vostre compte s''ha suspès'
-      body: "Hola {recipient_display_name},\n\nHa estat suspès pel motiu següent:\n\n---\n{suspension_message}\n---\n"
     unsuspended:
       subject: 'El compte s''ha suspès sense suspendre'
-      body: "Hola {recipient_display_name},\n\nHa estat suspès. Podeu tornar al fòrum clicant al següent enllaç:\n\n{forum_url}\n"
 blomstra-gdpr:
   lib:
     data:
@@ -707,8 +485,6 @@ fof-upload:
       error: Error
       loading: Carregar
       unauthorized: 'No està permès descarregar arxius'
-    validation:
-      max_size: 'No s''accepten càrregues superiors a {max} kb.'
     text_preview:
       expand: 'Amplia la previsualització'
       collapse: 'Replega la previsualització'
@@ -718,7 +494,6 @@ fof-upload:
   api:
     upload_errors:
       forbidden_type: 'No es permet pujar fitxers d''aquest tipus.'
-      unsupported_type: 'L''adaptador de càrrega no admet el tipus mime proporcionat: {mime}.'
       could_not_detect_mime: 'No s''ha pogut detectar el tipus MIME d''aquest fitxer, torneu-ho a provar.'
       max_upload_file_size_ini: 'Pengeu el límit màxim de mida del fitxer assolit des de php.ini.'
       max_upload_file_size_form: 'Pengeu el límit màxim de mida del fitxer assolit des del formulari.'
@@ -727,7 +502,6 @@ fof-upload:
       no_upload_tmp_folder: 'No hi ha carpeta tmp per pujar fitxers.'
       cannot_write_to_disk: 'No es pot gravar al disc.'
       upload_blocked_by_php_extension: 'Una extensió php va bloquejar la càrrega.'
-      no_files_made_it_to_upload: 'Pengeu fitxers que no superin {max} kb.'
   lib:
     upload-shared-file-modal:
       title: 'Nou arxiu compartit'
@@ -740,13 +514,9 @@ fof-upload:
       release_to_upload: 'Versió per penjar'
       modal_empty_desktop: 'La llista de fitxers està buida. Feu clic al botó o arrossegueu un fitxer aquí per penjar-lo.'
       modal_empty_phone: 'La llista de fitxers està buida. Toqueu el botó superior per penjar un fitxer.'
-      select_file_a11y_label: 'Seleccioneu el fitxer "{nomFitxer}"'
-      confirm_selection_btn: '{fileCount, plural, =0 {Cap seleccionat} un {Selecciona fitxer} altres {Seleccionar fitxers}}'
       load_more_files_btn: 'Carregar més fitxers'
-      delete_file_a11y_label: 'Suprimeix el fitxer "{nomFitxer}"'
-      delete_confirmation: 'Estàs segur que vols esborrar "{nomFitxer}"?'
-      hide_file: { btn_a11y_label_hide: 'Amaga "{nomFitxer}" del gestor multimèdia', btn_a11y_label_show: 'Mostra "{nomFitxer}" al gestor de suports', hide_confirmation: 'Esteu segur que voleu amagar "{nomFitxer}"? Amagar un fitxer només se suprimirà del gestor multimèdia i no afectarà les publicacions existents.', hide_success: 'Arxiu ocult', show_confirmation: 'Esteu segur que voleu mostrar "{nomFitxer}"? Mostrar un fitxer el farà visible al gestor multimèdia.', show_success: 'Arxiu mostrat', hide_fail: 'No s''ha pogut amagar el fitxer "{nomFitxer}"', show_fail: 'No s''ha pogut mostrar el fitxer "{nomFitxer}"', loading: 'Amagant fitxer...' }
-      hide_shared_file: { btn_a11y_label_hide: 'Fer que "{nomFitxer}" sigui privat (sense URL pública)', btn_a11y_label_show: 'Fer públic "{nomFitxer}" (amb URL pública)', hide_confirmation: 'Esteu segur que voleu que "{nomFitxer}" sigui privat? Si un fitxer és privat, se suprimirà el seu URL públic, però no afectarà les publicacions existents. A més, ja no serà visible al gestor de mitjans per a usuaris no autoritzats.', hide_success: 'Arxiu fet privat', show_confirmation: 'Esteu segur que voleu fer públic "{{nomFitxer}"? Fer públic un fitxer el farà accessible a qualsevol persona que tingui una URL pública i qualsevol persona podrà compartir-lo mitjançant el gestor multimèdia.', show_success: 'Arxiu fet públic', hide_fail: 'No s''ha pogut fer que el fitxer "{nomFitxer}" sigui privat', show_fail: 'No s''ha pogut fer públic el fitxer "{nomFitxer}"', loading: 'Fer que el fitxer sigui privat...' }
+      hide_file: { hide_success: 'Arxiu ocult', show_success: 'Arxiu mostrat', loading: 'Amagant fitxer...' }
+      hide_shared_file: { hide_success: 'Arxiu fet privat', show_success: 'Arxiu fet públic', loading: 'Fer que el fitxer sigui privat...' }
 flarum-bbcode:
   forum:
     quote:
@@ -779,8 +549,6 @@ fof-follow-tags:
       following_tag_tooltip: Següent
       lurking_tag_tooltip: Aguait
     sub_controls:
-      header: 'Subscripció a {tagName}'
-      subscription_label: 'Selecciona el nivell de subscripció per a {tagName}'
       following_text: 'Ser notificat de totes les noves discussions.'
       hiding_text: 'Amaga les discussions de la pàgina Totes les discussions.'
       ignoring_text: 'No s''ha de notificar mai.'
@@ -795,21 +563,8 @@ fof-follow-tags:
       hiding_button: Amagar
       ignoring_button: Ignorant
       lurking_button: Aguait
-    notifications:
-      new_discussion_text: '{nom d''usuari} iniciat'
-      new_post_text: '{nom d''usuari} publicat'
-      new_discussion_tag_text: '{username} ha canviat l''etiqueta'
     user:
       settings: { heading: 'Seguiu les etiquetes', filter_label: 'Què mostrar per defecte a la pàgina següent' }
-  email:
-    subject:
-      newDiscussionInTag: '[Etiqueta | Nova discussió] {títol}'
-      newPostInTag: '[Etiqueta | Missatge nou] {títol}'
-      newDiscussionTag: '[Etiqueta | Etiqueta canviada] {títol}'
-    body:
-      newDiscussionInTag: "Hola {recipient_display_name},\n\n{actor_display_name} ha iniciat una discussió en una etiqueta que esteu seguint: {discussion_title}\n\nPer veure la nova discussió, consulteu el següent enllaç:\n{discussion_url}\n\n---\n\n{post_content}\n"
-      newPostInTag: "Hola {recipient_display_name},\n\n{actor_display_name} publicat en una discussió sobre una etiqueta que esteu seguint: {discussion_title}\n\nPer veure la nova activitat, consulteu el següent enllaç:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNo rebreu més notificacions sobre aquest debat fins que no estigueu al dia.\n"
-      newDiscussionTag: "Hola {recipient_display_name},\n\n{actor_display_name} acaba de canviar l'etiqueta en una discussió de {author_display_name} per una etiqueta que esteu seguint {discussion_title}\n\nPer veure la nova discussió, consulteu el següent enllaç:\n{discussion_url}\n"
   ref:
     follow: Seguir
     following: Següent
@@ -838,17 +593,8 @@ flarum-nicknames:
       nickname_placeholder: Sobrenom
 fof-oauth:
   forum:
-    log_in:
-      with_button: 'Inicieu sessió amb {provider}'
-      with_discord_button: 'Inicieu sessió amb {provider}'
-      with_facebook_button: 'Inicieu sessió amb {provider}'
-      with_github_button: 'Inicieu sessió amb {provider}'
-      with_gitlab_button: 'Inicieu sessió amb {provider}'
-      with_google_button: 'Inicieu sessió amb {provider}'
-      with_linkedin_button: 'Inicieu sessió amb {provider}'
-      with_twitter_button: 'Inicieu sessió amb {provider}'
     user:
-      settings: { linked-account: { label: 'Comptes enllaçats', last-used-label: 'Utilitzat per darrera vegada', link-created-label: 'Enllaç creat', orphaned-account: 'Heu iniciat la sessió a través d''aquest proveïdor anteriorment, però aquest fòrum ha desactivat l''inici de sessió amb aquest mètode des de llavors.', help: 'Aquests comptes enllaçats us permeten iniciar la sessió al fòrum mitjançant altres proveïdors.', identifier-label: '{proveïdor} ID', unlink-confirm: 'Estàs segur que vols eliminar l''enllaç amb {provider}? Ja no podreu iniciar sessió en aquest fòrum tret que us torneu a autenticar en el futur.' } }
+      settings: { linked-account: { label: 'Comptes enllaçats', last-used-label: 'Utilitzat per darrera vegada', link-created-label: 'Enllaç creat', orphaned-account: 'Heu iniciat la sessió a través d''aquest proveïdor anteriorment, però aquest fòrum ha desactivat l''inici de sessió amb aquest mètode des de llavors.', help: 'Aquests comptes enllaçats us permeten iniciar la sessió al fòrum mitjançant altres proveïdors.' } }
     signup:
       username_help: 'Si us plau, trieu un nom d''usuari per ser conegut per aquí'
     unlink: 'Suprimeix l''enllaç'
@@ -882,10 +628,8 @@ fof-impersonate:
   forum:
     modal:
       title: 'Inicia sessió com un altre usuari'
-      label: 'Amb un gran poder arriba una gran responsabilitat. Si continueu, us convertireu en {nom d''usuari} fins que tanqueu la sessió.'
       placeholder_optional: '(Opcional) Proporcioneu la vostra raó per canviar a aquest usuari'
       placeholder_required: 'Heu de proporcionar el motiu per canviar a aquest usuari abans de continuar'
-      impersonate_username: 'Inicieu sessió com a {nom d''usuari}'
     user_controls:
       impersonate_button: 'Inicia sessió com a usuari'
 fof-byobu:
@@ -896,7 +640,6 @@ fof-byobu:
       add_recipients: Destinataris
       submit: 'D''ACORD'
       edit_recipients: 'Editar destinataris'
-      send_pd: 'Enviar un missatge a {nom d''usuari}'
       cancel: Cancel·lar
       make_public: 'Fer pública aquesta discussió'
       remove_from_discussion: 'Deixa aquesta discussió privada'
@@ -905,8 +648,6 @@ fof-byobu:
       title_placeholder: 'Títol de la discussió privada'
     confirm:
       make_public: 'Esteu segurs que voleu eliminar els destinataris i fer visible aquesta discussió per a qualsevol persona que pugui veure l''etiqueta assignada?'
-    labels:
-      recipients: '{comptar, plural, un {{comptar} Destinatari} altres {{comptar} Destinataris}}'
     nav:
       start_button: 'Parleu en privat'
       nav_item: 'Discussions privades'
@@ -915,11 +656,9 @@ fof-byobu:
     search:
       headings: { groups: 'Grups de permisos' }
     modal:
-      titles: { update_recipients: 'Actualitzar els destinataris de {title}', add_recipients: 'Afegir destinataris a la discussió' }
+      titles: { add_recipients: 'Afegir destinataris a la discussió' }
       labels: { selected_users: 'Usuaris seleccionats', search_field: 'Cerca d''usuari' }
       help: { add_recipients: 'Aquesta discussió només serà visible per als usuaris que trieu aquí. Es requereix almenys 1 destinatari (que no sigui tu mateix).', update_recipients: 'Aquesta discussió només serà visible per als usuaris que trieu aquí.', selected_users: 'Fes clic al nom d''un usuari per eliminar-lo.', click_user_to_remove_tooltip: 'Feu clic per suprimir' }
-    post:
-      recipients_modified: { added_and_removed: '{username} ha afegit destinataris {added} i ha eliminat {removed}.', added: '{nom d''usuari} afegits destinataris {afegit}.', made_public: '{nom d''usuari} ha eliminat tots els destinataris i ha fet pública la discussió', removed: '{nom d''usuari} ha eliminat els destinataris {removed}.', removed_self: '{nom d''usuari} ha deixat la discussió privada.' }
     user:
       settings: { block_pd: 'Bloquejar debats privats' }
       byobu_link: 'Discussions privades'
@@ -927,23 +666,9 @@ fof-byobu:
     notifications:
       pd_label: 'Algú m''inclou en una nova discussió privada'
       pd_reply_label: 'Algú publica en una discussió privada de la qual sóc destinatari'
-      pd_reply_text: '{nom d''usuari} publicat en una discussió privada de la qual formeu part'
-      pd_text: '{nom d''usuari} ha iniciat una nova discussió privada amb tu'
       pd_user_left_label: 'Un usuari destinatari deixa una discussió privada de la qual formo part'
-      pd_user_left_text: '{nom d''usuari} ha deixat la discussió privada'
-      pd_added_text: '{nom d''usuari} t''ha afegit a una discussió privada'
       pd_added_label: 'Algú m''afegeix a una discussió privada existent'
-  email:
-    subject:
-      private_discussion_created: '[Discussió privada] {display_name} ha iniciat una nova discussió privada amb tu'
-      private_discussion_replied: '[Discussió privada] {display_name} publicat en una discussió privada'
-      recipient_removed: '[Discussió privada] {display_name} ha abandonat la discussió'
-      private_discussion_added: '[Discussió privada] {display_name} t''ha afegit a una discussió privada'
-    body:
-      private_discussion_created: "Hola {recipient_display_name},\n\n{actor_display_name} ha iniciat una nova discussió privada amb tu com a destinatari: {discussion_title}.\n\nVegeu-ho aquí:\n{discussion_url}\n\nÉs possible que hàgiu d'iniciar sessió primer abans de poder accedir a aquest enllaç.\n"
-      private_discussion_replied: "Hola {recipient_display_name},\n\n{actor_display_name} publicat en una discussió privada amb tu com a destinatari: {discussion_title}.\n\nVegeu-ho aquí:\n{post_url}\n\nÉs possible que hàgiu d'iniciar sessió primer abans de poder accedir a aquest enllaç.\n"
-      recipient_removed: "Hola {recipient_display_name},\n\n{actor_display_name} ha deixat la discussió privada: {discussion_title}. Ja no podran veure cap contingut seu.\n\nVegeu-ho aquí:\n{discussion_url}\n\nÉs possible que hàgiu d'iniciar sessió primer abans de poder accedir a aquest enllaç.\n"
-      private_discussion_added: "Hola {recipient_display_name},\n\n{actor_display_name} t'ha afegit a una discussió privada existent: {discussion_title}.\n\nVegeu-ho aquí:\n{discussion_url}\n\nÉs possible que hàgiu d'iniciar sessió primer abans de poder accedir a aquest enllaç.\n"
+  email: null
 v17development-flarum-badges:
   forum:
     badge_information: 'Informació de la insígnia'
@@ -966,17 +691,11 @@ v17development-flarum-badges:
       no_earning_reason: 'No s''estableix cap raó de guany'
       earned_on: 'Insígnia guanyada el'
       category: 'Categoria d''insígnia'
-      received_on: 'Rebut el {date}'
       badge_details: 'Detalls de la insígnia'
-      earned_count: '{compte, plural, un {<b># usuari</b> ha guanyat aquesta insígnia} altres {<b># usuaris</b> han guanyat aquesta insígnia}}'
-      earned_by_count: '{count, plural, un {Guanyat per <b># usuari</b>} altre {Guanyat per <b># usuaris</b>}}'
-      others_link: '+ {comptar} més'
     badges_in_card:
       title: 'Insígnies en targeta d''usuari'
       manage_badges: 'Gestionar les insígnies'
       description: 'Podeu canviar les insígnies visibles de la vostra targeta d''usuari amb una de les altres insígnies. Si no en selecciones cap, se seleccionaran automàticament.'
-      select_limit: 'Podeu seleccionar {limit, plural, one {<b>one badge</b>} other {<b># badges</b>}} perquè sigui visible a la vostra targeta d''usuari.'
-      hit_limit: 'Només hi ha lloc per a <b> {límit, plural, una {<b>una insígnia</b>} i altres {<b># insígnies</b>}}</b> a la targeta. Desmarqueu una insígnia per deixar espai a aquesta insígnia.'
     moderation:
       remove_badge: 'Suprimir la insígnia de l''usuari'
       remove_badge_confirm: 'Estàs segur que vols eliminar aquesta insígnia d''aquest usuari?'
@@ -985,14 +704,10 @@ v17development-flarum-badges:
       title: 'Has rebut una nova insígnia'
       settings: 'He rebut una insígnia'
     uncategorized: Uncategorized
-v17development-flarum-seo:
-  forum:
-    profile_title: 'Perfil de {nom d''usuari}'
-    profile_description: 'Perfil de {nom d''usuari} | {discussion_count} discussions | {comment_count} missatges'
+v17development-flarum-seo: null
 the-turk-miserable-users:
   forum:
     miserable_user:
-      title: 'Miserable {nom d''usuari}'
       status_heading: 'Estat miserable'
       not_miserable_label: 'No és miserable'
       indefinitely_label: 'Miserable indefinidament'
@@ -1009,7 +724,6 @@ sycho-profile-cover:
   forum:
     cover: Cobrir
     edit_cover: 'Edita la portada'
-    notice: 'Mida màxima: {mida}'
     added:
       success: 'Portada del perfil actualitzada.'
       error: 'No s''ha pogut carregar la imatge.'
@@ -1018,10 +732,7 @@ sycho-profile-cover:
       error: 'No s''ha pogut treure la coberta, torna-ho a provar més tard.'
 sycho-photoswipe: null
 nearata-tags-color-generator: null
-nearata-prevent-double-posting:
-  forum:
-    exception:
-      too_many_replies: 'No es permeten més de {count} respostes consecutives. Si us plau, editeu la vostra resposta anterior o espereu que algú us respongui.'
+nearata-prevent-double-posting: null
 nearata-copy-code-to-clipboard:
   forum:
     copy: 'Copiar al porta-retalls'
@@ -1030,7 +741,6 @@ michaelbelgium-flarum-profile-views:
   forum:
     user:
       viewlist: { title: 'Últims visitants', guest: Hoste }
-      view_count_text: '{viewcount, plural, un {viewcount} time} altres {viewcount} vegades}}'
 justoverclock-country-flags:
   forum:
     inputCountryCode: 'Codi del país'
@@ -1058,13 +768,10 @@ ianm-syndication:
     autodiscovery:
       forum_activity: 'Activitat del fòrum'
       forum_new_discussions: 'Nous debats del Fòrum'
-      tag_activity: 'Activitat per a l''etiqueta {tag}'
-      tag_new_discussions: 'Discussions a l''etiqueta {tag}'
       discussion_last_posts: 'Aquesta discussió'
       user_last_posts: 'Missatges i comentaris d''aquest usuari'
     feeds:
-      entries: { user_posts: { title_reply: 'Re: {discussió}' } }
-      titles: { main_title: '{forum_name}', main_subtitle: 'Últims posts del fòrum', main_d_title: 'Noves discussions a {forum_name}', main_d_subtitle: 'Els debats més recents del fòrum', tag_title: 'Activitat a l''etiqueta {tag}', tag_subtitle: 'Últims missatges de l''etiqueta {tag}', tag_d_title: 'Noves discussions a l''etiqueta {tag}', tag_d_subtitle: 'Les discussions més recents a l''etiqueta {tag}', discussion_title: '{discussion_name}', discussion_subtitle: 'Últims missatges d''aquesta discussió', user_title: '{nom d''usuari}', user_subtitle: 'Últimes entrades i comentaris d''aquest usuari.' }
+      titles: { main_subtitle: 'Últims posts del fòrum', main_d_subtitle: 'Els debats més recents del fòrum', discussion_subtitle: 'Últims missatges d''aquesta discussió', user_subtitle: 'Últimes entrades i comentaris d''aquest usuari.' }
     discussion:
       feed_link: Alimentar
 ianm-log-viewer: null
@@ -1072,7 +779,6 @@ ianm-html-head: null
 ianm-follow-users:
   forum:
     followed: Seguit
-    followers: '{compte, plural, un {Seguidor} altre {Seguidor}}'
     profile_page:
       no_following: 'Sembla que no segueixes ningú.'
     settings:
@@ -1081,17 +787,12 @@ ianm-follow-users:
       notify_new_discussion_label: 'Algú que segueixo inicia una discussió'
       notify_new_post_label: 'Algú que estic seguint missatges en una discussió existent'
       block_follow: 'Impedir que els usuaris em segueixin'
-    notifications:
-      new_discussion_text: '{nom d''usuari} iniciat'
-      new_post_text: '{nom d''usuari} publicat en una discussió'
-      new_follower_text: '{nom d''usuari} et va seguir'
-      new_unfollower_text: '{nom d''usuari} ha deixat de seguir-te'
     badge:
       label: { follow: 'Discussions següents', lurk: 'Seguint a tots' }
     filter:
       following: 'Usuaris seguits'
     modals:
-      select_follow_level: { title: 'Seleccioneu el nivell de seguiment per a {nom d''usuari}', description: 'Tria com vols seguir <em>{nom d''usuari}</em>.', follow_levels_heading: 'Seguir nivells', follow_select_label: 'Seguir tipus', no_user_attr_provided_err: Uh, no_user_attr_provided_err_debug: 'No es va passar cap atribut ''user'' al modal SelectFollowUserLevel quan es va crear. El modal no es pot representar.', save_btn: Salvar, cancel_btn: Cancel·lar }
+      select_follow_level: { follow_levels_heading: 'Seguir nivells', follow_select_label: 'Seguir tipus', no_user_attr_provided_err: Uh, no_user_attr_provided_err_debug: 'No es va passar cap atribut ''user'' al modal SelectFollowUserLevel quan es va crear. El modal no es pot representar.', save_btn: Salvar, cancel_btn: Cancel·lar }
     profile_link: 'Usuaris seguits'
     user_controls:
       follow_button: Seguir
@@ -1101,37 +802,28 @@ ianm-follow-users:
       follow_tag_button: Seguir
       unfollow_tag_button: 'Canviar seguir el tipus'
   email:
-    new_discussion_by_user_subject: '[Seguir usuari] {títol}'
     new_follower_subject: '[Seguir usuari] Tens un nou seguidor!'
-    new_post_subject: '[Seguir usuari] Nova entrada a {títol}'
-    new_discussion_by_user_body: "Hola {recipient_display_name},\n\n{user_display_name} ha iniciat una nova discussió: {discussion_title}\n\nPer veure la nova discussió, consulteu el següent enllaç:\n\n{discussion_url}\n\n---\n\n{post_content}\n"
-    new_follower_body: "Hola {recipient_display_name},\n\n{follower_display_name} ha començat a seguir-te, de manera que se'ls notificarà quan iniciïs una nova discussió.\n\nPer veure el seu perfil, consulteu el següent enllaç:\n\n{profile_url}\n"
-    new_post_body: "Hola {recipient_display_name},\n\n{user_display_name} publicat en una discussió: {discussion_title}\n\nPer veure la nova activitat, consulteu el següent enllaç:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNo rebreu més notificacions sobre aquesta discussió fins que no estigueu al dia.\n"
   lib:
     following_link: 'Usuaris seguits'
     follow: Seguir
     change_follow_type: 'Canviar seguir el tipus'
     unfollow: 'Deixar de seguir'
     follow_levels:
-      unfollow: { name: 'No segueixis', description: "No rebeu cap notificació de l'activitat de <em>{nom d'usuari}</em>.\n" }
-      follow: { name: 'Seguir debats', description: "Rebeu notificacions quan <em>{nom d'usuari}</em> iniciï una nova discussió.\n" }
-      lurk: { name: 'Segueix-ho tot', description: "Rebeu notificacions quan <em>{nom d'usuari}</em> iniciï una nova discussió o publicacions dins de qualsevol discussió.\n" }
+      unfollow: { name: 'No segueixis' }
+      follow: { name: 'Seguir debats' }
+      lurk: { name: 'Segueix-ho tot' }
 fof-username-request:
   forum:
     nickname_modals:
-      action: { help_text: 'Assegureu-vos que aquest canvi d''àlies sol·licitat segueixi les directrius del fòrum.', decision_title: Decisió, approval_label: Aprovar, rejected_label: Refusar, submit_button: Entregar, reason_title: 'Motiu del rebuig', success: 'Resolució enviada.', name: '{name} ha sol·licitat canviar el seu sobrenom per "{requestedName}"', title: 'Sol·licitud de canvi d''àlies' }
-      results: { title: 'Sol·licitud de canvi d''àlies', approved: 'S''ha aprovat la sol·licitud de canvi d''àlies', new_name: 'El vostre àlies s''ha canviat correctament a: {name}', rejected: 'La sol·licitud de canvi d''àlies s''ha rebutjat', reason: 'Motiu del rebuig: <i>"{motiu}"</i>.', resubmit: 'En aquest moment, podeu tornar a enviar una nova sol·licitud de canvi d''àlies des de la configuració del vostre compte si així ho decidiu.', dismiss_button: 'D''ACORD' }
-      request: { title: 'Sol·licitar el canvi d''àlies', current_request: 'Ja heu sol·licitat canviar el vostre pseudònim per "{name}". Podeu actualitzar la sol·licitud o suprimir-la.', submit_button: 'Enviar sol·licitud', delete_button: 'Suprimeix la sol·licitud', confirmation_message: 'La vostra sol·licitud de canvi d''àlies s''ha enviat i està pendent d''aprovació.', deleted: 'Sol·licitud d''àlies suprimida.', dismiss_button: 'D''ACORD' }
+      action: { help_text: 'Assegureu-vos que aquest canvi d''àlies sol·licitat segueixi les directrius del fòrum.', decision_title: Decisió, approval_label: Aprovar, rejected_label: Refusar, submit_button: Entregar, reason_title: 'Motiu del rebuig', success: 'Resolució enviada.', title: 'Sol·licitud de canvi d''àlies' }
+      results: { title: 'Sol·licitud de canvi d''àlies', approved: 'S''ha aprovat la sol·licitud de canvi d''àlies', rejected: 'La sol·licitud de canvi d''àlies s''ha rebutjat', resubmit: 'En aquest moment, podeu tornar a enviar una nova sol·licitud de canvi d''àlies des de la configuració del vostre compte si així ho decidiu.', dismiss_button: 'D''ACORD' }
+      request: { title: 'Sol·licitar el canvi d''àlies', submit_button: 'Enviar sol·licitud', delete_button: 'Suprimeix la sol·licitud', confirmation_message: 'La vostra sol·licitud de canvi d''àlies s''ha enviat i està pendent d''aprovació.', deleted: 'Sol·licitud d''àlies suprimida.', dismiss_button: 'D''ACORD' }
     username_modals:
-      action: { help_text: 'Assegureu-vos que aquest canvi de nom d''usuari sol·licitat segueix les directrius del fòrum.', decision_title: Decisió, approval_label: Aprovar, rejected_label: Refusar, submit_button: Entregar, reason_title: 'Motiu del rebuig', success: 'Resolució enviada.', name: '{name} ha sol·licitat canviar el seu nom d''usuari per "{requestedName}"', title: 'Sol·licitud de canvi de nom d''usuari' }
-      results: { title: 'Sol·licitud de canvi de nom d''usuari', approved: 'S''ha aprovat la sol·licitud de canvi de nom d''usuari', new_name: 'El nom d''usuari s''ha canviat correctament a: {name}', rejected: 'La vostra sol·licitud de canvi de nom d''usuari s''ha rebutjat', reason: 'Motiu del rebuig: <i>"{motiu}"</i>.', resubmit: 'En aquest moment, podeu tornar a enviar una nova sol·licitud de canvi de nom d''usuari des de la configuració del vostre compte si així ho decidiu.', dismiss_button: 'D''ACORD' }
-      request: { title: 'Sol·licitar canvi de nom d''usuari', current_request: 'Ja heu sol·licitat canviar el vostre nom d''usuari per "{name}". Podeu actualitzar la sol·licitud o suprimir-la.', submit_button: 'Enviar sol·licitud', delete_button: 'Suprimeix la sol·licitud', confirmation_message: 'La vostra sol·licitud de canvi de nom d''usuari s''ha enviat i està pendent d''aprovació.', deleted: 'Sol·licitud de nom d''usuari suprimida.', dismiss_button: 'D''ACORD' }
+      action: { help_text: 'Assegureu-vos que aquest canvi de nom d''usuari sol·licitat segueix les directrius del fòrum.', decision_title: Decisió, approval_label: Aprovar, rejected_label: Refusar, submit_button: Entregar, reason_title: 'Motiu del rebuig', success: 'Resolució enviada.', title: 'Sol·licitud de canvi de nom d''usuari' }
+      results: { title: 'Sol·licitud de canvi de nom d''usuari', approved: 'S''ha aprovat la sol·licitud de canvi de nom d''usuari', rejected: 'La vostra sol·licitud de canvi de nom d''usuari s''ha rebutjat', resubmit: 'En aquest moment, podeu tornar a enviar una nova sol·licitud de canvi de nom d''usuari des de la configuració del vostre compte si així ho decidiu.', dismiss_button: 'D''ACORD' }
+      request: { title: 'Sol·licitar canvi de nom d''usuari', submit_button: 'Enviar sol·licitud', delete_button: 'Suprimeix la sol·licitud', confirmation_message: 'La vostra sol·licitud de canvi de nom d''usuari s''ha enviat i està pendent d''aprovació.', deleted: 'Sol·licitud de nom d''usuari suprimida.', dismiss_button: 'D''ACORD' }
     pending_requests:
       empty_text: 'No s''ha trobat cap sol·licitud de canvi de nom.'
-      nickname_item_text: '{name} ha demanat un canvi d''àlies'
-      nickname_exerpt: 'Àlies sol·licitat: {requestedName}'
-      username_item_text: '{name} ha sol·licitat un canvi de nom d''usuari'
-      username_exerpt: 'Nom d''usuari sol·licitat: {requestedName}'
       tooltip: 'Sol·licituds de canvi de nom'
       title: 'Sol·licituds de canvi de nom'
     settings:
@@ -1149,15 +841,9 @@ fof-username-request:
   email:
     body:
       noReasonProvided: 'No s''ha proporcionat cap motiu.'
-      approved: "Hola {recipient_display_name},\n\nLa vostra sol·licitud per canviar el nom d'usuari a \"{new_username}\" ha estat aprovada per {actor_display_name}.\n\nJa pots iniciar sessió amb el teu nou nom d'usuari: {login_url}\n"
-      rejected: "Hola {recipient_display_name},\n\nLa vostra sol·licitud per canviar el nom d'usuari de \"{old_username}\" a \"{requested_username}\" ha estat rebutjada per {actor_display_name}.\n\nMotiu: {motiu}\n"
-    subject:
-      approved: '{display_name} ha aprovat el canvi de nom d''usuari a {requested_username}'
-      rejected: '{display_name} ha rebutjat el canvi de nom d''usuari a {requested_username}'
 fof-user-bio:
   forum:
     userbioPlaceholder: 'Escriu alguna cosa sobre tu mateix'
-    userbioPlaceholderOtherUser: 'Escriure una biografia per a {nom d''usuari}'
     profile:
       cancel_confirm: 'Estàs segur que vols cancel·lar l''edició de la teva biografia? Perdràs tots els canvis que hagis fet.'
       cancel_button: Cancel·lar
@@ -1165,9 +851,6 @@ fof-user-bio:
       edit_bio_label: 'Edita la biografia'
 fof-split:
   forum:
-    post:
-      was_split_to: '{count, plural, one {{count} post es va dividir en {target}.} Altres entrades de {{count} es van dividir en {target}.}}'
-      was_split_from: '{count, plural, one {{count} post es va dividir de {target}.} altres entrades de {{count} es van separar de {target}.}}'
     split:
       from: 'Separa''t d''aquí'
       to: 'Divideix en aquí'
@@ -1221,13 +904,11 @@ fof-reactions:
   forum:
     disabled-reaction: 'No podeu utilitzar aquesta reacció ara mateix, actualitzeu la pàgina'
     warning: 'La seva reacció es va convertir'
-    notification: '{username} ha reaccionat amb {reaction} a la teva entrada'
     settings:
       notify_post_reacted_label: 'Algú reacciona a una de les meves publicacions'
     reacting-own-post: 'No podeu reaccionar a la vostra pròpia publicació'
     modal:
       title: Reaccions
-      anonymous_count: '{compte, plural, un {# usuari anònim} altre {# usuaris anònims}}'
       no_reactions: 'Encara no hi ha reaccions'
     mod_item: 'Veure reaccions'
     react_button_label: Reaccionar
@@ -1241,22 +922,19 @@ fof-profile-image-crop:
 fof-prevent-necrobumping:
   forum:
     composer:
-      warning: { title: 'Aquesta discussió té més de <b>{temps}</b> d''antiguitat.', description: 'És molt probable que no necessiti més discussió i, per tant, no serveix per a res.', checkbox_label: 'Sóc conscient que aquesta discussió és bastant antiga, però encara voldria respondre.', error: 'Aquesta discussió és massa antiga per respondre-hi.' }
+      warning: { description: 'És molt probable que no necessiti més discussió i, per tant, no serveix per a res.', checkbox_label: 'Sóc conscient que aquesta discussió és bastant antiga, però encara voldria respondre.', error: 'Aquesta discussió és massa antiga per respondre-hi.' }
 fof-pretty-mail: null
 fof-polls:
   forum:
-    days_remaining: 'El sondeig acaba {time}.'
     no_permission: 'No tens permís per votar'
     poll_ended: 'Aquesta enquesta ha acabat.'
     public_poll: 'Veure els votants'
-    max_votes_allowed: 'L''enquesta permet votar per {max, plural, una {# opció} altres {# opcions}}.'
     composer_discussion:
       add_poll: 'Afegeix una enquesta'
       edit_poll: 'Edita l''enquesta'
     modal:
       add_title: 'Afegir una enquesta'
       add_option_label: 'Afegeix una opció'
-      date_placeholder: 'Data de finalització de l''enquesta (opcional)'
       edit_title: 'Edita l''enquesta'
       include_question: 'Has d''incloure una pregunta'
       max: 'Pots tenir un màxim de 10 respostes'
@@ -1277,7 +955,6 @@ fof-polls:
       edit: 'Edita l''enquesta'
     tooltip:
       badge: Enquesta
-      votes: '{comptar, plural, un {# vot} altres {# vots}}'
     votes_modal:
       title: Votants
 fof-nightmode:
@@ -1297,11 +974,9 @@ fof-moderator-notes:
   forum:
     no_content_given: 'No es permet una nota buida.'
     moderatorNotes:
-      created_text: '{username} ha creat aquesta nota a {date}'
       add_button: 'Nova nota'
       create-heading: 'Crear una nota de moderador nova'
       dismiss_button: Fet
-      input_heading: 'Introduïu les notes per a <strong>{nom d''usuari}</strong> (s''admet el marcatge)'
       noNotes: 'Sembla que aquí no hi ha notes.'
       submit_button: 'Desar nota'
       delete: Esborrar
@@ -1309,8 +984,6 @@ fof-moderator-notes:
     user:
       notes: 'Notes del moderador'
   api:
-    auto_note: '_I canviat a aquest usuari:_ {motiu}'
-    auto_note_actor: '_Switched to_ @{nom d''usuari}: {motiu}'
     no_reason_provided: 'No es proporciona cap motiu'
 fof-linguist: null
 fof-html-errors: null
@@ -1325,12 +998,8 @@ fof-gamification:
       name: Usuari
       amount: Punts
     notification:
-      upvote: '{nom d''usuari} ha votat l''entrada'
-      downvote: '{nom d''usuari} ha rebaixat l''entrada'
       prefrences: { vote: 'Quan una de les meves publicacions és votada amunt / avall' }
     user:
-      card: { points: '{comptar, plural, un { {comptar} punt} altres {{comptar} punts}}' }
-      rank: '{rang}'
       votes_link: Vots
     modal:
       downvotes_label: 'Votants a la baixa:'
@@ -1344,11 +1013,6 @@ fof-gamification:
     post:
       upvote_button: 'Publicació de vot ascendent'
       downvote_button: 'Entrada a la baixa'
-  email:
-    body:
-      postVoted: "Hola {recipient_display_name},\n\n{actor_display_name} acaba de votar el teu missatge a {discussion_title}.\n\nVegeu-ho aquí: {discussion_url}\n"
-    subject:
-      postVoted: 'La teva publicació ha estat votada per {display_name}'
 fof-formatting: null
 fof-drafts:
   console:
@@ -1367,7 +1031,6 @@ fof-drafts:
       title: Esborranys
       delete_all_button: 'Suprimir tots els esborranys'
       delete_button: 'Suprimeix l''esborrany'
-      scheduled_icon_tooltip: 'Programat per {datetime}'
       scheduled_icon_tooltip_formatter: 'L [at] LT'
       alert: 'Estàs segur que vols esborrar l''esborrany?'
       delete_all_alert: 'Estàs segur que vols esborrar tots els teus esborranys?'
@@ -1375,13 +1038,10 @@ fof-drafts:
       tooltip: Esborranys
     schedule_draft_modal:
       text: 'Programeu el vostre esborrany perquè es publiqui automàticament més endavant.'
-      scheduled_text: 'Actualment programat per publicar a {datetime}.'
-      scheduled_error: 'No es pot programar l''esborrany: {error}.'
       unschedule_button: Descalendari
       unschedule_warning: 'Estàs segur que vols desprogramar aquest esborrany?'
       reschedule_button: Planificar
       schedule_button: Horari
-      schedule_time_preview: 'Aquest esborrany es publicarà automàticament a <b>{datetime}</b>.'
       schedule_time_preview_formatter: LLLL
       schedule_time_preview_invalid: 'Data i/o hora no vàlida'
       title: 'Esborrany de planificació'
@@ -1393,13 +1053,10 @@ fof-best-answer:
     this_best_answer: 'Seleccioneu la millor resposta'
     remove_best_answer: 'Desseleccioneu la millor resposta'
     best_answer_button: 'Millor resposta'
-    best_answer_label: 'Definit per <a>{nom d''usuari}</a> {time_set}'
     errors:
       mismatch: 'L''entrada seleccionada no existeix en aquesta discussió.'
     notification:
-      best_answer_in_discussion: '{nom d''usuari} estableix la millor resposta en aquesta discussió'
       content: 'Seleccioneu la millor resposta si la vostra pregunta s''ha respost'
-      awarded: 'La vostra publicació s''ha establert com la millor resposta per {nom d''usuari}'
       preferences: { awarded_best_answer: 'Algú estableix la meva publicació com la millor resposta', best_answer_in_discussion: 'Una millor resposta s''estableix en una discussió en la qual vaig participar', select_best_answer: 'Un recordatori automàtic per seleccionar la millor resposta en una discussió que he iniciat' }
     index:
       ask_question: 'Fes una pregunta'
@@ -1413,22 +1070,13 @@ fof-best-answer:
       accessible_label: 'Selecció resolta/no resolta'
     composer:
       titlePlaceholder: 'Títol de la pregunta'
-    user:
-      best-answer-count: '{comptar, plural, un { {comptar} millor resposta} altres {{comptar} millors respostes}}'
     search:
       discussions_solutions_heading: 'Debats amb solucions'
-      all_discussions_solutions_button: 'Cerqueu a totes les discussions amb solucions "{consulta}"'
     discussion:
       jump_to_best_answer_button: 'Mostra la millor resposta'
   email:
     subject:
-      awarded: 'El vostre article s'' ha establert com la millor resposta per {fina_ nom}'
-      ba-set: 'Una millor resposta ha estat establerta per { display_ name}'
       select: 'Has aconseguit que em responguessin la pregunta?'
-    body:
-      awarded: "Ei {revent_ display_ name},\n\nGran treball, {actor_ display_ nom} Simplement establiu el vostre article com a millor resposta a la discussió: {discusion_ title}. Gràcies per ajudar.\n\nVeure-ho aquí: {discusion_url}\n"
-      ba-set: "Ei {revent_ display_ name},\n\n{actor_ display_ nom} Simplement establiu una millor resposta a la discussió: {discusion_ title}, en la qual heu participat.\n\nComproveu-ho: {discusion_url}\n"
-      select: "Ei {revent_ display_ name},\n\nNomés comprovant-ho; per ara hauríeu de tenir moltes respostes a la vostra pregunta: {discusion_ títol}. Espero que un d'ells t'hagi ajudat a resoldre el teu problema.\n\nSi és així, seria realment útil per als futures membres si poguessis establir una millor resposta a la teva pregunta. Ajudarà a la gent amb el mateix problema a trobar la resposta que necessiten, i també és un gran agraïment per als membres que t'han ajudat. Donen el seu temps voluntàriament, així que és agradable fer-los saber que estan bé.\n\nVisiteu aquí el debat: {discusion_url}, i seleccioneu l' article més apropiat com a millor resposta.\n\nGràcies!\n"
 fof-user-directory:
   lib:
     sort:
@@ -1437,8 +1085,6 @@ fof-user-directory:
 fof-ban-ips:
   forum:
     modal:
-      ban_options_only_ip: 'Prohibir només la IP actual (<code>{ip}</code>)'
-      ban_options_all_ip: 'Prohibir totes les IP utilitzades per <i>{nom d''usuari}</i>'
       ban_ip_no_users: 'No es prohibirà ningú més'
     user_badge:
       banned_tooltip: Prohibit
@@ -1455,13 +1101,8 @@ fof-ban-ips:
       check_button: Comprovar
       save_button: Salvar
       ban_ip_confirmation: 'Esteu segur que voleu bloquejar aquesta adreça IP per utilitzar-la al fòrum? Això bloquejarà als usuaris amb aquestes adreces IP iniciar sessió i registrar-se.'
-      ban_ip_users: '{comptar, plural, un {usuari {usuaris} serà prohibit} altres {usuaris {usuaris} seran prohibits}}'
       unban_ip_confirmation: 'Esteu segur que voleu prohibir aquest usuari i tots els altres usuaris no prohibits per altres IP?'
-      unban_options_only_ip: 'Només unban la IP actual (<code>{ip}</code>)'
-      unban_options_all_ip: 'Prohibir totes les IP utilitzades per <i>{nom d''usuari}</i>'
       unban_ip_no_users: 'Ningú més serà prohibit'
-      unban_ip_users: '{comptar, plural, un {usuari {usuaris} serà prohibit} altres {usuaris {usuaris} seran prohibits}}'
-      unbanned_ips: 'No prohibit <code>{ips}</code>.'
       title: 'Prohibir IP(s)'
       unban_title: 'Unban IP(s)'
       address_label: 'Adreça IP'
@@ -1492,7 +1133,6 @@ fof-anti-spam:
       move_discussions_tag_label: 'Moure els debats a l''etiqueta en quarantena'
       move_discussions_tag_help: 'Això mourà totes les discussions iniciades per aquest usuari a l''etiqueta que heu especificat a la configuració del fòrum. Quan estigui desactivat, les discussions es deixaran a les etiquetes actuals.'
       process_button: Procés
-      title: 'Marcar {nom d''usuari} com a spammer'
       report_to_sfs_label: 'Informe a StopForumSpam'
       report_to_sfs_help: 'Això informarà dels detalls bàsics de l''usuari (nom d''usuari, correu electrònic, adreça IP) a StopForumSpam. Això ajudarà a evitar que l''usuari es registri en altres fòrums que utilitzen el servei StopForumSpam.'
     user_controls:
@@ -1511,18 +1151,11 @@ flarum-sticky:
     discussion_controls:
       unsticky_button: Enganxós
       sticky_button: Enganxós
-    post_stream:
-      discussion_stickied_text: '{nom d''usuari} ha enganxat la discussió {time}.'
-      discussion_unstickied_text: '{nom d''usuari} ha desenganxat la discussió {time}.'
     badge:
       sticky_tooltip: Enganxós
   ref:
     sticky: Enganxós
 flarum-statistics: null
-flarum-pusher:
-  forum:
-    discussion_list:
-      show_updates_text: '{comptar, plural, un {Mostra # discussió actualitzada} altres {Mostra # discussions actualitzades}}'
 flarum-lock:
   forum:
     badge:
@@ -1530,24 +1163,13 @@ flarum-lock:
     discussion_controls:
       lock_button: Pany
       unlock_button: Obrir
-    notifications:
-      discussion_locked_text: '{nom d''usuari} bloquejat'
-    post_stream:
-      discussion_locked_text: '{nom d''usuari} ha bloquejat la discussió {time}.'
-      discussion_unlocked_text: '{nom d''usuari} ha desbloquejat la discussió {time}.'
     settings:
       notify_discussion_locked_label: 'Algú bloqueja una discussió que he iniciat'
 flarum-likes:
   forum:
-    notifications:
-      post_liked_text: '{nom d''usuari} m''ha agradat la teva entrada'
-      others_text: '{comptar, plural, un {# altre} altres {# altres}}'
     post:
       like_link: Agradar
-      liked_by_self_text: '{usuaris} així.'
-      liked_by_text: '{compte, plural, un {{usuaris} li agrada això} altres {{usuaris} així}}.'
       unlike_link: 'A diferència de'
-      others_link: '{comptar, plural, un {# altre} altres {# altres}}'
       you_text: Tu
     post_likes:
       title: 'Usuaris que els agrada'
@@ -1602,9 +1224,6 @@ dhtml-composer:
       character_counter: 'Comptador de caràcters'
 datlechin-birthdays:
   forum:
-    user:
-      birthday_text: 'Aniversari: {date}'
-      age_text: 'Edat: {edat}'
     change_dob:
       title: 'Edita la data de naixement'
       date_of_birth_text: 'Data de naixement'
@@ -1617,16 +1236,12 @@ datlechin-birthdays:
       dob_heading: 'Data de naixement'
     nav:
       nav_item: 'Aniversaris d''avui'
-    page:
-      discussion_count: '{compte, plural, un {Discussió:#} altres {Discussions: #}}'
-      post_count: '{comptar, plural, un {Post: #} altres {Missatges: #}}'
     edit_user:
       dob_heading: 'Data de naixement'
     sign_up:
       dob_placeholder: 'Data de naixement'
   api:
     invalid_dob_message: 'Data de naixement no vàlida'
-    invalid_age_message: 'La seva edat ha de ser com a mínim {minAge} anys.'
   ref:
     date_of_birth: 'Data de naixement'
 clarkwinkelmann-post-permissions: null
@@ -1662,24 +1277,13 @@ askvortsov-rich-text:
       insert_image: { src_placeholder: Lligam, title_placeholder: Títol }
       insert_link: { text_placeholder: SMS, href_placeholder: URL, title_placeholder: 'Títol (es mostra en passar el cursor per sobre)', remove_button: Treure }
       additional_items_tooltip: 'Controls addicionals'
-      bold_tooltip: 'Text en negreta <{modificadorClau}-b>'
-      code_tooltip: 'Codi en línia <{modifierKey}-''>'
       code_block_tooltip: 'Inserir un bloc de codi'
-      header_tooltip: 'Canvieu a capçalera {level} <shift-{modifierKey}-{level}>'
       horizontal_rule_tooltip: 'Inserir regla horitzontal'
       image_tooltip: 'Afegir una imatge'
-      italic_tooltip: 'Text en cursiva <{modifierKey}-i>'
       link_tooltip: 'Afegir un enllaç'
-      ordered_list_tooltip: 'Llista numerada <shift-{modifierKey}-9>'
-      paragraph_tooltip: 'Canvieu al paràgraf <shift-{modifierKey}-0>'
-      quote_tooltip: 'Inseriu una cita <{modifierKey}-q>'
       spoiler_block_tooltip: 'Bloc spoiler/desplegable'
-      spoiler_inline_tooltip: 'Spoiler <{modifierKey}-;>'
       strike_tooltip: 'Ratllat <alt-shift-5>'
-      sub_tooltip: 'Subíndex <{modifierKey}-,>'
-      sup_tooltip: 'Superíndex <{modifierKey}-.>'
       text_type_tooltip: 'Seleccioneu el tipus de text'
-      unordered_list_tooltip: 'Llista amb pics <shift-{modifierKey}-8>'
   forum:
     settings:
       composer_heading: Compositor
@@ -1694,7 +1298,6 @@ askvortsov-pwa:
       share_button: Compartir
     post_controls:
       share_button: Compartir
-      share_api: { title: 'Resposta de {nom d''usuari} a {títol}''' }
     user_controls:
       share_button: Compartir
     settings:
@@ -1705,20 +1308,7 @@ askvortsov-pwa:
       header: 'Error de connexió a la xarxa'
       text: 'Aquesta aplicació requereix una connexió de xarxa; No es pot utilitzar fora de línia. Comproveu la vostra connexió.'
 askvortsov-moderator-warnings:
-  emails:
-    post_warned:
-      subject: '{warner_display_name} t''ha avisat amb {vaga, plural, un {# vaga} altre {# vagues}} a {discussion_title}'
-      body: "Hola {warnee_display_name}!\n\n{warner_display_name} t'ha avisat amb {vaga, plural, un {# vaga} altre {# vagues}} a {discussion_title}\n\nEs va donar la següent raó:\n\n---\n\n{public_comment}\n"
-    user_warned:
-      subject: '{warner_display_name} t''ha avisat amb {vagues, plural, una {# vaga} altres {# vagues}}'
-      body: "Hola {warnee_display_name}!\n\n{warner_display_name} t'ha avisat amb {vagues, plural, una {# vaga} altres {# vagues}}\n\nEs va donar la següent raó:\n\n---\n\n{public_comment}\n"
   forum:
-    notifications:
-      warning_text: '{vagues, plural, una {Heu estat avisats amb # vaga per {mod_username}} altres {Heu estat avisats amb # vagues per {mod_username}}}'
-      warning_no_strikes_text: 'T''han avisat {mod_username} (sense vagues)'
-    post:
-      warning: '{vagues, plural, una {Avisada amb # vaga de {mod_username}} altres {Avisat amb # vagues de {mod_username}}}'
-      warning_no_strikes: 'Avisat sense tocs d''atenció de {mod_username}'
     post_controls:
       warning_button: 'Avisar a l''usuari'
     user:
@@ -1735,20 +1325,14 @@ askvortsov-moderator-warnings:
     warning_list:
       add_button: 'Nou avís'
       no_warnings: 'Sembla que aquí no hi ha avisos.'
-      warnings: '{vagues, plural, una {Advertències del moderador: # Toc d''atenció rebut} altres {Advertències del moderador: # Tocs d''atenció rebuts}}'
       warnings_no_strikes: 'Advertiments del moderador: no s''han rebut tocs d''atenció'
     warning_list_item:
-      list_item_heading: '{vagues, plural, una {<strong>#</strong> vaga, {temps}} altres {<strong>#</strong> vagues, {temps}}}'
-      list_item_heading_hidden: '{vagues, plural, un {<strong>#</strong> vaga, {temps} <strong>(eliminat)</strong>} altres {<strong>#</strong> vagues, {temps} <strong>(eliminat)</strong>}}'
       public_comment: Advertiment
       private_comment: 'Moderador-Comentaris visibles'
       linked_post: 'Post enllaçat'
     warning_modal:
       confirmation_message: 'El vostre advertiment s''ha desat. És possible que hàgiu d''actualitzar la pàgina per veure-la.'
-      heading: 'Avisar <strong>{nom d''usuari}</strong>'
       strikes_heading: 'Quantes vagues s''han d''aplicar?'
-      public_comment_heading: 'Per què <strong>{nom d''usuari}</strong> rep aquests advertiments? Aquests comentaris seran visibles per a l''usuari i altres moderadors.'
-      private_comment_heading: 'Per què <strong>{nom d''usuari}</strong> rep aquests advertiments? Aquests comentaris NOMÉS seran visibles per a la resta de moderadors.'
       submit_button: 'Desa l''avís'
 askvortsov-discussion-templates:
   forum:

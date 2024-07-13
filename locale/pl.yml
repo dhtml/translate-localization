@@ -3,7 +3,6 @@ core:
     change_email:
       incorrect_password_message: 'Wprowadzone hasło jest nieprawidłowe.'
       confirm_password_placeholder: 'Potwierdź hasło'
-      confirmation_message: 'Wysłaliśmy wiadomość e-mail z potwierdzeniem na adres {email}. Jeśli nie nadejdzie wkrótce, sprawdź folder ze spamem.'
       dismiss_button: OK
       submit_button: 'Zapisz zmiany'
       title: 'Zmień adres e-mail'
@@ -26,7 +25,6 @@ core:
     composer_edit:
       discard_confirmation: 'Nie zapisałeś swoich zmian. Czy chcesz je wyrzucić?'
       edited_message: 'Twoja zmiana została wprowadzona.'
-      post_link: 'Opublikuj #{number} w {dyskusja}'
       submit_button: 'Zapisz zmiany'
       view_button: Widok
     composer_reply:
@@ -48,10 +46,6 @@ core:
       restore_button: Przywrócić
     discussion_list:
       empty_text: 'Wygląda na to, że nie ma tu żadnych dyskusji.'
-      replied_text: '{nazwa_użytkownika} odpowiedział {ago}'
-      started_text: '{username} rozpoczęty {temu}'
-      total_replies_a11y_label: '{liczba, liczba mnoga, jedna {# odpowiedź} inne {# odpowiedzi}}'
-      unread_replies_a11y_label: '{liczba, liczba mnoga, jedna {# nieprzeczytana odpowiedź} inne {# nieprzeczytane odpowiedzi}}. Oznacz nieprzeczytane {liczba, liczba mnoga, jedna {odpowiedź} inne {odpowiedzi}} jako przeczytane.'
       load_more_button: 'Załaduj więcej'
     forgot_password:
       email_sent_message: 'Jeśli podany e-mail jest zarejestrowany na tej stronie, wyślemy e-mail zawierający link do zresetowania hasła. Sprawdź swój folder spamu, jeśli nie otrzymasz go w ciągu następnej minuty lub dwóch.'
@@ -107,7 +101,6 @@ core:
     notifications:
       delete_all_confirm: 'Czy na pewno chcesz usunąć wszystkie powiadomienia? Tej czynności nie można cofnąć'
       delete_all_tooltip: 'Usuń wszystkie powiadomienia'
-      discussion_renamed_text: '{username} zmienił(a) tytuł'
       empty_text: 'Brak powiadomień'
       mark_as_read_tooltip: 'Oznacz jako przeczytane'
       toggle_dropdown_accessible_label: 'Wyświetlanie powiadomień'
@@ -116,8 +109,6 @@ core:
       tooltip: Powiadomienia
     post:
       edited_text: Edytowane
-      edited_tooltip: '{nazwa_użytkownika} edytowane {ago}'
-      number_tooltip: 'Post #{numer}'
     post_controls:
       delete_confirmation: 'Czy na pewno chcesz usunąć ten post na zawsze? Tej czynności nie można cofnąć.'
       hide_confirmation: 'Czy na pewno chcesz usunąć ten post?'
@@ -131,23 +122,16 @@ core:
     post_scrubber:
       now_link: Teraz
       original_post_link: 'Oryginalny post'
-      unread_text: '{liczba} nieprzeczytane'
-      viewing_text: '{liczba, liczba mnoga, jeden {{index} z {formattedCount} post} inne {{index} z {formattedCount} postów}}'
     post_stream:
-      discussion_renamed_old_tooltip: 'Stary tytuł brzmiał: "{old}"'
-      discussion_renamed_text: '{username} zmienił tytuł na {new} {time}.'
-      time_lapsed_text: '{kropka} później'
       load_more_button: 'Załaduj więcej'
       reply_placeholder: 'Napisz odpowiedź...'
     rename_discussion:
       title: 'Zmień nazwę dyskusji'
       submit_button: Przemianować
     search:
-      all_discussions_button: 'Szukaj we wszystkich dyskusjach hasła "{query}"'
       discussions_heading: Dyskusje
       users_heading: Użytkowników
     security:
-      browser_on_operating_system: '{browser} na {os}'
       cannot_terminate_current_session: 'Nie można zakończyć bieżącej aktywnej sesji. Zamiast tego wyloguj się.'
       created: Utworzono
       current_active_session: 'Bieżąca aktywna sesja'
@@ -159,13 +143,11 @@ core:
       new_access_token_modal: { submit_button: 'Utwórz token', title_placeholder: Tytuł, title: 'Nowy żeton' }
       revoke_access_token: Odwołać
       sessions_heading: 'Aktywne sesje'
-      session_terminated: '{liczba, liczba mnoga, jedna {Sesja zakończona} inna {# Sesje zakończone}}.'
       session_termination_failed: 'Wystąpił błąd podczas kończenia sesji.'
       show_access_token: 'Zobacz token'
       terminate_all_other_sessions: 'Zakończ wszystkie inne sesje'
       terminate_session: Zakończyć
       token_revoked: 'Token został odwołany.'
-      token_item_title: '{tytuł} - {token}'
       token_title_placeholder: /
       never: Nigdy
       new_access_token_button: 'Nowy żeton'
@@ -174,7 +156,6 @@ core:
       title: Bezpieczeństwo
     settings:
       account_heading: Rachunek
-      notification_checkbox_a11y_label_template: 'Otrzymuj powiadomienia "{description}" za pośrednictwem {method}'
       notify_by_web_heading: Sieć
       notify_discussion_renamed_label: 'Ktoś zmienił nazwę rozpoczętej przeze mnie dyskusji'
       privacy_disclose_online_label: 'Zezwalanie innym na sprawdzanie, kiedy jestem w trybie online'
@@ -186,7 +167,6 @@ core:
       title: Ustawienia
     sign_up:
       log_in_text: 'Masz już konto? <a>Zaloguj się</a>'
-      welcome_text: 'Witaj, {username}!'
       dismiss_button: OK
       email_placeholder: E-mail
       password_placeholder: Hasło
@@ -196,8 +176,6 @@ core:
     user:
       avatar_upload_button: Przesyłać
       avatar_upload_tooltip: 'Prześlij nowy awatar'
-      in_discussion_text: 'W {dyskusja}'
-      joined_date_text: 'Dołączył {ago}'
       online_text: Online
       posts_empty_text: 'Wygląda na to, że nie ma tu żadnych postów.'
       avatar_remove_button: Usunąć
@@ -209,15 +187,12 @@ core:
     user_controls:
       button: Formantów
       delete_confirmation: 'Czy na pewno chcesz usunąć tego użytkownika? Posty użytkownika NIE będą usuwane.'
-      delete_error_message: 'Usunięcie użytkownika <i>{username} ({email})</i> nie powiodło się'
-      delete_success_message: 'Użytkownik <i>{username} ({email})</i> został usunięty'
       toggle_dropdown_accessible_label: 'Przełącz menu rozwijane elementów sterujących użytkownika'
       delete_button: Usunąć
       edit_button: Redagować
     user_email_confirmation:
       resend_button: 'Wyślij ponownie wiadomość e-mail z potwierdzeniem'
       sent_message: Wysłane
-      alert_message: 'Wysłaliśmy wiadomość e-mail z potwierdzeniem na adres {email}. Jeśli nie nadejdzie wkrótce, sprawdź folder ze spamem.'
     welcome_hero:
       hide: 'Ukryj wiadomość powitalną'
     badge:
@@ -230,8 +205,6 @@ core:
       hidden_tooltip: Ukryty
     dropdown:
       toggle_dropdown_accessible_label: 'Przełącz menu rozwijane'
-    data_segment:
-      label: '{etykieta}:'
     edit_user:
       activate_button: 'Aktywuj użytkownika'
       groups_heading: Grupy
@@ -246,33 +219,17 @@ core:
       username_heading: 'Nazwa użytkownika'
       username_label: 'Nazwa użytkownika'
     error:
-      circular_dependencies_message: 'Wykryto zależności cykliczne: {extensions}. Przerywanie. Wyłącz jedno z rozszerzeń i spróbuj ponownie.'
-      dependent_extensions_message: 'Nie można wyłączyć {extension}, dopóki nie zostaną wyłączone następujące rozszerzenia zależne: {extensions}'
-      extension_initialiation_failed_message: 'Inicjalizacja {extension} nie powiodła się, sprawdź konsolę przeglądarki, aby uzyskać więcej informacji.'
       generic_message: 'Oops! Coś poszło nie tak. Odśwież stronę i spróbuj ponownie.'
       generic_cross_origin_message: 'Oops! Coś poszło nie tak podczas żądania cross-origin. Odśwież stronę i spróbuj ponownie.'
-      missing_dependencies_message: 'Nie można włączyć {extension}, dopóki nie zostaną włączone następujące zależności: {extensions}'
       not_found_message: 'Nie znaleziono żądanego zasobu.'
       payload_too_large_message: 'Ładunek żądania był zbyt duży.'
       permission_denied_message: 'Nie masz na to pozwolenia.'
       rate_limit_exceeded_message: 'Idziesz trochę za szybko. Spróbuj ponownie za kilka sekund.'
       render_failed_message: 'Niestety, wystąpił błąd podczas wyświetlania tej zawartości. Jeśli jesteś użytkownikiem, spróbuj ponownie później. Jeśli jesteś administratorem, zajrzyj do plików dziennika Flarum, aby uzyskać więcej informacji.'
-    meta_titles:
-      with_page_title: '{pageNumber, liczba mnoga, =1 {{pageTitle} - {nazwa_forum}} inne {{pageTitle}: Strona # - {nazwa_forum}}}'
-      without_page_title: '{pageNumber, liczba mnoga, =1 {{forumName}} inne {Page # - {forumName}}}'
     modal:
       close: Zamykać
     nav:
       drawer_button: 'Otwórz szufladę nawigacji'
-    number_suffix:
-      kilo_text: Ku
-      mega_text: M
-    series:
-      glue_text: ', '
-      three_text: '{pierwszy}, {drugi} i {trzeci}'
-      two_text: '{pierwszy} i {drugi}'
-    username:
-      deleted_text: '[usunięty]'
     loading_indicator:
       accessible_label: Ładowania...
   views:
@@ -290,11 +247,9 @@ core:
       invalid_confirmation_token: 'Ten link potwierdzający został już użyty lub jest nieprawidłowy.'
       not_authenticated: 'Nie masz uprawnień dostępu do tej strony. Spróbuj ponownie po zalogowaniu.'
       not_found: 'Nie można odnaleźć żądanej strony.'
-      not_found_return_link: 'Wróć do {forum}'
       permission_denied: 'Nie masz uprawnień dostępu do tej strony.'
       unknown: 'Wystąpił błąd podczas próby załadowania tej strony.'
     log_out:
-      log_out_confirmation: 'Czy na pewno chcesz się wylogować z {forum}?'
       log_out_button: 'Wyloguj się'
       title: 'Wyloguj się'
     reset_password:
@@ -311,23 +266,15 @@ core:
       previous_page_button: 'Poprzednia strona'
   api:
     invalid_username_message: 'Nazwa użytkownika może zawierać tylko litery, cyfry i myślniki.'
-    invalid_filter_type:
-      must_be_numeric_message: 'Filtr {filter} musi być numeryczny.'
-      must_not_be_array_message: 'Filtr {filter} nie może być tablicą.'
-      must_not_be_multidimensional_array_message: 'Filtr {filter} nie może być tablicą wielowymiarową.'
   email:
     activate_account:
       subject: 'Aktywuj swoje nowe konto'
-      body: "Hej {nazwa użytkownika}!\n\nKtoś (miejmy nadzieję, że Ty!) zarejestrował się na {forum} za pomocą tego adresu e-mail.\n\nJeśli to Ty, po prostu kliknij poniższy link, a Twoje konto zostanie aktywowane:\n{url}\n\nJeśli nie zarejestrowałeś się, zignoruj ten e-mail.\n"
     confirm_email:
       subject: 'Potwierdź swój nowy adres e-mail'
-      body: "Hej {nazwa użytkownika}!\n\nKtoś (mam nadzieję, że Ty!) zmienił swój adres e-mail na {forum} na ten.\n\nJeśli to Ty, po prostu kliknij poniższy link, a Twój adres e-mail zostanie potwierdzony:\n{url}\n\nJeśli to nie ty, zignoruj ten e-mail.\n"
     reset_password:
-      body: "Hej {nazwa użytkownika}!\n\nKtoś (miejmy nadzieję, że Ty!) przesłał prośbę o zapomnienie hasła do Twojego konta na {forum}.\n\nJeśli to Ty, kliknij poniższy link, aby zresetować hasło:\n{url}\n\nJeśli nie chcesz zmieniać hasła, po prostu zignoruj ten e-mail i nic się nie stanie.\n"
       subject: 'Zresetuj swoje hasło'
     send_test:
       subject: 'Test e-mailowy Flarum'
-      body: "Hej {nazwa użytkownika}!\n\nJest to testowa wiadomość e-mail mająca na celu potwierdzenie, że konfiguracja poczty e-mail Flarum działa poprawnie.\n\nJeśli to byłeś Ty, ten e-mail oznacza, że Twoja konfiguracja działa!\n\nJeśli to nie ty, zignoruj ten e-mail.\n"
   ref:
     all_discussions: 'Wszystkie dyskusje'
     change_email: 'Zmień adres e-mail'
@@ -335,7 +282,6 @@ core:
     color: Kolor
     confirm_password: 'Potwierdź hasło'
     confirm_email: 'Potwierdź adres e-mail'
-    confirmation_email_sent: 'Wysłaliśmy wiadomość e-mail z potwierdzeniem na adres {email}. Jeśli nie nadejdzie wkrótce, sprawdź folder ze spamem.'
     custom_footer_text: 'Dodaj kod HTML, który będzie wyświetlany na samym dole strony.'
     custom_footer_title: 'Edytuj niestandardową stopkę'
     custom_header_text: 'Dodaj kod HTML, który będzie wyświetlany na samej górze strony, nad nagłówkiem Flarum.'
@@ -349,7 +295,6 @@ core:
     extensions: Rozszerzenia
     generic_confirmation_message: 'Czy na pewno chcesz kontynuować? Tej czynności nie można cofnąć.'
     icon: Ikona
-    icon_text: 'Wprowadź nazwę dowolnej klasy ikon <a>FontAwesome</a>, <em>w tym</em> prefiks <code>fas fa-</code>.'
     load_more: 'Załaduj więcej'
     loading: Ładowania...
     log_in: 'Zaloguj się'
@@ -373,7 +318,6 @@ core:
     security: Bezpieczeństwo
     settings: Ustawienia
     sign_up: 'Zarejestruj się'
-    some_others: '{liczba, liczba mnoga, jeden {# inny} inny {# inne}}'
     start_a_discussion: 'Rozpoczynanie dyskusji'
     username: 'Nazwa użytkownika'
     users: Użytkowników
@@ -389,128 +333,12 @@ core:
     members: Członków
     mod: Sposób
     mods: 'Opublikowanych modów'
-validation:
-  accepted: 'Atrybut :musi być zaakceptowany.'
-  active_url: 'Atrybut :nie jest prawidłowym adresem URL.'
-  after: 'Atrybut :musi być datą przypadającą po :d ate.'
-  after_or_equal: 'Atrybut :musi być datą następującą po lub równą :d ate.'
-  alpha: 'Atrybut :musi zawierać tylko litery.'
-  alpha_dash: 'Atrybut :może zawierać tylko litery, cyfry, myślniki i podkreślenia.'
-  alpha_num: 'Atrybut :może zawierać tylko litery i cyfry.'
-  array: 'Atrybut :musi być tablicą.'
-  before: 'Atrybut :musi być datą wcześniejszą niż :d ate.'
-  before_or_equal: 'Atrybut :musi być datą wcześniejszą lub równą :d ate.'
-  between:
-    numeric: 'Atrybut :musi należeć do zakresu od :min do :max.'
-    file: 'Atrybut :musi należeć do zakresu od :min do :max kilobajtów.'
-    string: 'Atrybut :musi zawierać się w przedziale od :min do :max.'
-    array: 'Atrybut :musi zawierać elementy z zakresu od :min do :max.'
-  boolean: 'Pole :attribute musi mieć wartość true lub false.'
-  confirmed: 'Potwierdzenie :attribute nie jest zgodne.'
-  date: 'Atrybut :nie jest prawidłową datą.'
-  date_equals: 'Atrybut :musi być datą równą :d ate.'
-  date_format: 'Atrybut :nie jest zgodny z formatem :format.'
-  different: 'Atrybuty :attribute i :other muszą być różne.'
-  digits: 'Atrybut :musi składać się z cyfr :d igits.'
-  digits_between: 'Atrybut :musi zawierać się w przedziale od cyfr :min do :max.'
-  dimensions: 'Atrybut :ma nieprawidłowe wymiary obrazu.'
-  distinct: 'Pole :attribute ma zduplikowaną wartość.'
-  email: 'Atrybut :attribute musi być prawidłowym adresem e-mail.'
-  ends_with: 'Atrybut :musi kończyć się jednym z następujących: :values.'
-  exists: 'Wybrany atrybut :jest nieprawidłowy.'
-  file: 'Atrybut :musi być plikiem.'
-  file_too_large: 'Atrybut :jest zbyt duży.'
-  file_upload_failed: 'Nie udało się przesłać atrybutu :attribute.'
-  filled: 'Pole :attribute musi mieć wartość.'
-  gt:
-    numeric: 'Atrybut :musi być większy niż :value.'
-    file: 'Atrybut :musi być większy niż :value kilobajtów.'
-    string: 'Atrybut :musi być większy niż znaki :value.'
-    array: 'Atrybut :musi zawierać więcej niż :value elementy.'
-  gte:
-    numeric: 'Atrybut :musi być większy lub równy :value.'
-    file: 'Atrybut :musi być większy lub równy :value kilobajtów.'
-    string: 'Atrybut :musi być większy lub równy znakom :value.'
-    array: 'Atrybut :musi zawierać elementy :value lub więcej.'
-  image: 'Atrybut :musi być obrazem.'
-  in: 'Wybrany atrybut :jest nieprawidłowy.'
-  in_array: 'Pole :attribute nie istnieje w :other.'
-  integer: 'Atrybut :musi być liczbą całkowitą.'
-  ip: 'Atrybut :musi być prawidłowym adresem IP.'
-  ipv4: 'Atrybut :musi być prawidłowym adresem IPv4.'
-  ipv6: 'Atrybut :musi być prawidłowym adresem IPv6.'
-  json: 'Atrybut :musi być prawidłowym ciągiem JSON.'
-  lt:
-    numeric: 'Atrybut :musi być mniejszy niż :value.'
-    file: 'Atrybut :musi być mniejszy niż :value kilobajtów.'
-    string: 'Atrybut :musi być krótszy niż :value.'
-    array: 'Atrybut :musi zawierać mniej niż :value elementów.'
-  lte:
-    numeric: 'Atrybut :musi być mniejszy lub równy :value.'
-    file: 'Atrybut :musi być mniejszy lub równy :value kilobajtów.'
-    string: 'Atrybut :musi być mniejszy lub równy znakom :value.'
-    array: 'Atrybut :nie może zawierać więcej niż :value elementów.'
-  max:
-    numeric: 'Atrybut :nie może być większy niż :max.'
-    file: 'Atrybut :nie może być większy niż :max kilobajtów.'
-    string: 'Atrybut :nie może być większy niż :max znaków.'
-    array: 'Atrybut :nie może zawierać więcej niż :max elementów.'
-  mimes: 'Atrybut :musi być plikiem typu: :values.'
-  mimetypes: 'Atrybut :musi być plikiem typu: :values.'
-  min:
-    numeric: 'Atrybut :musi mieć wartość co najmniej :min.'
-    file: 'Atrybut :musi mieć co najmniej :min kilobajtów.'
-    string: 'Atrybut :musi składać się ze znaków co najmniej :min.'
-    array: 'Atrybut :musi zawierać co najmniej :min elementy.'
-  multiple_of: 'Atrybut :musi być wielokrotnością :value.'
-  not_in: 'Wybrany atrybut :jest nieprawidłowy.'
-  not_regex: 'Format :attribute jest nieprawidłowy.'
-  numeric: 'Atrybut :musi być liczbą.'
-  password: 'Hasło jest nieprawidłowe.'
-  present: 'Pole :attribute musi być obecne.'
-  regex: 'Format :attribute jest nieprawidłowy.'
-  required: 'Pole :attribute jest wymagane.'
-  required_if: 'Pole :attribute jest wymagane, gdy parametr :other ma wartość :value.'
-  required_unless: 'Pole :attribute jest wymagane, chyba że parametr :other znajduje się w :values.'
-  required_with: 'Pole :attribute jest wymagane, gdy istnieje :values.'
-  required_with_all: 'Pole :attribute jest wymagane, gdy :values są obecne.'
-  required_without: 'Pole :attribute jest wymagane, gdy parametr :values nie jest obecny.'
-  required_without_all: 'Pole :attribute jest wymagane, gdy nie ma żadnej z :wartości.'
-  prohibited: 'Pole :attribute jest zabronione.'
-  prohibited_if: 'Pole :attribute jest zabronione, gdy parametr :other ma wartość :value.'
-  prohibited_unless: 'Pole :attribute jest zabronione, chyba że pole :other znajduje się w :values.'
-  same: 'Atrybuty :attribute i :other muszą być zgodne.'
-  size:
-    numeric: 'Atrybut :musi mieć wartość :size.'
-    file: 'Atrybut :musi mieć wartość :size kilobajtów.'
-    string: 'Atrybut :musi być znakiem :size.'
-    array: 'Atrybut :musi zawierać elementy :size.'
-  starts_with: 'Atrybut :musi zaczynać się od jednego z następujących: :values.'
-  string: 'Atrybut :musi być ciągiem znaków.'
-  timezone: 'Atrybut :musi być prawidłową strefą.'
-  unique: 'Atrybut :został już pobrany.'
-  uploaded: 'Nie udało się przesłać atrybutu :attribute.'
-  url: 'Format :attribute jest nieprawidłowy.'
-  uuid: 'Atrybut :musi być prawidłowym identyfikatorem UUID.'
-  attributes:
-    username: 'Nazwa użytkownika'
-    password: hasło
-    email: E-mail
-    title: tytuł
-    content: zawartość
-    name_singular: 'imię w liczbie pojedynczej'
-    name_plural: 'liczba mnoga'
-    tag_count_primary: 'Liczba tagów podstawowych'
-    tag_count_secondary: 'Liczba znaczników pomocniczych'
-  recaptcha: 'Walidacja reCAPTCHA nie powiodła się.'
-  recaptcha-unknown: 'Wystąpił nieznany błąd podczas sprawdzania poprawności reCAPTCHA ({errors}).'
 flarum-tags:
   forum:
     all_tags:
       meta_description_text: 'Wszystkie tagi'
       meta_title_text: Tagi
     choose_tags:
-      edit_title: 'Edytowanie tagów dla {title}'
       title: 'Wybieranie tagów do dyskusji'
     discussion_controls:
       edit_tags_button: 'Edytowanie znaczników'
@@ -520,48 +348,27 @@ flarum-tags:
       more_link: Więcej...
       untagged_link: Nieoznakowanych
       tags_link: Tagi
-    post_stream:
-      added_and_removed_tags_text: '{username} dodał {tagsAdded} i usunął {tagsRemoved} {time}.'
-      added_tags_text: '{username} dodał {tagsAdded} {time}.'
-      removed_tags_text: '{username} usunął {tagsRemoved} {time}.'
-      tags_text: '{liczba, liczba mnoga, jeden znacznik {{tags}} inne znaczniki {{tags}}'
-    tag:
-      meta_description_text: 'Wszystkie dyskusje z tagiem {tag}'
     composer_discussion:
       choose_tags_link: 'Wybierz tagi'
   lib:
     deleted_tag_text: Usunięte
     tag_selection_modal:
       bypass_requirements: 'Wymagania dotyczące pomijania tagów'
-      choose_primary_placeholder: '{liczba, liczba mnoga, jeden {Wybierz znacznik podstawowy} inne {Wybierz # znaczniki podstawowe}}'
-      choose_secondary_placeholder: '{liczba, liczba mnoga, jeden {Wybierz 1 więcej tagów} inne {Wybierz # więcej tagów}}'
-      choose_tags_placeholder: '{liczba, liczba mnoga, jeden {Wybierz 1 więcej tagów} inne {Wybierz # więcej tagów}}'
       submit_button: OK
       title: 'Wybierz tagi'
   ref:
     choose_tags: 'Wybierz tagi'
-    choose_tags_placeholder: '{liczba, liczba mnoga, jeden {Wybierz 1 więcej tagów} inne {Wybierz # więcej tagów}}'
     name: Nazwa
     tags: Tagi
 flarum-mentions:
   forum:
     composer:
       mention_tooltip: 'Wzmianka o użytkowniku, grupie lub poście'
-      reply_to_post_text: 'Odpowiedz na #{number}'
     mentioned_by:
       title: 'Odpowiedzi na ten post'
       load_more_button: 'Załaduj więcej'
-    notifications:
-      post_mentioned_text: '{username} odpowiedział na Twój post'
-      user_mentioned_text: '{username} wspomniał o Tobie'
-      group_mentioned_text: '{username} wspomniał o grupie, do której należysz.'
-      others_text: '{liczba, liczba mnoga, jeden {# inny} inny {# inne}}'
     post:
-      mentioned_by_more_text: '{liczba} więcej odpowiedzi.'
-      mentioned_by_self_text: '{users} odpowiedział na to.'
-      mentioned_by_text: '{users} odpowiedział na to.'
       quote_button: Cytat
-      others_text: '{liczba, liczba mnoga, jeden {# inny} inny {# inne}}'
       reply_link: Odpowiedź
       you_text: Ty
     settings:
@@ -570,28 +377,12 @@ flarum-mentions:
       notify_group_mentioned_label: 'Ktoś wspomina w poście o grupie, do której należę,'
     user:
       mentions_link: Wspomina
-    post_mention:
-      deleted_text: '[Nieznany]'
-    group_mention:
-      deleted_text: '[nieznana grupa]'
-  email:
-    post_mentioned:
-      subject: '{replier_display_name} odpowiedział na Twój post w {title}'
-      body: "Cześć {recipient_display_name}!\n\n{replier_display_name} odpowiedział na Twój post (#{post_number}) w {title}.\n\n{url}\n\n---\n\n{treść}\n"
-    user_mentioned:
-      subject: '{mentioner_display_name} wspomniał o Tobie w {title}'
-      body: "Cześć {recipient_display_name}!\n\n{mentioner_display_name} wspomniał o Tobie w poście w {title}.\n\n{url}\n\n---\n\n{treść}\n"
-    group_mentioned:
-      subject: '{mentioner_display_name} wspomniał o grupie, do której należysz, w {title}'
-      body: "Cześć {recipient_display_name}!\n\n{mentioner_display_name} wspomniał o grupie, której jesteś członkiem w {title}.\n\n{url}\n\n---\n\n{treść}\n"
 flarum-subscriptions:
   forum:
     discussion_controls:
       unfollow_button: 'Przestań obserwować'
       unignore_button: 'Nieszanowny Pan'
       follow_button: Następować
-    notifications:
-      new_post_text: '{nazwa użytkownika} opublikowano'
     settings:
       follow_after_reply_label: 'Automatycznie obserwuj dyskusje, na które odpowiadam'
       notify_for_all_posts_label: 'Powiadamiaj o każdym nowym poście, a nie tylko o ostatnim w dyskusji'
@@ -613,10 +404,6 @@ flarum-subscriptions:
       meta_title_text: Następujący
     index:
       following_link: Następujący
-  email:
-    new_post:
-      subject: '[Nowy post] {tytuł}'
-      body: "Cześć {recipient_display_name}!\n\n{poster_display_name} opublikował post w dyskusji, którą obserwujesz: {title}.\n\nAby wyświetlić nową aktywność, skorzystaj z poniższego linku:\n{url}\n\n---\n\n{treść}\n\n---\n\nNie będziesz otrzymywać więcej powiadomień o tej dyskusji, dopóki nie będziesz na bieżąco.\n"
   ref:
     follow: Następować
     following: Następujący
@@ -625,7 +412,6 @@ flarum-flags:
   forum:
     flag_post:
       confirmation_message: 'Dziękujemy za zgłoszenie tego posta. Nasi moderatorzy zajmą się tą sprawą.'
-      reason_details_placeholder: 'Dodatkowe informacje (opcjonalnie)'
       reason_inappropriate_label: Nieodpowiedni
       reason_inappropriate_text: 'Ten post jest obraźliwy, obraźliwy lub narusza <a>nasze wytyczne dla społeczności</a>.'
       reason_missing_message: 'Podaj kilka szczegółów dla naszych moderatorów.'
@@ -639,13 +425,10 @@ flarum-flags:
       title: 'Maszt flagowy'
     flagged_posts:
       empty_text: 'Brak flag'
-      item_text: '{nazwa użytkownika} w <em>{dyskusji}</em>'
       title: 'Oflagowane posty'
       tooltip: 'Oflagowane posty'
     post:
       dismiss_flag_button: 'Odrzuć flagę'
-      flagged_by_text: 'Oznaczone przez {username}'
-      flagged_by_with_reason_text: 'Oznaczone przez {username} jako {reason}'
     post_controls:
       flag_button: Flaga
   ref:
@@ -654,13 +437,11 @@ flarum-flags:
 flarum-suspend:
   forum:
     notifications:
-      user_suspended_text: 'Zostałeś zawieszony za {timeReadable}'
       user_suspended_indefinite_text: 'Zostałeś zawieszony na czas nieokreślony'
       user_unsuspended_text: 'Zostałeś odwieszony'
     suspension_info:
       dismiss_button: Zwolnić
       indefinite: 'Jest to zawieszenie na czas nieokreślony'
-      limited: 'Zawieszenie będzie obowiązywało do dnia {date}'
       title: 'To konto zostało zawieszone'
     suspend_user:
       display_message: 'Wyświetl komunikat dla użytkownika'
@@ -671,7 +452,6 @@ flarum-suspend:
       placeholder_optional: Fakultatywny
       reason: 'Powód zawieszenia'
       status_heading: 'Stan zawieszenia'
-      title: 'Zawieś {username}'
       submit_button: 'Zapisz zmiany'
     user_badge:
       suspended_tooltip: Zawieszony
@@ -681,10 +461,8 @@ flarum-suspend:
     no_reason_given: 'Nie podano powodu tego zawieszenia.'
     suspended:
       subject: 'Twoje konto zostało zawieszone'
-      body: "Hej {recipient_display_name},\n\nZostałeś zawieszony z następującego powodu:\n\n---\n{suspension_message}\n---\n"
     unsuspended:
       subject: 'Twoje konto zostało odwieszone'
-      body: "Hej {recipient_display_name},\n\nZostałeś odsunięty od zawieszenia. Możesz wrócić do forum, klikając poniższy link:\n\n{forum_url}\n"
 blomstra-gdpr:
   lib:
     data:
@@ -707,8 +485,6 @@ fof-upload:
       error: Błąd
       loading: Przesyłanie
       unauthorized: 'Nie możesz pobierać plików'
-    validation:
-      max_size: 'Przesyłanie powyżej {max} kb nie jest akceptowane.'
     text_preview:
       expand: 'Rozwiń podgląd'
       collapse: 'Zwiń podgląd'
@@ -718,7 +494,6 @@ fof-upload:
   api:
     upload_errors:
       forbidden_type: 'Przesyłanie plików tego typu jest niedozwolone.'
-      unsupported_type: 'Adapter przesyłania nie obsługuje podanego typu MIME: {mime}.'
       could_not_detect_mime: 'Nie można wykryć typu MIME tego pliku, spróbuj ponownie.'
       max_upload_file_size_ini: 'Osiągnięto maksymalny limit rozmiaru pliku z php.ini.'
       max_upload_file_size_form: 'Osiągnięto maksymalny limit rozmiaru pliku z formularza.'
@@ -727,7 +502,6 @@ fof-upload:
       no_upload_tmp_folder: 'Brak folderu tmp do przesyłania plików.'
       cannot_write_to_disk: 'Nie można zapisać na dysku.'
       upload_blocked_by_php_extension: 'Rozszerzenie php zablokowało przesyłanie.'
-      no_files_made_it_to_upload: 'Prosimy o przesyłanie plików nie większych niż {max} kb.'
   lib:
     upload-shared-file-modal:
       title: 'Nowy udostępniony plik'
@@ -740,13 +514,9 @@ fof-upload:
       release_to_upload: 'Zgoda na przesłanie'
       modal_empty_desktop: 'Lista plików jest pusta. Kliknij przycisk lub przeciągnij plik tutaj, aby go przesłać.'
       modal_empty_phone: 'Lista plików jest pusta. Stuknij przycisk powyżej, aby przesłać plik.'
-      select_file_a11y_label: 'Wybierz plik "{fileName}"'
-      confirm_selection_btn: '{fileCount, liczba mnoga, =0 {Nie wybrano} jeden {Wybierz plik} inne {Wybierz pliki}}'
       load_more_files_btn: 'Załaduj więcej plików'
-      delete_file_a11y_label: 'Usuń plik "{fileName}"'
-      delete_confirmation: 'Czy na pewno chcesz usunąć "{fileName}"?'
-      hide_file: { btn_a11y_label_hide: 'Ukryj "{fileName}" w menedżerze multimediów', btn_a11y_label_show: 'Pokaż "{fileName}" w menedżerze multimediów', hide_confirmation: 'Czy na pewno chcesz ukryć "{fileName}"? Ukrycie pliku spowoduje jedynie usunięcie go z menedżera multimediów i nie wpłynie na istniejące posty.', hide_success: 'Plik ukryty', show_confirmation: 'Czy na pewno chcesz wyświetlić "{fileName}"? Pokazanie pliku sprawi, że będzie on widoczny w menedżerze multimediów.', show_success: 'Wyświetlany plik', hide_fail: 'Nie można ukryć pliku "{fileName}"', show_fail: 'Nie można wyświetlić pliku "{fileName}"', loading: 'Ukrywanie pliku...' }
-      hide_shared_file: { btn_a11y_label_hide: 'Ustaw "{fileName}" jako prywatne (bez publicznego adresu URL)', btn_a11y_label_show: 'Ustaw "{fileName}" jako publiczne (z publicznym adresem URL)', hide_confirmation: 'Czy na pewno chcesz, aby "{fileName}" było prywatne? Ustawienie pliku jako prywatnego spowoduje usunięcie jego publicznego adresu URL, ale nie wpłynie to na istniejące posty. Nie będzie już również widoczny w menedżerze multimediów dla nieautoryzowanych użytkowników.', hide_success: 'Plik jako prywatny', show_confirmation: 'Czy na pewno chcesz, aby "{fileName}" było publiczne? Upublicznienie pliku sprawi, że będzie on dostępny dla każdego, kto ma publiczny adres URL i każdy będzie mógł go udostępnić za pomocą menedżera multimediów.', show_success: 'Plik upubliczniony', hide_fail: 'Nie można ustawić pliku "{fileName}" jako prywatnego', show_fail: 'Nie można ustawić pliku "{fileName}" jako publicznego', loading: 'Ustawianie pliku jako prywatnego...' }
+      hide_file: { hide_success: 'Plik ukryty', show_success: 'Wyświetlany plik', loading: 'Ukrywanie pliku...' }
+      hide_shared_file: { hide_success: 'Plik jako prywatny', show_success: 'Plik upubliczniony', loading: 'Ustawianie pliku jako prywatnego...' }
 flarum-bbcode:
   forum:
     quote:
@@ -779,8 +549,6 @@ fof-follow-tags:
       following_tag_tooltip: Następujący
       lurking_tag_tooltip: się
     sub_controls:
-      header: 'Subskrypcja dla {tagName}'
-      subscription_label: 'Wybierz poziom subskrypcji dla {tagName}'
       following_text: 'Otrzymuj powiadomienia o wszystkich nowych dyskusjach.'
       hiding_text: 'Ukryj dyskusje na stronie Wszystkie dyskusje.'
       ignoring_text: 'Nigdy nie otrzymuj powiadomień.'
@@ -795,21 +563,8 @@ fof-follow-tags:
       hiding_button: Ukrywanie
       ignoring_button: Ignorując
       lurking_button: się
-    notifications:
-      new_discussion_text: '{username} rozpoczęty'
-      new_post_text: '{nazwa użytkownika} opublikowano'
-      new_discussion_tag_text: '{username} zmienił(a) tag'
     user:
       settings: { heading: 'Śledź tagi', filter_label: 'Co ma być domyślnie wyświetlane na następnej stronie' }
-  email:
-    subject:
-      newDiscussionInTag: '[Znacznik | Nowa dyskusja] {tytuł}'
-      newPostInTag: '[Znacznik | Nowy post] {tytuł}'
-      newDiscussionTag: '[Znacznik | Zmieniono tag] {title}'
-    body:
-      newDiscussionInTag: "Hej {recipient_display_name},\n\n{actor_display_name} rozpoczął dyskusję w tagu, który obserwujesz: {discussion_title}\n\nAby wyświetlić nową dyskusję, skorzystaj z poniższego linku:\n{discussion_url}\n\n---\n\n{post_content}\n"
-      newPostInTag: "Hej {recipient_display_name},\n\n{actor_display_name} opublikowane w dyskusji na temat tagu, który obserwujesz: {discussion_title}\n\nAby wyświetlić nową aktywność, skorzystaj z poniższego linku:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNie będziesz otrzymywać żadnych powiadomień o tej dyskusji, dopóki nie będziesz na bieżąco.\n"
-      newDiscussionTag: "Hej {recipient_display_name},\n\n{actor_display_name} właśnie zmienił tag w dyskusji {author_display_name} na tag, który obserwujesz {discussion_title}\n\nAby wyświetlić nową dyskusję, skorzystaj z poniższego linku:\n{discussion_url}\n"
   ref:
     follow: Następować
     following: Następujący
@@ -838,17 +593,8 @@ flarum-nicknames:
       nickname_placeholder: Przydomek
 fof-oauth:
   forum:
-    log_in:
-      with_button: 'Zaloguj się za pomocą {provider}'
-      with_discord_button: 'Zaloguj się za pomocą {provider}'
-      with_facebook_button: 'Zaloguj się za pomocą {provider}'
-      with_github_button: 'Zaloguj się za pomocą {provider}'
-      with_gitlab_button: 'Zaloguj się za pomocą {provider}'
-      with_google_button: 'Zaloguj się za pomocą {provider}'
-      with_linkedin_button: 'Zaloguj się za pomocą {provider}'
-      with_twitter_button: 'Zaloguj się za pomocą {provider}'
     user:
-      settings: { linked-account: { label: 'Połączone konta', last-used-label: 'Ostatnio używane', link-created-label: 'Utworzony link', orphaned-account: 'Logowałeś się już wcześniej za pośrednictwem tego dostawcy, ale od tego czasu to forum wyłączyło logowanie za pomocą tej metody.', help: 'Te połączone konta umożliwiają logowanie się na forum za pomocą innych dostawców.', identifier-label: '{Dostawca} ID', unlink-confirm: 'Czy na pewno chcesz usunąć link z {provider}? Nie będzie już można zalogować się na tym forum, chyba że w przyszłości dokonasz ponownego uwierzytelnienia.' } }
+      settings: { linked-account: { label: 'Połączone konta', last-used-label: 'Ostatnio używane', link-created-label: 'Utworzony link', orphaned-account: 'Logowałeś się już wcześniej za pośrednictwem tego dostawcy, ale od tego czasu to forum wyłączyło logowanie za pomocą tej metody.', help: 'Te połączone konta umożliwiają logowanie się na forum za pomocą innych dostawców.' } }
     signup:
       username_help: 'Wybierz tutaj nazwę użytkownika, pod którą chcesz być znany'
     unlink: 'Usuń link'
@@ -882,10 +628,8 @@ fof-impersonate:
   forum:
     modal:
       title: 'Zaloguj się jako inny użytkownik'
-      label: 'Z wielką mocą wiąże się wielka odpowiedzialność. Kontynuując, staniesz się {username}, dopóki się nie wylogujesz.'
       placeholder_optional: '(Opcjonalnie) Podaj powód przejścia na tego użytkownika'
       placeholder_required: 'Zanim przejdziesz dalej, musisz podać powód przełączenia na tego użytkownika'
-      impersonate_username: 'Zaloguj się jako {nazwa_użytkownika}'
     user_controls:
       impersonate_button: 'Zaloguj się jako użytkownik'
 fof-byobu:
@@ -896,7 +640,6 @@ fof-byobu:
       add_recipients: Adresatów
       submit: OK
       edit_recipients: 'Edytowanie adresatów'
-      send_pd: 'Wyślij wiadomość do {username}'
       cancel: Anuluj
       make_public: 'Upublicznianie tej dyskusji'
       remove_from_discussion: 'Opuść tę prywatną dyskusję'
@@ -905,8 +648,6 @@ fof-byobu:
       title_placeholder: 'Tytuł prywatnej dyskusji'
     confirm:
       make_public: 'Czy na pewno chcesz usunąć adresatów i udostępnić tę dyskusję każdemu, kto może wyświetlić przypisany tag?'
-    labels:
-      recipients: '{liczba, liczba mnoga, jeden {{liczba} Adresat} inne {{liczba} Adresaci}}'
     nav:
       start_button: 'Dyskutuj prywatnie'
       nav_item: 'Prywatne dyskusje'
@@ -915,11 +656,9 @@ fof-byobu:
     search:
       headings: { groups: 'Grupy uprawnień' }
     modal:
-      titles: { update_recipients: 'Aktualizowanie adresatów {title}', add_recipients: 'Dodawanie adresatów do dyskusji' }
+      titles: { add_recipients: 'Dodawanie adresatów do dyskusji' }
       labels: { selected_users: 'Wybrani użytkownicy', search_field: 'Wyszukiwanie użytkownika' }
       help: { add_recipients: 'Ta dyskusja będzie widoczna tylko dla wybranych tutaj użytkowników. Wymagany jest co najmniej 1 odbiorca (inny niż Ty).', update_recipients: 'Ta dyskusja będzie widoczna tylko dla wybranych tutaj użytkowników.', selected_users: 'Kliknij nazwę użytkownika, aby go usunąć.', click_user_to_remove_tooltip: 'Kliknij, aby usunąć' }
-    post:
-      recipients_modified: { added_and_removed: '{username} dodał odbiorców {added} i usunął {removed}.', added: '{username} dodał odbiorców {added}.', made_public: '{username} usunął wszystkich odbiorców i upublicznił dyskusję', removed: '{username} usunął odbiorców {removed}.', removed_self: '{username} opuścił prywatną dyskusję.' }
     user:
       settings: { block_pd: 'Blokuj prywatne dyskusje' }
       byobu_link: 'Prywatne dyskusje'
@@ -927,23 +666,9 @@ fof-byobu:
     notifications:
       pd_label: 'Ktoś włącza mnie do nowej prywatnej dyskusji'
       pd_reply_label: 'Ktoś publikuje post w prywatnej dyskusji, którego jestem odbiorcą'
-      pd_reply_text: '{username} opublikowane w prywatnej dyskusji, w której bierzesz udział'
-      pd_text: '{username} rozpoczął nową prywatną dyskusję z tobą'
       pd_user_left_label: 'Użytkownik adresat opuszcza prywatną dyskusję, do której należę.'
-      pd_user_left_text: '{username} opuścił prywatną dyskusję'
-      pd_added_text: '{username} dodał Cię do prywatnej dyskusji'
       pd_added_label: 'Ktoś dodał mnie do istniejącej dyskusji prywatnej'
-  email:
-    subject:
-      private_discussion_created: '[Dyskusja prywatna] {display_name} rozpoczął z tobą nową prywatną dyskusję'
-      private_discussion_replied: '[Dyskusja prywatna] {display_name} opublikowany w prywatnej dyskusji'
-      recipient_removed: '[Dyskusja prywatna] {display_name} opuścił dyskusję'
-      private_discussion_added: '[Dyskusja prywatna] {display_name} dodał(a) Cię do prywatnej dyskusji'
-    body:
-      private_discussion_created: "Hej {recipient_display_name},\n\n{actor_display_name} rozpoczął nową prywatną dyskusję z Tobą jako odbiorcą: {discussion_title}.\n\nZobacz go tutaj:\n{discussion_url}\n\nByć może będziesz musiał się najpierw zalogować, zanim będzie można uzyskać dostęp do tego linku.\n"
-      private_discussion_replied: "Hej {recipient_display_name},\n\n{actor_display_name} opublikowane w prywatnej dyskusji z Tobą jako odbiorcą: {discussion_title}.\n\nZobacz go tutaj:\n{post_url}\n\nByć może będziesz musiał się najpierw zalogować, zanim będzie można uzyskać dostęp do tego linku.\n"
-      recipient_removed: "Hej {recipient_display_name},\n\n{actor_display_name} opuścił prywatną dyskusję: {discussion_title}. Nie będą już mogli wyświetlać żadnej jego zawartości.\n\nZobacz go tutaj:\n{discussion_url}\n\nByć może będziesz musiał się najpierw zalogować, zanim będzie można uzyskać dostęp do tego linku.\n"
-      private_discussion_added: "Hej {recipient_display_name},\n\n{actor_display_name} dodał Cię do istniejącej prywatnej dyskusji: {discussion_title}.\n\nZobacz go tutaj:\n{discussion_url}\n\nByć może będziesz musiał się najpierw zalogować, zanim będzie można uzyskać dostęp do tego linku.\n"
+  email: null
 v17development-flarum-badges:
   forum:
     badge_information: 'Informacje o plakietce'
@@ -966,17 +691,11 @@ v17development-flarum-badges:
       no_earning_reason: 'Nie ustawiono powodu zarabiania'
       earned_on: 'Odznaka zdobyta w dniu'
       category: 'Kategoria odznaki'
-      received_on: 'Otrzymano w dniu {date}'
       badge_details: 'Szczegóły plakietki'
-      earned_count: '{liczba, liczba mnoga, jeden {<b># użytkownik</b> zdobył tę odznakę} inni {<b># użytkownicy</b> zdobyli tę odznakę}}'
-      earned_by_count: '{liczba, liczba mnoga, jeden {Zdobyte przez <b># użytkownika</b>} inne {Zarobione przez <b># użytkowników</b>}}'
-      others_link: '+ {liczba} Więcej'
     badges_in_card:
       title: 'Odznaki na karcie użytkownika'
       manage_badges: 'Zarządzanie odznakami'
       description: 'Widoczne odznaki na karcie użytkownika można zmienić za pomocą jednej z innych odznak. Jeśli nie wybierzesz żadnego, zostaną one wybrane automatycznie.'
-      select_limit: 'Możesz wybrać {limit, liczba mnoga, jeden {<b>jeden odznaka</b>} inne {<b># odznaki</b>}}, które mają być widoczne na Twojej karcie użytkownika.'
-      hit_limit: 'Na karcie jest tylko miejsce na <b> {limit, liczba mnoga, jedną {<b>jedna odznaka</b>} i inne {<b># odznaki</b>}}</b>. Usuń zaznaczenie odznaki, aby zrobić miejsce na tę odznakę.'
     moderation:
       remove_badge: 'Usuwanie plakietki od użytkownika'
       remove_badge_confirm: 'Czy na pewno chcesz usunąć tę plakietkę z tego użytkownika?'
@@ -985,14 +704,10 @@ v17development-flarum-badges:
       title: 'Otrzymałeś nową odznakę'
       settings: 'Otrzymałem odznakę'
     uncategorized: Uncategorized
-v17development-flarum-seo:
-  forum:
-    profile_title: 'Profil użytkownika {username}'
-    profile_description: 'Profil {nazwa użytkownika} | {discussion_count} Dyskusje | {comment_count} postów'
+v17development-flarum-seo: null
 the-turk-miserable-users:
   forum:
     miserable_user:
-      title: 'Nieszczęsny {nazwa użytkownika}'
       status_heading: 'Żałosny stan'
       not_miserable_label: 'Nie jest nieszczęśliwy'
       indefinitely_label: 'Nieszczęśliwy w nieskończoność'
@@ -1009,7 +724,6 @@ sycho-profile-cover:
   forum:
     cover: Pokryć
     edit_cover: 'Edytuj okładkę'
-    notice: 'Maksymalny rozmiar: {size}'
     added:
       success: 'Zaktualizowano okładkę profilu.'
       error: 'Nie można przesłać obrazu.'
@@ -1018,10 +732,7 @@ sycho-profile-cover:
       error: 'Nie można zdjąć pokrywy, spróbuj ponownie później.'
 sycho-photoswipe: null
 nearata-tags-color-generator: null
-nearata-prevent-double-posting:
-  forum:
-    exception:
-      too_many_replies: 'Nie jest dozwolonych więcej niż {count} kolejnych odpowiedzi. Zamiast tego edytuj swoją poprzednią odpowiedź lub poczekaj, aż ktoś Ci odpowie.'
+nearata-prevent-double-posting: null
 nearata-copy-code-to-clipboard:
   forum:
     copy: 'Kopiuj do schowka'
@@ -1030,7 +741,6 @@ michaelbelgium-flarum-profile-views:
   forum:
     user:
       viewlist: { title: 'Ostatni goście', guest: Gość }
-      view_count_text: '{viewcount, liczba mnoga, jeden {viewed {viewcount} czas} inne {viewed {viewcount} razy}}'
 justoverclock-country-flags:
   forum:
     inputCountryCode: 'Kod kraju'
@@ -1058,13 +768,10 @@ ianm-syndication:
     autodiscovery:
       forum_activity: 'Aktywność na forum'
       forum_new_discussions: 'Nowe dyskusje na forum'
-      tag_activity: 'Działanie dla tagu {tag}'
-      tag_new_discussions: 'Dyskusje w tagu {tag}'
       discussion_last_posts: 'Ta dyskusja'
       user_last_posts: 'Posty i komentarze tego użytkownika'
     feeds:
-      entries: { user_posts: { title_reply: 'Odp: {dyskusja}' } }
-      titles: { main_title: '{forum_name}', main_subtitle: 'Ostatnie posty na forum', main_d_title: 'Nowe dyskusje w {forum_name}', main_d_subtitle: 'Najnowsze dyskusje na forum', tag_title: 'Aktywność w tagu {tag}', tag_subtitle: 'Ostatnie posty w tagu {tag}', tag_d_title: 'Nowe dyskusje w tagu {tag}', tag_d_subtitle: 'Najnowsze dyskusje w tagu {tag}', discussion_title: '{discussion_name}', discussion_subtitle: 'Ostatnie wiadomości w tej dyskusji', user_title: '{nazwa użytkownika}', user_subtitle: 'Najnowsze posty i komentarze tego użytkownika.' }
+      titles: { main_subtitle: 'Ostatnie posty na forum', main_d_subtitle: 'Najnowsze dyskusje na forum', discussion_subtitle: 'Ostatnie wiadomości w tej dyskusji', user_subtitle: 'Najnowsze posty i komentarze tego użytkownika.' }
     discussion:
       feed_link: Karmić
 ianm-log-viewer: null
@@ -1072,7 +779,6 @@ ianm-html-head: null
 ianm-follow-users:
   forum:
     followed: Po
-    followers: '{liczba, liczba mnoga, jeden {Obserwujący} inni {Obserwujący}}'
     profile_page:
       no_following: 'Wygląda na to, że nikogo nie obserwujesz.'
     settings:
@@ -1081,17 +787,12 @@ ianm-follow-users:
       notify_new_discussion_label: 'Ktoś, kogo obserwuję, rozpoczyna dyskusję'
       notify_new_post_label: 'Ktoś, kogo obserwuję, publikuje posty w istniejącej dyskusji'
       block_follow: 'Zablokuj użytkownikom możliwość obserwowania mnie'
-    notifications:
-      new_discussion_text: '{username} rozpoczęty'
-      new_post_text: '{username} opublikowany w dyskusji'
-      new_follower_text: '{username} obserwował Cię'
-      new_unfollower_text: '{username} przestał Cię obserwować'
     badge:
       label: { follow: 'Po dyskusjach', lurk: 'Podążając za wszystkimi' }
     filter:
       following: 'Obserwowani użytkownicy'
     modals:
-      select_follow_level: { title: 'Wybierz poziom śledzenia dla {username}', description: 'Wybierz, w jaki sposób chcesz obserwować <em>{username}</em>.', follow_levels_heading: 'Śledź poziomy', follow_select_label: 'Śledź typ', no_user_attr_provided_err: 'Uh oh, coś poszło nie tak podczas otwierania tego modalu.', no_user_attr_provided_err_debug: 'Żaden atrybut "user" nie został przekazany do modalu SelectFollowUserLevel podczas tworzenia. Nie można renderować modalnego.', save_btn: Zapisać, cancel_btn: Anuluj }
+      select_follow_level: { follow_levels_heading: 'Śledź poziomy', follow_select_label: 'Śledź typ', no_user_attr_provided_err: 'Uh oh, coś poszło nie tak podczas otwierania tego modalu.', no_user_attr_provided_err_debug: 'Żaden atrybut "user" nie został przekazany do modalu SelectFollowUserLevel podczas tworzenia. Nie można renderować modalnego.', save_btn: Zapisać, cancel_btn: Anuluj }
     profile_link: 'Obserwowani użytkownicy'
     user_controls:
       follow_button: Następować
@@ -1101,37 +802,28 @@ ianm-follow-users:
       follow_tag_button: Następować
       unfollow_tag_button: 'Zmień typ śledzenia'
   email:
-    new_discussion_by_user_subject: '[Obserwuj użytkownika] {tytuł}'
     new_follower_subject: '[Obserwuj użytkownika] Masz nowego obserwującego!'
-    new_post_subject: '[Obserwuj użytkownika] Nowy post w {title}'
-    new_discussion_by_user_body: "Hej {recipient_display_name},\n\n{user_display_name} rozpoczął nową dyskusję: {discussion_title}\n\nAby wyświetlić nową dyskusję, skorzystaj z poniższego linku:\n\n{discussion_url}\n\n---\n\n{post_content}\n"
-    new_follower_body: "Hej {recipient_display_name},\n\n{follower_display_name} zaczął Cię obserwować, więc zostanie powiadomiony, gdy rozpoczniesz nową dyskusję.\n\nAby wyświetlić ich profil, sprawdź poniższy link:\n\n{profile_url}\n"
-    new_post_body: "Hej {recipient_display_name},\n\n{user_display_name} opublikowany w dyskusji: {discussion_title}\n\nAby wyświetlić nową aktywność, skorzystaj z poniższego linku:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNie będziesz otrzymywać więcej powiadomień o tej dyskusji, dopóki nie będziesz na bieżąco.\n"
   lib:
     following_link: 'Obserwowani użytkownicy'
     follow: Następować
     change_follow_type: 'Zmień typ śledzenia'
     unfollow: 'Przestań obserwować'
     follow_levels:
-      unfollow: { name: 'Nie obserwuj', description: "Nie otrzymuj żadnych powiadomień o aktywności <em>użytkownika {username}</em>.\n" }
-      follow: { name: 'Obserwuj dyskusje', description: "Otrzymuj powiadomienia, gdy <em>{username}</em> rozpocznie nową dyskusję.\n" }
-      lurk: { name: 'Śledź wszystko', description: "Otrzymuj powiadomienia, gdy <em>{username}</em> rozpocznie nową dyskusję lub posty w dowolnej dyskusji.\n" }
+      unfollow: { name: 'Nie obserwuj' }
+      follow: { name: 'Obserwuj dyskusje' }
+      lurk: { name: 'Śledź wszystko' }
 fof-username-request:
   forum:
     nickname_modals:
-      action: { help_text: 'Upewnij się, że ta zmiana pseudonimu jest zgodna z wytycznymi forum.', decision_title: Decyzja, approval_label: Zatwierdzić, rejected_label: Odrzucać, submit_button: Prześlij, reason_title: 'Powód odrzucenia', success: 'Decyzja wysłana.', name: '{name} poprosił o zmianę pseudonimu na "{requestedName}"', title: 'Prośba o zmianę pseudonimu' }
-      results: { title: 'Prośba o zmianę pseudonimu', approved: 'Twoja prośba o zmianę pseudonimu została zatwierdzona', new_name: 'Twój pseudonim został pomyślnie zmieniony na: {name}', rejected: 'Twoja prośba o zmianę pseudonimu została odrzucona', reason: 'Powód odrzucenia: <i>"{powód}".</i>', resubmit: 'W tym momencie możesz ponownie przesłać nową prośbę o zmianę pseudonimu w ustawieniach konta, jeśli tak zdecydujesz.', dismiss_button: OK }
-      request: { title: 'Poproś o zmianę pseudonimu', current_request: 'Poprosiłeś już o zmianę swojego pseudonimu na "{name}". Możesz zaktualizować swoją prośbę lub ją usunąć.', submit_button: 'Wyślij zapytanie', delete_button: 'Usuń żądanie', confirmation_message: 'Twoja prośba o zmianę pseudonimu została przesłana i oczekuje na zatwierdzenie.', deleted: 'Prośba o pseudonim została usunięta.', dismiss_button: OK }
+      action: { help_text: 'Upewnij się, że ta zmiana pseudonimu jest zgodna z wytycznymi forum.', decision_title: Decyzja, approval_label: Zatwierdzić, rejected_label: Odrzucać, submit_button: Prześlij, reason_title: 'Powód odrzucenia', success: 'Decyzja wysłana.', title: 'Prośba o zmianę pseudonimu' }
+      results: { title: 'Prośba o zmianę pseudonimu', approved: 'Twoja prośba o zmianę pseudonimu została zatwierdzona', rejected: 'Twoja prośba o zmianę pseudonimu została odrzucona', resubmit: 'W tym momencie możesz ponownie przesłać nową prośbę o zmianę pseudonimu w ustawieniach konta, jeśli tak zdecydujesz.', dismiss_button: OK }
+      request: { title: 'Poproś o zmianę pseudonimu', submit_button: 'Wyślij zapytanie', delete_button: 'Usuń żądanie', confirmation_message: 'Twoja prośba o zmianę pseudonimu została przesłana i oczekuje na zatwierdzenie.', deleted: 'Prośba o pseudonim została usunięta.', dismiss_button: OK }
     username_modals:
-      action: { help_text: 'Upewnij się, że ta zmiana nazwy użytkownika jest zgodna z wytycznymi forum.', decision_title: Decyzja, approval_label: Zatwierdzić, rejected_label: Odrzucać, submit_button: Prześlij, reason_title: 'Powód odrzucenia', success: 'Decyzja wysłana.', name: '{name} poprosił o zmianę nazwy użytkownika na "{requestedName}"', title: 'Prośba o zmianę nazwy użytkownika' }
-      results: { title: 'Prośba o zmianę nazwy użytkownika', approved: 'Twoja prośba o zmianę nazwy użytkownika została zatwierdzona', new_name: 'Twoja nazwa użytkownika została pomyślnie zmieniona na: {name}', rejected: 'Twoja prośba o zmianę nazwy użytkownika została odrzucona', reason: 'Powód odrzucenia: <i>"{powód}".</i>', resubmit: 'W tym momencie możesz ponownie przesłać nową prośbę o zmianę nazwy użytkownika w ustawieniach konta, jeśli tak zdecydujesz.', dismiss_button: OK }
-      request: { title: 'Poproś o zmianę nazwy użytkownika', current_request: 'Poprosiłeś już o zmianę nazwy użytkownika na "{name}". Możesz zaktualizować swoją prośbę lub ją usunąć.', submit_button: 'Wyślij zapytanie', delete_button: 'Usuń żądanie', confirmation_message: 'Twoja prośba o zmianę nazwy użytkownika została przesłana i oczekuje na zatwierdzenie.', deleted: 'Prośba o nazwę użytkownika została usunięta.', dismiss_button: OK }
+      action: { help_text: 'Upewnij się, że ta zmiana nazwy użytkownika jest zgodna z wytycznymi forum.', decision_title: Decyzja, approval_label: Zatwierdzić, rejected_label: Odrzucać, submit_button: Prześlij, reason_title: 'Powód odrzucenia', success: 'Decyzja wysłana.', title: 'Prośba o zmianę nazwy użytkownika' }
+      results: { title: 'Prośba o zmianę nazwy użytkownika', approved: 'Twoja prośba o zmianę nazwy użytkownika została zatwierdzona', rejected: 'Twoja prośba o zmianę nazwy użytkownika została odrzucona', resubmit: 'W tym momencie możesz ponownie przesłać nową prośbę o zmianę nazwy użytkownika w ustawieniach konta, jeśli tak zdecydujesz.', dismiss_button: OK }
+      request: { title: 'Poproś o zmianę nazwy użytkownika', submit_button: 'Wyślij zapytanie', delete_button: 'Usuń żądanie', confirmation_message: 'Twoja prośba o zmianę nazwy użytkownika została przesłana i oczekuje na zatwierdzenie.', deleted: 'Prośba o nazwę użytkownika została usunięta.', dismiss_button: OK }
     pending_requests:
       empty_text: 'Nie znaleziono próśb o zmianę nazwy.'
-      nickname_item_text: '{name} poprosił o zmianę pseudonimu'
-      nickname_exerpt: 'Żądany pseudonim: {requestedName}'
-      username_item_text: '{name} poprosił o zmianę nazwy użytkownika'
-      username_exerpt: 'Żądana nazwa użytkownika: {requestedName}'
       tooltip: 'Prośby o zmianę nazwiska'
       title: 'Prośby o zmianę nazwiska'
     settings:
@@ -1149,15 +841,9 @@ fof-username-request:
   email:
     body:
       noReasonProvided: 'Nie podano powodu.'
-      approved: "Witaj {recipient_display_name},\n\nTwoja prośba o zmianę nazwy użytkownika na \"{new_username}\" została zatwierdzona przez {actor_display_name}.\n\nMożesz teraz zalogować się przy użyciu nowej nazwy użytkownika: {login_url}\n"
-      rejected: "Witaj {recipient_display_name},\n\nTwoja prośba o zmianę nazwy użytkownika z \"{old_username}\" na \"{requested_username}\" została odrzucona przez {actor_display_name}.\n\nPowód: {powód}\n"
-    subject:
-      approved: '{display_name} zatwierdził zmianę nazwy użytkownika na {requested_username}'
-      rejected: '{display_name} odrzucił zmianę nazwy użytkownika na {requested_username}'
 fof-user-bio:
   forum:
     userbioPlaceholder: 'Napisz coś o sobie'
-    userbioPlaceholderOtherUser: 'Napisz biografię dla {username}'
     profile:
       cancel_confirm: 'Czy na pewno chcesz zrezygnować z edycji swojego biografii? Utracisz wszystkie wprowadzone zmiany.'
       cancel_button: Anuluj
@@ -1165,9 +851,6 @@ fof-user-bio:
       edit_bio_label: 'Edytuj biografię'
 fof-split:
   forum:
-    post:
-      was_split_to: '{count, liczba mnoga, jeden {{count} post został podzielony na {target}.} inne {{count} posty zostały podzielone na {target}.}}'
-      was_split_from: '{liczba, liczba mnoga, jeden {{count} post został podzielony z {target}.} inne posty {{count} zostały oddzielone od {target}.}}'
     split:
       from: 'Podziel się stąd'
       to: 'Podziel się tutaj'
@@ -1221,13 +904,11 @@ fof-reactions:
   forum:
     disabled-reaction: 'Nie możesz teraz użyć tej reakcji, odśwież stronę'
     warning: 'Twoja reakcja została nawrócona'
-    notification: '{username} zareagował {reaction} na Twój post'
     settings:
       notify_post_reacted_label: 'Ktoś zareagował na jeden z moich postów'
     reacting-own-post: 'Nie możesz zareagować na swój własny post'
     modal:
       title: Reakcje
-      anonymous_count: '{liczba, liczba mnoga, jeden {# użytkownik anonimowy} inni {# użytkownicy anonimowi}}'
       no_reactions: 'Brak reakcji'
     mod_item: 'Wyświetlanie reakcji'
     react_button_label: Reagować
@@ -1241,22 +922,19 @@ fof-profile-image-crop:
 fof-prevent-necrobumping:
   forum:
     composer:
-      warning: { title: 'Ta dyskusja ma już niż <b>{czas}</b>.', description: 'Jest bardzo prawdopodobne, że nie wymaga dalszej dyskusji, a co za tym idzie, uderzanie nim nie ma sensu.', checkbox_label: 'Zdaję sobie sprawę, że ta dyskusja jest dość stara, ale mimo to chciałbym odpowiedzieć.', error: 'Ta dyskusja jest zbyt stara, aby na nią odpowiedzieć.' }
+      warning: { description: 'Jest bardzo prawdopodobne, że nie wymaga dalszej dyskusji, a co za tym idzie, uderzanie nim nie ma sensu.', checkbox_label: 'Zdaję sobie sprawę, że ta dyskusja jest dość stara, ale mimo to chciałbym odpowiedzieć.', error: 'Ta dyskusja jest zbyt stara, aby na nią odpowiedzieć.' }
 fof-pretty-mail: null
 fof-polls:
   forum:
-    days_remaining: 'Ankieta kończy się {time}.'
     no_permission: 'Nie masz uprawnień do głosowania'
     poll_ended: 'Ta ankieta została zakończona.'
     public_poll: 'Wyświetlanie głosujących'
-    max_votes_allowed: 'Ankieta umożliwia głosowanie na {max, liczba mnoga, jedną {# opcję} inne {# opcje}}.'
     composer_discussion:
       add_poll: 'Dodaj ankietę'
       edit_poll: 'Edytuj ankietę'
     modal:
       add_title: 'Dodawanie ankiety'
       add_option_label: 'Dodawanie opcji'
-      date_placeholder: 'Data zakończenia ankiety (opcjonalnie)'
       edit_title: 'Edytuj ankietę'
       include_question: 'Musisz dołączyć pytanie'
       max: 'Możesz mieć maksymalnie 10 odpowiedzi'
@@ -1277,7 +955,6 @@ fof-polls:
       edit: 'Edytuj ankietę'
     tooltip:
       badge: Ankieta
-      votes: '{liczba, liczba mnoga, jeden {# głosów} inne {# głosów}}'
     votes_modal:
       title: Wyborców
 fof-nightmode:
@@ -1297,11 +974,9 @@ fof-moderator-notes:
   forum:
     no_content_given: 'Pusta notatka jest niedozwolona.'
     moderatorNotes:
-      created_text: '{username} utworzył(a) tę notatkę w dniu {date}'
       add_button: 'Nowa notatka'
       create-heading: 'Tworzenie nowej notatki moderatora'
       dismiss_button: Gotowy
-      input_heading: 'Wprowadź swoje notatki dla <strong>{username}</strong> (obsługiwana jest wartość markdown)'
       noNotes: 'Wygląda na to, że nie ma tu żadnych notatek.'
       submit_button: 'Zapisz notatkę'
       delete: Usunąć
@@ -1309,8 +984,6 @@ fof-moderator-notes:
     user:
       notes: 'Notatki moderatora'
   api:
-    auto_note: '_I przełączony na tego użytkownika:_ {powód}'
-    auto_note_actor: '_Switched to_ @{nazwa użytkownika}: {powód}'
     no_reason_provided: 'Nie podano powodu'
 fof-linguist: null
 fof-html-errors: null
@@ -1325,12 +998,8 @@ fof-gamification:
       name: Użytkownik
       amount: Punktów
     notification:
-      upvote: '{username} zagłosował na Twój post'
-      downvote: '{username} odrzucił Twój post'
       prefrences: { vote: 'Gdy jeden z moich postów zostanie przegłosowany w górę/w dół' }
     user:
-      card: { points: '{liczba, liczba mnoga, jeden { {liczba} punkt} inne {{liczba} punkty}}' }
-      rank: '{ranga}'
       votes_link: Głosów
     modal:
       downvotes_label: 'Przeciwnicy:'
@@ -1344,11 +1013,6 @@ fof-gamification:
     post:
       upvote_button: 'Zagłosuj na post'
       downvote_button: 'Głosowanie na minus postu'
-  email:
-    body:
-      postVoted: "Hej {recipient_display_name},\n\n{actor_display_name} właśnie zagłosował na Twój post w {discussion_title}.\n\nZobacz to tutaj: {discussion_url}\n"
-    subject:
-      postVoted: 'Twój post został przegłosowany przez {display_name}'
 fof-formatting: null
 fof-drafts:
   console:
@@ -1367,7 +1031,6 @@ fof-drafts:
       title: 'Wersje robocze'
       delete_all_button: 'Usuwanie wszystkich wersji roboczych'
       delete_button: 'Usuwanie wersji roboczej'
-      scheduled_icon_tooltip: 'Zaplanowane na {datetime}'
       scheduled_icon_tooltip_formatter: 'L [at] LT'
       alert: 'Czy na pewno chcesz usunąć swoją wersję roboczą?'
       delete_all_alert: 'Czy na pewno chcesz usunąć wszystkie swoje wersje robocze?'
@@ -1375,13 +1038,10 @@ fof-drafts:
       tooltip: 'Wersje robocze'
     schedule_draft_modal:
       text: 'Zaplanuj automatyczne publikowanie wersji roboczej w późniejszym czasie!'
-      scheduled_text: 'Obecnie zaplanowane jest publikowanie w dniu {datetime}.'
-      scheduled_error: 'Nie można zaplanować wersji roboczej: {error}.'
       unschedule_button: 'Bez harmonogramu'
       unschedule_warning: 'Czy na pewno chcesz anulować ten projekt?'
       reschedule_button: Harmonogramu
       schedule_button: Harmonogram
-      schedule_time_preview: 'Ta wersja robocza zostanie automatycznie opublikowana w <b>{datetime}</b>.'
       schedule_time_preview_formatter: LLLL
       schedule_time_preview_invalid: 'Nieprawidłowa data i/lub godzina'
       title: 'Wersja robocza harmonogramu'
@@ -1393,13 +1053,10 @@ fof-best-answer:
     this_best_answer: 'Wybierz najlepszą odpowiedź'
     remove_best_answer: 'Odznacz najlepszą odpowiedź'
     best_answer_button: 'Najlepsza odpowiedź'
-    best_answer_label: 'Ustawione przez <a>{nazwa_użytkownika}</a> {time_set}'
     errors:
       mismatch: 'Wybrany post nie istnieje w tej dyskusji.'
     notification:
-      best_answer_in_discussion: '{username} ustaw najlepszą odpowiedź w tej dyskusji'
       content: 'Wybierz najlepszą odpowiedź, jeśli udzielono odpowiedzi na Twoje pytanie'
-      awarded: 'Twój post został ustawiony jako najlepsza odpowiedź przez {username}'
       preferences: { awarded_best_answer: 'Ktoś ustawia mój post jako najlepszą odpowiedź', best_answer_in_discussion: 'Najlepszą odpowiedzią jest dyskusja, w której brałem udział', select_best_answer: 'Automatyczne przypomnienie o wybraniu najlepszej odpowiedzi w rozpoczętej przeze mnie dyskusji' }
     index:
       ask_question: 'Zadaj pytanie'
@@ -1413,22 +1070,13 @@ fof-best-answer:
       accessible_label: 'Rozwiązany/Nierozwiązany wybór'
     composer:
       titlePlaceholder: 'Tytuł pytania'
-    user:
-      best-answer-count: '{liczba, liczba mnoga, jedna { {liczba} najlepsza odpowiedź} inne {{liczba} najlepsze odpowiedzi}}'
     search:
       discussions_solutions_heading: 'Dyskusje z rozwiązaniami'
-      all_discussions_solutions_button: 'Przeszukaj wszystkie dyskusje z rozwiązaniami dla "{query}"'
     discussion:
       jump_to_best_answer_button: 'Zobacz najlepszą odpowiedź'
   email:
     subject:
-      awarded: 'Twój post został ustawiony jako najlepsza odpowiedź przez {display _ name}'
-      ba-set: 'Najlepsza odpowiedź została ustalona przez {display _ name}'
       select: 'Udało ci się odpowiedzieć na pytanie?'
-    body:
-      awarded: "Hej {odbiorca _ wyświetlacz _ nazwa},\n\nŚwietna robota, {aktor _ wyświetlacz _ nazwa} ustaw swój post jako najlepszą odpowiedź w dyskusji: {dyskusja _ tytuł}. Dzięki za pomoc.\n\nZobacz tutaj: {dyskusja _ url}\n"
-      ba-set: "Hej {odbiorca _ wyświetlacz _ nazwa},\n\n{aktor _ display _ name} właśnie ustalił najlepszą odpowiedź w dyskusji: {dyskusja _ tytuł}, w której uczestniczyłeś.\n\nSprawdź to: {dyskusja _ url}\n"
-      select: "Hej {odbiorca _ wyświetlacz _ nazwa},\n\nTylko sprawdzam; do tej pory powinieneś mieć mnóstwo odpowiedzi na swoje pytanie: {dyskusja _ tytuł}. Mam nadzieję, że jeden z nich pomógł rozwiązać twój problem.\n\nJeśli tak, to byłoby bardzo pomocne dla przyszłych członków, jeśli można ustawić najlepszą odpowiedź na swoje pytanie. To pomoże ludziom z tym samym problemem znaleźć odpowiedź, której potrzebują, i to również wielkie podziękowanie dla członków, którzy ci pomogli. Dają swój czas dobrowolnie, więc miło jest im powiedzieć, że dobrze sobie radzą.\n\nOdwiedź dyskusję tutaj: {dyskusja _ url} i wybierz najbardziej odpowiedni post jako najlepszą odpowiedź.\n\nDzięki!\n"
 fof-user-directory:
   lib:
     sort:
@@ -1437,8 +1085,6 @@ fof-user-directory:
 fof-ban-ips:
   forum:
     modal:
-      ban_options_only_ip: 'Zablokuj tylko bieżący adres IP (<code>{ip}</code>)'
-      ban_options_all_ip: 'Zablokuj wszystkie adresy IP używane przez <i>{username}</i>'
       ban_ip_no_users: 'Nikt inny nie zostanie zbanowany'
     user_badge:
       banned_tooltip: Zakazane
@@ -1455,13 +1101,8 @@ fof-ban-ips:
       check_button: Sprawdzić
       save_button: Zapisać
       ban_ip_confirmation: 'Czy na pewno chcesz zablokować ten adres IP przed użyciem na forum? Spowoduje to zablokowanie użytkownikom z tym adresem IP możliwości logowania i rejestracji.'
-      ban_ip_users: '{liczba, liczba mnoga, jeden {Użytkownik {użytkownicy} zostanie zbanowany}, inni {Użytkownicy {użytkownicy} zostaną zbanowani}}'
       unban_ip_confirmation: 'Czy na pewno chcesz odblokować tego użytkownika i wszystkich innych użytkowników, którzy nie zostali zbanowani przez inne adresy IP?'
-      unban_options_only_ip: 'Odblokuj tylko bieżący adres IP (<code>{ip}</code>)'
-      unban_options_all_ip: 'Odblokuj wszystkie adresy IP używane przez <i>{username}</i>'
       unban_ip_no_users: 'Nikt inny nie zostanie odblokowany'
-      unban_ip_users: '{liczba, liczba mnoga, jeden {Użytkownik {użytkownicy} zostanie odblokowany}, inni {Użytkownicy {użytkownicy} zostaną odbanowani}}'
-      unbanned_ips: 'Odblokowany <code>{ips}</code>.'
       title: 'Blokowanie adresów IP'
       unban_title: 'Odblokuj adresy IP'
       address_label: 'Adres IP'
@@ -1492,7 +1133,6 @@ fof-anti-spam:
       move_discussions_tag_label: 'Przenoszenie dyskusji do tagu poddanego kwarantannie'
       move_discussions_tag_help: 'Spowoduje to przeniesienie wszystkich dyskusji rozpoczętych przez tego użytkownika do tagu, który określiłeś w ustawieniach forum. Po wyłączeniu tej opcji dyskusje pozostaną w swoich bieżących tagach.'
       process_button: Proces
-      title: 'Oznacz {username} jako spamera'
       report_to_sfs_label: 'Zgłoś się do StopForumSpam'
       report_to_sfs_help: 'Spowoduje to zgłoszenie podstawowych danych użytkownika (nazwa użytkownika, adres e-mail, adres IP) do StopForumSpam. Pomoże to zapobiec rejestracji użytkownika na innych forach, które korzystają z usługi StopForumSpam.'
     user_controls:
@@ -1511,18 +1151,11 @@ flarum-sticky:
     discussion_controls:
       unsticky_button: Nielepki
       sticky_button: Lepki
-    post_stream:
-      discussion_stickied_text: '{username} przykleił dyskusję {czas}.'
-      discussion_unstickied_text: '{username} odkleił dyskusję {time}.'
     badge:
       sticky_tooltip: Lepki
   ref:
     sticky: Lepki
 flarum-statistics: null
-flarum-pusher:
-  forum:
-    discussion_list:
-      show_updates_text: '{liczba, liczba mnoga, jeden {Pokaż # zaktualizowana dyskusja} inne {Pokaż # zaktualizowane dyskusje}}'
 flarum-lock:
   forum:
     badge:
@@ -1530,24 +1163,13 @@ flarum-lock:
     discussion_controls:
       lock_button: Zamek
       unlock_button: Odblokować
-    notifications:
-      discussion_locked_text: '{username} zablokowany'
-    post_stream:
-      discussion_locked_text: '{username} zablokował dyskusję {time}.'
-      discussion_unlocked_text: '{username} odblokował dyskusję {time}.'
     settings:
       notify_discussion_locked_label: 'Ktoś blokuje rozpoczętą przeze mnie dyskusję'
 flarum-likes:
   forum:
-    notifications:
-      post_liked_text: '{username} polubił Twój post'
-      others_text: '{liczba, liczba mnoga, jeden {# inny} inny {# inne}}'
     post:
       like_link: Lubić
-      liked_by_self_text: '{users} lubi to.'
-      liked_by_text: '{liczba, liczba mnoga, jeden {{users} lubi to}, inne {{users} lubi to}}.'
       unlike_link: Odmienny
-      others_link: '{liczba, liczba mnoga, jeden {# inny} inny {# inne}}'
       you_text: Ty
     post_likes:
       title: 'Użytkownicy, którzy to lubią'
@@ -1602,9 +1224,6 @@ dhtml-composer:
       character_counter: 'Licznik znaków'
 datlechin-birthdays:
   forum:
-    user:
-      birthday_text: 'Urodziny: {data}'
-      age_text: 'Wiek: {wiek}'
     change_dob:
       title: 'Edytuj datę urodzenia'
       date_of_birth_text: 'Data urodzenia'
@@ -1617,16 +1236,12 @@ datlechin-birthdays:
       dob_heading: 'Data urodzenia'
     nav:
       nav_item: 'Dzisiejsze urodziny'
-    page:
-      discussion_count: '{liczba, liczba mnoga, jeden {Dyskusja: #} inne {Dyskusje: #}}'
-      post_count: '{liczba, liczba mnoga, jeden {Post: #} inne {Posty: #}}'
     edit_user:
       dob_heading: 'Data urodzenia'
     sign_up:
       dob_placeholder: 'Data urodzenia'
   api:
     invalid_dob_message: 'Nieprawidłowa data urodzenia'
-    invalid_age_message: 'Twój wiek musi wynosić co najmniej {minAge} lat.'
   ref:
     date_of_birth: 'Data urodzenia'
 clarkwinkelmann-post-permissions: null
@@ -1662,24 +1277,13 @@ askvortsov-rich-text:
       insert_image: { src_placeholder: Łącze, title_placeholder: Tytuł }
       insert_link: { text_placeholder: Tekst, href_placeholder: 'Adres URL', title_placeholder: 'Tytuł (wyświetla się po najechaniu kursorem)', remove_button: Usunąć }
       additional_items_tooltip: 'Dodatkowe elementy sterujące'
-      bold_tooltip: 'Pogrubiony tekst <{modifierKey}-b>'
-      code_tooltip: 'Kod wbudowany <{modifierKey}-''>'
       code_block_tooltip: 'Wstawianie bloku kodu'
-      header_tooltip: 'Zmień na nagłówek {level} <shift-{modifierKey}-{level}>'
       horizontal_rule_tooltip: 'Wstawianie linii poziomej'
       image_tooltip: 'Dodawanie obrazu'
-      italic_tooltip: 'Kursywa <{modifierKey}-i>'
       link_tooltip: 'Dodawanie linku'
-      ordered_list_tooltip: 'Lista numerowana <shift-{modifierKey}-9>'
-      paragraph_tooltip: 'Zmień na akapit <shift-{modifierKey}-0>'
-      quote_tooltip: 'Wstaw cudzysłów <{modifierKey}-q>'
       spoiler_block_tooltip: 'Zablokuj spoiler/listę rozwijaną'
-      spoiler_inline_tooltip: 'Spoiler <{modifierKey}-;>'
       strike_tooltip: 'Przekreślenie <alt-shift-5>'
-      sub_tooltip: 'Indeks dolny <{modifierKey}-,>'
-      sup_tooltip: 'Indeks górny <{modifierKey}-.>'
       text_type_tooltip: 'Wybierz typ tekstu'
-      unordered_list_tooltip: 'Lista punktowana <shift-{modifierKey}-8>'
   forum:
     settings:
       composer_heading: Kompozytor
@@ -1694,7 +1298,6 @@ askvortsov-pwa:
       share_button: Udostępnij
     post_controls:
       share_button: Udostępnij
-      share_api: { title: 'Odpowiedź {username} na {title}''' }
     user_controls:
       share_button: Udostępnij
     settings:
@@ -1705,20 +1308,7 @@ askvortsov-pwa:
       header: 'Błąd połączenia sieciowego'
       text: 'Ta aplikacja wymaga połączenia z siecią; Nie można z niego korzystać w trybie offline. Sprawdź swoje połączenie.'
 askvortsov-moderator-warnings:
-  emails:
-    post_warned:
-      subject: '{warner_display_name} ostrzegł cię {strajki, liczba mnoga, jeden {# strajk} inne {# strajki}} w {discussion_title}'
-      body: "Hej {warnee_display_name}!\n\n{warner_display_name} ostrzegł cię {strajki, liczba mnoga, jeden {# strajk} inne {# strajki}} w {discussion_title}\n\nPodano następujący powód:\n\n---\n\n{public_comment}\n"
-    user_warned:
-      subject: '{warner_display_name} ostrzegł cię {uderzenia, liczba mnoga, jeden {# strajk} inne {# strajki}}'
-      body: "Hej {warnee_display_name}!\n\n{warner_display_name} ostrzegł cię {uderzenia, liczba mnoga, jeden {# strajk} inne {# strajki}}\n\nPodano następujący powód:\n\n---\n\n{public_comment}\n"
   forum:
-    notifications:
-      warning_text: '{strajki, liczba mnoga, jeden {Zostałeś ostrzeżony # strajkiem przez {mod_username}} inny {Zostałeś ostrzeżony # uderzeniami przez {mod_username}}}'
-      warning_no_strikes_text: 'Zostałeś ostrzeżony przez {mod_username} (brak ostrzeżeń)'
-    post:
-      warning: '{strajki, liczba mnoga, jeden {Ostrzeżenie z # uderzenie przez {mod_username}} inne {Ostrzeżenie z # uderzenia przez {mod_username}}}'
-      warning_no_strikes: 'Ostrzeżenie bez ostrzeżeń od {mod_username}'
     post_controls:
       warning_button: 'Ostrzegaj użytkownika'
     user:
@@ -1735,20 +1325,14 @@ askvortsov-moderator-warnings:
     warning_list:
       add_button: 'Nowe ostrzeżenie'
       no_warnings: 'Wygląda na to, że nie ma tutaj żadnych ostrzeżeń.'
-      warnings: '{ostrzeżenia, liczba mnoga, jeden {Ostrzeżenia moderatora: # Otrzymano ostrzeżenie} inne {Ostrzeżenia moderatora: # Otrzymano ostrzeżenia}}'
       warnings_no_strikes: 'Ostrzeżenia moderatora: Nie otrzymano ostrzeżeń'
     warning_list_item:
-      list_item_heading: '{strajki, liczba mnoga, jeden {<strong>#</strong> strajk, {czas}} inne {<strong>#</strong> strajki, {czas}}}'
-      list_item_heading_hidden: '{strajki, liczba mnoga, jeden {<strong>#</strong> strajk, {czas} <strong>(usunięty)</strong>} inne {<strong>#</strong> strajki, {czas} <strong>(usunięty)</strong>}}'
       public_comment: Ostrzeżenie
       private_comment: 'Komentarze widoczne dla moderatora'
       linked_post: 'Połączony post'
     warning_modal:
       confirmation_message: 'Twoje ostrzeżenie zostało zapisane. Może być konieczne odświeżenie strony, aby ją wyświetlić.'
-      heading: 'Ostrzegaj <strong>{nazwa użytkownika}</strong>'
       strikes_heading: 'Ile uderzeń należy zastosować?'
-      public_comment_heading: 'Dlaczego <strong>{username}</strong> otrzymuje te ostrzeżenia? Komentarze te będą widoczne dla użytkownika i innych moderatorów.'
-      private_comment_heading: 'Dlaczego <strong>{username}</strong> otrzymuje te ostrzeżenia? Te komentarze będą widoczne TYLKO dla innych moderatorów.'
       submit_button: 'Zapisz ostrzeżenie'
 askvortsov-discussion-templates:
   forum:

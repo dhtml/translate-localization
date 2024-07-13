@@ -3,7 +3,6 @@ core:
     change_email:
       incorrect_password_message: 入力したパスワードが間違っています。
       confirm_password_placeholder: パスワードの確認
-      confirmation_message: '確認メールを {email} に送信しました。すぐに届かない場合は、迷惑メールフォルダを確認してください。'
       dismiss_button: わかりました
       submit_button: 変更を保存
       title: メールアドレスの変更
@@ -26,7 +25,6 @@ core:
     composer_edit:
       discard_confirmation: '変更を保存していない。それらを破棄しますか?'
       edited_message: あなたの編集が行われました。
-      post_link: '#{number}を{discussion}に投稿する'
       submit_button: 変更を保存
       view_button: 眺める
     composer_reply:
@@ -48,10 +46,6 @@ core:
       restore_button: 戻す
     discussion_list:
       empty_text: ここには議論がないようです。
-      replied_text: '{username}さんが{ago}さんに返信しました'
-      started_text: '{username} は {ago} を開始しました'
-      total_replies_a11y_label: '{count, 複数形, 1 つの {# 返信} 他の {# 返信}}'
-      unread_replies_a11y_label: '{count、複数形、1つの{#未読の返信}、他の{#未読の返信}}。未読の {count, plural, one {reply} other {replies}} を既読としてマークします。'
       load_more_button: さらにロードする
     forgot_password:
       email_sent_message: 'ご入力いただいたメールアドレスがこのサイトに登録されている場合は、パスワードをリセットするためのリンクを含むメールをお送りします。 次の分または2分以内に受信しない場合は、迷惑メールフォルダを確認してください。'
@@ -107,7 +101,6 @@ core:
     notifications:
       delete_all_confirm: 'すべての通知を削除してもよろしいですか?このアクションは元に戻せません'
       delete_all_tooltip: すべての通知を削除する
-      discussion_renamed_text: '{username}がタイトルを変更しました'
       empty_text: 通知なし
       mark_as_read_tooltip: 既読にする
       toggle_dropdown_accessible_label: 通知を表示する
@@ -116,8 +109,6 @@ core:
       tooltip: 通知
     post:
       edited_text: 編集
-      edited_tooltip: '{username} が {ago} を編集しました'
-      number_tooltip: '投稿 #{number}'
     post_controls:
       delete_confirmation: 'この投稿を完全に削除してもよろしいですか?この操作は元に戻せません。'
       hide_confirmation: 'この投稿を削除してもよろしいですか?'
@@ -131,23 +122,16 @@ core:
     post_scrubber:
       now_link: 今
       original_post_link: 元の投稿
-      unread_text: '{count} 未読'
-      viewing_text: '{count, 複数形, {formattedCount} 投稿の 1 つの {{index} } 他の {formattedCount} 投稿の {{index}}}'
     post_stream:
-      discussion_renamed_old_tooltip: '古いタイトルは「{old}」でした。'
-      discussion_renamed_text: '{username} はタイトルを {new} {time} に変更しました。'
-      time_lapsed_text: '{ピリオド}後'
       load_more_button: さらにロードする
       reply_placeholder: 返信を書く...
     rename_discussion:
       title: 名前変更の議論
       submit_button: 改名する
     search:
-      all_discussions_button: 'すべてのディスカッションで "{query}" を検索します。'
       discussions_heading: 議論
       users_heading: ユーザー
     security:
-      browser_on_operating_system: '{os} の {browser}'
       cannot_terminate_current_session: 現在アクティブなセッションを終了できません。代わりにログアウトします。
       created: 作成
       current_active_session: 現在のアクティブセッション
@@ -159,13 +143,11 @@ core:
       new_access_token_modal: { submit_button: トークンの作成, title_placeholder: タイトル, title: 新しいトークン }
       revoke_access_token: 取り消す
       sessions_heading: 'アクティブ セッション'
-      session_terminated: '{count, 複数形, 1 つの {Session terminated} other {# Sessions terminated}}.'
       session_termination_failed: セッションの終了中にエラーが発生しました。
       show_access_token: トークンの表示
       terminate_all_other_sessions: 他のすべてのセッションを終了する
       terminate_session: 終了する
       token_revoked: トークンは取り消されました。
-      token_item_title: '{title} - {トークン}'
       token_title_placeholder: /
       never: 一度もない
       new_access_token_button: 新しいトークン
@@ -174,7 +156,6 @@ core:
       title: 安全
     settings:
       account_heading: アカウント
-      notification_checkbox_a11y_label_template: '{method} 経由で "{description}" 通知を受信する'
       notify_by_web_heading: ウェブ
       notify_discussion_renamed_label: 誰かが私が始めた議論の名前を変更します
       privacy_disclose_online_label: 自分がオンラインになったときに他の人に見せる
@@ -186,7 +167,6 @@ core:
       title: 設定
     sign_up:
       log_in_text: 'すでにアカウントをお持ちですか?<a>ログイン</a>'
-      welcome_text: 'ようこそ、{username}!'
       dismiss_button: わかりました
       email_placeholder: 電子メール
       password_placeholder: パスワード
@@ -196,8 +176,6 @@ core:
     user:
       avatar_upload_button: アップロード
       avatar_upload_tooltip: 新しいアバターをアップロードする
-      in_discussion_text: '{ディスカッション}'
-      joined_date_text: '{ago}に参加しました'
       online_text: オンライン
       posts_empty_text: ここには投稿がないようです。
       avatar_remove_button: 取り去る
@@ -209,15 +187,12 @@ core:
     user_controls:
       button: コントロール
       delete_confirmation: 'このユーザーを削除してもよろしいですか?ユーザーの投稿は削除されません。'
-      delete_error_message: 'ユーザー <i>{username} ({email})</i> の削除に失敗しました'
-      delete_success_message: 'ユーザー <i>{username} ({email})</i> は削除されました'
       toggle_dropdown_accessible_label: ユーザーコントロールドロップダウンメニューを切り替えます
       delete_button: 削除
       edit_button: 編集
     user_email_confirmation:
       resend_button: 確認メールの再送信
       sent_message: 送信
-      alert_message: '確認メールを {email} に送信しました。すぐに届かない場合は、迷惑メールフォルダを確認してください。'
     welcome_hero:
       hide: ウェルカムメッセージを非表示にする
     badge:
@@ -230,8 +205,6 @@ core:
       hidden_tooltip: 隠れた
     dropdown:
       toggle_dropdown_accessible_label: ドロップダウンメニューを切り替えます
-    data_segment:
-      label: '{ラベル}:'
     edit_user:
       activate_button: ユーザーのアクティブ化
       groups_heading: グループ
@@ -246,33 +219,17 @@ core:
       username_heading: ユーザー名
       username_label: ユーザー名
     error:
-      circular_dependencies_message: '循環依存関係が検出されました: {extensions}。中止。拡張機能の 1 つを無効にして、もう一度お試しください。'
-      dependent_extensions_message: '次の依存拡張機能が無効になるまで、{extension} を無効にできません: {extensions}'
-      extension_initialiation_failed_message: '{extension} の初期化に失敗しました。詳細については、ブラウザー コンソールを確認してください。'
       generic_message: おっと！何かがおかしくなった。ページを再読み込みして、もう一度お試しください。
       generic_cross_origin_message: おっと！クロスオリジンリクエスト中に問題が発生しました。ページを再読み込みして、もう一度お試しください。
-      missing_dependencies_message: '次の依存関係が有効になるまで、{extension} を有効にできません: {extensions}'
       not_found_message: 要求されたリソースが見つかりませんでした。
       payload_too_large_message: 要求ペイロードが大きすぎました。
       permission_denied_message: あなたには、そのようなことをする権限がありません。
       rate_limit_exceeded_message: あなたは少し早すぎます。数秒後にもう一度お試しください。
       render_failed_message: '申し訳ございませんが、このコンテンツの表示中にエラーが発生しました。ユーザーの場合は、しばらくしてからもう一度お試しください。管理者の場合は、Flarum ログ ファイルで詳細を確認してください。'
-    meta_titles:
-      with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} その他 {{pageTitle}: ページ # - {forumName}}}'
-      without_page_title: '{pageNumber, 複数形, =1 {{forumName}} その他 {Page # - {forumName}}}'
     modal:
       close: 閉める
     nav:
       drawer_button: ナビゲーションドロワーを開く
-    number_suffix:
-      kilo_text: に向かって
-      mega_text: M
-    series:
-      glue_text: ','
-      three_text: '{first}、{second}、および {third}'
-      two_text: '{first} と {second}'
-    username:
-      deleted_text: '[削除]'
     loading_indicator:
       accessible_label: 積載。。。
   views:
@@ -290,11 +247,9 @@ core:
       invalid_confirmation_token: この確認リンクは既に使用されているか、無効です。
       not_authenticated: このページにアクセスする権限がありません。ログイン後、もう一度お試しください。
       not_found: リクエストしたページが見つかりませんでした。
-      not_found_return_link: '{フォーラム}に戻る'
       permission_denied: このページにアクセスする権限がありません。
       unknown: このページを読み込もうとしたときにエラーが発生しました。
     log_out:
-      log_out_confirmation: '{forum} からログアウトしてもよろしいですか?'
       log_out_button: ログアウトする
       title: ログアウトする
     reset_password:
@@ -311,23 +266,15 @@ core:
       previous_page_button: 前のページ
   api:
     invalid_username_message: ユーザー名には、文字、数字、ダッシュのみを含めることができます。
-    invalid_filter_type:
-      must_be_numeric_message: '{filter} フィルターは数値である必要があります。'
-      must_not_be_array_message: '{filter} フィルターは配列であってはなりません。'
-      must_not_be_multidimensional_array_message: '{filter} フィルターは多次元配列であってはなりません。'
   email:
     activate_account:
       subject: 新しいアカウントを有効にする
-      body: "{username}さん、こんにちは!\n\n誰か(願わくばあなた)がこのメールアドレスで{forum}に登録しました。\n\nこれに当てはまる場合は、次のリンクをクリックするだけで、アカウントが有効になります。\n{url}\n\nサインアップしていない場合は、このメールを無視してください。\n"
     confirm_email:
       subject: 新しいメールアドレスを確認する
-      body: "{username}さん、こんにちは!\n\n誰かが(願わくばあなたも!){forum}のメールアドレスをこのメールアドレスに変更しました。\n\nこれがあなただった場合は、次のリンクをクリックするだけで、メールが確認されます。\n{url}\n\nこれがあなたでない場合は、このメールを無視してください。\n"
     reset_password:
-      body: "{username}さん、こんにちは!\n\n誰かが(願わくばあなたも!)あなたのアカウントのパスワードを忘れたリクエストを{forum}に送信しました。\n\nこの場合は、次のリンクをクリックしてパスワードをリセットします。\n{url}\n\nパスワードを変更したくない場合は、このメールを無視して何も起こりません。\n"
       subject: パスワードを再設定する
     send_test:
       subject: 'Flarum Eメールテスト'
-      body: "{username}さん、こんにちは!\n\nこれは、Flarum のメール設定が正しく機能していることを確認するためのテストメールです。\n\nこれがあなたなら、このメールはあなたの設定が機能していることを意味します!\n\nこれがあなたでない場合は、このメールを無視してください。\n"
   ref:
     all_discussions: すべてのディスカッション
     change_email: メールアドレスの変更
@@ -335,7 +282,6 @@ core:
     color: 色
     confirm_password: パスワードの確認
     confirm_email: Eメールの確認
-    confirmation_email_sent: '確認メールを {email} に送信しました。すぐに届かない場合は、迷惑メールフォルダを確認してください。'
     custom_footer_text: ページの最下部に表示するHTMLを追加します。
     custom_footer_title: カスタムフッターの編集
     custom_header_text: 'ページの最上部、Flarum 自身のヘッダーの上に表示される HTML を追加します。'
@@ -349,7 +295,6 @@ core:
     extensions: '拡張 機能'
     generic_confirmation_message: '続行してもよろしいですか?この操作は元に戻せません。'
     icon: アイコン
-    icon_text: '<a>FontAwesome</a> アイコン クラスの名前を、接頭辞 <code>fas fa-</code> <em>を含め</em>て入力します。'
     load_more: さらにロードする
     loading: 積載。。。
     log_in: ログイン
@@ -373,7 +318,6 @@ core:
     security: 安全
     settings: 設定
     sign_up: サインアップ
-    some_others: '{count, 複数形, one {# other} other {# others}}'
     start_a_discussion: ディスカッションを開始する
     username: ユーザー名
     users: ユーザー
@@ -389,128 +333,12 @@ core:
     members: メンバーズ
     mod: 方法
     mods: 改造
-validation:
-  accepted: ':属性は受け入れられなければなりません。'
-  active_url: ':属性は有効なURLではありません。'
-  after: ':属性は、:d ate後の日付である必要があります。'
-  after_or_equal: ':属性は、:d ate以降の日付である必要があります。'
-  alpha: ':属性には文字のみを含める必要があります。'
-  alpha_dash: ':属性には、文字、数字、ダッシュ、アンダースコアのみを含める必要があります。'
-  alpha_num: ':属性には、文字と数字のみを含める必要があります。'
-  array: ':属性は配列でなければなりません。'
-  before: ':属性は、:d ateより前の日付である必要があります。'
-  before_or_equal: ':属性は、:d ateより前の日付である必要があります。'
-  between:
-    numeric: ':属性は:minと:maxの間にある必要があります。'
-    file: ':属性は、:minキロバイトから:maxキロバイトの間である必要があります。'
-    string: ':属性は:minと:maxの文字の間でなければなりません。'
-    array: ':属性には、:minと:maxの項目が必要です。'
-  boolean: ':attribute フィールドは true または false である必要があります。'
-  confirmed: ':attribute の確認が一致しません。'
-  date: ':属性は有効な日付ではありません。'
-  date_equals: ':attribute は、:d ate に等しい日付でなければなりません。'
-  date_format: ':属性が :format の形式と一致しません。'
-  different: ':attribute と :other は異なる必要があります。'
-  digits: ':属性は:d igits数字でなければなりません。'
-  digits_between: ':属性は:minと:maxの数字の間でなければなりません。'
-  dimensions: ':属性の画像サイズが無効です。'
-  distinct: ':attribute フィールドに重複する値があります。'
-  email: ':属性は有効なメールアドレスでなければなりません。'
-  ends_with: ':属性は、次のいずれかで終わる必要があります: :values。'
-  exists: '選択した :属性が無効です。'
-  file: ':属性はファイルである必要があります。'
-  file_too_large: ':属性が大きすぎます。'
-  file_upload_failed: ':属性のアップロードに失敗しました。'
-  filled: ':attribute フィールドには値が必要です。'
-  gt:
-    numeric: ':属性は:valueより大きくなければなりません。'
-    file: ':属性は:valueキロバイトより大きくする必要があります。'
-    string: ':attribute は :value 文字より大きくする必要があります。'
-    array: ':属性には、:value を超える項目が必要です。'
-  gte:
-    numeric: ':属性は :value 以上でなければなりません。'
-    file: ':attribute は :value キロバイト以上である必要があります。'
-    string: ':attribute は、:value 文字以上である必要があります。'
-    array: ':属性には、:value 項目以上が必要です。'
-  image: ':属性は画像である必要があります。'
-  in: '選択した :属性が無効です。'
-  in_array: ':attribute フィールドは :other に存在しません。'
-  integer: ':属性は整数である必要があります。'
-  ip: ':属性は有効なIPアドレスである必要があります。'
-  ipv4: ':属性は有効なIPv4アドレスである必要があります。'
-  ipv6: ':属性は有効なIPv6アドレスである必要があります。'
-  json: ':attribute は有効な JSON 文字列である必要があります。'
-  lt:
-    numeric: ':属性は:valueより小さくなければなりません。'
-    file: ':attribute は :value キロバイト未満である必要があります。'
-    string: ':attribute は :value 文字未満である必要があります。'
-    array: ':属性には、:value より小さい項目が必要です。'
-  lte:
-    numeric: ':attribute は :value 以下でなければなりません。'
-    file: ':属性は :value キロバイト以下でなければなりません。'
-    string: ':attribute は :value 以下の文字でなければなりません。'
-    array: ':属性には、:value を超える項目を含めることはできません。'
-  max:
-    numeric: ':属性は:maxより大きくすることはできません。'
-    file: ':属性は:maxキロバイトより大きくすることはできません。'
-    string: ':属性は:max文字を超えてはなりません。'
-    array: ':属性には、:maxを超える項目を含めることはできません。'
-  mimes: ':attribute は、:values 型のファイルでなければなりません。'
-  mimetypes: ':attribute は、:values 型のファイルでなければなりません。'
-  min:
-    numeric: ':属性は少なくとも:minである必要があります。'
-    file: ':属性は少なくとも:minキロバイトである必要があります。'
-    string: ':属性は、少なくとも:min文字である必要があります。'
-    array: ':attribute には、少なくとも :min 項目が必要です。'
-  multiple_of: ':属性は:valueの倍数でなければなりません。'
-  not_in: '選択した :属性が無効です。'
-  not_regex: ':attribute 形式が無効です。'
-  numeric: ':属性は数値でなければなりません。'
-  password: パスワードが正しくありません。
-  present: ':attribute フィールドが存在する必要があります。'
-  regex: ':attribute 形式が無効です。'
-  required: ':attribute フィールドは必須です。'
-  required_if: ':other が :value の場合、:attribute フィールドは必須です。'
-  required_unless: ':attribute フィールドは、:other が :values に含まれていない限り必須です。'
-  required_with: ':values が存在する場合は、 :attribute フィールドが必要です。'
-  required_with_all: ':values が存在する場合は、 :attribute フィールドが必要です。'
-  required_without: ':values が存在しない場合は、 :attribute フィールドが必要です。'
-  required_without_all: ':attribute フィールドは、 :values が存在しない場合に必須です。'
-  prohibited: ':attribute フィールドは禁止されています。'
-  prohibited_if: ':other が :value の場合、:attribute フィールドは禁止されます。'
-  prohibited_unless: ':attribute フィールドは、:other が :values に含まれていない限り禁止されています。'
-  same: ':attribute と :other は一致する必要があります。'
-  size:
-    numeric: ':属性は:sizeでなければなりません。'
-    file: ':属性は:sizeキロバイトである必要があります。'
-    string: ':属性は:size文字である必要があります。'
-    array: ':属性には:size項目が含まれている必要があります。'
-  starts_with: ':属性は、次のいずれかで始まる必要があります。'
-  string: ':属性は文字列である必要があります。'
-  timezone: ':属性は有効なゾーンである必要があります。'
-  unique: ':属性はすでに取得されています。'
-  uploaded: ':属性のアップロードに失敗しました。'
-  url: ':attribute 形式が無効です。'
-  uuid: ':attribute は有効な UUID でなければなりません。'
-  attributes:
-    username: ユーザー名
-    password: パスワード
-    email: 電子メール
-    title: タイトル
-    content: コンテンツ
-    name_singular: 単数名
-    name_plural: 複数名
-    tag_count_primary: プライマリタグの数
-    tag_count_secondary: 'セカンダリ タグの数'
-  recaptcha: 'reCAPTCHA の検証に失敗しました。'
-  recaptcha-unknown: 'reCAPTCHA の検証中に不明なエラーが発生しました ({errors})。'
 flarum-tags:
   forum:
     all_tags:
       meta_description_text: すべてのタグ
       meta_title_text: タグ
     choose_tags:
-      edit_title: '{title} のタグを編集する'
       title: ディスカッションのタグを選択する
     discussion_controls:
       edit_tags_button: タグの編集
@@ -520,48 +348,27 @@ flarum-tags:
       more_link: もっとその。。。
       untagged_link: タグ
       tags_link: タグ
-    post_stream:
-      added_and_removed_tags_text: '{username} は {tagsAdded} を追加し、{tagsRemoved} {time} を削除しました。'
-      added_tags_text: '{username} は {tagsAdded} {time} を追加しました。'
-      removed_tags_text: '{username} は {tagsRemoved} {time} を削除しました。'
-      tags_text: '{count, 複数形, 1つの{{tags}タグ} 他の{{tags}タグ}}'
-    tag:
-      meta_description_text: '{tag}タグを使用したすべての議論'
     composer_discussion:
       choose_tags_link: タグの選択
   lib:
     deleted_tag_text: 削除
     tag_selection_modal:
       bypass_requirements: タグの要件をバイパスする
-      choose_primary_placeholder: '{count, plural, one {Choose a primary tag} other {Choose # primary tags}}'
-      choose_secondary_placeholder: '{count, plural, one {Choose one more tag} other {さらに # 個のタグを選択}}'
-      choose_tags_placeholder: '{count, plural, one {Choose one more tag} other {さらに # 個のタグを選択}}'
       submit_button: わかりました
       title: タグの選択
   ref:
     choose_tags: タグの選択
-    choose_tags_placeholder: '{count, plural, one {Choose one more tag} other {さらに # 個のタグを選択}}'
     name: 名前
     tags: タグ
 flarum-mentions:
   forum:
     composer:
       mention_tooltip: ユーザー、グループ、または投稿をメンションする
-      reply_to_post_text: '#{number} に返信'
     mentioned_by:
       title: この投稿への返信
       load_more_button: さらにロードする
-    notifications:
-      post_mentioned_text: '{username}があなたの投稿に返信しました'
-      user_mentioned_text: '{username}さんがあなたをメンションしました'
-      group_mentioned_text: '{username} がメンバーになっているグループをメンションしました'
-      others_text: '{count, 複数形, one {# other} other {# others}}'
     post:
-      mentioned_by_more_text: '{count} 件の返信があります。'
-      mentioned_by_self_text: '{users}はこれに返信しました。'
-      mentioned_by_text: '{users}はこれに返信しました。'
       quote_button: 引用する
-      others_text: '{count, 複数形, one {# other} other {# others}}'
       reply_link: 答える
       you_text: あなたが
     settings:
@@ -570,28 +377,12 @@ flarum-mentions:
       notify_group_mentioned_label: 投稿で自分がメンバーになっているグループに誰かがメンションされている
     user:
       mentions_link: 言及
-    post_mention:
-      deleted_text: '[不明]'
-    group_mention:
-      deleted_text: '[不明なグループ]'
-  email:
-    post_mentioned:
-      subject: '{replier_display_name}が{title}の投稿に返信しました'
-      body: "{recipient_display_name}さん!\n\n{replier_display_name}さんが{title}の投稿(#{post_number})に返信しました。\n\n{url}\n\n---\n\n{コンテンツ}\n"
-    user_mentioned:
-      subject: '{mentioner_display_name}は{title}であなたをメンションしました'
-      body: "{recipient_display_name}さん!\n\n{mentioner_display_name}さんが{title}の投稿であなたをメンションしました。\n\n{url}\n\n---\n\n{コンテンツ}\n"
-    group_mentioned:
-      subject: '{mentioner_display_name}が{title}であなたがメンバーになっているグループをメンションしました'
-      body: "{recipient_display_name}さん!\n\n{mentioner_display_name} は {title} であなたがメンバーになっているグループについて言及しました。\n\n{url}\n\n---\n\n{コンテンツ}\n"
 flarum-subscriptions:
   forum:
     discussion_controls:
       unfollow_button: フォロー解除
       unignore_button: アンサー
       follow_button: 従う
-    notifications:
-      new_post_text: '{username}が投稿されました'
     settings:
       follow_after_reply_label: 返信したディスカッションを自動的にフォローする
       notify_for_all_posts_label: ディスカッションの最後の投稿だけでなく、すべての新しい投稿について通知する
@@ -613,10 +404,6 @@ flarum-subscriptions:
       meta_title_text: 次
     index:
       following_link: 次
-  email:
-    new_post:
-      subject: '[新しい投稿]{タイトル}'
-      body: "{recipient_display_name}さん!\n\n{poster_display_name}さんがフォローしているディスカッションに投稿しました: {title}。\n\n新しいアクティビティを表示するには、次のリンクを確認してください。\n{url}\n\n---\n\n{コンテンツ}\n\n---\n\n最新の状態になるまで、このディスカッションに関する通知は届きません。\n"
   ref:
     follow: 従う
     following: 次
@@ -625,7 +412,6 @@ flarum-flags:
   forum:
     flag_post:
       confirmation_message: この投稿にフラグを立てていただきありがとうございます。モデレーターが調査します。
-      reason_details_placeholder: 追加の詳細(オプション)
       reason_inappropriate_label: 不適当
       reason_inappropriate_text: この投稿は攻撃的、虐待的、または<a>コミュニティガイドライン</a>に違反しています。
       reason_missing_message: モデレーターに詳細をお知らせください。
@@ -639,13 +425,10 @@ flarum-flags:
       title: 旗柱
     flagged_posts:
       empty_text: フラグなし
-      item_text: '<em>{discussion}</em> の {username}'
       title: フラグ付き投稿
       tooltip: フラグ付き投稿
     post:
       dismiss_flag_button: フラグを却下
-      flagged_by_text: '{username} によってフラグが付けられました'
-      flagged_by_with_reason_text: '{username} によって {reason} としてフラグが立てられました'
     post_controls:
       flag_button: 旗
   ref:
@@ -654,13 +437,11 @@ flarum-flags:
 flarum-suspend:
   forum:
     notifications:
-      user_suspended_text: '{timeReadable} の停止処分を受けました'
       user_suspended_indefinite_text: 無期限の停止処分を受けた
       user_unsuspended_text: 停止が解除されました
     suspension_info:
       dismiss_button: 解任する
       indefinite: これは無期限の停止です
-      limited: 'この停止は{date}まで有効です'
       title: このアカウントは停止されています
     suspend_user:
       display_message: ユーザーへのメッセージの表示
@@ -671,7 +452,6 @@ flarum-suspend:
       placeholder_optional: 随意
       reason: 停止の理由
       status_heading: 停止状況
-      title: '{username} を一時停止します'
       submit_button: 変更を保存
     user_badge:
       suspended_tooltip: 中断
@@ -681,10 +461,8 @@ flarum-suspend:
     no_reason_given: この停職の理由は明らかにされていない。
     suspended:
       subject: アカウントが停止されました
-      body: "ねえ{recipient_display_name}、\n\n以下の理由により、利用停止処分を受けた場合\n\n---\n{suspension_message}\n---\n"
     unsuspended:
       subject: アカウントの停止が解除された
-      body: "ねえ{recipient_display_name}、\n\nあなたは停止解除されました。次のリンクをクリックすると、フォーラムに戻ることができます。\n\n{forum_url}\n"
 blomstra-gdpr:
   lib:
     data:
@@ -707,8 +485,6 @@ fof-upload:
       error: エラー
       loading: アップロード
       unauthorized: ファイルのダウンロードは許可されていません
-    validation:
-      max_size: '{max} kbを超えるアップロードは受け付けられません。'
     text_preview:
       expand: プレビューを展開
       collapse: プレビューを折りたたむ
@@ -718,7 +494,6 @@ fof-upload:
   api:
     upload_errors:
       forbidden_type: このタイプのファイルのアップロードは許可されていません。
-      unsupported_type: 'アップロード アダプターは、指定された MIME の種類 {mime} をサポートしていません。'
       could_not_detect_mime: 'このファイルの MIME タイプを検出できませんでした。もう一度やり直してください。'
       max_upload_file_size_ini: アップロードの最大ファイルサイズ制限がphp.iniに達しました。
       max_upload_file_size_form: フォームからアップロードの最大ファイルサイズ制限に達しました。
@@ -727,7 +502,6 @@ fof-upload:
       no_upload_tmp_folder: ファイルをアップロードするためのtmpフォルダはありません。
       cannot_write_to_disk: ディスクに書き込めません。
       upload_blocked_by_php_extension: php拡張機能がアップロードをブロックしました。
-      no_files_made_it_to_upload: '{max} kb以下のファイルをアップロードしてください。'
   lib:
     upload-shared-file-modal:
       title: 新しい共有ファイル
@@ -740,13 +514,9 @@ fof-upload:
       release_to_upload: アップロードするリリース
       modal_empty_desktop: ファイルリストが空です。ボタンをクリックするか、ここにファイルをドラッグしてアップロードします。
       modal_empty_phone: ファイルリストが空です。上のボタンをタップしてファイルをアップロードします。
-      select_file_a11y_label: 'ファイル "{fileName}" を選択します'
-      confirm_selection_btn: '{fileCount, 複数形, =0 {選択されていない} 1 つの {ファイルを選択} 他の {ファイルを選択}}'
       load_more_files_btn: さらにファイルを読み込む
-      delete_file_a11y_label: 'ファイル "{fileName}" を削除します'
-      delete_confirmation: '"{fileName}" を削除してもよろしいですか?'
-      hide_file: { btn_a11y_label_hide: 'メディアマネージャで "{fileName}" を非表示にする', btn_a11y_label_show: 'メディアマネージャに "{fileName}" を表示する', hide_confirmation: '"{fileName}" を非表示にしてもよろしいですか?ファイルを非表示にしても、メディアマネージャーから削除されるだけで、既存の投稿には影響しません。', hide_success: ファイルが非表示, show_confirmation: '"{fileName}" を表示してもよろしいですか?ファイルを表示すると、メディアマネージャーに表示されます。', show_success: 表示されたファイル, hide_fail: 'ファイル "{fileName}" を非表示にできませんでした', show_fail: 'ファイル "{fileName}" を表示できませんでした', loading: ファイルを非表示にしています... }
-      hide_shared_file: { btn_a11y_label_hide: '"{fileName}" を非公開にする (公開 URL なし)', btn_a11y_label_show: '"{fileName}" を公開する (公開 URL を使用)', hide_confirmation: '"{fileName}" を非公開にしてもよろしいですか?ファイルを非公開にすると、その公開URLは削除されますが、既存の投稿には影響しません。また、メディアマネージャーで権限のないユーザーに表示されなくなります。', hide_success: 非公開にするファイル, show_confirmation: '"{fileName}" を公開してもよろしいですか?ファイルを公開すると、公開URLを持つすべてのユーザーがファイルにアクセスできるようになり、メディアマネージャーを使用して誰でもファイルを共有できるようになります。', show_success: ファイルの公開, hide_fail: 'ファイル "{fileName}" をプライベートにできませんでした', show_fail: 'ファイル "{fileName}" を公開できませんでした', loading: ファイルを非公開に... }
+      hide_file: { hide_success: ファイルが非表示, show_success: 表示されたファイル, loading: ファイルを非表示にしています... }
+      hide_shared_file: { hide_success: 非公開にするファイル, show_success: ファイルの公開, loading: ファイルを非公開に... }
 flarum-bbcode:
   forum:
     quote:
@@ -779,8 +549,6 @@ fof-follow-tags:
       following_tag_tooltip: 次
       lurking_tag_tooltip: 潜んで
     sub_controls:
-      header: '{tagName} のサブスクリプション'
-      subscription_label: '{tagName} のサブスクリプション レベルを選択します。'
       following_text: すべての新しいディスカッションについて通知されます。
       hiding_text: '[すべての掲示板]ページで掲示板を非表示にします。'
       ignoring_text: 通知を受けないでください。
@@ -795,21 +563,8 @@ fof-follow-tags:
       hiding_button: 隠蔽
       ignoring_button: 無視
       lurking_button: 潜んで
-    notifications:
-      new_discussion_text: '{username} が開始しました'
-      new_post_text: '{username}が投稿されました'
-      new_discussion_tag_text: '{username}さんがタグを変更しました'
     user:
       settings: { heading: フォロータグ, filter_label: 次のページでデフォルトで表示するもの }
-  email:
-    subject:
-      newDiscussionInTag: '[タグ |新しい議論] {title}'
-      newPostInTag: '[タグ |新しい投稿] {title}'
-      newDiscussionTag: '[タグ |変更されたタグ] {title}'
-    body:
-      newDiscussionInTag: "ねえ{recipient_display_name}、\n\n{actor_display_name}さんがフォローしているタグで議論を開始しました: {discussion_title}\n\n新しいディスカッションを表示するには、次のリンクを確認してください。\n{discussion_url}\n\n---\n\n{post_content}\n"
-      newPostInTag: "ねえ{recipient_display_name}、\n\n{actor_display_name}さんがフォローしているタグの議論に投稿しました: {discussion_title}\n\n新しいアクティビティを表示するには、次のリンクを確認してください。\n{post_url}\n\n---\n\n{post_content}\n\n---\n\n最新の状態になるまで、このディスカッションに関する通知は届きません。\n"
-      newDiscussionTag: "ねえ{recipient_display_name}、\n\n{actor_display_name}は、{author_display_name}による議論のタグを、あなたがフォローしているタグ{discussion_title}に変更しました\n\n新しいディスカッションを表示するには、次のリンクを確認してください。\n{discussion_url}\n"
   ref:
     follow: 従う
     following: 次
@@ -838,17 +593,8 @@ flarum-nicknames:
       nickname_placeholder: ニックネーム
 fof-oauth:
   forum:
-    log_in:
-      with_button: '{provider} でログイン'
-      with_discord_button: '{provider} でログイン'
-      with_facebook_button: '{provider} でログイン'
-      with_github_button: '{provider} でログイン'
-      with_gitlab_button: '{provider} でログイン'
-      with_google_button: '{provider} でログイン'
-      with_linkedin_button: '{provider} でログイン'
-      with_twitter_button: '{provider} でログイン'
     user:
-      settings: { linked-account: { label: リンクされたアカウント, last-used-label: 最終使用, link-created-label: リンク作成, orphaned-account: 以前にこのプロバイダーを介してサインインしたことがありますが、このフォーラムでは、この方法でのサインインが無効になっています。, help: これらのリンクされたアカウントを使用すると、他のプロバイダーを使用してフォーラムにサインインできます。, identifier-label: '{プロバイダー}身分証明書', unlink-confirm: '{provider} とのリンクを削除してもよろしいですか ?今後再認証しない限り、このフォーラムにサインインできなくなります。' } }
+      settings: { linked-account: { label: リンクされたアカウント, last-used-label: 最終使用, link-created-label: リンク作成, orphaned-account: 以前にこのプロバイダーを介してサインインしたことがありますが、このフォーラムでは、この方法でのサインインが無効になっています。, help: これらのリンクされたアカウントを使用すると、他のプロバイダーを使用してフォーラムにサインインできます。 } }
     signup:
       username_help: ここで知るユーザー名を選択してください
     unlink: リンクを削除
@@ -882,10 +628,8 @@ fof-impersonate:
   forum:
     modal:
       title: 別のユーザーとしてログイン
-      label: '大きな力には大きな責任が伴います。続行すると、ログアウトするまで{username}になります。'
       placeholder_optional: (オプション)このユーザーに切り替える理由を記入してください
       placeholder_required: 先に進む前に、このユーザーに切り替える理由を入力する必要があります
-      impersonate_username: '{username} としてログイン'
     user_controls:
       impersonate_button: ユーザーとしてログイン
 fof-byobu:
@@ -896,7 +640,6 @@ fof-byobu:
       add_recipients: 受信者
       submit: わかりました
       edit_recipients: 受信者の編集
-      send_pd: '{username} にメッセージを送信する'
       cancel: キャンセル
       make_public: この議論を公開する
       remove_from_discussion: このプライベートな議論を残す
@@ -905,8 +648,6 @@ fof-byobu:
       title_placeholder: プライベートディスカッションのタイトル
     confirm:
       make_public: '受信者を削除して、割り当てられたタグを表示できるすべてのユーザにこのディスカッションを表示してもよろしいですか?'
-    labels:
-      recipients: '{count, 複数形, 1 人の {{count} 受信者} 他の {{count} 受信者}}'
     nav:
       start_button: 非公開で話し合う
       nav_item: プライベートディスカッション
@@ -915,11 +656,9 @@ fof-byobu:
     search:
       headings: { groups: 権限グループ }
     modal:
-      titles: { update_recipients: '{title} の受信者を更新する', add_recipients: ディスカッションに受信者を追加する }
+      titles: { add_recipients: ディスカッションに受信者を追加する }
       labels: { selected_users: 選択したユーザー, search_field: ユーザーを検索する }
       help: { add_recipients: このディスカッションは、ここで選択したユーザーにのみ表示されます。少なくとも1人の受信者(本人以外)が必要です。, update_recipients: このディスカッションは、ここで選択したユーザーにのみ表示されます。, selected_users: ユーザーの名前をクリックして削除します。, click_user_to_remove_tooltip: クリックして削除 }
-    post:
-      recipients_modified: { added_and_removed: '{username} は受信者を {added} 追加し、{removed} を削除しました。', added: '{username} が受信者を {added} 追加しました。', made_public: '{username} はすべての受信者を削除し、議論を公開しました', removed: '{username} 削除済み受信者 {removed}。', removed_self: '{username}は非公開の議論を離れました。' }
     user:
       settings: { block_pd: 非公開のディスカッションをブロックする }
       byobu_link: プライベートディスカッション
@@ -927,23 +666,9 @@ fof-byobu:
     notifications:
       pd_label: 誰かが私を新しいプライベートな議論に含めました
       pd_reply_label: 私が受信者であるプライベートなディスカッションに誰かが投稿する
-      pd_reply_text: '{username}が、あなたが参加しているプライベートなディスカッションに投稿された'
-      pd_text: '{username}さんと新しいプライベートディスカッションを始めました'
       pd_user_left_label: 受信者の利用者が、私が参加している非公開の掲示板から退出する
-      pd_user_left_text: '{username}がプライベートな議論を退出しました'
-      pd_added_text: '{username}さんがプライベートな議論に追加されました'
       pd_added_label: 誰かが私を既存の非公開の議論に追加しました
-  email:
-    subject:
-      private_discussion_created: '[プライベートディスカッション]{display_name}はあなたと新しいプライベートな議論を始めました'
-      private_discussion_replied: '[プライベートディスカッション]{display_name}さん プライベートな議論に投稿されました'
-      recipient_removed: '[プライベートディスカッション]{display_name}が議論を去った'
-      private_discussion_added: '[プライベートディスカッション]{display_name}さんがプライベートな議論に追加されました'
-    body:
-      private_discussion_created: "ねえ{recipient_display_name}、\n\n{actor_display_name}は、受信者であるあなたとの新しい非公開の議論を開始しました:{discussion_title}。\n\nここでそれを見る:\n{discussion_url}\n\nこのリンクにアクセスする前に、まずログインする必要がある場合があります。\n"
-      private_discussion_replied: "ねえ{recipient_display_name}、\n\n{actor_display_name}は、受信者としてのあなたとのプライベートディスカッションに投稿しました:{discussion_title}。\n\nここでそれを見る:\n{post_url}\n\nこのリンクにアクセスする前に、まずログインする必要がある場合があります。\n"
-      recipient_removed: "ねえ{recipient_display_name}、\n\n{actor_display_name}は非公開の議論を去りました:{discussion_title}。彼らはそのコンテンツを見ることができなくなります。\n\nここでそれを見る:\n{discussion_url}\n\nこのリンクにアクセスする前に、まずログインする必要がある場合があります。\n"
-      private_discussion_added: "ねえ{recipient_display_name}、\n\n{actor_display_name}さんが既存の非公開の議論{discussion_title}に追加されました。\n\nここでそれを見る:\n{discussion_url}\n\nこのリンクにアクセスする前に、まずログインする必要がある場合があります。\n"
+  email: null
 v17development-flarum-badges:
   forum:
     badge_information: バッジ情報
@@ -966,17 +691,11 @@ v17development-flarum-badges:
       no_earning_reason: 収益理由が設定されていない
       earned_on: 獲得バッジ
       category: バッジカテゴリ
-      received_on: '{date} に受信'
       badge_details: バッジの詳細
-      earned_count: '{count, 複数形, 1人の<b>{#ユーザーが</b>このバッジを獲得しました}他の<b>{#ユーザーが</b>このバッジを獲得しました}}'
-      earned_by_count: '{count, 複数形, 1 {Earned by <b># user</b>} other {<b>Earned by # users</b>}}'
-      others_link: '+ {count} さらに'
     badges_in_card:
       title: ユーザーカードのバッジ
       manage_badges: バッジを管理する
       description: ユーザーカードに表示されるバッジは、他のバッジの1つで変更できます。何も選択しない場合は、自動的に選択されます。
-      select_limit: '{limit, plural, one {<b>one badge</b>} other {<b># badges</b>}}を選択して、ユーザーカードに表示することができます。'
-      hit_limit: 'カードには<b>{limit, plural, one {<b>one badge</b>} other {<b># badges</b>}</b>}しか入れません。バッジの選択を解除して、このバッジ用のスペースを確保します。'
     moderation:
       remove_badge: ユーザーからバッジを削除する
       remove_badge_confirm: 'このバッジをこのユーザーから削除してもよろしいですか?'
@@ -985,14 +704,10 @@ v17development-flarum-badges:
       title: 新しいバッジを受け取りました
       settings: バッジを受け取りました
     uncategorized: 未分類
-v17development-flarum-seo:
-  forum:
-    profile_title: '{username} のプロファイル'
-    profile_description: '{username} のプロファイル |{discussion_count} ディスカッション |{comment_count}件の投稿'
+v17development-flarum-seo: null
 the-turk-miserable-users:
   forum:
     miserable_user:
-      title: '惨めな{ユーザー名}'
       status_heading: 悲惨な状況
       not_miserable_label: 惨めではない
       indefinitely_label: いつまでも惨め
@@ -1009,7 +724,6 @@ sycho-profile-cover:
   forum:
     cover: 覆う
     edit_cover: 表紙の編集
-    notice: '最大サイズ: {size}'
     added:
       success: プロフィールカバーを更新しました。
       error: 画像をアップロードできませんでした。
@@ -1018,10 +732,7 @@ sycho-profile-cover:
       error: カバーを取り外せませんでした。後でもう一度やり直してください。
 sycho-photoswipe: null
 nearata-tags-color-generator: null
-nearata-prevent-double-posting:
-  forum:
-    exception:
-      too_many_replies: '連続した返信は {count} 個まで許可されます。代わりに、以前の返信を編集するか、誰かが返信するのを待ってください。'
+nearata-prevent-double-posting: null
 nearata-copy-code-to-clipboard:
   forum:
     copy: クリップボードにコピー
@@ -1030,7 +741,6 @@ michaelbelgium-flarum-profile-views:
   forum:
     user:
       viewlist: { title: 最後の訪問者, guest: 客 }
-      view_count_text: '{viewcount、複数形、1つの{viewcount}回表示}他の{viewcount}回}}'
 justoverclock-country-flags:
   forum:
     inputCountryCode: 国コード
@@ -1058,13 +768,10 @@ ianm-syndication:
     autodiscovery:
       forum_activity: フォーラム活動
       forum_new_discussions: フォーラムの新しいディスカッション
-      tag_activity: '{tag} タグのアクティビティ'
-      tag_new_discussions: '{tag}タグの議論'
       discussion_last_posts: このディスカッション
       user_last_posts: このユーザーによる投稿とコメント
     feeds:
-      entries: { user_posts: { title_reply: 'Re: {議論}' } }
-      titles: { main_title: '{forum_name}', main_subtitle: フォーラムの最後の投稿, main_d_title: '{forum_name} の新しいディスカッション', main_d_subtitle: フォーラムでの最新のディスカッション, tag_title: '{tag} タグのアクティビティ', tag_subtitle: '{tag} タグの最後の投稿', tag_d_title: '{tag}タグの新しい議論', tag_d_subtitle: '{tag}タグの最新の議論', discussion_title: '{discussion_name}', discussion_subtitle: このディスカッションの最後のメッセージ, user_title: '{ユーザー名}', user_subtitle: このユーザーによる最新の投稿とコメント。 }
+      titles: { main_subtitle: フォーラムの最後の投稿, main_d_subtitle: フォーラムでの最新のディスカッション, discussion_subtitle: このディスカッションの最後のメッセージ, user_subtitle: このユーザーによる最新の投稿とコメント。 }
     discussion:
       feed_link: 飼料
 ianm-log-viewer: null
@@ -1072,7 +779,6 @@ ianm-html-head: null
 ianm-follow-users:
   forum:
     followed: 続いて
-    followers: '{count, 複数形, 1 人の {Follower} 他の {Followers}}'
     profile_page:
       no_following: あなたは誰にもフォローしていないようです。
     settings:
@@ -1081,17 +787,12 @@ ianm-follow-users:
       notify_new_discussion_label: フォローしている人が議論を始める
       notify_new_post_label: '私がフォローしている誰か 既存の議論の投稿'
       block_follow: ユーザーが自分をフォローできないようにする
-    notifications:
-      new_discussion_text: '{username} が開始しました'
-      new_post_text: '{username}が掲示板に投稿されました'
-      new_follower_text: '{username}さんがフォローしました'
-      new_unfollower_text: '{username} があなたのフォローを停止しました'
     badge:
       label: { follow: 議論の後, lurk: すべてフォロー中 }
     filter:
       following: フォローしているユーザー
     modals:
-      select_follow_level: { title: '{username} のフォロー レベルを選択します', description: '<em>{ユーザー名}</em> をフォローする方法を選択します。', follow_levels_heading: レベルをフォローする, follow_select_label: フォロータイプ, no_user_attr_provided_err: ああ、このモーダルを開くときに何か問題が発生しました。, no_user_attr_provided_err_debug: '作成時に ''user'' 属性が SelectFollowUserLevel モーダルに渡されませんでした。モーダルはレンダリングできません。', save_btn: セーブ, cancel_btn: キャンセル }
+      select_follow_level: { follow_levels_heading: レベルをフォローする, follow_select_label: フォロータイプ, no_user_attr_provided_err: ああ、このモーダルを開くときに何か問題が発生しました。, no_user_attr_provided_err_debug: '作成時に ''user'' 属性が SelectFollowUserLevel モーダルに渡されませんでした。モーダルはレンダリングできません。', save_btn: セーブ, cancel_btn: キャンセル }
     profile_link: フォローしているユーザー
     user_controls:
       follow_button: 従う
@@ -1101,37 +802,28 @@ ianm-follow-users:
       follow_tag_button: 従う
       unfollow_tag_button: フォロータイプの変更
   email:
-    new_discussion_by_user_subject: '[ユーザーをフォローする]{タイトル}'
     new_follower_subject: '[ユーザーをフォローする]新しいフォロワーができました!'
-    new_post_subject: '[ユーザーをフォローする]{title}の新しい投稿'
-    new_discussion_by_user_body: "ねえ{recipient_display_name}、\n\n{user_display_name}さんが新しい議論を始めました: {discussion_title}\n\n新しいディスカッションを表示するには、次のリンクを確認してください。\n\n{discussion_url}\n\n---\n\n{post_content}\n"
-    new_follower_body: "ねえ{recipient_display_name}、\n\n{follower_display_name}人があなたをフォローし始めたので、あなたが新しいディスカッションを始めると、その人に通知されます。\n\n彼らのプロフィールを見るには、以下のリンクをチェックしてください。\n\n{profile_url}\n"
-    new_post_body: "ねえ{recipient_display_name}、\n\n{user_display_name}がディスカッションに投稿されました: {discussion_title}\n\n新しいアクティビティを表示するには、次のリンクを確認してください。\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\n最新の状態になるまで、このディスカッションに関する通知は届きません。\n"
   lib:
     following_link: フォローしているユーザー
     follow: 従う
     change_follow_type: フォロータイプの変更
     unfollow: フォロー解除
     follow_levels:
-      unfollow: { name: フォローしない, description: "<em>{username}</em> のアクティビティに関する通知を受信しません。\n" }
-      follow: { name: ディスカッションをフォローする, description: "<em>{username}</em> が新しいディスカッションを開始したときに通知を受け取ります。\n" }
-      lurk: { name: すべてフォロー, description: "<em>{username}</em> が新しいディスカッションを開始したり、ディスカッションに投稿したりしたときに通知を受け取ります。\n" }
+      unfollow: { name: フォローしない }
+      follow: { name: ディスカッションをフォローする }
+      lurk: { name: すべてフォロー }
 fof-username-request:
   forum:
     nickname_modals:
-      action: { help_text: このリクエストされたニックネームの変更は、フォーラムのガイドラインに従っていることを確認してください。, decision_title: 決定, approval_label: 承認する, rejected_label: リジェクト, submit_button: 送信, reason_title: 拒否の理由, success: 決定が送られました。, name: '{name} がニックネームを "{requestedName}" に変更するように要求しました', title: ニックネーム変更リクエスト }
-      results: { title: ニックネーム変更リクエスト, approved: ニックネーム変更リクエストが承認されました, new_name: 'ニックネームが {name} に変更されました', rejected: ニックネームの変更リクエストが拒否されました, reason: '拒否の理由: <i>"{reason}"</i>。', resubmit: この時点で、アカウント設定から新しいニックネーム変更リクエストを再送信できます。, dismiss_button: わかりました }
-      request: { title: ニックネーム変更のリクエスト, current_request: 'ニックネームを「{name}」に変更するようにすでにリクエストしています。要求を更新するか、削除することができます。', submit_button: リクエストの送信, delete_button: 削除要求, confirmation_message: ニックネームの変更リクエストが送信され、承認待ちです。, deleted: ニックネームのリクエストは削除されました。, dismiss_button: わかりました }
+      action: { help_text: このリクエストされたニックネームの変更は、フォーラムのガイドラインに従っていることを確認してください。, decision_title: 決定, approval_label: 承認する, rejected_label: リジェクト, submit_button: 送信, reason_title: 拒否の理由, success: 決定が送られました。, title: ニックネーム変更リクエスト }
+      results: { title: ニックネーム変更リクエスト, approved: ニックネーム変更リクエストが承認されました, rejected: ニックネームの変更リクエストが拒否されました, resubmit: この時点で、アカウント設定から新しいニックネーム変更リクエストを再送信できます。, dismiss_button: わかりました }
+      request: { title: ニックネーム変更のリクエスト, submit_button: リクエストの送信, delete_button: 削除要求, confirmation_message: ニックネームの変更リクエストが送信され、承認待ちです。, deleted: ニックネームのリクエストは削除されました。, dismiss_button: わかりました }
     username_modals:
-      action: { help_text: このリクエストされたユーザー名の変更は、フォーラムのガイドラインに従っていることを確認してください。, decision_title: 決定, approval_label: 承認する, rejected_label: リジェクト, submit_button: 送信, reason_title: 拒否の理由, success: 決定が送られました。, name: '{name} がユーザー名を "{requestedName}" に変更するように要求しました', title: ユーザー名変更リクエスト }
-      results: { title: ユーザー名変更リクエスト, approved: ユーザー名の変更リクエストが承認されました, new_name: 'ユーザー名が {name} に変更されました', rejected: ユーザー名の変更リクエストが拒否されました, reason: '拒否の理由: <i>"{reason}"</i>。', resubmit: この時点で、アカウント設定から新しいユーザー名変更リクエストを再送信できます。, dismiss_button: わかりました }
-      request: { title: ユーザー名の変更をリクエストする, current_request: 'ユーザー名を "{name}" に変更するように要求しました。要求を更新するか、削除することができます。', submit_button: リクエストの送信, delete_button: 削除要求, confirmation_message: ユーザー名の変更リクエストが送信され、承認待ちです。, deleted: ユーザー名リクエストは削除されました。, dismiss_button: わかりました }
+      action: { help_text: このリクエストされたユーザー名の変更は、フォーラムのガイドラインに従っていることを確認してください。, decision_title: 決定, approval_label: 承認する, rejected_label: リジェクト, submit_button: 送信, reason_title: 拒否の理由, success: 決定が送られました。, title: ユーザー名変更リクエスト }
+      results: { title: ユーザー名変更リクエスト, approved: ユーザー名の変更リクエストが承認されました, rejected: ユーザー名の変更リクエストが拒否されました, resubmit: この時点で、アカウント設定から新しいユーザー名変更リクエストを再送信できます。, dismiss_button: わかりました }
+      request: { title: ユーザー名の変更をリクエストする, submit_button: リクエストの送信, delete_button: 削除要求, confirmation_message: ユーザー名の変更リクエストが送信され、承認待ちです。, deleted: ユーザー名リクエストは削除されました。, dismiss_button: わかりました }
     pending_requests:
       empty_text: 名前変更要求は見つかりませんでした。
-      nickname_item_text: '{name}さんがニックネームの変更を要求しました'
-      nickname_exerpt: '要求されたニックネーム: {requestedName}'
-      username_item_text: '{name}さんがユーザー名の変更を要求しました'
-      username_exerpt: '要求されたユーザー名: {requestedName}'
       tooltip: 名前変更リクエスト
       title: 名前変更リクエスト
     settings:
@@ -1149,15 +841,9 @@ fof-username-request:
   email:
     body:
       noReasonProvided: 理由は示されていません。
-      approved: "こんにちは{recipient_display_name}、\n\nユーザー名を \"{new_username}\" に変更するリクエストは {actor_display_name} によって承認されました。\n\nこれで、新しいユーザー名{login_url}でログインできます。\n"
-      rejected: "こんにちは{recipient_display_name}、\n\nユーザー名を \"{old_username}\" から \"{requested_username}\" に変更するリクエストは {actor_display_name} によって拒否されました。\n\n理由: {reason}\n"
-    subject:
-      approved: '{display_name}は、ユーザー名を{requested_username}に変更することを承認しました'
-      rejected: '{display_name}は、ユーザー名の{requested_username}への変更を拒否しました'
 fof-user-bio:
   forum:
     userbioPlaceholder: 自分のことを書く
-    userbioPlaceholderOtherUser: '{username}の略歴を書く'
     profile:
       cancel_confirm: '略歴の編集をキャンセルしてもよろしいですか?行った変更はすべて失われます。'
       cancel_button: キャンセル
@@ -1165,9 +851,6 @@ fof-user-bio:
       edit_bio_label: 略歴を編集
 fof-split:
   forum:
-    post:
-      was_split_to: '{count, 複数形, 1つの{{count}投稿は{target}に分割され、他の{{count}投稿は{target}に分割されました。'
-      was_split_from: '{count, 複数形, 1つの{{count}投稿が{target}から分割されました}}他の{{count}投稿が{target}から分割されました。'
     split:
       from: ここから分割
       to: ここに分割
@@ -1221,13 +904,11 @@ fof-reactions:
   forum:
     disabled-reaction: 現在、この反応は使えませんので、ページを更新してください
     warning: あなたの反応は変換されました
-    notification: '{username}があなたの投稿に{reaction}で反応しました'
     settings:
       notify_post_reacted_label: 誰かが私の投稿に反応する
     reacting-own-post: 自分の投稿にリアクションすることはできません
     modal:
       title: 反応
-      anonymous_count: '{count, 複数形, 1 人の {# 匿名ユーザー} 他の {# 匿名ユーザー}}'
       no_reactions: 反応はまだありません
     mod_item: リアクションを見る
     react_button_label: 反応する
@@ -1241,22 +922,19 @@ fof-profile-image-crop:
 fof-prevent-necrobumping:
   forum:
     composer:
-      warning: { title: 'この議論は<b>{time}</b>以上前のものです。', description: これ以上の議論は必要ない可能性が非常に高いため、バンプしても何の役にも立ちません。, checkbox_label: この議論はかなり古いことは承知していますが、それでも返信したいと思います。, error: この議論は古すぎて返信できません。 }
+      warning: { description: これ以上の議論は必要ない可能性が非常に高いため、バンプしても何の役にも立ちません。, checkbox_label: この議論はかなり古いことは承知していますが、それでも返信したいと思います。, error: この議論は古すぎて返信できません。 }
 fof-pretty-mail: null
 fof-polls:
   forum:
-    days_remaining: '投票は {time} 終了します。'
     no_permission: 投票権限がない
     poll_ended: この投票は終了しました。
     public_poll: 投票者を表示
-    max_votes_allowed: '投票では、{max, plural, one {# option} other {# options}}に投票できます。'
     composer_discussion:
       add_poll: 投票の追加
       edit_poll: 投票の編集
     modal:
       add_title: 投票を追加する
       add_option_label: オプションの追加
-      date_placeholder: 投票終了日(オプション)
       edit_title: 投票の編集
       include_question: 質問を含める必要があります
       max: 回答は最大10個まで
@@ -1277,7 +955,6 @@ fof-polls:
       edit: 投票の編集
     tooltip:
       badge: 投票
-      votes: '{count, 複数形, 1 {# 票} 他の {# 票}}'
     votes_modal:
       title: 有権者
 fof-nightmode:
@@ -1297,11 +974,9 @@ fof-moderator-notes:
   forum:
     no_content_given: 空のメモは許可されていません。
     moderatorNotes:
-      created_text: '{username}は{date}にこのメモを作成しました'
       add_button: 新しいメモ
       create-heading: 新しいモデレーターノートを作成する
       dismiss_button: 完成です
-      input_heading: '<strong>{username}</strong>のメモを入力します(マークダウンがサポートされています)'
       noNotes: ここにはメモがないようです。
       submit_button: メモの保存
       delete: 削除
@@ -1309,8 +984,6 @@ fof-moderator-notes:
     user:
       notes: モデレーターノート
   api:
-    auto_note: '_Iこの利用者に切り替えました:_ {reason}'
-    auto_note_actor: '_Switched to_ @{ユーザー名}: {理由}'
     no_reason_provided: 理由は示されていません
 fof-linguist: null
 fof-html-errors: null
@@ -1325,12 +998,8 @@ fof-gamification:
       name: 利用者
       amount: ポイント
     notification:
-      upvote: '{username}があなたの投稿に賛成票を投じました'
-      downvote: '{username}があなたの投稿に反対票を投じました'
       prefrences: { vote: 投稿の1つが賛成/反対票を投じた場合 }
     user:
-      card: { points: '{count, 複数形, 1 つの { {count} ポイント} 他の {{count} ポイント}}' }
-      rank: '{ランク}'
       votes_link: 投票
     modal:
       downvotes_label: '反対票を投じる人:'
@@ -1344,11 +1013,6 @@ fof-gamification:
     post:
       upvote_button: 賛成票を投じる投稿
       downvote_button: ダウン票の投稿
-  email:
-    body:
-      postVoted: "ねえ{recipient_display_name}、\n\n{actor_display_name}は{discussion_title}のあなたの投稿に投票しました。\n\nここで見る: {discussion_url}\n"
-    subject:
-      postVoted: 'あなたの投稿は{display_name}によって投票されました'
 fof-formatting: null
 fof-drafts:
   console:
@@ -1367,7 +1031,6 @@ fof-drafts:
       title: 下書き
       delete_all_button: すべての下書きを削除する
       delete_button: 下書きの削除
-      scheduled_icon_tooltip: '{datetime} にスケジュール'
       scheduled_icon_tooltip_formatter: 'L [at] LT'
       alert: '下書きを削除してもよろしいですか?'
       delete_all_alert: 'すべての下書きを削除してもよろしいですか?'
@@ -1375,13 +1038,10 @@ fof-drafts:
       tooltip: 下書き
     schedule_draft_modal:
       text: 下書きをスケジュールして、後で自動的に投稿します。
-      scheduled_text: '現在、{datetime} に投稿する予定です。'
-      scheduled_error: '下書きをスケジュールできません: {error}。'
       unschedule_button: スケジュール解除
       unschedule_warning: 'この下書きのスケジュールを解除してもよろしいですか?'
       reschedule_button: 変更する
       schedule_button: 計画
-      schedule_time_preview: 'この下書きは <b>{datetime}</b> に自動的に公開されます。'
       schedule_time_preview_formatter: LLLL
       schedule_time_preview_invalid: 無効な日付や時刻
       title: スケジュールドラフト
@@ -1393,13 +1053,10 @@ fof-best-answer:
     this_best_answer: ベストアンサーを選択
     remove_best_answer: ベストアンサーの選択を解除する
     best_answer_button: ベストアンサー
-    best_answer_label: '<a>{username}</a> {time_set} で設定'
     errors:
       mismatch: 選択された投稿は、この議論には存在しません。
     notification:
-      best_answer_in_discussion: '{username}は、この議論で最良の回答を設定しました'
       content: 質問に回答した場合は、ベストアンサーを選択してください
-      awarded: 'あなたの投稿は{username}によってベストアンサーとして設定されました'
       preferences: { awarded_best_answer: 誰かが私の投稿をベストアンサーとして設定します, best_answer_in_discussion: 私が参加した議論でベストアンサーが設定されています, select_best_answer: 私が始めたディスカッションで最良の答えを選択するための自動リマインダー }
     index:
       ask_question: 質問する
@@ -1413,22 +1070,13 @@ fof-best-answer:
       accessible_label: 解決済み/未解決の選択
     composer:
       titlePlaceholder: 質問のタイトル
-    user:
-      best-answer-count: '{count, 複数形, 1 { {count} ベストアンサー} その他 {{count} ベストアンサー}}'
     search:
       discussions_solutions_heading: 解決策の議論
-      all_discussions_solutions_button: 'ソリューションを含むすべてのディスカッションで "{query}" を検索します。'
     discussion:
       jump_to_best_answer_button: 最高の回答を見る
   email:
     subject:
-      awarded: 'あなたの投稿は {display_name} で最高の答えとして設定されました'
-      ba-set: '{display_name} でベストな回答がセットされました'
       select: 'ご質問にお答えしましたか?'
-    body:
-      awarded: "こんにちは{recipient_display_name}、\n\n素晴らしい仕事、{actor_display_name} {discussion_title} の議論で最高の回答として投稿を設定するだけです。 お問い合わせ\n\n詳細はこちら: {discussion_url}\n"
-      ba-set: "こんにちは{recipient_display_name}、\n\n{actor_display_name} は、参加した {discussion_title} の議論で最高の答えを設定しました。\n\nチェックアウト: {discussion_url}\n"
-      select: "こんにちは{recipient_display_name}、\n\nここにチェックインするだけで、質問に返信がいっぱいあるはずです: {discussion_title}. うまくいけば、問題の解決に役立ちました。\n\nもしそうなら、あなたの質問に最高の答えを設定できたら、将来のメンバーにとって本当に役立ちます。 同じ問題を抱えている人は、彼らが必要とする答えを見つけるのを助けるでしょう。また、あなたを助けたメンバーに感謝します。 彼らは彼らの時間を自発的に与えるので、彼らがうまくやっていることを知らせてうれしいです。\n\nここでの議論をご覧ください: {discussion_url}, 最適な回答として最も適切な投稿を選択します。\n\nお問い合わせ\n"
 fof-user-directory:
   lib:
     sort:
@@ -1437,8 +1085,6 @@ fof-user-directory:
 fof-ban-ips:
   forum:
     modal:
-      ban_options_only_ip: '現在の IP (<code>{ip}</code>) のみを禁止する'
-      ban_options_all_ip: '<i>{username}</i> が使用するすべての IP を禁止する'
       ban_ip_no_users: 他の誰も禁止されません
     user_badge:
       banned_tooltip: 禁止
@@ -1455,13 +1101,8 @@ fof-ban-ips:
       check_button: 小切手
       save_button: セーブ
       ban_ip_confirmation: 'このIPアドレスがフォーラムで使用できないようにブロックしてもよろしいですか?これにより、このIPアドレスを持つユーザーはログインと登録をブロックされます。'
-      ban_ip_users: '{count, 複数形, 1人の{ユーザー}は禁止されます}他の{ユーザー{ユーザー}は禁止されます}}'
       unban_ip_confirmation: 'この利用者と、他のIPによって禁止されていない他のすべての利用者の禁止を解除してもよろしいですか?'
-      unban_options_only_ip: '現在の IP (<code>{ip}</code>) の禁止のみを解除する'
-      unban_options_all_ip: '<i>{username}</i> が使用するすべての IP の禁止を解除します。'
       unban_ip_no_users: 他の誰も禁止を解除されません
-      unban_ip_users: '{count, 複数形, 1人の{ユーザー}は禁止が解除されます}他の{ユーザー{ユーザー}は禁止が解除されます}}'
-      unbanned_ips: '禁止されていない<code>{ips}</code>。'
       title: IPの禁止
       unban_title: IPの禁止を解除する
       address_label: IPアドレス
@@ -1492,7 +1133,6 @@ fof-anti-spam:
       move_discussions_tag_label: ディスカッションを隔離済みタグに移動する
       move_discussions_tag_help: これにより、このユーザーが開始したすべてのディスカッションが、フォーラム設定で指定したタグに移動します。無効にすると、ディスカッションは現在のタグに残ります。
       process_button: 過程
-      title: '{username} をスパム送信者としてマークする'
       report_to_sfs_label: StopForumSpamに報告する
       report_to_sfs_help: 'これにより、ユーザーの基本的な詳細 (ユーザー名、電子メール、IP アドレス) が StopForumSpam に報告されます。これにより、ユーザーは StopForumSpam サービスを使用する他のフォーラムに登録できなくなります。'
     user_controls:
@@ -1511,18 +1151,11 @@ flarum-sticky:
     discussion_controls:
       unsticky_button: 粘着性なし
       sticky_button: べたべた
-    post_stream:
-      discussion_stickied_text: '{username}は議論{time}を貼り付けました。'
-      discussion_unstickied_text: '{username}は議論{time}の固定を解除しました。'
     badge:
       sticky_tooltip: べたべた
   ref:
     sticky: べたべた
 flarum-statistics: null
-flarum-pusher:
-  forum:
-    discussion_list:
-      show_updates_text: '{count, 複数形, 1 {Show # updated discussion} other {Show # updated discussions}}'
 flarum-lock:
   forum:
     badge:
@@ -1530,24 +1163,13 @@ flarum-lock:
     discussion_controls:
       lock_button: 錠
       unlock_button: アンロック
-    notifications:
-      discussion_locked_text: '{username} がロックされています'
-    post_stream:
-      discussion_locked_text: '{username}は議論{time}をロックしました。'
-      discussion_unlocked_text: '{username}は議論{time}のロックを解除しました。'
     settings:
       notify_discussion_locked_label: 私が始めた議論を誰かがロックする
 flarum-likes:
   forum:
-    notifications:
-      post_liked_text: '{username}があなたの投稿に「いいね!」しました'
-      others_text: '{count, 複数形, one {# other} other {# others}}'
     post:
       like_link: という感じで
-      liked_by_self_text: '{users}がこのように。'
-      liked_by_text: '{count, 複数形, 1人の{{users}がこれを好き} 他の{{users}がこれを好き}}。'
       unlike_link: 違って
-      others_link: '{count, 複数形, one {# other} other {# others}}'
       you_text: あなたが
     post_likes:
       title: こんなユーザーが気に入っている
@@ -1602,9 +1224,6 @@ dhtml-composer:
       character_counter: 文字カウンター
 datlechin-birthdays:
   forum:
-    user:
-      birthday_text: '誕生日: {date}'
-      age_text: '年齢: {age}'
     change_dob:
       title: 生年月日の編集
       date_of_birth_text: 生年月日
@@ -1617,16 +1236,12 @@ datlechin-birthdays:
       dob_heading: 生年月日
     nav:
       nav_item: 今日の誕生日
-    page:
-      discussion_count: '{count, plural, one {Discussion: #} other {ディスカッション: #}}'
-      post_count: '{count, plural, one {Post: #} other {投稿: #}}'
     edit_user:
       dob_heading: 生年月日
     sign_up:
       dob_placeholder: 生年月日
   api:
     invalid_dob_message: 生年月日が無効です
-    invalid_age_message: '年齢は {minAge} 歳以上である必要があります。'
   ref:
     date_of_birth: 生年月日
 clarkwinkelmann-post-permissions: null
@@ -1662,24 +1277,13 @@ askvortsov-rich-text:
       insert_image: { src_placeholder: リンク, title_placeholder: タイトル }
       insert_link: { text_placeholder: テキスト, href_placeholder: 関連URL, title_placeholder: タイトル(ホバー時に表示), remove_button: 取り去る }
       additional_items_tooltip: 追加のコントロール
-      bold_tooltip: '太字のテキスト<{modifierKey}-b>'
-      code_tooltip: 'インライン コード <{modifierKey}-''>'
       code_block_tooltip: 'コード ブロックを挿入する'
-      header_tooltip: 'ヘッダー {level} への変更 <shift-{modifierKey}-{level} >'
       horizontal_rule_tooltip: 水平線を挿入する
       image_tooltip: 画像を追加する
-      italic_tooltip: '斜体テキスト<{modifierKey}-i>'
       link_tooltip: リンクを追加する
-      ordered_list_tooltip: '番号付きリスト <shift-{modifierKey}-9>'
-      paragraph_tooltip: '段落の変更<shift-{modifierKey}-0>'
-      quote_tooltip: '引用符を挿入します <{modifierKey}-q>'
       spoiler_block_tooltip: ブロックスポイラー/ドロップダウン
-      spoiler_inline_tooltip: 'ネタバレ<{modifierKey}-;>'
       strike_tooltip: 取り消し線<alt-shift-5>
-      sub_tooltip: '添え字 <{modifierKey}-,>'
-      sup_tooltip: '上付き文字 <{modifierKey}-.>'
       text_type_tooltip: テキストタイプを選択
-      unordered_list_tooltip: '箇条書き <shift-{modifierKey}-8>'
   forum:
     settings:
       composer_heading: 作曲家
@@ -1694,7 +1298,6 @@ askvortsov-pwa:
       share_button: 共有
     post_controls:
       share_button: 共有
-      share_api: { title: '{title}''に対する{username}の返信' }
     user_controls:
       share_button: 共有
     settings:
@@ -1705,20 +1308,7 @@ askvortsov-pwa:
       header: ネットワーク接続エラー
       text: このアプリにはネットワーク接続が必要です。オフラインでは使用できません。接続を確認してください。
 askvortsov-moderator-warnings:
-  emails:
-    post_warned:
-      subject: '{warner_display_name} は {discussion_title} の {strikes, 複数形, one {# strike} other {# strikes}} で警告しました。'
-      body: "{warnee_display_name}さん!\n\n{warner_display_name} は {discussion_title} の {strikes, 複数形, one {# strike} other {# strikes}} で警告しました。\n\nその理由は、以下の通りである。\n\n---\n\n{public_comment}\n"
-    user_warned:
-      subject: '{warner_display_name}は{ストライク、複数形、1つの{#ストライク}、他の{#ストライク}}で警告しました'
-      body: "{warnee_display_name}さん!\n\n{warner_display_name}は{ストライク、複数形、1つの{#ストライク}、他の{#ストライク}}で警告しました\n\nその理由は、以下の通りである。\n\n---\n\n{public_comment}\n"
   forum:
-    notifications:
-      warning_text: '{ストライキ、複数形、1つ {{mod_username}}による#ストライクで警告されました 他の{{mod_username}}による#ストライクで警告されました}}'
-      warning_no_strikes_text: '{mod_username}から警告を受けました(攻撃禁止)'
-    post:
-      warning: '{ストライク、複数形、1つ{{mod_username}}による#ストライクで警告された他の{{mod_username}}による#ストライクで警告}}'
-      warning_no_strikes: '{mod_username}による攻撃なしの警告'
     post_controls:
       warning_button: ユーザーに警告する
     user:
@@ -1735,20 +1325,14 @@ askvortsov-moderator-warnings:
     warning_list:
       add_button: 新しい警告
       no_warnings: ここには警告がないようです。
-      warnings: '{ストライク、複数形、1つ {モデレーターの警告:#ストライクを受信しました}他の{モデレーターの警告:#ストライクを受信しました}}'
       warnings_no_strikes: 'モデレーターの警告:ストライクは受け取れませんでした'
     warning_list_item:
-      list_item_heading: '{ストライク、複数形、1つの{<strong>#</strong>ストライク、{時間}}、他の{<strong>#</strong>ストライク、{時間}}}'
-      list_item_heading_hidden: '{ストライク、複数形、1つの{<strong>#</strong>ストライク、{time}<strong>(削除)</strong>}他の{<strong>#</strong>ストライク、{time}<strong>(削除)</strong>}}'
       public_comment: 警告
       private_comment: モデレーターに表示されるコメント
       linked_post: リンクされた投稿
     warning_modal:
       confirmation_message: 警告が保存されました。表示するには、ページを更新する必要がある場合があります。
-      heading: '<strong>{username}</strong> に警告する'
       strikes_heading: 'ストライクは何回適用する必要がありますか?'
-      public_comment_heading: '<strong>{username}</strong> がこれらの警告を受け取るのはなぜですか?これらのコメントは、ユーザーや他のモデレーターに表示されます。'
-      private_comment_heading: '<strong>{username}</strong> がこれらの警告を受け取るのはなぜですか?これらのコメントは、他のモデレーターにのみ表示されます。'
       submit_button: 警告の保存
 askvortsov-discussion-templates:
   forum:

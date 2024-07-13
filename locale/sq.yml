@@ -3,7 +3,6 @@ core:
     change_email:
       incorrect_password_message: 'Fjalëkalimi që keni hyrë është i pasaktë.'
       confirm_password_placeholder: 'Konfirmo fjalëkalimin'
-      confirmation_message: 'Kemi dërguar një email konfirmimi në {email}. Nëse nuk mbërrin së shpejti, kontrolloni kartelën tuaj spam.'
       dismiss_button: 'Në rregull'
       submit_button: 'Ruaj ndryshimet'
       title: 'Ndrysho emailin'
@@ -26,7 +25,6 @@ core:
     composer_edit:
       discard_confirmation: 'Ju nuk i keni ruajtur ndryshimet tuaja. Dëshiron t''i hedhësh?'
       edited_message: 'Editimi juaj është bërë.'
-      post_link: 'Postoni #{number} në {diskutim}'
       submit_button: 'Ruaj ndryshimet'
       view_button: Shfaq
     composer_reply:
@@ -48,10 +46,6 @@ core:
       restore_button: Rivendosja
     discussion_list:
       empty_text: 'Duket sikur këtu nuk ka diskutime.'
-      replied_text: '{username} u përgjigj {ago}'
-      started_text: '{username} filloi {ago}'
-      total_replies_a11y_label: '{count, plural, one {# reply} other {# replies}}'
-      unread_replies_a11y_label: '{count, plural, one {# unread reply} other {# unread replies}}. Mark unread {count, plural, one {reply} other {replies}} as read.'
       load_more_button: 'Ngarko më shumë'
     forgot_password:
       email_sent_message: 'Nëse emaili që keni shkruar është regjistruar me këtë sit, do t''ju dërgojmë një email që përmban një lidhje për të rivendosur fjalëkalimin tuaj. Kontrolloni kartelën tuaj spam nëse nuk e merrni brenda minutës së ardhshme ose dy.'
@@ -107,7 +101,6 @@ core:
     notifications:
       delete_all_confirm: 'Je i sigurt që dëshiron të fshish të gjitha njoftimet? Ky veprim nuk është i kthyeshëm'
       delete_all_tooltip: 'Fshini të gjitha njoftimet'
-      discussion_renamed_text: '{username} ndryshoi titullin'
       empty_text: 'Asnjë njoftim'
       mark_as_read_tooltip: 'Shëno si të lexuar'
       toggle_dropdown_accessible_label: 'Shfaq njoftimet'
@@ -116,8 +109,6 @@ core:
       tooltip: Notifications
     post:
       edited_text: Edituar
-      edited_tooltip: '{username} edituar {ago}'
-      number_tooltip: 'Posta #{number}'
     post_controls:
       delete_confirmation: 'Je i sigurt që dëshiron ta fshish këtë postim përgjithmonë? Ky veprim nuk mund të zhbëhet.'
       hide_confirmation: 'Je i sigurt që dëshiron ta fshish këtë postim?'
@@ -131,23 +122,16 @@ core:
     post_scrubber:
       now_link: Tani
       original_post_link: 'Posta origjinale'
-      unread_text: '{count} i palexuar'
-      viewing_text: '{count, plural, one {{index} of {formattedCount} post} other {{index} of {formattedCount} posts}}'
     post_stream:
-      discussion_renamed_old_tooltip: 'Titulli i vjetër ishte: "{old}"'
-      discussion_renamed_text: '{username} ndryshoi titullin në {new} {time}.'
-      time_lapsed_text: '{period} më vonë'
       load_more_button: 'Ngarko më shumë'
       reply_placeholder: 'Shkruaj një përgjigje...'
     rename_discussion:
       title: 'Riemërto diskutimin'
       submit_button: Riemërto
     search:
-      all_discussions_button: 'Kërko të gjitha diskutimet për "{query}"'
       discussions_heading: Diskutimet
       users_heading: Përdoruesit
     security:
-      browser_on_operating_system: '{browser} në {os}'
       cannot_terminate_current_session: 'Nuk mund të përfundojë sesioni aktiv aktual. Log out në vend të kësaj.'
       created: Krijuar
       current_active_session: 'Sesioni aktiv aktual'
@@ -159,13 +143,11 @@ core:
       new_access_token_modal: { submit_button: 'Krijo token', title_placeholder: Titulli, title: 'Token e re' }
       revoke_access_token: Revoko
       sessions_heading: 'Seancat aktive'
-      session_terminated: '{count, plural, one {Session terminated} other {# Sessions terminated}}.'
       session_termination_failed: 'Një gabim ndodhi gjatë përfundimit të seancave tuaja.'
       show_access_token: 'Shfaq token'
       terminate_all_other_sessions: 'Përfundoni të gjitha seancat e tjera'
       terminate_session: Përfundoni
       token_revoked: 'Token revokuar.'
-      token_item_title: '{title} - {token}'
       token_title_placeholder: /
       never: Kurrë
       new_access_token_button: 'Token e re'
@@ -174,7 +156,6 @@ core:
       title: Siguria
     settings:
       account_heading: Llogaria
-      notification_checkbox_a11y_label_template: 'Merrni njoftimet "{description}" nëpërmjet {metodës}'
       notify_by_web_heading: Web
       notify_discussion_renamed_label: 'Dikush riemëron një diskutim që fillova'
       privacy_disclose_online_label: 'Lejoni të tjerët të shohin kur unë jam online'
@@ -186,7 +167,6 @@ core:
       title: Rregullimet
     sign_up:
       log_in_text: 'Tashmë keni një llogari? <a>Hyr</a>'
-      welcome_text: 'Mirë se erdhët, {username}!'
       dismiss_button: 'Në rregull'
       email_placeholder: Email
       password_placeholder: Fjalëkalimi
@@ -196,8 +176,6 @@ core:
     user:
       avatar_upload_button: Ngarko
       avatar_upload_tooltip: 'Ngarko një avatar të ri'
-      in_discussion_text: 'Në {diskutim}'
-      joined_date_text: 'U bashkua me {ago}'
       online_text: 'Në linjë'
       posts_empty_text: 'Duket sikur nuk ka postime këtu.'
       avatar_remove_button: Hiq
@@ -209,15 +187,12 @@ core:
     user_controls:
       button: Kontrollet
       delete_confirmation: 'Je i sigurt që dëshiron ta fshish këtë përdorues? Postimet e përdoruesit nuk do të fshihen.'
-      delete_error_message: 'Fshirja e përdoruesit <i>{username} ({email})</i> dështoi'
-      delete_success_message: 'Përdoruesi <i>{username} ({email})</i> u fshi'
       toggle_dropdown_accessible_label: 'Toggle përdoruesi kontrollon menunë dropdown'
       delete_button: Fshije
       edit_button: Ndrysho
     user_email_confirmation:
       resend_button: 'Resend Konfirmimi Email'
       sent_message: Dërguar
-      alert_message: 'Kemi dërguar një email konfirmimi në {email}. Nëse nuk mbërrin së shpejti, kontrolloni kartelën tuaj spam.'
     welcome_hero:
       hide: 'Fshih mesazhin e mirëseardhjes'
     badge:
@@ -230,8 +205,6 @@ core:
       hidden_tooltip: Fshehur
     dropdown:
       toggle_dropdown_accessible_label: 'Menuja Toggle dropdown'
-    data_segment:
-      label: '{etiketa}:'
     edit_user:
       activate_button: 'Aktivizo përdoruesin'
       groups_heading: Grupet
@@ -246,33 +219,17 @@ core:
       username_heading: 'Emri i përdoruesit'
       username_label: 'Emri i përdoruesit'
     error:
-      circular_dependencies_message: 'Varësitë rrethore të zbuluara: {extensions}. Abortim. Ju lutem çaktivizoni një nga zgjatjet dhe provoni përsëri.'
-      dependent_extensions_message: 'I pamundur çaktivizimi i {extension} derisa të çaktivizohen zgjatjet e varura në vijim: {extensions}'
-      extension_initialiation_failed_message: '{extension} dështoi në fillestar, kontrolloni konsolën e shfletuesit për informacione të mëtejshme.'
       generic_message: 'Oops! Diçka nuk shkoi mirë. Ju lutem rimbushni faqen dhe provoni përsëri.'
       generic_cross_origin_message: 'Oops! Diçka nuk shkoi mirë gjatë një kërkese me origjinë të kryqëzuar. Ju lutem rimbushni faqen dhe provoni përsëri.'
-      missing_dependencies_message: 'I pamundur aktivizimi i {extension} derisa të mundësohen varësitë e mëposhtme: {extensions}'
       not_found_message: 'Burimi i kërkuar nuk u gjet.'
       payload_too_large_message: 'Ngarkesa e kërkesës ishte shumë e madhe.'
       permission_denied_message: 'Ju nuk keni leje për ta bërë këtë.'
       rate_limit_exceeded_message: 'Po shkon pak shumë shpejt. Ju lutem provoni përsëri për disa sekonda.'
       render_failed_message: 'Na vjen keq, ne hasëm një gabim gjatë shfaqjes së kësaj përmbajtjeje. Nëse jeni përdorues, ju lutem provoni përsëri më vonë. Nëse jeni administrator, hidhini një sy skedarëve tuaj të logut Flarum për më shumë informacion.'
-    meta_titles:
-      with_page_title: '{pageNumber, shumës, =1 {{pageTitle} - {forumName}} të tjera {{pageTitle}: Page # - {forumName}}}'
-      without_page_title: '{pageNumber, plural, =1 {{forumName}} tjetër {Page # - {forumName}}}'
     modal:
       close: Afër
     nav:
       drawer_button: 'Sirtari i hapur i navigimit'
-    number_suffix:
-      kilo_text: Drejt
-      mega_text: M
-    series:
-      glue_text: ', '
-      three_text: '{first}, {second}, dhe {third}'
-      two_text: '{first} dhe {second}'
-    username:
-      deleted_text: '[fshirë]'
     loading_indicator:
       accessible_label: Ngarkimi...
   views:
@@ -290,11 +247,9 @@ core:
       invalid_confirmation_token: 'Kjo lidhje konfirmimi tashmë është përdorur ose është e pavlefshme.'
       not_authenticated: 'Ju nuk keni leje për të hyrë në këtë faqe. Provo përsëri pasi të hysh brenda.'
       not_found: 'Faqja që kërkuat nuk mund të gjendej.'
-      not_found_return_link: 'Kthehuni në {forum}'
       permission_denied: 'Ju nuk keni leje për të hyrë në këtë faqe.'
       unknown: 'Një gabim ndodhi gjatë përpjekjes për të ngarkuar këtë faqe.'
     log_out:
-      log_out_confirmation: 'Je i sigurt që dëshiron të dalësh nga {forum}?'
       log_out_button: 'Log Out'
       title: 'Log Out'
     reset_password:
@@ -311,23 +266,15 @@ core:
       previous_page_button: 'Faqja e mëparshme'
   api:
     invalid_username_message: 'Emri i përdoruesit mund të përmbajë vetëm shkronja, numra dhe shenja.'
-    invalid_filter_type:
-      must_be_numeric_message: 'Filtri {filter} duhet të jetë numerik.'
-      must_not_be_array_message: 'Filtri {filter} nuk duhet të jetë një rrjet.'
-      must_not_be_multidimensional_array_message: 'Filtri {filter} nuk duhet të jetë një rrjet shumëdimensional.'
   email:
     activate_account:
       subject: 'Aktivizoni llogarinë tuaj të re'
-      body: "Hej {username}!\n\nDikush (shpresojmë se ju!) është regjistruar në {forum} me këtë adresë emaili.\n\nNëse keni qenë ju, thjesht klikoni linkun e mëposhtëm dhe llogaria juaj do të aktivizohet:\n{url}\n\nNëse nuk jeni regjistruar, ju lutem injorojeni këtë email.\n"
     confirm_email:
       subject: 'Konfirmoni adresën tuaj të re të postës elektronike'
-      body: "Hej {username}!\n\nDikush (shpresojmë se ju!) ka ndryshuar adresën e tyre të emailit në {forum} në këtë.\n\nNëse keni qenë ju, thjesht kliko linkun e mëposhtëm dhe emaili juaj do të konfirmohet:\n{url}\n\nNëse nuk ishe ti, të lutem shpërfille këtë email.\n"
     reset_password:
-      body: "Hej {username}!\n\nDikush (shpresojmë se ju!) ka paraqitur një kërkesë të harruar fjalëkalimi për llogarinë tuaj në {forum}.\n\nNëse ishit ju, kliko linkun e mëposhtëm për të rivendosur fjalëkalimin tuaj:\n{url}\n\nNëse nuk dëshironi të ndryshoni fjalëkalimin tuaj, thjesht injorojeni këtë email dhe asgjë nuk do të ndodhë.\n"
       subject: 'Rivendosni fjalëkalimin tuaj'
     send_test:
       subject: 'Flarum Email Test'
-      body: "Hej {username}!\n\nKy është një email prove për të konfirmuar se konfigurimi juaj i email-it Flarum po funksionon siç duhet.\n\nNëse ky ishe ti, ky email do të thotë se konfigurimi yt funksionon!\n\nNëse nuk ishe ti, të lutem shpërfille këtë email.\n"
   ref:
     all_discussions: 'Të gjitha diskutimet'
     change_email: 'Ndrysho emailin'
@@ -335,7 +282,6 @@ core:
     color: Ngjyra
     confirm_password: 'Konfirmo fjalëkalimin'
     confirm_email: 'Konfirmoni emailin'
-    confirmation_email_sent: 'Kemi dërguar një email konfirmimi në {email}. Nëse nuk mbërrin së shpejti, kontrolloni kartelën tuaj spam.'
     custom_footer_text: 'Shto HTML për t''u shfaqur në fund të faqes.'
     custom_footer_title: 'Ndrysho këmbën e personalizuar'
     custom_header_text: 'Shto HTML për t''u shfaqur në krye të faqes, sipër vetë header-it të Flarum.'
@@ -349,7 +295,6 @@ core:
     extensions: Extensions
     generic_confirmation_message: 'Je i sigurt që dëshiron të vazhdosh? Ky veprim nuk mund të zhbëhet.'
     icon: Ikona
-    icon_text: 'Hyni në emrin e çdo klase ikonash <a>FontAwesome</a>, <em>duke përfshirë</em> <code>fas fa-</code> prefix.'
     load_more: 'Ngarko më shumë'
     loading: Ngarkimi...
     log_in: Hyr
@@ -373,7 +318,6 @@ core:
     security: Siguria
     settings: Rregullimet
     sign_up: Regjistrohu
-    some_others: '{count, plural, one {# other} other {# others}}'
     start_a_discussion: 'Fillo një diskutim'
     username: 'Emri i përdoruesit'
     users: Përdoruesit
@@ -389,128 +333,12 @@ core:
     members: Anëtarët
     mod: Mënyra
     mods: Mods
-validation:
-  accepted: ':atributi duhet pranuar.'
-  active_url: ':atributi nuk është një URL e vlefshme.'
-  after: ':atributi duhet të jetë një datë pas :d ngrënë.'
-  after_or_equal: ':atributi duhet të jetë një datë pas ose e barabartë me :d ngrënë.'
-  alpha: ':atributi duhet të përmbajë vetëm shkronja.'
-  alpha_dash: ':atributi duhet të përmbajë vetëm shkronja, numra, dasha dhe nënvizime.'
-  alpha_num: ':atributi duhet të përmbajë vetëm shkronja dhe numra.'
-  array: 'Atributi duhet të jetë një rrjet.'
-  before: ':atributi duhet të jetë një datë para :d ngrënë.'
-  before_or_equal: ':atributi duhet të jetë një datë më parë ose e barabartë me :d ngrënë.'
-  between:
-    numeric: ':atributi duhet të jetë midis :min dhe :max.'
-    file: 'Atributi duhet të jetë midis :min dhe :max kilobytes.'
-    string: 'Atributi duhet të jetë midis karaktereve :min dhe :max.'
-    array: ':atributi duhet të ketë midis :min dhe :max items.'
-  boolean: 'Fusha e atributeve duhet të jetë e vërtetë ose e rreme.'
-  confirmed: ':konfirmimi i atributit nuk përputhet.'
-  date: ':atributi nuk është një datë e vlefshme.'
-  date_equals: ':atributi duhet të jetë një datë e barabartë me :d ngrënë.'
-  date_format: ':atributi nuk përputhet me formatin :format.'
-  different: ':atributi dhe :të tjerët duhet të jenë të ndryshëm.'
-  digits: 'Atributi duhet të jetë :d igits digits.'
-  digits_between: 'Atributi duhet të jetë midis :min dhe :max digits.'
-  dimensions: ':atributi ka dimensione të pavlefshme të imazhit.'
-  distinct: 'Fusha e atributeve ka një vlerë të dyfishtë.'
-  email: ':atributi duhet të jetë një adresë e vlefshme emaili.'
-  ends_with: ':atributi duhet të përfundojë me një nga më poshtë: :vlerat.'
-  exists: 'I zgjedhuri :atributi është i pavlefshëm.'
-  file: 'Atributi duhet të jetë një dosje.'
-  file_too_large: 'Atributi është shumë i madh.'
-  file_upload_failed: ':atributi dështoi të ngarkonte.'
-  filled: 'Fusha e atributeve duhet të ketë një vlerë.'
-  gt:
-    numeric: ':atributi duhet të jetë më i madh se :vlera.'
-    file: ':atributi duhet të jetë më i madh se :kilobajt vlerash.'
-    string: ':atributi duhet të jetë më i madh se :value characters.'
-    array: ':atributi duhet të ketë më shumë se :artikuj vlerash.'
-  gte:
-    numeric: ':atributi duhet të jetë më i madh se ose i barabartë :vlera.'
-    file: ':atributi duhet të jetë më i madh se ose i barabartë :kilobajt vlerash.'
-    string: ':atributi duhet të jetë më i madh se ose i barabartë :value characters.'
-    array: ':atributi duhet të ketë :artikuj vlerash ose më shumë.'
-  image: 'Atributi duhet të jetë një imazh.'
-  in: 'I zgjedhuri :atributi është i pavlefshëm.'
-  in_array: ':fusha e atributeve nuk ekziston në :tjetër.'
-  integer: 'Atributi duhet të jetë një integer.'
-  ip: ':atributi duhet të jetë një ip adresë e vlefshme.'
-  ipv4: ':atributi duhet të jetë një adresë IPv4 e vlefshme.'
-  ipv6: ':atributi duhet të jetë një adresë IPv6 e vlefshme.'
-  json: 'Atributi :atributi duhet të jetë një varg i vlefshëm HUNAN.'
-  lt:
-    numeric: ':atributi duhet të jetë më pak se :vlera.'
-    file: ':atributi duhet të jetë më pak se :vlera kilobajt.'
-    string: ':atributi duhet të jetë më pak se :karakteret e vlerës.'
-    array: ':atributi duhet të ketë më pak se :artikuj vlerash.'
-  lte:
-    numeric: ':atributi duhet të jetë më pak se ose i barabartë :vlera.'
-    file: ':atributi duhet të jetë më pak se ose i barabartë :kilobajt vlerash.'
-    string: ':atributi duhet të jetë më pak se ose i barabartë :value characters.'
-    array: ':atributi nuk duhet të ketë më shumë se :artikuj vlerash.'
-  max:
-    numeric: 'Atributi :nuk duhet të jetë më i madh se :max.'
-    file: 'Atributi :nuk duhet të jetë më i madh se :max kilobytes.'
-    string: ':atributi nuk duhet të jetë më i madh se :max karaktere.'
-    array: ':atributi nuk duhet të ketë më shumë se :max artikuj.'
-  mimes: ':atributi duhet të jetë një dosje e llojit: :vlerat.'
-  mimetypes: ':atributi duhet të jetë një dosje e llojit: :vlerat.'
-  min:
-    numeric: 'Atributi duhet të jetë të paktën :min.'
-    file: 'Atributi duhet të jetë të paktën :min kilobajt.'
-    string: 'Atributi duhet të jetë të paktën :min karaktere.'
-    array: ':atributi duhet të ketë të paktën :min artikuj.'
-  multiple_of: ':atributi duhet të jetë një shumëfish i :vlerës.'
-  not_in: 'I zgjedhuri :atributi është i pavlefshëm.'
-  not_regex: 'Formati :atributi është i pavlefshëm.'
-  numeric: 'Atributi duhet të jetë një numër.'
-  password: 'Fjalëkalimi është i pasaktë.'
-  present: 'Fusha e atributeve duhet të jetë e pranishme.'
-  regex: 'Formati :atributi është i pavlefshëm.'
-  required: 'Fusha e atributeve është e nevojshme.'
-  required_if: 'Fusha e atributeve është e nevojshme kur :tjetër është :vlera.'
-  required_unless: 'Fusha e atributeve është e nevojshme përveç nëse :tjetër është në :vlera.'
-  required_with: ':fusha e atributeve është e nevojshme kur :vlerat janë të pranishme.'
-  required_with_all: ':fusha e atributeve është e nevojshme kur :vlerat janë të pranishme.'
-  required_without: ':fusha e atributeve kërkohet kur :vlerat nuk janë të pranishme.'
-  required_without_all: ':fusha e atributeve është e nevojshme kur asnjë nga :vlerat nuk janë të pranishme.'
-  prohibited: 'Fusha e atributeve është e ndaluar.'
-  prohibited_if: 'Fusha e atributeve është e ndaluar kur :tjetër është :vlera.'
-  prohibited_unless: ':fusha e atributeve është e ndaluar përveç nëse :tjetër është në :vlera.'
-  same: 'Atributi dhe :të tjerët duhet të përputhen.'
-  size:
-    numeric: 'Atributi duhet të jetë :size.'
-    file: 'Atributi duhet të jetë :kilobajt i madhësisë.'
-    string: 'Atributi duhet të jetë :size characters.'
-    array: ':atributi duhet të përmbajë :size items.'
-  starts_with: ':atributi duhet të fillojë me një nga më poshtë: :vlerat.'
-  string: 'Atributi duhet të jetë një varg.'
-  timezone: ':atributi duhet të jetë një zonë e vlefshme.'
-  unique: ':atributi tashmë është marrë.'
-  uploaded: ':atributi dështoi të ngarkonte.'
-  url: 'Formati :atributi është i pavlefshëm.'
-  uuid: ':atributi duhet të jetë një UUID i vlefshëm.'
-  attributes:
-    username: 'Emri i përdoruesit'
-    password: Fjalëkalimi
-    email: E-mail
-    title: Titulli
-    content: Përmbajtja
-    name_singular: 'Emri njëjës'
-    name_plural: emri
-    tag_count_primary: 'Numri i etiketave primare'
-    tag_count_secondary: 'Numri i etiketave dytësore'
-  recaptcha: 'Validimi i RECAPTCHA dështoi.'
-  recaptcha-unknown: 'Një gabim i panjohur ndodhi gjatë validimit të reCAPTCHA ({errors}).'
 flarum-tags:
   forum:
     all_tags:
       meta_description_text: 'Të gjitha Tags'
       meta_title_text: Tags
     choose_tags:
-      edit_title: 'Edit Tags for {title}'
       title: 'Zgjidhni Tags për diskutimin tuaj'
     discussion_controls:
       edit_tags_button: 'Edit Tags'
@@ -520,48 +348,27 @@ flarum-tags:
       more_link: 'Më shumë...'
       untagged_link: 'I pashfrytëzuar'
       tags_link: Tags
-    post_stream:
-      added_and_removed_tags_text: '{username} shtoi {tagsAdded} dhe hoqi {tagsRemoved} {time}.'
-      added_tags_text: '{username} shtoi {tagsAdded} {time}.'
-      removed_tags_text: '{username} hoqi {tagsRemoved} {time}.'
-      tags_text: '{count, plural, one {{tags} tag} other {{tags} tags}}'
-    tag:
-      meta_description_text: 'Të gjitha diskutimet me etiketën {tag}'
     composer_discussion:
       choose_tags_link: 'Zgjidhni Tags'
   lib:
     deleted_tag_text: Fshirë
     tag_selection_modal:
       bypass_requirements: 'Kërkesat e etiketës së bypass-it'
-      choose_primary_placeholder: '{count, plural, one {Choose a primary tag} other {Choose # primary tags}}'
-      choose_secondary_placeholder: '{count, plural, one {Choose 1 more tag} other {Choose # more tags}}'
-      choose_tags_placeholder: '{count, plural, one {Choose 1 more tag} other {Choose # more tags}}'
       submit_button: 'Në rregull'
       title: 'Zgjidhni Tags'
   ref:
     choose_tags: 'Zgjidhni Tags'
-    choose_tags_placeholder: '{count, plural, one {Choose 1 more tag} other {Choose # more tags}}'
     name: Emri
     tags: Tags
 flarum-mentions:
   forum:
     composer:
       mention_tooltip: 'Përmendni një përdorues, grup ose postim'
-      reply_to_post_text: 'Përgjigju tek #{number}'
     mentioned_by:
       title: 'Përgjigjet në këtë postim'
       load_more_button: 'Ngarko më shumë'
-    notifications:
-      post_mentioned_text: '{username} iu përgjigj postimit tuaj'
-      user_mentioned_text: '{username} ju përmendi'
-      group_mentioned_text: '{username} përmendi një grup që ju jeni anëtar i'
-      others_text: '{count, plural, one {# other} other {# others}}'
     post:
-      mentioned_by_more_text: '{count} më shumë përgjigje.'
-      mentioned_by_self_text: '{përdoruesit} iu përgjigjën kësaj.'
-      mentioned_by_text: '{përdoruesit} iu përgjigjën kësaj.'
       quote_button: Quote
-      others_text: '{count, plural, one {# other} other {# others}}'
       reply_link: Përgjigje
       you_text: Ti
     settings:
@@ -570,28 +377,12 @@ flarum-mentions:
       notify_group_mentioned_label: 'Dikush përmend një grup ku jam anëtar në një postim'
     user:
       mentions_link: Përmend
-    post_mention:
-      deleted_text: '[i panjohur]'
-    group_mention:
-      deleted_text: '[Grup i panjohur]'
-  email:
-    post_mentioned:
-      subject: '{replier_display_name} iu përgjigj postimit tuaj në {title}'
-      body: "Hej {recipient_display_name}!\n\n{replier_display_name} iu përgjigj postimit tuaj (#{post_number}) në {title}.\n\n{url}\n\n---\n\n{content}\n"
-    user_mentioned:
-      subject: '{mentioner_display_name} ju përmendi në {title}'
-      body: "Hej {recipient_display_name}!\n\n{mentioner_display_name} ju përmendi në një postim në {title}.\n\n{url}\n\n---\n\n{content}\n"
-    group_mentioned:
-      subject: '{mentioner_display_name} përmendi një grup ku jeni anëtar në {title}'
-      body: "Hej {recipient_display_name}!\n\n{mentioner_display_name} përmendi një grup ku jeni anëtar në {title}.\n\n{url}\n\n---\n\n{content}\n"
 flarum-subscriptions:
   forum:
     discussion_controls:
       unfollow_button: Unfollow
       unignore_button: Unsir
       follow_button: Ndiq
-    notifications:
-      new_post_text: '{username} postuar'
     settings:
       follow_after_reply_label: 'Ndiqni automatikisht diskutimet që unë i përgjigjem'
       notify_for_all_posts_label: 'Njoftoni për çdo postim të ri në vend të vetëm të fundit në një diskutim'
@@ -613,10 +404,6 @@ flarum-subscriptions:
       meta_title_text: 'Në vijim'
     index:
       following_link: 'Në vijim'
-  email:
-    new_post:
-      subject: '[New Post] {title}'
-      body: "Hej {recipient_display_name}!\n\n{poster_display_name} bëri një postim në një diskutim që po ndiqni: {title}.\n\nPër të parë aktivitetin e ri, shikoni linkun e mëposhtëm:\n{url}\n\n---\n\n{content}\n\n---\n\nNuk do të merrni më njoftime për këtë diskutim derisa të jeni të përditësuar.\n"
   ref:
     follow: Ndiq
     following: 'Në vijim'
@@ -625,7 +412,6 @@ flarum-flags:
   forum:
     flag_post:
       confirmation_message: 'Faleminderit që e ndezët këtë postim. Moderatorët tanë do të shikojnë në të.'
-      reason_details_placeholder: 'Detaje shtesë (opsionale)'
       reason_inappropriate_label: 'E papërshtatshme'
       reason_inappropriate_text: 'Ky postim është ofendues, abuzues, ose shkel <a>udhëzimet e komunitetit</a> tonë.'
       reason_missing_message: 'Ju lutemi të jepni disa detaje për moderatorët tanë.'
@@ -639,13 +425,10 @@ flarum-flags:
       title: 'Posta e Flamurit'
     flagged_posts:
       empty_text: 'Nuk ka flamuj'
-      item_text: '{username} në <em>{diskutim}</em>'
       title: 'Postimet e shënuara'
       tooltip: 'Postimet e shënuara'
     post:
       dismiss_flag_button: 'Shkarko flamurin'
-      flagged_by_text: 'Shënuar nga {username}'
-      flagged_by_with_reason_text: 'Shënuar nga {username} si {reason}'
     post_controls:
       flag_button: Flamuri
   ref:
@@ -654,13 +437,11 @@ flarum-flags:
 flarum-suspend:
   forum:
     notifications:
-      user_suspended_text: 'Ju jeni pezulluar për {timeReadable}'
       user_suspended_indefinite_text: 'Ju jeni pezulluar për një kohë të pacaktuar'
       user_unsuspended_text: 'Ju keni qenë i papenguar'
     suspension_info:
       dismiss_button: Shkarko
       indefinite: 'Ky është një pezullim i pacaktuar'
-      limited: 'Ky pezullim do të jetë në fuqi deri në {date}'
       title: 'Kjo llogari është pezulluar'
     suspend_user:
       display_message: 'Shfaq mesazhin për përdoruesin'
@@ -671,7 +452,6 @@ flarum-suspend:
       placeholder_optional: Opsionale
       reason: 'Arsyeja e pezullimit'
       status_heading: 'Gjendja e pezullimit'
-      title: 'Pezullo {username}'
       submit_button: 'Ruaj ndryshimet'
     user_badge:
       suspended_tooltip: Pezulluar
@@ -681,10 +461,8 @@ flarum-suspend:
     no_reason_given: 'Nuk u dha asnjë arsye për këtë pezullim.'
     suspended:
       subject: 'Llogaria juaj është pezulluar'
-      body: "Hej {recipient_display_name},\n\nJu jeni pezulluar për arsyen e mëposhtme:\n\n---\n{suspension_message}\n---\n"
     unsuspended:
       subject: 'Llogaria juaj ka qenë e pashfrytëzuar'
-      body: "Hej {recipient_display_name},\n\nJu keni qenë i papenguar. Ju mund të drejtoheni përsëri në forum duke klikuar në linkun e mëposhtëm:\n\n{forum_url}\n"
 blomstra-gdpr:
   lib:
     data:
@@ -707,8 +485,6 @@ fof-upload:
       error: 'Gabim gjatë gabimit'
       loading: Ngarkimi
       unauthorized: 'Nuk ju lejohet të shkarkoni skedarë'
-    validation:
-      max_size: 'Ngarkimet mbi {max} kb nuk pranohen.'
     text_preview:
       expand: 'Zgjero pamjen paraprake'
       collapse: 'Parashtrimi i kolapsit'
@@ -718,7 +494,6 @@ fof-upload:
   api:
     upload_errors:
       forbidden_type: 'Ngarkimi i skedarëve të këtij lloji nuk lejohet.'
-      unsupported_type: 'Përshtatësi i ngarkimit nuk mbështet llojin e mimes së dhënë: {mime}.'
       could_not_detect_mime: 'I pamundur zbulimi i llojit MIME të këtij skedari, ju lutem provoni përsëri.'
       max_upload_file_size_ini: 'Ngarko limitin max filesize të arritur nga php.ini.'
       max_upload_file_size_form: 'Ngarko limitin max filesize të arritur nga forma.'
@@ -727,7 +502,6 @@ fof-upload:
       no_upload_tmp_folder: 'Asnjë kartelë tmp për ngarkimin e skedarëve.'
       cannot_write_to_disk: 'Nuk mund të shkruaj në disk.'
       upload_blocked_by_php_extension: 'Një zgjerim php bllokoi ngarkimin.'
-      no_files_made_it_to_upload: 'Ju lutem ngarkoni skedarë jo më të mëdhenj se {max} kb.'
   lib:
     upload-shared-file-modal:
       title: 'File i ri i ndarë'
@@ -740,13 +514,9 @@ fof-upload:
       release_to_upload: 'Lëshimi për të ngarkuar'
       modal_empty_desktop: 'Lista juaj e dosjeve është bosh. Kliko butonin ose zvarrit një skedar këtu për të ngarkuar.'
       modal_empty_phone: 'Lista juaj e dosjeve është bosh. Shtyp butonin sipër për të ngarkuar një skedar.'
-      select_file_a11y_label: 'Zgjidh skedarin "{fileName}"'
-      confirm_selection_btn: '{fileCount, plural, =0 {None selected} one {Select file} other {Select files}}'
       load_more_files_btn: 'Ngarko më shumë skedarë'
-      delete_file_a11y_label: 'Fshi file "{fileName}"'
-      delete_confirmation: 'Je i sigurt që dëshiron të fshish "{fileName}"?'
-      hide_file: { btn_a11y_label_hide: 'Fshih "{fileName}" nga menaxheri i medias', btn_a11y_label_show: 'Shfaq "{fileName}" në menaxherin e medias', hide_confirmation: 'Je i sigurt që dëshiron të fshehësh "{fileName}"? Fshehja e një skedari vetëm do ta heqë atë nga menaxheri juaj i medias dhe nuk do të ndikojë në postimet ekzistuese.', hide_success: 'File i fshehur', show_confirmation: 'Je i sigurt që dëshiron të tregosh "{fileName}"? Shfaqja e një skedari do ta bëjë atë të dukshëm në menaxherin tuaj të medias.', show_success: 'File i shfaqur', hide_fail: 'I pamundur fshehja e file "{fileName}"', show_fail: 'I pamundur paraqitja e file "{fileName}"', loading: 'Fshehja e dosjes...' }
-      hide_shared_file: { btn_a11y_label_hide: 'Make "{fileName}" private (no public URL)', btn_a11y_label_show: 'Bëni publike "{fileName}" (me URL publike)', hide_confirmation: 'Je i sigurt që dëshiron të bësh private "{fileName}"? Bërja e një skedari privat do të heqë URL-në e saj publike, por nuk do të ndikojë në postimet ekzistuese. Ajo gjithashtu nuk do të jetë më e dukshme në menaxherin e medias për përdoruesit e paautorizuar.', hide_success: 'File i bërë privat', show_confirmation: 'Je i sigurt që dëshiron të bësh publike "{fileName}"? Bërja publike e një dosjeje do ta bëjë atë të arritshëm për këdo që ka një URL publike dhe çdokush mund ta ndajë atë duke përdorur menaxherin e medias.', show_success: 'File i bërë publik', hide_fail: 'I pamundur bërja private e file "{fileName}"', show_fail: 'I pamundur bërja publike e file "{fileName}"', loading: 'Duke e bërë dosjen private...' }
+      hide_file: { hide_success: 'File i fshehur', show_success: 'File i shfaqur', loading: 'Fshehja e dosjes...' }
+      hide_shared_file: { hide_success: 'File i bërë privat', show_success: 'File i bërë publik', loading: 'Duke e bërë dosjen private...' }
 flarum-bbcode:
   forum:
     quote:
@@ -779,8 +549,6 @@ fof-follow-tags:
       following_tag_tooltip: 'Në vijim'
       lurking_tag_tooltip: 'Duke u joshur'
     sub_controls:
-      header: 'Abonimi për {tagName}'
-      subscription_label: 'Zgjidh nivelin e abonimit për {tagName}'
       following_text: 'Të njoftoheni për të gjitha diskutimet e reja.'
       hiding_text: 'Fshih diskutimet nga faqja e të gjitha diskutimeve.'
       ignoring_text: 'Kurrë mos u njoftoni.'
@@ -795,21 +563,8 @@ fof-follow-tags:
       hiding_button: Fshehja
       ignoring_button: Shpërfillja
       lurking_button: 'Duke u joshur'
-    notifications:
-      new_discussion_text: '{username} filloi'
-      new_post_text: '{username} postuar'
-      new_discussion_tag_text: '{username} ndryshoi etiketën'
     user:
       settings: { heading: 'Ndiqni Tags', filter_label: 'Çfarë duhet të tregoni nga default në faqen e mëposhtme' }
-  email:
-    subject:
-      newDiscussionInTag: '[Tag | Diskutim i ri] {title}'
-      newPostInTag: '[Tag | New Post] {title}'
-      newDiscussionTag: '[Tag | Ndryshuar Tag] {title}'
-    body:
-      newDiscussionInTag: "Hej {recipient_display_name},\n\n{actor_display_name} filloi një diskutim në një etiketë që po ndiqni: {discussion_title}\n\nPër të parë diskutimin e ri, shikoni linkun e mëposhtëm:\n{discussion_url}\n\n---\n\n{post_content}\n"
-      newPostInTag: "Hej {recipient_display_name},\n\n{actor_display_name} postuar në një diskutim në një etiketë që po ndiqni: {discussion_title}\n\nPër të parë aktivitetin e ri, shikoni linkun e mëposhtëm:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nJu nuk do të merrni më njoftime në lidhje me këtë diskutim deri sa të jeni të përditësuar.\n"
-      newDiscussionTag: "Hej {recipient_display_name},\n\n{actor_display_name} sapo ndryshoi etiketën në një diskutim nga {author_display_name} në një etiketë që po ndiqni {discussion_title}\n\nPër të parë diskutimin e ri, shikoni linkun e mëposhtëm:\n{discussion_url}\n"
   ref:
     follow: Ndiq
     following: 'Në vijim'
@@ -838,17 +593,8 @@ flarum-nicknames:
       nickname_placeholder: Pseudonimi
 fof-oauth:
   forum:
-    log_in:
-      with_button: 'Regjistrohu me {provider}'
-      with_discord_button: 'Regjistrohu me {provider}'
-      with_facebook_button: 'Regjistrohu me {provider}'
-      with_github_button: 'Regjistrohu me {provider}'
-      with_gitlab_button: 'Regjistrohu me {provider}'
-      with_google_button: 'Regjistrohu me {provider}'
-      with_linkedin_button: 'Regjistrohu me {provider}'
-      with_twitter_button: 'Regjistrohu me {provider}'
     user:
-      settings: { linked-account: { label: 'Llogaritë e lidhura', last-used-label: 'Përdorur për herë të fundit', link-created-label: 'Linku i krijuar', orphaned-account: 'Ju keni nënshkruar nëpërmjet këtij ofruesi më parë, por ky forum ka çaktivizuar sign-in me këtë metodë që atëherë.', help: 'Këto llogari të lidhura ju lejojnë të nënshkruani në forum duke përdorur ofruesit e tjerë.', identifier-label: '{provider} ID', unlink-confirm: 'Je i sigurt që dëshiron të heqësh lidhjen me {provider}? Ju nuk do të jeni më në gjendje të nënshkruani në këtë forum nëse nuk ri-autentifikoheni në të ardhmen.' } }
+      settings: { linked-account: { label: 'Llogaritë e lidhura', last-used-label: 'Përdorur për herë të fundit', link-created-label: 'Linku i krijuar', orphaned-account: 'Ju keni nënshkruar nëpërmjet këtij ofruesi më parë, por ky forum ka çaktivizuar sign-in me këtë metodë që atëherë.', help: 'Këto llogari të lidhura ju lejojnë të nënshkruani në forum duke përdorur ofruesit e tjerë.' } }
     signup:
       username_help: 'Ju lutem zgjidhni një emër përdoruesi për t''u njohur nga këtu'
     unlink: 'Hiq lidhjen'
@@ -882,10 +628,8 @@ fof-impersonate:
   forum:
     modal:
       title: 'Login si një përdorues tjetër'
-      label: 'Me fuqi të madhe vjen përgjegjësi e madhe. Duke vazhduar, ju do të bëheni {username} derisa të regjistroheni.'
       placeholder_optional: '(Opsionale) Jepni arsyen tuaj për kalimin në këtë përdorues'
       placeholder_required: 'Ju duhet të jepni arsyen tuaj për kalimin në këtë përdorues para se të procedoni'
-      impersonate_username: 'Login si {username}'
     user_controls:
       impersonate_button: 'Login si përdorues'
 fof-byobu:
@@ -896,7 +640,6 @@ fof-byobu:
       add_recipients: Marrësit
       submit: 'Në rregull'
       edit_recipients: 'Modifiko marrësit'
-      send_pd: 'Dërgo {username} një mesazh'
       cancel: Anulo
       make_public: 'Bëjeni publik këtë diskutim'
       remove_from_discussion: 'Lëre këtë diskutim privat'
@@ -905,8 +648,6 @@ fof-byobu:
       title_placeholder: 'Titulli i diskutimit privat'
     confirm:
       make_public: 'Jeni të sigurt se doni të hiqni marrësit dhe ta bëni këtë diskutim të dukshëm për këdo që mund të shikojë etiketën e caktuar?'
-    labels:
-      recipients: '{count, plural, one {{count} Recipient} other {{count} Recipients}}'
     nav:
       start_button: 'Diskutoni privatisht'
       nav_item: 'Diskutime private'
@@ -915,11 +656,9 @@ fof-byobu:
     search:
       headings: { groups: 'Grupet e lejeve' }
     modal:
-      titles: { update_recipients: 'Përditësoni marrësit e {titullit}', add_recipients: 'Shto marrësit në diskutimin tënd' }
+      titles: { add_recipients: 'Shto marrësit në diskutimin tënd' }
       labels: { selected_users: 'Përdoruesit e zgjedhur', search_field: 'Kërko për përdoruesin' }
       help: { add_recipients: 'Ky diskutim do të jetë i dukshëm vetëm për përdoruesit që zgjidhni këtu. Të paktën 1 marrës (përveç vetes) është i nevojshëm.', update_recipients: 'Ky diskutim do të jetë i dukshëm vetëm për përdoruesit që zgjidhni këtu.', selected_users: 'Kliko emrin e përdoruesit për t''i hequr ato.', click_user_to_remove_tooltip: 'Kliko për të hequr' }
-    post:
-      recipients_modified: { added_and_removed: '{username} shtoi marrësit {added} dhe hoqi {removed}.', added: '{username} shtoi marrësit {added}.', made_public: '{username} hoqi të gjithë marrësit dhe e bëri diskutimin publik', removed: '{username} hequr marrësit {hequr}.', removed_self: '{username} la diskutimin privat.' }
     user:
       settings: { block_pd: 'Blloko diskutimet private' }
       byobu_link: 'Diskutime private'
@@ -927,23 +666,9 @@ fof-byobu:
     notifications:
       pd_label: 'Dikush më përfshin në një diskutim të ri privat'
       pd_reply_label: 'Dikush poston në një diskutim privat unë jam marrës i'
-      pd_reply_text: '{username} postuar në një diskutim privat ju jeni pjesë e'
-      pd_text: '{username} filloi një diskutim të ri privat me ju'
       pd_user_left_label: 'Një përdorues marrës lë një diskutim privat unë jam pjesë e'
-      pd_user_left_text: '{username} la diskutimin privat'
-      pd_added_text: '{username} ju shtoi në një diskutim privat'
       pd_added_label: 'Dikush më shton në një diskutim privat ekzistues'
-  email:
-    subject:
-      private_discussion_created: '[Diskutim privat] {display_name} filloi një diskutim të ri privat me ju'
-      private_discussion_replied: '[Diskutim privat] {display_name} postuar në një diskutim privat'
-      recipient_removed: '[Diskutim privat] {display_name} e la diskutimin'
-      private_discussion_added: '[Diskutim privat] {display_name} ju shtoi në një diskutim privat'
-    body:
-      private_discussion_created: "Hej {recipient_display_name},\n\n{actor_display_name} filloi një diskutim të ri privat me ju si marrës: {discussion_title}.\n\nShikoje këtu:\n{discussion_url}\n\nJu mund të keni nevojë për login së pari para se të jetë në gjendje për të hyrë në këtë link.\n"
-      private_discussion_replied: "Hej {recipient_display_name},\n\n{actor_display_name} postuar në një diskutim privat me ju si marrës: {discussion_title}.\n\nShikoje këtu:\n{post_url}\n\nJu mund të keni nevojë për login së pari para se të jetë në gjendje për të hyrë në këtë link.\n"
-      recipient_removed: "Hej {recipient_display_name},\n\n{actor_display_name} la diskutimin privat: {discussion_title}. Ata nuk do të jenë më në gjendje të shohin asnjë nga përmbajtjet e saj.\n\nShikoje këtu:\n{discussion_url}\n\nJu mund të keni nevojë për login së pari para se të jetë në gjendje për të hyrë në këtë link.\n"
-      private_discussion_added: "Hej {recipient_display_name},\n\n{actor_display_name} ju shtoi në një diskutim privat ekzistues: {discussion_title}.\n\nShikoje këtu:\n{discussion_url}\n\nJu mund të keni nevojë për login së pari para se të jetë në gjendje për të hyrë në këtë link.\n"
+  email: null
 v17development-flarum-badges:
   forum:
     badge_information: 'Informacioni i distinktivit'
@@ -966,17 +691,11 @@ v17development-flarum-badges:
       no_earning_reason: 'Asnjë arsye fitimi nuk është caktuar'
       earned_on: 'Distinktivi i fituar në'
       category: 'Kategoria e distinktivit'
-      received_on: 'Marrë në {date}'
       badge_details: 'Detajet e distinktivit'
-      earned_count: '{count, plural, one {<b># user</b> hasearned this badge} other {<b># users</b> haveearned this badge}}'
-      earned_by_count: '{count, plural, one {Earned by <b># user</b>} other {Earned by <b># users</b>}}'
-      others_link: '+ {count} Më shumë'
     badges_in_card:
       title: 'Distinktivët në kartën e përdoruesit'
       manage_badges: 'Menaxho distinktivët'
       description: 'Ju mund të ndryshoni distinktivët e dukshëm në kartën tuaj të përdoruesit me një nga distinktivët tuaj të tjerë. Nëse nuk zgjidhni asnjë, ato do të zgjidhen automatikisht.'
-      select_limit: 'Ju mund të zgjidhni {limit, shumës, një {<b>një distinktiv</b>} tjetër {<b># badges</b>}} për të qenë të dukshëm në kartën tuaj të përdoruesit.'
-      hit_limit: 'Ka vend vetëm për <b> {limit, shumës, një {<b>një distinktiv</b>} tjetër {<b># badges</b>}}</b> në kartën tuaj. Zgjidh një distinktiv për t''i bërë vend këtij distinktivi.'
     moderation:
       remove_badge: 'Hiq distinktivin nga përdoruesi'
       remove_badge_confirm: 'Je i sigurt që dëshiron ta heqësh këtë distinktiv nga ky përdorues?'
@@ -985,14 +704,10 @@ v17development-flarum-badges:
       title: 'Ju keni marrë një distinktiv të ri'
       settings: 'Kam marrë një distinktiv'
     uncategorized: Uncategorized
-v17development-flarum-seo:
-  forum:
-    profile_title: 'Profili i {username}'
-    profile_description: 'Profili i {username} | {discussion_count} diskutime | {comment_count} postimet'
+v17development-flarum-seo: null
 the-turk-miserable-users:
   forum:
     miserable_user:
-      title: 'I mjerë {username}'
       status_heading: 'Gjendja e mjerueshme'
       not_miserable_label: 'Jo e mjerueshme'
       indefinitely_label: 'E mjerueshme pafundësisht'
@@ -1009,7 +724,6 @@ sycho-profile-cover:
   forum:
     cover: Mbulesa
     edit_cover: 'Ndrysho kopertinën'
-    notice: 'Madhësia maksimale: {size}'
     added:
       success: 'Kopertina e profilit është përditësuar.'
       error: 'Imazhi nuk mund të ngarkohej.'
@@ -1018,10 +732,7 @@ sycho-profile-cover:
       error: 'E pamundur heqja e mbulesës, provoni përsëri më vonë.'
 sycho-photoswipe: null
 nearata-tags-color-generator: null
-nearata-prevent-double-posting:
-  forum:
-    exception:
-      too_many_replies: 'Nuk lejohen më shumë se {count} përgjigje të njëpasnjëshme. Ju lutemi redaktoni përgjigjen tuaj të mëparshme në vend të kësaj, ose prisni që dikush t''ju përgjigjet.'
+nearata-prevent-double-posting: null
 nearata-copy-code-to-clipboard:
   forum:
     copy: 'Kopjo në clipboard'
@@ -1030,7 +741,6 @@ michaelbelgium-flarum-profile-views:
   forum:
     user:
       viewlist: { title: 'Vizitorët e fundit', guest: Mysafir }
-      view_count_text: '{viewcount, plural, one {viewed {viewcount} time} other {viewed {viewcount} times}}'
 justoverclock-country-flags:
   forum:
     inputCountryCode: 'Kodi i vendit'
@@ -1058,13 +768,10 @@ ianm-syndication:
     autodiscovery:
       forum_activity: 'Aktiviteti i forumit'
       forum_new_discussions: 'Diskutimet e reja të Forumit'
-      tag_activity: 'Aktiviteti për etiketën {tag}'
-      tag_new_discussions: 'Diskutimet në etiketën {tag}'
       discussion_last_posts: 'Ky diskutim'
       user_last_posts: 'Postimet dhe komentet nga ky përdorues'
     feeds:
-      entries: { user_posts: { title_reply: 'Re: {diskutim}' } }
-      titles: { main_title: '{forum_name}', main_subtitle: 'Postimet e fundit në forum', main_d_title: 'Diskutime të reja në {forum_name}', main_d_subtitle: 'Diskutimet më të reja në forum', tag_title: 'Aktiviteti në etiketën {tag}', tag_subtitle: 'Postimet e fundit në etiketën {tag}', tag_d_title: 'Diskutime të reja në etiketën {tag}', tag_d_subtitle: 'Diskutimet më të reja në etiketën {tag}', discussion_title: '{discussion_name}', discussion_subtitle: 'Mesazhet e fundit në këtë diskutim', user_title: '{username}', user_subtitle: 'Postimet dhe komentet më të fundit nga ky përdorues.' }
+      titles: { main_subtitle: 'Postimet e fundit në forum', main_d_subtitle: 'Diskutimet më të reja në forum', discussion_subtitle: 'Mesazhet e fundit në këtë diskutim', user_subtitle: 'Postimet dhe komentet më të fundit nga ky përdorues.' }
     discussion:
       feed_link: Feed
 ianm-log-viewer: null
@@ -1072,7 +779,6 @@ ianm-html-head: null
 ianm-follow-users:
   forum:
     followed: Ndjekur
-    followers: '{count, plural, one {Follower} other {Followers}}'
     profile_page:
       no_following: 'Duket sikur nuk po ndjek askënd.'
     settings:
@@ -1081,17 +787,12 @@ ianm-follow-users:
       notify_new_discussion_label: 'Dikush që po ndjek fillon një diskutim'
       notify_new_post_label: 'Dikush që po ndjek postimet në një diskutim ekzistues'
       block_follow: 'Ndaloni përdoruesit të më ndjekin'
-    notifications:
-      new_discussion_text: '{username} filloi'
-      new_post_text: '{username} postuar në një diskutim'
-      new_follower_text: '{username} të ndoqi'
-      new_unfollower_text: '{username} ndaloi së ndjekuri ju'
     badge:
       label: { follow: 'Pas diskutimeve', lurk: 'Duke ndjekur të gjitha' }
     filter:
       following: 'Përdoruesit e ndjekur'
     modals:
-      select_follow_level: { title: 'Zgjidh nivelin e ndjekjes për {username}', description: 'Zgjidhni se si do të dëshironit të ndiqnit <em>{username}</em>.', follow_levels_heading: 'Ndiqni nivelet', follow_select_label: 'Ndiq llojin', no_user_attr_provided_err: 'Oh, diçka nuk shkoi mirë gjatë hapjes së këtij modali.', no_user_attr_provided_err_debug: 'Asnjë atribut ''përdorues'' nuk u kalua në modalin SelectFollowUserLevel kur u krijua. Modal nuk mund të përkthehet.', save_btn: Ruaj, cancel_btn: Anulo }
+      select_follow_level: { follow_levels_heading: 'Ndiqni nivelet', follow_select_label: 'Ndiq llojin', no_user_attr_provided_err: 'Oh, diçka nuk shkoi mirë gjatë hapjes së këtij modali.', no_user_attr_provided_err_debug: 'Asnjë atribut ''përdorues'' nuk u kalua në modalin SelectFollowUserLevel kur u krijua. Modal nuk mund të përkthehet.', save_btn: Ruaj, cancel_btn: Anulo }
     profile_link: 'Përdoruesit e ndjekur'
     user_controls:
       follow_button: Ndiq
@@ -1101,37 +802,28 @@ ianm-follow-users:
       follow_tag_button: Ndiq
       unfollow_tag_button: 'Ndrysho llojin e ndjekjes'
   email:
-    new_discussion_by_user_subject: '[Ndiq Përdoruesin] {title}'
     new_follower_subject: '[Ndiq Përdoruesin] Keni një ndjekës të ri!'
-    new_post_subject: '[Ndiq Përdoruesin] Postimi i ri në {title}'
-    new_discussion_by_user_body: "Hej {recipient_display_name},\n\n{user_display_name} filloi një diskutim të ri: {discussion_title}\n\nPër të parë diskutimin e ri, shikoni linkun e mëposhtëm:\n\n{discussion_url}\n\n---\n\n{post_content}\n"
-    new_follower_body: "Hej {recipient_display_name},\n\n{follower_display_name} filloi t'ju ndjekë, kështu që ata do të njoftohen kur të filloni një diskutim të ri.\n\nPër të parë profilin e tyre, shikoni linkun e mëposhtëm:\n\n{profile_url}\n"
-    new_post_body: "Hej {recipient_display_name},\n\n{user_display_name} postuar në një diskutim: {discussion_title}\n\nPër të parë aktivitetin e ri, shikoni linkun e mëposhtëm:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNuk do të merrni më njoftime për këtë diskutim derisa të jeni të përditësuar.\n"
   lib:
     following_link: 'Përdoruesit e ndjekur'
     follow: Ndiq
     change_follow_type: 'Ndrysho llojin e ndjekjes'
     unfollow: Unfollow
     follow_levels:
-      unfollow: { name: 'Mos ndiq', description: "Mos merrni asnjë njoftim për aktivitetin e <em>{username}</em>.\n" }
-      follow: { name: 'Ndiqni diskutimet', description: "Merrni njoftime kur <em>{username}</em> fillon një diskutim të ri.\n" }
-      lurk: { name: 'Ndiq të gjitha', description: "Merrni njoftime kur <em>{username}</em> fillon një diskutim të ri ose poston brenda çdo diskutimi.\n" }
+      unfollow: { name: 'Mos ndiq' }
+      follow: { name: 'Ndiqni diskutimet' }
+      lurk: { name: 'Ndiq të gjitha' }
 fof-username-request:
   forum:
     nickname_modals:
-      action: { help_text: 'Ju lutem sigurohuni që ky ndryshim i kërkuar i pseudonimit të ndjekë udhëzimet e forumit.', decision_title: Vendimi, approval_label: Miratoni, rejected_label: Refuzoni, submit_button: Parashtro, reason_title: 'Arsyeja e refuzimit', success: 'Vendimi i dërguar.', name: '{name} ka kërkuar të ndryshojnë pseudonimin e tyre në "{requestedName}"', title: 'Kërkesa për ndryshimin e pseudonimit' }
-      results: { title: 'Kërkesa për ndryshimin e pseudonimit', approved: 'Kërkesa juaj për ndryshimin e pseudonimit është miratuar', new_name: 'Pseudonimi juaj është ndryshuar me sukses në: {name}', rejected: 'Kërkesa juaj për ndryshimin e pseudonimit u refuzua', reason: 'Arsyeja e refuzimit: <i>"{reason}"</i>.', resubmit: 'Në këtë kohë ju mund të ridërgoni një kërkesë të re të ndryshimit të pseudonimit nga parametrat e llogarisë suaj nëse kështu zgjidhni.', dismiss_button: 'Në rregull' }
-      request: { title: 'Kërko ndryshimin e pseudonimit', current_request: 'Ju tashmë keni kërkuar të ndryshoni pseudonimin tuaj në "{name}". Ju ose mund të përditësoni kërkesën tuaj ose ta fshini atë.', submit_button: 'Dërgo kërkesën', delete_button: 'Fshije kërkesën', confirmation_message: 'Kërkesa juaj për ndryshimin e pseudonimit është paraqitur dhe është në pritje të miratimit.', deleted: 'Kërkesa e pseudonimit u fshi.', dismiss_button: 'Në rregull' }
+      action: { help_text: 'Ju lutem sigurohuni që ky ndryshim i kërkuar i pseudonimit të ndjekë udhëzimet e forumit.', decision_title: Vendimi, approval_label: Miratoni, rejected_label: Refuzoni, submit_button: Parashtro, reason_title: 'Arsyeja e refuzimit', success: 'Vendimi i dërguar.', title: 'Kërkesa për ndryshimin e pseudonimit' }
+      results: { title: 'Kërkesa për ndryshimin e pseudonimit', approved: 'Kërkesa juaj për ndryshimin e pseudonimit është miratuar', rejected: 'Kërkesa juaj për ndryshimin e pseudonimit u refuzua', resubmit: 'Në këtë kohë ju mund të ridërgoni një kërkesë të re të ndryshimit të pseudonimit nga parametrat e llogarisë suaj nëse kështu zgjidhni.', dismiss_button: 'Në rregull' }
+      request: { title: 'Kërko ndryshimin e pseudonimit', submit_button: 'Dërgo kërkesën', delete_button: 'Fshije kërkesën', confirmation_message: 'Kërkesa juaj për ndryshimin e pseudonimit është paraqitur dhe është në pritje të miratimit.', deleted: 'Kërkesa e pseudonimit u fshi.', dismiss_button: 'Në rregull' }
     username_modals:
-      action: { help_text: 'Ju lutem sigurohuni që ky ndryshim i kërkuar i emrit të përdoruesit të ndjekë udhëzimet e forumit.', decision_title: Vendimi, approval_label: Miratoni, rejected_label: Refuzoni, submit_button: Parashtro, reason_title: 'Arsyeja e refuzimit', success: 'Vendimi i dërguar.', name: '{name} ka kërkuar të ndryshojë emrin e tyre të përdoruesit në "{requestedName}"', title: 'Kërkesa për ndryshimin e emrit të përdoruesit' }
-      results: { title: 'Kërkesa për ndryshimin e emrit të përdoruesit', approved: 'Kërkesa juaj për ndryshimin e emrit të përdoruesit është miratuar', new_name: 'Emri juaj i përdoruesit është ndryshuar me sukses në: {name}', rejected: 'Kërkesa juaj për ndryshimin e emrit të përdoruesit u refuzua', reason: 'Arsyeja e refuzimit: <i>"{reason}"</i>.', resubmit: 'Në këtë kohë ju mund të ridërgoni një kërkesë të re të ndryshimit të emrit të përdoruesit nga rregullimet e llogarisë suaj nëse kështu zgjidhni.', dismiss_button: 'Në rregull' }
-      request: { title: 'Kërko ndryshimin e emrit të përdoruesit', current_request: 'Ju tashmë keni kërkuar të ndryshoni emrin tuaj të përdoruesit në "{name}". Ju ose mund të përditësoni kërkesën tuaj ose ta fshini atë.', submit_button: 'Dërgo kërkesën', delete_button: 'Fshije kërkesën', confirmation_message: 'Kërkesa juaj për ndryshimin e emrit të përdoruesit është paraqitur dhe është në pritje të miratimit.', deleted: 'Kërkesa e emrit të përdoruesit u fshi.', dismiss_button: 'Në rregull' }
+      action: { help_text: 'Ju lutem sigurohuni që ky ndryshim i kërkuar i emrit të përdoruesit të ndjekë udhëzimet e forumit.', decision_title: Vendimi, approval_label: Miratoni, rejected_label: Refuzoni, submit_button: Parashtro, reason_title: 'Arsyeja e refuzimit', success: 'Vendimi i dërguar.', title: 'Kërkesa për ndryshimin e emrit të përdoruesit' }
+      results: { title: 'Kërkesa për ndryshimin e emrit të përdoruesit', approved: 'Kërkesa juaj për ndryshimin e emrit të përdoruesit është miratuar', rejected: 'Kërkesa juaj për ndryshimin e emrit të përdoruesit u refuzua', resubmit: 'Në këtë kohë ju mund të ridërgoni një kërkesë të re të ndryshimit të emrit të përdoruesit nga rregullimet e llogarisë suaj nëse kështu zgjidhni.', dismiss_button: 'Në rregull' }
+      request: { title: 'Kërko ndryshimin e emrit të përdoruesit', submit_button: 'Dërgo kërkesën', delete_button: 'Fshije kërkesën', confirmation_message: 'Kërkesa juaj për ndryshimin e emrit të përdoruesit është paraqitur dhe është në pritje të miratimit.', deleted: 'Kërkesa e emrit të përdoruesit u fshi.', dismiss_button: 'Në rregull' }
     pending_requests:
       empty_text: 'Nuk u gjetën kërkesa për ndryshimin e emrit.'
-      nickname_item_text: '{name} kërkoi ndryshimin e pseudonimit'
-      nickname_exerpt: 'Pseudonimi i kërkuar: {requestedName}'
-      username_item_text: '{name} kërkoi një ndryshim të emrit të përdoruesit'
-      username_exerpt: 'Emri i kërkuar i përdoruesit: {requestedName}'
       tooltip: 'Kërkesat për ndryshimin e emrit'
       title: 'Kërkesat për ndryshimin e emrit'
     settings:
@@ -1149,15 +841,9 @@ fof-username-request:
   email:
     body:
       noReasonProvided: 'Asnjë arsye nuk është dhënë.'
-      approved: "Përshëndetje {recipient_display_name},\n\nKërkesa juaj për të ndryshuar emrin e përdoruesit në \"{new_username}\" është miratuar nga {actor_display_name}.\n\nTani mund të regjistroheni me emrin tuaj të ri të përdoruesit: {login_url}\n"
-      rejected: "Përshëndetje {recipient_display_name},\n\nKërkesa juaj për të ndryshuar emrin tuaj të përdoruesit nga \"{old_username}\" në \"{requested_username}\" është refuzuar nga {actor_display_name}.\n\nArsyeja: {arsyeja}\n"
-    subject:
-      approved: '{display_name} miratoi ndryshimin e emrit tuaj të përdoruesit në {requested_username}'
-      rejected: '{display_name} refuzoi ndryshimin e emrit tuaj të përdoruesit në {requested_username}'
 fof-user-bio:
   forum:
     userbioPlaceholder: 'Shkruaj diçka për veten tënde'
-    userbioPlaceholderOtherUser: 'Shkruaj një bio për {username}'
     profile:
       cancel_confirm: 'Je i sigurt që dëshiron të anullosh redaktimin e bios tënde? Do të humbasësh çdo ndryshim që ke bërë.'
       cancel_button: Anulo
@@ -1165,9 +851,6 @@ fof-user-bio:
       edit_bio_label: 'Ndrysho bio'
 fof-split:
   forum:
-    post:
-      was_split_to: '{count, plural, one {{count} post was split to {target}.} other {{count} posts were split to {target}.}}'
-      was_split_from: '{count, plural, one {{count} post was split from {target}.} other {{count} posts were split from {target}.}}'
     split:
       from: 'Ndahet nga këtu'
       to: 'Ndahuni për këtu'
@@ -1221,13 +904,11 @@ fof-reactions:
   forum:
     disabled-reaction: 'Ju nuk mund të përdorni këtë reagim tani, ju lutem rifreskoni faqen'
     warning: 'Reagimi juaj u konvertua'
-    notification: '{username} reagoi me {reaction} në postimin tuaj'
     settings:
       notify_post_reacted_label: 'Dikush reagon ndaj një prej postimeve të mia'
     reacting-own-post: 'Ju nuk mund të reagoni ndaj postit tuaj'
     modal:
       title: Reagimet
-      anonymous_count: '{count, plural, one {# anonymous user} other {# anonymous users}}'
       no_reactions: 'Ende nuk ka reagime'
     mod_item: 'Shfaq reagimet'
     react_button_label: Reagoni
@@ -1241,22 +922,19 @@ fof-profile-image-crop:
 fof-prevent-necrobumping:
   forum:
     composer:
-      warning: { title: 'Ky diskutim është më shumë se <b>{koha}</b> i vjetër.', description: 'Ka shumë të ngjarë që ajo të mos ketë nevojë për ndonjë diskutim të mëtejshëm dhe kështu përplasja e tij nuk shërben për asnjë qëllim.', checkbox_label: 'Jam i vetëdijshëm se ky diskutim është mjaft i vjetër, por prapë do të doja të përgjigjesha.', error: 'Ky diskutim është tepër i vjetër për t''iu përgjigjur.' }
+      warning: { description: 'Ka shumë të ngjarë që ajo të mos ketë nevojë për ndonjë diskutim të mëtejshëm dhe kështu përplasja e tij nuk shërben për asnjë qëllim.', checkbox_label: 'Jam i vetëdijshëm se ky diskutim është mjaft i vjetër, por prapë do të doja të përgjigjesha.', error: 'Ky diskutim është tepër i vjetër për t''iu përgjigjur.' }
 fof-pretty-mail: null
 fof-polls:
   forum:
-    days_remaining: 'Sondazhi përfundon {koha}.'
     no_permission: 'Ju nuk keni leje për të votuar'
     poll_ended: 'Ky sondazh ka marrë fund.'
     public_poll: 'Shiko votuesit'
-    max_votes_allowed: 'Sondazhi lejon votimin për {max, plural, one {# option} other {# options}}.'
     composer_discussion:
       add_poll: 'Shto sondazhin'
       edit_poll: 'Ndrysho sondazhin'
     modal:
       add_title: 'Shto një sondazh'
       add_option_label: 'Shto një opsion'
-      date_placeholder: 'Data e përfundimit të sondazhit (Opsionale)'
       edit_title: 'Ndrysho sondazhin'
       include_question: 'Ju duhet të përfshini një pyetje'
       max: 'Ju mund të keni një maksimum prej 10 përgjigjesh'
@@ -1277,7 +955,6 @@ fof-polls:
       edit: 'Ndrysho sondazhin'
     tooltip:
       badge: Sondazh
-      votes: '{count, plural, one {# vote} other {# votes}}'
     votes_modal:
       title: Votuesit
 fof-nightmode:
@@ -1297,11 +974,9 @@ fof-moderator-notes:
   forum:
     no_content_given: 'Një shënim bosh nuk lejohet.'
     moderatorNotes:
-      created_text: '{username} krijoi këtë shënim në {date}'
       add_button: 'Shënim i ri'
       create-heading: 'Krijo një shënim të ri moderatori'
       dismiss_button: Kryerja
-      input_heading: 'Shkruani shënimet tuaja për <strong>{username}</strong>, (markdown është mbështetur)'
       noNotes: 'Duket sikur këtu nuk ka shënime.'
       submit_button: 'Ruaj shënimin'
       delete: Fshije
@@ -1309,8 +984,6 @@ fof-moderator-notes:
     user:
       notes: 'Shënimet e moderatorit'
   api:
-    auto_note: '_I kaloi tek ky përdorues:_ {reason}'
-    auto_note_actor: '_Switched to_ @{username}: {reason}'
     no_reason_provided: 'Asnjë arsye e dhënë'
 fof-linguist: null
 fof-html-errors: null
@@ -1325,12 +998,8 @@ fof-gamification:
       name: Përdoruesi
       amount: Pikët
     notification:
-      upvote: '{username} upvoted your post'
-      downvote: '{username} downvoted your post'
       prefrences: { vote: 'Kur një nga postimet e mia është lart/poshtë votuar' }
     user:
-      card: { points: '{count, plural, one { {count} point} other {{count} points}}' }
-      rank: '{rank}'
       votes_link: Votat
     modal:
       downvotes_label: 'Downvoters:'
@@ -1344,11 +1013,6 @@ fof-gamification:
     post:
       upvote_button: 'Upvote post'
       downvote_button: 'Posta Downvote'
-  email:
-    body:
-      postVoted: "Hej {recipient_display_name},\n\n{actor_display_name} sapo votuat për postin tuaj në {discussion_title}.\n\nShikoje këtu: {discussion_url}\n"
-    subject:
-      postVoted: 'Posti juaj u votua nga {display_name}'
 fof-formatting: null
 fof-drafts:
   console:
@@ -1367,7 +1031,6 @@ fof-drafts:
       title: Hartimet
       delete_all_button: 'Fshini të gjitha draftet'
       delete_button: 'Fshije draftin'
-      scheduled_icon_tooltip: 'Planifikuar për {datetime}'
       scheduled_icon_tooltip_formatter: 'L [at] LT'
       alert: 'Je i sigurt që dëshiron ta fshish draftin tënd?'
       delete_all_alert: 'Je i sigurt që dëshiron t''i fshish të gjitha draftet e tua?'
@@ -1375,13 +1038,10 @@ fof-drafts:
       tooltip: Hartimet
     schedule_draft_modal:
       text: 'Programoni draftin tuaj për të postuar automatikisht në një kohë të mëvonshme!'
-      scheduled_text: 'Aktualisht është planifikuar të postohet në {datetime}.'
-      scheduled_error: 'I pamundur planifikimi i draftit: {error}.'
       unschedule_button: 'E paplanifikuar'
       unschedule_warning: 'Je i sigurt që dëshiron ta çaktivizosh këtë draft?'
       reschedule_button: Ricaktimi
       schedule_button: Orari
-      schedule_time_preview: 'Ky draft do të publikohet automatikisht në <b>{datetime}</b>.'
       schedule_time_preview_formatter: LLLL
       schedule_time_preview_invalid: 'Data dhe/ose ora e pavlefshme'
       title: 'Drafti i orarit'
@@ -1393,13 +1053,10 @@ fof-best-answer:
     this_best_answer: 'Zgjidh përgjigjen më të mirë'
     remove_best_answer: 'Përgjigja më e mirë e pazgjedhur'
     best_answer_button: 'Përgjigjja më e mirë'
-    best_answer_label: 'Vendosur nga <a>{username}</a> {time_set}'
     errors:
       mismatch: 'Posti i zgjedhur nuk ekziston në këtë diskutim.'
     notification:
-      best_answer_in_discussion: '{username} vendos një përgjigje më të mirë në këtë diskutim'
       content: 'Ju lutemi zgjidhni një përgjigje më të mirë nëse pyetjes suaj i është përgjigjur'
-      awarded: 'Postimi juaj u vendos si përgjigja më e mirë nga {username}'
       preferences: { awarded_best_answer: 'Dikush e vendos postimin tim si një përgjigje më të mirë', best_answer_in_discussion: 'Një përgjigje më e mirë është vendosur në një diskutim ku mora pjesë', select_best_answer: 'Një përkujtues i automatizuar për të zgjedhur një përgjigje më të mirë në një diskutim që fillova' }
     index:
       ask_question: 'Bëj një pyetje'
@@ -1413,22 +1070,13 @@ fof-best-answer:
       accessible_label: 'Përzgjedhja e zgjidhur/e pazgjidhur'
     composer:
       titlePlaceholder: 'Titulli i pyetjes'
-    user:
-      best-answer-count: '{count, plural, one { {count} best answer} other {{count} best answers}}'
     search:
       discussions_solutions_heading: 'Diskutime me zgjidhje'
-      all_discussions_solutions_button: 'Kërko të gjitha diskutimet me zgjidhje për "{query}"'
     discussion:
       jump_to_best_answer_button: 'Shiko përgjigjen më të mirë'
   email:
     subject:
-      awarded: 'Posti juaj u vendos si përgjigja më e mirë nga {displa_name}'
-      ba-set: 'Një përgjigje më e mirë u vendos nga {displa_name}'
       select: 'A ia dole të përgjigjesh?'
-    body:
-      awarded: "Hej {recipient_display_name},\n\nPunë e madhe, {actor_display_name} Thjesht vendosni postin tuaj si përgjigjen më të mirë në diskutim: {diskusion_titulli). Faleminderit që më ndihmove.\n\nShfaq këtu: {diskusion_url}\n"
-      ba-set: "Hej {recipient_display_name},\n\n{actor_display_name} thjeshtë vendosni një përgjigje më të mirë në diskutim: {discussion_titulli}, në të cilën morët pjesë.\n\nKontrolli: {diskusion_url}\n"
-      select: "Hej {recipient_display_name},\n\nVetëm duke kontrolluar; deri tani ju duhet të keni shumë përgjigje për pyetjen tuaj: {discussion_titulli). Shpresojmë që njëri prej tyre të të ketë ndihmuar ta zgjidhësh problemin.\n\nNëse po, do të ishte vërtet e dobishme për anëtarët e ardhshëm, nëse do t'i vije një përgjigje më të mirë pyetjes. Do t'i ndihmojë njerëzit me të njëjtin problem të gjejnë përgjigjen që u duhet, dhe është gjithashtu një falenderim i madh për anëtarët që të ndihmuan. Ata japin kohën e tyre vullnetarisht, kështu që është mirë t'u thuash se po ecin mirë.\n\nVizitoni këtu diskutimin: {diskusion_url}, dhe zgjidhni postin më të përshtatshëm si përgjigjen më të mirë.\n\nFaleminderit!\n"
 fof-user-directory:
   lib:
     sort:
@@ -1437,8 +1085,6 @@ fof-user-directory:
 fof-ban-ips:
   forum:
     modal:
-      ban_options_only_ip: 'Vetëm ndaloni IP-në aktuale (<code>{ip}</code>)'
-      ban_options_all_ip: 'Ndaloni të gjitha IPS-të e përdorura nga <i>{username}</i>'
       ban_ip_no_users: 'Askush tjetër nuk do të ndalohet'
     user_badge:
       banned_tooltip: Ndaluar
@@ -1455,13 +1101,8 @@ fof-ban-ips:
       check_button: Kontrollo
       save_button: Ruaj
       ban_ip_confirmation: 'Jeni të sigurt që dëshironi të bllokoni këtë adresë IP nga përdorimi në forum? Kjo do të bllokojë përdoruesit me këtë IP adresë(es) nga hyrja dhe regjistrimi.'
-      ban_ip_users: '{count, plural, one {User {users} will be banned} other {Users {users} will be banned}}'
       unban_ip_confirmation: 'Je i sigurt që dëshiron ta zhbësh këtë përdorues dhe të gjithë përdoruesit e tjerë që nuk janë të ndaluar nga IPS-të e tjera?'
-      unban_options_only_ip: 'Vetëm unban IP aktuale (<code>{ip}</code>)'
-      unban_options_all_ip: 'Unban të gjitha IPS-të e përdorura nga <i>{username}</i>'
       unban_ip_no_users: 'Askush tjetër nuk do të jetë i pabanuar'
-      unban_ip_users: '{count, plural, one {User {users} will be unbanned} other {Users {users} will be unbanned}}'
-      unbanned_ips: 'I pabanuar <code>{ips}</code>.'
       title: 'Ban IP(s)'
       unban_title: 'Unban IP(s)'
       address_label: 'Adresa IP'
@@ -1492,7 +1133,6 @@ fof-anti-spam:
       move_discussions_tag_label: 'Lëviz diskutimet në etiketën e karantinës'
       move_discussions_tag_help: 'Kjo do të zhvendosë të gjitha diskutimet e filluara nga ky përdorues në etiketën që specifikuat në rregullimet e forumit. Kur të jenë të paaftë, diskutimet do të lihen në etiketat e tyre aktuale.'
       process_button: Procesi
-      title: 'Mark {username} si spammer'
       report_to_sfs_label: 'Raporto tek StopForumSpam'
       report_to_sfs_help: 'Kjo do të raportojë detajet bazë të përdoruesit (emri i përdoruesit, emaili, adresa IP) në StopForumSpam. Kjo do të ndihmojë që përdoruesi të mos regjistrohet në forume të tjera që përdorin shërbimin StopForumSpam.'
     user_controls:
@@ -1511,18 +1151,11 @@ flarum-sticky:
     discussion_controls:
       unsticky_button: Josticky
       sticky_button: Ngjitës
-    post_stream:
-      discussion_stickied_text: '{username} e ngjiti diskutimin {time}.'
-      discussion_unstickied_text: '{username} unstickied diskutimin {time}.'
     badge:
       sticky_tooltip: Ngjitës
   ref:
     sticky: Ngjitës
 flarum-statistics: null
-flarum-pusher:
-  forum:
-    discussion_list:
-      show_updates_text: '{count, plural, one {Show # updated discussion} other {Show # updated discussions}}'
 flarum-lock:
   forum:
     badge:
@@ -1530,24 +1163,13 @@ flarum-lock:
     discussion_controls:
       lock_button: Kyçu
       unlock_button: Zhblloko
-    notifications:
-      discussion_locked_text: '{username} i kyçur'
-    post_stream:
-      discussion_locked_text: '{username} kyçi diskutimin {time}.'
-      discussion_unlocked_text: '{username} zhbllokoi diskutimin {time}.'
     settings:
       notify_discussion_locked_label: 'Dikush mbyll një diskutim që fillova'
 flarum-likes:
   forum:
-    notifications:
-      post_liked_text: '{username} pëlqente postimin tuaj'
-      others_text: '{count, plural, one {# other} other {# others}}'
     post:
       like_link: Si
-      liked_by_self_text: '{përdoruesit} kështu.'
-      liked_by_text: '{count, plural, one {{users} likes this} other {{users} like this}}.'
       unlike_link: 'Ndryshe nga'
-      others_link: '{count, plural, one {# other} other {# others}}'
       you_text: Ti
     post_likes:
       title: 'Përdoruesit që e pëlqejnë këtë'
@@ -1602,9 +1224,6 @@ dhtml-composer:
       character_counter: 'Numëruesi i karaktereve'
 datlechin-birthdays:
   forum:
-    user:
-      birthday_text: 'Ditëlindja: {date}'
-      age_text: 'Mosha: {mosha}'
     change_dob:
       title: 'Ndrysho datën e lindjes'
       date_of_birth_text: 'Data e lindjes'
@@ -1617,16 +1236,12 @@ datlechin-birthdays:
       dob_heading: 'Data e lindjes'
     nav:
       nav_item: 'Ditëlindjet e sotme'
-    page:
-      discussion_count: '{count, plural, one {Discussion: #} other {Discussions: #}}'
-      post_count: '{count, plural, one {Post: #} other {Posts: #}}'
     edit_user:
       dob_heading: 'Data e lindjes'
     sign_up:
       dob_placeholder: 'Data e lindjes'
   api:
     invalid_dob_message: 'Data e pavlefshme e lindjes'
-    invalid_age_message: 'Mosha juaj duhet të jetë të paktën {minAge} vjeç.'
   ref:
     date_of_birth: 'Data e lindjes'
 clarkwinkelmann-post-permissions: null
@@ -1662,24 +1277,13 @@ askvortsov-rich-text:
       insert_image: { src_placeholder: Linku, title_placeholder: Titulli }
       insert_link: { text_placeholder: Teksti, href_placeholder: URL, title_placeholder: 'Titulli (tregon në hover)', remove_button: Hiq }
       additional_items_tooltip: 'Kontrolle shtesë'
-      bold_tooltip: 'Tekst i guximshëm <{modifierKey}-b>'
-      code_tooltip: 'Kodi inline <{modifierKey}-''>'
       code_block_tooltip: 'Fut një bllok kodi'
-      header_tooltip: 'Ndrysho tek header {level} <shift-{modifierKey}-{level}>'
       horizontal_rule_tooltip: 'Fut rregullin horizontal'
       image_tooltip: 'Shto një imazh'
-      italic_tooltip: 'Teksti italik <{modifierKey}-i>'
       link_tooltip: 'Shto një link'
-      ordered_list_tooltip: 'Lista e numëruar <shift-{modifierKey}-9>'
-      paragraph_tooltip: 'Ndryshim në paragrafin <shift-{modifierKey}-0>'
-      quote_tooltip: 'Fut një citim <{modifierKey}-q>'
       spoiler_block_tooltip: 'Block Spoiler/Dropdown'
-      spoiler_inline_tooltip: 'Spoiler <{modifierKey}-;>'
       strike_tooltip: 'Strikethrough <alt-shift-5>'
-      sub_tooltip: 'Subscript <{modifierKey}-,>'
-      sup_tooltip: 'Superscript <{modifierKey}-.>'
       text_type_tooltip: 'Zgjidh llojin e tekstit'
-      unordered_list_tooltip: 'Lista e plumbave <shift-{modifierKey}-8>'
   forum:
     settings:
       composer_heading: Kompozitor
@@ -1694,7 +1298,6 @@ askvortsov-pwa:
       share_button: Share
     post_controls:
       share_button: Share
-      share_api: { title: '{username}''s reply to {title}''' }
     user_controls:
       share_button: Share
     settings:
@@ -1705,20 +1308,7 @@ askvortsov-pwa:
       header: 'Gabim i lidhjes së rrjetit'
       text: 'Ky aplikacion kërkon një lidhje rrjeti; Nuk mund të përdoret jashtë linje. Ju lutem kontrolloni lidhjen tuaj.'
 askvortsov-moderator-warnings:
-  emails:
-    post_warned:
-      subject: '{warner_display_name} ju paralajmëroi me {greva, shumës, një {# grevë} tjetër {# greva}} në {discussion_title}'
-      body: "Hej {warnee_display_name}!\n\n{warner_display_name} ju paralajmëroi me {greva, shumës, një {# grevë} tjetër {# greva}} në {discussion_title}\n\nArsyeja e mëposhtme u dha:\n\n---\n\n{public_comment}\n"
-    user_warned:
-      subject: '{warner_display_name} ju paralajmëroi me {greva, shumës, një {# grevë} tjetër {# greva}}'
-      body: "Hej {warnee_display_name}!\n\n{warner_display_name} ju paralajmëroi me {greva, shumës, një {# grevë} tjetër {# greva}}\n\nArsyeja e mëposhtme u dha:\n\n---\n\n{public_comment}\n"
   forum:
-    notifications:
-      warning_text: '{strikes, plural, one {You were warned with # strike by {mod_username}} other {You were warned with # strikes by {mod_username}}}'
-      warning_no_strikes_text: 'U paralajmërove nga {mod_username} (pa greva)'
-    post:
-      warning: '{greva, shumës, një {Paralajmëruar me # grevë nga {mod_username}} të tjera {Paralajmëruar me # greva nga {mod_username}}}'
-      warning_no_strikes: 'Paralajmëruar pa greva nga {mod_username}'
     post_controls:
       warning_button: 'Paralajmëro përdoruesin'
     user:
@@ -1735,20 +1325,14 @@ askvortsov-moderator-warnings:
     warning_list:
       add_button: 'Paralajmërim i ri'
       no_warnings: 'Duket sikur këtu nuk ka paralajmërime.'
-      warnings: '{strikes, plural, one {Moderator Warnings: # Strike Received} other {Moderator Warnings: # Strikes Received}}'
       warnings_no_strikes: 'Paralajmërimet e moderatorit: Nuk ka greva të marra'
     warning_list_item:
-      list_item_heading: '{greva, shumës, një {<strong>#</strong> grevë, {time}} tjetër {<strong>#</strong> greva, {time}}}'
-      list_item_heading_hidden: '{greva, shumës, një {<strong>#</strong> grevë, {time} <strong>(hequr)</strong>} të tjera {<strong>#</strong> greva, {time} <strong>(hequr)</strong>}}'
       public_comment: Paralajmërim
       private_comment: 'Moderator-Komente të dukshme'
       linked_post: 'Linked Post'
     warning_modal:
       confirmation_message: 'Paralajmërimi juaj është shpëtuar. Mund t''ju duhet ta rifreskoni faqen për ta parë.'
-      heading: 'Paralajmëro <strong>{username}</strong>'
       strikes_heading: 'Sa greva duhet të zbatohen?'
-      public_comment_heading: 'Pse <strong>{username}</strong> po i merr këto paralajmërime? Këto komente do të jenë të dukshme për përdoruesin dhe moderatorët e tjerë.'
-      private_comment_heading: 'Pse <strong>{username}</strong> po i merr këto paralajmërime? Këto komente do të jenë të dukshme vetëm për moderatorët e tjerë.'
       submit_button: 'Ruaj paralajmërimin'
 askvortsov-discussion-templates:
   forum:

@@ -3,7 +3,6 @@ core:
     change_email:
       incorrect_password_message: 'Daxil etdiyiniz şifrə səhvdir.'
       confirm_password_placeholder: 'Şifrəni təsdiqlə'
-      confirmation_message: '{email} ünvanına təsdiq e-mail göndərmişik. Əgər tezliklə gəlmirsə, spam qovluğunuza baxın.'
       dismiss_button: YAXŞI
       submit_button: 'Dəyişiklikləri Qeyd Et'
       title: 'E-Poçtu Dəyişdir'
@@ -26,7 +25,6 @@ core:
     composer_edit:
       discard_confirmation: 'Dəyişikliklərinizi qeyd etmədiniz. İndi siz də onları atın !'
       edited_message: 'Sizin redaktəniz edildi.'
-      post_link: 'Post #{number} in {müzakirə}'
       submit_button: 'Dəyişiklikləri Qeyd Et'
       view_button: Baxış
     composer_reply:
@@ -48,10 +46,6 @@ core:
       restore_button: Bərpa
     discussion_list:
       empty_text: 'Görünür, burada heç bir müzakirə yoxdur.'
-      replied_text: '{username} cavab verdi {ago}'
-      started_text: '{username} başladı {ago}'
-      total_replies_a11y_label: '{count, plural, bir {# cavab} digər {# cavabları}}'
-      unread_replies_a11y_label: '{count, plural, one {# unread reply} other {# unreads cavab}} Oxunmamış {count, plural, one {reply} other {cavabs}} oxunaqlı olaraq işarələ.'
       load_more_button: 'Daha Çox Yüklə'
     forgot_password:
       email_sent_message: 'Giriş e-poçt bu saytla qeydiyyatdan keçdiyiniz e-poçt varsa, şəkilinizi sıfırlamaq üçün bir linki olan bir e-poçt göndərir. növbəti ya iki dəyişdirməsində onu almaq istədiyiniz spam qəbul edin.'
@@ -107,7 +101,6 @@ core:
     notifications:
       delete_all_confirm: 'Bütün bildirişləri silmək istədiyinizdən əminsiniz? Bu hərəkət qarşılana bilməz'
       delete_all_tooltip: 'Bütün bildirişləri sil'
-      discussion_renamed_text: '{username} başlığı dəyişdi'
       empty_text: 'Bildiriş yoxdur'
       mark_as_read_tooltip: 'Oxunduğu kimi işarələ'
       toggle_dropdown_accessible_label: 'Bildirişləri bax'
@@ -116,8 +109,6 @@ core:
       tooltip: Bildirişlər
     post:
       edited_text: Düzəlt
-      edited_tooltip: '{username} redaktə olundu {ago}'
-      number_tooltip: 'Post #{say}'
     post_controls:
       delete_confirmation: 'Bu yazını həmişəlik silmək istədiyinizdən əminsiniz? Bu hərəkət silinə bilməz.'
       hide_confirmation: 'Əminsinizmi ki, bu yazını silmək istəyirsiniz?'
@@ -131,23 +122,16 @@ core:
     post_scrubber:
       now_link: hal-hazırda
       original_post_link: 'Orijinal Poçt'
-      unread_text: '{count} oxunmamış'
-      viewing_text: '{count, plural, one {{index} of {formattedCount} post} digər {{index} of {formattedCount} posts}}'
     post_stream:
-      discussion_renamed_old_tooltip: 'Köhnə başlıq belə idi: "{old}"'
-      discussion_renamed_text: '{username} başlığı {new} {time} olaraq dəyişdirdi.'
-      time_lapsed_text: '{dövr} daha sonra'
       load_more_button: 'Daha Çox Yüklə'
       reply_placeholder: 'Bir Cavab Yaz...'
     rename_discussion:
       title: 'Müzakirəni yenidən adlandır'
       submit_button: 'Yenidən adlandır'
     search:
-      all_discussions_button: 'Bütün müzakirələri "{query}" üçün axtar'
       discussions_heading: Müzakirələr
       users_heading: İstifadəçilər
     security:
-      browser_on_operating_system: '{os} üzərində {browser}}'
       cannot_terminate_current_session: 'Hazırkı fəal iclas dayandırıla bilmir. Bunun yerinə daxil ol.'
       created: Yaradıldı
       current_active_session: 'Hazırkı Fəal İclas'
@@ -159,13 +143,11 @@ core:
       new_access_token_modal: { submit_button: 'Nişan Yarat', title_placeholder: Başlıq, title: 'Yeni Nişan' }
       revoke_access_token: Ləğv
       sessions_heading: 'Fəal İclaslar'
-      session_terminated: '{count, plural, one {Session terminated} other {# Sessions terminated}}'
       session_termination_failed: 'Oturumlarınız sonlandırılarkən xəta oldu.'
       show_access_token: Nişan
       terminate_all_other_sessions: 'Bütün digər seansları dayandır'
       terminate_session: Sonlandır
       token_revoked: 'Token ləğv edildi.'
-      token_item_title: '{title} - {token}'
       token_title_placeholder: /
       never: 'Heç vaxt'
       new_access_token_button: 'Yeni Nişan'
@@ -174,7 +156,6 @@ core:
       title: Təhlükəsizlik
     settings:
       account_heading: Hesab
-      notification_checkbox_a11y_label_template: '{method} vasitəsilə "{description}" bildirişlərini al'
       notify_by_web_heading: Veb
       notify_discussion_renamed_label: 'Kimsə mənim başladığım müzakirənin adını'
       privacy_disclose_online_label: 'İnternetdə olanda başqalarına görməyə icazə ver'
@@ -186,7 +167,6 @@ core:
       title: Qurğular
     sign_up:
       log_in_text: 'Artıq hesab var? <a>Daxil ol</a>'
-      welcome_text: 'Xoş gəldiniz, {username}!'
       dismiss_button: YAXŞI
       email_placeholder: E-poçt
       password_placeholder: Şifrə
@@ -196,8 +176,6 @@ core:
     user:
       avatar_upload_button: Yüklə
       avatar_upload_tooltip: 'Yeni avatar yukle'
-      in_discussion_text: '{müzakirə} içində'
-      joined_date_text: 'Qoşulmuş {ago}'
       online_text: Onlayn
       posts_empty_text: 'Görünür, burada heç bir post yoxdur.'
       avatar_remove_button: Sil
@@ -209,15 +187,12 @@ core:
     user_controls:
       button: İdarələr
       delete_confirmation: 'Bu istifadəçini mütləq silmək istəyirsiniz? İstifadəçinin yazışmaları silinməyəcək.'
-      delete_error_message: 'İstifadəçi <i>{username} ({email})</i> faylının silinməsi bacarılmadı'
-      delete_success_message: 'İstifadəçi <i>{username} ({email})</i> silindi'
       toggle_dropdown_accessible_label: 'İstifadəçi nəzarətləri açılan menyusunu açar'
       delete_button: Sil
       edit_button: _Düzəlt
     user_email_confirmation:
       resend_button: 'Resend Təsdiq e-poçt'
       sent_message: Göndər
-      alert_message: '{email} ünvanına təsdiq e-mail göndərmişik. Əgər tezliklə gəlmirsə, spam qovluğunuza baxın.'
     welcome_hero:
       hide: 'Xoş gəldin ismarışı gizlət'
     badge:
@@ -230,8 +205,6 @@ core:
       hidden_tooltip: Gizli
     dropdown:
       toggle_dropdown_accessible_label: 'Açılan menyunu bağla'
-    data_segment:
-      label: '{label}:'
     edit_user:
       activate_button: 'İstifadəçini Aktivləşdir'
       groups_heading: Qruplar
@@ -246,33 +219,17 @@ core:
       username_heading: 'İstifadəçi Adı'
       username_label: 'İstifadəçi Adı'
     error:
-      circular_dependencies_message: 'Dairəvi asılılıqlar aşkarlandı: {uzantılar}. Ləğv etmək. Xahiş edirik, uzantılardan birini qeyri-fəal edib yenidən cəhd edin.'
-      dependent_extensions_message: 'Növbəti asılı uzantılar qeyri-fəal olana qədər {extension} qeyri-fəal edilə bilməz: {uzantılar}'
-      extension_initialiation_failed_message: '{extension} başlamağa müvəffəq olmadı, əlavə məlumat üçün brauzer konsolu yoxlayın.'
       generic_message: 'Ey ə '' y! Nə isə pis oldu. Xahiş edirik səhifəni yenidən yükləyin və yenidən cəhd edin.'
       generic_cross_origin_message: 'Ey ə '' y! Haçalıq istəyi zamanı nə isə səhv oldu. Xahiş edirik səhifəni yenidən yükləyin və yenidən cəhd edin.'
-      missing_dependencies_message: 'Aşağıdakı asılılıqlar fəal olana qədər {{uzantı} fəal ola bilməz: {uzantılar}'
       not_found_message: 'İstəyən resurs tapılmadı.'
       payload_too_large_message: 'İstək yükü həddindən artıq böyük idi.'
       permission_denied_message: 'Sizin bunu etməyə icazəniz yoxdur.'
       rate_limit_exceeded_message: 'Bir az tez gedirsən. Zəhmət olmasa bir neçə saniyədən sonra yenidən cəhd edin.'
       render_failed_message: 'Bağışlayın, bu məzmunu nümayiş etdirərkən xəta ilə qarşılaşdıq. Əgər istifadəçisinizsə, zəhmət olmasa, daha sonra yenidən cəhd edin. Əgər administratorsunuzsa, daha ətraflı məlumat üçün Flarum log fayllarınıza nəzər salın.'
-    meta_titles:
-      with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} digər {{pageTitle}: Page # - {forumName}}}'
-      without_page_title: '{pageNumber, plural, =1 {{forumName}} digər {Page # - {forumName}}}'
     modal:
       close: Bağla
     nav:
       drawer_button: 'Açıq Naviqasiya Draçitləmək'
-    number_suffix:
-      kilo_text: Doğru
-      mega_text: M
-    series:
-      glue_text: ', '
-      three_text: '{first}, {second}, və {üçüncü}'
-      two_text: '{birinci} və {ikinci}'
-    username:
-      deleted_text: '[silindi]'
     loading_indicator:
       accessible_label: Yüklənir...
   views:
@@ -290,11 +247,9 @@ core:
       invalid_confirmation_token: 'Bu təsdiq linki artıq istifadə olunub və ya qüvvədə deyil.'
       not_authenticated: 'Bu səhifəyə daxil olmaq üçün icazəniz yoxdur. Girişdən sonra yenidən cəhd edin.'
       not_found: 'İstədiyiniz səhifəni tapmaq mümkün olmadı.'
-      not_found_return_link: '{forum} qayıt'
       permission_denied: 'Bu səhifəyə daxil olmaq üçün icazəniz yoxdur.'
       unknown: 'Bu səhifəni yükləməyə çalışarkən xəta oldu.'
     log_out:
-      log_out_confirmation: 'Həqiqətən də {forum} üzvünü qeyd etmək istəyirsiniz?'
       log_out_button: _Giriş
       title: _Giriş
     reset_password:
@@ -311,23 +266,15 @@ core:
       previous_page_button: 'Əvvəlki Səhifə'
   api:
     invalid_username_message: 'İstifadəçi adı yalnız hərf, rəqəm və dash ola bilər.'
-    invalid_filter_type:
-      must_be_numeric_message: '{filter} filtri numizmatik olmalıdır.'
-      must_not_be_array_message: '{filter} filtri ariya deyil.'
-      must_not_be_multidimensional_array_message: '{filter} filtri çoxölçülü array olmamalıdır.'
   email:
     activate_account:
       subject: 'Yeni hesabınızı aktivləşdirin'
-      body: "Hey {username}!\n\nKimsə (ümid edirik ki, siz!) bu email ünvanı ilə {forum}-a imza atıb.\n\nƏgər bu siz idinizsə, sadəcə olaraq aşağıdakı linkə klikləyin və hesabınız aktivləşəcək:\n{url}\n\nƏgər siz imza atmısızsa, zəhmət olmasa bu e-mailə məhəl qoymayın.\n"
     confirm_email:
       subject: 'Yeni E-Poçt Ünvanınızı təsdiq edin'
-      body: "Hey {username}!\n\nKimsə (ümid edirik ki, siz!) {forum} üzərindəki e-mail ünvanını bu birinə dəyişib.\n\nƏgər bu siz idinizsə, sadəcə olaraq aşağıdakı linkə klikləyin və e-poçtunuz təsdiqlənəcək:\n{url}\n\nƏgər bu siz deyildinizsə, zəhmət olmasa, bu e-mailə məhəl qoymayın.\n"
     reset_password:
-      body: "Hey {username}!\n\nKimsə (ümid edirik ki, siz!) {forum} saytında hesabınız üçün unudulmuş şifrə sifarişini təqdim edib.\n\nƏgər bu siz idinizsə, şifrənizi sıfırlamaq üçün aşağıdakı linkə klikləyin:\n{url}\n\nƏgər şifrənizi dəyişmək istəmirsinizsə, sadəcə bu e-mailə məhəl qoymayın və heç nə olmayacaq.\n"
       subject: 'Şifrənizi Sıfırla'
     send_test:
       subject: 'Flarum E-Poçt Testi'
-      body: "Hey {username}!\n\nBu, Sizin Flarum e-poçt konfiqurasiya düzgün işlədiyi təsdiq etmək üçün test e-poçt.\n\nƏgər bu siz idinizsə, bu e-poçt sizin konfiqurasiyanızın işlədiyi deməkdir!\n\nƏgər bu siz deyildinizsə, zəhmət olmasa, bu e-mailə məhəl qoymayın.\n"
   ref:
     all_discussions: 'Bütün Müzakirələr'
     change_email: 'E-Poçtu Dəyişdir'
@@ -335,7 +282,6 @@ core:
     color: Rəng
     confirm_password: 'Şifrəni təsdiqlə'
     confirm_email: 'E-poçtu təsdiqlə'
-    confirmation_email_sent: '{email} ünvanına təsdiq e-mail göndərmişik. Əgər tezliklə gəlmirsə, spam qovluğunuza baxın.'
     custom_footer_text: 'Səhifənin ən aşağı hissəsində göstəriləcək HTML əlavə edin.'
     custom_footer_title: 'Xüsusi Altlıqları Düzəlt'
     custom_header_text: 'Səhifənin ən üst hissəsində, Flarum-un öz başlıqları üzərində göstəriləcək HTML əlavə edin.'
@@ -349,7 +295,6 @@ core:
     extensions: Uzantılar
     generic_confirmation_message: 'Əminsinizmi ki, bu yolu davam etdirmək istəyirsiniz? Bu hərəkət silinə bilməz.'
     icon: Ikona
-    icon_text: '<code>Fas fa- prefiks</code> <em>də daxil olmaqla</em>, hər hansı <a>fontAwesome</a> icon sinifinin adını daxil edin.'
     load_more: 'Daha Çox Yüklə'
     loading: Yüklənir...
     log_in: 'Daxil ol'
@@ -373,7 +318,6 @@ core:
     security: Təhlükəsizlik
     settings: Qurğular
     sign_up: 'Qeydiyyatdan keçmək'
-    some_others: '{count, plural, one {# other} digər {# başqaları}}'
     start_a_discussion: 'Müzakirəyə başla'
     username: 'İstifadəçi Adı'
     users: İstifadəçilər
@@ -389,128 +333,12 @@ core:
     members: Üzvlər
     mod: Tərz
     mods: Modlar
-validation:
-  accepted: ':atributu qəbul edilməlidir.'
-  active_url: ':attribute hökmlü URL deyil.'
-  after: ':attribute :d sonra bir tarix olmalıdır.'
-  after_or_equal: ':attribute :d atdan sonra və ya ona bərabər olan tarix olmalıdır.'
-  alpha: ':attribute yalnız hərfləri ehtiva etməlidir.'
-  alpha_dash: ':attribute yalnız hərf, rəqəm, dash və vurğu ehtiva etməlidir.'
-  alpha_num: ':atributu yalnız hərf və rəqəmləri ehtiva etməlidir.'
-  array: ':attribute array olmalıdır.'
-  before: ':atribut :d əvvəl bir tarix olmalıdır.'
-  before_or_equal: ':atributu :d atdan əvvəl və ya bərabər bir tarix olmalıdır.'
-  between:
-    numeric: ':attribute :min və :max arasında olmalıdır.'
-    file: ':atribut :min və :max kilobayt arasında olmalıdır.'
-    string: ':attribute :min və :max hərfləri arasında olmalıdır.'
-    array: ':attribute :min və :max items arasında olmalıdır.'
-  boolean: ':attribute sahəsi doğru və ya yalan olmalıdır.'
-  confirmed: ':attribute təsdiqi uyğun gəlmir.'
-  date: ':attribute hökmlü tarix deyil.'
-  date_equals: ':atribut :d bərabər tarix olmalıdır.'
-  date_format: ':atributu formata uyğun gəlmir :format.'
-  different: ':attribute və :other fərqli olmalıdır.'
-  digits: ':atribut :d iqits rəqəm olmalıdır.'
-  digits_between: ':attribute :min və :max ədədləri arasında olmalıdır.'
-  dimensions: ':attribute-da səhv təsvir ölçüləri var.'
-  distinct: ':attribute sahəsi təkrar dəyərə malikdir.'
-  email: ':attribute əsaslı e-poçt ünvanı olmalıdır.'
-  ends_with: ':attribute aşağıdakılardan biri ilə bitməlidir: :values.'
-  exists: 'Seçili :atribut səhvdir.'
-  file: ':attribute fayl olmalıdır.'
-  file_too_large: ':atributu çox böyükdür.'
-  file_upload_failed: ':attribute yüklənə bilmədi.'
-  filled: ':attribute sahəsi bir dəyərə sahib olmalıdır.'
-  gt:
-    numeric: ':attribute :value-dən böyük olmalıdır.'
-    file: ':atribut :value kilobytes-dən böyük olmalıdır.'
-    string: ':attribute :value characters-dən böyük olmalıdır.'
-    array: ':atributda :value items-dən çox olmalıdır.'
-  gte:
-    numeric: ':atribut daha böyük və ya bərabər olmalıdır :value.'
-    file: ':atribut daha böyük və ya bərabər olmalıdır :value kilobytes.'
-    string: ':atribut daha böyük və ya bərabər olmalıdır :value characters.'
-    array: ':atributda :qiymət əşyaları və ya daha çox olmalıdır.'
-  image: ':attribute şəkil olmalıdır.'
-  in: 'Seçili :atribut səhvdir.'
-  in_array: ':attribute sahəsi :other içində mövcud deyil.'
-  integer: ':atribut integer olmalıdır.'
-  ip: ':attribute əsaslı IP ünvanı olmalıdır.'
-  ipv4: ':atribut əsaslı IPv4 ünvanı olmalıdır.'
-  ipv6: ':attribute hökmlü IPv6 ünvanı olmalıdır.'
-  json: ':attribute hökmlü JSON string olmalıdır.'
-  lt:
-    numeric: ':atributu :value-dən az olmalıdır.'
-    file: ':atribut :value kilobytes-dən az olmalıdır.'
-    string: ':attribute :value characters-dən az olmalıdır.'
-    array: ':atributda :value items-dən az olmalıdır.'
-  lte:
-    numeric: ':atribut daha az və ya bərabər olmalıdır :value.'
-    file: ':atribut daha az və ya bərabər olmalıdır :value kilobytes.'
-    string: ':atribut daha az və ya bərabər olmalıdır :value characters.'
-    array: ':atributda :value items-dən çox olmamalıdır.'
-  max:
-    numeric: ':attribute :max-dan böyük olmamalıdır.'
-    file: ':attribute :max kilobaytdan böyük olmamalıdır.'
-    string: ':attribute :max heroqliflərindən böyük olmamalıdır.'
-    array: ':attribute -dən çox :max əşyalara malik olmamalıdır.'
-  mimes: ':attribute növü üzrə fayl olmalıdır: :values.'
-  mimetypes: ':attribute növü üzrə fayl olmalıdır: :values.'
-  min:
-    numeric: ':atributu ən azı :min olmalıdır.'
-    file: ':atribut ən azı :min kilobayt olmalıdır.'
-    string: ':atribut ən azı :min heroqlif olmalıdır.'
-    array: ':atribut ən azı :min əşyalara malik olmalıdır.'
-  multiple_of: ':atribut :value çoxluğu olmalıdır.'
-  not_in: 'Seçili :atribut səhvdir.'
-  not_regex: ':attribute formatı qüvvədə deyil.'
-  numeric: ':atribut ədədi olmalıdır.'
-  password: 'Şifrə səhvdir.'
-  present: ':attribute sahəsi olmalıdır.'
-  regex: ':attribute formatı qüvvədə deyil.'
-  required: ':attribute sahəsi tələb olunur.'
-  required_if: ':attribute sahəsi :other is :value olduqda tələb olunur.'
-  required_unless: ':attribute sahəsi :other is in :values olmadığı təqdirdə tələb olunur.'
-  required_with: ':values olduqda :attribute field tələb olunur.'
-  required_with_all: ':values olduqda :attribute field tələb olunur.'
-  required_without: ':values olmayanda :attribute field tələb olunur.'
-  required_without_all: ':attribute sahəsi :values-in heç biri olmadıqda tələb olunur.'
-  prohibited: ':attribute sahəsi qadağandır.'
-  prohibited_if: ':attribute sahəsi :other is :value olduqda qadağandır.'
-  prohibited_unless: ':attribute sahəsi :other is in :values olmadığı təqdirdə qadağandır.'
-  same: ':attribute və :other uyğun olmalıdır.'
-  size:
-    numeric: ':atribut :size olmalıdır.'
-    file: ':atribut :size kilobayt olmalıdır.'
-    string: ':attribute :size heroqlifləri olmalıdır.'
-    array: ':attribute :size items ehtiva etməlidir.'
-  starts_with: ':attribute aşağıdakılardan biri ilə başlamalıdır: :values.'
-  string: ':attribute bir string olmalıdır.'
-  timezone: ':atribut əsaslı zona olmalıdır.'
-  unique: ':atributu artıq götürülüb.'
-  uploaded: ':attribute yüklənə bilmədi.'
-  url: ':attribute formatı qüvvədə deyil.'
-  uuid: ':attribute hökmlü UUID olmalıdır.'
-  attributes:
-    username: 'istifadəçi adı'
-    password: şifrə
-    email: e-poçt
-    title: başlıq
-    content: məzmun
-    name_singular: ism
-    name_plural: 'Çox adı'
-    tag_count_primary: 'əsas teqlərin sayı'
-    tag_count_secondary: 'ikinci dərəcəli teqlərin sayı'
-  recaptcha: 'reCAPTCHA doğrulana bilmədi.'
-  recaptcha-unknown: 'ReCAPTCHA ({errors}) təsdiqlənərkən namə''lum bir xəta baş verdi.'
 flarum-tags:
   forum:
     all_tags:
       meta_description_text: 'Bütün Teqlər'
       meta_title_text: Taqlar
     choose_tags:
-      edit_title: 'Etiketləri {title} üçün düzəlt'
       title: 'Müzakirəniz üçün Etiketlər seçin'
     discussion_controls:
       edit_tags_button: _Düzəlt
@@ -520,48 +348,27 @@ flarum-tags:
       more_link: 'Daha ətraflı...'
       untagged_link: Dırnaqsız
       tags_link: Taqlar
-    post_stream:
-      added_and_removed_tags_text: '{username} {tagsAdded} əlavə edib {tagsRemoved} {time} faylını çıxardı.'
-      added_tags_text: '{username} {tagsAdded} {time} əlavə etdi.'
-      removed_tags_text: '{username} {tagsRemoved} {time} faylını aradan qaldırdı.'
-      tags_text: '{count, plural, one {{tags} tag} digər {{tags} tags}}'
-    tag:
-      meta_description_text: '{{tag}} etiketi ilə bütün müzakirələr'
     composer_discussion:
       choose_tags_link: 'Taqları Seç'
   lib:
     deleted_tag_text: Sil
     tag_selection_modal:
       bypass_requirements: 'Etiket tələblərini kənara qoy'
-      choose_primary_placeholder: '{count, plural, one {Bir birincil tag seçin} digər {Choose # primary tags}}'
-      choose_secondary_placeholder: '{count, plural, one {Choose 1 more tag} other {Choose # more tags}}'
-      choose_tags_placeholder: '{count, plural, one {Choose 1 more tag} other {Choose # more tags}}'
       submit_button: YAXŞI
       title: 'Taqları Seç'
   ref:
     choose_tags: 'Taqları Seç'
-    choose_tags_placeholder: '{count, plural, one {Choose 1 more tag} other {Choose # more tags}}'
     name: Ad
     tags: Taqlar
 flarum-mentions:
   forum:
     composer:
       mention_tooltip: 'İstifadəçi, qrup və ya post qeyd edin'
-      reply_to_post_text: '#{say} cavabla'
     mentioned_by:
       title: 'Bu yazıya cavab'
       load_more_button: 'Daha Çox Yüklə'
-    notifications:
-      post_mentioned_text: '{username} sizin yazınıza cavab verdi'
-      user_mentioned_text: '{username} sizə qeyd etdi'
-      group_mentioned_text: '{username} üzvü olduğunuz bir qrupun adını çəkdi'
-      others_text: '{count, plural, one {# other} digər {# başqaları}}'
     post:
-      mentioned_by_more_text: '{count} daha çox cavab verir.'
-      mentioned_by_self_text: '{users} buna cavab verdi.'
-      mentioned_by_text: '{users} buna cavab verdi.'
       quote_button: Sitatla
-      others_text: '{count, plural, one {# other} digər {# başqaları}}'
       reply_link: Cavabla
       you_text: Sən
     settings:
@@ -570,28 +377,12 @@ flarum-mentions:
       notify_group_mentioned_label: 'Kimsə bir postda üzvü olduğum bir qrupun adını çəkir'
     user:
       mentions_link: Qeydlər
-    post_mention:
-      deleted_text: '[naməlum]'
-    group_mention:
-      deleted_text: '[naməlum qrup]'
-  email:
-    post_mentioned:
-      subject: '{{replier_display_name}} sizin yazınıza {title} cavab verdi'
-      body: "Hey {recipient_display_name}!\n\n{{replier_display_name}} sizin yazınıza (#{post_number}) {title} cavab verdi.\n\n{url}\n\n---\n\n{content}\n"
-    user_mentioned:
-      subject: '{{mentioner_display_name}} siz {title} içində xatırlanır'
-      body: "Hey {recipient_display_name}!\n\n{{mentioner_display_name}} sizi {title} adlı yazıda qeyd etmişdir.\n\n{url}\n\n---\n\n{content}\n"
-    group_mentioned:
-      subject: '{mentioner_display_name}} üzvü olduğunuz qrup haqqında {title} qeyd etdi'
-      body: "Hey {recipient_display_name}!\n\n{mentioner_display_name}} üzvü olduğunuz qrupun adını çəkdi {title}.\n\n{url}\n\n---\n\n{content}\n"
 flarum-subscriptions:
   forum:
     discussion_controls:
       unfollow_button: 'Heç bir zaman'
       unignore_button: Istət
       follow_button: İzlə
-    notifications:
-      new_post_text: '{username} yerləşdirilib'
     settings:
       follow_after_reply_label: 'Avtomatik olaraq cavablandırdığım müzakirələri izləyin'
       notify_for_all_posts_label: 'Müzakirədə yalnız sonuncu yox, hər yeni yazı haqqında məlumat'
@@ -613,10 +404,6 @@ flarum-subscriptions:
       meta_title_text: Aşağıdakılar
     index:
       following_link: Aşağıdakılar
-  email:
-    new_post:
-      subject: '[Yeni Yazı] {title}'
-      body: "Hey {recipient_display_name}!\n\n{poster_display_name}} sizin izlədiyiniz müzakirədə bir yazı etdi: {title}.\n\nYeni fəaliyyətə baxmaq üçün aşağıdakı linkə baxın:\n{url}\n\n---\n\n{content}\n\n---\n\nBu müzakirə ilə bağlı yenilənməyincə daha heç bir bildiriş almayacaqsınız.\n"
   ref:
     follow: İzlə
     following: Aşağıdakılar
@@ -625,7 +412,6 @@ flarum-flags:
   forum:
     flag_post:
       confirmation_message: 'Bu postu baykot etdiyiniz üçün təşəkkür edirəm. Moderatorlarımız ona baxacaqlar.'
-      reason_details_placeholder: 'Əlavə detallar (seçim)'
       reason_inappropriate_label: Yersiz
       reason_inappropriate_text: 'Bu yazı təhqiramiz, təhqiramiz və ya <a>cəmiyyətin göstərişlərini</a> pozur.'
       reason_missing_message: 'Xahiş edirik moderatorlarımız üçün bəzi detalları təqdim edəsiniz.'
@@ -639,13 +425,10 @@ flarum-flags:
       title: 'Bayraq Postu'
     flagged_posts:
       empty_text: 'Bayraq yoxdur'
-      item_text: '{username} <em>in {müzakirə}</em>'
       title: 'Bayraqlı Yazılar'
       tooltip: 'Bayraqlı Yazılar'
     post:
       dismiss_flag_button: Bayraq
-      flagged_by_text: '{username} tərəfindən bayraqlanmış'
-      flagged_by_with_reason_text: '{username} tərəfindən {səbəb} olaraq bayraqlanan'
     post_controls:
       flag_button: Bayraq
   ref:
@@ -654,13 +437,11 @@ flarum-flags:
 flarum-suspend:
   forum:
     notifications:
-      user_suspended_text: 'Siz {timeReadable} üçün təxirə salındı'
       user_suspended_indefinite_text: 'Sən qeyri-müəyyən müddətə təxirə salındın'
       user_unsuspended_text: 'Sən sərf olunmamışdın'
     suspension_info:
       dismiss_button: Rədd
       indefinite: 'Bu müddətsiz təxirə salınmasıdır'
-      limited: 'Bu təxirəsma {tarix} tarixinədək qüvvədə olacaq'
       title: 'Bu hesab dayandırılır'
     suspend_user:
       display_message: 'İsmarışı istifadəçi üçün göstər'
@@ -671,7 +452,6 @@ flarum-suspend:
       placeholder_optional: Seçimli
       reason: 'Təxirə salınmasının səbəbi'
       status_heading: 'Dayandırma Vəziyyəti'
-      title: 'İstifadəçi adı}'
       submit_button: 'Dəyişiklikləri Qeyd Et'
     user_badge:
       suspended_tooltip: '_Təxirə Sal'
@@ -681,10 +461,8 @@ flarum-suspend:
     no_reason_given: 'Bu təxirə salınmasına heç bir səbəb verilmədi.'
     suspended:
       subject: 'Hesabınız təxirə salınıb'
-      body: "Hey {recipient_display_name},\n\nAşağıdakı səbəbdən fəaliyyətini dayandırmısınız:\n\n---\n{suspension_message}\n---\n"
     unsuspended:
       subject: 'Sənin hesabın xərcsiz qalıb'
-      body: "Hey {recipient_display_name},\n\nSən sərf edilməmişsən. Aşağıdakı linkə tıklayaraq yenidən foruma gedə bilərsiniz:\n\n{forum_url}\n"
 blomstra-gdpr:
   lib:
     data:
@@ -707,8 +485,6 @@ fof-upload:
       error: Xəta
       loading: Yüklənir
       unauthorized: 'Faylları yükləməyə icazə verilmir'
-    validation:
-      max_size: '{max} kb üzərindən yükləmə qəbul edilmir.'
     text_preview:
       expand: 'Önbaxış genişlə'
       collapse: 'Önbaxış çöküşü'
@@ -718,7 +494,6 @@ fof-upload:
   api:
     upload_errors:
       forbidden_type: 'Bu tip faylların yüklənməsinə icazə verilmir.'
-      unsupported_type: 'Yüklənən adapter təqdim olunan mime növünü dəstəkləmir: {mime}.'
       could_not_detect_mime: 'Bu faylın MIME növü aşkar edilə bilmədi, xahiş edirik yenidən cəhd edin.'
       max_upload_file_size_ini: 'php.ini-dən əldə edilən max fayllar üçün limiti yüklə.'
       max_upload_file_size_form: 'Fayl yükləmə limiti formasından əldə edilir.'
@@ -727,7 +502,6 @@ fof-upload:
       no_upload_tmp_folder: 'Faylları yükləmək üçün tmp qovluğu yoxdur.'
       cannot_write_to_disk: 'Diskə yazıla bilmir.'
       upload_blocked_by_php_extension: 'Php uzantısı upload-u bağladı.'
-      no_files_made_it_to_upload: 'Xahiş edirik {max} kb-dan böyük olmayan faylları yükləyin.'
   lib:
     upload-shared-file-modal:
       title: 'Yeni fayl'
@@ -740,13 +514,9 @@ fof-upload:
       release_to_upload: 'Yükləmək üçün buraxın'
       modal_empty_desktop: 'Fayl siyahınız boşdur. Yükləmək üçün düyməni basın və ya bir faylı buraya sürükleyin.'
       modal_empty_phone: 'Fayl siyahınız boşdur. Faylı yükləmək üçün yuxarıdakı düyməyə toxunun.'
-      select_file_a11y_label: '"{faylAdı}" faylını seçin'
-      confirm_selection_btn: '{fileCount, plural, =0 {Heç biri seçilə bilmədi} bir {Select file} digər {Select files}}'
       load_more_files_btn: 'Daha çox fayl yüklə'
-      delete_file_a11y_label: '"{fileName}" faylını sil'
-      delete_confirmation: '"{fileName}" faylını həqiqətən də silmək istəyirsiniz?'
-      hide_file: { btn_a11y_label_hide: '"{fileName}" media menecerindən gizlət', btn_a11y_label_show: '"{fileName}" media menecerində göstər', hide_confirmation: '"{fileName}" gizlətmək istədiyinizdən əminsiniz? Faylı gizlətmək onu yalnız media menecerinizdən uzaqlaşdıracaq və mövcud yazılara təsir etməyəcək.', hide_success: 'Fayl gizli', show_confirmation: '"{fileName}" göstərmək istədiyinizdən əminsiniz? Fayl göstərmək media menecerinizdə görünməsinə şərait yaradacaq.', show_success: 'Fayl göstərildiyi kimi', hide_fail: '"{fileName}" faylını gizlətmək mümkün olmadı', show_fail: '"{fileName}" faylı açıla bilmədi', loading: 'Fayl gizlədilir...' }
-      hide_shared_file: { btn_a11y_label_hide: '"{fileName}" şəxsi düzəlt (ictimai URL yoxdur)', btn_a11y_label_show: '"{fileName}" ictimai (public URL ilə)', hide_confirmation: '"{fileName}" xüsusi etmək istədiyinizdən əminsiniz? Fayl şəxsi etmək onun ictimai URL-sini aradan qaldıracaq, lakin bu, mövcud yazılara təsir etməyəcək. Artıq media menecerində icazəsiz istifadəçilərə də görünməyəcək.', hide_success: 'Fayl xüsusi düzəldilidi', show_confirmation: '"{fileName}" ictimailəşdirmək istədiyinizdən əminsiniz? Faylı ictimaiyyətə çatdırmaq onu ictimai URL-yə malik hər kəs üçün əlçatan edəcək və hər kəs media menecerindən istifadə edərək onu paylaşa bilər.', show_success: 'Fayl ictimaiyyətə təqdim edilib', hide_fail: '"{fileName}" xüsusi fayl yaradıla bilmədi', show_fail: '"{fileName}" faylı ictimai edilə bilmədi', loading: 'Fayl xüsusi düzəldilir...' }
+      hide_file: { hide_success: 'Fayl gizli', show_success: 'Fayl göstərildiyi kimi', loading: 'Fayl gizlədilir...' }
+      hide_shared_file: { hide_success: 'Fayl xüsusi düzəldilidi', show_success: 'Fayl ictimaiyyətə təqdim edilib', loading: 'Fayl xüsusi düzəldilir...' }
 flarum-bbcode:
   forum:
     quote:
@@ -779,8 +549,6 @@ fof-follow-tags:
       following_tag_tooltip: Aşağıdakılar
       lurking_tag_tooltip: Lurkinq
     sub_controls:
-      header: '{tagName} üçün abunəlik'
-      subscription_label: '{tagName} üçün abunə səviyyənizi seçin'
       following_text: 'Bütün yeni müzakirələr barədə məlumat alın.'
       hiding_text: 'Bütün müzakirələr səhifəsindən müzakirələri gizləyin.'
       ignoring_text: 'Heç vaxt xəbər vermə.'
@@ -795,21 +563,8 @@ fof-follow-tags:
       hiding_button: Gizlət
       ignoring_button: 'Göz yum'
       lurking_button: Lurkinq
-    notifications:
-      new_discussion_text: '{username} başladı'
-      new_post_text: '{username} yerləşdirilib'
-      new_discussion_tag_text: '{username} etiketi dəyişdi'
     user:
       settings: { heading: 'Etiketləri izlə', filter_label: 'Aşağıdakı səhifədə default olaraq nə göstərmək lazımdır?' }
-  email:
-    subject:
-      newDiscussionInTag: '[Tag | Yeni müzakirə] {title}'
-      newPostInTag: '[Tag | New Post] {title}'
-      newDiscussionTag: '[Tag | Dəyişən Etiket] {title}'
-    body:
-      newDiscussionInTag: "Hey {recipient_display_name},\n\n{actor_display_name} sizin izlədiyiniz etiketdə müzakirəyə başladı: {discussion_title}\n\nYeni müzakirəyə baxmaq üçün aşağıdakı linkə daxil olun:\n{discussion_url}\n\n---\n\n{post_content}\n"
-      newPostInTag: "Hey {recipient_display_name},\n\n{actor_display_name} izlədiyiniz etiket üzərində müzakirədə yerləşdirilib: {discussion_title}\n\nYeni fəaliyyətə baxmaq üçün aşağıdakı linkə baxın:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nBu müzakirə ilə bağlı yenilənməyinizə qədər daha heç bir bildiriş almayacaqsınız.\n"
-      newDiscussionTag: "Hey {recipient_display_name},\n\n{actor_display_name}} sadəcə {author_display_name} tərəfindən müzakirədə etiketi sizin izlədiyiniz etiketə dəyişdi {discussion_title}\n\nYeni müzakirəyə baxmaq üçün aşağıdakı linkə daxil olun:\n{discussion_url}\n"
   ref:
     follow: İzlə
     following: Aşağıdakılar
@@ -838,17 +593,8 @@ flarum-nicknames:
       nickname_placeholder: Ləqəb
 fof-oauth:
   forum:
-    log_in:
-      with_button: '{provider} ilə daxil olun'
-      with_discord_button: '{provider} ilə daxil olun'
-      with_facebook_button: '{provider} ilə daxil olun'
-      with_github_button: '{provider} ilə daxil olun'
-      with_gitlab_button: '{provider} ilə daxil olun'
-      with_google_button: '{provider} ilə daxil olun'
-      with_linkedin_button: '{provider} ilə daxil olun'
-      with_twitter_button: '{provider} ilə daxil olun'
     user:
-      settings: { linked-account: { label: 'Əlaqəli hesablar', last-used-label: 'Son istifadə olunan', link-created-label: 'Körpü yaradıldı', orphaned-account: 'Siz əvvəllər bu provayder vasitəsilə imza atmısınız, lakin bu forum o vaxtdan bəri bu metodla imzanı qeyri-fəal edib.', help: 'Bu əlaqəli hesablar digər provayderlərdən istifadə edərək foruma imza atmaq imkanı verir.', identifier-label: '{provayder} ID', unlink-confirm: 'Həqiqətən də körpünü {provider} ilə birlikdə çıxartmaq istəyirsiniz? Gələcəkdə yenidən təsdiq etməsəniz, artıq bu foruma imza ata bilməyəcəksiniz.' } }
+      settings: { linked-account: { label: 'Əlaqəli hesablar', last-used-label: 'Son istifadə olunan', link-created-label: 'Körpü yaradıldı', orphaned-account: 'Siz əvvəllər bu provayder vasitəsilə imza atmısınız, lakin bu forum o vaxtdan bəri bu metodla imzanı qeyri-fəal edib.', help: 'Bu əlaqəli hesablar digər provayderlərdən istifadə edərək foruma imza atmaq imkanı verir.' } }
     signup:
       username_help: 'Xahiş edirik, buradan məlum olacaq istifadəçi adını seçin'
     unlink: 'Körpünü Sil'
@@ -882,10 +628,8 @@ fof-impersonate:
   forum:
     modal:
       title: 'Başqa istifadəçi kimi giriş'
-      label: 'Böyük qüdrətlə böyük məsuliyyət yaranır. Davam etməklə siz girişə çıxana qədər {username} olacaqsınız.'
       placeholder_optional: '(İxtisas) Bu istifadəçiyə keçmək üçün səbəbinizi təqdim edin'
       placeholder_required: 'İşləmədən əvvəl bu istifadəçiyə keçmək üçün səbəbinizi təqdim etməlisiniz'
-      impersonate_username: '{username} olaraq giriş'
     user_controls:
       impersonate_button: 'İstifadəçi olaraq giriş'
 fof-byobu:
@@ -896,7 +640,6 @@ fof-byobu:
       add_recipients: Alıcı
       submit: YAXŞI
       edit_recipients: 'Alıcıları düzəlt'
-      send_pd: 'İsmarış yolla'
       cancel: 'Ləğv etmək'
       make_public: 'Bu müzakirəni ictimai edin'
       remove_from_discussion: 'Bu şəxsi müzakirəni tərk edin'
@@ -905,8 +648,6 @@ fof-byobu:
       title_placeholder: 'Şəxsi müzakirə başlığı'
     confirm:
       make_public: 'Əminsinizmi ki, alıcıları çıxartmaq və bu müzakirəni təyin olunmuş etiketə baxa bilən hər kəs üçün görünən etmək istəyirsiniz?'
-    labels:
-      recipients: '{count, plural, one {{count}Recipient} digər {{count} Recipients}}'
     nav:
       start_button: 'Şəxsi müzakirə'
       nav_item: 'Şəxsi müzakirələr'
@@ -915,11 +656,9 @@ fof-byobu:
     search:
       headings: { groups: 'İcazə Qrupları' }
     modal:
-      titles: { update_recipients: '{title} alıcılarını yenilə', add_recipients: 'Müzakirənizə alıcıları əlavə edin' }
+      titles: { add_recipients: 'Müzakirənizə alıcıları əlavə edin' }
       labels: { selected_users: 'Seçilmiş istifadəçilər', search_field: 'İstifadəçi axtar' }
       help: { add_recipients: 'Bu müzakirə yalnız burada seçdiyiniz istifadəçilər üçün görünəcək. Ən azı 1 alıcı (özünüzdən başqa) tələb olunur.', update_recipients: 'Bu müzakirə yalnız burada seçdiyiniz istifadəçilər üçün görünəcək.', selected_users: 'Onları aradan qaldırmaq üçün istifadəçinin adını basın.', click_user_to_remove_tooltip: 'Aradan qaldırmaq üçün klikləyin' }
-    post:
-      recipients_modified: { added_and_removed: '{username} alıcıları əlavə etdi {əlavə etdi} və aradan qaldırıldı {removed}.', added: '{username} əlavə etdi recipients {added}.', made_public: '{username}} bütün alıcıları aradan qaldırdı və müzakirəni ictimaiyyətə təqdim etdi', removed: '{username} alıcıları {removed} etdi.', removed_self: '{username} şəxsi müzakirəni tərk etdi.' }
     user:
       settings: { block_pd: 'Blok şəxsi müzakirələr' }
       byobu_link: 'Şəxsi müzakirələr'
@@ -927,23 +666,9 @@ fof-byobu:
     notifications:
       pd_label: 'Kimsə məni yeni şəxsi müzakirəyə daxil edir'
       pd_reply_label: 'Kimsə şəxsi müzakirədə postlar mən alıcı'
-      pd_reply_text: '{username}-in bir parçası olduğunuz şəxsi müzakirədə yerləşdirilmişdir'
-      pd_text: '{username} sizinlə yeni şəxsi müzakirəyə başladı'
       pd_user_left_label: 'Alıcı istifadəçi şəxsi müzakirə tərk edir mən bir hissəsi'
-      pd_user_left_text: '{username} şəxsi müzakirəni tərk etdi'
-      pd_added_text: '{username} sizi şəxsi müzakirəyə əlavə etdi'
       pd_added_label: 'Kimsə məni mövcud şəxsi müzakirəyə əlavə edir'
-  email:
-    subject:
-      private_discussion_created: '[Özəl müzakirə] {display_name} sizinlə yeni şəxsi müzakirəyə başladı'
-      private_discussion_replied: '[Özəl müzakirə] {display_name}} şəxsi müzakirədə yerləşdirilib'
-      recipient_removed: '[Özəl müzakirə] {display_name}} müzakirəni tərk etdi'
-      private_discussion_added: '[Özəl müzakirə] {display_name}} sizi şəxsi müzakirəyə əlavə etdi'
-    body:
-      private_discussion_created: "Hey {recipient_display_name},\n\n{actor_display_name}} alıcı kimi sizinlə yeni şəxsi müzakirəyə başladı: {discussion_title}.\n\nBuraya bax:\n{discussion_url}\n\nBu linkə daxil ola bilməniz üçün öncə giriş etmək lazım gələ bilər.\n"
-      private_discussion_replied: "Hey {recipient_display_name},\n\n{actor_display_name}} alıcı kimi sizinlə şəxsi müzakirədə yerləşdirilib: {discussion_title}.\n\nBuraya bax:\n{post_url}\n\nBu linkə daxil ola bilməniz üçün öncə giriş etmək lazım gələ bilər.\n"
-      recipient_removed: "Hey {recipient_display_name},\n\n{actor_display_name}} şəxsi müzakirəni tərk etdi: {discussion_title}. Artıq heç bir məzmuna baxa bilməyəcəklər.\n\nBuraya bax:\n{discussion_url}\n\nBu linkə daxil ola bilməniz üçün öncə giriş etmək lazım gələ bilər.\n"
-      private_discussion_added: "Hey {recipient_display_name},\n\n{actor_display_name}} sizi mövcud şəxsi müzakirəyə əlavə etdi: {discussion_title}.\n\nBuraya bax:\n{discussion_url}\n\nBu linkə daxil ola bilməniz üçün öncə giriş etmək lazım gələ bilər.\n"
+  email: null
 v17development-flarum-badges:
   forum:
     badge_information: 'Badge məlumatı'
@@ -966,17 +691,11 @@ v17development-flarum-badges:
       no_earning_reason: 'Heç bir qazanc səbəbi təyin olunmayıb'
       earned_on: 'Badə qazandı'
       category: 'Badge kateqoriya'
-      received_on: '{{tarixdə}} tarixində alındı'
       badge_details: 'Badımcan detalları'
-      earned_count: '{count, plural, one {<b># user</b> bu nişanı qazanıb} digər {<b># istifadəçilər</b> bu nişanı qazanıblar}}'
-      earned_by_count: '{count, plural, one {Earned by <b># user</b>} digər {Earned by <b># users</b>}}'
-      others_link: '+ {count} Daha ətraflı'
     badges_in_card:
       title: 'İstifadəçi kartındakı nişanlar'
       manage_badges: 'Rozeni idarə et'
       description: 'İstifadəçi kartınızda görünən nişanları digər nişanlarınızdan biri ilə dəyişə bilərsiniz. Əgər heç birini seçməsəniz, avtomatik olaraq seçiləcəklər.'
-      select_limit: 'İstifadəçi kartınızda görünməsi üçün {limit, çoxluğu, bir {<b>bir nişan</b>} digər {<b># nişanı</b>}} seçə bilərsiniz.'
-      hit_limit: 'Kartınızda <b> {limit, plural, bir {<b>one badge</b>} digər {<b># nişanı</b>}}</b> üçün yalnız yer var. Bu nişana yer vermək üçün nişanın seçilməsini.'
     moderation:
       remove_badge: 'İstifadəçidən nişanı sil'
       remove_badge_confirm: 'Əminsinizmi ki, bu nişanı bu istifadəçidən çıxartmaq istəyirsiniz?'
@@ -985,14 +704,10 @@ v17development-flarum-badges:
       title: 'Yeni nişan almısan'
       settings: 'Rozemi almışam'
     uncategorized: Uncategorized
-v17development-flarum-seo:
-  forum:
-    profile_title: '{username} profili'
-    profile_description: '{username} profili | {discussion_count} müzakirələri | {comment_count} yazıları'
+v17development-flarum-seo: null
 the-turk-miserable-users:
   forum:
     miserable_user:
-      title: 'Acınacaqlı {username}'
       status_heading: 'Acınacaqlı vəziyyət'
       not_miserable_label: 'Bədbəxt deyil'
       indefinitely_label: 'Əbədiyyən bədbəxt'
@@ -1009,7 +724,6 @@ sycho-profile-cover:
   forum:
     cover: Qapaq
     edit_cover: 'Örtüyü düzəlt'
-    notice: 'Maksimal ölçü: {size}'
     added:
       success: 'Profil örtüyü yenilənib.'
       error: 'Rəsm yüklənə bilmədi.'
@@ -1018,10 +732,7 @@ sycho-profile-cover:
       error: 'Örtük silinə bilmədi, sonra yenidən sınayın.'
 sycho-photoswipe: null
 nearata-tags-color-generator: null
-nearata-prevent-double-posting:
-  forum:
-    exception:
-      too_many_replies: '{count} ardı-ardına cavab verməyə icazə verilmir. Xahiş edirik, yerinə əvvəlki cavabınızı redaktə edin və ya kiminsə sizə cavab verməsini gözləyin.'
+nearata-prevent-double-posting: null
 nearata-copy-code-to-clipboard:
   forum:
     copy: 'Panoya köçür'
@@ -1030,7 +741,6 @@ michaelbelgium-flarum-profile-views:
   forum:
     user:
       viewlist: { title: 'Son ziyarətçilər', guest: Qonaq }
-      view_count_text: '{viewcount, plural, one {viewed {viewcount} time} digər {viewed {viewcount} times}}'
 justoverclock-country-flags:
   forum:
     inputCountryCode: 'Ölkə Kodu'
@@ -1058,13 +768,10 @@ ianm-syndication:
     autodiscovery:
       forum_activity: 'Forum fəaliyyəti'
       forum_new_discussions: 'Forumun yeni müzakirələri'
-      tag_activity: '{tag} etiketi üçün fəaliyyət'
-      tag_new_discussions: '{tag} etiketində müzakirələr'
       discussion_last_posts: 'Bu müzakirə'
       user_last_posts: 'Bu istifadəçi tərəfindən yazılar & comments'
     feeds:
-      entries: { user_posts: { title_reply: 'Re: {müzakirə}' } }
-      titles: { main_title: '{forum_name}', main_subtitle: 'Forumda son yazılar', main_d_title: '{forum_name} dilində yeni müzakirələr', main_d_subtitle: 'Forumda ən yeni müzakirələr', tag_title: '{tag} taqında fəaliyyət', tag_subtitle: '{tag} etiketində son yazılar', tag_d_title: '{tag} etiketində yeni müzakirələr', tag_d_subtitle: '{tag} etiketində ən yeni müzakirələr', discussion_title: '{discussion_name}', discussion_subtitle: 'Bu müzakirədə son mesajlar', user_title: '{username}', user_subtitle: 'Bu istifadəçi tərəfindən son yazılar &comments.' }
+      titles: { main_subtitle: 'Forumda son yazılar', main_d_subtitle: 'Forumda ən yeni müzakirələr', discussion_subtitle: 'Bu müzakirədə son mesajlar', user_subtitle: 'Bu istifadəçi tərəfindən son yazılar &comments.' }
     discussion:
       feed_link: Qidalandırma
 ianm-log-viewer: null
@@ -1072,7 +779,6 @@ ianm-html-head: null
 ianm-follow-users:
   forum:
     followed: Ardı
-    followers: '{count, plural, one {Follower} digər {İzlə}}'
     profile_page:
       no_following: 'Görünür ki, heç kimin arxasınca gəlmirsən.'
     settings:
@@ -1081,17 +787,12 @@ ianm-follow-users:
       notify_new_discussion_label: 'Izlədiyim biri müzakirəyə başlayır'
       notify_new_post_label: 'Mövcud müzakirədə yazıları izlədiyim biri'
       block_follow: 'İstifadəçilərin məni izləmələrinə mane ol'
-    notifications:
-      new_discussion_text: '{username} başladı'
-      new_post_text: '{username} müzakirədə yerləşdirilib'
-      new_follower_text: '{username} sizi izlədi'
-      new_unfollower_text: '{username} sizin ardınızda dayandı'
     badge:
       label: { follow: 'Müzakirələrdən sonra', lurk: 'Hamısını izləmə' }
     filter:
       following: 'İzlənən istifadəçilər'
     modals:
-      select_follow_level: { title: '{username} üçün izləmə səviyyəsini seçin', description: '<em>{username</em>} izlənməyi necə istədiyinizi seçin.', follow_levels_heading: 'Səviyyələrə riayət edin', follow_select_label: İzlə, no_user_attr_provided_err: 'Uh oh, bu modal açarkən nəsə səhv oldu.', no_user_attr_provided_err_debug: 'Heç bir ''user'' atributu yaradılarkən SelectFollowUserLevel modal-a ötürülmdü. Modal tərcümə etmək mümkün deyil.', save_btn: 'Qeyd Et', cancel_btn: 'Ləğv etmək' }
+      select_follow_level: { follow_levels_heading: 'Səviyyələrə riayət edin', follow_select_label: İzlə, no_user_attr_provided_err: 'Uh oh, bu modal açarkən nəsə səhv oldu.', no_user_attr_provided_err_debug: 'Heç bir ''user'' atributu yaradılarkən SelectFollowUserLevel modal-a ötürülmdü. Modal tərcümə etmək mümkün deyil.', save_btn: 'Qeyd Et', cancel_btn: 'Ləğv etmək' }
     profile_link: 'İzlənən İstifadəçilər'
     user_controls:
       follow_button: İzlə
@@ -1101,37 +802,28 @@ ianm-follow-users:
       follow_tag_button: İzlə
       unfollow_tag_button: 'İz tipini dəyiş'
   email:
-    new_discussion_by_user_subject: '[İstifadəçini İzlə] {title}'
     new_follower_subject: '[İstifadəçini İzlə] Yeni davamçısın var!'
-    new_post_subject: '[İstifadəçini İzlə] {title} dilində yeni yazı'
-    new_discussion_by_user_body: "Hey {recipient_display_name},\n\n{user_display_name} yeni müzakirəyə başladı: {discussion_title}\n\nYeni müzakirəyə baxmaq üçün aşağıdakı linkə daxil olun:\n\n{discussion_url}\n\n---\n\n{post_content}\n"
-    new_follower_body: "Hey {recipient_display_name},\n\n{follower_display_name}} sizin ardınıza başladı, buna görə də yeni müzakirəyə başlayanda onlara xəbər veriləcək.\n\nOnların profilinə baxmaq üçün aşağıdakı linkə baxın:\n\n{profile_url}\n"
-    new_post_body: "Hey {recipient_display_name},\n\n{user_display_name} müzakirədə yerləşdirilib: {discussion_title}\n\nYeni fəaliyyətə baxmaq üçün aşağıdakı linkə baxın:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nBu müzakirə ilə bağlı yenilənməyincə daha heç bir bildiriş almayacaqsınız.\n"
   lib:
     following_link: 'İzlənən İstifadəçilər'
     follow: İzlə
     change_follow_type: 'İz tipini dəyiş'
     unfollow: 'Heç bir zaman'
     follow_levels:
-      unfollow: { name: İzləməyin, description: "<em>{username}</em>'nin fəaliyyəti üçün heç bir bildiriş alma.\n" }
-      follow: { name: 'Müzakirələri izləyin', description: "<em>{username}</em> yeni müzakirə başlayanda bildirişləri al.\n" }
-      lurk: { name: 'Hamısını izlə', description: "<em>{username}-</em> hər hansı bir müzakirə daxilində yeni müzakirə və ya yazılar başlayanda bildirişləri al.\n" }
+      unfollow: { name: İzləməyin }
+      follow: { name: 'Müzakirələri izləyin' }
+      lurk: { name: 'Hamısını izlə' }
 fof-username-request:
   forum:
     nickname_modals:
-      action: { help_text: 'Xahiş edirik, xahiş olunan bu ləqəb dəyişikliyinin forum qaydalarına əməl etdiyinə əmin olun.', decision_title: Qərar, approval_label: Təsdiqlə, rejected_label: 'Rədd Et', submit_button: Göndərmək, reason_title: 'Rədd edilmənin səbəbi', success: 'Göndərilən qərar.', name: '{name} öz ləqəblərini "{requestedName}" olaraq dəyişdirməyi xahiş edib', title: 'Ləqəb Dəyişiklik İstinad' }
-      results: { title: 'Ləqəb Dəyişiklik İstinad', approved: 'Ləqəb dəyişdirmə xahişiniz qəbul edilib', new_name: 'Sizin ləqəbiniz uğurla dəyişdirildi: {name}', rejected: 'Sizin ləqəb dəyişdirmə istəyiniz rədd edildi', reason: 'Rədd edilmə səbəbi: <i>"{səbəb}"</i>.', resubmit: 'Bu zaman, əgər siz seçirsinizsə, hesab qurğularınızdan yeni ləqəb dəyişdirmə xahişini yenidən daxil edə bilərsiniz.', dismiss_button: YAXŞI }
-      request: { title: 'İstinad Ləqəb Dəyişiklik', current_request: 'Siz artıq öz ləqəbinizi "{name}" olaraq dəyişməyi xahiş etdiniz. İstəyinizi ya yeniləyə, ya da silə bilərsiniz.', submit_button: 'İstək göndər', delete_button: 'Faylı sil', confirmation_message: 'Sizin ləqəb dəyişdirmə istəyiniz təqdim edilib və razılıq gözləyir.', deleted: 'Ləqəb istəyi silindi.', dismiss_button: YAXŞI }
+      action: { help_text: 'Xahiş edirik, xahiş olunan bu ləqəb dəyişikliyinin forum qaydalarına əməl etdiyinə əmin olun.', decision_title: Qərar, approval_label: Təsdiqlə, rejected_label: 'Rədd Et', submit_button: Göndərmək, reason_title: 'Rədd edilmənin səbəbi', success: 'Göndərilən qərar.', title: 'Ləqəb Dəyişiklik İstinad' }
+      results: { title: 'Ləqəb Dəyişiklik İstinad', approved: 'Ləqəb dəyişdirmə xahişiniz qəbul edilib', rejected: 'Sizin ləqəb dəyişdirmə istəyiniz rədd edildi', resubmit: 'Bu zaman, əgər siz seçirsinizsə, hesab qurğularınızdan yeni ləqəb dəyişdirmə xahişini yenidən daxil edə bilərsiniz.', dismiss_button: YAXŞI }
+      request: { title: 'İstinad Ləqəb Dəyişiklik', submit_button: 'İstək göndər', delete_button: 'Faylı sil', confirmation_message: 'Sizin ləqəb dəyişdirmə istəyiniz təqdim edilib və razılıq gözləyir.', deleted: 'Ləqəb istəyi silindi.', dismiss_button: YAXŞI }
     username_modals:
-      action: { help_text: 'Xahiş edirik, bu isdifadə edilən istifadəçi adı dəyişikliyinin forum qaydalarına əməl etdiyinə əmin olun.', decision_title: Qərar, approval_label: Təsdiqlə, rejected_label: 'Rədd Et', submit_button: Göndərmək, reason_title: 'Rədd edilmənin səbəbi', success: 'Göndərilən qərar.', name: '{name} istifadəçi adını "{requestedName}" olaraq dəyişdirməyi xahiş edib', title: 'İstifadəçi Adı Dəyişən İstək' }
-      results: { title: 'İstifadəçi Adı Dəyişən İstək', approved: 'İstifadəçi adınızın dəyişdirilməsi xahişiniz qəbul edilib', new_name: 'İstifadəçi adınız uğurla dəyişdirildi: {name}', rejected: 'İstifadəçi adınızın dəyişdirilməsi istəyi rədd edildi', reason: 'Rədd edilmə səbəbi: <i>"{səbəb}"</i>.', resubmit: 'Bu zaman, əgər siz seçirsinizsə, hesab qurğularınızdan yeni istifadəçi adı dəyişikliyi xahişini yenidən daxil edə bilərsiniz.', dismiss_button: YAXŞI }
-      request: { title: 'İstifadəçi Adı Dəyişdirilməsini İstə', current_request: 'Artıq istifadəçi adınızı "{name}" olaraq dəyişməyi xahiş etdiniz. İstəyinizi ya yeniləyə, ya da silə bilərsiniz.', submit_button: 'İstək göndər', delete_button: 'Faylı sil', confirmation_message: 'İstifadəçi adı dəyişmə istəyiniz təqdim edilib və təsdiq edilməkdədir.', deleted: 'İstifadəçi adı istəyi silindi.', dismiss_button: YAXŞI }
+      action: { help_text: 'Xahiş edirik, bu isdifadə edilən istifadəçi adı dəyişikliyinin forum qaydalarına əməl etdiyinə əmin olun.', decision_title: Qərar, approval_label: Təsdiqlə, rejected_label: 'Rədd Et', submit_button: Göndərmək, reason_title: 'Rədd edilmənin səbəbi', success: 'Göndərilən qərar.', title: 'İstifadəçi Adı Dəyişən İstək' }
+      results: { title: 'İstifadəçi Adı Dəyişən İstək', approved: 'İstifadəçi adınızın dəyişdirilməsi xahişiniz qəbul edilib', rejected: 'İstifadəçi adınızın dəyişdirilməsi istəyi rədd edildi', resubmit: 'Bu zaman, əgər siz seçirsinizsə, hesab qurğularınızdan yeni istifadəçi adı dəyişikliyi xahişini yenidən daxil edə bilərsiniz.', dismiss_button: YAXŞI }
+      request: { title: 'İstifadəçi Adı Dəyişdirilməsini İstə', submit_button: 'İstək göndər', delete_button: 'Faylı sil', confirmation_message: 'İstifadəçi adı dəyişmə istəyiniz təqdim edilib və təsdiq edilməkdədir.', deleted: 'İstifadəçi adı istəyi silindi.', dismiss_button: YAXŞI }
     pending_requests:
       empty_text: 'İsim dəyişmə istəyi tapılmadı.'
-      nickname_item_text: '{name} ləqəbinin dəyişdirilməsini istədi'
-      nickname_exerpt: 'İstenan ləqəb: {requestedName}'
-      username_item_text: '{name} istifadəçi adının dəyişdirilməsini istədi'
-      username_exerpt: 'İstəyən istifadəçi adı: {requestedName}'
       tooltip: 'İsim Dəyişmə İstinadları'
       title: 'İsim Dəyişmə İstinadları'
     settings:
@@ -1149,15 +841,9 @@ fof-username-request:
   email:
     body:
       noReasonProvided: 'Heç bir səbəb yoxdur.'
-      approved: "Salam {recipient_display_name},\n\nİstifadəçi adınızı \"{new_username}\" olaraq dəyişdirmək xahişiniz {{actor_display_name}\" tərəfindən təsdiq edilmişdir.\n\nİndi yeni istifadəçi adınızla daxil ola bilərsiniz: {login_url}\n"
-      rejected: "Salam {recipient_display_name},\n\nİstifadəçi adınızı \"{old_username}\" olaraq \"{requested_username}\" olaraq dəyişdirmək istəyiniz {{actor_display_name} tərəfindən rədd edildi.\n\nSəbəb: {səbəb}\n"
-    subject:
-      approved: '{display_name} istifadəçi adınızın dəyişdirilməsini {requested_username} olaraq təsdiq etdi'
-      rejected: '{display_name} istifadəçi adınızın dəyişdirilməsini {requested_username} olaraq rədd etdi'
 fof-user-bio:
   forum:
     userbioPlaceholder: 'Özün haqqında bir şey yaz'
-    userbioPlaceholderOtherUser: '{username} üçün bio yazın'
     profile:
       cancel_confirm: 'Bio redaktəni ləğv etmək istədiyinizdən əminsiniz? Etdiyiniz dəyişiklikləri itirəcəksiniz.'
       cancel_button: 'Ləğv etmək'
@@ -1165,9 +851,6 @@ fof-user-bio:
       edit_bio_label: 'Bio düzəlt'
 fof-split:
   forum:
-    post:
-      was_split_to: '{count, plural, one {{count} postu {{target}}}-ə bölündü.} digər {{count} postları {target}}}-ə bölündü'
-      was_split_from: '{count, plural, one {{count} post {{count} post {target}}}-dən ayrıldı.} digər {{count} postları {target}}}-dən ayrıldı'
     split:
       from: 'Buradan bölün'
       to: 'Buraya bölün'
@@ -1221,13 +904,11 @@ fof-reactions:
   forum:
     disabled-reaction: 'Bu reaksiyadan hal-hazırda istifadə edə bilməzsiniz, lütfən səhifəni yeniləyin'
     warning: 'Sizin reaksiyanız konvertasiya edildi'
-    notification: '{username} sizin yazınıza {reaksiya} ilə reaksiya verdi'
     settings:
       notify_post_reacted_label: 'Kimsə mənim yazılarımdan birinə reaksiya verir'
     reacting-own-post: 'Öz yazınıza reaksiya verə bilməzsiniz'
     modal:
       title: Reaksiyalar
-      anonymous_count: '{count, plural, bir {# anonim istifadəçi} digər {# anonim istifadəçilər}}'
       no_reactions: 'Hələlik heç bir reaksiya yoxdur'
     mod_item: 'Baxış Reaksiyaları'
     react_button_label: Reaksiya
@@ -1241,22 +922,19 @@ fof-profile-image-crop:
 fof-prevent-necrobumping:
   forum:
     composer:
-      warning: { title: 'Bu müzakirə <b>{time}</b> köhnədən çoxdur.', description: 'Çox ehtimal ki, onun daha heç bir müzakirəyə ehtiyacı yoxdur və buna görə də onu tə''min etmək heç bir məqsədə xidmət etmir.', checkbox_label: 'Mən bilirəm ki, bu müzakirə çox köhnə olsa da, yenə də cavab vermək istəyərdim.', error: 'Bu söhbətə cavab vermək üçün çox yaşlıdır.' }
+      warning: { description: 'Çox ehtimal ki, onun daha heç bir müzakirəyə ehtiyacı yoxdur və buna görə də onu tə''min etmək heç bir məqsədə xidmət etmir.', checkbox_label: 'Mən bilirəm ki, bu müzakirə çox köhnə olsa da, yenə də cavab vermək istəyərdim.', error: 'Bu söhbətə cavab vermək üçün çox yaşlıdır.' }
 fof-pretty-mail: null
 fof-polls:
   forum:
-    days_remaining: 'Poll {time} başa çatır.'
     no_permission: 'Səs verməyə icazəniz yoxdur'
     poll_ended: 'Bu sorğu başa çatıb.'
     public_poll: 'Baxış seçiciləri'
-    max_votes_allowed: 'Poll {max, plural, bir {# option} digər {# options} üçün səs vermək imkanı verir.'
     composer_discussion:
       add_poll: 'Sorğu əlavə et'
       edit_poll: 'Sorğunu düzəlt'
     modal:
       add_title: 'Anket əlavə et'
       add_option_label: 'Seçim əlavə et'
-      date_placeholder: 'Sorğuların bitmə tarixi (Seçilmişlər)'
       edit_title: 'Sorğunu düzəlt'
       include_question: 'Sual daxil etməlisiniz'
       max: 'Maksimum 10 cavab ola bilərsiniz'
@@ -1277,7 +955,6 @@ fof-polls:
       edit: 'Sorğunu düzəlt'
     tooltip:
       badge: Sorğu
-      votes: '{count, plural, bir {# səs} digər {# votes}}'
     votes_modal:
       title: Seçicilər
 fof-nightmode:
@@ -1297,11 +974,9 @@ fof-moderator-notes:
   forum:
     no_content_given: 'Boş nota icazə verilmir.'
     moderatorNotes:
-      created_text: '{username} bu qeydi {tarixdə} yaratdı'
       add_button: 'Yeni qeyd'
       create-heading: 'Yeni moderator qeydi yarat'
       dismiss_button: 'Yerinə yetdi'
-      input_heading: '<strong>{username}</strong> üçün qeydlərinizi daxil edin, (markdown dəstəklənir)'
       noNotes: 'Görünür, burada qeydlər yoxdur.'
       submit_button: 'Qeyd qeydi qeyd et'
       delete: Sil
@@ -1309,8 +984,6 @@ fof-moderator-notes:
     user:
       notes: 'Moderator Qeydlər'
   api:
-    auto_note: '_I bu istifadəçiyə keçdi:_ {səbəb}'
-    auto_note_actor: '_Switched to_ @{username}: {səbəb}'
     no_reason_provided: 'Heç bir səbəb verilmir'
 fof-linguist: null
 fof-html-errors: null
@@ -1325,12 +998,8 @@ fof-gamification:
       name: İstifadəçi
       amount: Nöqtələr
     notification:
-      upvote: '{username} postunuzun üstünə qalxdı'
-      downvote: '{username} postunuzu aşağı sal'
       prefrences: { vote: 'Postlarımdan biri yuxarı/aşağı səs verəndə' }
     user:
-      card: { points: '{count, plural, one { {count} point} digər {{count} points}}' }
-      rank: '{rank}'
       votes_link: Səslər
     modal:
       downvotes_label: 'Aşağı endiricilər:'
@@ -1344,11 +1013,6 @@ fof-gamification:
     post:
       upvote_button: 'Poçta yüklə'
       downvote_button: 'Aşağıya aşağı sal'
-  email:
-    body:
-      postVoted: "Hey {recipient_display_name},\n\n{actor_display_name}} sadəcə {discussion_title} -də sizin postuza səs verdi.\n\nBuraya baxın: {discussion_url}\n"
-    subject:
-      postVoted: 'Sizin yazınız {display_name} tərəfindən səs verildi'
 fof-formatting: null
 fof-drafts:
   console:
@@ -1367,7 +1031,6 @@ fof-drafts:
       title: Layihə
       delete_all_button: 'Bütün layihələri sil'
       delete_button: 'Layihəni Sil'
-      scheduled_icon_tooltip: '{datetime} üçün planlaşdırılır'
       scheduled_icon_tooltip_formatter: 'L [at] LT'
       alert: 'Əminsinizmi ki, layihənizi silmək istəyirsiniz?'
       delete_all_alert: 'Bütün layihələrinizi silmək istədiyinizdən əminsiniz?'
@@ -1375,13 +1038,10 @@ fof-drafts:
       tooltip: Layihə
     schedule_draft_modal:
       text: 'Daha sonra avtomatik olaraq yerləşdirmək üçün layihənizi planlaşdırın!'
-      scheduled_text: 'Hazırda {datetime} saytında yerləşdirilməsi planlaşdırılır.'
-      scheduled_error: 'Layihə hazırlana bilmir: {error}.'
       unschedule_button: Sadtlaş
       unschedule_warning: 'Əminsinizmi ki, bu layihəni alt-üst etmək istəyirsiniz?'
       reschedule_button: Reschedule
       schedule_button: Cədvəl
-      schedule_time_preview: 'Bu layihə <b>{datetime}</b> tarixində avtomatik olaraq dərc olunacaq.'
       schedule_time_preview_formatter: LLLL
       schedule_time_preview_invalid: 'Səhv tarix və/və ya vaxt'
       title: 'Cədvəl layihəsi'
@@ -1393,13 +1053,10 @@ fof-best-answer:
     this_best_answer: 'Ən yaxşı cavabı seçin'
     remove_best_answer: 'Ən yaxşı cavabı unseect'
     best_answer_button: 'Ən yaxşı cavab'
-    best_answer_label: '<a>{username} {</a>time_set} tərəfindən təyin edilmişdir'
     errors:
       mismatch: 'Seçilmiş yazı bu müzakirədə mövcud deyil.'
     notification:
-      best_answer_in_discussion: '{username} bu müzakirədə ən yaxşı cavab təyin etdi'
       content: 'Sualınız cavablandırılıbsa, zəhmət olmasa Ən Yaxşı Cavab seçin'
-      awarded: 'Sizin yazı {username} tərəfindən ən yaxşı cavab təyin edildi'
       preferences: { awarded_best_answer: 'Kimsə mənim postumu ən yaxşı cavab kimi təyin edir', best_answer_in_discussion: 'İştirak etdiyim müzakirədə ən yaxşı cavab təyin olunub', select_best_answer: 'Başladığım müzakirədə ən yaxşı cavabı seçmək üçün avtomatlaşdırılmış xatırlatma' }
     index:
       ask_question: 'Sual verin'
@@ -1413,22 +1070,13 @@ fof-best-answer:
       accessible_label: 'Həll edilməmiş seçim'
     composer:
       titlePlaceholder: 'Sual başlığı'
-    user:
-      best-answer-count: '{count, plural, one { {count} best answer} digər {{count} ən yaxşı cavablar}}'
     search:
       discussions_solutions_heading: 'Həll yolları ilə müzakirələr aparılır'
-      all_discussions_solutions_button: '"{query}" üçün bütün müzakirələr axtarır'
     discussion:
       jump_to_best_answer_button: 'Yadda saxla'
   email:
     subject:
-      awarded: 'Sizin post {display_name}'
-      ba-set: 'Ən yaxşı bir cavab {display_name} tərəfindən hazırlanmışdır'
       select: 'Sorğunuzu cavab almaq üçün müraciət edirik?'
-    body:
-      awarded: "Hey {recipient_display_name},\n\n{actor_display_name} Yalnız müzakirə ən yaxşı cavab kimi postunuzu təyin edin: {discussion_title}. Yardım etmək üçün.\n\nBurada bax: {discussion_url}\n"
-      ba-set: "Hey {recipient_display_name},\n\n{actor_display_name} yalnız müzakirə ən yaxşı bir cavab hazırlayıb: {discussion_title}, siz iştirak.\n\n{: {discussion_url}\n"
-      select: "Hey {recipient_display_name},\n\nJust check in; tərəfindən sizin suallar bol olmalıdır: {discussion_title}. Həmkarlardan biri probleminizi başa çatdırmağa kömək etdi.\n\nƏgər, bu, sizin sualınıza ən yaxşı bir cavab verə biləcəyinizdə, gənclər üçün həyata kömək edəcəkdir. Eyni problemlə insanlara lazım olan cavab tapmaq kömək edəcək, və bu da sizə kömək etməyə kömək böyük bir teşekkür edir. Onlar onların vaxt təşkil edir, belə ki, onlar yaxşı etdiyini bilmək olar.\n\nBurada müzakirəyini ziyarət edin: {discussion_url}, və ən yaxşı cavab kimi ən uyğun post seçin.\n\nYadda saxla\n"
 fof-user-directory:
   lib:
     sort:
@@ -1437,8 +1085,6 @@ fof-user-directory:
 fof-ban-ips:
   forum:
     modal:
-      ban_options_only_ip: 'Yalnız cari IP-i qadağan et (<code>{ip}</code>)'
-      ban_options_all_ip: '<i>{username}</i> tərəfindən istifadə edilən bütün İp-ləri qadağan edin'
       ban_ip_no_users: 'Başqa heç kimə qadağa qoyulmayacaq'
     user_badge:
       banned_tooltip: 'Qadağan edildi'
@@ -1455,13 +1101,8 @@ fof-ban-ips:
       check_button: Yoxla
       save_button: 'Qeyd Et'
       ban_ip_confirmation: 'Əminsinizmi ki, bu IP ünvanının forumda istifadəsini əngəlləmək istəyirsiniz? Bu, bu IP ünvanı(es) olan istifadəçilərin giriş və qeydiyyatdan keçmələrinə mane olacaq.'
-      ban_ip_users: '{count, plural, one {User {users} qadağan olunacaq} digər {İstifadəçilər {users}} qadağan olunacaq}}'
       unban_ip_confirmation: 'Digər İp-lər tərəfindən qadağan olunmayan bu istifadəçini və bütün digər istifadəçiləri banlamaq istədiyinizdən əminsiniz?'
-      unban_options_only_ip: 'Hazırkı IP-i yalnız unban (<code>{ip}</code>)'
-      unban_options_all_ip: '<i>{username}</i> tərəfindən işlədilən bütün İp-ləri unban'
       unban_ip_no_users: 'Daha heç kim tapılmaz,'
-      unban_ip_users: '{count, plural, one {User {users} unbanned olacaq} digər {Users {users}} unbanned olacaq}}'
-      unbanned_ips: 'Unbanned <code>{ips}</code>.'
       title: 'Ban IP(lər)i'
       unban_title: 'Unban IP(lər)i'
       address_label: 'IP Ünvanı'
@@ -1492,7 +1133,6 @@ fof-anti-spam:
       move_discussions_tag_label: 'Müzakirələri karantinli etiketə köçür'
       move_discussions_tag_help: 'Bu istifadəçinin başladığı bütün müzakirələri forum ayarlarında qeyd etdiyiniz etiketə köçürəcək. Əlillər olduqda müzakirələr onların hazırkı teqlərində qalacaq.'
       process_button: Gedişat
-      title: 'Spamçı kimi {username}-i işarələ'
       report_to_sfs_label: 'StopForumSpam-a raport'
       report_to_sfs_help: 'Bununla da istifadəçinin əsas detalları (istifadəçi adı, e-mail, IP ünvanı) StopForumSpam-a məlumat veriləcək. Bu, istifadəçinin "StopForumSpam" xidmətindən istifadə edən digər forumlarda qeydiyyatdan keçməsinin qarşısını almağa kömək edəcək.'
     user_controls:
@@ -1511,18 +1151,11 @@ flarum-sticky:
     discussion_controls:
       unsticky_button: Qeyri-adi
       sticky_button: Yapışqan
-    post_stream:
-      discussion_stickied_text: '{username} müzakirə {time} yapışdırdı.'
-      discussion_unstickied_text: '{username} müzakirə {time} unstickied.'
     badge:
       sticky_tooltip: Yapışqan
   ref:
     sticky: Yapışqan
 flarum-statistics: null
-flarum-pusher:
-  forum:
-    discussion_list:
-      show_updates_text: '{count, plural, one {Show # updated discussion} digər {Show # updated discussions}}'
 flarum-lock:
   forum:
     badge:
@@ -1530,24 +1163,13 @@ flarum-lock:
     discussion_controls:
       lock_button: Qıfılla
       unlock_button: 'Kilidi aç'
-    notifications:
-      discussion_locked_text: '{username} qıfıllı'
-    post_stream:
-      discussion_locked_text: '{username} müzakirə {time} kilidlədi.'
-      discussion_unlocked_text: '{username} müzakirə {time} kilidini açdı.'
     settings:
       notify_discussion_locked_label: 'Kimsə mənim başladığım müzakirəni qıfıllayıb'
 flarum-likes:
   forum:
-    notifications:
-      post_liked_text: '{username} sizin yazınızı bəyəndi'
-      others_text: '{count, plural, one {# other} digər {# başqaları}}'
     post:
       like_link: Like
-      liked_by_self_text: '{users} belə.'
-      liked_by_text: '{count, plural, one {{users} like this} other {{users} like this}}'
       unlike_link: Fərqli
-      others_link: '{count, plural, one {# other} digər {# başqaları}}'
       you_text: Sən
     post_likes:
       title: 'Bu like edən istifadəçilər'
@@ -1602,9 +1224,6 @@ dhtml-composer:
       character_counter: 'Personaj sayğacı'
 datlechin-birthdays:
   forum:
-    user:
-      birthday_text: 'Ad günü: {tarix}'
-      age_text: 'Yaş: {age}'
     change_dob:
       title: 'Doğum tarixi'
       date_of_birth_text: 'Doğum günü'
@@ -1617,16 +1236,12 @@ datlechin-birthdays:
       dob_heading: 'Doğum günü'
     nav:
       nav_item: 'Bu günün Doğum Günləri'
-    page:
-      discussion_count: '{count, plural, bir {Müzakirə: #} digər {Müzakirə: #}}'
-      post_count: '{count, plural, one {Post: #} digər {Posts: #}}'
     edit_user:
       dob_heading: 'Doğum günü'
     sign_up:
       dob_placeholder: 'Doğum günü'
   api:
     invalid_dob_message: 'Doğum tarixi'
-    invalid_age_message: 'Sizin yaşınız ən azı {minAge} yaş olmalıdır.'
   ref:
     date_of_birth: 'Doğum günü'
 clarkwinkelmann-post-permissions: null
@@ -1662,24 +1277,13 @@ askvortsov-rich-text:
       insert_image: { src_placeholder: Bağla, title_placeholder: Başlıq }
       insert_link: { text_placeholder: Mətn, href_placeholder: URL, title_placeholder: 'Başlıq (hover üzərində göstərilir)', remove_button: Sil }
       additional_items_tooltip: 'Əlavə Tənzimləmələr'
-      bold_tooltip: 'Qalın mətn <{modifierKey}-b>'
-      code_tooltip: 'Sətiriçi kod <{modifierKey}-''>'
       code_block_tooltip: 'Kod blok daxil et'
-      header_tooltip: 'Başlıq {level} <shift-{modifierKey}-{level}> olaraq dəyişdirin'
       horizontal_rule_tooltip: 'Üfüqi qaydanı daxil et'
       image_tooltip: 'Şəkil əlavə et'
-      italic_tooltip: 'İtalik mətn <{modifierKey}-i>'
       link_tooltip: 'Körpü əlavə et'
-      ordered_list_tooltip: 'Nömrələnmiş siyahı <shift-{modifierKey}-9>'
-      paragraph_tooltip: '<shift-{modifierKey}-0>'
-      quote_tooltip: 'Sitat <{modifierKey}-q>'
       spoiler_block_tooltip: 'Blok Spoiler/Dropdown'
-      spoiler_inline_tooltip: 'Spoiler <{modifierKey}-;>'
       strike_tooltip: 'Qırtlağ <alt-shift-5>'
-      sub_tooltip: 'Altkript <{modifierKey}-,>'
-      sup_tooltip: 'Superscript <{modifierKey}-.>'
       text_type_tooltip: 'Mətn Növünü Seç'
-      unordered_list_tooltip: 'Bulleted list <shift-{modifierKey}-8>'
   forum:
     settings:
       composer_heading: Bəstəkar
@@ -1694,7 +1298,6 @@ askvortsov-pwa:
       share_button: Paylaş
     post_controls:
       share_button: Paylaş
-      share_api: { title: '{username}''nin {title}'' cavabı' }
     user_controls:
       share_button: Paylaş
     settings:
@@ -1705,20 +1308,7 @@ askvortsov-pwa:
       header: 'Şəbəkə bağlantısı xətası'
       text: 'Bu proqram şəbəkə bağlantısı tələb edir; offline istifadə edilə bilməz. Zəhmət olmasa əlaqənizi yoxlayın.'
 askvortsov-moderator-warnings:
-  emails:
-    post_warned:
-      subject: '{warner_display_name} sizi {zərbə, çoxluq, bir {# zərbə} digər {# vuruş}} ilə xəbərdar etdi {discussion_title}'
-      body: "Hey {warnee_display_name}!\n\n{warner_display_name} sizi {zərbə, çoxluq, bir {# zərbə} digər {# vuruş}} ilə xəbərdar etdi {discussion_title}\n\nAşağıdakı səbəb verilmişdir:\n\n---\n\n{public_comment}\n"
-    user_warned:
-      subject: '{warner_display_name} sizi {zərbə, çoxluq, bir {# zərbə} digər {# zərbə} ilə xəbərdar etdi'
-      body: "Hey {warnee_display_name}!\n\n{warner_display_name} sizi {zərbə, çoxluq, bir {# zərbə} digər {# zərbə} ilə xəbərdar etdi\n\nAşağıdakı səbəb verilmişdir:\n\n---\n\n{public_comment}\n"
   forum:
-    notifications:
-      warning_text: '{zərbələr, çoxluq, bir {Sizi # zərbə ilə xəbərdar etdilər {mod_username}} digər {Sizə xəbərdarlıq edildi # strikes by {mod_username}} }'
-      warning_no_strikes_text: '(Ya Rəsulum!) Sənə (peyğəmbərlər vasitəsilə) qorxudulan mod_username)'
-    post:
-      warning: '{zərbə, çoxluq, biri {{mod_username}} tərəfindən # vurulması ilə xəbərdarlıq edildi digər {{mod_username}} tərəfindən # zərbə ilə xəbərdarlıq edildi}'
-      warning_no_strikes: '(O, Allahla peyğəmbərlər arasında olan) qorxudulanların (lakin mod_username ki, bu Qur '' anı) heç kəs bilməz!'
     post_controls:
       warning_button: 'İstifadəçini xəbərdar etmək'
     user:
@@ -1735,20 +1325,14 @@ askvortsov-moderator-warnings:
     warning_list:
       add_button: 'Yeni xəbərdarlıq'
       no_warnings: 'Görünür, burada heç bir xəbərdarlıq yoxdur.'
-      warnings: '{zərbələr, çoxluğu, biri {Moderator Xəbərdarlıqları: # Strike Received} digər {Moderator Xəbərdarlıqlar: # Strikes Received}}'
       warnings_no_strikes: 'Moderatordan xəbərdarlıq: Zərbə alan olmadı'
     warning_list_item:
-      list_item_heading: '{zərbə, çoxluq, bir {<strong>#</strong> zərbə, {time}} digər {<strong>#</strong> vuruş, {time}}}'
-      list_item_heading_hidden: '{zərbə, çoxluq, bir {<strong>#</strong> vuruş, {time} <strong>(removed)</strong>} digər {<strong>#</strong> vuruş, {time} <strong>(removed)</strong>}}'
       public_comment: Xəbərdarlıq
       private_comment: 'Moderator-Kürən Şərhlər'
       linked_post: 'Bağlı Poçt'
     warning_modal:
       confirmation_message: '(Allahın əzabı ilə) sənə qorxudan (xəbərdarlıq et). Səhifəni görmək üçün onu təzələmək lazım gələ bilər.'
-      heading: '<strong>{username} xəbərdarlığı</strong>'
       strikes_heading: 'Neçə zərbə tətbiq olunmalıdır?'
-      public_comment_heading: '<strong>{username}</strong> bu xəbərdarlıqları niyə alır? Bu şərhlər istifadəçi və digər moderatorlara görünəcək.'
-      private_comment_heading: '<strong>{username}</strong> bu xəbərdarlıqları niyə alır? Bu şərhlər YALNıZ digər moderatorlara görünəcək.'
       submit_button: 'Xəbərdarlığı qeyd et'
 askvortsov-discussion-templates:
   forum:

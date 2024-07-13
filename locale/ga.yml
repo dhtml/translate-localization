@@ -3,7 +3,6 @@ core:
     change_email:
       incorrect_password_message: 'Tá an pasfhocal a d'' iontráil tú mícheart.'
       confirm_password_placeholder: 'Deimhnigh Pasfhocal'
-      confirmation_message: 'Tá ríomhphost deimhnithe seolta againn chuig {email}. Mura dtagann sé go luath, seiceáil d''fhillteán spam.'
       dismiss_button: 'Ceart go leor'
       submit_button: 'Sábháil Athruithe'
       title: 'Athraigh Ríomhphost'
@@ -26,7 +25,6 @@ core:
     composer_edit:
       discard_confirmation: 'Níor shábháil tú do chuid athruithe. An bhfuil fonn ort iad a chaitheamh i leataobh?'
       edited_message: 'Rinneadh d''eagarthóireacht.'
-      post_link: 'Post #{number} in {discussion}'
       submit_button: 'Sábháil Athruithe'
       view_button: Amharc
     composer_reply:
@@ -48,10 +46,6 @@ core:
       restore_button: Athchóirigh
     discussion_list:
       empty_text: 'Breathnaíonn sé amhail is nach bhfuil aon phlé anseo.'
-      replied_text: 'D''fhreagair {ainm úsáideora} {ago}'
-      started_text: '{ainm úsáideora} thosaigh {ago}'
-      total_replies_a11y_label: '{comhaireamh, iolra, ceann {# freagra} eile {# freagraí}}'
-      unread_replies_a11y_label: '{count, plural, one {# unread reply} eile {# freagraí neamhléite}}. Marcáil gan léamh {count, plural, one {reply} other {replies}} as read.'
       load_more_button: 'Luchtaigh Níos Mó'
     forgot_password:
       email_sent_message: 'Má tá an ríomhphost a chuir tú cláraithe leis an suíomh seo, cuirfimid ríomhphost chugat ina bhfuil nasc chun do phasfhocal a athshocrú. Seiceáil do fillteán spam mura bhfaigheann tú é laistigh den nóiméad seo chugainn nó dhó.'
@@ -107,7 +101,6 @@ core:
     notifications:
       delete_all_confirm: 'An bhfuil tú cinnte go bhfuil fonn ort gach fógra a scriosadh? Níl an gníomh seo inchúlaithe'
       delete_all_tooltip: 'Scrios gach fógra'
-      discussion_renamed_text: 'D''athraigh {ainm úsáideora} an teideal'
       empty_text: 'Gan Fógraí'
       mark_as_read_tooltip: 'Marcáil mar Léite'
       toggle_dropdown_accessible_label: 'Amharc ar fhógraí'
@@ -116,8 +109,6 @@ core:
       tooltip: Fógraí
     post:
       edited_text: 'Curtha in eagar'
-      edited_tooltip: '{ainm úsáideora} curtha in eagar {ago}'
-      number_tooltip: 'Post #{number}'
     post_controls:
       delete_confirmation: 'An bhfuil tú cinnte go bhfuil fonn ort an post seo a scriosadh go deo? Ní féidir an gníomh seo a chealú.'
       hide_confirmation: 'An bhfuil tú cinnte go bhfuil fonn ort an post seo a scriosadh?'
@@ -131,23 +122,16 @@ core:
     post_scrubber:
       now_link: Anois
       original_post_link: 'Post Bunaidh'
-      unread_text: '{comhaireamh} gan léamh'
-      viewing_text: '{count, plural, one {{index} of {formattedCount} post} other {{index} of {formattedCount} posts}}'
     post_stream:
-      discussion_renamed_old_tooltip: 'Ba é an sean-teideal: "{old}"'
-      discussion_renamed_text: 'D''athraigh {ainm úsáideora} an teideal go {new} {time}.'
-      time_lapsed_text: '{tréimhse} níos déanaí'
       load_more_button: 'Luchtaigh Níos Mó'
       reply_placeholder: 'Scríobh Freagra...'
     rename_discussion:
       title: 'Athainmnigh Plé'
       submit_button: Athainmnigh
     search:
-      all_discussions_button: 'Cuardaigh gach plé le haghaidh "{query}"'
       discussions_heading: Plé
       users_heading: Úsáideoirí
     security:
-      browser_on_operating_system: '{brabhsálaí} ar {os}'
       cannot_terminate_current_session: 'Ní féidir deireadh a chur leis an seisiún gníomhach reatha. Logáil amach ina ionad.'
       created: Cruthaithe
       current_active_session: 'Seisiún Gníomhach Reatha'
@@ -159,13 +143,11 @@ core:
       new_access_token_modal: { submit_button: 'Cruthaigh Comhartha', title_placeholder: Teideal, title: 'Comhartha Nua' }
       revoke_access_token: Cúlghair
       sessions_heading: 'Seisiúin Ghníomhacha'
-      session_terminated: '{count, plural, one {Session terminated} eile {# Sessions terminated}}.'
       session_termination_failed: 'Tharla earráid agus do sheisiúin á bhfoirceannadh.'
       show_access_token: 'Amharc ar chomhartha'
       terminate_all_other_sessions: 'Deireadh a chur le gach seisiún eile'
       terminate_session: Foirceannadh
       token_revoked: 'Comhartha cúlghairthe.'
-      token_item_title: '{title} - {comhartha}'
       token_title_placeholder: /
       never: Riamh
       new_access_token_button: 'Comhartha Nua'
@@ -174,7 +156,6 @@ core:
       title: Slándáil
     settings:
       account_heading: Cuntas
-      notification_checkbox_a11y_label_template: 'Faigh fógraí "{description}" trí {method}'
       notify_by_web_heading: Gréasán
       notify_discussion_renamed_label: 'Athainmníonn duine éigin plé a thosaigh mé'
       privacy_disclose_online_label: 'Lig do dhaoine eile a fheiceáil nuair a bhíonn mé ar líne'
@@ -186,7 +167,6 @@ core:
       title: Socruithe
     sign_up:
       log_in_text: 'An bhfuil cuntas agat cheana féin? <a>Logáil isteach</a>'
-      welcome_text: 'Fáilte, {ainm úsáideora}!'
       dismiss_button: 'Ceart go leor'
       email_placeholder: 'Naisc go dtí suíomhanna eile'
       password_placeholder: Pasfhocal
@@ -196,8 +176,6 @@ core:
     user:
       avatar_upload_button: Uasluchtú
       avatar_upload_tooltip: 'Uaslódáil avatar nua'
-      in_discussion_text: 'In {plé}'
-      joined_date_text: 'Chuaigh sé isteach {ó shin}'
       online_text: 'Ar líne'
       posts_empty_text: 'Tá an chuma air nach bhfuil aon phoist anseo.'
       avatar_remove_button: Bain
@@ -209,15 +187,12 @@ core:
     user_controls:
       button: Rialuithe
       delete_confirmation: 'An bhfuil tú cinnte go bhfuil fonn ort an t-úsáideoir seo a scriosadh? NÍ scriosfar poist an úsáideora.'
-      delete_error_message: 'Theip ar scriosadh an úsáideora <i>{username} ({email})</i>'
-      delete_success_message: 'Scriosadh an t-úsáideoir <i>{username} ({email})</i>'
       toggle_dropdown_accessible_label: 'Scoránaigh roghchlár anuas rialtáin an úsáideora'
       delete_button: Scrios
       edit_button: 'Cuir in eagar'
     user_email_confirmation:
       resend_button: 'Athdhíol Ríomhphost Deimhnithe'
       sent_message: Seolta
-      alert_message: 'Tá ríomhphost deimhnithe seolta againn chuig {email}. Mura dtagann sé go luath, seiceáil d''fhillteán spam.'
     welcome_hero:
       hide: 'Folaigh teachtaireacht fáilte'
     badge:
@@ -230,8 +205,6 @@ core:
       hidden_tooltip: Folaithe
     dropdown:
       toggle_dropdown_accessible_label: 'Scoránaigh an roghchlár anuas'
-    data_segment:
-      label: '{lipéad}:'
     edit_user:
       activate_button: 'Gníomhachtaigh Úsáideoir'
       groups_heading: Grúpaí
@@ -246,33 +219,17 @@ core:
       username_heading: 'Ainm Úsáideora'
       username_label: 'Ainm Úsáideora'
     error:
-      circular_dependencies_message: 'Braitheadh spleáchais chiorclacha: {síntí}. Tobscor. Díchumasaigh ceann de na síntí agus bain triail eile as.'
-      dependent_extensions_message: 'Ní féidir {extension} a dhíchumasú go dtí go mbeidh na síntí spleácha seo a leanas díchumasaithe: {eisínteachtaí}'
-      extension_initialiation_failed_message: 'Theip ar {extension} túsú, seiceáil consól an bhrabhsálaí le haghaidh tuilleadh eolais.'
       generic_message: 'Fonsaí! Chuaigh rud éigin mícheart. Athluchtaigh an leathanach agus bain triail eile as.'
       generic_cross_origin_message: 'Fonsaí! Chuaigh rud éigin mícheart le linn iarratas tras-tionscnaimh. Athluchtaigh an leathanach agus bain triail eile as.'
-      missing_dependencies_message: 'Ní féidir {extension} a chumasú go dtí go mbeidh na spleáchais seo a leanas cumasaithe: {extensions}'
       not_found_message: 'Níor aimsíodh an acmhainn iarrtha.'
       payload_too_large_message: 'Bhí pálasta an iarratais rómhór.'
       permission_denied_message: 'Níl cead agat é sin a dhéanamh.'
       rate_limit_exceeded_message: 'Tá tú ag dul beagáinín róghasta. Bain triail eile as i gceann cúpla soicind.'
       render_failed_message: 'Tá brón orm, thángamar ar earráid agus an t-ábhar seo á thaispeáint againn. Más úsáideoir thú, bain triail eile as níos déanaí. Más riarthóir thú, féach ar do chomhaid logála Flarum le haghaidh tuilleadh eolais.'
-    meta_titles:
-      with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} eile {{pageTitle}: Page # - {forumName}}}'
-      without_page_title: '{pageNumber, plural, =1 {{forumName}} eile {Page # - {forumName}}}'
     modal:
       close: Dún
     nav:
       drawer_button: 'Oscail Tarraiceán Nascleanúna'
-    number_suffix:
-      kilo_text: 'I dTreo'
-      mega_text: M
-    series:
-      glue_text: ', '
-      three_text: '{first}, {second}, agus {third}'
-      two_text: '{first} agus {second}'
-    username:
-      deleted_text: '[scriosta]'
     loading_indicator:
       accessible_label: 'Á Luchtú...'
   views:
@@ -290,11 +247,9 @@ core:
       invalid_confirmation_token: 'Úsáideadh an nasc deimhnithe seo cheana féin nó tá sé neamhbhailí.'
       not_authenticated: 'Níl cead agat rochtain a fháil ar an leathanach seo. Bain triail eile as tar éis logáil isteach.'
       not_found: 'Níorbh fhéidir an leathanach a d''iarr tú a aimsiú.'
-      not_found_return_link: 'Fill ar {fóram}'
       permission_denied: 'Níl cead agat rochtain a fháil ar an leathanach seo.'
       unknown: 'Tharla earráid agus iarracht á déanamh an leathanach seo a luchtú.'
     log_out:
-      log_out_confirmation: 'An bhfuil tú cinnte go bhfuil fonn ort logáil amach as {fóram}?'
       log_out_button: 'Logáil Amach'
       title: 'Logáil Amach'
     reset_password:
@@ -311,23 +266,15 @@ core:
       previous_page_button: 'An Leathanach Roimhe Seo'
   api:
     invalid_username_message: 'Ní fhéadfaidh ach litreacha, uimhreacha agus dashes a bheith san ainm úsáideora.'
-    invalid_filter_type:
-      must_be_numeric_message: 'Caithfidh an scagaire {filter} a bheith uimhriúil.'
-      must_not_be_array_message: 'Ní féidir leis an scagaire {filter} a bheith ina eagar.'
-      must_not_be_multidimensional_array_message: 'Ní féidir leis an scagaire {filter} a bheith ina eagar iltoiseach.'
   email:
     activate_account:
       subject: 'Gníomhachtaigh do chuntas nua'
-      body: "Hey {ainm úsáideora}!\n\nTá duine éigin (tá súil againn go bhfuil tú!) tar éis clárú le {fóram} leis an seoladh ríomhphoist seo.\n\nMás é seo tú, cliceáil ar an nasc seo a leanas agus cuirfear do chuntas i ngníomh:\n{url}\n\nMurar chláraigh tú, déan neamhaird den ríomhphost seo.\n"
     confirm_email:
       subject: 'Deimhnigh do sheoladh ríomhphoist nua'
-      body: "Hey {ainm úsáideora}!\n\nD'athraigh duine éigin (tá súil againn go bhfuil tú!) a seoladh ríomhphoist ar {fóram} go dtí an ceann seo.\n\nMás é seo tú, cliceáil ar an nasc seo a leanas agus deimhneofar do r-phost:\n{url}\n\nMura raibh sé seo agat, déan neamhaird den ríomhphost seo.\n"
     reset_password:
-      body: "Hey {ainm úsáideora}!\n\nTá duine éigin (tá súil againn go bhfuil tú!) tar éis iarratas dearmadta ar phasfhocal a chur isteach le haghaidh do chuntais ar {fóram}.\n\nMás tusa a bhí ann, cliceáil ar an nasc seo a leanas chun do phasfhocal a athshocrú:\n{url}\n\nMura mian leat do phasfhocal a athrú, déan neamhaird den ríomhphost seo agus ní tharlóidh aon rud.\n"
       subject: 'Athshocraigh Do Phasfhocal'
     send_test:
       subject: 'Tástáil Ríomhphoist Flarum'
-      body: "Hey {ainm úsáideora}!\n\nIs ríomhphost tástála é seo chun a dhearbhú go bhfuil do chumraíocht ríomhphoist Flarum ag obair i gceart.\n\nMás é seo tú, ciallaíonn an ríomhphost seo go n-oibríonn do chumraíocht!\n\nMura raibh sé seo agat, déan neamhaird den ríomhphost seo.\n"
   ref:
     all_discussions: 'Gach Plé'
     change_email: 'Athraigh Ríomhphost'
@@ -335,7 +282,6 @@ core:
     color: Dath
     confirm_password: 'Deimhnigh Pasfhocal'
     confirm_email: 'Deimhnigh Ríomhphost'
-    confirmation_email_sent: 'Tá ríomhphost deimhnithe seolta againn chuig {email}. Mura dtagann sé go luath, seiceáil d''fhillteán spam.'
     custom_footer_text: 'Cuir HTML leis le taispeáint ag bun an leathanaigh.'
     custom_footer_title: 'Cuir Buntásc Saincheaptha in Eagar'
     custom_header_text: 'Cuir HTML le taispeáint ag barr an leathanaigh, os cionn cheanntásc Flarum féin.'
@@ -349,7 +295,6 @@ core:
     extensions: Iarmhíreanna
     generic_confirmation_message: 'An bhfuil tú cinnte go bhfuil fonn ort dul ar aghaidh? Ní féidir an gníomh seo a chealú.'
     icon: Deilbhín
-    icon_text: 'Iontráil ainm aon aicme deilbhín <a>FontAwesome</a>, <em>lena n-áirítear</em> an réimír <code>fas fa-</code> .'
     load_more: 'Luchtaigh Níos Mó'
     loading: 'Á Luchtú...'
     log_in: 'Logáil isteach'
@@ -373,7 +318,6 @@ core:
     security: Slándáil
     settings: Socruithe
     sign_up: Cláraigh
-    some_others: '{comhaireamh, iolra, ceann {# eile} eile {# daoine eile}}'
     start_a_discussion: 'Tosaigh Plé'
     username: 'Ainm Úsáideora'
     users: Úsáideoirí
@@ -389,128 +333,12 @@ core:
     members: Baill
     mod: Modh
     mods: Modhanna
-validation:
-  accepted: 'Ní mór glacadh leis an :tréith.'
-  active_url: 'Ní URL bailí é an tréith.'
-  after: 'Ní mór an :tréith a bheith ina dáta tar éis :d ith.'
-  after_or_equal: 'Ní mór an :tréith a bheith ina dáta tar éis nó cothrom le :d ith.'
-  alpha: 'Ní mór ach litreacha a bheith san :tréith.'
-  alpha_dash: 'Ní mór an :tréith ach litreacha, uimhreacha, dashes agus underscores.'
-  alpha_num: 'Ní mór litreacha agus uimhreacha a bheith san :tréith.'
-  array: 'Ní mór an :tréith a bheith ina eagar.'
-  before: 'Ní mór an :tréith a bheith ina dáta roimh :d ith.'
-  before_or_equal: 'Ní mór an :tréith a bheith ina dáta roimh nó cothrom le :d ith.'
-  between:
-    numeric: 'Ní mór an :tréith a bheith idir :min agus:max.'
-    file: 'Ní mór an :tréith a bheith idir :min agus :max kilobytes.'
-    string: 'Ní mór an :tréith a bheith idir :min agus:max carachtair.'
-    array: 'Ní mór an :tréith a bheith idir :min agus:míreanna max.'
-  boolean: 'Ní mór don réimse :tréith a bheith fíor nó bréagach.'
-  confirmed: 'Ní mheaitseálann an deimhniú tréithe seo.'
-  date: 'Ní dáta bailí é an tréith.'
-  date_equals: 'Ní mór an :tréith a bheith ina dáta comhionann le :d ith.'
-  date_format: 'Ní mheaitseálann an tréith an fhormáid:format.'
-  different: 'Ní mór an :tréith agus :eile a bheith difriúil.'
-  digits: 'Ní mór an :tréith a bheith :d igits digití.'
-  digits_between: 'Ní mór an :tréith a bheith idir :min agus:max digits.'
-  dimensions: 'Tá toisí íomhá neamhbhailí ag an tréith.'
-  distinct: 'Tá luach dúblach ag an réimse tréith.'
-  email: 'Ní mór an :tréith a bheith ina seoladh ríomhphoist bailí.'
-  ends_with: 'Ní mór deireadh a chur leis an :tréith le ceann amháin díobh seo a leanas: :luachanna.'
-  exists: 'Tá an tréith roghnaithe neamhbhailí.'
-  file: 'Ní mór an :tréith a bheith ina chomhad.'
-  file_too_large: 'Tá an :tréith rómhór.'
-  file_upload_failed: 'Theip ar an :tréith a uaslódáil.'
-  filled: 'Ní mór go mbeadh luach ag an réimse tréith :aitreabúid.'
-  gt:
-    numeric: 'Ní mór an :tréith a bheith níos mó ná:luach.'
-    file: 'Ní mór an :tréith a bheith níos mó ná:kilobytes luach.'
-    string: 'Ní mór an :tréith a bheith níos mó ná:carachtair luach.'
-    array: 'Ní mór an :tréith a bheith níos mó ná:míreanna luach.'
-  gte:
-    numeric: 'Ní mór an :tréith a bheith níos mó ná nó cothrom :luach.'
-    file: 'Ní mór an :tréith a bheith níos mó ná nó cothrom :kilobytes luach.'
-    string: 'Ní mór an :tréith a bheith níos mó ná nó cothrom :carachtair luach.'
-    array: 'Ní mór an :tréith a bheith:míreanna luach nó níos mó.'
-  image: 'Ní mór an :tréith a bheith ina íomhá.'
-  in: 'Tá an tréith roghnaithe neamhbhailí.'
-  in_array: 'Níl an réimse :tréith ann i :eile.'
-  integer: 'Ní mór an :tréith a bheith ina slánuimhir.'
-  ip: 'Ní mór an tréith seo a bheith ina seoladh IP bailí.'
-  ipv4: 'Ní mór an :tréith a bheith ina seoladh IPv4 bailí.'
-  ipv6: 'Ní mór don tréith a bheith ina seoladh bailí IPv6.'
-  json: 'Ní mór don tréith: a bheith ina teaghrán JSON bailí.'
-  lt:
-    numeric: 'Ní mór an :tréith a bheith níos lú ná:luach.'
-    file: 'Ní mór an :tréith a bheith níos lú ná:kilobytes luach.'
-    string: 'Ní mór an :tréith a bheith níos lú ná:carachtair luach.'
-    array: 'Ní mór an :tréith a bheith níos lú ná:míreanna luach.'
-  lte:
-    numeric: 'Ní mór an :tréith a bheith níos lú ná nó cothrom :luach.'
-    file: 'Ní mór an :tréith a bheith níos lú ná nó cothrom :kilobytes luach.'
-    string: 'Ní mór an :tréith a bheith níos lú ná nó cothrom :carachtair luach.'
-    array: 'Ní mór an :tréith a bheith níos mó ná:míreanna luach.'
-  max:
-    numeric: 'Ní mór an :tréith a bheith níos mó ná:max.'
-    file: 'Ní mór an :tréith a bheith níos mó ná :kilobytes max.'
-    string: 'Ní mór an :tréith a bheith níos mó ná:carachtair max.'
-    array: 'Ní mór an :tréith a bheith níos mó ná:míreanna max.'
-  mimes: 'Ní mór an :tréith a bheith ina chomhad de chineál: :luachanna.'
-  mimetypes: 'Ní mór an :tréith a bheith ina chomhad de chineál: :luachanna.'
-  min:
-    numeric: 'Ní mór an :tréith a bheith ar a laghad:min.'
-    file: 'Ní mór an :tréith a bheith ar a laghad:min kilobytes.'
-    string: 'Ní mór an :tréith a bheith ar a laghad:carachtair min.'
-    array: 'Ní mór an :tréith a bheith ar a laghad:míreanna min.'
-  multiple_of: 'Ní mór an :tréith a bheith ina iolraí de:luach.'
-  not_in: 'Tá an tréith roghnaithe neamhbhailí.'
-  not_regex: 'Tá an fhormáid: tréith neamhbhailí.'
-  numeric: 'Ní mór an :tréith a bheith ina uimhir.'
-  password: 'Tá an pasfhocal mícheart.'
-  present: 'Ní mór an réimse :tréith a bheith i láthair.'
-  regex: 'Tá an fhormáid: tréith neamhbhailí.'
-  required: 'Tá an réimse :tréith ag teastáil.'
-  required_if: 'Is é an réimse :tréith ag teastáil nuair:eile is :luach.'
-  required_unless: 'Is é an réimse :tréith ag teastáil ach amháin :eile i :luachanna.'
-  required_with: 'Is é an réimse :tréith ag teastáil nuair a:luachanna i láthair.'
-  required_with_all: 'Is é an réimse :tréith ag teastáil nuair:luachanna i láthair.'
-  required_without: 'Is é an réimse :tréith ag teastáil nuair nach bhfuil :luachanna i láthair.'
-  required_without_all: 'Tá an réimse :tréith ag teastáil nuair nach bhfuil aon cheann de:luachanna i láthair.'
-  prohibited: 'Tá cosc ar an réimse :tréith.'
-  prohibited_if: 'Tá cosc ar an réimse :tréith nuair:eile is :luach.'
-  prohibited_unless: 'Tá cosc ar an réimse :tréith mura bhfuil :eile i:luachanna.'
-  same: 'Ní mór an :tréith agus :eile a mheaitseáil.'
-  size:
-    numeric: 'Ní mór an :tréith a bheith:méid.'
-    file: 'Ní mór an tréith :kilobytes méid.'
-    string: 'Ní mór an tréith :carachtair méid.'
-    array: 'Ní mór an :tréith go bhfuil: míreanna méid.'
-  starts_with: 'Ní mór an :tréith tús a chur le ceann amháin de na nithe seo a leanas: :luachanna.'
-  string: 'Ní mór an :tréith a bheith ina teaghrán.'
-  timezone: 'Ní mór an :tréith a bheith ina crios bailí.'
-  unique: 'Tá an :tréith tógtha cheana féin.'
-  uploaded: 'Theip ar an :tréith a uaslódáil.'
-  url: 'Tá an fhormáid: tréith neamhbhailí.'
-  uuid: 'Ní mór an tréith :a bheith ina UUID bailí.'
-  attributes:
-    username: 'ainm úsáideora'
-    password: pasfhocal
-    email: ríomhphost
-    title: teideal
-    content: ábhar
-    name_singular: 'ainm uatha'
-    name_plural: 'ainm iolra'
-    tag_count_primary: 'Líon na gclibeanna príomhúla'
-    tag_count_secondary: 'líon na gclibeanna tánaisteacha'
-  recaptcha: 'theip ar bhailíochtú reCAPTCHA.'
-  recaptcha-unknown: 'Tharla earráid anaithnid agus reCAPTCHA á bhailíochtú ({errors}).'
 flarum-tags:
   forum:
     all_tags:
       meta_description_text: 'Gach Clib'
       meta_title_text: Clibeanna
     choose_tags:
-      edit_title: 'Cuir Clibeanna in Eagar le haghaidh {title}'
       title: 'Roghnaigh Clibeanna do Do Phlé'
     discussion_controls:
       edit_tags_button: 'Cuir Clibeanna in Eagar'
@@ -520,48 +348,27 @@ flarum-tags:
       more_link: 'Níos mó ...'
       untagged_link: 'Gan clib'
       tags_link: Clibeanna
-    post_stream:
-      added_and_removed_tags_text: 'Chuir {username} an {tagsAdded} leis agus bhain sé an {tagsRemoved} {time}.'
-      added_tags_text: '{username} added the {tagsAdded} {time}.'
-      removed_tags_text: 'Bhain {ainm úsáideora} an {tagsRemoved} {time}.'
-      tags_text: '{count, plural, one {{tags} tag} eile {{tags} tags}}'
-    tag:
-      meta_description_text: 'Gach plé leis an gclib {tag}'
     composer_discussion:
       choose_tags_link: 'Roghnaigh Clibeanna'
   lib:
     deleted_tag_text: Scriosta
     tag_selection_modal:
       bypass_requirements: 'Riachtanais chlib sheachbhóthar'
-      choose_primary_placeholder: '{count, plural, one {Roghnaigh clib phríomhúil} eile {Roghnaigh # clibeanna bunscoile}}'
-      choose_secondary_placeholder: '{count, plural, one {Roghnaigh 1 chlib níos mó} eile {Roghnaigh # níos mó clibeanna}}'
-      choose_tags_placeholder: '{count, plural, one {Roghnaigh 1 chlib níos mó} eile {Roghnaigh # níos mó clibeanna}}'
       submit_button: 'Ceart go leor'
       title: 'Roghnaigh Clibeanna'
   ref:
     choose_tags: 'Roghnaigh Clibeanna'
-    choose_tags_placeholder: '{count, plural, one {Roghnaigh 1 chlib níos mó} eile {Roghnaigh # níos mó clibeanna}}'
     name: Ainm
     tags: Clibeanna
 flarum-mentions:
   forum:
     composer:
       mention_tooltip: 'Luaigh úsáideoir, grúpa nó post'
-      reply_to_post_text: 'Freagra #{number}'
     mentioned_by:
       title: 'Freagraí ar an bpost seo'
       load_more_button: 'Luchtaigh Níos Mó'
-    notifications:
-      post_mentioned_text: 'D''fhreagair {ainm úsáideora} do phost'
-      user_mentioned_text: '{ainm úsáideora} luaite agat'
-      group_mentioned_text: 'Luaigh {ainm úsáideora} grúpa a bhfuil tú i do bhall de'
-      others_text: '{comhaireamh, iolra, ceann {# eile} eile {# daoine eile}}'
     post:
-      mentioned_by_more_text: '{comhaireamh} tuilleadh freagraí.'
-      mentioned_by_self_text: 'D''fhreagair {úsáideoirí} é seo.'
-      mentioned_by_text: 'D''fhreagair {úsáideoirí} é seo.'
       quote_button: Athfhriotal
-      others_text: '{comhaireamh, iolra, ceann {# eile} eile {# daoine eile}}'
       reply_link: Freagra
       you_text: 'Tá tú'
     settings:
@@ -570,28 +377,12 @@ flarum-mentions:
       notify_group_mentioned_label: 'Luann duine éigin grúpa a bhfuil mé i mo bhall de i bpost'
     user:
       mentions_link: Luaitear
-    post_mention:
-      deleted_text: '[anaithnid]'
-    group_mention:
-      deleted_text: '[grúpa anaithnid]'
-  email:
-    post_mentioned:
-      subject: '{replier_display_name} freagra ar do phost i {title}'
-      body: "Hey {recipient_display_name}!\n\nD'fhreagair {replier_display_name} do phost (#{post_number}) in {title}.\n\n{url}\n\n---\n\n{ábhar}\n"
-    user_mentioned:
-      subject: '{mentioner_display_name} luaite agat i {title}'
-      body: "Hey {recipient_display_name}!\n\n{mentioner_display_name} luaite agat i bpost i {title}.\n\n{url}\n\n---\n\n{ábhar}\n"
-    group_mentioned:
-      subject: 'Luaigh {mentioner_display_name} grúpa a bhfuil tú i do bhall de in {title}'
-      body: "Hey {recipient_display_name}!\n\nLuaigh {mentioner_display_name} grúpa a bhfuil tú i do bhall de i {title}.\n\n{url}\n\n---\n\n{ábhar}\n"
 flarum-subscriptions:
   forum:
     discussion_controls:
       unfollow_button: Unfollow
       unignore_button: UnsirName
       follow_button: Lean
-    notifications:
-      new_post_text: '{ainm úsáideora} sa phost'
     settings:
       follow_after_reply_label: 'Lean an plé go huathoibríoch a fhreagraím'
       notify_for_all_posts_label: 'Fógra a thabhairt faoi gach post nua seachas an ceann deireanach i ndíospóireacht'
@@ -613,10 +404,6 @@ flarum-subscriptions:
       meta_title_text: 'Tar éis'
     index:
       following_link: 'Tar éis'
-  email:
-    new_post:
-      subject: '[Post Nua] {teideal}'
-      body: "Hey {recipient_display_name}!\n\nRinne {poster_display_name} post i ndíospóireacht a bhfuil tú ag leanúint: {title}.\n\nChun breathnú ar an ngníomhaíocht nua, féach ar an nasc seo a leanas:\n{url}\n\n---\n\n{ábhar}\n\n---\n\nNí bhfaighidh tú aon fhógraí eile faoin bplé seo go dtí go mbeidh tú cothrom le dáta.\n"
   ref:
     follow: Lean
     following: 'Tar éis'
@@ -625,7 +412,6 @@ flarum-flags:
   forum:
     flag_post:
       confirmation_message: 'Go raibh maith agat as flagging an post seo. Beidh ár moderators breathnú isteach air.'
-      reason_details_placeholder: 'Sonraí breise (roghnach)'
       reason_inappropriate_label: Míchuí
       reason_inappropriate_text: 'Tá an post seo maslach, maslach, nó sáraíonn sé ár <a>dtreoirlínte pobail</a>.'
       reason_missing_message: 'Tabhair roinnt sonraí dár modhnóirí le do thoil.'
@@ -639,13 +425,10 @@ flarum-flags:
       title: 'Post Bratach'
     flagged_posts:
       empty_text: 'Gan Bratacha'
-      item_text: '{ainm úsáideora} in <em>{plé}</em>'
       title: 'Poist faoi bhratach'
       tooltip: 'Poist faoi bhratach'
     post:
       dismiss_flag_button: 'Bratach a Dhíbhe'
-      flagged_by_text: 'Bratach ag {ainm úsáideora}'
-      flagged_by_with_reason_text: 'Flagged by {username} as {reason}'
     post_controls:
       flag_button: Bratach
   ref:
@@ -654,13 +437,11 @@ flarum-flags:
 flarum-suspend:
   forum:
     notifications:
-      user_suspended_text: 'Cuireadh ar fionraí thú le haghaidh {timeReadable}'
       user_suspended_indefinite_text: 'Cuireadh ar fionraí thú ar feadh tréimhse éiginnte'
       user_unsuspended_text: 'Níor cuireadh ar fionraí thú'
     suspension_info:
       dismiss_button: Ruaig
       indefinite: 'Is fionraí éiginnte é seo'
-      limited: 'Beidh an fhionraíocht seo i bhfeidhm go dtí {dáta}'
       title: 'Tá an cuntas seo ar fionraí'
     suspend_user:
       display_message: 'Taispeáin teachtaireacht don úsáideoir'
@@ -671,7 +452,6 @@ flarum-suspend:
       placeholder_optional: Roghnach
       reason: 'Cúis le fionraí'
       status_heading: 'Stádas Fionraí'
-      title: 'Cuir {ainm úsáideora} ar fionraí'
       submit_button: 'Sábháil Athruithe'
     user_badge:
       suspended_tooltip: 'Ar fionraí'
@@ -681,10 +461,8 @@ flarum-suspend:
     no_reason_given: 'Níor tugadh aon chúis leis an bhfionraí seo.'
     suspended:
       subject: 'Cuireadh do chuntas ar fionraí'
-      body: "Hey {recipient_display_name},\n\nCuireadh ar fionraí thú ar an gcúis seo a leanas:\n\n---\n{suspension_message}\n---\n"
     unsuspended:
       subject: 'Níor cuireadh do chuntas ar fionraí'
-      body: "Hey {recipient_display_name},\n\nTá tú unsuspended. Is féidir leat dul ar ais chuig an bhfóram trí chliceáil ar an nasc seo a leanas:\n\n{forum_url}\n"
 blomstra-gdpr:
   lib:
     data:
@@ -707,8 +485,6 @@ fof-upload:
       error: Earráid
       loading: Uasluchtú
       unauthorized: 'Níl cead agat comhaid a íoslódáil'
-    validation:
-      max_size: 'Ní ghlactar le huaslódálacha thar {max} kb.'
     text_preview:
       expand: 'Leathnaigh an réamhamharc'
       collapse: 'Laghdaigh an réamhamharc'
@@ -718,7 +494,6 @@ fof-upload:
   api:
     upload_errors:
       forbidden_type: 'Ní cheadaítear comhaid den chineál seo a uaslódáil.'
-      unsupported_type: 'Ní thacaíonn an cuibheoir uaslódála leis an gcineál MIME atá curtha ar fáil: {mime}.'
       could_not_detect_mime: 'Níorbh fhéidir cineál MIME an chomhaid seo a bhrath, bain triail eile as.'
       max_upload_file_size_ini: 'Uaslíon na gcomhad a baineadh amach ó php.ini.'
       max_upload_file_size_form: 'Uasluchtaigh uasteorainn chomhaid sroichte ón bhfoirm.'
@@ -727,7 +502,6 @@ fof-upload:
       no_upload_tmp_folder: 'Níl fillteán tmp ann chun comhaid a uaslódáil.'
       cannot_write_to_disk: 'Ní féidir scríobh chuig an diosca.'
       upload_blocked_by_php_extension: 'Chuir síneadh php bac ar an uaslódáil.'
-      no_files_made_it_to_upload: 'Uaslódáil comhaid nach mó ná {max} kb.'
   lib:
     upload-shared-file-modal:
       title: 'Comhad comhroinnte nua'
@@ -740,13 +514,9 @@ fof-upload:
       release_to_upload: 'Scaoileadh le huaslódáil'
       modal_empty_desktop: 'Tá do liosta comhad folamh. Cliceáil ar an gcnaipe nó tarraing comhad anseo le huaslódáil.'
       modal_empty_phone: 'Tá do liosta comhad folamh. Tapáil an cnaipe thuas chun comhad a uaslódáil.'
-      select_file_a11y_label: 'Roghnaigh comhad "{fileName}"'
-      confirm_selection_btn: '{fileCount, plural, =0 {None selected} one {Roghnaigh comhad} eile {Roghnaigh comhaid}}'
       load_more_files_btn: 'Luchtaigh tuilleadh comhad'
-      delete_file_a11y_label: 'Scrios comhad "{fileName}"'
-      delete_confirmation: 'An bhfuil tú cinnte go bhfuil fonn ort "{fileName}" a scriosadh?'
-      hide_file: { btn_a11y_label_hide: 'Folaigh "{fileName}" ó bhainisteoir na meán', btn_a11y_label_show: 'Taispeáin "{fileName}" sa bhainisteoir meán', hide_confirmation: 'An bhfuil tú cinnte go bhfuil fonn ort "{fileName}" a cheilt? Ní bhainfidh comhad a cheilt ach é ó do bhainisteoir meán agus ní dhéanfaidh sé difear do phoist atá ann cheana féin.', hide_success: 'Comhad i bhfolach', show_confirmation: 'An bhfuil tú cinnte go bhfuil fonn ort "{fileName}" a thaispeáint? Má thaispeánann tú comhad, beidh sé le feiceáil i do bhainisteoir meán.', show_success: 'Comhad léirithe', hide_fail: 'Níorbh fhéidir an comhad "{fileName}" a cheilt', show_fail: 'Níorbh fhéidir an comhad "{fileName}" a thaispeáint', loading: 'Comhad á chur i bhfolach...' }
-      hide_shared_file: { btn_a11y_label_hide: 'Déan "{fileName}" príobháideach (gan URL poiblí)', btn_a11y_label_show: 'Déan "{fileName}" poiblí (le URL poiblí)', hide_confirmation: 'An bhfuil tú cinnte go bhfuil fonn ort "{fileName}" a dhéanamh príobháideach? Má dhéantar comhad príobháideach, bainfear a URL poiblí, ach ní dhéanfaidh sé difear do phoist atá ann cheana féin. Ní bheidh sé le feiceáil a thuilleadh i mbainisteoir na meán d''úsáideoirí neamhúdaraithe.', hide_success: 'Comhad déanta príobháideach', show_confirmation: 'An bhfuil tú cinnte go bhfuil fonn ort "{fileName}" a phoibliú? Má dhéantar comhad a phoibliú, beidh sé inrochtana do dhuine ar bith a bhfuil URL poiblí acu agus is féidir le duine ar bith é a roinnt leis an mbainisteoir meán.', show_success: 'Comhad curtha ar fáil don phobal', hide_fail: 'Níorbh fhéidir comhad "{fileName}" príobháideach a dhéanamh', show_fail: 'Níorbh fhéidir an comhad "{fileName}" a phoibliú', loading: 'Comhad á dhéanamh príobháideach...' }
+      hide_file: { hide_success: 'Comhad i bhfolach', show_success: 'Comhad léirithe', loading: 'Comhad á chur i bhfolach...' }
+      hide_shared_file: { hide_success: 'Comhad déanta príobháideach', show_success: 'Comhad curtha ar fáil don phobal', loading: 'Comhad á dhéanamh príobháideach...' }
 flarum-bbcode:
   forum:
     quote:
@@ -779,8 +549,6 @@ fof-follow-tags:
       following_tag_tooltip: 'Tar éis'
       lurking_tag_tooltip: Lurking
     sub_controls:
-      header: 'Síntiús le haghaidh {tagName}'
-      subscription_label: 'Roghnaigh do leibhéal síntiúis le haghaidh {tagName}'
       following_text: 'A chur in iúl faoi gach plé nua.'
       hiding_text: 'Folaigh plé ón leathanach All Discussion.'
       ignoring_text: 'Ná cuir in iúl riamh.'
@@ -795,21 +563,8 @@ fof-follow-tags:
       hiding_button: 'I bhfolach'
       ignoring_button: Neamhaird
       lurking_button: Lurking
-    notifications:
-      new_discussion_text: 'Thosaigh {ainm úsáideora}'
-      new_post_text: '{ainm úsáideora} sa phost'
-      new_discussion_tag_text: 'D''athraigh {ainm úsáideora} an chlib'
     user:
       settings: { heading: 'Lean Clibeanna', filter_label: 'Cad atá le taispeáint de réir réamhshocraithe sa leathanach seo a leanas' }
-  email:
-    subject:
-      newDiscussionInTag: '[Clib | Plé Nua] {title}'
-      newPostInTag: '[Clib | Post Nua] {title}'
-      newDiscussionTag: '[Clib | Clib Athraithe] {title}'
-    body:
-      newDiscussionInTag: "Hey {recipient_display_name},\n\nChuir {actor_display_name} tús le plé i gclib atá á leanúint agat: {discussion_title}\n\nChun breathnú ar an bplé nua, féach ar an nasc seo a leanas:\n{discussion_url}\n\n---\n\n{post_content}\n"
-      newPostInTag: "Hey {recipient_display_name},\n\n{actor_display_name} posted in a discussion on a tag you're following: {discussion_title}\n\nChun breathnú ar an ngníomhaíocht nua, féach ar an nasc seo a leanas:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNí bhfaighidh tú aon fhógraí eile faoin bplé seo go dtí go mbeidh tú cothrom le dáta.\n"
-      newDiscussionTag: "Hey {recipient_display_name},\n\n{actor_display_name} just changed the tag on a discussion by {author_display_name} to a tag you're following {discussion_title}\n\nChun breathnú ar an bplé nua, féach ar an nasc seo a leanas:\n{discussion_url}\n"
   ref:
     follow: Lean
     following: 'Tar éis'
@@ -838,17 +593,8 @@ flarum-nicknames:
       nickname_placeholder: Leasainm
 fof-oauth:
   forum:
-    log_in:
-      with_button: 'Logáil Isteach le {provider}'
-      with_discord_button: 'Logáil Isteach le {provider}'
-      with_facebook_button: 'Logáil Isteach le {provider}'
-      with_github_button: 'Logáil Isteach le {provider}'
-      with_gitlab_button: 'Logáil Isteach le {provider}'
-      with_google_button: 'Logáil Isteach le {provider}'
-      with_linkedin_button: 'Logáil Isteach le {provider}'
-      with_twitter_button: 'Logáil Isteach le {provider}'
     user:
-      settings: { linked-account: { label: 'Cuntais nasctha', last-used-label: 'Úsáidte go deireanach', link-created-label: 'Nasc cruthaithe', orphaned-account: 'Shínigh tú isteach tríd an soláthraí seo roimhe seo, ach tá an fóram seo díchumasaithe síniú isteach leis an modh seo ó shin.', help: 'Ligeann na cuntais nasctha seo duit síniú isteach san fhóram ag baint úsáide as soláthraithe eile.', identifier-label: '{soláthraí} Aitheantas', unlink-confirm: 'An bhfuil tú cinnte go bhfuil fonn ort an nasc le {provider} a bhaint? Ní bheidh tú in ann síniú isteach san fhóram seo a thuilleadh mura ndéanfaidh tú ath-fhíordheimhniú amach anseo.' } }
+      settings: { linked-account: { label: 'Cuntais nasctha', last-used-label: 'Úsáidte go deireanach', link-created-label: 'Nasc cruthaithe', orphaned-account: 'Shínigh tú isteach tríd an soláthraí seo roimhe seo, ach tá an fóram seo díchumasaithe síniú isteach leis an modh seo ó shin.', help: 'Ligeann na cuntais nasctha seo duit síniú isteach san fhóram ag baint úsáide as soláthraithe eile.' } }
     signup:
       username_help: 'Roghnaigh ainm úsáideora atá ar eolas anseo'
     unlink: 'Bain nasc'
@@ -882,10 +628,8 @@ fof-impersonate:
   forum:
     modal:
       title: 'Logáil isteach mar úsáideoir eile'
-      label: 'Le cumhacht mhór a thagann freagracht mhór. Trí leanúint ar aghaidh, beidh tú {ainm úsáideora} go dtí go logálann tú amach.'
       placeholder_optional: '(Roghnach) Tabhair do chúis le hathrú chuig an úsáideoir seo'
       placeholder_required: 'Ní mór duit an chúis atá agat le hathrú chuig an úsáideoir seo a chur ar fáil sula dtéann tú ar aghaidh'
-      impersonate_username: 'Logáil isteach mar {ainm úsáideora}'
     user_controls:
       impersonate_button: 'Logáil isteach mar úsáideoir'
 fof-byobu:
@@ -896,7 +640,6 @@ fof-byobu:
       add_recipients: Faighteoirí
       submit: 'Ceart go leor'
       edit_recipients: 'Cuir Faighteoirí in Eagar'
-      send_pd: 'Seol teachtaireacht {ainm úsáideora}'
       cancel: 'Cuir ar ceal'
       make_public: 'An plé seo a phoibliú'
       remove_from_discussion: 'Fág an plé príobháideach seo'
@@ -905,8 +648,6 @@ fof-byobu:
       title_placeholder: 'Teideal an Phlé Phríobháidigh'
     confirm:
       make_public: 'An bhfuil tú cinnte go bhfuil fonn ort na faighteoirí a bhaint agus an plé seo a dhéanamh infheicthe do dhuine ar bith ar féidir leo an chlib shannta a fheiceáil?'
-    labels:
-      recipients: '{count, plural, one {{count} Recipient} other {{count} Recipients}}'
     nav:
       start_button: 'Pléigh go príobháideach'
       nav_item: 'Plé Príobháideach'
@@ -915,11 +656,9 @@ fof-byobu:
     search:
       headings: { groups: 'Grúpaí Ceada' }
     modal:
-      titles: { update_recipients: 'Nuashonraigh faighteoirí {title}', add_recipients: 'Cuir faighteoirí le do phlé' }
+      titles: { add_recipients: 'Cuir faighteoirí le do phlé' }
       labels: { selected_users: 'Úsáideoirí roghnaithe', search_field: 'Cuardaigh an t-úsáideoir' }
       help: { add_recipients: 'Ní bheidh an plé seo le feiceáil ach ag na húsáideoirí a roghnaíonn tú anseo. Teastaíonn faighteoir amháin ar a laghad (seachas tú féin).', update_recipients: 'Ní bheidh an plé seo le feiceáil ach ag na húsáideoirí a roghnaíonn tú anseo.', selected_users: 'Cliceáil ar ainm úsáideora chun iad a bhaint.', click_user_to_remove_tooltip: 'Cliceáil chun é a bhaint' }
-    post:
-      recipients_modified: { added_and_removed: 'Chuir {username} faighteoirí {added} leis agus baineadh {removed}.', added: '{ainm úsáideora} faighteoirí breise {added}.', made_public: 'Bhain {ainm úsáideora} gach faighteoir agus chuir sé an plé ar fáil go poiblí', removed: '{ainm úsáideora} faighteoirí bainte {bainte}.', removed_self: 'D''fhág {ainm úsáideora} an plé príobháideach.' }
     user:
       settings: { block_pd: 'Bac a chur ar phlé príobháideach' }
       byobu_link: 'Plé Príobháideach'
@@ -927,23 +666,9 @@ fof-byobu:
     notifications:
       pd_label: 'Áiríonn duine éigin mé i bplé príobháideach nua'
       pd_reply_label: 'Postálann duine éigin i ndíospóireacht phríobháideach'
-      pd_reply_text: '{ainm úsáideora} sa phost i bplé príobháideach tá tú mar chuid de'
-      pd_text: 'Chuir {ainm úsáideora} tús le plé príobháideach nua leat'
       pd_user_left_label: 'Fágann úsáideoir faighteora plé príobháideach Tá mé mar chuid de'
-      pd_user_left_text: 'D''fhág {ainm úsáideora} an plé príobháideach'
-      pd_added_text: 'Chuir {ainm úsáideora} tú le plé príobháideach'
       pd_added_label: 'Cuireann duine éigin mé le plé príobháideach atá ann cheana féin'
-  email:
-    subject:
-      private_discussion_created: '[Plé Príobháideach] Chuir {display_name} tús le plé príobháideach nua leat'
-      private_discussion_replied: '[Plé Príobháideach] {display_name} sa phost i bplé príobháideach'
-      recipient_removed: '[Plé Príobháideach] D''fhág {display_name} an plé'
-      private_discussion_added: '[Plé Príobháideach] Chuir {display_name} tú le plé príobháideach'
-    body:
-      private_discussion_created: "Hey {recipient_display_name},\n\nChuir {actor_display_name} tús le plé príobháideach nua leat mar fhaighteoir: {discussion_title}.\n\nFéach air anseo:\n{discussion_url}\n\nB'fhéidir go mbeidh ort logáil isteach ar dtús sula mbeidh tú in ann rochtain a fháil ar an nasc seo.\n"
-      private_discussion_replied: "Hey {recipient_display_name},\n\n{actor_display_name} sa phost i bplé príobháideach leat mar fhaighteoir: {discussion_title}.\n\nFéach air anseo:\n{post_url}\n\nB'fhéidir go mbeidh ort logáil isteach ar dtús sula mbeidh tú in ann rochtain a fháil ar an nasc seo.\n"
-      recipient_removed: "Hey {recipient_display_name},\n\nD'fhág {actor_display_name} an plé príobháideach: {discussion_title}. Ní bheidh siad in ann amharc ar aon cheann de na hábhair atá ann a thuilleadh.\n\nFéach air anseo:\n{discussion_url}\n\nB'fhéidir go mbeidh ort logáil isteach ar dtús sula mbeidh tú in ann rochtain a fháil ar an nasc seo.\n"
-      private_discussion_added: "Hey {recipient_display_name},\n\nChuir {actor_display_name} tú le plé príobháideach atá ann cheana féin: {discussion_title}.\n\nFéach air anseo:\n{discussion_url}\n\nB'fhéidir go mbeidh ort logáil isteach ar dtús sula mbeidh tú in ann rochtain a fháil ar an nasc seo.\n"
+  email: null
 v17development-flarum-badges:
   forum:
     badge_information: 'Eolas faoin suaitheantas'
@@ -966,17 +691,11 @@ v17development-flarum-badges:
       no_earning_reason: 'Níl aon chúis tuillimh socraithe'
       earned_on: 'Suaitheantas tuillte ar'
       category: 'Catagóir suaitheantais'
-      received_on: 'Faighte ar {date}'
       badge_details: 'Sonraí suaitheantais'
-      earned_count: '{count, plural, one {<b># user</b> has earned this badge} tá an suaitheantas seo tuillte ag <b>úsáideoirí {#</b> eile}}'
-      earned_by_count: '{count, plural, one {Earned by <b># user</b>} eile {Tuillte ag <b># úsáideoirí</b>}}'
-      others_link: '+ {comhaireamh} Níos mó'
     badges_in_card:
       title: 'Suaitheantais i gcárta úsáideora'
       manage_badges: 'Bainistigh suaitheantais'
       description: 'Is féidir leat na suaitheantais infheicthe i do chárta úsáideora a athrú le ceann de do shuaitheantais eile. Mura roghnaíonn tú aon cheann, roghnófar iad go huathoibríoch.'
-      select_limit: 'Is féidir leat {limit, plural, one {<b>one badge</b>} eile {<b># badges</b>}} a roghnú le bheith le feiceáil i do chárta úsáideora.'
-      hit_limit: 'Níl ach áit le haghaidh <b> {limit, plural, one {<b>one badge</b>} eile {<b># badges</b>}}</b> i do chárta. Díroghnaigh suaitheantas chun seomra a dhéanamh don suaitheantas seo.'
     moderation:
       remove_badge: 'Bain suaitheantas ón úsáideoir'
       remove_badge_confirm: 'An bhfuil tú cinnte go bhfuil fonn ort an suaitheantas seo a bhaint den úsáideoir seo?'
@@ -985,14 +704,10 @@ v17development-flarum-badges:
       title: 'Tá suaitheantas nua faighte agat'
       settings: 'Tá suaitheantas faighte agam'
     uncategorized: 'Gan catagóir'
-v17development-flarum-seo:
-  forum:
-    profile_title: 'Próifíl {ainm úsáideora}'
-    profile_description: 'Próifíl {ainm úsáideora} | {discussion_count} plé | {comment_count} poist'
+v17development-flarum-seo: null
 the-turk-miserable-users:
   forum:
     miserable_user:
-      title: 'Miserable {ainm úsáideora}'
       status_heading: 'Stádas Olc'
       not_miserable_label: 'Ní trua'
       indefinitely_label: 'Olc ar feadh tréimhse éiginnte'
@@ -1009,7 +724,6 @@ sycho-profile-cover:
   forum:
     cover: Clúdach
     edit_cover: 'Cuir Clúdach in Eagar'
-    notice: 'Uasmhéid: {méid}'
     added:
       success: 'Nuashonraíodh clúdach próifíle.'
       error: 'Níorbh fhéidir an íomhá a uaslódáil.'
@@ -1018,10 +732,7 @@ sycho-profile-cover:
       error: 'Níorbh fhéidir clúdach a bhaint, bain triail eile as níos déanaí.'
 sycho-photoswipe: null
 nearata-tags-color-generator: null
-nearata-prevent-double-posting:
-  forum:
-    exception:
-      too_many_replies: 'Ní cheadaítear níos mó ná {comhaireamh} freagraí as a chéile. Cuir do fhreagra roimhe seo in eagar ina ionad sin, nó fan go dtabharfaidh duine éigin freagra ort.'
+nearata-prevent-double-posting: null
 nearata-copy-code-to-clipboard:
   forum:
     copy: 'Cóipeáil go dtí an ghearrthaisce'
@@ -1030,7 +741,6 @@ michaelbelgium-flarum-profile-views:
   forum:
     user:
       viewlist: { title: 'Cuairteoirí deireanacha', guest: Aoi }
-      view_count_text: '{viewcount, plural, one {viewed {viewcount} time} eile {viewed {viewcount} times}}'
 justoverclock-country-flags:
   forum:
     inputCountryCode: 'Cód Tíre'
@@ -1058,13 +768,10 @@ ianm-syndication:
     autodiscovery:
       forum_activity: 'Gníomhaíocht an fhóraim'
       forum_new_discussions: 'Plé nua an Fhóraim'
-      tag_activity: 'Gníomhaíocht don chlib {tag}'
-      tag_new_discussions: 'Plé sa chlib {tag}'
       discussion_last_posts: 'Tá an plé seo'
       user_last_posts: 'Poist & tuairimí ag an úsáideoir seo'
     feeds:
-      entries: { user_posts: { title_reply: 'Maidir le: {plé}' } }
-      titles: { main_title: '{forum_name}', main_subtitle: 'Poist dheireanacha san fhóram', main_d_title: 'Plé nua i {forum_name}', main_d_subtitle: 'An plé is nua san fhóram', tag_title: 'Gníomhaíocht sa chlib {tag}', tag_subtitle: 'Na poist is déanaí sa chlib {tag}', tag_d_title: 'Plé nua sa chlib {tag}', tag_d_subtitle: 'An plé is nuaí sa chlib {tag}', discussion_title: '{discussion_name}', discussion_subtitle: 'Teachtaireachtaí deireanacha sa phlé seo', user_title: '{ainm úsáideora}', user_subtitle: 'Na poist is déanaí & tuairimí ag an úsáideoir seo.' }
+      titles: { main_subtitle: 'Poist dheireanacha san fhóram', main_d_subtitle: 'An plé is nua san fhóram', discussion_subtitle: 'Teachtaireachtaí deireanacha sa phlé seo', user_subtitle: 'Na poist is déanaí & tuairimí ag an úsáideoir seo.' }
     discussion:
       feed_link: Fotha
 ianm-log-viewer: null
@@ -1072,7 +779,6 @@ ianm-html-head: null
 ianm-follow-users:
   forum:
     followed: 'Ina dhiaidh sin'
-    followers: '{count, plural, one {Follower} eile {Followers}}'
     profile_page:
       no_following: 'Tá an chuma air nach bhfuil tú ag leanúint duine ar bith.'
     settings:
@@ -1081,17 +787,12 @@ ianm-follow-users:
       notify_new_discussion_label: 'Tosaíonn duine éigin a bhfuil mé ag leanúint plé'
       notify_new_post_label: 'Duine éigin a bhfuil mé ag leanúint post i bplé atá ann cheana féin'
       block_follow: 'Cuir cosc ar úsáideoirí mé a leanúint'
-    notifications:
-      new_discussion_text: 'Thosaigh {ainm úsáideora}'
-      new_post_text: '{ainm úsáideora} sa phost i bplé'
-      new_follower_text: 'Lean {ainm úsáideora} tú'
-      new_unfollower_text: 'Stop {ainm úsáideora} á leanúint agat'
     badge:
       label: { follow: 'Tar éis plé a dhéanamh', lurk: 'Tar éis gach' }
     filter:
       following: 'Úsáideoirí a leanadh'
     modals:
-      select_follow_level: { title: 'Roghnaigh an leibhéal seo a leanas le haghaidh {ainm úsáideora}', description: 'Roghnaigh conas ba mhaith leat <em>{ainm úsáideora}a</em> leanúint.', follow_levels_heading: 'Lean na leibhéil', follow_select_label: 'Lean an cineál', no_user_attr_provided_err: 'Uh oh, chuaigh rud éigin mícheart agus an modal seo á oscailt.', no_user_attr_provided_err_debug: 'Níor cuireadh aon tréith ''úsáideora'' ar aghaidh chuig an modal SelectFollowUserLevel nuair a cruthaíodh é. Ní féidir modal a dhéanamh.', save_btn: Sábháil, cancel_btn: 'Cuir ar ceal' }
+      select_follow_level: { follow_levels_heading: 'Lean na leibhéil', follow_select_label: 'Lean an cineál', no_user_attr_provided_err: 'Uh oh, chuaigh rud éigin mícheart agus an modal seo á oscailt.', no_user_attr_provided_err_debug: 'Níor cuireadh aon tréith ''úsáideora'' ar aghaidh chuig an modal SelectFollowUserLevel nuair a cruthaíodh é. Ní féidir modal a dhéanamh.', save_btn: Sábháil, cancel_btn: 'Cuir ar ceal' }
     profile_link: 'Úsáideoirí Leantacha'
     user_controls:
       follow_button: Lean
@@ -1101,37 +802,28 @@ ianm-follow-users:
       follow_tag_button: Lean
       unfollow_tag_button: 'Athraigh an cineál seo a leanas'
   email:
-    new_discussion_by_user_subject: '[Lean Úsáideoir] {teideal}'
     new_follower_subject: '[Lean Úsáideoir] Tá leantóir nua agat!'
-    new_post_subject: '[Lean Úsáideoir] Post nua i {title}'
-    new_discussion_by_user_body: "Hey {recipient_display_name},\n\nChuir {user_display_name} tús le plé nua: {discussion_title}\n\nChun breathnú ar an bplé nua, féach ar an nasc seo a leanas:\n\n{discussion_url}\n\n---\n\n{post_content}\n"
-    new_follower_body: "Hey {recipient_display_name},\n\nThosaigh {follower_display_name} ag leanúint ort, mar sin cuirfear in iúl dóibh nuair a thosaíonn tú plé nua.\n\nChun a bpróifíl a fheiceáil, féach ar an nasc seo a leanas:\n\n{profile_url}\n"
-    new_post_body: "Hey {recipient_display_name},\n\n{user_display_name} posted in a discussion: {discussion_title}\n\nChun breathnú ar an ngníomhaíocht nua, féach ar an nasc seo a leanas:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNí bhfaighidh tú aon fhógraí eile faoin bplé seo go dtí go mbeidh tú cothrom le dáta.\n"
   lib:
     following_link: 'Úsáideoirí Leantacha'
     follow: Lean
     change_follow_type: 'Athraigh an cineál seo a leanas'
     unfollow: Unfollow
     follow_levels:
-      unfollow: { name: 'Ná lean', description: "Ná faigh aon fhógraí maidir le gníomhaíocht <em>{ainm úsáideora}</em>.\n" }
-      follow: { name: 'Lean an plé', description: "Faigh fógraí nuair a thosaíonn <em>{ainm úsáideora}</em> plé nua nua.\n" }
-      lurk: { name: 'Lean gach rud', description: "Faigh fógraí nuair a thosaíonn <em>{ainm úsáideora}</em> plé nó postálacha nua laistigh d'aon phlé.\n" }
+      unfollow: { name: 'Ná lean' }
+      follow: { name: 'Lean an plé' }
+      lurk: { name: 'Lean gach rud' }
 fof-username-request:
   forum:
     nickname_modals:
-      action: { help_text: 'Cinntigh le do thoil go leanann an t-athrú leasainm iarrtha seo treoirlínte an fhóraim.', decision_title: Cinneadh, approval_label: Faomhadh, rejected_label: Diúltaigh, submit_button: 'Cuir isteach', reason_title: 'Cúis leis an Diúltú', success: 'Cinneadh seolta.', name: 'D''iarr {name} a leasainm a athrú go "{requestedName}"', title: 'Iarratas ar Athrú Leasainm' }
-      results: { title: 'Iarratas ar Athrú Leasainm', approved: 'Ceadaíodh d''iarratas ar athrú leasainm', new_name: 'Athraíodh do leasainm go: {ainm}', rejected: 'Diúltaíodh d''iarratas ar athrú leasainm', reason: 'Cúis le diúltú: <i>"{reason}"</i>.', resubmit: 'Ag an am seo is féidir leat iarratas nua ar athrú leasainm a chur isteach arís ó do shocruithe cuntais má roghnaíonn tú amhlaidh.', dismiss_button: 'Ceart go leor' }
-      request: { title: 'Iarr Athrú Leasainm', current_request: 'D''iarr tú cheana féin do leasainm a athrú go "{name}". Is féidir leat d''iarratas a nuashonrú nó é a scriosadh.', submit_button: 'Cuir Iarratas Isteach', delete_button: 'Scrios Iarratas', confirmation_message: 'Tá d''iarratas ar athrú leasainm curtha isteach agus tá sé ar feitheamh ceadaithe.', deleted: 'Scriosadh an t-iarratas leasainm.', dismiss_button: 'Ceart go leor' }
+      action: { help_text: 'Cinntigh le do thoil go leanann an t-athrú leasainm iarrtha seo treoirlínte an fhóraim.', decision_title: Cinneadh, approval_label: Faomhadh, rejected_label: Diúltaigh, submit_button: 'Cuir isteach', reason_title: 'Cúis leis an Diúltú', success: 'Cinneadh seolta.', title: 'Iarratas ar Athrú Leasainm' }
+      results: { title: 'Iarratas ar Athrú Leasainm', approved: 'Ceadaíodh d''iarratas ar athrú leasainm', rejected: 'Diúltaíodh d''iarratas ar athrú leasainm', resubmit: 'Ag an am seo is féidir leat iarratas nua ar athrú leasainm a chur isteach arís ó do shocruithe cuntais má roghnaíonn tú amhlaidh.', dismiss_button: 'Ceart go leor' }
+      request: { title: 'Iarr Athrú Leasainm', submit_button: 'Cuir Iarratas Isteach', delete_button: 'Scrios Iarratas', confirmation_message: 'Tá d''iarratas ar athrú leasainm curtha isteach agus tá sé ar feitheamh ceadaithe.', deleted: 'Scriosadh an t-iarratas leasainm.', dismiss_button: 'Ceart go leor' }
     username_modals:
-      action: { help_text: 'Cinntigh le do thoil go leanann an t-athrú ainm úsáideora iarrtha seo treoirlínte an fhóraim.', decision_title: Cinneadh, approval_label: Faomhadh, rejected_label: Diúltaigh, submit_button: 'Cuir isteach', reason_title: 'Cúis leis an Diúltú', success: 'Cinneadh seolta.', name: 'D''iarr {name} a n-ainm úsáideora a athrú go "{requestedName}"', title: 'Iarratas ar Athrú Ainm Úsáideora' }
-      results: { title: 'Iarratas ar Athrú Ainm Úsáideora', approved: 'Ceadaíodh d''iarratas ar athrú ainm úsáideora', new_name: 'Athraíodh d''ainm úsáideora go: {name}', rejected: 'Diúltaíodh d''iarratas ar athrú ainm úsáideora', reason: 'Cúis le diúltú: <i>"{reason}"</i>.', resubmit: 'Ag an am seo is féidir leat iarratas nua ar athrú ainm úsáideora a chur isteach arís ó do shocruithe cuntais má roghnaíonn tú amhlaidh.', dismiss_button: 'Ceart go leor' }
-      request: { title: 'Iarr Athrú Ainm Úsáideora', current_request: 'D''iarr tú cheana féin d''ainm úsáideora a athrú go "{name}". Is féidir leat d''iarratas a nuashonrú nó é a scriosadh.', submit_button: 'Cuir Iarratas Isteach', delete_button: 'Scrios Iarratas', confirmation_message: 'Tá d''iarratas ar athrú ainm úsáideora curtha isteach agus tá sé ar feitheamh ceadaithe.', deleted: 'Scriosadh iarratas ainm úsáideora.', dismiss_button: 'Ceart go leor' }
+      action: { help_text: 'Cinntigh le do thoil go leanann an t-athrú ainm úsáideora iarrtha seo treoirlínte an fhóraim.', decision_title: Cinneadh, approval_label: Faomhadh, rejected_label: Diúltaigh, submit_button: 'Cuir isteach', reason_title: 'Cúis leis an Diúltú', success: 'Cinneadh seolta.', title: 'Iarratas ar Athrú Ainm Úsáideora' }
+      results: { title: 'Iarratas ar Athrú Ainm Úsáideora', approved: 'Ceadaíodh d''iarratas ar athrú ainm úsáideora', rejected: 'Diúltaíodh d''iarratas ar athrú ainm úsáideora', resubmit: 'Ag an am seo is féidir leat iarratas nua ar athrú ainm úsáideora a chur isteach arís ó do shocruithe cuntais má roghnaíonn tú amhlaidh.', dismiss_button: 'Ceart go leor' }
+      request: { title: 'Iarr Athrú Ainm Úsáideora', submit_button: 'Cuir Iarratas Isteach', delete_button: 'Scrios Iarratas', confirmation_message: 'Tá d''iarratas ar athrú ainm úsáideora curtha isteach agus tá sé ar feitheamh ceadaithe.', deleted: 'Scriosadh iarratas ainm úsáideora.', dismiss_button: 'Ceart go leor' }
     pending_requests:
       empty_text: 'Níor aimsíodh aon iarratais ar athrú ainm.'
-      nickname_item_text: 'D''iarr {ainm} athrú leasainm'
-      nickname_exerpt: 'Leasainm iarrtha: {requestedName}'
-      username_item_text: 'D''iarr {ainm} athrú ainm úsáideora'
-      username_exerpt: 'Ainm úsáideora iarrtha: {requestedName}'
       tooltip: 'Iarratais ar Athrú Ainm'
       title: 'Iarratais ar Athrú Ainm'
     settings:
@@ -1149,15 +841,9 @@ fof-username-request:
   email:
     body:
       noReasonProvided: 'Níor cuireadh aon chúis ar fáil.'
-      approved: "Dia duit {recipient_display_name},\n\nTá d'iarratas chun d'ainm úsáideora a athrú go \"{new_username}\" ceadaithe ag {actor_display_name}.\n\nIs féidir leat logáil isteach anois le d'ainm úsáideora nua: {login_url}\n"
-      rejected: "Dia duit {recipient_display_name},\n\nDhiúltaigh {actor_display_name} d'iarratas chun d'ainm úsáideora a athrú ó \"{old_username}\" go \"{requested_username}\".\n\nCúis: {cúis}\n"
-    subject:
-      approved: 'Cheadaigh {display_name} d''athrú ainm úsáideora go {requested_username}'
-      rejected: 'Dhiúltaigh {display_name} d''athrú ainm úsáideora go {requested_username}'
 fof-user-bio:
   forum:
     userbioPlaceholder: 'Scríobh rud éigin fút féin'
-    userbioPlaceholderOtherUser: 'Scríobh bith le haghaidh {ainm úsáideora}'
     profile:
       cancel_confirm: 'An bhfuil tú cinnte go bhfuil fonn ort eagarthóireacht do bhith a chur ar ceal? Caillfidh tú aon athruithe atá déanta agat.'
       cancel_button: 'Cuir ar ceal'
@@ -1165,9 +851,6 @@ fof-user-bio:
       edit_bio_label: 'Cuir bith in eagar'
 fof-split:
   forum:
-    post:
-      was_split_to: '{count, plural, one {{count} post was split to {target}.} other {{count} posts were split to {target}.}}'
-      was_split_from: '{count, plural, one {{count} post was split from {target}.} other {{count} posts were split from {target}.}}'
     split:
       from: 'Scoilt as seo'
       to: 'Scoilt anseo'
@@ -1221,13 +904,11 @@ fof-reactions:
   forum:
     disabled-reaction: 'Ní féidir leat an t-imoibriú seo a úsáid anois, athnuaigh an leathanach'
     warning: 'Tiontaíodh d''imoibriú'
-    notification: 'D''fhreagair {ainm úsáideora} le {imoibriú} le do phost'
     settings:
       notify_post_reacted_label: 'Imoibríonn duine éigin le ceann de mo phoist'
     reacting-own-post: 'Ní féidir leat freagairt do do phost féin'
     modal:
       title: Frithghníomhartha
-      anonymous_count: '{count, plural, one {# anonymous user} eile {# úsáideoirí gan ainm}}'
       no_reactions: 'Níl aon fhrithghníomhartha fós ann'
     mod_item: 'Amharc ar Fhrithghníomhartha'
     react_button_label: Freagairt
@@ -1241,22 +922,19 @@ fof-profile-image-crop:
 fof-prevent-necrobumping:
   forum:
     composer:
-      warning: { title: 'Tá an plé seo níos mó ná <b>{am}</b> d''aois.', description: 'Tá sé an-dóchúil nach bhfuil gá le haon phlé breise agus dá bhrí sin bumping feidhmíonn sé aon chuspóir.', checkbox_label: 'Tuigim go bhfuil an plé seo sách sean ach ba mhaith liom freagra a thabhairt fós.', error: 'Tá an plé seo róshean le freagra a thabhairt air.' }
+      warning: { description: 'Tá sé an-dóchúil nach bhfuil gá le haon phlé breise agus dá bhrí sin bumping feidhmíonn sé aon chuspóir.', checkbox_label: 'Tuigim go bhfuil an plé seo sách sean ach ba mhaith liom freagra a thabhairt fós.', error: 'Tá an plé seo róshean le freagra a thabhairt air.' }
 fof-pretty-mail: null
 fof-polls:
   forum:
-    days_remaining: 'Críochnaíonn an vótaíocht {am}.'
     no_permission: 'Níl cead vótála agat'
     poll_ended: 'Tá deireadh leis an bpobalbhreith seo.'
     public_poll: 'Féach ar vótálaithe'
-    max_votes_allowed: 'Ceadaíonn vótaíocht vótáil le haghaidh {max, iolra, ceann {# rogha} eile {# options}}.'
     composer_discussion:
       add_poll: 'Cuir Vótaíocht Leis'
       edit_poll: 'Cuir Vótaíocht in Eagar'
     modal:
       add_title: 'Cuir Vótaíocht Leis'
       add_option_label: 'Cuir Rogha Leis'
-      date_placeholder: 'Dáta deiridh na vótaíochta (Roghnach)'
       edit_title: 'Cuir Vótaíocht in Eagar'
       include_question: 'Ní mór duit ceist a chur san áireamh'
       max: 'Is féidir leat 10 bhfreagra ar a mhéad a bheith agat'
@@ -1277,7 +955,6 @@ fof-polls:
       edit: 'Cuir Vótaíocht in Eagar'
     tooltip:
       badge: Pobalbhreith
-      votes: '{comhaireamh, iolra, ceann {# vóta} eile {# vótaí}}'
     votes_modal:
       title: Vótálaithe
 fof-nightmode:
@@ -1297,11 +974,9 @@ fof-moderator-notes:
   forum:
     no_content_given: 'Ní cheadaítear nóta folamh.'
     moderatorNotes:
-      created_text: 'Chruthaigh {ainm úsáideora} an nóta seo ar {date}'
       add_button: 'Nóta nua'
       create-heading: 'Cruthaigh nóta modhnóra nua'
       dismiss_button: Déanta
-      input_heading: 'Cuir isteach do chuid nótaí le haghaidh <strong>{ainm úsáideora}</strong>, (tacaítear le marcáil síos)'
       noNotes: 'Tá an chuma ar an scéal nach bhfuil aon nótaí anseo.'
       submit_button: 'Sábháil nóta'
       delete: Scrios
@@ -1309,8 +984,6 @@ fof-moderator-notes:
     user:
       notes: 'Nótaí Modhnóra'
   api:
-    auto_note: '_I aistrigh chuig an úsáideoir seo:_ {reason}'
-    auto_note_actor: '_Switched to_ @{username}: {cúis}'
     no_reason_provided: 'Níor cuireadh aon chúis ar fáil'
 fof-linguist: null
 fof-html-errors: null
@@ -1325,12 +998,8 @@ fof-gamification:
       name: Úsáideoir
       amount: Pointí
     notification:
-      upvote: 'Vótáil {ainm úsáideora} do phost'
-      downvote: '{ainm úsáideora} vótáil síos do phost'
       prefrences: { vote: 'Nuair a vótáiltear ar cheann de mo phoist suas / síos' }
     user:
-      card: { points: '{count, plural, one { {count} point} eile {{count} points}}' }
-      rank: '{céim}'
       votes_link: Vótaí
     modal:
       downvotes_label: 'Downvoters:'
@@ -1344,11 +1013,6 @@ fof-gamification:
     post:
       upvote_button: 'Post upvote'
       downvote_button: 'Post downvote'
-  email:
-    body:
-      postVoted: "Hey {recipient_display_name},\n\nVótáil {actor_display_name} ar do phost i {discussion_title}.\n\nFéach air anseo: {discussion_url}\n"
-    subject:
-      postVoted: 'Vótáil {display_name} ar do phost'
 fof-formatting: null
 fof-drafts:
   console:
@@ -1367,7 +1031,6 @@ fof-drafts:
       title: Dréachtaí
       delete_all_button: 'Scrios gach dréacht'
       delete_button: 'Scrios dréacht'
-      scheduled_icon_tooltip: 'Sceidealta le haghaidh {datetime}'
       scheduled_icon_tooltip_formatter: 'L [ag] LT'
       alert: 'An bhfuil tú cinnte go bhfuil fonn ort do dhréacht a scriosadh?'
       delete_all_alert: 'An bhfuil tú cinnte go bhfuil fonn ort do dhréachtaí go léir a scriosadh?'
@@ -1375,13 +1038,10 @@ fof-drafts:
       tooltip: Dréachtaí
     schedule_draft_modal:
       text: 'Sceideal do dhréacht a phost go huathoibríoch ag am níos déanaí!'
-      scheduled_text: 'Faoi láthair sceidealta a chur sa phost ar {datetime}.'
-      scheduled_error: 'Ní féidir dréacht a sceidealú: {error}.'
       unschedule_button: Dísceiplíneach
       unschedule_warning: 'An bhfuil tú cinnte go bhfuil fonn ort an dréacht seo a chealú?'
       reschedule_button: Athsceidealú
       schedule_button: Sceideal
-      schedule_time_preview: 'Foilseofar an dréacht seo go huathoibríoch ar <b>{datetime}</b>.'
       schedule_time_preview_formatter: LLLL
       schedule_time_preview_invalid: 'Dáta agus/nó am neamhbhailí'
       title: 'Dréacht sceidil'
@@ -1393,13 +1053,10 @@ fof-best-answer:
     this_best_answer: 'Roghnaigh an Freagra is Fearr'
     remove_best_answer: 'Díroghnaigh an Freagra is Fearr'
     best_answer_button: 'An Freagra is Fearr'
-    best_answer_label: 'Socraigh ag <a>{ainm úsáideora}</a> {time_set}'
     errors:
       mismatch: 'Níl an post roghnaithe ann sa phlé seo.'
     notification:
-      best_answer_in_discussion: '{ainm úsáideora} an freagra is fearr a fháil sa phlé seo'
       content: 'Roghnaigh an Freagra is Fearr má freagraíodh do cheist'
-      awarded: 'Socraíodh do phost mar an freagra is fearr ag {ainm úsáideora}'
       preferences: { awarded_best_answer: 'Socraíonn duine éigin mo phost mar fhreagra is fearr', best_answer_in_discussion: 'Tá freagra is fearr leagtha síos i ndíospóireacht ar ghlac mé páirt ann', select_best_answer: 'Meabhrúchán uathoibrithe chun an freagra is fearr a roghnú i bplé a thosaigh mé' }
     index:
       ask_question: 'Cuir Ceist'
@@ -1413,22 +1070,13 @@ fof-best-answer:
       accessible_label: 'Roghnúchán réitithe/gan réiteach'
     composer:
       titlePlaceholder: 'Teideal na ceiste'
-    user:
-      best-answer-count: '{count, plural, one { {count} best answer} eile {{count} best answers}}'
     search:
       discussions_solutions_heading: 'Plé le réitigh'
-      all_discussions_solutions_button: 'Cuardaigh gach plé le réitigh le haghaidh "{query}"'
     discussion:
       jump_to_best_answer_button: 'Féach ar Fearr'
   email:
     subject:
-      awarded: 'Socraíodh do phost mar an freagra is fearr ag {display_name}'
-      ba-set: 'Socraíodh freagra is fearr ag {display_name}'
       select: 'An raibh tú a bhainistiú a fháil do cheist a fhreagairt?'
-    body:
-      awarded: "Hey {decipient_display_name},\n\npost iontach, {actor_display_name} ach a leagtar do phost mar an freagra is fearr sa phlé: {discussion_title}. Go raibh maith agat as cabhrú amach.\n\nFéach air anseo: {discussion_url}\n"
-      ba-set: "Hey {decipient_display_name},\n\n{actor_display_name} leagan díreach freagra is fearr sa phlé: {discussion_title}, a ghlac tú i.\n\nSeiceáil sé amach: {discussion_url}\n"
-      select: "Hey {decipient_display_name},\n\nJust a sheiceáil i; ag anois ba chóir duit go leor freagraí ar do cheist: {discussion_title}. Tá súil againn ar cheann acu chabhraigh tú a réiteach do fhadhb.\n\nMás amhlaidh, bheadh sé i ndáiríre cabhrach do bhaill sa todhchaí má d'fhéadfaí tú a leagan freagra is fearr ar do cheist. Beidh sé cabhrú le daoine a bhfuil an fhadhb chéanna teacht ar an freagra is gá dóibh, agus tá sé chomh maith buíochas mór leat do na baill a chabhraigh tú amach. Tugann siad a gcuid ama go deonach, mar sin tá sé deas a ligean dóibh a fhios go bhfuil siad ag déanamh go maith.\n\nTabhair cuairt ar an plé anseo: {discussion_url}, agus roghnaigh an post is oiriúnaí mar an freagra is fearr.\n\nGo raibh maith agat!\n"
 fof-user-directory:
   lib:
     sort:
@@ -1437,8 +1085,6 @@ fof-user-directory:
 fof-ban-ips:
   forum:
     modal:
-      ban_options_only_ip: 'Ná cuir cosc ach ar IP reatha (<code>{ip}</code>)'
-      ban_options_all_ip: 'Cuir cosc ar gach IPanna a úsáideann <i>{ainm úsáideora}</i>'
       ban_ip_no_users: 'Ní chuirfear cosc ar aon duine eile'
     user_badge:
       banned_tooltip: Toirmeasc
@@ -1455,13 +1101,8 @@ fof-ban-ips:
       check_button: Seiceáil
       save_button: Sábháil
       ban_ip_confirmation: 'An bhfuil tú cinnte go bhfuil fonn ort an seoladh IP seo a bhlocáil ó úsáid ar an bhfóram? Cuirfidh sé seo bac ar úsáideoirí leis an seoladh/na seoltaí IP seo logáil isteach agus clárú.'
-      ban_ip_users: '{count, plural, one {User {users} will be banned} other {Users {users} will be banned}}'
       unban_ip_confirmation: 'An bhfuil tú cinnte go bhfuil fonn ort an t-úsáideoir seo agus gach úsáideoir eile nach gcuireann IPanna eile cosc orthu?'
-      unban_options_only_ip: 'Níl ach IP reatha unban (<code>{ip}</code>)'
-      unban_options_all_ip: 'Unban gach IPs a úsáideann <i>{ainm úsáideora}</i>'
       unban_ip_no_users: 'Ní chuirfear cosc ar aon duine eile'
-      unban_ip_users: '{count, plural, one {User {users} will be unbanned} other {Users {users} will be unbanned}}'
-      unbanned_ips: 'Unbanned <code>{ips}</code>.'
       title: 'Cosc a chur ar IP (í)'
       unban_title: 'Unban IP (í)'
       address_label: 'Seoladh IP'
@@ -1492,7 +1133,6 @@ fof-anti-spam:
       move_discussions_tag_label: 'Bog an plé chuig clib choraintín'
       move_discussions_tag_help: 'Bogfaidh sé seo gach plé a thosaigh an t-úsáideoir seo chuig an gclib a shonraigh tú i socruithe an fhóraim. Nuair a bheidh siad faoi mhíchumas, fágfar an plé ina gclibeanna reatha.'
       process_button: Próiseas
-      title: 'Marcáil {ainm úsáideora} mar spammer'
       report_to_sfs_label: 'Tuairiscigh chuig StopForumSpam'
       report_to_sfs_help: 'Tuairisceoidh sé seo sonraí bunúsacha an úsáideora (ainm úsáideora, ríomhphost, seoladh IP) chuig StopForumSpam. Cabhróidh sé seo le cosc a chur ar an úsáideoir clárú ar fhóraim eile a úsáideann an tseirbhís StopForumSpam.'
     user_controls:
@@ -1511,18 +1151,11 @@ flarum-sticky:
     discussion_controls:
       unsticky_button: Unsticky
       sticky_button: Greamaitheach
-    post_stream:
-      discussion_stickied_text: '{ainm úsáideora} stickied an plé {am}.'
-      discussion_unstickied_text: '{ainm úsáideora} unstickied an plé {time}.'
     badge:
       sticky_tooltip: Greamaitheach
   ref:
     sticky: Greamaitheach
 flarum-statistics: null
-flarum-pusher:
-  forum:
-    discussion_list:
-      show_updates_text: '{count, plural, one {Show # updated discussion} eile {Show # updated discussions}}'
 flarum-lock:
   forum:
     badge:
@@ -1530,24 +1163,13 @@ flarum-lock:
     discussion_controls:
       lock_button: Glasáil
       unlock_button: Díghlasáil
-    notifications:
-      discussion_locked_text: '{ainm úsáideora} faoi ghlas'
-    post_stream:
-      discussion_locked_text: 'Chuir {ainm úsáideora} an plé faoi ghlas {time}.'
-      discussion_unlocked_text: '{ainm úsáideora} dhíghlasáil an plé {am}.'
     settings:
       notify_discussion_locked_label: 'Cuireann duine éigin plé faoi ghlas a thosaigh mé'
 flarum-likes:
   forum:
-    notifications:
-      post_liked_text: 'Thaitin do phost le {ainm úsáideora}'
-      others_text: '{comhaireamh, iolra, ceann {# eile} eile {# daoine eile}}'
     post:
       like_link: 'Cosúil le'
-      liked_by_self_text: '{úsáideoirí} mar seo.'
-      liked_by_text: '{count, plural, one {{users} likes this} eile {{users} like this}}.'
       unlike_link: 'Murab ionann agus'
-      others_link: '{comhaireamh, iolra, ceann {# eile} eile {# daoine eile}}'
       you_text: 'Tá tú'
     post_likes:
       title: 'Úsáideoirí a dtaitníonn sé seo leo'
@@ -1602,9 +1224,6 @@ dhtml-composer:
       character_counter: 'Cuntar carachtar'
 datlechin-birthdays:
   forum:
-    user:
-      birthday_text: 'Breithlá: {date}'
-      age_text: 'Aois: {aois}'
     change_dob:
       title: 'Cuir Dáta Breithe in Eagar'
       date_of_birth_text: 'Dáta breithe'
@@ -1617,16 +1236,12 @@ datlechin-birthdays:
       dob_heading: 'Dáta breithe'
     nav:
       nav_item: 'Breithlaethanta an lae inniu'
-    page:
-      discussion_count: '{comhaireamh, iolra, ceann {Plé: #} eile {Plé: #}}'
-      post_count: '{count, plural, one {Post: #} eile {Posts: #}}'
     edit_user:
       dob_heading: 'Dáta breithe'
     sign_up:
       dob_placeholder: 'Dáta breithe'
   api:
     invalid_dob_message: 'Dáta breithe neamhbhailí'
-    invalid_age_message: 'Caithfidh d''aois a bheith ar a laghad {minAge} bliain d''aois.'
   ref:
     date_of_birth: 'Dáta breithe'
 clarkwinkelmann-post-permissions: null
@@ -1662,24 +1277,13 @@ askvortsov-rich-text:
       insert_image: { src_placeholder: Nasc, title_placeholder: Teideal }
       insert_link: { text_placeholder: Téacs, href_placeholder: URL, title_placeholder: 'Teideal (taispeánann sé ar hover)', remove_button: Bain }
       additional_items_tooltip: 'Rialuithe Breise'
-      bold_tooltip: 'Téacs trom <{modifierKey}-b>'
-      code_tooltip: 'Cód inlíne <{modifierKey}-''>'
       code_block_tooltip: 'Ionsáigh bloc cóid'
-      header_tooltip: 'Athraigh go header {level} <shift-{modifierKey}-{level}>'
       horizontal_rule_tooltip: 'Ionsáigh riail chothrománach'
       image_tooltip: 'Cuir íomhá leis'
-      italic_tooltip: 'Téacs iodálach <{modifierKey}-i>'
       link_tooltip: 'Cuir nasc leis'
-      ordered_list_tooltip: 'Liosta uimhrithe <shift-{modifierKey}-9>'
-      paragraph_tooltip: 'Athrú ar mhír <shift-{modifierKey}-0>'
-      quote_tooltip: 'Cuir isteach ceanglófar <{modifierKey}-q>'
       spoiler_block_tooltip: 'Bloc Spoiler / Dropdown'
-      spoiler_inline_tooltip: 'Spoiler <{modifierKey}-;>'
       strike_tooltip: 'Strikethrough <alt-shift-5>'
-      sub_tooltip: 'Subscript <{modifierKey}-,>'
-      sup_tooltip: 'Superscript <{modifierKey}-.>'
       text_type_tooltip: 'Roghnaigh Cineál Téacs'
-      unordered_list_tooltip: 'Liosta urchair <shift-{modifierKey}-8>'
   forum:
     settings:
       composer_heading: Cumadóir
@@ -1694,7 +1298,6 @@ askvortsov-pwa:
       share_button: Roinn
     post_controls:
       share_button: Roinn
-      share_api: { title: '{ainm úsáideora}''s reply to {title}''' }
     user_controls:
       share_button: Roinn
     settings:
@@ -1705,20 +1308,7 @@ askvortsov-pwa:
       header: 'Earráid naisc líonra'
       text: 'Tá nasc líonra de dhíth ar an bhfeidhmchlár seo; ní féidir é a úsáid as líne. Seiceáil do nasc le do thoil.'
 askvortsov-moderator-warnings:
-  emails:
-    post_warned:
-      subject: '{warner_display_name} rabhadh duit le {strikes, plural, one {# strike} eile {# strikes}} in {discussion_title}'
-      body: "Hey {warnee_display_name}!\n\n{warner_display_name} rabhadh duit le {strikes, plural, one {# strike} eile {# strikes}} in {discussion_title}\n\nTugadh an chúis seo a leanas:\n\n---\n\n{public_comment}\n"
-    user_warned:
-      subject: '{warner_display_name} rabhadh duit le {stailceanna, iolra, ceann {# stailc} eile {# stailceanna}}'
-      body: "Hey {warnee_display_name}!\n\n{warner_display_name} rabhadh duit le {stailceanna, iolra, ceann {# stailc} eile {# stailceanna}}\n\nTugadh an chúis seo a leanas:\n\n---\n\n{public_comment}\n"
   forum:
-    notifications:
-      warning_text: '{stailceanna, iolra, ceann {Tugadh rabhadh duit le # stailc ag {mod_username}} eile {Tugadh rabhadh duit le # stailceanna ag {mod_username}}}'
-      warning_no_strikes_text: 'Thug {mod_username} rabhadh duit (gan stailceanna)'
-    post:
-      warning: '{strikes, plural, one {Warned with # strike by {mod_username}} eile {Warned with # strikes by {mod_username}}}'
-      warning_no_strikes: 'Rabhadh gan aon stailceanna ag {mod_username}'
     post_controls:
       warning_button: 'Tabhair rabhadh don Úsáideoir'
     user:
@@ -1735,20 +1325,14 @@ askvortsov-moderator-warnings:
     warning_list:
       add_button: 'Rabhadh Nua'
       no_warnings: 'Tá an chuma ar an scéal nach bhfuil aon rabhadh anseo.'
-      warnings: '{stailceanna, iolra, ceann {Rabhaidh Moderator: # Stailc Faighte} eile {Rabhaidh Moderator: # Stailceanna Faighte}}'
       warnings_no_strikes: 'Rabhaidh Modhnóra: Ní bhfuarthas aon stailceanna'
     warning_list_item:
-      list_item_heading: '{strikes, plural, one {<strong>#</strong> strike, {time}} eile {<strong>#</strong> strikes, {time}}}'
-      list_item_heading_hidden: '{stailceanna, iolra, ceann {<strong>#</strong> stailc, {time} <strong>(removed)</strong>} eile {<strong>#</strong> stailceanna, {time} <strong>(removed)</strong>}}'
       public_comment: Rabhadh
       private_comment: 'Tuairimí Moderator-Infheicthe'
       linked_post: 'Post Nasctha'
     warning_modal:
       confirmation_message: 'Sábháladh do rabhadh. B''fhéidir go mbeidh ort an leathanach a athnuachan chun é a fheiceáil.'
-      heading: 'Tabhair rabhadh <strong>do {ainm úsáideora}</strong>'
       strikes_heading: 'Cé mhéad stailc ba chóir a chur i bhfeidhm?'
-      public_comment_heading: 'Cén fáth a bhfuil <strong>{ainm úsáideora}</strong> ag fáil na rabhadh seo? Beidh na tuairimí seo le feiceáil ag an úsáideoir agus ag modhnóirí eile.'
-      private_comment_heading: 'Cén fáth a bhfuil <strong>{ainm úsáideora}</strong> ag fáil na rabhadh seo? Ní bheidh na tuairimí seo le feiceáil ach amháin ag modhnóirí eile.'
       submit_button: 'Sábháil rabhadh'
 askvortsov-discussion-templates:
   forum:

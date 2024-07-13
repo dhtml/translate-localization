@@ -3,7 +3,6 @@ core:
     change_email:
       incorrect_password_message: 'Ievadītā parole ir nepareiza.'
       confirm_password_placeholder: 'Apstipriniet paroli'
-      confirmation_message: 'Mēs esam nosūtījuši apstiprinājuma e-pasta ziņojumu uz {email}. Ja tas drīz netiks saņemts, pārbaudiet surogātpasta mapi.'
       dismiss_button: LABI
       submit_button: 'Saglabāt izmaiņas'
       title: 'Mainīt e-pastu'
@@ -26,7 +25,6 @@ core:
     composer_edit:
       discard_confirmation: 'Jūs neesat saglabājis veiktās izmaiņas. Vai vēlaties tos izmest?'
       edited_message: 'Jūsu labojums tika veikts.'
-      post_link: 'Post #{number} in {discussion}'
       submit_button: 'Saglabāt izmaiņas'
       view_button: Skats
     composer_reply:
@@ -48,10 +46,6 @@ core:
       restore_button: Atjaunot
     discussion_list:
       empty_text: 'Izskatās, ka šeit nav diskusiju.'
-      replied_text: '{lietotājvārds} atbildēja {ago}'
-      started_text: '{username} sākās {ago}'
-      total_replies_a11y_label: '{skaits, daudzskaitlis, viens {# atbildēt} cits {# atbildes}}'
-      unread_replies_a11y_label: '{skaits, daudzskaitlis, viens {# nelasīta atbilde} cits {# nelasītas atbildes}}. Atzīmējiet nelasīto {skaits, daudzskaitlis, viens {reply}, otrs {atbildes}} kā lasīts.'
       load_more_button: 'Ielādēt vairāk'
     forgot_password:
       email_sent_message: 'Ja jūsu ievadītais e-pasts ir reģistrēts šajā vietnē, mēs nosūtīsim jums e-pastu, kurā ir saite, lai atjaunotu savu paroli. Pārbaudiet jūsu surogātpasta mapi, ja jūs nesaņemat to nākamajā vai otrajā minūtē.'
@@ -107,7 +101,6 @@ core:
     notifications:
       delete_all_confirm: 'Vai tiešām vēlaties izdzēst visus paziņojumus? Šī darbība nav atsaucama'
       delete_all_tooltip: 'Dzēst visus paziņojumus'
-      discussion_renamed_text: '{lietotājvārds} mainīja virsrakstu'
       empty_text: 'Nav paziņojumu'
       mark_as_read_tooltip: 'Atzīmēt kā lasītu'
       toggle_dropdown_accessible_label: 'Paziņojumu skatīšana'
@@ -116,8 +109,6 @@ core:
       tooltip: Paziņojumus
     post:
       edited_text: Rediģēt
-      edited_tooltip: '{lietotājvārds} rediģēts {ago}'
-      number_tooltip: 'Ziņa #{numurs}'
     post_controls:
       delete_confirmation: 'Vai tiešām vēlaties izdzēst šo ziņu uz visiem laikiem? Šo darbību nevar atsaukt.'
       hide_confirmation: 'Vai tiešām vēlaties izdzēst šo ziņu?'
@@ -131,23 +122,16 @@ core:
     post_scrubber:
       now_link: Tūlīt
       original_post_link: 'Sākotnējā ziņa'
-      unread_text: '{skaits} nelasīts'
-      viewing_text: '{count, plural, one {{index} of {formattedCount} post} other {{index} of {formattedCount} posts}}'
     post_stream:
-      discussion_renamed_old_tooltip: 'Vecais nosaukums bija: "{old}"'
-      discussion_renamed_text: '{username} mainīja nosaukumu uz {new} {time}.'
-      time_lapsed_text: '{periods} vēlāk'
       load_more_button: 'Ielādēt vairāk'
       reply_placeholder: 'Uzrakstiet atbildi...'
     rename_discussion:
       title: 'Pārdēvēt diskusiju'
       submit_button: Pārdēvēt
     search:
-      all_discussions_button: 'Visās diskusijās meklējiet "{query}"'
       discussions_heading: Diskusijas
       users_heading: Lietotājiem
     security:
-      browser_on_operating_system: '{browser} uz {os}'
       cannot_terminate_current_session: 'Nevar pārtraukt pašreizējo aktīvo sesiju. Tā vietā izrakstieties.'
       created: Izveidots
       current_active_session: 'Pašreizējā aktīvā sesija'
@@ -159,13 +143,11 @@ core:
       new_access_token_modal: { submit_button: 'Izveidojiet marķieri', title_placeholder: Nosaukums, title: 'Jauns marķieris' }
       revoke_access_token: Atsaukt
       sessions_heading: 'Aktīvās sesijas'
-      session_terminated: '{skaits, daudzskaitlis, viens {Sesija pārtraukta} cits {# Sesijas pārtrauktas}}.'
       session_termination_failed: 'Pārtraucot sesijas, radās kļūda.'
       show_access_token: 'Skatīt marķieri'
       terminate_all_other_sessions: 'Visu pārējo sesiju pārtraukšana'
       terminate_session: Pārtraukt
       token_revoked: 'Marķieris atsaukts.'
-      token_item_title: '{title} - {token}'
       token_title_placeholder: /
       never: Nekad
       new_access_token_button: 'Jauns marķieris'
@@ -174,7 +156,6 @@ core:
       title: Drošība
     settings:
       account_heading: Konts
-      notification_checkbox_a11y_label_template: 'Saņemiet paziņojumus "{apraksts}", izmantojot {method}'
       notify_by_web_heading: Web
       notify_discussion_renamed_label: 'Kāds pārdēvē manis sākto diskusiju'
       privacy_disclose_online_label: 'Atļauja citiem redzēt, kad esmu tiešsaistē'
@@ -186,7 +167,6 @@ core:
       title: Iestatījumus
     sign_up:
       log_in_text: 'Vai jums jau ir konts? <a>pieteikties</a>'
-      welcome_text: 'Laipni lūdzam, {lietotājvārds}!'
       dismiss_button: LABI
       email_placeholder: 'E- pasts'
       password_placeholder: Parole
@@ -196,8 +176,6 @@ core:
     user:
       avatar_upload_button: Augšupielādēt
       avatar_upload_tooltip: 'Jauna iemiesojuma augšupielāde'
-      in_discussion_text: 'Programmā {diskusija}'
-      joined_date_text: 'Pievienojās {ago}'
       online_text: Online
       posts_empty_text: 'Izskatās, ka šeit nav ziņu.'
       avatar_remove_button: Noņemt
@@ -209,15 +187,12 @@ core:
     user_controls:
       button: Vadīklas
       delete_confirmation: 'Vai tiešām vēlaties izdzēst šo lietotāju? Lietotāja ziņas NETIKS dzēstas.'
-      delete_error_message: 'Lietotāja <i>{lietotājvārds} ({email})</i> dzēšana neizdevās'
-      delete_success_message: 'Lietotājs <i>{lietotājvārds} ({email})</i> tika izdzēsts'
       toggle_dropdown_accessible_label: 'Nolaižamā izvēlne Pārslēgt lietotāja vadīklas'
       delete_button: Dzēst
       edit_button: Rediģēt
     user_email_confirmation:
       resend_button: 'Atkārtoti nosūtīt apstiprinājuma e-pastu'
       sent_message: Nosūtīts
-      alert_message: 'Mēs esam nosūtījuši apstiprinājuma e-pasta ziņojumu uz {email}. Ja tas drīz netiks saņemts, pārbaudiet surogātpasta mapi.'
     welcome_hero:
       hide: 'Paslēpt sveiciena ziņojumu'
     badge:
@@ -230,8 +205,6 @@ core:
       hidden_tooltip: Slēpts
     dropdown:
       toggle_dropdown_accessible_label: 'Nolaižamā izvēlne Pārslēgt'
-    data_segment:
-      label: '{label}:'
     edit_user:
       activate_button: 'Aktivizēt lietotāju'
       groups_heading: Grupas
@@ -246,33 +219,17 @@ core:
       username_heading: Lietotājvārds
       username_label: Lietotājvārds
     error:
-      circular_dependencies_message: 'Noteiktās cirkulārās atkarības: {extensions}. Pārtraukšana. Lūdzu, atspējojiet kādu no paplašinājumiem un mēģiniet vēlreiz.'
-      dependent_extensions_message: 'Nevar atspējot {extension}, kamēr nav atspējoti šādi atkarīgie paplašinājumi: {extensions}'
-      extension_initialiation_failed_message: '{extension} neizdevās inicializēt, papildinformāciju skatiet pārlūkprogrammas konsolē.'
       generic_message: 'Ups! Kaut kas nogāja greizi. Lūdzu, atkārtoti ielādējiet lapu un mēģiniet vēlreiz.'
       generic_cross_origin_message: 'Ups! Kaut kas nogāja greizi krustveida izcelsmes pieprasījuma laikā. Lūdzu, atkārtoti ielādējiet lapu un mēģiniet vēlreiz.'
-      missing_dependencies_message: 'Nevar iespējot {extension}, kamēr nav iespējotas šādas atkarības: {extensions}'
       not_found_message: 'Pieprasītais resurss netika atrasts.'
       payload_too_large_message: 'Pieprasījuma lietderīgā slodze bija pārāk liela.'
       permission_denied_message: 'Jums nav atļaujas to darīt.'
       rate_limit_exceeded_message: 'Jūs ejat nedaudz par ātru. Lūdzu, pēc dažām sekundēm mēģiniet vēlreiz.'
       render_failed_message: 'Atvainojiet, parādot šo saturu, mēs saskārāmies ar kļūdu. Ja esat lietotājs, lūdzu, vēlāk mēģiniet vēlreiz. Ja esat administrators, papildinformāciju skatiet savos Flarum žurnālfailos.'
-    meta_titles:
-      with_page_title: '{pageNumber, daudzskaitlis, =1 {{pageTitle} - {forumName}} cits {{pageTitle}: Page # - {forumName}}}'
-      without_page_title: '{pageNumber, daudzskaitlis, =1 {{forumName}} cits {Page # - {forumName}}}'
     modal:
       close: Aizvērt
     nav:
       drawer_button: 'Atvērt navigācijas atvilktni'
-    number_suffix:
-      kilo_text: Uz
-      mega_text: M
-    series:
-      glue_text: ', '
-      three_text: '{pirmais}, {otrais}, un {trešais}'
-      two_text: '{pirmais} un {otrais}'
-    username:
-      deleted_text: '[svītrots]'
     loading_indicator:
       accessible_label: Iekraušanas...
   views:
@@ -290,11 +247,9 @@ core:
       invalid_confirmation_token: 'Šī apstiprinājuma saite jau ir izmantota vai nav derīga.'
       not_authenticated: 'Jums nav atļaujas piekļūt šai lapai. Pēc pieteikšanās mēģiniet vēlreiz.'
       not_found: 'Jūsu pieprasīto lapu nevarēja atrast.'
-      not_found_return_link: 'Atgriezties {forum}'
       permission_denied: 'Jums nav atļaujas piekļūt šai lapai.'
       unknown: 'Mēģinot ielādēt šo lapu, radās kļūda.'
     log_out:
-      log_out_confirmation: 'Vai tiešām vēlaties atteikties no {forum}?'
       log_out_button: Atteikties
       title: Atteikties
     reset_password:
@@ -311,23 +266,15 @@ core:
       previous_page_button: 'Iepriekšējā lappuse'
   api:
     invalid_username_message: 'Lietotājvārdā drīkst būt tikai burti, cipari un domuzīmes.'
-    invalid_filter_type:
-      must_be_numeric_message: 'Filtram {filter} jābūt skaitliskam.'
-      must_not_be_array_message: 'Filtrs {filter} nedrīkst būt masīvs.'
-      must_not_be_multidimensional_array_message: 'Filtrs {filter} nedrīkst būt daudzdimensiju masīvs.'
   email:
     activate_account:
       subject: 'Aktivizējiet savu jauno kontu'
-      body: "Sveiki {lietotājvārds}!\n\nKāds (cerams, ka jūs!) ir reģistrējies {forum} ar šo e-pasta adresi.\n\nJa tas esat jūs, vienkārši noklikšķiniet uz šīs saites, un jūsu konts tiks aktivizēts:\n{url}\n\nJa neesat reģistrējies, lūdzu, ignorējiet šo e-pastu.\n"
     confirm_email:
       subject: 'Apstipriniet savu jauno e-pasta adresi'
-      body: "Sveiki {lietotājvārds}!\n\nKāds (cerams, ka jūs!) ir nomainījis savu e-pasta adresi {forum} uz šo.\n\nJa tas esat jūs, vienkārši noklikšķiniet uz šīs saites, un jūsu e-pasts tiks apstiprināts:\n{url}\n\nJa tas neesat jūs, lūdzu, ignorējiet šo e-pastu.\n"
     reset_password:
-      body: "Sveiki {lietotājvārds}!\n\nKāds (cerams, ka jūs!) ir iesniedzis aizmirstu paroles pieprasījumu jūsu kontam vietnē {forum}.\n\nJa tas esat jūs, noklikšķiniet uz šīs saites, lai atiestatītu savu paroli:\n{url}\n\nJa nevēlaties mainīt paroli, vienkārši ignorējiet šo e-pastu, un nekas nenotiks.\n"
       subject: 'Paroles atiestatīšana'
     send_test:
       subject: 'Flarum e-pasta pārbaude'
-      body: "Sveiki {lietotājvārds}!\n\nŠis ir testa e-pasts, lai apstiprinātu, ka jūsu Flarum e-pasta konfigurācija darbojas pareizi.\n\nJa tas esat jūs, šis e-pasts nozīmē, ka jūsu konfigurācija darbojas!\n\nJa tas neesat jūs, lūdzu, ignorējiet šo e-pastu.\n"
   ref:
     all_discussions: 'Visas diskusijas'
     change_email: 'Mainīt e-pastu'
@@ -335,7 +282,6 @@ core:
     color: Krāsa
     confirm_password: 'Apstipriniet paroli'
     confirm_email: 'Apstipriniet e-pastu'
-    confirmation_email_sent: 'Mēs esam nosūtījuši apstiprinājuma e-pasta ziņojumu uz {email}. Ja tas drīz netiks saņemts, pārbaudiet surogātpasta mapi.'
     custom_footer_text: 'Pievienojiet HTML, lai tas tiktu parādīts pašā lapas apakšā.'
     custom_footer_title: 'Pielāgotas kājenes rediģēšana'
     custom_header_text: 'Pievienojiet HTML, lai tas tiktu parādīts pašā lapas augšdaļā, virs paša Flarum galvenes.'
@@ -349,7 +295,6 @@ core:
     extensions: Paplašinājumi
     generic_confirmation_message: 'Vai tiešām vēlaties turpināt? Šo darbību nevar atsaukt.'
     icon: Ikona
-    icon_text: 'Ievadiet jebkuras <a>FontAwesome</a> ikonu klases nosaukumu, <em>ieskaitot</em> <code>prefiksu fas fa.</code>'
     load_more: 'Ielādēt vairāk'
     loading: Iekraušanas...
     log_in: Pieteikties
@@ -373,7 +318,6 @@ core:
     security: Drošība
     settings: Iestatījumus
     sign_up: Piedalīties
-    some_others: '{skaits, daudzskaitlis, viens {# cits} cits {# citi}}'
     start_a_discussion: 'Diskusijas sākšana'
     username: Lietotājvārds
     users: Lietotājiem
@@ -389,128 +333,12 @@ core:
     members: Dalībnieki
     mod: Veidā
     mods: Modi
-validation:
-  accepted: 'Atribūts :atribūts ir jāpieņem.'
-  active_url: 'Atribūts :attribute nav derīgs URL.'
-  after: 'Atribūtam :atribūtam jābūt datumam pēc :d ēšanas.'
-  after_or_equal: 'Atribūtam :atribūtam jābūt datumam pēc vai vienādam ar :d ate.'
-  alpha: 'Atribūtā :atribūtā drīkst būt tikai burti.'
-  alpha_dash: 'Atribūtā :atribūtā drīkst būt tikai burti, cipari, domuzīmes un pasvītrojumi.'
-  alpha_num: 'Atribūtā :atribūtā drīkst būt tikai burti un cipari.'
-  array: 'Atribūtam :atribūtam jābūt masīvam.'
-  before: 'Atribūtam :atribūtam jābūt datumam pirms :d ēšanas.'
-  before_or_equal: 'Atribūtam :atribūtam jābūt datumam pirms vai vienādam ar :d ate.'
-  between:
-    numeric: 'Atribūtam :atribūtam jābūt starp :min un :max.'
-    file: 'Atribūtam :atribūtam jābūt starp :min un :max kilobaitiem.'
-    string: 'Atribūtam :atribūtam jābūt starp :min un :max rakstzīmēm.'
-    array: 'Atribūtam :atribūtam jābūt starp :min un :max.'
-  boolean: 'Atribūta laukam :atribūts ir patiess vai aplams.'
-  confirmed: 'Atribūta :atribūta apstiprinājums nesakrīt.'
-  date: 'Atribūts :nav derīgs datums.'
-  date_equals: 'Atribūtam :atribūtam jābūt datumam, kas vienāds ar :d ate.'
-  date_format: 'Atribūts :atribūts neatbilst formātam :format.'
-  different: 'Atribūtam :atribūtam un :citam jābūt atšķirīgam.'
-  digits: 'Atribūtam jābūt :d igits cipariem.'
-  digits_between: 'Atribūtam :atribūtam jābūt starp :min un :max cipariem.'
-  dimensions: 'Atribūtam :atribūtam ir nederīgas attēla dimensijas.'
-  distinct: 'Atribūta laukam :attribute ir dublēta vērtība.'
-  email: 'Atribūtam :attribute ir jābūt derīgai e-pasta adresei.'
-  ends_with: 'Atribūtam :atribūtam jābeidzas ar vienu no šiem: :values.'
-  exists: 'Atlasītais :atribūts nav derīgs.'
-  file: 'Atribūtam :attribute ir jābūt failam.'
-  file_too_large: 'Atribūts :atribūts ir pārāk liels.'
-  file_upload_failed: 'Atribūtu :neizdevās augšupielādēt.'
-  filled: 'Atribūta laukam :atribūtam ir jābūt vērtībai.'
-  gt:
-    numeric: 'Atribūtam :jābūt lielākam par :vērtību.'
-    file: 'Atribūtam :jābūt lielākam par :value kilobaitiem.'
-    string: 'Atribūtam :atribūtam jābūt lielākam par :value rakstzīmēm.'
-    array: 'Atribūtam :atribūtam ir jābūt vairāk nekā :value vienumiem.'
-  gte:
-    numeric: 'Atribūtam :atribūtam jābūt lielākam vai vienādam ar :vērtību.'
-    file: 'Atribūtam :atribūtam jābūt lielākam vai vienādam ar :value kilobaitiem.'
-    string: 'Atribūtam :atribūtam jābūt lielākam vai vienādam ar :value rakstzīmēm.'
-    array: 'Atribūtam :atribūtam ir jābūt vienumiem :value vai vairāk.'
-  image: 'Atribūtam :atribūtam jābūt attēlam.'
-  in: 'Atlasītais :atribūts nav derīgs.'
-  in_array: 'Atribūta :atribūta lauks neeksistē :other.'
-  integer: 'Atribūtam :atribūtam jābūt veselam skaitlim.'
-  ip: 'Atribūtam :atribūtam jābūt derīgai IP adresei.'
-  ipv4: 'Atribūtam :atribūtam jābūt derīgai IPv4 adresei.'
-  ipv6: 'Atribūtam :atribūtam jābūt derīgai IPv6 adresei.'
-  json: 'Atribūtam :atribūtam jābūt derīgai JSON virknei.'
-  lt:
-    numeric: 'Atribūtam :atribūtam jābūt mazākam par :vērtību.'
-    file: 'Atribūtam :atribūtam jābūt mazākam par :value kilobaitiem.'
-    string: 'Atribūtam :atribūtam jābūt mazākam par :value rakstzīmēm.'
-    array: 'Atribūtam :atribūtam jābūt mazākam par :value vienumiem.'
-  lte:
-    numeric: 'Atribūtam :atribūtam jābūt mazākam vai vienādam ar :vērtību.'
-    file: 'Atribūtam :atribūtam jābūt mazākam vai vienādam ar :value kilobaitiem.'
-    string: 'Atribūtam :atribūtam jābūt mazākam vai vienādam ar :value rakstzīmēm.'
-    array: 'Atribūtam :vērtība nedrīkst būt vairāk par :value vienumiem.'
-  max:
-    numeric: 'Atribūts :atribūts nedrīkst būt lielāks par :max.'
-    file: 'Atribūts :atribūts nedrīkst būt lielāks par :max kilobaitiem.'
-    string: 'Atribūts :atribūts nedrīkst būt lielāks par :max rakstzīmēm.'
-    array: 'Atribūtam :max nedrīkst būt vairāk par :max vienumiem.'
-  mimes: 'Atribūtam :atribūtam jābūt failam, kura tips ir: :vērtības.'
-  mimetypes: 'Atribūtam :atribūtam jābūt failam, kura tips ir: :vērtības.'
-  min:
-    numeric: 'Atribūtam :atribūtam jābūt vismaz :min.'
-    file: 'Atribūtam :atribūtam jābūt vismaz :min kilobaitiem.'
-    string: 'Atribūtam :atribūtam jābūt vismaz :min rakstzīmēm.'
-    array: 'Atribūtam :atribūtam jābūt vismaz :min vienumiem.'
-  multiple_of: 'Atribūtam :atribūtam jābūt :value daudzkārtnim.'
-  not_in: 'Atlasītais :atribūts nav derīgs.'
-  not_regex: 'Atribūta :formāts nav derīgs.'
-  numeric: 'Atribūtam :atribūtam jābūt skaitlim.'
-  password: 'Parole ir nepareiza.'
-  present: 'Atribūta laukam :atribūts ir jābūt.'
-  regex: 'Atribūta :formāts nav derīgs.'
-  required: 'Atribūta lauks :ir obligāts.'
-  required_if: 'Atribūta lauks :ir obligāts, ja :cits ir :vērtība.'
-  required_unless: 'Atribūta lauks :ir obligāts, ja vien :other nav :values.'
-  required_with: 'Atribūta lauks :ir obligāts, ja ir :values.'
-  required_with_all: 'Atribūta lauks :ir obligāts, ja ir :vērtības.'
-  required_without: 'Atribūta lauks :ir obligāts, ja :values nav.'
-  required_without_all: 'Atribūta lauks :ir obligāts, ja nav nevienas no :vērtībām.'
-  prohibited: 'Atribūta lauks :ir aizliegts.'
-  prohibited_if: 'Atribūta lauks :ir aizliegts, ja :cits ir :vērtība.'
-  prohibited_unless: 'Atribūta lauks :ir aizliegts, ja vien :cits nav :vērtībās.'
-  same: 'Atribūtam :atribūtam un :citam ir jāsakrīt.'
-  size:
-    numeric: 'Atribūtam :atribūtam jābūt :size.'
-    file: 'Atribūtam :atribūtam jābūt :size kilobaitiem.'
-    string: 'Atribūtam :atribūtam jābūt :size rakstzīmēm.'
-    array: 'Atribūtā :atribūtā jābūt vienumiem :size.'
-  starts_with: 'Atribūtam :atribūtam jāsākas ar vienu no šiem: :vērtības.'
-  string: 'Atribūtam :atribūtam jābūt virknei.'
-  timezone: 'Atribūtam :atribūtam jābūt derīgai zonai.'
-  unique: 'Atribūts :atribūts jau ir pieņemts.'
-  uploaded: 'Atribūtu :neizdevās augšupielādēt.'
-  url: 'Atribūta :formāts nav derīgs.'
-  uuid: 'Atribūtam :atribūtam jābūt derīgam UUID.'
-  attributes:
-    username: lietotājvārds
-    password: parole
-    email: E-pasts
-    title: Nosaukums
-    content: Saturu
-    name_singular: 'vienskaitļa vārds'
-    name_plural: 'daudzskaitļa nosaukums'
-    tag_count_primary: 'primāro tagu skaits'
-    tag_count_secondary: 'sekundāro birku skaits'
-  recaptcha: 'reCAPTCHA validācija neizdevās.'
-  recaptcha-unknown: 'Validējot reCAPTCHA ({errors}), radās nezināma kļūda.'
 flarum-tags:
   forum:
     all_tags:
       meta_description_text: 'Visi tagi'
       meta_title_text: Tags
     choose_tags:
-      edit_title: 'Tagu rediģēšana operētājsistēmai {title}'
       title: 'Atzīmju izvēle diskusijai'
     discussion_controls:
       edit_tags_button: 'Atzīmju rediģēšana'
@@ -520,48 +348,27 @@ flarum-tags:
       more_link: Vairāk...
       untagged_link: 'Bez tagiem'
       tags_link: Tags
-    post_stream:
-      added_and_removed_tags_text: '{username} pievienoja {tagsAdded} un noņēma {tagsRemoved} {time}.'
-      added_tags_text: '{username} pievienoja {tagsAdded} {time}.'
-      removed_tags_text: '{username} noņēma {tagsRemoved} {time}.'
-      tags_text: '{count, plural, one {{tags} tag} other {{tags} tags}}'
-    tag:
-      meta_description_text: 'Visas diskusijas ar tagu {tag}'
     composer_discussion:
       choose_tags_link: 'Izvēlieties Atzīmes'
   lib:
     deleted_tag_text: Izdzēsts
     tag_selection_modal:
       bypass_requirements: 'Apvedceļa tagu prasības'
-      choose_primary_placeholder: '{skaits, daudzskaitlis, viens {Izvēlieties primāro tagu} cits {Izvēlieties # primāros tagus}}'
-      choose_secondary_placeholder: '{skaits, daudzskaitlis, viens {Izvēlieties vēl 1 tagu} cits {Izvēlieties # vairāk tagu}}'
-      choose_tags_placeholder: '{skaits, daudzskaitlis, viens {Izvēlieties vēl 1 tagu} cits {Izvēlieties # vairāk tagu}}'
       submit_button: LABI
       title: 'Izvēlieties Atzīmes'
   ref:
     choose_tags: 'Izvēlieties Atzīmes'
-    choose_tags_placeholder: '{skaits, daudzskaitlis, viens {Izvēlieties vēl 1 tagu} cits {Izvēlieties # vairāk tagu}}'
     name: Vārds
     tags: Tags
 flarum-mentions:
   forum:
     composer:
       mention_tooltip: 'Lietotāja, grupas vai ziņas pieminēšana'
-      reply_to_post_text: 'Atbildēt uz #{number}'
     mentioned_by:
       title: 'Atbildes uz šo ziņu'
       load_more_button: 'Ielādēt vairāk'
-    notifications:
-      post_mentioned_text: '{lietotājvārds} atbildēja uz jūsu ziņu'
-      user_mentioned_text: '{lietotājvārds} tevi pieminēja'
-      group_mentioned_text: '{username} minēja grupu, kuras dalībnieks esat'
-      others_text: '{skaits, daudzskaitlis, viens {# cits} cits {# citi}}'
     post:
-      mentioned_by_more_text: '{count} vairāk atbilžu.'
-      mentioned_by_self_text: '{lietotāji} uz to atbildēja.'
-      mentioned_by_text: '{lietotāji} uz to atbildēja.'
       quote_button: Citēt
-      others_text: '{skaits, daudzskaitlis, viens {# cits} cits {# citi}}'
       reply_link: Atbildi
       you_text: Tu
     settings:
@@ -570,28 +377,12 @@ flarum-mentions:
       notify_group_mentioned_label: 'Kāds ierakstā piemin grupu, kuras dalībnieks esmu'
     user:
       mentions_link: Minēts
-    post_mention:
-      deleted_text: '[nav zināms]'
-    group_mention:
-      deleted_text: '[nezināma grupa]'
-  email:
-    post_mentioned:
-      subject: '{replier_display_name} atbildēja uz jūsu ziņu {title}'
-      body: "Čau {recipient_display_name}!\n\n{replier_display_name} atbildēja uz jūsu ziņu (#{post_number}) sadaļā {title}.\n\n{url}\n\n---\n\n{saturs}\n"
-    user_mentioned:
-      subject: '{mentioner_display_name} tevi pieminēja {title}'
-      body: "Čau {recipient_display_name}!\n\n{mentioner_display_name} pieminēja jūs ierakstā {title}.\n\n{url}\n\n---\n\n{saturs}\n"
-    group_mentioned:
-      subject: '{mentioner_display_name} minēja grupu, kuras dalībnieks esat {title}'
-      body: "Čau {recipient_display_name}!\n\n{mentioner_display_name} minēja grupu, kuras dalībnieks esat {title}.\n\n{url}\n\n---\n\n{saturs}\n"
 flarum-subscriptions:
   forum:
     discussion_controls:
       unfollow_button: 'Sekošanas pārtraukšana'
       unignore_button: Unsir
       follow_button: Sekot
-    notifications:
-      new_post_text: '{lietotājvārds} publicēts'
     settings:
       follow_after_reply_label: 'Automātiska sekošana diskusijām, uz kurām es atbildu'
       notify_for_all_posts_label: 'Paziņojiet par katru jaunu ziņu, nevis tikai par pēdējo diskusiju'
@@ -613,10 +404,6 @@ flarum-subscriptions:
       meta_title_text: Šādi
     index:
       following_link: Šādi
-  email:
-    new_post:
-      subject: '[Jauna ziņa] {title}'
-      body: "Čau {recipient_display_name}!\n\n{poster_display_name} izveidoja ziņu diskusijā, kurai sekojat: {title}.\n\nLai skatītu jauno darbību, skatiet šo saiti:\n{url}\n\n---\n\n{saturs}\n\n---\n\nJūs vairs nesaņemsit paziņojumus par šo diskusiju, kamēr nebūsit atjaunināts.\n"
   ref:
     follow: Sekot
     following: Šādi
@@ -625,7 +412,6 @@ flarum-flags:
   forum:
     flag_post:
       confirmation_message: 'Paldies, ka atzīmējāt šo ziņu. Mūsu moderatori to izskatīs.'
-      reason_details_placeholder: 'Papildu informācija (pēc izvēles)'
       reason_inappropriate_label: Nepiemērots
       reason_inappropriate_text: 'Šī ziņa ir aizvainojoša, aizskaroša vai pārkāpj mūsu <a>kopienas vadlīnijas</a>.'
       reason_missing_message: 'Lūdzu, sniedziet sīkāku informāciju par mūsu moderatoriem.'
@@ -639,13 +425,10 @@ flarum-flags:
       title: 'Karoga stabs'
     flagged_posts:
       empty_text: 'Nav karogu'
-      item_text: '{lietotājvārds} in <em>{diskusija}</em>'
       title: 'Ziņas ar karodziņiem'
       tooltip: 'Ziņas ar karodziņiem'
     post:
       dismiss_flag_button: 'Noraidīt karodziņu'
-      flagged_by_text: 'Atzīmēts ar {lietotājvārds}'
-      flagged_by_with_reason_text: 'Atzīmēts ar {username} kā {reason}'
     post_controls:
       flag_button: Karogs
   ref:
@@ -654,13 +437,11 @@ flarum-flags:
 flarum-suspend:
   forum:
     notifications:
-      user_suspended_text: 'Jūs esat aizturēts uz {timeReadable}'
       user_suspended_indefinite_text: 'Jūs esat atstādināts no amata uz nenoteiktu laiku'
       user_unsuspended_text: 'Jūs esat atstādināts no amata'
     suspension_info:
       dismiss_button: Noraidīt
       indefinite: 'Tā ir apturēšana uz nenoteiktu laiku'
-      limited: 'Šī apturēšana būs spēkā līdz {datums}'
       title: 'Šī konta darbība ir apturēta'
     suspend_user:
       display_message: 'Rādīt ziņojumu lietotājam'
@@ -671,7 +452,6 @@ flarum-suspend:
       placeholder_optional: Neobligāti
       reason: 'Apturēšanas iemesls'
       status_heading: 'Apturēšanas statuss'
-      title: 'Apturēt {lietotājvārds}'
       submit_button: 'Saglabāt izmaiņas'
     user_badge:
       suspended_tooltip: Apturēta
@@ -681,10 +461,8 @@ flarum-suspend:
     no_reason_given: 'Šādai apturēšanai netika sniegts nekāds pamatojums.'
     suspended:
       subject: 'Jūsu konta darbība ir apturēta'
-      body: "Čau {recipient_display_name},\n\nJūs esat atstādināts no amata šāda iemesla dēļ:\n\n---\n{suspension_message}\n---\n"
     unsuspended:
       subject: 'Jūsu konta darbība ir pārtraukta'
-      body: "Čau {recipient_display_name},\n\nJūs esat bijis neatstādināts. Jūs varat doties atpakaļ uz forumu, noklikšķinot uz šīs saites:\n\n{forum_url}\n"
 blomstra-gdpr:
   lib:
     data:
@@ -707,8 +485,6 @@ fof-upload:
       error: Kļūda
       loading: Augšupielādējot
       unauthorized: 'Jums nav atļauts lejupielādēt failus'
-    validation:
-      max_size: 'Augšupielādes, kas pārsniedz {max} kb, netiek pieņemtas.'
     text_preview:
       expand: 'Izvērst priekšskatījumu'
       collapse: 'Sakļaušanas priekšskatījums'
@@ -718,7 +494,6 @@ fof-upload:
   api:
     upload_errors:
       forbidden_type: 'Šāda veida failu augšupielāde nav atļauta.'
-      unsupported_type: 'Augšupielādes adapteris neatbalsta norādīto mīmikas tipu: {mime}.'
       could_not_detect_mime: 'Nevarēja noteikt šī faila MIME tipu, lūdzu, mēģiniet vēlreiz.'
       max_upload_file_size_ini: 'Augšupielādes maksimālais failu izmēra ierobežojums sasniegts no php.ini.'
       max_upload_file_size_form: 'Augšupielādējiet maksimālo faila lieluma ierobežojumu, kas sasniegts no veidlapas.'
@@ -727,7 +502,6 @@ fof-upload:
       no_upload_tmp_folder: 'Nav tmp mapes failu augšupielādei.'
       cannot_write_to_disk: 'Nevar rakstīt diskā.'
       upload_blocked_by_php_extension: 'PHP paplašinājums bloķēja augšupielādi.'
-      no_files_made_it_to_upload: 'Lūdzu, augšupielādējiet failus, kas nav lielāki par {max} kb.'
   lib:
     upload-shared-file-modal:
       title: 'Jauns koplietots fails'
@@ -740,13 +514,9 @@ fof-upload:
       release_to_upload: 'Laidiens augšupielādei'
       modal_empty_desktop: 'Failu saraksts ir tukšs. Noklikšķiniet uz pogas vai velciet failu šeit, lai augšupielādētu.'
       modal_empty_phone: 'Failu saraksts ir tukšs. Pieskarieties iepriekš redzamajai pogai, lai augšupielādētu failu.'
-      select_file_a11y_label: 'Atlasiet failu "{fileName}"'
-      confirm_selection_btn: '{fileCount, daudzskaitlis, =0 {Nav atlasīts} viens {Select file} cits {Select files}}'
       load_more_files_btn: 'Ielādēt vairāk failu'
-      delete_file_a11y_label: 'Dzēst failu "{fileName}"'
-      delete_confirmation: 'Vai tiešām vēlaties izdzēst "{fileName}"?'
-      hide_file: { btn_a11y_label_hide: '"{fileName}" paslēpšana no multivides pārvaldnieka', btn_a11y_label_show: 'Rādīt "{fileName}" multivides pārvaldniekā', hide_confirmation: 'Vai tiešām vēlaties paslēpt "{fileName}"? Paslēpjot failu, tas tiks noņemts tikai no multivides pārvaldnieka un neietekmēs esošās ziņas.', hide_success: 'Fails ir paslēpts', show_confirmation: 'Vai tiešām vēlaties rādīt "{fileName}"? Rādot failu, tas būs redzams multivides pārvaldniekā.', show_success: 'Parādītais fails', hide_fail: 'Nevarēja paslēpt failu "{fileName}"', show_fail: 'Nevarēja parādīt failu "{fileName}"', loading: 'Faila slēpšana...' }
-      hide_shared_file: { btn_a11y_label_hide: 'Padarīt "{fileName}" privātu (bez publiska URL)', btn_a11y_label_show: '"{fileName}" padarīšana par publisku (ar publisku URL)', hide_confirmation: 'Vai tiešām vēlaties padarīt "{fileName}" privātu? Padarot failu privātu, tiks noņemts tā publiskais URL, taču tas neietekmēs esošās ziņas. Tas arī vairs nebūs redzams multivides pārvaldniekā neautorizētiem lietotājiem.', hide_success: 'Fails, kas padarīts privāts', show_confirmation: 'Vai tiešām vēlaties publiskot "{fileName}"? Padarot failu publisku, tas būs pieejams ikvienam, kam ir publisks URL, un ikviens varēs to kopīgot, izmantojot multivides pārvaldnieku.', show_success: 'Fails publiskots', hide_fail: 'Nevarēja padarīt failu "{fileName}" privātu', show_fail: 'Nevarēja padarīt failu "{fileName}" publisku', loading: 'Padarot failu privātu...' }
+      hide_file: { hide_success: 'Fails ir paslēpts', show_success: 'Parādītais fails', loading: 'Faila slēpšana...' }
+      hide_shared_file: { hide_success: 'Fails, kas padarīts privāts', show_success: 'Fails publiskots', loading: 'Padarot failu privātu...' }
 flarum-bbcode:
   forum:
     quote:
@@ -779,8 +549,6 @@ fof-follow-tags:
       following_tag_tooltip: Šādi
       lurking_tag_tooltip: Lurking
     sub_controls:
-      header: '{tagName} abonements'
-      subscription_label: 'Atlasiet savu abonementa līmeni {tagName}'
       following_text: 'Esiet informēts par visām jaunajām diskusijām.'
       hiding_text: 'Paslēpt diskusijas lapā Visas diskusijas.'
       ignoring_text: 'Nekad nepaziņojiet.'
@@ -795,21 +563,8 @@ fof-follow-tags:
       hiding_button: Slēpjot
       ignoring_button: Ignorējot
       lurking_button: Lurking
-    notifications:
-      new_discussion_text: '{lietotājvārds} sākās'
-      new_post_text: '{lietotājvārds} publicēts'
-      new_discussion_tag_text: '{lietotājvārds} mainīja tagu'
     user:
       settings: { heading: 'Sekot tagiem', filter_label: 'Ko pēc noklusējuma rādīt nākamajā lapā' }
-  email:
-    subject:
-      newDiscussionInTag: '[Birka | Jauna diskusija] {title}'
-      newPostInTag: '[Birka | Jauna ziņa] {title}'
-      newDiscussionTag: '[Birka | Mainīts tags] {title}'
-    body:
-      newDiscussionInTag: "Čau {recipient_display_name},\n\n{actor_display_name} sāka diskusiju ar atzīmi, kurai sekojat: {discussion_title}\n\nLai skatītu jauno diskusiju, skatiet šo saiti:\n{discussion_url}\n\n---\n\n{post_content}\n"
-      newPostInTag: "Čau {recipient_display_name},\n\n{actor_display_name} publicēts diskusijā par atzīmi, kurai sekojat: {discussion_title}\n\nLai skatītu jauno darbību, skatiet šo saiti:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nJūs vairs nesaņemsit paziņojumus par šo diskusiju, kamēr nebūsit atjaunināts.\n"
-      newDiscussionTag: "Čau {recipient_display_name},\n\n{actor_display_name} tikko nomainīja tagu diskusijā ar {author_display_name} uz atzīmi, kurai sekojat {discussion_title}\n\nLai skatītu jauno diskusiju, skatiet šo saiti:\n{discussion_url}\n"
   ref:
     follow: Sekot
     following: Šādi
@@ -838,17 +593,8 @@ flarum-nicknames:
       nickname_placeholder: Iesauka
 fof-oauth:
   forum:
-    log_in:
-      with_button: 'Piesakieties, izmantojot {provider}'
-      with_discord_button: 'Piesakieties, izmantojot {provider}'
-      with_facebook_button: 'Piesakieties, izmantojot {provider}'
-      with_github_button: 'Piesakieties, izmantojot {provider}'
-      with_gitlab_button: 'Piesakieties, izmantojot {provider}'
-      with_google_button: 'Piesakieties, izmantojot {provider}'
-      with_linkedin_button: 'Piesakieties, izmantojot {provider}'
-      with_twitter_button: 'Piesakieties, izmantojot {provider}'
     user:
-      settings: { linked-account: { label: 'Saistītie konti', last-used-label: 'Pēdējoreiz lietots', link-created-label: 'Saite izveidota', orphaned-account: 'Jūs iepriekš esat pierakstījies, izmantojot šo pakalpojumu sniedzēju, taču kopš tā laika šajā forumā ir atspējota pierakstīšanās ar šo metodi.', help: 'Šie saistītie konti ļauj pierakstīties forumā, izmantojot citus pakalpojumu sniedzējus.', identifier-label: '{nodrošinātājs} ID', unlink-confirm: 'Vai tiešām vēlaties noņemt saiti ar {provider}? Jūs vairs nevarēsit pierakstīties šajā forumā, ja vien turpmāk neveiksit atkārtotu autentifikāciju.' } }
+      settings: { linked-account: { label: 'Saistītie konti', last-used-label: 'Pēdējoreiz lietots', link-created-label: 'Saite izveidota', orphaned-account: 'Jūs iepriekš esat pierakstījies, izmantojot šo pakalpojumu sniedzēju, taču kopš tā laika šajā forumā ir atspējota pierakstīšanās ar šo metodi.', help: 'Šie saistītie konti ļauj pierakstīties forumā, izmantojot citus pakalpojumu sniedzējus.' } }
     signup:
       username_help: 'Lūdzu, izvēlieties lietotājvārdu, kas jāzina šeit'
     unlink: 'Noņemt saiti'
@@ -882,10 +628,8 @@ fof-impersonate:
   forum:
     modal:
       title: 'Piesakieties kā cits lietotājs'
-      label: 'Ar lielu spēku nāk liela atbildība. Turpinot, jūs kļūsiet par {lietotājvārds}, līdz izrakstīsities.'
       placeholder_optional: '(Pēc izvēles) Norādiet iemeslu, kāpēc pārslēdzaties uz šo lietotāju'
       placeholder_required: 'Pirms turpināt, jums ir jānorāda iemesls, kāpēc pārslēdzaties uz šo lietotāju'
-      impersonate_username: 'Piesakieties kā {lietotājvārds}'
     user_controls:
       impersonate_button: 'Piesakieties kā lietotājs'
 fof-byobu:
@@ -896,7 +640,6 @@ fof-byobu:
       add_recipients: Adresātiem
       submit: LABI
       edit_recipients: 'Adresātu rediģēšana'
-      send_pd: 'Ziņojuma nosūtīšana {lietotājvārds}'
       cancel: Atcelt
       make_public: 'Padariet šo diskusiju publisku'
       remove_from_discussion: 'Atstājiet šo privāto diskusiju'
@@ -905,8 +648,6 @@ fof-byobu:
       title_placeholder: 'Privāts diskusijas nosaukums'
     confirm:
       make_public: 'Vai tiešām vēlaties noņemt adresātus un padarīt šo diskusiju redzamu ikvienam, kurš var skatīt piešķirto atzīmi?'
-    labels:
-      recipients: '{count, daudzskaitlis, viens {{count} Adresāts} cits {{count} Adresāti}}'
     nav:
       start_button: 'Apspriediet privāti'
       nav_item: 'Privātas diskusijas'
@@ -915,11 +656,9 @@ fof-byobu:
     search:
       headings: { groups: 'Atļauju grupas' }
     modal:
-      titles: { update_recipients: '{title} adresātu atjaunināšana', add_recipients: 'Adresātu pievienošana diskusijai' }
+      titles: { add_recipients: 'Adresātu pievienošana diskusijai' }
       labels: { selected_users: 'Atlasītie lietotāji', search_field: 'Meklēt lietotāju' }
       help: { add_recipients: 'Šī diskusija būs redzama tikai šeit izvēlētajiem lietotājiem. Nepieciešams vismaz 1 saņēmējs (izņemot sevi).', update_recipients: 'Šī diskusija būs redzama tikai šeit izvēlētajiem lietotājiem.', selected_users: 'Noklikšķiniet uz lietotāja vārda, lai to noņemtu.', click_user_to_remove_tooltip: 'Noklikšķiniet, lai noņemtu' }
-    post:
-      recipients_modified: { added_and_removed: '{lietotājvārds} pievienoti adresāti {pievienots} un noņemts {noņemts}.', added: '{lietotājvārds} pievienotie adresāti {added}.', made_public: '{lietotājvārds} noņēma visus adresātus un publiskoja diskusiju', removed: '{lietotājvārds} noņemti adresāti {noņemts}.', removed_self: '{lietotājvārds} atstāja privāto diskusiju.' }
     user:
       settings: { block_pd: 'Privātu diskusiju bloķēšana' }
       byobu_link: 'Privātas diskusijas'
@@ -927,23 +666,9 @@ fof-byobu:
     notifications:
       pd_label: 'Kāds mani iekļauj jaunā privātā diskusijā'
       pd_reply_label: 'Kāds izliek ziņas privātā diskusijā, kuras saņēmējs esmu'
-      pd_reply_text: '{username} publicēts privātā diskusijā, kurā esat dalībnieks'
-      pd_text: '{lietotājvārds} sāka ar jums jaunu privātu diskusiju'
       pd_user_left_label: 'Adresāta lietotājs atstāj privātu diskusiju, kurā es piedalos'
-      pd_user_left_text: '{lietotājvārds} pameta privāto diskusiju'
-      pd_added_text: '{lietotājvārds} pievienoja jūs privātai diskusijai'
       pd_added_label: 'Kāds mani pievieno esošai privātai diskusijai'
-  email:
-    subject:
-      private_discussion_created: '[Privāta diskusija] {display_name} sāka ar jums jaunu privātu diskusiju'
-      private_discussion_replied: '[Privāta diskusija] {display_name} publicēts privātā diskusijā'
-      recipient_removed: '[Privāta diskusija] {display_name} pameta diskusiju'
-      private_discussion_added: '[Privāta diskusija] {display_name} pievienoja jūs privātai diskusijai'
-    body:
-      private_discussion_created: "Čau {recipient_display_name},\n\n{actor_display_name} sāka jaunu privātu diskusiju ar jums kā adresātu: {discussion_title}.\n\nSkatīt to šeit:\n{discussion_url}\n\nJums, iespējams, vispirms būs jāpiesakās, pirms varat piekļūt šai saitei.\n"
-      private_discussion_replied: "Čau {recipient_display_name},\n\n{actor_display_name} publicēts privātā diskusijā ar jums kā adresātu: {discussion_title}.\n\nSkatīt to šeit:\n{post_url}\n\nJums, iespējams, vispirms būs jāpiesakās, pirms varat piekļūt šai saitei.\n"
-      recipient_removed: "Čau {recipient_display_name},\n\n{actor_display_name} atstāja privāto diskusiju: {discussion_title}. Viņi vairs nevarēs skatīt tā saturu.\n\nSkatīt to šeit:\n{discussion_url}\n\nJums, iespējams, vispirms būs jāpiesakās, pirms varat piekļūt šai saitei.\n"
-      private_discussion_added: "Čau {recipient_display_name},\n\n{actor_display_name} pievienoja jūs esošai privātai diskusijai: {discussion_title}.\n\nSkatīt to šeit:\n{discussion_url}\n\nJums, iespējams, vispirms būs jāpiesakās, pirms varat piekļūt šai saitei.\n"
+  email: null
 v17development-flarum-badges:
   forum:
     badge_information: 'Informācija par emblēmu'
@@ -966,17 +691,11 @@ v17development-flarum-badges:
       no_earning_reason: 'Nav noteikts nopelnīšanas iemesls'
       earned_on: 'Emblēma, kas nopelnīta'
       category: 'Emblēmas kategorija'
-      received_on: 'Saņemts {datums}'
       badge_details: 'Emblēmas informācija'
-      earned_count: '{skaits, daudzskaitlis, viens {<b># lietotājs</b> ir nopelnījis šo emblēmu} citi {<b># lietotāji</b> ir nopelnījuši šo emblēmu}}'
-      earned_by_count: '{skaits, daudzskaitlis, viens {Nopelnījis <b># lietotājs</b>} cits {Nopelnījis <b># lietotājs</b>}}'
-      others_link: '+ {skaits} Vairāk'
     badges_in_card:
       title: 'Emblēmas lietotāja kartē'
       manage_badges: 'Emblēmu pārvaldība'
       description: 'Lietotāja kartītē redzamās emblēmas varat mainīt ar kādu no citām emblēmām. Ja neatlasīsit nevienu no tām, tās tiks atlasītas automātiski.'
-      select_limit: 'Varat atlasīt {limit, daudzskaitlis, viena {<b>viena emblēma</b>}, otra {<b># nozīmītes</b>}}, lai tās būtu redzamas jūsu lietotāja kartītē.'
-      hit_limit: 'Kartītē ir vieta <b> tikai {limit, daudzskaitlis, viena {<b>viena emblēma</b>}, otra {<b># nozīmīte}</b>}</b>. Noņemiet emblēmas atlasi, lai atbrīvotu vietu šai emblēmai.'
     moderation:
       remove_badge: 'Emblēmas noņemšana no lietotāja'
       remove_badge_confirm: 'Vai tiešām vēlaties noņemt šo emblēmu no šī lietotāja?'
@@ -985,14 +704,10 @@ v17development-flarum-badges:
       title: 'Jūs esat saņēmis jaunu emblēmu'
       settings: 'Esmu saņēmis nozīmīti'
     uncategorized: Uncategorized
-v17development-flarum-seo:
-  forum:
-    profile_title: '{lietotājvārds} profils'
-    profile_description: '{lietotājvārds} profils | {discussion_count} diskusijas | {comment_count} ziņas'
+v17development-flarum-seo: null
 the-turk-miserable-users:
   forum:
     miserable_user:
-      title: 'Nožēlojams {lietotājvārds}'
       status_heading: 'Nožēlojams statuss'
       not_miserable_label: 'Nav nožēlojami'
       indefinitely_label: 'Nožēlojami uz nenoteiktu laiku'
@@ -1009,7 +724,6 @@ sycho-profile-cover:
   forum:
     cover: Vāks
     edit_cover: 'Rediģēt vāku'
-    notice: 'Maksimālais lielums: {izmērs}'
     added:
       success: 'Atjaunināts profila vāks.'
       error: 'Attēlu nevarēja augšupielādēt.'
@@ -1018,10 +732,7 @@ sycho-profile-cover:
       error: 'Nevarēja noņemt vāku, vēlāk mēģiniet vēlreiz.'
 sycho-photoswipe: null
 nearata-tags-color-generator: null
-nearata-prevent-double-posting:
-  forum:
-    exception:
-      too_many_replies: 'Ir atļautas ne vairāk kā {count} secīgās atbildes. Lūdzu, rediģējiet savu iepriekšējo atbildi vai gaidiet, kamēr kāds jums atbildēs.'
+nearata-prevent-double-posting: null
 nearata-copy-code-to-clipboard:
   forum:
     copy: 'Kopēt starpliktuvē'
@@ -1030,7 +741,6 @@ michaelbelgium-flarum-profile-views:
   forum:
     user:
       viewlist: { title: 'Pēdējie apmeklētāji', guest: Viesis }
-      view_count_text: '{viewcount, daudzskaitlis, viens {viewed {viewcount} time} cits {viewed {viewcount} times}}'
 justoverclock-country-flags:
   forum:
     inputCountryCode: 'Valsts kods'
@@ -1058,13 +768,10 @@ ianm-syndication:
     autodiscovery:
       forum_activity: 'Foruma aktivitātes'
       forum_new_discussions: 'Foruma jaunās diskusijas'
-      tag_activity: 'Taga {tag} darbība'
-      tag_new_discussions: 'Diskusijas tagā {tag}'
       discussion_last_posts: 'Šī diskusija'
       user_last_posts: 'Šī lietotāja ziņas un komentāri'
     feeds:
-      entries: { user_posts: { title_reply: 'Re: {diskusija}' } }
-      titles: { main_title: '{forum_name}', main_subtitle: 'Pēdējās ziņas forumā', main_d_title: 'Jaunas diskusijas {forum_name}', main_d_subtitle: 'Jaunākās diskusijas forumā', tag_title: 'Darbība tagā {tag}', tag_subtitle: 'Pēdējās ziņas tagā {tag}', tag_d_title: 'Jaunas diskusijas tagā {tag}', tag_d_subtitle: 'Jaunākās diskusijas tagā {tag}', discussion_title: '{discussion_name}', discussion_subtitle: 'Pēdējie ziņojumi šajā diskusijā', user_title: '{lietotājvārds}', user_subtitle: 'Jaunākās ziņas un šī lietotāja komentāri.' }
+      titles: { main_subtitle: 'Pēdējās ziņas forumā', main_d_subtitle: 'Jaunākās diskusijas forumā', discussion_subtitle: 'Pēdējie ziņojumi šajā diskusijā', user_subtitle: 'Jaunākās ziņas un šī lietotāja komentāri.' }
     discussion:
       feed_link: Barot
 ianm-log-viewer: null
@@ -1072,7 +779,6 @@ ianm-html-head: null
 ianm-follow-users:
   forum:
     followed: Sekoja
-    followers: '{skaits, daudzskaitlis, viens {Sekotājs} cits {Sekotāji}}'
     profile_page:
       no_following: 'Izskatās, ka tu nevienam neseko.'
     settings:
@@ -1081,17 +787,12 @@ ianm-follow-users:
       notify_new_discussion_label: 'Kāds, kuram sekoju, sāk diskusiju'
       notify_new_post_label: 'Kāds, kuram sekoju ziņām esošā diskusijā'
       block_follow: 'Kā neļaut lietotājiem sekot man'
-    notifications:
-      new_discussion_text: '{lietotājvārds} sākās'
-      new_post_text: '{lietotājvārds} publicēts diskusijā'
-      new_follower_text: '{lietotājvārds} sekoja jums'
-      new_unfollower_text: '{lietotājvārds} pārstāja jums sekot'
     badge:
       label: { follow: 'Pēc diskusijām', lurk: 'Sekojot visiem' }
     filter:
       following: 'Sekotie lietotāji'
     modals:
-      select_follow_level: { title: 'Atlasiet sekošanas līmeni opcijai {lietotājvārds}', description: 'Izvēlieties, kā sekot <em>{lietotājvārds}</em>.', follow_levels_heading: 'Sekojiet līmeņiem', follow_select_label: 'Sekot tipam', no_user_attr_provided_err: 'Uh, ak, kaut kas nogāja greizi, atverot šo modālu.', no_user_attr_provided_err_debug: 'Neviens atribūts "lietotājs" netika nodots SelectFollowUserLevel modālajam, kad tas tika izveidots. Modālu nevar atveidot.', save_btn: Glābt, cancel_btn: Atcelt }
+      select_follow_level: { follow_levels_heading: 'Sekojiet līmeņiem', follow_select_label: 'Sekot tipam', no_user_attr_provided_err: 'Uh, ak, kaut kas nogāja greizi, atverot šo modālu.', no_user_attr_provided_err_debug: 'Neviens atribūts "lietotājs" netika nodots SelectFollowUserLevel modālajam, kad tas tika izveidots. Modālu nevar atveidot.', save_btn: Glābt, cancel_btn: Atcelt }
     profile_link: 'Sekotie lietotāji'
     user_controls:
       follow_button: Sekot
@@ -1101,37 +802,28 @@ ianm-follow-users:
       follow_tag_button: Sekot
       unfollow_tag_button: 'Sekošanas tipa maiņa'
   email:
-    new_discussion_by_user_subject: '[Sekot lietotājam] {title}'
     new_follower_subject: '[Sekot lietotājam] Jums ir jauns sekotājs!'
-    new_post_subject: '[Sekot lietotājam] Jauna ziņa {title}'
-    new_discussion_by_user_body: "Čau {recipient_display_name},\n\n{user_display_name} sāka jaunu diskusiju: {discussion_title}\n\nLai skatītu jauno diskusiju, skatiet šo saiti:\n\n{discussion_url}\n\n---\n\n{post_content}\n"
-    new_follower_body: "Čau {recipient_display_name},\n\n{follower_display_name} sāka jums sekot, tāpēc viņi saņems paziņojumu, kad sāksit jaunu diskusiju.\n\nLai apskatītu viņu profilu, skatiet šo saiti:\n\n{profile_url}\n"
-    new_post_body: "Čau {recipient_display_name},\n\n{user_display_name} publicēts diskusijā: {discussion_title}\n\nLai skatītu jauno darbību, skatiet šo saiti:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nJūs vairs nesaņemsit paziņojumus par šo diskusiju, kamēr nebūsit atjaunināts.\n"
   lib:
     following_link: 'Sekotie lietotāji'
     follow: Sekot
     change_follow_type: 'Sekošanas tipa maiņa'
     unfollow: 'Sekošanas pārtraukšana'
     follow_levels:
-      unfollow: { name: Nesekojiet, description: "Nesaņemiet paziņojumus par <em>{lietotājvārds}</em> darbībām.\n" }
-      follow: { name: 'Sekošana diskusijām', description: "Saņemiet paziņojumus, kad <em>{lietotājvārds}</em> sāk jaunu diskusiju.\n" }
-      lurk: { name: 'Sekojiet visiem', description: "Saņemiet paziņojumus, kad <em>{lietotājvārds}</em> sāk jaunu diskusiju vai izliek ziņas jebkurā diskusijā.\n" }
+      unfollow: { name: Nesekojiet }
+      follow: { name: 'Sekošana diskusijām' }
+      lurk: { name: 'Sekojiet visiem' }
 fof-username-request:
   forum:
     nickname_modals:
-      action: { help_text: 'Lūdzu, pārliecinieties, ka šī pieprasītā segvārda maiņa atbilst foruma vadlīnijām.', decision_title: Lēmums, approval_label: Apstiprināt, rejected_label: Noraidīt, submit_button: Iesniegt, reason_title: 'Noraidīšanas iemesls', success: 'Lēmums nosūtīts.', name: '{name} ir pieprasījis mainīt segvārdu uz "{requestedName}"', title: 'Segvārda maiņas pieprasījums' }
-      results: { title: 'Segvārda maiņas pieprasījums', approved: 'Jūsu segvārda maiņas pieprasījums ir apstiprināts', new_name: 'Jūsu segvārds ir veiksmīgi mainīts uz: {name}', rejected: 'Jūsu segvārda maiņas pieprasījums tika noraidīts', reason: 'Noraidīšanas iemesls: <i>"{iemesls}"</i>.', resubmit: 'Šajā laikā jūs varat atkārtoti iesniegt jaunu segvārda maiņas pieprasījumu no sava konta iestatījumiem, ja to izvēlaties.', dismiss_button: LABI }
-      request: { title: 'Pieprasīt segvārda maiņu', current_request: 'Jūs jau esat pieprasījis mainīt segvārdu uz "{name}". Varat atjaunināt vai dzēst savu pieprasījumu.', submit_button: 'Iesniegt pieprasījumu', delete_button: 'Dzēst pieprasījumu', confirmation_message: 'Jūsu segvārda maiņas pieprasījums ir iesniegts un gaida apstiprinājumu.', deleted: 'Segvārda pieprasījums izdzēsts.', dismiss_button: LABI }
+      action: { help_text: 'Lūdzu, pārliecinieties, ka šī pieprasītā segvārda maiņa atbilst foruma vadlīnijām.', decision_title: Lēmums, approval_label: Apstiprināt, rejected_label: Noraidīt, submit_button: Iesniegt, reason_title: 'Noraidīšanas iemesls', success: 'Lēmums nosūtīts.', title: 'Segvārda maiņas pieprasījums' }
+      results: { title: 'Segvārda maiņas pieprasījums', approved: 'Jūsu segvārda maiņas pieprasījums ir apstiprināts', rejected: 'Jūsu segvārda maiņas pieprasījums tika noraidīts', resubmit: 'Šajā laikā jūs varat atkārtoti iesniegt jaunu segvārda maiņas pieprasījumu no sava konta iestatījumiem, ja to izvēlaties.', dismiss_button: LABI }
+      request: { title: 'Pieprasīt segvārda maiņu', submit_button: 'Iesniegt pieprasījumu', delete_button: 'Dzēst pieprasījumu', confirmation_message: 'Jūsu segvārda maiņas pieprasījums ir iesniegts un gaida apstiprinājumu.', deleted: 'Segvārda pieprasījums izdzēsts.', dismiss_button: LABI }
     username_modals:
-      action: { help_text: 'Lūdzu, pārliecinieties, ka šī pieprasītā lietotājvārda maiņa atbilst foruma vadlīnijām.', decision_title: Lēmums, approval_label: Apstiprināt, rejected_label: Noraidīt, submit_button: Iesniegt, reason_title: 'Noraidīšanas iemesls', success: 'Lēmums nosūtīts.', name: '{name} ir pieprasījis mainīt savu lietotājvārdu uz "{requestedName}"', title: 'Lietotājvārda maiņas pieprasījums' }
-      results: { title: 'Lietotājvārda maiņas pieprasījums', approved: 'Jūsu lietotājvārda maiņas pieprasījums ir apstiprināts', new_name: 'Jūsu lietotājvārds ir veiksmīgi mainīts uz: {name}', rejected: 'Jūsu lietotājvārda maiņas pieprasījums tika noraidīts', reason: 'Noraidīšanas iemesls: <i>"{iemesls}"</i>.', resubmit: 'Šajā laikā jūs varat atkārtoti iesniegt jaunu lietotājvārda maiņas pieprasījumu no sava konta iestatījumiem, ja vēlaties to darīt.', dismiss_button: LABI }
-      request: { title: 'Pieprasīt lietotājvārda maiņu', current_request: 'Jūs jau esat pieprasījis mainīt savu lietotājvārdu uz "{name}". Varat atjaunināt vai dzēst savu pieprasījumu.', submit_button: 'Iesniegt pieprasījumu', delete_button: 'Dzēst pieprasījumu', confirmation_message: 'Jūsu lietotājvārda maiņas pieprasījums ir iesniegts un gaida apstiprinājumu.', deleted: 'Lietotājvārda pieprasījums ir dzēsts.', dismiss_button: LABI }
+      action: { help_text: 'Lūdzu, pārliecinieties, ka šī pieprasītā lietotājvārda maiņa atbilst foruma vadlīnijām.', decision_title: Lēmums, approval_label: Apstiprināt, rejected_label: Noraidīt, submit_button: Iesniegt, reason_title: 'Noraidīšanas iemesls', success: 'Lēmums nosūtīts.', title: 'Lietotājvārda maiņas pieprasījums' }
+      results: { title: 'Lietotājvārda maiņas pieprasījums', approved: 'Jūsu lietotājvārda maiņas pieprasījums ir apstiprināts', rejected: 'Jūsu lietotājvārda maiņas pieprasījums tika noraidīts', resubmit: 'Šajā laikā jūs varat atkārtoti iesniegt jaunu lietotājvārda maiņas pieprasījumu no sava konta iestatījumiem, ja vēlaties to darīt.', dismiss_button: LABI }
+      request: { title: 'Pieprasīt lietotājvārda maiņu', submit_button: 'Iesniegt pieprasījumu', delete_button: 'Dzēst pieprasījumu', confirmation_message: 'Jūsu lietotājvārda maiņas pieprasījums ir iesniegts un gaida apstiprinājumu.', deleted: 'Lietotājvārda pieprasījums ir dzēsts.', dismiss_button: LABI }
     pending_requests:
       empty_text: 'Nav atrasts neviens vārda maiņas pieprasījums.'
-      nickname_item_text: '{name} pieprasīja segvārda maiņu'
-      nickname_exerpt: 'Pieprasītais segvārds: {requestedName}'
-      username_item_text: '{name} pieprasīja lietotājvārda maiņu'
-      username_exerpt: 'Pieprasītais lietotājvārds: {requestedName}'
       tooltip: 'Nosaukuma maiņas pieprasījumi'
       title: 'Nosaukuma maiņas pieprasījumi'
     settings:
@@ -1149,15 +841,9 @@ fof-username-request:
   email:
     body:
       noReasonProvided: 'Nav norādīts pamatojums.'
-      approved: "Labdien {recipient_display_name},\n\n{actor_display_name} ir apstiprinājis jūsu pieprasījumu mainīt lietotājvārdu uz \"{new_username}\".\n\nTagad varat pieteikties ar savu jauno lietotājvārdu: {login_url}\n"
-      rejected: "Labdien {recipient_display_name},\n\n{actor_display_name} ir noraidījis jūsu pieprasījumu mainīt lietotājvārdu no \"{old_username}\" uz \"{requested_username}\".\n\nIemesls: {iemesls}\n"
-    subject:
-      approved: '{display_name} apstiprināja lietotājvārda maiņu uz {requested_username}'
-      rejected: '{display_name} noraidīja jūsu lietotājvārda maiņu uz {requested_username}'
 fof-user-bio:
   forum:
     userbioPlaceholder: 'Uzrakstiet kaut ko par sevi'
-    userbioPlaceholderOtherUser: 'Uzrakstiet biogrāfiju {lietotājvārds}'
     profile:
       cancel_confirm: 'Vai tiešām vēlaties atcelt biogrāfijas rediģēšanu? Jūs zaudēsit visas veiktās izmaiņas.'
       cancel_button: Atcelt
@@ -1165,9 +851,6 @@ fof-user-bio:
       edit_bio_label: 'Rediģēt biogrāfiju'
 fof-split:
   forum:
-    post:
-      was_split_to: '{count, daudzskaitlī, viena {{count} ziņa tika sadalīta uz {target}.} citas {{count} ziņas tika sadalītas uz {target}.}}'
-      was_split_from: '{count, daudzskaitlī, viena {{count} ziņa tika sadalīta no {target}.} citas {{count} ziņas tika sadalītas no {target}.}}'
     split:
       from: 'Sadalīt no šejienes'
       to: 'Sadalīt uz šejieni'
@@ -1221,13 +904,11 @@ fof-reactions:
   forum:
     disabled-reaction: 'Jūs nevarat izmantot šo reakciju tieši tagad, lūdzu, atsvaidziniet lapu'
     warning: 'Jūsu reakcija tika pārvērsta'
-    notification: '{lietotājvārds} reaģēja ar {reakcija} uz jūsu ziņu'
     settings:
       notify_post_reacted_label: 'Kāds reaģē uz kādu no maniem ierakstiem'
     reacting-own-post: 'Jūs nevarat reaģēt uz savu ziņu'
     modal:
       title: Reakcijas
-      anonymous_count: '{skaits, daudzskaitlis, viens {# anonīms lietotājs} cits {# anonīmi lietotāji}}'
       no_reactions: 'Reakcijas vēl nav'
     mod_item: 'Skatīt reakcijas'
     react_button_label: Reaģēt
@@ -1241,22 +922,19 @@ fof-profile-image-crop:
 fof-prevent-necrobumping:
   forum:
     composer:
-      warning: { title: 'Šī diskusija ir vairāk nekā <b>{time}</b> veca.', description: 'Ļoti iespējams, ka par to vairs nav jādiskutē, un līdz ar to tā sišanai nav jēgas.', checkbox_label: 'Es apzinos, ka šī diskusija ir diezgan sena, bet tomēr gribētu atbildēt.', error: 'Šī diskusija ir pārāk sena, lai uz to atbildētu.' }
+      warning: { description: 'Ļoti iespējams, ka par to vairs nav jādiskutē, un līdz ar to tā sišanai nav jēgas.', checkbox_label: 'Es apzinos, ka šī diskusija ir diezgan sena, bet tomēr gribētu atbildēt.', error: 'Šī diskusija ir pārāk sena, lai uz to atbildētu.' }
 fof-pretty-mail: null
 fof-polls:
   forum:
-    days_remaining: 'Aptauja beidzas {time}.'
     no_permission: 'Jums nav atļaujas balsot'
     poll_ended: 'Šī aptauja ir beigusies.'
     public_poll: 'Apskatīt vēlētājus'
-    max_votes_allowed: 'Aptauja ļauj balsot par {max, daudzskaitlis, viena {# opcija}, citas {# opcijas}}.'
     composer_discussion:
       add_poll: 'Pievienot aptauju'
       edit_poll: 'Rediģēt aptauju'
     modal:
       add_title: 'Aptaujas pievienošana'
       add_option_label: 'Opcijas pievienošana'
-      date_placeholder: 'Aptaujas beigu datums (neobligāti)'
       edit_title: 'Rediģēt aptauju'
       include_question: 'Jums ir jāiekļauj jautājums'
       max: 'Jūs varat saņemt ne vairāk kā 10 atbildes'
@@ -1277,7 +955,6 @@ fof-polls:
       edit: 'Rediģēt aptauju'
     tooltip:
       badge: Aptauja
-      votes: '{skaits, daudzskaitlis, viens {# balsojums} cits {# balsis}}'
     votes_modal:
       title: Vēlētāji
 fof-nightmode:
@@ -1297,11 +974,9 @@ fof-moderator-notes:
   forum:
     no_content_given: 'Tukša piezīme nav atļauta.'
     moderatorNotes:
-      created_text: '{lietotājvārds} izveidoja šo piezīmi {date}'
       add_button: 'Jauna piezīme'
       create-heading: 'Jaunas moderatora piezīmes izveide'
       dismiss_button: Darīts
-      input_heading: 'Ievadiet piezīmes <strong>par {lietotājvārds}</strong>, (tiek atbalstīta iezīmēšana)'
       noNotes: 'Izskatās, ka šeit nav piezīmju.'
       submit_button: 'Saglabāt piezīmi'
       delete: Dzēst
@@ -1309,8 +984,6 @@ fof-moderator-notes:
     user:
       notes: 'Moderatora piezīmes'
   api:
-    auto_note: '_I pārslēdzos uz šo lietotāju:_ {reason}'
-    auto_note_actor: '_Switched to_ @{lietotājvārds}: {iemesls}'
     no_reason_provided: 'Nav norādīts pamatojums'
 fof-linguist: null
 fof-html-errors: null
@@ -1325,12 +998,8 @@ fof-gamification:
       name: Lietotājs
       amount: Punktus
     notification:
-      upvote: '{lietotājvārds} balsoja par jūsu ziņu'
-      downvote: '{lietotājvārds} nobalsoja par jūsu ziņu'
       prefrences: { vote: 'Kad kāds no maniem ierakstiem ir nobalsots uz augšu/uz leju' }
     user:
-      card: { points: '{count, daudzskaitlis, viens { {count} punkts} cits {{count} punkti}}' }
-      rank: '{rangs}'
       votes_link: Balsis
     modal:
       downvotes_label: 'Downvoters:'
@@ -1344,11 +1013,6 @@ fof-gamification:
     post:
       upvote_button: 'Upvote ziņa'
       downvote_button: 'Lejupejoša ziņa'
-  email:
-    body:
-      postVoted: "Čau {recipient_display_name},\n\n{actor_display_name} tikko nobalsoja par jūsu ziņu {discussion_title}.\n\nSkatīt to šeit: {discussion_url}\n"
-    subject:
-      postVoted: 'Par jūsu ziņu balsoja {display_name}'
 fof-formatting: null
 fof-drafts:
   console:
@@ -1367,7 +1031,6 @@ fof-drafts:
       title: Melnraksti
       delete_all_button: 'Dzēst visus melnrakstus'
       delete_button: 'Dzēst melnrakstu'
-      scheduled_icon_tooltip: 'Ieplānots {datetime}'
       scheduled_icon_tooltip_formatter: 'L [at] LT'
       alert: 'Vai tiešām vēlaties dzēst savu melnrakstu?'
       delete_all_alert: 'Vai tiešām vēlaties izdzēst visus savus melnrakstus?'
@@ -1375,13 +1038,10 @@ fof-drafts:
       tooltip: Melnraksti
     schedule_draft_modal:
       text: 'Ieplānojiet savu melnrakstu, lai tas automātiski tiktu publicēts vēlāk!'
-      scheduled_text: 'Pašlaik plānots publicēt {datetime}.'
-      scheduled_error: 'Nevar ieplānot melnrakstu: {error}.'
       unschedule_button: Neplānots
       unschedule_warning: 'Vai tiešām vēlaties atplānot šo melnrakstu?'
       reschedule_button: Pārplānot
       schedule_button: Grafiku
-      schedule_time_preview: 'Šis melnraksts tiks automātiski publicēts <b>{datetime}</b>.'
       schedule_time_preview_formatter: LLLL
       schedule_time_preview_invalid: 'Nederīgs datums un/vai laiks'
       title: 'Grafika melnraksts'
@@ -1393,13 +1053,10 @@ fof-best-answer:
     this_best_answer: 'Izvēlieties labāko atbildi'
     remove_best_answer: 'Noņemiet atlasi labākajai atbildei'
     best_answer_button: 'Labākā atbilde'
-    best_answer_label: 'iestatīt ar <a>{lietotājvārds}</a> {time_set}'
     errors:
       mismatch: 'Atlasītā ziņa šajā diskusijā neeksistē.'
     notification:
-      best_answer_in_discussion: '{lietotājvārds} iestatiet labāko atbildi šajā diskusijā'
       content: 'Lūdzu, izvēlieties labāko atbildi, ja uz jūsu jautājumu ir atbildēts'
-      awarded: 'Jūsu ziņu kā labāko atbildi iestatīja {lietotājvārds}'
       preferences: { awarded_best_answer: 'Kāds nosaka manu ziņu kā labāko atbildi', best_answer_in_discussion: 'Labākā atbilde ir ielikta diskusijā, kurā piedalījos', select_best_answer: 'Automātisks atgādinājums, lai izvēlētos labāko atbildi diskusijā, kuru es sāku' }
     index:
       ask_question: 'Uzdot jautājumu'
@@ -1413,22 +1070,13 @@ fof-best-answer:
       accessible_label: 'Atrisināta/neatrisināta izvēle'
     composer:
       titlePlaceholder: 'Jautājuma virsraksts'
-    user:
-      best-answer-count: '{skaits, daudzskaitlis, viens { {count} labākā atbilde} cits {{count} labākās atbildes}}'
     search:
       discussions_solutions_heading: 'Diskusijas ar risinājumiem'
-      all_discussions_solutions_button: 'Visās diskusijās ar risinājumiem meklējiet "{query}"'
     discussion:
       jump_to_best_answer_button: 'Skatīt labāko atbildi'
   email:
     subject:
-      awarded: 'Jūsu amats tika iestatīts kā labākā atbilde līdz {display_name}'
-      ba-set: 'Labāko atbildi uzstādīja {display_ name}'
       select: 'Vai jums izdevās saņemt atbildi uz savu jautājumu?'
-    body:
-      awarded: "Hey {saņēmējs_display_name},\n\nLielisks darbs, {actor_display_ name} vienkārši noteikt savu amatu kā labāko atbildi diskusijā: {discussion_title}. Paldies, ka palīdzēji.\n\nSkatīt to šeit: {discussion_url}\n"
-      ba-set: "Hey {saņēmējs_display_name},\n\n{actor_display_ name} vienkārši iestatiet labāko atbildi diskusijā: {discussion_ title}, kurā jūs piedalījāties.\n\nPārbaudiet to: {discussion_url}\n"
-      select: "Hey {saņēmējs_display_name},\n\nTikai reģistrējoties; tagad jums vajadzētu būt daudz atbildes uz savu jautājumu: {discussion_title}. Cerams, viens no tiem ir palīdzējis jums atrisināt savu problēmu.\n\nJa tā ir, tad nākamajiem locekļiem būtu ļoti noderīgi, ja jūs varētu dot vislabāko atbildi uz savu jautājumu. Tas palīdzēs cilvēkiem ar to pašu problēmu atrast sev nepieciešamo atbildi, un tas ir arī liels paldies biedriem, kas palīdzēja jums. Viņi dod savu laiku brīvprātīgi, tāpēc ir jauki darīt viņiem zināmu, ka viņiem klājas labi.\n\nApmeklējiet diskusiju šeit: {discussion_url} un izvēlieties vispiemērotāko amatu kā labāko atbildi.\n\nPaldies!\n"
 fof-user-directory:
   lib:
     sort:
@@ -1437,8 +1085,6 @@ fof-user-directory:
 fof-ban-ips:
   forum:
     modal:
-      ban_options_only_ip: 'Aizliegt tikai pašreizējo IP (<code>{ip}</code>)'
-      ban_options_all_ip: 'Aizliegt visus IP datus, ko izmanto <i>{username}</i>'
       ban_ip_no_users: 'Neviens cits netiks aizliegts'
     user_badge:
       banned_tooltip: Aizliegta
@@ -1455,13 +1101,8 @@ fof-ban-ips:
       check_button: Pārbaudīt
       save_button: Glābt
       ban_ip_confirmation: 'Vai tiešām vēlaties bloķēt šīs IP adreses izmantošanu forumā? Tas bloķēs lietotājus ar šo(-ajām) IP adresi(-ēm) pieteikties un reģistrēties.'
-      ban_ip_users: '{skaits, daudzskaitlis, viens {Lietotājs {lietotāji} tiks aizliegts} citi {Lietotāji {lietotāji} tiks aizliegti}}'
       unban_ip_confirmation: 'Vai tiešām vēlaties atcelt šo lietotāju un visus pārējos lietotājus, kurus nav aizlieguši citi IP?'
-      unban_options_only_ip: 'Tikai atcelt pašreizējo IP (<code>{ip}</code>)'
-      unban_options_all_ip: 'Atceliet visus IP datus, ko izmanto <i>{lietotājvārds}</i>'
       unban_ip_no_users: 'Neviens cits netiks atmaskots'
-      unban_ip_users: '{skaits, daudzskaitlis, viens {Lietotājs {lietotāji} tiks atcelts} cits {Lietotāji {lietotāji} tiks atcelti}}'
-      unbanned_ips: 'Unbanned <code>{ips}</code>.'
       title: 'Aizliegt IP(s)'
       unban_title: 'IP(-u) atcelšana'
       address_label: 'IP adrese'
@@ -1492,7 +1133,6 @@ fof-anti-spam:
       move_discussions_tag_label: 'Diskusiju pārvietošana uz karantīnā ievietotu tagu'
       move_discussions_tag_help: 'Tādējādi visas šī lietotāja sāktās diskusijas tiks pārvietotas uz tagu, kuru norādījāt foruma iestatījumos. Ja šī opcija ir atspējota, diskusijas tiks atstātas to pašreizējos tagos.'
       process_button: Process
-      title: 'Atzīmēt {username} kā surogātpasta izplatītāju'
       report_to_sfs_label: 'Ziņojums StopForumSpam'
       report_to_sfs_help: 'Tas ziņos par lietotāja pamatinformāciju (lietotājvārdu, e-pastu, IP adresi) StopForumSpam. Tas palīdzēs novērst lietotāja reģistrāciju citos forumos, kas izmanto pakalpojumu StopForumSpam.'
     user_controls:
@@ -1511,18 +1151,11 @@ flarum-sticky:
     discussion_controls:
       unsticky_button: Nelipīgs
       sticky_button: Lipīgi
-    post_stream:
-      discussion_stickied_text: '{username} uzlīmēja diskusiju {time}.'
-      discussion_unstickied_text: '{lietotājvārds} atcēla diskusiju {time}.'
     badge:
       sticky_tooltip: Lipīgi
   ref:
     sticky: Lipīgi
 flarum-statistics: null
-flarum-pusher:
-  forum:
-    discussion_list:
-      show_updates_text: '{skaits, daudzskaitlis, viens {Rādīt # atjaunināta diskusija} cits {Rādīt # atjauninātas diskusijas}}'
 flarum-lock:
   forum:
     badge:
@@ -1530,24 +1163,13 @@ flarum-lock:
     discussion_controls:
       lock_button: Slēdzene
       unlock_button: Atbloķēt
-    notifications:
-      discussion_locked_text: '{lietotājvārds} bloķēts'
-    post_stream:
-      discussion_locked_text: '{lietotājvārds} bloķēja diskusiju {time}.'
-      discussion_unlocked_text: '{lietotājvārds} atbloķēja diskusiju {time}.'
     settings:
       notify_discussion_locked_label: 'Kāds bloķē manis sākto diskusiju'
 flarum-likes:
   forum:
-    notifications:
-      post_liked_text: '{lietotājvārds} patika jūsu ziņai'
-      others_text: '{skaits, daudzskaitlis, viens {# cits} cits {# citi}}'
     post:
       like_link: Kā
-      liked_by_self_text: '{lietotāji} šādi.'
-      liked_by_text: '{skaits, daudzskaitlis, viens {{users} patīk šis} citi {{users} piemēram, šis}}.'
       unlike_link: 'Atšķirībā no'
-      others_link: '{skaits, daudzskaitlis, viens {# cits} cits {# citi}}'
       you_text: Tu
     post_likes:
       title: 'Lietotāji, kuriem tas patīk'
@@ -1602,9 +1224,6 @@ dhtml-composer:
       character_counter: 'Rakstzīmju skaitītājs'
 datlechin-birthdays:
   forum:
-    user:
-      birthday_text: 'Dzimšanas diena: {datums}'
-      age_text: 'Vecums: {vecums}'
     change_dob:
       title: 'Rediģēt dzimšanas datumu'
       date_of_birth_text: 'Dzimšanas datums'
@@ -1617,16 +1236,12 @@ datlechin-birthdays:
       dob_heading: 'Dzimšanas datums'
     nav:
       nav_item: 'Šodienas dzimšanas dienas'
-    page:
-      discussion_count: '{skaits, daudzskaitlis, viens {Diskusija: #} cits {Diskusijas: #}}'
-      post_count: '{skaits, daudzskaitlis, viens {Post: #} cits {Posts: #}}'
     edit_user:
       dob_heading: 'Dzimšanas datums'
     sign_up:
       dob_placeholder: 'Dzimšanas datums'
   api:
     invalid_dob_message: 'Nederīgs dzimšanas datums'
-    invalid_age_message: 'Jūsu vecumam jābūt vismaz {minAge} vecam.'
   ref:
     date_of_birth: 'Dzimšanas datums'
 clarkwinkelmann-post-permissions: null
@@ -1662,24 +1277,13 @@ askvortsov-rich-text:
       insert_image: { src_placeholder: Saikne, title_placeholder: Nosaukums }
       insert_link: { text_placeholder: Teksts, href_placeholder: URL, title_placeholder: 'Nosaukums (rāda kursoru)', remove_button: Noņemt }
       additional_items_tooltip: 'Papildu vadīklas'
-      bold_tooltip: 'Treknrakstā teksts <{modifierKey}-b>'
-      code_tooltip: 'Iekļautais kods <{modifierKey}-''>'
       code_block_tooltip: 'Kodu bloka ievietošana'
-      header_tooltip: 'Mainīt uz galveni {level} <shift-{modifierKey}-{level}>'
       horizontal_rule_tooltip: 'Horizontālās kārtulas ievietošana'
       image_tooltip: 'Attēla pievienošana'
-      italic_tooltip: 'Slīpraksts teksts <{modifierKey}-i>'
       link_tooltip: 'Saites pievienošana'
-      ordered_list_tooltip: 'Numurēts saraksts <shift-{modifierKey}-9>'
-      paragraph_tooltip: 'Mainīt uz rindkopu <shift-{modifierKey}-0>'
-      quote_tooltip: 'Ievietojiet citātu <{modifierKey}-q>'
       spoiler_block_tooltip: 'Bloķēt spoileri / nolaižamo izvēlni'
-      spoiler_inline_tooltip: 'Spoileris <{modifierKey}-;>'
       strike_tooltip: 'Pārsvītrojums <alt-shift-5>'
-      sub_tooltip: 'Apakšraksts <{modifierKey}-,>'
-      sup_tooltip: 'Augšraksts <{modifierKey}-.>'
       text_type_tooltip: 'Atlasiet Teksta tips'
-      unordered_list_tooltip: 'Saraksts ar aizzīmēm <shift-{modifierKey}-8>'
   forum:
     settings:
       composer_heading: Komponists
@@ -1694,7 +1298,6 @@ askvortsov-pwa:
       share_button: Koplietot
     post_controls:
       share_button: Koplietot
-      share_api: { title: '{lietotājvārds}''s atbilde uz {title}''' }
     user_controls:
       share_button: Koplietot
     settings:
@@ -1705,20 +1308,7 @@ askvortsov-pwa:
       header: 'Tīkla savienojuma kļūda'
       text: 'Šai lietotnei ir nepieciešams tīkla savienojums; to nevar izmantot bezsaistē. Lūdzu, pārbaudiet savienojumu.'
 askvortsov-moderator-warnings:
-  emails:
-    post_warned:
-      subject: '{warner_display_name} brīdināja jūs ar {strikes, daudzskaitlī, viens {# strike} cits {# strikes}} in {discussion_title}'
-      body: "Sveiki {warnee_display_name}!\n\n{warner_display_name} brīdināja jūs ar {strikes, daudzskaitlī, viens {# strike} cits {# strikes}} in {discussion_title}\n\nTika minēts šāds iemesls:\n\n---\n\n{public_comment}\n"
-    user_warned:
-      subject: '{warner_display_name} brīdināja jūs ar {strikes, daudzskaitlis, viens {# strike} cits {# strikes}}'
-      body: "Sveiki {warnee_display_name}!\n\n{warner_display_name} brīdināja jūs ar {strikes, daudzskaitlis, viens {# strike} cits {# strikes}}\n\nTika minēts šāds iemesls:\n\n---\n\n{public_comment}\n"
   forum:
-    notifications:
-      warning_text: '{strikes, daudzskaitlī, viens {Jūs tikāt brīdināts ar # strike by {mod_username}} cits {Jūs tikāt brīdināts ar # streikiem ar {mod_username}}}'
-      warning_no_strikes_text: 'Jūs brīdināja {mod_username} (bez brīdinājumiem)'
-    post:
-      warning: '{streiki, daudzskaitlī, viens {Brīdināts ar # streiku ar {mod_username}} cits {Brīdināts ar # streikiem ar {mod_username}}}'
-      warning_no_strikes: 'Brīdināts bez brīdinājumiem ar {mod_username}'
     post_controls:
       warning_button: 'Brīdināt lietotāju'
     user:
@@ -1735,20 +1325,14 @@ askvortsov-moderator-warnings:
     warning_list:
       add_button: 'Jauns brīdinājums'
       no_warnings: 'Izskatās, ka šeit nav brīdinājumu.'
-      warnings: '{brīdinājumi, daudzskaitlis, viens {Moderatora brīdinājumi: # Saņemts brīdinājums} cits {Moderatora brīdinājumi: # Saņemtie brīdinājumi}}'
       warnings_no_strikes: 'Moderatora brīdinājumi: nav saņemti brīdinājumi'
     warning_list_item:
-      list_item_heading: '{streiki, daudzskaitlis, viens {<strong>#</strong> streiks, {time}} citi {<strong>#</strong> streiki, {time}}}'
-      list_item_heading_hidden: '{streiki, daudzskaitlis, viens {<strong>#</strong> streiks, {laiks} <strong>(noņemts)</strong>} citi {<strong>#</strong> brīdinājumi, {time} <strong>(noņemts)</strong>}}'
       public_comment: Brīdinājums
       private_comment: 'Moderatora redzamie komentāri'
       linked_post: 'Saistītā ziņa'
     warning_modal:
       confirmation_message: 'Jūsu brīdinājums ir saglabāts. Iespējams, jums būs jāatsvaidzina lapa, lai to redzētu.'
-      heading: 'Brīdināt <strong>{lietotājvārds}</strong>'
       strikes_heading: 'Cik streiku būtu jāpiemēro?'
-      public_comment_heading: 'Kāpēc <strong>{lietotājvārds}</strong> saņem šos brīdinājumus? Šie komentāri būs redzami lietotājam un citiem moderatoriem.'
-      private_comment_heading: 'Kāpēc <strong>{lietotājvārds}</strong> saņem šos brīdinājumus? Šie komentāri būs redzami TIKAI citiem moderatoriem.'
       submit_button: 'Saglabāt brīdinājumu'
 askvortsov-discussion-templates:
   forum:

@@ -3,7 +3,6 @@ core:
     change_email:
       incorrect_password_message: 'আপনার লেখা পাসওয়ার্ডটি ভুল।'
       confirm_password_placeholder: 'পাসওয়ার্ড নিশ্চিত করুন'
-      confirmation_message: 'আমরা {email}-এ একটি নিশ্চিতকরণ ইমেল পাঠিয়েছি। যদি এটি শীঘ্রই না আসে তবে আপনার স্প্যাম ফোল্ডারটি পরীক্ষা করুন।'
       dismiss_button: 'ঠিক আছে'
       submit_button: 'পরিবর্তনগুলি সংরক্ষণ করুন'
       title: 'ইমেইল পরিবর্তন করুন'
@@ -26,7 +25,6 @@ core:
     composer_edit:
       discard_confirmation: 'আপনি আপনার পরিবর্তনগুলি সংরক্ষণ করেন নি. আপনি কি তাদের বাতিল করতে চান?'
       edited_message: 'আপনার সম্পাদনা করা হয়েছে।'
-      post_link: '{আলোচনা}-এ #{number} পোস্ট করুন'
       submit_button: 'পরিবর্তনগুলি সংরক্ষণ করুন'
       view_button: দর্শন
     composer_reply:
@@ -48,10 +46,6 @@ core:
       restore_button: পুনঃস্থাপন
     discussion_list:
       empty_text: 'মনে হচ্ছে এখানে কোনো আলোচনা নেই।'
-      replied_text: '{username} উত্তর দিয়েছেন {ago}'
-      started_text: '{username} শুরু হয়েছে {ago}'
-      total_replies_a11y_label: '{গণনা, বহুবচন, একটি {# উত্তর দিন} অন্যান্য {# উত্তর}}'
-      unread_replies_a11y_label: '{গণনা, বহুবচন, একটি {# অপঠিত উত্তর} অন্যান্য {# অপঠিত উত্তর}}। পঠিত {গণনা, বহুবচন, একটি {উত্তর} অন্যান্য {উত্তর}} পঠিত হিসাবে চিহ্নিত করুন।'
       load_more_button: 'আরও লোড করুন'
     forgot_password:
       email_sent_message: 'যদি আপনি এই সাইটের সাথে নিবন্ধন করেন, তবে আপনাকে আপনার পাসওয়ার্ড পুনরায় পাঠাতে হবে। আপনার স্প্যাম পরীক্ষা করুন যদি আপনি পরবর্তী কোন সময়ে এটি না পান।'
@@ -107,7 +101,6 @@ core:
     notifications:
       delete_all_confirm: 'তুমি কি নিশ্চিত যে তুমি সমস্ত বিজ্ঞপ্তি মুছতে চাও? এই ক্রিয়াটি বিপরীতমুখী নয়'
       delete_all_tooltip: 'সমস্ত বিজ্ঞপ্তি মুছুন'
-      discussion_renamed_text: '{username} শিরোনাম পরিবর্তন করেছেন'
       empty_text: 'কোন বিজ্ঞপ্তি নেই'
       mark_as_read_tooltip: 'পঠিত হিসাবে চিহ্নিত করুন'
       toggle_dropdown_accessible_label: 'বিজ্ঞপ্তিগুলি দেখুন'
@@ -116,8 +109,6 @@ core:
       tooltip: প্রজ্ঞাপন
     post:
       edited_text: সম্পাদনা
-      edited_tooltip: '{username} সম্পাদিত {ago}'
-      number_tooltip: 'পোস্ট #{number}'
     post_controls:
       delete_confirmation: 'আপনি কি নিশ্চিত যে আপনি এই পোস্টটি চিরতরে মুছে ফেলতে চান? এই ক্রিয়াকলাপটি পূর্বাবস্থায় ফেরানো যাবে না।'
       hide_confirmation: 'তুমি কি নিশ্চিত যে তুমি এই পোস্টটি মুছতে চাও?'
@@ -131,23 +122,16 @@ core:
     post_scrubber:
       now_link: এখন
       original_post_link: 'মূল পোস্ট'
-      unread_text: '{গণনা} অপঠিত'
-      viewing_text: '{গণনা, বহুবচন, {ফর্ম্যাটেডকাউন্ট} পোস্টের একটি {{সূচক} অন্য {{ফর্ম্যাটেডকাউন্ট} পোস্টের {{সূচক}}'
     post_stream:
-      discussion_renamed_old_tooltip: 'পুরানো শিরোনাম ছিল: "{পুরানো}"'
-      discussion_renamed_text: '{username} শিরোনামটি {new} {time}-এ পরিবর্তন করেছেন}'
-      time_lapsed_text: '{পিরিয়ড} পরে'
       load_more_button: 'আরও লোড করুন'
       reply_placeholder: 'একটি উত্তর লিখুন...'
     rename_discussion:
       title: 'আলোচনা পুনঃনামকরণ'
       submit_button: পুনঃনামকরণ
     search:
-      all_discussions_button: '"{ক্যোয়েরি}" এর জন্য সমস্ত আলোচনা অনুসন্ধান করুন'
       discussions_heading: আলোচনা
       users_heading: ব্যবহারকারী
     security:
-      browser_on_operating_system: '{os}-এ {ব্রাউজার}'
       cannot_terminate_current_session: 'বর্তমান সক্রিয় সেশনটি সমাপ্ত করা যাবে না। পরিবর্তে লগ আউট করুন।'
       created: তৈরি
       current_active_session: 'বর্তমান সক্রিয় অধিবেশন'
@@ -159,13 +143,11 @@ core:
       new_access_token_modal: { submit_button: 'টোকেন তৈরি করুন', title_placeholder: শীর্ষক, title: 'নতুন টোকেন' }
       revoke_access_token: 'প্রত্যাহার করুন'
       sessions_heading: 'সক্রিয় সেশন'
-      session_terminated: '{গণনা, বহুবচন, একটি {সেশন সমাপ্ত} অন্যান্য {# সেশন সমাপ্ত}}।'
       session_termination_failed: 'আপনার সেশনগুলি সমাপ্ত করার সময় একটি ত্রুটি ঘটেছে।'
       show_access_token: 'টোকেন দেখুন'
       terminate_all_other_sessions: 'অন্যান্য সমস্ত সেশন সমাপ্ত করুন'
       terminate_session: বন্ধ
       token_revoked: 'টোকেন বাতিল করা হয়েছে।'
-      token_item_title: '{শিরোনাম} - {টোকেন}'
       token_title_placeholder: /
       never: কখনও
       new_access_token_button: 'নতুন টোকেন'
@@ -174,7 +156,6 @@ core:
       title: নিরাপত্তা
     settings:
       account_heading: একাউন্ট
-      notification_checkbox_a11y_label_template: '{method} এর মাধ্যমে "{description}" বিজ্ঞপ্তিগুলি পান'
       notify_by_web_heading: ওয়েব
       notify_discussion_renamed_label: 'কেউ আমার শুরু করা একটি আলোচনার নাম পরিবর্তন করে'
       privacy_disclose_online_label: 'আমি কখন অনলাইনে আছি তা অন্যদের দেখার অনুমতি দিন'
@@ -186,7 +167,6 @@ core:
       title: সেটিংস
     sign_up:
       log_in_text: 'ইতিমধ্যে একটি অ্যাকাউন্ট আছে? <a>লগ ইন করো</a>'
-      welcome_text: 'স্বাগতম, {username}!'
       dismiss_button: 'ঠিক আছে'
       email_placeholder: ই-মেইল
       password_placeholder: পাসওয়ার্ড
@@ -196,8 +176,6 @@ core:
     user:
       avatar_upload_button: আপলোড
       avatar_upload_tooltip: 'একটি নতুন অবতার আপলোড করুন'
-      in_discussion_text: '{আলোচনা}-এ'
-      joined_date_text: '{ago}-এ যোগদান করেছেন'
       online_text: অনলাইন
       posts_empty_text: 'দেখে মনে হচ্ছে এখানে কোন পোস্ট নেই।'
       avatar_remove_button: অপসারণ
@@ -209,15 +187,12 @@ core:
     user_controls:
       button: নিয়ন্ত্রণ
       delete_confirmation: 'তুমি কি নিশ্চিত যে তুমি এই ব্যবহারকারীকে মুছতে চাও? ব্যবহারকারীর পোস্ট মুছে ফেলা হবে না।'
-      delete_error_message: 'ব্যবহারকারী <i>{username} ({email})</i> মুছে ফেলা ব্যর্থ হয়েছে'
-      delete_success_message: 'ব্যবহারকারী <i>{username} ({email})</i> মুছে ফেলা হয়েছে'
       toggle_dropdown_accessible_label: 'ব্যবহারকারী নিয়ন্ত্রণ ড্রপডাউন মেনু টগল করুন'
       delete_button: বিলোপ
       edit_button: সম্পাদনা
     user_email_confirmation:
       resend_button: 'নিশ্চিতকরণ ইমেল পুনরায় পাঠান'
       sent_message: প্রেরিত
-      alert_message: 'আমরা {email}-এ একটি নিশ্চিতকরণ ইমেল পাঠিয়েছি। যদি এটি শীঘ্রই না আসে তবে আপনার স্প্যাম ফোল্ডারটি পরীক্ষা করুন।'
     welcome_hero:
       hide: 'স্বাগত বার্তা লুকান'
     badge:
@@ -230,8 +205,6 @@ core:
       hidden_tooltip: লুক্কায়িত
     dropdown:
       toggle_dropdown_accessible_label: 'ড্রপডাউন মেনু টগল করুন'
-    data_segment:
-      label: '{লেবেল}:'
     edit_user:
       activate_button: 'ব্যবহারকারী সক্রিয় করুন'
       groups_heading: গোষ্ঠী
@@ -246,33 +219,17 @@ core:
       username_heading: 'ব্যবহারকারীর নাম'
       username_label: 'ব্যবহারকারীর নাম'
     error:
-      circular_dependencies_message: 'বৃত্তাকার নির্ভরতা সনাক্ত করা হয়েছে: {এক্সটেনশন}। গর্ভপাত করা। দয়া করে এক্সটেনশনগুলির মধ্যে একটি অক্ষম করুন এবং আবার চেষ্টা করুন।'
-      dependent_extensions_message: 'নিম্নলিখিত নির্ভরশীল এক্সটেনশানগুলি অক্ষম না করা পর্যন্ত {এক্সটেনশন} অক্ষম করতে পারে না: {এক্সটেনশন}'
-      extension_initialiation_failed_message: '{extension} আরম্ভ করতে ব্যর্থ হয়েছে, আরও তথ্যের জন্য ব্রাউজার কনসোলটি পরীক্ষা কর।'
       generic_message: 'উফ! কিছু একটা গন্ডগোল হয়েছে। অনুগ্রহ করে পৃষ্ঠাটি পুনরায় লোড করুন এবং আবার চেষ্টা করুন।'
       generic_cross_origin_message: 'উফ! ক্রস-অরিজিন অনুরোধের সময় কিছু ভুল হয়েছে। অনুগ্রহ করে পৃষ্ঠাটি পুনরায় লোড করুন এবং আবার চেষ্টা করুন।'
-      missing_dependencies_message: 'নিম্নলিখিত নির্ভরতা সক্ষম না হওয়া পর্যন্ত {extension} সক্ষম করতে পারে না: {extensions}'
       not_found_message: 'অনুরোধকৃত সংস্থানটি খুঁজে পাওয়া যায়নি.'
       payload_too_large_message: 'অনুরোধের পেলোডটি খুব বড় ছিল।'
       permission_denied_message: 'আপনার এটা করার অনুমতি নেই।'
       rate_limit_exceeded_message: 'তুমি একটু তাড়াতাড়ি চলে যাচ্ছ। দয়া করে কয়েক সেকেন্ডের মধ্যে আবার চেষ্টা করুন।'
       render_failed_message: 'দুঃখিত, এই সামগ্রীটি প্রদর্শন করার সময় আমরা একটি ত্রুটির সম্মুখীন হয়েছি। আপনি যদি ব্যবহারকারী হন তবে দয়া করে পরে আবার চেষ্টা করুন। আপনি যদি প্রশাসক হন তবে আরও তথ্যের জন্য আপনার ফ্লেরাম লগ ফাইলগুলি একবার দেখুন।'
-    meta_titles:
-      with_page_title: '{pageNumber, বহুবচন, =1 {{pageTitle} - {forumName}} অন্যান্য {{pageTitle}: পৃষ্ঠা # - {forumName}}}'
-      without_page_title: '{পৃষ্ঠাসংখ্যা, বহুবচন, =1 {{ফোরামনাম}} অন্যান্য {পৃষ্ঠা # - {ফোরামনাম}}}'
     modal:
       close: বন্ধ
     nav:
       drawer_button: 'নেভিগেশন ড্রয়ার খুলুন'
-    number_suffix:
-      kilo_text: দিকে
-      mega_text: M
-    series:
-      glue_text: ', '
-      three_text: '{প্রথম}, {দ্বিতীয়}, এবং {তৃতীয়}'
-      two_text: '{প্রথম} এবং {দ্বিতীয়}'
-    username:
-      deleted_text: '[মুছে ফেলা হয়েছে]'
     loading_indicator:
       accessible_label: লোড।।।
   views:
@@ -290,11 +247,9 @@ core:
       invalid_confirmation_token: 'এই নিশ্চিতকরণ লিঙ্কটি ইতিমধ্যে ব্যবহৃত হয়েছে বা অবৈধ।'
       not_authenticated: 'আপনার এই পৃষ্ঠায় প্রবেশের অনুমতি নেই। লগইন করার পর আবার চেষ্টা করুন।'
       not_found: 'আপনার অনুরোধকৃত পাতাটি খুঁজে পাওয়া যায়নি।'
-      not_found_return_link: '{forum}-এ ফিরে যান'
       permission_denied: 'আপনার এই পৃষ্ঠায় প্রবেশের অনুমতি নেই।'
       unknown: 'এই পৃষ্ঠাটি লোড করার চেষ্টা করার সময় একটি ত্রুটি ঘটেছে.'
     log_out:
-      log_out_confirmation: 'তুমি কি নিশ্চিত যে তুমি {ফোরাম} থেকে লগ আউট করতে চাও?'
       log_out_button: 'লগ আউট করুন'
       title: 'লগ আউট করুন'
     reset_password:
@@ -311,23 +266,15 @@ core:
       previous_page_button: 'পূর্ববর্তী পৃষ্ঠা'
   api:
     invalid_username_message: 'ব্যবহারকারীর নামটিতে কেবল বর্ণ, সংখ্যা এবং ড্যাশ থাকতে পারে।'
-    invalid_filter_type:
-      must_be_numeric_message: '{ফিল্টার} ফিল্টারটি অবশ্যই সংখ্যাসূচক হতে হবে।'
-      must_not_be_array_message: '{ফিল্টার} ফিল্টারটি অবশ্যই অ্যারে হতে হবে না।'
-      must_not_be_multidimensional_array_message: '{ফিল্টার} ফিল্টারটি অবশ্যই বহুমাত্রিক অ্যারে হওয়া উচিত নয়।'
   email:
     activate_account:
       subject: 'আপনার নতুন অ্যাকাউন্ট সক্রিয় করুন'
-      body: "হেই {username}!\n\nকেউ একজন (আশা করি আপনি!) এই ইমেল ঠিকানা দিয়ে {ফোরাম} এ সাইন আপ করেছেন।\n\nযদি এটি আপনি হন তবে কেবল নীচের লিঙ্কটি ক্লিক করুন এবং আপনার অ্যাকাউন্টটি সক্রিয় হবে:\n{url}\n\nআপনি যদি সাইন আপ না করে থাকেন তবে দয়া করে এই ইমেলটি উপেক্ষা করুন।\n"
     confirm_email:
       subject: 'আপনার নতুন ইমেল ঠিকানা নিশ্চিত করুন'
-      body: "হেই {username}!\n\nকেউ (আশা করি আপনি!) {ফোরাম}-এ তাদের ইমেল ঠিকানাটি এটিতে পরিবর্তন করেছেন।\n\nযদি এটি আপনি হন তবে কেবল নীচের লিঙ্কটি ক্লিক করুন এবং আপনার ইমেলটি নিশ্চিত করা হবে:\n{url}\n\nএটি আপনি না হলে দয়া করে এই ইমেলটি উপেক্ষা করুন।\n"
     reset_password:
-      body: "হেই {username}!\n\nকেউ (আশা করি আপনি!) {ফোরাম}-এ আপনার অ্যাকাউন্টের জন্য একটি ভুলে যাওয়া পাসওয়ার্ডের অনুরোধ জমা দিয়েছেন}\n\nযদি এটি আপনি হন তবে আপনার পাসওয়ার্ডটি পুনরায় সেট করতে নীচের লিঙ্কটি ক্লিক করুন:\n{url}\n\nআপনি যদি নিজের পাসওয়ার্ড পরিবর্তন করতে না চান তবে কেবল এই ইমেলটি উপেক্ষা করুন এবং কিছুই ঘটবে না।\n"
       subject: 'আপনার পাসওয়ার্ড রিসেট করুন'
     send_test:
       subject: 'ফ্লেরাম ইমেল পরীক্ষা'
-      body: "হেই {username}!\n\nআপনার ফ্লেরাম ইমেল কনফিগারেশনটি সঠিকভাবে কাজ করছে তা নিশ্চিত করার জন্য এটি একটি পরীক্ষামূলক ইমেল।\n\nযদি এটি আপনি হন তবে এই ইমেলটির অর্থ আপনার কনফিগারেশনটি কাজ করে!\n\nএটি আপনি না হলে দয়া করে এই ইমেলটি উপেক্ষা করুন।\n"
   ref:
     all_discussions: 'সকল আলোচনা'
     change_email: 'ইমেইল পরিবর্তন করুন'
@@ -335,7 +282,6 @@ core:
     color: রঙ
     confirm_password: 'পাসওয়ার্ড নিশ্চিত করুন'
     confirm_email: 'ইমেইল নিশ্চিত করুন'
-    confirmation_email_sent: 'আমরা {email}-এ একটি নিশ্চিতকরণ ইমেল পাঠিয়েছি। যদি এটি শীঘ্রই না আসে তবে আপনার স্প্যাম ফোল্ডারটি পরীক্ষা করুন।'
     custom_footer_text: 'পৃষ্ঠার একেবারে নীচে প্রদর্শিত হতে এইচটিএমএল যুক্ত করুন।'
     custom_footer_title: 'কাস্টম পাদচরণ সম্পাদনা করুন'
     custom_header_text: 'ফ্লারামের নিজস্ব শিরোনামের উপরে পৃষ্ঠার একেবারে শীর্ষে প্রদর্শিত হওয়ার জন্য এইচটিএমএল যুক্ত করুন।'
@@ -349,7 +295,6 @@ core:
     extensions: বর্ধিতাংশ
     generic_confirmation_message: 'আপনি কি নিশ্চিত যে আপনি এগিয়ে যেতে চান? এই ক্রিয়াকলাপটি পূর্বাবস্থায় ফেরানো যাবে না।'
     icon: আইকন
-    icon_text: '<code>ফ্যাস ফ্যা-উপসর্গ</code> <em>সহ</em> যে কোনও <a>ফন্টঅসাম</a> আইকন ক্লাসের নাম লিখুন।'
     load_more: 'আরও লোড করুন'
     loading: লোড।।।
     log_in: 'লগ ইন করো'
@@ -373,7 +318,6 @@ core:
     security: নিরাপত্তা
     settings: সেটিংস
     sign_up: 'সাইন আপ করো'
-    some_others: '{গণনা, বহুবচন, একটি {# অন্যান্য} অন্যান্য {# অন্যান্য}}'
     start_a_discussion: 'একটি আলোচনা শুরু করুন'
     username: 'ব্যবহারকারীর নাম'
     users: ব্যবহারকারী
@@ -389,128 +333,12 @@ core:
     members: সদস্য
     mod: আদব-কায়দা
     mods: মোড
-validation:
-  accepted: ':অ্যাট্রিবিউট অবশ্যই গ্রহণ করতে হবে।'
-  active_url: ':attribute একটি বৈধ URL নয়।'
-  after: ':বৈশিষ্ট্যটি অবশ্যই :d খাওয়ার পরে একটি তারিখ হতে হবে।'
-  after_or_equal: ':বৈশিষ্ট্যটি অবশ্যই :d খাওয়ার পরে বা সমান তারিখ হতে হবে।'
-  alpha: ':বৈশিষ্ট্যটিতে অবশ্যই কেবল অক্ষর থাকতে হবে।'
-  alpha_dash: ':অ্যাট্রিবিউটে অবশ্যই কেবল অক্ষর, সংখ্যা, ড্যাশ এবং আন্ডারস্কোর থাকতে হবে।'
-  alpha_num: ':বৈশিষ্ট্যটিতে অবশ্যই কেবল বর্ণ এবং সংখ্যা থাকতে হবে।'
-  array: 'অ্যাট্রিবিউট অবশ্যই একটি অ্যারে হতে হবে।'
-  before: ':বৈশিষ্ট্যটি অবশ্যই :d খাওয়ার আগে একটি তারিখ হতে হবে।'
-  before_or_equal: ':বৈশিষ্ট্যটি অবশ্যই :d এর আগে বা সমান তারিখ হতে হবে।'
-  between:
-    numeric: ':অ্যাট্রিবিউট অবশ্যই :min এবং :max-এর মধ্যে হতে হবে।'
-    file: ':বৈশিষ্ট্যটি অবশ্যই :min এবং :max কিলোবাইটের মধ্যে হতে হবে।'
-    string: ':বৈশিষ্ট্যটি অবশ্যই :min এবং :max অক্ষরের মধ্যে হতে হবে।'
-    array: ':বৈশিষ্ট্যটি অবশ্যই :min এবং :max আইটেমের মধ্যে থাকতে হবে।'
-  boolean: ':বৈশিষ্ট্য ক্ষেত্রটি অবশ্যই সত্য বা মিথ্যা হতে হবে।'
-  confirmed: ':বৈশিষ্ট্য নিশ্চিতকরণ মেলে না।'
-  date: ':বৈশিষ্ট্যটি একটি বৈধ তারিখ নয়।'
-  date_equals: ':বৈশিষ্ট্যটি অবশ্যই :d এর সমান তারিখ হতে হবে।'
-  date_format: ':অ্যাট্রিবিউট ফর্ম্যাট: ফর্ম্যাটের সাথে মেলে না।'
-  different: ':বৈশিষ্ট্য এবং :অন্যান্য অবশ্যই আলাদা হতে হবে।'
-  digits: ':বৈশিষ্ট্যটি অবশ্যই :d আইজিটস ডিজিটস হতে হবে।'
-  digits_between: ':বৈশিষ্ট্যটি অবশ্যই :min এবং :max digits-এর মধ্যে হতে হবে।'
-  dimensions: ':অ্যাট্রিবিউটের অবৈধ চিত্রের মাত্রা রয়েছে।'
-  distinct: ':বৈশিষ্ট্য ক্ষেত্রের একটি সদৃশ মান রয়েছে।'
-  email: ':বৈশিষ্ট্যটি অবশ্যই একটি বৈধ ইমেল ঠিকানা হতে হবে।'
-  ends_with: ':বৈশিষ্ট্যটি অবশ্যই নিম্নলিখিতগুলির মধ্যে একটি দিয়ে শেষ করতে হবে: :মান।'
-  exists: 'নির্বাচিত :বৈশিষ্ট্যটি অবৈধ।'
-  file: ':অ্যাট্রিবিউট অবশ্যই একটি ফাইল হতে হবে।'
-  file_too_large: ':বৈশিষ্ট্যটি খুব বড়।'
-  file_upload_failed: ':বৈশিষ্ট্যটি আপলোড করতে ব্যর্থ হয়েছে।'
-  filled: ':বৈশিষ্ট্য ক্ষেত্রের অবশ্যই একটি মান থাকতে হবে।'
-  gt:
-    numeric: ':বৈশিষ্ট্যটি অবশ্যই :মানের চেয়ে বড় হতে হবে।'
-    file: ':বৈশিষ্ট্যটি অবশ্যই :মান কিলোবাইটের চেয়ে বড় হতে হবে।'
-    string: ':বৈশিষ্ট্যটি অবশ্যই :মান অক্ষরের চেয়ে বড় হতে হবে।'
-    array: ':অ্যাট্রিবিউটে অবশ্যই :এর চেয়ে বেশি মান আইটেম থাকতে হবে।'
-  gte:
-    numeric: ':বৈশিষ্ট্যটি অবশ্যই :মানের চেয়ে বড় বা সমান হতে হবে।'
-    file: ':বৈশিষ্ট্যটি অবশ্যই :মান কিলোবাইটের চেয়ে বড় বা সমান হতে হবে।'
-    string: ':বৈশিষ্ট্যটি অবশ্যই মান অক্ষরের চেয়ে বড় বা সমান হতে হবে।'
-    array: ':অ্যাট্রিবিউটে অবশ্যই :মান আইটেম বা আরও বেশি থাকতে হবে।'
-  image: ':বৈশিষ্ট্যটি অবশ্যই একটি চিত্র হতে হবে।'
-  in: 'নির্বাচিত :বৈশিষ্ট্যটি অবৈধ।'
-  in_array: ':attribute ক্ষেত্রটি :অন্যান্য-এ বিদ্যমান নয়।'
-  integer: ':বৈশিষ্ট্যটি অবশ্যই একটি পূর্ণসংখ্যা হতে হবে।'
-  ip: ':বৈশিষ্ট্যটি অবশ্যই একটি বৈধ আইপি ঠিকানা হতে হবে।'
-  ipv4: ':বৈশিষ্ট্যটি অবশ্যই একটি বৈধ আইপিভি 4 ঠিকানা হতে হবে।'
-  ipv6: ':বৈশিষ্ট্যটি অবশ্যই একটি বৈধ আইপিভি 6 ঠিকানা হতে হবে।'
-  json: ':বৈশিষ্ট্যটি অবশ্যই একটি বৈধ JSON স্ট্রিং হতে হবে।'
-  lt:
-    numeric: ':বৈশিষ্ট্যটি অবশ্যই :মানের চেয়ে কম হতে হবে।'
-    file: ':বৈশিষ্ট্যটি অবশ্যই :মান কিলোবাইটের চেয়ে কম হতে হবে।'
-    string: ':বৈশিষ্ট্যটি অবশ্যই :মান অক্ষরের চেয়ে কম হতে হবে।'
-    array: ':অ্যাট্রিবিউটে অবশ্যই :এর চেয়ে কম মান আইটেম থাকতে হবে।'
-  lte:
-    numeric: ':বৈশিষ্ট্যটি অবশ্যই কম বা সমান :মান হতে হবে।'
-    file: ':বৈশিষ্ট্যটি অবশ্যই কিলোবাইটের চেয়ে কম বা সমান হতে হবে।'
-    string: ':বৈশিষ্ট্যটি অবশ্যই কম বা সমান :মান অক্ষর হতে হবে।'
-    array: ':অ্যাট্রিবিউটে অবশ্যই :মান আইটেমের বেশি থাকতে হবে না।'
-  max:
-    numeric: ':বৈশিষ্ট্যটি অবশ্যই :max এর চেয়ে বড় হওয়া উচিত নয়।'
-    file: ':বৈশিষ্ট্যটি অবশ্যই :সর্বোচ্চ কিলোবাইটের চেয়ে বড় হওয়া উচিত নয়।'
-    string: ':বৈশিষ্ট্যটি অবশ্যই :সর্বাধিক অক্ষরের চেয়ে বড় হওয়া উচিত নয়।'
-    array: ':বৈশিষ্ট্যটিতে অবশ্যই :সর্বাধিক আইটেম থাকতে পারবে না।'
-  mimes: ':অ্যাট্রিবিউট অবশ্যই টাইপের একটি ফাইল হতে হবে: :মান।'
-  mimetypes: ':অ্যাট্রিবিউট অবশ্যই টাইপের একটি ফাইল হতে হবে: :মান।'
-  min:
-    numeric: ':বৈশিষ্ট্যটি কমপক্ষে :min হতে হবে।'
-    file: ':বৈশিষ্ট্যটি কমপক্ষে :min কিলোবাইট হতে হবে।'
-    string: ':বৈশিষ্ট্যটি কমপক্ষে :ন্যূনতম অক্ষরের হতে হবে।'
-    array: ':বৈশিষ্ট্যটিতে কমপক্ষে :min আইটেম থাকতে হবে।'
-  multiple_of: ':অ্যাট্রিবিউট অবশ্যই :মান এর গুণিতক হতে হবে।'
-  not_in: 'নির্বাচিত :বৈশিষ্ট্যটি অবৈধ।'
-  not_regex: ':বৈশিষ্ট্য বিন্যাসটি অবৈধ।'
-  numeric: ':বৈশিষ্ট্যটি অবশ্যই একটি সংখ্যা হতে হবে।'
-  password: 'পাসওয়ার্ডটি ভুল।'
-  present: ':বৈশিষ্ট্য ক্ষেত্রটি অবশ্যই উপস্থিত থাকতে হবে।'
-  regex: ':বৈশিষ্ট্য বিন্যাসটি অবৈধ।'
-  required: ':অ্যাট্রিবিউট ক্ষেত্রটি প্রয়োজন।'
-  required_if: ':অ্যাট্রিবিউট ক্ষেত্রটি প্রয়োজন যখন :অন্যান্য হল :মান।'
-  required_unless: ':অ্যাট্রিবিউট ক্ষেত্রটি প্রয়োজন যদি না :অন্যান্য মানগুলিতে থাকে।'
-  required_with: ':বৈশিষ্ট্য ক্ষেত্রটি প্রয়োজন হয় যখন :মান উপস্থিত থাকে।'
-  required_with_all: ':বৈশিষ্ট্য ক্ষেত্রটি প্রয়োজন হয় যখন :মানগুলি উপস্থিত থাকে।'
-  required_without: ':গুণাবলী উপস্থিত না থাকলে :বৈশিষ্ট্য ক্ষেত্রটি প্রয়োজন।'
-  required_without_all: ':অ্যাট্রিবিউট ক্ষেত্রটি প্রয়োজন হয় যখন :মানগুলির কোনওটিই উপস্থিত থাকে না।'
-  prohibited: ':বৈশিষ্ট্য ক্ষেত্রটি নিষিদ্ধ।'
-  prohibited_if: ':অ্যাট্রিবিউট ক্ষেত্রটি নিষিদ্ধ যখন :অন্যান্য হল :মান।'
-  prohibited_unless: ':অ্যাট্রিবিউট ক্ষেত্রটি নিষিদ্ধ যদি না :অন্যান্য মানগুলিতে থাকে।'
-  same: ':বৈশিষ্ট্য এবং :অন্যান্য অবশ্যই মিলতে হবে।'
-  size:
-    numeric: ':অ্যাট্রিবিউট অবশ্যই :সাইজ হতে হবে।'
-    file: ':বৈশিষ্ট্যটি অবশ্যই :আকারের কিলোবাইট হতে হবে।'
-    string: ':অ্যাট্রিবিউট অবশ্যই :সাইজ ক্যারেক্টার হতে হবে।'
-    array: ':বৈশিষ্ট্যটিতে অবশ্যই :আকারের আইটেম থাকতে হবে।'
-  starts_with: ':বৈশিষ্ট্যটি অবশ্যই নিম্নলিখিতগুলির মধ্যে একটি দিয়ে শুরু হতে হবে: :মান।'
-  string: ':বৈশিষ্ট্যটি অবশ্যই একটি স্ট্রিং হতে হবে।'
-  timezone: ':বৈশিষ্ট্যটি অবশ্যই একটি বৈধ অঞ্চল হতে হবে।'
-  unique: 'ইতিমধ্যে :অ্যাট্রিবিউট নেওয়া হয়েছে।'
-  uploaded: ':বৈশিষ্ট্যটি আপলোড করতে ব্যর্থ হয়েছে।'
-  url: ':বৈশিষ্ট্য বিন্যাসটি অবৈধ।'
-  uuid: ':বৈশিষ্ট্যটি অবশ্যই একটি বৈধ ইউইউআইডি হতে হবে।'
-  attributes:
-    username: 'ব্যবহারকারীর নাম'
-    password: পাসওয়ার্ড
-    email: ইমেল
-    title: শীর্ষক
-    content: সামগ্রী
-    name_singular: 'একবচন নাম'
-    name_plural: 'বহুভাষী নাম'
-    tag_count_primary: 'প্রাথমিক ট্যাগের সংখ্যা'
-    tag_count_secondary: 'সেকেন্ডারি ট্যাগের সংখ্যা'
-  recaptcha: 'reCAPTCHA বৈধতা ব্যর্থ হয়েছে।'
-  recaptcha-unknown: 'reCAPTCHA ({errors}) যাচাই করার সময় একটি অজানা ত্রুটি সংঘটিত হয়েছে।'
 flarum-tags:
   forum:
     all_tags:
       meta_description_text: 'সকল ট্যাগ'
       meta_title_text: ট্যাগ
     choose_tags:
-      edit_title: '{শিরোনাম} এর জন্য ট্যাগগুলি সম্পাদনা করুন'
       title: 'আপনার আলোচনার জন্য ট্যাগ নির্বাচন করুন'
     discussion_controls:
       edit_tags_button: 'ট্যাগ সম্পাদনা করুন'
@@ -520,48 +348,27 @@ flarum-tags:
       more_link: আরও।।।
       untagged_link: 'ট্যাগ করা হয়নি'
       tags_link: ট্যাগ
-    post_stream:
-      added_and_removed_tags_text: '{username} {tagsAdd} যোগ করেছে এবং {tagsDelete} {time} অপসারণ করেছে।'
-      added_tags_text: '{username} {tagsAdd} {time} যোগ করেছে।'
-      removed_tags_text: '{username} {tagsDelete} {time} অপসারণ করেছে।'
-      tags_text: '{গণনা, বহুবচন, একটি {{ট্যাগ} ট্যাগ} অন্যান্য {{ট্যাগ} ট্যাগ}}'
-    tag:
-      meta_description_text: '{tag} ট্যাগ সহ সমস্ত আলোচনা'
     composer_discussion:
       choose_tags_link: 'ট্যাগ নির্বাচন করুন'
   lib:
     deleted_tag_text: বিলোপ
     tag_selection_modal:
       bypass_requirements: 'বাইপাস ট্যাগের প্রয়োজনীয়তা'
-      choose_primary_placeholder: '{গণনা, বহুবচন, একটি {একটি প্রাথমিক ট্যাগ চয়ন করুন} অন্যান্য {# প্রাথমিক ট্যাগ চয়ন করুন}}'
-      choose_secondary_placeholder: '{গণনা, বহুবচন, একটি {আরও 1 টি ট্যাগ চয়ন করুন} অন্যান্য {# আরও ট্যাগ চয়ন করুন}}'
-      choose_tags_placeholder: '{গণনা, বহুবচন, একটি {আরও 1 টি ট্যাগ চয়ন করুন} অন্যান্য {# আরও ট্যাগ চয়ন করুন}}'
       submit_button: 'ঠিক আছে'
       title: 'ট্যাগ নির্বাচন করুন'
   ref:
     choose_tags: 'ট্যাগ নির্বাচন করুন'
-    choose_tags_placeholder: '{গণনা, বহুবচন, একটি {আরও 1 টি ট্যাগ চয়ন করুন} অন্যান্য {# আরও ট্যাগ চয়ন করুন}}'
     name: নাম
     tags: ট্যাগ
 flarum-mentions:
   forum:
     composer:
       mention_tooltip: 'একটি ব্যবহারকারী, গ্রুপ বা পোস্ট উল্লেখ করুন'
-      reply_to_post_text: '#{number} এর উত্তর দিন'
     mentioned_by:
       title: 'এই পোস্টের রিপ্লাই'
       load_more_button: 'আরও লোড করুন'
-    notifications:
-      post_mentioned_text: '{username} আপনার পোস্টে উত্তর দিয়েছেন'
-      user_mentioned_text: '{username} আপনাকে উল্লেখ করেছে'
-      group_mentioned_text: '{username} এমন একটি গ্রুপের উল্লেখ করেছেন যার আপনি একজন সদস্য'
-      others_text: '{গণনা, বহুবচন, একটি {# অন্যান্য} অন্যান্য {# অন্যান্য}}'
     post:
-      mentioned_by_more_text: '{গণনা} আরও উত্তর।'
-      mentioned_by_self_text: '{ব্যবহারকারী} এর উত্তর দিয়েছে।'
-      mentioned_by_text: '{ব্যবহারকারী} এর উত্তর দিয়েছে।'
       quote_button: উদ্ধৃতি
-      others_text: '{গণনা, বহুবচন, একটি {# অন্যান্য} অন্যান্য {# অন্যান্য}}'
       reply_link: উত্তর
       you_text: আপনি
     settings:
@@ -570,28 +377,12 @@ flarum-mentions:
       notify_group_mentioned_label: 'কেউ একজন একটি পোস্টে আমি যে গ্রুপের সদস্য তার কথা উল্লেখ করেছেন'
     user:
       mentions_link: উল্লেখ
-    post_mention:
-      deleted_text: '[অজ্ঞাত]'
-    group_mention:
-      deleted_text: '[অজ্ঞাত গ্রুপ]'
-  email:
-    post_mentioned:
-      subject: '{replier_display_name} {শিরোনাম}-এ আপনার পোস্টের উত্তর দিয়েছেন'
-      body: "আরে {recipient_display_name}!\n\n{replier_display_name} {শিরোনাম}-এ আপনার পোস্টে (#{post_number}) উত্তর দিয়েছেন।\n\n{url}\n\n---\n\n{বিষয়বস্তু}\n"
-    user_mentioned:
-      subject: '{mentioner_display_name} আপনাকে {শিরোনাম}-এ উল্লেখ করেছে'
-      body: "আরে {recipient_display_name}!\n\n{mentioner_display_name} আপনাকে {শিরোনাম}-এর একটি পোস্টে উল্লেখ করেছে}\n\n{url}\n\n---\n\n{বিষয়বস্তু}\n"
-    group_mentioned:
-      subject: '{mentioner_display_name} আপনি {শিরোনাম}-এ একটি গ্রুপের সদস্য উল্লেখ করেছেন'
-      body: "আরে {recipient_display_name}!\n\n{mentioner_display_name} আপনি {শিরোনাম}-এ একটি গ্রুপের সদস্য উল্লেখ করেছেন।\n\n{url}\n\n---\n\n{বিষয়বস্তু}\n"
 flarum-subscriptions:
   forum:
     discussion_controls:
       unfollow_button: 'আনফলো করুন'
       unignore_button: আনসির
       follow_button: অনুসরণ
-    notifications:
-      new_post_text: '{username} পোস্ট করা হয়েছে'
     settings:
       follow_after_reply_label: 'আমি যে আলোচনাগুলির উত্তর দিই তা স্বয়ংক্রিয়ভাবে অনুসরণ করুন'
       notify_for_all_posts_label: 'আলোচনায় কেবল শেষের পরিবর্তে প্রতিটি নতুন পোস্ট সম্পর্কে অবহিত করুন'
@@ -613,10 +404,6 @@ flarum-subscriptions:
       meta_title_text: নিম্নলিখিত
     index:
       following_link: নিম্নলিখিত
-  email:
-    new_post:
-      subject: '[নতুন পোস্ট] {শিরোনাম}'
-      body: "আরে {recipient_display_name}!\n\n{poster_display_name} আপনার অনুসরণ করা একটি আলোচনায় একটি পোস্ট করেছেন: {শিরোনাম}।\n\nনতুন কার্যকলাপ দেখতে, নীচের লিঙ্কটি দেখুন:\n{url}\n\n---\n\n{বিষয়বস্তু}\n\n---\n\nআপনি আপ-টু-ডেট না হওয়া পর্যন্ত আপনি এই আলোচনা সম্পর্কে আর কোনও বিজ্ঞপ্তি পাবেন না।\n"
   ref:
     follow: অনুসরণ
     following: নিম্নলিখিত
@@ -625,7 +412,6 @@ flarum-flags:
   forum:
     flag_post:
       confirmation_message: 'ধন্যবাদ পোস্টটি তুলে ধরার জন্য। আমাদের মডারেটররা বিষয়টি দেখবেন।'
-      reason_details_placeholder: 'অতিরিক্ত বিবরণ (ঐচ্ছিক)'
       reason_inappropriate_label: অনুপযোগী
       reason_inappropriate_text: 'এই পোস্টটি আক্রমণাত্মক, অবমাননাকর, বা আমাদের <a>সম্প্রদায়ের নির্দেশিকা</a> লঙ্ঘন করে।'
       reason_missing_message: 'দয়া করে আমাদের মডারেটরদের জন্য কিছু বিবরণ প্রদান করুন।'
@@ -639,13 +425,10 @@ flarum-flags:
       title: 'পতাকা পোস্ট'
     flagged_posts:
       empty_text: 'পতাকা নেই'
-      item_text: '<em>{আলোচনা}</em>-এ {username}'
       title: 'পতাকাঙ্কিত পোস্ট'
       tooltip: 'পতাকাঙ্কিত পোস্ট'
     post:
       dismiss_flag_button: 'পতাকা খারিজ করুন'
-      flagged_by_text: '{username} দ্বারা পতাকাঙ্কিত করা হয়েছে'
-      flagged_by_with_reason_text: '{কারণ} হিসাবে {username} দ্বারা পতাকাঙ্কিত করা হয়েছে'
     post_controls:
       flag_button: পতাকা
   ref:
@@ -654,13 +437,11 @@ flarum-flags:
 flarum-suspend:
   forum:
     notifications:
-      user_suspended_text: 'আপনাকে {timeReadable} এর জন্য স্থগিত করা হয়েছে'
       user_suspended_indefinite_text: 'আপনাকে অনির্দিষ্টকালের জন্য স্থগিত করা হয়েছে'
       user_unsuspended_text: 'আপনাকে সাসপেন্ড করা হয়নি'
     suspension_info:
       dismiss_button: বরখাস্ত
       indefinite: 'এটি একটি অনির্দিষ্টকালের স্থগিতাদেশ'
-      limited: 'এই স্থগিতাদেশ {date} পর্যন্ত কার্যকর থাকবে'
       title: 'এই অ্যাকাউন্টটি স্থগিত করা হয়েছে'
     suspend_user:
       display_message: 'ব্যবহারকারীর জন্য বার্তা প্রদর্শন করুন'
@@ -671,7 +452,6 @@ flarum-suspend:
       placeholder_optional: ঐচ্ছিক
       reason: 'স্থগিতাদেশের কারণ'
       status_heading: 'সাসপেনশন স্ট্যাটাস'
-      title: '{username} স্থগিত করুন'
       submit_button: 'পরিবর্তনগুলি সংরক্ষণ করুন'
     user_badge:
       suspended_tooltip: 'সাময়িক বরখাস্ত'
@@ -681,10 +461,8 @@ flarum-suspend:
     no_reason_given: 'এই স্থগিতাদেশের কোনো কারণ জানানো হয়নি।'
     suspended:
       subject: 'আপনার অ্যাকাউন্ট স্থগিত করা হয়েছে'
-      body: "আরে {recipient_display_name},\n\nনিম্নলিখিত কারণে আপনাকে সাময়িক বরখাস্ত করা হয়েছে:\n\n---\n{suspension_message}\n---\n"
     unsuspended:
       subject: 'আপনার অ্যাকাউন্ট স্থগিত করা হয়েছে'
-      body: "আরে {recipient_display_name},\n\nআপনি সাসপেন্ড হননি। আপনি নীচের লিঙ্কে ক্লিক করে ফোরামে ফিরে যেতে পারেন:\n\n{forum_url}\n"
 blomstra-gdpr:
   lib:
     data:
@@ -707,8 +485,6 @@ fof-upload:
       error: ত্রুটি
       loading: 'আপলোড করা হচ্ছে'
       unauthorized: 'আপনার ফাইল ডাউনলোড করার অনুমতি নেই'
-    validation:
-      max_size: '{max} kb এর বেশি আপলোড গ্রহণযোগ্য নয়।'
     text_preview:
       expand: 'পূর্বরূপ প্রসারিত করুন'
       collapse: 'সঙ্কুচিত পূর্বরূপ'
@@ -718,7 +494,6 @@ fof-upload:
   api:
     upload_errors:
       forbidden_type: 'এই ধরণের ফাইল আপলোড করার অনুমতি নেই।'
-      unsupported_type: 'আপলোড অ্যাডাপ্টার প্রদত্ত মাইম প্রকারকে সমর্থন করে না: {mime}।'
       could_not_detect_mime: 'এই ফাইলটির MIME প্রকারটি সনাক্ত করা যায়নি, অনুগ্রহ করে আবার চেষ্টা করুন।'
       max_upload_file_size_ini: 'আপলোডের সর্বাধিক ফাইল আকারের সীমা php.ini থেকে পৌঁছেছে।'
       max_upload_file_size_form: 'আপলোড সর্বাধিক ফাইল আকারের সীমা ফর্ম থেকে পৌঁছেছে।'
@@ -727,7 +502,6 @@ fof-upload:
       no_upload_tmp_folder: 'ফাইল আপলোড করার জন্য কোনও টিএমপি ফোল্ডার নেই।'
       cannot_write_to_disk: 'ডিস্কে লিখতে পারে না।'
       upload_blocked_by_php_extension: 'একটি পিএইচপি এক্সটেনশন আপলোডটি ব্লক করেছে।'
-      no_files_made_it_to_upload: 'দয়া করে {max} KB এর চেয়ে বড় ফাইল আপলোড করুন।'
   lib:
     upload-shared-file-modal:
       title: 'নতুন শেয়ার করা ফাইল'
@@ -740,13 +514,9 @@ fof-upload:
       release_to_upload: 'আপলোড করতে ছেড়ে দিন'
       modal_empty_desktop: 'আপনার ফাইল তালিকাটি খালি। বাটনে ক্লিক করুন অথবা আপলোড করতে এখানে একটি ফাইল টেনে আনুন।'
       modal_empty_phone: 'আপনার ফাইল তালিকাটি খালি। একটি ফাইল আপলোড করতে উপরের বোতামটি ট্যাপ করুন।'
-      select_file_a11y_label: '"{ফাইলেরনাম}" ফাইলটি চয়ন করো'
-      confirm_selection_btn: '{ফাইল গণনা, বহুবচন, =0 {কিছুই নির্বাচিত হয়নি} এক {ফাইল নির্বাচন করুন} অন্যান্য {ফাইল নির্বাচন করুন}}'
       load_more_files_btn: 'আরও ফাইল লোড করুন'
-      delete_file_a11y_label: '"{ফাইলেরনাম}" ফাইলটি মুছুন'
-      delete_confirmation: 'তুমি কি নিশ্চিত যে তুমি "{ফাইলেরনাম}" মুছতে চাও?'
-      hide_file: { btn_a11y_label_hide: 'মিডিয়া ম্যানেজার থেকে "{ফাইলেরনাম}" লুকান', btn_a11y_label_show: 'মিডিয়া ম্যানেজারে "{ফাইলেরনাম}" দেখান', hide_confirmation: 'তুমি কি নিশ্চিত যে তুমি "{ফাইলেরনাম}" লুকাতে চাও? একটি ফাইল লুকানো শুধুমাত্র আপনার মিডিয়া ম্যানেজার থেকে অপসারণ করবে এবং বিদ্যমান পোস্টগুলিকে প্রভাবিত করবে না।', hide_success: 'ফাইল লুকানো', show_confirmation: 'তুমি কি নিশ্চিত যে তুমি "{ফাইলেরনাম}" দেখাতে চাও? একটি ফাইল দেখানো হলে তা আপনার মিডিয়া ম্যানেজারে দৃশ্যমান হবে।', show_success: 'ফাইল দেখানো হয়েছে', hide_fail: '"{fileName}" ফাইলটি লুকানো যায়নি', show_fail: '"{fileName}" ফাইলটি দেখানো যায়নি', loading: 'ফাইল লুকানো হচ্ছে...' }
-      hide_shared_file: { btn_a11y_label_hide: '"{ফাইলেরনাম}" ব্যক্তিগত করুন (কোনও সর্বজনীন ইউআরএল নেই)', btn_a11y_label_show: '"{ফাইলেরনাম}" সর্বজনীন করুন (সর্বজনীন URL সহ)', hide_confirmation: 'তুমি কি নিশ্চিত যে তুমি "{ফাইলেরনাম}" ব্যক্তিগত করতে চাও? কোনও ফাইল ব্যক্তিগত করা তার সর্বজনীন ইউআরএল সরিয়ে ফেলবে, তবে এটি বিদ্যমান পোস্টগুলিকে প্রভাবিত করবে না। এটি অননুমোদিত ব্যবহারকারীদের কাছে মিডিয়া ম্যানেজারে আর দৃশ্যমান হবে না।', hide_success: 'ফাইল ব্যক্তিগত করা হয়েছে', show_confirmation: 'তুমি কি নিশ্চিত যে তুমি "{ফাইলেরনাম}" সর্বজনীন করতে চাও? কোনও ফাইল সর্বজনীন করা এটিকে সর্বজনীন ইউআরএল সহ যে কারও কাছে অ্যাক্সেসযোগ্য করে তুলবে এবং যে কেউ মিডিয়া ম্যানেজার ব্যবহার করে এটি ভাগ করতে পারে।', show_success: 'ফাইল পাবলিক করা হয়েছে', hide_fail: '"{ফাইলেরনাম}" ফাইলটি ব্যক্তিগত করা যায়নি', show_fail: '"{fileName}" ফাইলটি সর্বজনীন করা যায়নি', loading: 'ফাইল ব্যক্তিগত করা হচ্ছে...' }
+      hide_file: { hide_success: 'ফাইল লুকানো', show_success: 'ফাইল দেখানো হয়েছে', loading: 'ফাইল লুকানো হচ্ছে...' }
+      hide_shared_file: { hide_success: 'ফাইল ব্যক্তিগত করা হয়েছে', show_success: 'ফাইল পাবলিক করা হয়েছে', loading: 'ফাইল ব্যক্তিগত করা হচ্ছে...' }
 flarum-bbcode:
   forum:
     quote:
@@ -779,8 +549,6 @@ fof-follow-tags:
       following_tag_tooltip: নিম্নলিখিত
       lurking_tag_tooltip: 'লুকিয়ে লুকিয়ে'
     sub_controls:
-      header: '{tagName}-এর জন্য সাবস্ক্রিপশন'
-      subscription_label: '{tagName}-এর জন্য আপনার সাবস্ক্রিপশন স্তর চয়ন করো'
       following_text: 'নতুন সব আলোচনা থেকে অবহিত থাকুন।'
       hiding_text: 'সকল আলোচনা পাতা থেকে আলোচনা লুকিয়ে রাখুন।'
       ignoring_text: 'কখনই অবহিত করা হবে না।'
@@ -795,21 +563,8 @@ fof-follow-tags:
       hiding_button: 'লুকিয়ে থাকা'
       ignoring_button: 'উপেক্ষা করা'
       lurking_button: 'লুকিয়ে লুকিয়ে'
-    notifications:
-      new_discussion_text: '{username} শুরু হয়েছে'
-      new_post_text: '{username} পোস্ট করা হয়েছে'
-      new_discussion_tag_text: '{username} ট্যাগটি পরিবর্তন করেছেন'
     user:
       settings: { heading: 'ট্যাগ ফলো করুন', filter_label: 'নিম্নলিখিত পৃষ্ঠায় ডিফল্টরূপে কী দেখাতে হবে' }
-  email:
-    subject:
-      newDiscussionInTag: '[ট্যাগ | নতুন আলোচনা] {শিরোনাম}'
-      newPostInTag: '[ট্যাগ | নতুন পোস্ট] {শিরোনাম}'
-      newDiscussionTag: '[ট্যাগ | পরিবর্তিত ট্যাগ] {শিরোনাম}'
-    body:
-      newDiscussionInTag: "আরে {recipient_display_name},\n\n{actor_display_name} আপনার অনুসরণ করা একটি ট্যাগে একটি আলোচনা শুরু করেছেন: {discussion_title}\n\nনতুন আলোচনাটি দেখতে নিচের লিংকটি দেখুন:\n{discussion_url}\n\n---\n\n{post_content}\n"
-      newPostInTag: "আরে {recipient_display_name},\n\n{actor_display_name} আপনার অনুসরণ করা একটি ট্যাগের আলোচনায় পোস্ট করেছেন: {discussion_title}\n\nনতুন কার্যকলাপ দেখতে, নীচের লিঙ্কটি দেখুন:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nআপনি আপ টু ডেট না হওয়া অবধি আপনি এই আলোচনা সম্পর্কে আর কোনও বিজ্ঞপ্তি পাবেন না।\n"
-      newDiscussionTag: "আরে {recipient_display_name},\n\n{actor_display_name} এইমাত্র {author_display_name} দ্বারা আলোচনায় ট্যাগটি পরিবর্তন করে আপনি {discussion_title} অনুসরণ করছেন এমন একটি ট্যাগে পরিবর্তন করেছেন\n\nনতুন আলোচনাটি দেখতে নিচের লিংকটি দেখুন:\n{discussion_url}\n"
   ref:
     follow: অনুসরণ
     following: নিম্নলিখিত
@@ -838,17 +593,8 @@ flarum-nicknames:
       nickname_placeholder: ডাকনাম
 fof-oauth:
   forum:
-    log_in:
-      with_button: '{provider} দিয়ে লগইন করুন'
-      with_discord_button: '{provider} দিয়ে লগইন করুন'
-      with_facebook_button: '{provider} দিয়ে লগইন করুন'
-      with_github_button: '{provider} দিয়ে লগইন করুন'
-      with_gitlab_button: '{provider} দিয়ে লগইন করুন'
-      with_google_button: '{provider} দিয়ে লগইন করুন'
-      with_linkedin_button: '{provider} দিয়ে লগইন করুন'
-      with_twitter_button: '{provider} দিয়ে লগইন করুন'
     user:
-      settings: { linked-account: { label: 'লিঙ্ক করা অ্যাকাউন্ট', last-used-label: 'সর্বশেষ ব্যবহৃত', link-created-label: 'লিংক তৈরি করা হয়েছে', orphaned-account: 'আপনি আগে এই প্রদানকারীর মাধ্যমে সাইন ইন করেছেন, কিন্তু এই ফোরামটি তখন থেকে এই পদ্ধতির সাথে সাইন-ইন অক্ষম করেছে।', help: 'এই লিঙ্কযুক্ত অ্যাকাউন্টগুলি আপনাকে অন্যান্য সরবরাহকারীদের ব্যবহার করে ফোরামে সাইন ইন করার অনুমতি দেয়।', identifier-label: '{সরবরাহকারী} আইডি', unlink-confirm: 'তুমি কি নিশ্চিত যে তুমি {সরবরাহকারী} এর সাথে লিঙ্কটি সরাতে চাও? আপনি ভবিষ্যতে পুনরায় প্রমাণীকরণ না করা পর্যন্ত এই ফোরামে আর সাইন ইন করতে পারবেন না।' } }
+      settings: { linked-account: { label: 'লিঙ্ক করা অ্যাকাউন্ট', last-used-label: 'সর্বশেষ ব্যবহৃত', link-created-label: 'লিংক তৈরি করা হয়েছে', orphaned-account: 'আপনি আগে এই প্রদানকারীর মাধ্যমে সাইন ইন করেছেন, কিন্তু এই ফোরামটি তখন থেকে এই পদ্ধতির সাথে সাইন-ইন অক্ষম করেছে।', help: 'এই লিঙ্কযুক্ত অ্যাকাউন্টগুলি আপনাকে অন্যান্য সরবরাহকারীদের ব্যবহার করে ফোরামে সাইন ইন করার অনুমতি দেয়।' } }
     signup:
       username_help: 'দয়া করে এখানে পরিচিত হওয়ার জন্য একটি ব্যবহারকারীর নাম চয়ন করুন'
     unlink: 'লিংক সরান'
@@ -882,10 +628,8 @@ fof-impersonate:
   forum:
     modal:
       title: 'অন্য ব্যবহারকারী হিসাবে লগইন করুন'
-      label: 'বড় ক্ষমতার সঙ্গে আসে বড় দায়িত্ব। অবিরত রেখে, আপনি লগ আউট না করা পর্যন্ত আপনি {username} হয়ে যাবেন।'
       placeholder_optional: '(ঐচ্ছিক) এই ব্যবহারকারীর কাছে স্যুইচ করার জন্য আপনার কারণ সরবরাহ করুন'
       placeholder_required: 'এগিয়ে যাওয়ার আগে আপনাকে অবশ্যই এই ব্যবহারকারীর কাছে স্যুইচ করার কারণ সরবরাহ করতে হবে'
-      impersonate_username: '{username} হিসাবে লগইন করুন'
     user_controls:
       impersonate_button: 'ব্যবহারকারী হিসাবে লগইন করুন'
 fof-byobu:
@@ -896,7 +640,6 @@ fof-byobu:
       add_recipients: প্রাপক
       submit: 'ঠিক আছে'
       edit_recipients: 'প্রাপক সম্পাদনা করুন'
-      send_pd: '{username} কে একটি বার্তা পাঠান'
       cancel: বাতিল
       make_public: 'এই আলোচনাটি সর্বজনীন করুন'
       remove_from_discussion: 'এই ব্যক্তিগত আলোচনা ছেড়ে দিন'
@@ -905,8 +648,6 @@ fof-byobu:
       title_placeholder: 'ব্যক্তিগত আলোচনার শিরোনাম'
     confirm:
       make_public: 'আপনি কি নিশ্চিত যে আপনি প্রাপকদের অপসারণ করতে চান এবং যে কেউ নির্ধারিত ট্যাগটি দেখতে পারে তার কাছে এই আলোচনাটি দৃশ্যমান করতে চান?'
-    labels:
-      recipients: '{গণনা, বহুবচন, একজন {{কাউন্ট} প্রাপক} অন্যান্য {{গণনা} প্রাপক}}'
     nav:
       start_button: 'ব্যক্তিগতভাবে আলোচনা করুন'
       nav_item: 'ব্যক্তিগত আলোচনা'
@@ -915,11 +656,9 @@ fof-byobu:
     search:
       headings: { groups: 'অনুমতি গ্রুপ' }
     modal:
-      titles: { update_recipients: '{শিরোনাম} এর প্রাপকদের আপডেট করুন', add_recipients: 'আপনার আলোচনায় প্রাপক যোগ করুন' }
+      titles: { add_recipients: 'আপনার আলোচনায় প্রাপক যোগ করুন' }
       labels: { selected_users: 'নির্বাচিত ব্যবহারকারী', search_field: 'ব্যবহারকারীর জন্য অনুসন্ধান করুন' }
       help: { add_recipients: 'এই আলোচনাটি শুধুমাত্র আপনার এখানে চয়ন করা ব্যবহারকারীদের কাছে দৃশ্যমান হবে। কমপক্ষে 1 জন প্রাপক (আপনি ব্যতীত) আবশ্যক।', update_recipients: 'এই আলোচনাটি শুধুমাত্র আপনার এখানে চয়ন করা ব্যবহারকারীদের কাছে দৃশ্যমান হবে।', selected_users: 'এগুলি সরাতে কোনও ব্যবহারকারীর নামে ক্লিক করুন।', click_user_to_remove_tooltip: 'অপসারণ করতে ক্লিক করুন' }
-    post:
-      recipients_modified: { added_and_removed: '{username} প্রাপক {যুক্ত} যোগ করেছেন এবং {সরানো হয়েছে} অপসারণ করা হয়েছে}', added: '{ইউজারনেম} প্রাপক যোগ করেছেন {যুক্ত}।', made_public: '{username} সমস্ত প্রাপককে অপসারণ করেছেন এবং আলোচনাটি সর্বজনীন করেছেন', removed: '{username} প্রাপকদের {অপসারণ করা হয়েছে}।', removed_self: '{username} ব্যক্তিগত আলোচনা ছেড়ে দিয়েছেন।' }
     user:
       settings: { block_pd: 'ব্যক্তিগত আলোচনা ব্লক করুন' }
       byobu_link: 'ব্যক্তিগত আলোচনা'
@@ -927,23 +666,9 @@ fof-byobu:
     notifications:
       pd_label: 'কেউ একজন আমাকে নতুন একান্ত আলোচনায় অন্তর্ভুক্ত করেছেন'
       pd_reply_label: 'কেউ একটি ব্যক্তিগত আলোচনায় পোস্ট করে যা আমি একজন প্রাপক'
-      pd_reply_text: '{username} একটি ব্যক্তিগত আলোচনায় পোস্ট করেছেন যার আপনি একটি অংশ'
-      pd_text: '{username} আপনার সাথে একটি নতুন ব্যক্তিগত আলোচনা শুরু করেছেন'
       pd_user_left_label: 'একজন প্রাপক ব্যবহারকারী একটি ব্যক্তিগত আলোচনা ছেড়ে চলে যান যার আমি একটি অংশ'
-      pd_user_left_text: '{username} ব্যক্তিগত আলোচনা ছেড়ে দিয়েছেন'
-      pd_added_text: '{username} আপনাকে একটি ব্যক্তিগত আলোচনায় যোগ করেছে'
       pd_added_label: 'কেউ আমাকে একটি বিদ্যমান ব্যক্তিগত আলোচনায় যুক্ত করে'
-  email:
-    subject:
-      private_discussion_created: '[ব্যক্তিগত আলোচনা] {display_name} আপনার সাথে একটি নতুন ব্যক্তিগত আলোচনা শুরু করেছেন'
-      private_discussion_replied: '[ব্যক্তিগত আলোচনা] {display_name} একটি ব্যক্তিগত আলোচনায় পোস্ট করা হয়েছে'
-      recipient_removed: '[ব্যক্তিগত আলোচনা] {display_name} আলোচনা ছেড়ে দিয়েছেন'
-      private_discussion_added: '[ব্যক্তিগত আলোচনা] {display_name} আপনাকে একটি ব্যক্তিগত আলোচনায় যুক্ত করেছে'
-    body:
-      private_discussion_created: "আরে {recipient_display_name},\n\n{actor_display_name} প্রাপক হিসাবে আপনার সাথে একটি নতুন ব্যক্তিগত আলোচনা শুরু করেছেন: {discussion_title}\n\nদেখে নিন এখানে:\n{discussion_url}\n\nএই লিঙ্কটি অ্যাক্সেস করতে সক্ষম হওয়ার আগে আপনাকে প্রথমে লগইন করতে হতে পারে।\n"
-      private_discussion_replied: "আরে {recipient_display_name},\n\n{actor_display_name} প্রাপক হিসাবে আপনার সাথে একটি ব্যক্তিগত আলোচনায় পোস্ট করেছেন: {discussion_title}\n\nদেখে নিন এখানে:\n{post_url}\n\nএই লিঙ্কটি অ্যাক্সেস করতে সক্ষম হওয়ার আগে আপনাকে প্রথমে লগইন করতে হতে পারে।\n"
-      recipient_removed: "আরে {recipient_display_name},\n\n{actor_display_name} ব্যক্তিগত আলোচনা ছেড়েছেন: {discussion_title}। তারা আর এর কোনও সামগ্রী দেখতে সক্ষম হবে না।\n\nদেখে নিন এখানে:\n{discussion_url}\n\nএই লিঙ্কটি অ্যাক্সেস করতে সক্ষম হওয়ার আগে আপনাকে প্রথমে লগইন করতে হতে পারে।\n"
-      private_discussion_added: "আরে {recipient_display_name},\n\n{actor_display_name} আপনাকে একটি বিদ্যমান ব্যক্তিগত আলোচনায় যুক্ত করেছে: {discussion_title}\n\nদেখে নিন এখানে:\n{discussion_url}\n\nএই লিঙ্কটি অ্যাক্সেস করতে সক্ষম হওয়ার আগে আপনাকে প্রথমে লগইন করতে হতে পারে।\n"
+  email: null
 v17development-flarum-badges:
   forum:
     badge_information: 'ব্যাজ সংক্রান্ত তথ্য'
@@ -966,17 +691,11 @@ v17development-flarum-badges:
       no_earning_reason: 'উপার্জনের কোনও কারণ সেট নেই'
       earned_on: 'ব্যাজ অর্জিত হয়েছে'
       category: 'ব্যাজ বিভাগ'
-      received_on: '{date}-এ প্রাপ্ত হয়েছে'
       badge_details: 'ব্যাজের বিবরণ'
-      earned_count: '{গণনা, বহুবচন, একজন {<b># ব্যবহারকারী</b> এই ব্যাজটি অর্জন করেছেন} অন্য {<b># ব্যবহারকারীরা</b> এই ব্যাজটি অর্জন করেছেন}}'
-      earned_by_count: '{গণনা, বহুবচন, একটি {# <b>ব্যবহারকারী</b> দ্বারা অর্জিত} অন্যান্য {# <b>ব্যবহারকারীদের</b> দ্বারা অর্জিত}}'
-      others_link: '+ {কাউন্ট} আরও'
     badges_in_card:
       title: 'ব্যবহারকারী কার্ডে ব্যাজ'
       manage_badges: 'ব্যাজগুলি পরিচালনা করুন'
       description: 'আপনি আপনার ব্যবহারকারী কার্ডে দৃশ্যমান ব্যাজগুলি আপনার অন্য একটি ব্যাজের সাহায্যে পরিবর্তন করতে পারেন। আপনি কোনও নির্বাচন না করলে, সেগুলি স্বয়ংক্রিয়ভাবে নির্বাচিত হবে।'
-      select_limit: 'তোমার ব্যবহারকারী কার্ডে দৃশ্যমান হতে তুমি {সীমা, বহুবচন, একটি {<b>এক ব্যাজ</b>} অন্য {<b># ব্যাজ</b>}} নির্বাচন করতে পারো।'
-      hit_limit: 'আপনার কার্ডে <b> কেবলমাত্র {সীমা, বহুবচন, একটি {<b>একটি ব্যাজ</b>} অন্য {<b># ব্যাজ</b>}}</b> এর জন্য জায়গা রয়েছে। এই ব্যাজটির জন্য জায়গা করতে একটি ব্যাজ নির্বাচন করুন।'
     moderation:
       remove_badge: 'ব্যবহারকারী থেকে ব্যাজ অপসারণ করুন'
       remove_badge_confirm: 'তুমি কি নিশ্চিত যে তুমি এই ব্যবহারকারীর থেকে এই ব্যাজটি সরাতে চাও?'
@@ -985,14 +704,10 @@ v17development-flarum-badges:
       title: 'আপনি একটি নতুন ব্যাজ পেয়েছেন'
       settings: 'আমি একটি ব্যাজ পেয়েছি'
     uncategorized: Uncategorized
-v17development-flarum-seo:
-  forum:
-    profile_title: '{username} এর প্রোফাইল'
-    profile_description: '{username} এর প্রোফাইল | {discussion_count} আলোচনা | {comment_count}টি পোস্ট'
+v17development-flarum-seo: null
 the-turk-miserable-users:
   forum:
     miserable_user:
-      title: 'দুঃখজনক {username}'
       status_heading: 'শোচনীয় অবস্থা'
       not_miserable_label: 'দুঃখী নয়'
       indefinitely_label: 'অনির্দিষ্টকালের জন্য দুঃখজনক'
@@ -1009,7 +724,6 @@ sycho-profile-cover:
   forum:
     cover: প্রচ্ছদ
     edit_cover: 'প্রচ্ছদ সম্পাদনা করুন'
-    notice: 'সর্বাধিক আকার: {size}'
     added:
       success: 'প্রোফাইল কভার আপডেট হয়েছে।'
       error: 'ছবি আপলোড করা যায়নি।'
@@ -1018,10 +732,7 @@ sycho-profile-cover:
       error: 'কভার অপসারণ করা গেল না, পরে আবার চেষ্টা করুন।'
 sycho-photoswipe: null
 nearata-tags-color-generator: null
-nearata-prevent-double-posting:
-  forum:
-    exception:
-      too_many_replies: '{গণনা} এর বেশি পরপর উত্তর অনুমোদিত নয়। পরিবর্তে আপনার পূর্ববর্তী উত্তরটি সম্পাদনা করুন, বা কেউ আপনাকে উত্তর দেওয়ার জন্য অপেক্ষা করুন।'
+nearata-prevent-double-posting: null
 nearata-copy-code-to-clipboard:
   forum:
     copy: 'ক্লিপবোর্ডে অনুলিপি করুন'
@@ -1030,7 +741,6 @@ michaelbelgium-flarum-profile-views:
   forum:
     user:
       viewlist: { title: 'শেষ দর্শনার্থী', guest: অতিথি }
-      view_count_text: '{ভিউকাউন্ট, বহুবচন, একটি {দেখা {ভিউকাউন্ট} সময়} অন্য {দেখা {ভিউকাউন্ট} বার}}'
 justoverclock-country-flags:
   forum:
     inputCountryCode: 'কান্ট্রি কোড'
@@ -1058,13 +768,10 @@ ianm-syndication:
     autodiscovery:
       forum_activity: 'ফোরামের কার্যকলাপ'
       forum_new_discussions: 'ফোরামের নতুন আলোচনা'
-      tag_activity: '{tag} ট্যাগের জন্য কার্যকলাপ'
-      tag_new_discussions: '{tag} ট্যাগে আলোচনা'
       discussion_last_posts: 'এই আলোচনা'
       user_last_posts: 'এই ব্যবহারকারীর পোস্ট ও মন্তব্য'
     feeds:
-      entries: { user_posts: { title_reply: 'Re: {আলোচনা}' } }
-      titles: { main_title: '{forum_name}', main_subtitle: 'ফোরামের শেষ পোস্ট', main_d_title: '{forum_name}-এ নতুন আলোচনা', main_d_subtitle: 'ফোরামে নতুন আলোচনা', tag_title: '{tag} ট্যাগে কার্যকলাপ', tag_subtitle: '{tag} ট্যাগে শেষ পোস্ট', tag_d_title: '{tag} ট্যাগে নতুন আলোচনা', tag_d_subtitle: '{tag} ট্যাগে নতুন আলোচনা', discussion_title: '{discussion_name}', discussion_subtitle: 'এই আলোচনায় শেষ বার্তা', user_title: '{username}', user_subtitle: 'এই ব্যবহারকারীর সাম্প্রতিক পোস্ট ও মন্তব্য' }
+      titles: { main_subtitle: 'ফোরামের শেষ পোস্ট', main_d_subtitle: 'ফোরামে নতুন আলোচনা', discussion_subtitle: 'এই আলোচনায় শেষ বার্তা', user_subtitle: 'এই ব্যবহারকারীর সাম্প্রতিক পোস্ট ও মন্তব্য' }
     discussion:
       feed_link: ফীড
 ianm-log-viewer: null
@@ -1072,7 +779,6 @@ ianm-html-head: null
 ianm-follow-users:
   forum:
     followed: 'অনুসরণ করা হয়েছে'
-    followers: '{গণনা, বহুবচন, একজন {অনুসরণকারী} অন্যান্য {অনুসরণকারী}}'
     profile_page:
       no_following: 'দেখে মনে হচ্ছে আপনি কাউকে অনুসরণ করছেন না।'
     settings:
@@ -1081,17 +787,12 @@ ianm-follow-users:
       notify_new_discussion_label: 'আমি যাকে অনুসরণ করছি সে আলোচনা শুরু করে'
       notify_new_post_label: 'বিদ্যমান আলোচনায় আমি যাকে অনুসরণ করছি'
       block_follow: 'ব্যবহারকারীদের আমাকে অনুসরণ করা থেকে বিরত রাখুন'
-    notifications:
-      new_discussion_text: '{username} শুরু হয়েছে'
-      new_post_text: '{username} একটি আলোচনায় পোস্ট করেছেন'
-      new_follower_text: '{username} আপনাকে অনুসরণ করেছে'
-      new_unfollower_text: '{username} আপনাকে অনুসরণ করা বন্ধ করেছে'
     badge:
       label: { follow: 'নিম্নলিখিত আলোচনা', lurk: 'সব অনুসরণ করে' }
     filter:
       following: 'ব্যবহারকারীদের অনুসরণ করা হয়েছে'
     modals:
-      select_follow_level: { title: '{username} এর জন্য অনুসরণ স্তর চয়ন করো', description: 'আপনি কীভাবে <em>{username}</em> অনুসরণ করতে চান তা বেছে নিন।', follow_levels_heading: 'স্তরগুলি অনুসরণ করুন', follow_select_label: 'অনুসরণ করুন প্রকার', no_user_attr_provided_err: 'আহ ওহ, এই মোডালটি খোলার সময় কিছু ভুল হয়েছে।', no_user_attr_provided_err_debug: 'তৈরি করার সময় সিলেক্টফলোইউজারলেভেল মোডালে কোনও ''ব্যবহারকারী'' বৈশিষ্ট্য পাস করা হয়নি। মডেল রেন্ডার করা যাবে না।', save_btn: সংরক্ষণ, cancel_btn: বাতিল }
+      select_follow_level: { follow_levels_heading: 'স্তরগুলি অনুসরণ করুন', follow_select_label: 'অনুসরণ করুন প্রকার', no_user_attr_provided_err: 'আহ ওহ, এই মোডালটি খোলার সময় কিছু ভুল হয়েছে।', no_user_attr_provided_err_debug: 'তৈরি করার সময় সিলেক্টফলোইউজারলেভেল মোডালে কোনও ''ব্যবহারকারী'' বৈশিষ্ট্য পাস করা হয়নি। মডেল রেন্ডার করা যাবে না।', save_btn: সংরক্ষণ, cancel_btn: বাতিল }
     profile_link: 'অনুসরণকারী ব্যবহারকারীরা'
     user_controls:
       follow_button: অনুসরণ
@@ -1101,37 +802,28 @@ ianm-follow-users:
       follow_tag_button: অনুসরণ
       unfollow_tag_button: 'অনুসরণ প্রকার পরিবর্তন করুন'
   email:
-    new_discussion_by_user_subject: '[ব্যবহারকারীকে অনুসরণ করুন] {শিরোনাম}'
     new_follower_subject: '[ব্যবহারকারীকে অনুসরণ করুন] আপনার একজন নতুন অনুসরণকারী আছে!'
-    new_post_subject: '[ব্যবহারকারীকে অনুসরণ করুন] {শিরোনাম}-এ নতুন পোস্ট'
-    new_discussion_by_user_body: "আরে {recipient_display_name},\n\n{user_display_name} একটি নতুন আলোচনা শুরু করেছেন: {discussion_title}\n\nনতুন আলোচনাটি দেখতে নিচের লিংকটি দেখুন:\n\n{discussion_url}\n\n---\n\n{post_content}\n"
-    new_follower_body: "আরে {recipient_display_name},\n\n{follower_display_name} আপনাকে অনুসরণ করা শুরু করেছে, তাই আপনি যখন একটি নতুন আলোচনা শুরু করবেন তখন তাদের জানানো হবে।\n\nতাদের প্রোফাইল দেখতে, নীচের লিঙ্কটি দেখুন:\n\n{profile_url}\n"
-    new_post_body: "আরে {recipient_display_name},\n\n{user_display_name} একটি আলোচনায় পোস্ট করেছেন: {discussion_title}\n\nনতুন কার্যকলাপ দেখতে, নীচের লিঙ্কটি দেখুন:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nআপনি আপ-টু-ডেট না হওয়া পর্যন্ত আপনি এই আলোচনা সম্পর্কে আর কোনও বিজ্ঞপ্তি পাবেন না।\n"
   lib:
     following_link: 'অনুসরণকারী ব্যবহারকারীরা'
     follow: অনুসরণ
     change_follow_type: 'অনুসরণ প্রকার পরিবর্তন করুন'
     unfollow: 'আনফলো করুন'
     follow_levels:
-      unfollow: { name: 'অনুসরণ করবেন না', description: "<em>{username}</em> এর ক্রিয়াকলাপের জন্য কোনও বিজ্ঞপ্তি পাবেন না।\n" }
-      follow: { name: 'আলোচনা অনুসরণ করুন', description: "<em>{username}</em> নতুন করে একটি নতুন আলোচনা শুরু করলে বিজ্ঞপ্তিগুলি পান।\n" }
-      lurk: { name: 'সব অনুসরণ করুন', description: "<em>যখন {username}</em> কোনও আলোচনার মধ্যে একটি নতুন আলোচনা বা পোস্ট শুরু করে তখন বিজ্ঞপ্তিগুলি পান।\n" }
+      unfollow: { name: 'অনুসরণ করবেন না' }
+      follow: { name: 'আলোচনা অনুসরণ করুন' }
+      lurk: { name: 'সব অনুসরণ করুন' }
 fof-username-request:
   forum:
     nickname_modals:
-      action: { help_text: 'অনুগ্রহ করে নিশ্চিত করুন যে এই অনুরোধ করা ডাকনাম পরিবর্তন ফোরামের নির্দেশিকা অনুসরণ করে।', decision_title: সিদ্ধান্ত, approval_label: অনুমোদন, rejected_label: 'প্রত্যাখ্যান করুন', submit_button: জমা, reason_title: 'প্রত্যাখ্যানের কারণ', success: 'সিদ্ধান্ত পাঠানো হয়েছে।', name: '{name} তাদের ডাকনামটি "{অনুরোধকৃতনাম}" এ পরিবর্তন করার অনুরোধ করেছে', title: 'ডাকনাম পরিবর্তনের অনুরোধ' }
-      results: { title: 'ডাকনাম পরিবর্তনের অনুরোধ', approved: 'আপনার ডাকনাম পরিবর্তনের অনুরোধ অনুমোদিত হয়েছে', new_name: 'তোমার ডাকনাম সফলভাবে এতে পরিবর্তন করা হয়েছে: {নাম}', rejected: 'আপনার ডাকনাম পরিবর্তনের অনুরোধ প্রত্যাখ্যান করা হয়েছে', reason: 'প্রত্যাখ্যানের কারণ: <i>"{কারণ}"</i>।', resubmit: 'এই সময়ে আপনি আপনার অ্যাকাউন্ট সেটিংস থেকে একটি নতুন ডাকনাম পরিবর্তনের অনুরোধ পুনরায় জমা দিতে পারেন যদি আপনি চান।', dismiss_button: 'ঠিক আছে' }
-      request: { title: 'ডাকনাম পরিবর্তনের অনুরোধ করুন', current_request: 'তুমি ইতিমধ্যে তোমার ডাকনামটি "{নাম}" এ পরিবর্তন করার অনুরোধ করেছ। আপনি আপনার অনুরোধ আপডেট করতে পারেন বা এটি মুছতে পারেন।', submit_button: 'অনুরোধ জমা দিন', delete_button: 'মুছে ফেলার অনুরোধ', confirmation_message: 'আপনার ডাকনাম পরিবর্তনের অনুরোধ জমা দেওয়া হয়েছে এবং অনুমোদনের জন্য মুলতুবি রয়েছে।', deleted: 'ডাকনামের অনুরোধ মোছা হয়েছে।', dismiss_button: 'ঠিক আছে' }
+      action: { help_text: 'অনুগ্রহ করে নিশ্চিত করুন যে এই অনুরোধ করা ডাকনাম পরিবর্তন ফোরামের নির্দেশিকা অনুসরণ করে।', decision_title: সিদ্ধান্ত, approval_label: অনুমোদন, rejected_label: 'প্রত্যাখ্যান করুন', submit_button: জমা, reason_title: 'প্রত্যাখ্যানের কারণ', success: 'সিদ্ধান্ত পাঠানো হয়েছে।', title: 'ডাকনাম পরিবর্তনের অনুরোধ' }
+      results: { title: 'ডাকনাম পরিবর্তনের অনুরোধ', approved: 'আপনার ডাকনাম পরিবর্তনের অনুরোধ অনুমোদিত হয়েছে', rejected: 'আপনার ডাকনাম পরিবর্তনের অনুরোধ প্রত্যাখ্যান করা হয়েছে', resubmit: 'এই সময়ে আপনি আপনার অ্যাকাউন্ট সেটিংস থেকে একটি নতুন ডাকনাম পরিবর্তনের অনুরোধ পুনরায় জমা দিতে পারেন যদি আপনি চান।', dismiss_button: 'ঠিক আছে' }
+      request: { title: 'ডাকনাম পরিবর্তনের অনুরোধ করুন', submit_button: 'অনুরোধ জমা দিন', delete_button: 'মুছে ফেলার অনুরোধ', confirmation_message: 'আপনার ডাকনাম পরিবর্তনের অনুরোধ জমা দেওয়া হয়েছে এবং অনুমোদনের জন্য মুলতুবি রয়েছে।', deleted: 'ডাকনামের অনুরোধ মোছা হয়েছে।', dismiss_button: 'ঠিক আছে' }
     username_modals:
-      action: { help_text: 'অনুগ্রহ করে নিশ্চিত করুন যে এই অনুরোধকৃত ব্যবহারকারী নাম পরিবর্তন ফোরামের নির্দেশিকা অনুসরণ করে।', decision_title: সিদ্ধান্ত, approval_label: অনুমোদন, rejected_label: 'প্রত্যাখ্যান করুন', submit_button: জমা, reason_title: 'প্রত্যাখ্যানের কারণ', success: 'সিদ্ধান্ত পাঠানো হয়েছে।', name: '{নাম} তাদের ব্যবহারকারীর নাম "{অনুরোধকৃতনাম}" এ পরিবর্তন করার অনুরোধ করেছে', title: 'ব্যবহারকারীর নাম পরিবর্তনের অনুরোধ' }
-      results: { title: 'ব্যবহারকারীর নাম পরিবর্তনের অনুরোধ', approved: 'আপনার ব্যবহারকারীর নাম পরিবর্তনের অনুরোধ অনুমোদিত হয়েছে', new_name: 'তোমার ব্যবহারকারীর নাম সফলভাবে এতে পরিবর্তন করা হয়েছে: {নাম}', rejected: 'আপনার ব্যবহারকারীর নাম পরিবর্তনের অনুরোধ প্রত্যাখ্যান করা হয়েছে', reason: 'প্রত্যাখ্যানের কারণ: <i>"{কারণ}"</i>।', resubmit: 'এই সময়ে আপনি আপনার অ্যাকাউন্ট সেটিংস থেকে একটি নতুন ব্যবহারকারী নাম পরিবর্তনের অনুরোধ পুনরায় জমা দিতে পারেন যদি আপনি চান।', dismiss_button: 'ঠিক আছে' }
-      request: { title: 'ব্যবহারকারীর নাম পরিবর্তনের অনুরোধ করুন', current_request: 'তুমি ইতিমধ্যে তোমার ব্যবহারকারীর নামটি "{নাম}" এ পরিবর্তন করার অনুরোধ করেছ} আপনি আপনার অনুরোধ আপডেট করতে পারেন বা এটি মুছতে পারেন।', submit_button: 'অনুরোধ জমা দিন', delete_button: 'মুছে ফেলার অনুরোধ', confirmation_message: 'আপনার ব্যবহারকারীর নাম পরিবর্তনের অনুরোধ জমা দেওয়া হয়েছে এবং অনুমোদনের জন্য মুলতুবি রয়েছে।', deleted: 'ব্যবহারকারীর নাম অনুরোধ মোছা হয়েছে।', dismiss_button: 'ঠিক আছে' }
+      action: { help_text: 'অনুগ্রহ করে নিশ্চিত করুন যে এই অনুরোধকৃত ব্যবহারকারী নাম পরিবর্তন ফোরামের নির্দেশিকা অনুসরণ করে।', decision_title: সিদ্ধান্ত, approval_label: অনুমোদন, rejected_label: 'প্রত্যাখ্যান করুন', submit_button: জমা, reason_title: 'প্রত্যাখ্যানের কারণ', success: 'সিদ্ধান্ত পাঠানো হয়েছে।', title: 'ব্যবহারকারীর নাম পরিবর্তনের অনুরোধ' }
+      results: { title: 'ব্যবহারকারীর নাম পরিবর্তনের অনুরোধ', approved: 'আপনার ব্যবহারকারীর নাম পরিবর্তনের অনুরোধ অনুমোদিত হয়েছে', rejected: 'আপনার ব্যবহারকারীর নাম পরিবর্তনের অনুরোধ প্রত্যাখ্যান করা হয়েছে', resubmit: 'এই সময়ে আপনি আপনার অ্যাকাউন্ট সেটিংস থেকে একটি নতুন ব্যবহারকারী নাম পরিবর্তনের অনুরোধ পুনরায় জমা দিতে পারেন যদি আপনি চান।', dismiss_button: 'ঠিক আছে' }
+      request: { title: 'ব্যবহারকারীর নাম পরিবর্তনের অনুরোধ করুন', submit_button: 'অনুরোধ জমা দিন', delete_button: 'মুছে ফেলার অনুরোধ', confirmation_message: 'আপনার ব্যবহারকারীর নাম পরিবর্তনের অনুরোধ জমা দেওয়া হয়েছে এবং অনুমোদনের জন্য মুলতুবি রয়েছে।', deleted: 'ব্যবহারকারীর নাম অনুরোধ মোছা হয়েছে।', dismiss_button: 'ঠিক আছে' }
     pending_requests:
       empty_text: 'কোনও নাম পরিবর্তনের অনুরোধ পাওয়া যায়নি।'
-      nickname_item_text: '{নাম} একটি ডাকনাম পরিবর্তনের অনুরোধ করেছে'
-      nickname_exerpt: 'অনুরোধ করা ডাকনাম: {অনুরোধকৃতনাম}'
-      username_item_text: '{নাম} একটি ব্যবহারকারীর নাম পরিবর্তনের অনুরোধ করেছে'
-      username_exerpt: 'অনুরোধকৃত ব্যবহারকারীর নাম: {অনুরোধকৃতনাম}'
       tooltip: 'নাম পরিবর্তনের অনুরোধ'
       title: 'নাম পরিবর্তনের অনুরোধ'
     settings:
@@ -1149,15 +841,9 @@ fof-username-request:
   email:
     body:
       noReasonProvided: 'কোনো কারণ দেখানো হয়নি।'
-      approved: "হ্যালো {recipient_display_name},\n\nআপনার ইউজারনেম \"{new_username}\"-এ পরিবর্তন করার অনুরোধ {actor_display_name} দ্বারা অনুমোদিত হয়েছে।\n\nআপনি এখন আপনার নতুন ইউজারনেম দিয়ে লগ ইন করতে পারেন: {login_url}\n"
-      rejected: "হ্যালো {recipient_display_name},\n\nআপনার ব্যবহারকারী নাম \"{old_username}\" থেকে \"{requested_username}\" এ পরিবর্তন করার আপনার অনুরোধ {actor_display_name} প্রত্যাখ্যান করেছে।\n\nকারণ: {কারণ}\n"
-    subject:
-      approved: '{display_name} আপনার ব্যবহারকারী নাম পরিবর্তন {requested_username}-এ অনুমোদন করেছেন'
-      rejected: '{display_name} জন আপনার ব্যবহারকারী নাম পরিবর্তন {requested_username}-এ প্রত্যাখ্যান করেছেন'
 fof-user-bio:
   forum:
     userbioPlaceholder: 'নিজের সম্পর্কে কিছু লিখুন'
-    userbioPlaceholderOtherUser: '{username}-এর জন্য একটি বায়ো লিখুন'
     profile:
       cancel_confirm: 'আপনি কি নিশ্চিত যে আপনি আপনার বায়ো সম্পাদনা বাতিল করতে চান? আপনি যে কোনও পরিবর্তন হারাবেন।'
       cancel_button: বাতিল
@@ -1165,9 +851,6 @@ fof-user-bio:
       edit_bio_label: 'জীবনী সম্পাদনা করুন'
 fof-split:
   forum:
-    post:
-      was_split_to: '{গণনা, বহুবচন, একটি {{কাউন্ট} পোস্ট {লক্ষ্য}-এ বিভক্ত হয়েছিল।} অন্যান্য {{কাউন্ট} পোস্টগুলি {লক্ষ্য}}-এ বিভক্ত হয়েছিল।}}'
-      was_split_from: '{গণনা, বহুবচন, একটি {{কাউন্ট} পোস্ট {লক্ষ্য} থেকে বিভক্ত হয়েছে।} অন্যান্য {{কাউন্ট} পোস্টগুলি {লক্ষ্য} থেকে বিভক্ত করা হয়েছে।}}'
     split:
       from: 'এখান থেকে বিভক্ত'
       to: 'এখানে বিভক্ত করুন'
@@ -1221,13 +904,11 @@ fof-reactions:
   forum:
     disabled-reaction: 'আপনি এই মুহূর্তে এই প্রতিক্রিয়াটি ব্যবহার করতে পারবেন না, দয়া করে পৃষ্ঠাটি রিফ্রেশ করুন'
     warning: 'আপনার প্রতিক্রিয়া রূপান্তরিত হয়েছিল'
-    notification: '{username} আপনার পোস্টে {reaction} দিয়ে প্রতিক্রিয়া জানিয়েছেন'
     settings:
       notify_post_reacted_label: 'কেউ আমার একটি পোস্টে প্রতিক্রিয়া জানিয়েছেন'
     reacting-own-post: 'আপনি আপনার নিজের পোস্টে প্রতিক্রিয়া জানাতে পারবেন না'
     modal:
       title: প্রতিক্রিয়া
-      anonymous_count: '{গণনা, বহুবচন, একজন {# বেনামী ব্যবহারকারী} অন্যান্য {# বেনামী ব্যবহারকারী}}'
       no_reactions: 'এখনও কোনও প্রতিক্রিয়া নেই'
     mod_item: 'প্রতিক্রিয়া দেখুন'
     react_button_label: প্রতিক্রিয়া
@@ -1241,22 +922,19 @@ fof-profile-image-crop:
 fof-prevent-necrobumping:
   forum:
     composer:
-      warning: { title: 'এই আলোচনাটি <b>{সময়}</b> এর চেয়ে বেশি পুরানো।', description: 'খুব সম্ভবত এটি আর কোনও আলোচনার প্রয়োজন নেই এবং এইভাবে এটি বাম্প করা কোনও উদ্দেশ্য সাধন করে না।', checkbox_label: 'আমি জানি যে এই আলোচনাটি বরং পুরানো তবে এখনও উত্তর দিতে চাই।', error: 'এই আলোচনাটি উত্তর দেওয়ার পক্ষে খুব পুরনো।' }
+      warning: { description: 'খুব সম্ভবত এটি আর কোনও আলোচনার প্রয়োজন নেই এবং এইভাবে এটি বাম্প করা কোনও উদ্দেশ্য সাধন করে না।', checkbox_label: 'আমি জানি যে এই আলোচনাটি বরং পুরানো তবে এখনও উত্তর দিতে চাই।', error: 'এই আলোচনাটি উত্তর দেওয়ার পক্ষে খুব পুরনো।' }
 fof-pretty-mail: null
 fof-polls:
   forum:
-    days_remaining: 'পোল {time} শেষ হয়।'
     no_permission: 'ভোট দেওয়ার অনুমতি নেই'
     poll_ended: 'এই পোলটি শেষ হয়েছে।'
     public_poll: 'ভোটারদের দেখুন'
-    max_votes_allowed: 'পোল {সর্বাধিক, বহুবচন, একটি {# বিকল্প} অন্যান্য {# বিকল্প}}-এর জন্য ভোট দেওয়ার অনুমতি দেয়।'
     composer_discussion:
       add_poll: 'পোল যোগ করুন'
       edit_poll: 'পোল সম্পাদনা করুন'
     modal:
       add_title: 'একটি পোল যোগ করুন'
       add_option_label: 'একটি বিকল্প যোগ করুন'
-      date_placeholder: 'ভোট শেষ হওয়ার তারিখ (ঐচ্ছিক)'
       edit_title: 'পোল সম্পাদনা করুন'
       include_question: 'আপনাকে অবশ্যই একটি প্রশ্ন অন্তর্ভুক্ত করতে হবে'
       max: 'আপনি সর্বোচ্চ 10 টি উত্তর দিতে পারেন'
@@ -1277,7 +955,6 @@ fof-polls:
       edit: 'পোল সম্পাদনা করুন'
     tooltip:
       badge: জরিপ
-      votes: '{গণনা, বহুবচন, একটি {# ভোট} অন্যান্য {# ভোট}}'
     votes_modal:
       title: ভোটার
 fof-nightmode:
@@ -1297,11 +974,9 @@ fof-moderator-notes:
   forum:
     no_content_given: 'খালি নোট দেওয়া যাবে না।'
     moderatorNotes:
-      created_text: '{username} {date}-এ এই নোটটি তৈরি করেছেন'
       add_button: 'নতুন নোট'
       create-heading: 'একটি নতুন মডারেটর নোট তৈরি করুন'
       dismiss_button: 'করা হয়েছে'
-      input_heading: '<strong>{ব্যবহারকারীর নাম}</strong> এর জন্য আপনার নোটগুলি লিখুন, (মার্কডাউন সমর্থিত)'
       noNotes: 'দেখে মনে হচ্ছে এখানে কোনও নোট নেই।'
       submit_button: 'নোট সংরক্ষণ করুন'
       delete: বিলোপ
@@ -1309,8 +984,6 @@ fof-moderator-notes:
     user:
       notes: 'মডারেটর নোট'
   api:
-    auto_note: '_I এই ব্যবহারকারীতে স্যুইচ করেছি:_ {কারণ}'
-    auto_note_actor: '_Switched to_ @{ব্যবহারকারীর নাম}: {কারণ}'
     no_reason_provided: 'কোন কারণ প্রদান করা হয়নি'
 fof-linguist: null
 fof-html-errors: null
@@ -1325,12 +998,8 @@ fof-gamification:
       name: ব্যবহারকারী
       amount: বিন্দু
     notification:
-      upvote: '{username} আপনার পোস্ট আপভোট করেছেন'
-      downvote: '{username} আপনার পোস্ট ডাউনভোট করেছেন'
       prefrences: { vote: 'যখন আমার একটি পোস্ট আপ/ডাউন ভোট হয়' }
     user:
-      card: { points: '{গণনা, বহুবচন, একটি {{গণনা} পয়েন্ট} অন্যান্য {{গণনা} পয়েন্ট}}' }
-      rank: '{র্যাঙ্ক}'
       votes_link: ভোট
     modal:
       downvotes_label: 'ডাউন ভোটার:'
@@ -1344,11 +1013,6 @@ fof-gamification:
     post:
       upvote_button: 'আপভোট পোস্ট'
       downvote_button: 'ডাউনভোট পোস্ট'
-  email:
-    body:
-      postVoted: "আরে {recipient_display_name},\n\n{actor_display_name} সবেমাত্র {discussion_title}-এ আপনার পোস্টে ভোট দিয়েছেন।\n\nএখানে দেখুন: {discussion_url}\n"
-    subject:
-      postVoted: 'আপনার পোস্টটি {display_name} ভোট দিয়েছে'
 fof-formatting: null
 fof-drafts:
   console:
@@ -1367,7 +1031,6 @@ fof-drafts:
       title: খসড়া
       delete_all_button: 'সমস্ত খসড়া মুছে ফেলুন'
       delete_button: 'খসড়া মুছে ফেলুন'
-      scheduled_icon_tooltip: '{datetime}-এর জন্য নির্ধারিত'
       scheduled_icon_tooltip_formatter: 'এল [এট] এলটি'
       alert: 'তুমি কি নিশ্চিত যে তুমি তোমার খসড়াটি মুছতে চাও?'
       delete_all_alert: 'তুমি কি নিশ্চিত যে তুমি তোমার সমস্ত খসড়া মুছতে চাও?'
@@ -1375,13 +1038,10 @@ fof-drafts:
       tooltip: খসড়া
     schedule_draft_modal:
       text: 'পরবর্তী সময়ে স্বয়ংক্রিয়ভাবে পোস্ট করার জন্য আপনার খসড়াটি নির্ধারণ করুন!'
-      scheduled_text: 'বর্তমানে {datetime}-এ পোস্ট করার জন্য নির্ধারিত রয়েছে।'
-      scheduled_error: 'খসড়া শিডিউল করতে অক্ষম: {ত্রুটি}।'
       unschedule_button: 'সময়সূচী অনির্ধারিত'
       unschedule_warning: 'তুমি কি নিশ্চিত যে তুমি এই খসড়াটি আনশিডিউল করতে চাও?'
       reschedule_button: পুনঃতফসিল
       schedule_button: সময়সূচি
-      schedule_time_preview: 'এই খসড়াটি স্বয়ংক্রিয়ভাবে <b>{datetime}</b>-এ প্রকাশিত হবে।'
       schedule_time_preview_formatter: এল.এল
       schedule_time_preview_invalid: 'অবৈধ তারিখ এবং/অথবা সময়'
       title: 'শিডিউল ড্রাফট'
@@ -1393,13 +1053,10 @@ fof-best-answer:
     this_best_answer: 'সর্বোত্তম উত্তর নির্বাচন করুন'
     remove_best_answer: 'সর্বোত্তম উত্তর নির্বাচন করুন'
     best_answer_button: 'সেরা উত্তর'
-    best_answer_label: '<a>{username}</a> {time_set} দ্বারা সেট করুন'
     errors:
       mismatch: 'এই আলোচনায় নির্বাচিত পোস্টের অস্তিত্ব নেই।'
     notification:
-      best_answer_in_discussion: '{username} এই আলোচনায় একটি সেরা উত্তর সেট করুন'
       content: 'আপনার প্রশ্নের উত্তর দেওয়া হয়ে থাকলে দয়া করে একটি সেরা উত্তর নির্বাচন করুন'
-      awarded: 'আপনার পোস্টটি {username} দ্বারা সেরা উত্তর হিসাবে সেট করা হয়েছে'
       preferences: { awarded_best_answer: 'কেউ আমার পোস্টটিকে সেরা উত্তর হিসাবে সেট করে', best_answer_in_discussion: 'আমি যে আলোচনায় অংশ নিয়েছিলাম তাতে একটি সর্বোত্তম উত্তর সেট করা হয়েছে', select_best_answer: 'আমার শুরু করা আলোচনায় একটি সেরা উত্তর নির্বাচন করার জন্য একটি স্বয়ংক্রিয় অনুস্মারক' }
     index:
       ask_question: 'একটি প্রশ্ন জিজ্ঞাসা করুন'
@@ -1413,22 +1070,13 @@ fof-best-answer:
       accessible_label: 'সমাধান/অমীমাংসিত নির্বাচন'
     composer:
       titlePlaceholder: 'প্রশ্নের শিরোনাম'
-    user:
-      best-answer-count: '{গণনা, বহুবচন, একটি { {গণনা} সেরা উত্তর} অন্যান্য {{গণনা} সেরা উত্তর}}'
     search:
       discussions_solutions_heading: 'সমাধান সহ আলোচনা'
-      all_discussions_solutions_button: '"{ক্যোয়েরি}" এর জন্য সমাধান সহ সমস্ত আলোচনা অনুসন্ধান করুন'
     discussion:
       jump_to_best_answer_button: 'সর্বোত্তম উত্তর প্রদর্শন'
   email:
     subject:
-      awarded: 'আপনার পোস্ট সেরা উত্তর হিসেবে সেট করা হয় _BAR_'
-      ba-set: 'সবচেয়ে ভালো উত্তর হল:'
       select: 'আপনি কি আপনার প্রশ্নের উত্তর পেতে পরিচালনা করেছেন?'
-    body:
-      awarded: "এই যে...\n\nভালো কাজ, {\\cHECT_BAR_name আলোচনার সবচেয়ে ভালো উত্তর হিসেবে আপনার পোস্টটি ঠিক করুন: সাহায্য করার জন্য ধন্যবাদ।\n\nএখানে দেখুন: {\\cHECBE8} {\\cHECBE8}\n"
-      ba-set: "এই যে...\n\n{\\cHECBECBECBENG_BAR_ এই আলোচনায় সবচেয়ে ভালো উত্তর দিয়েছেন।\n\nএটা দেখুন: ifcson {\\cHEC}\n"
-      select: "এই যে...\n\nশুধু পরীক্ষা করে দেখুন; এখন আপনার প্রশ্নের প্রচুর উত্তর দেওয়া উচিত: আশা করি তাদের মধ্যে একজন তোমার সমস্যার সমাধান করতে সাহায্য করেছে।\n\nযদি তা - ই হয়, তা হলে ভবিষ্যৎ সদস্যদের জন্য সত্যিই সাহায্যকারী হবে । এটা মানুষকে একই সমস্যার মধ্যে দিয়ে সাহায্য করবে তাদের উত্তর খুঁজে বের করতে, এবং এটা সেই সমস্ত সদস্যদের জন্য, যারা আপনাকে সাহায্য করেছে। তারা স্বেচ্ছায় সময় দেয়, তাই তাদের জানাতে ভালো লাগছে যে তারা ভালো করছে।\n\nএই বিষয়ে আলোচনা করতে এখানে দেখুন: : ifcson _BAR_url, এবং সবচেয়ে উপযুক্ত পোস্ট বেছে নিন।\n\nধন্যবাদ!\n"
 fof-user-directory:
   lib:
     sort:
@@ -1437,8 +1085,6 @@ fof-user-directory:
 fof-ban-ips:
   forum:
     modal:
-      ban_options_only_ip: 'শুধুমাত্র বর্তমান আইপি (<code>{ip}</code>) নিষিদ্ধ করুন'
-      ban_options_all_ip: '<i>{username}</i> দ্বারা ব্যবহৃত সমস্ত আইপি নিষিদ্ধ করুন'
       ban_ip_no_users: 'আর কাউকে নিষিদ্ধ করা হবে না'
     user_badge:
       banned_tooltip: নিষিদ্ধ
@@ -1455,13 +1101,8 @@ fof-ban-ips:
       check_button: চেক
       save_button: সংরক্ষণ
       ban_ip_confirmation: 'আপনি কি নিশ্চিত যে আপনি ফোরামে এই আইপি ঠিকানাটি ব্যবহার করা থেকে অবরোধ করতে চান? এটি এই আইপি ঠিকানা (গুলি) সহ ব্যবহারকারীদের লগ ইন এবং নিবন্ধন থেকে অবরুদ্ধ করবে।'
-      ban_ip_users: '{গণনা, বহুবচন, এক {ব্যবহারকারী {ব্যবহারকারী} নিষিদ্ধ করা হবে} অন্যান্য {ব্যবহারকারী {ব্যবহারকারী} নিষিদ্ধ করা হবে}}'
       unban_ip_confirmation: 'আপনি কি নিশ্চিত যে আপনি এই ব্যবহারকারীকে এবং অন্য সকল ব্যবহারকারীকে অন্য IP দ্বারা নিষিদ্ধ নয় মুক্ত করতে চান?'
-      unban_options_only_ip: 'শুধুমাত্র বর্তমান আইপি (<code>{ip}</code>) আনব্যান করুন'
-      unban_options_all_ip: '<i>{username}</i> দ্বারা ব্যবহৃত সমস্ত আইপি আনব্যান করুন'
       unban_ip_no_users: 'আর কেউ নিষিদ্ধ থাকবে না'
-      unban_ip_users: '{গণনা, বহুবচন, এক {ব্যবহারকারী {ব্যবহারকারী} নিষিদ্ধ করা হবে} অন্যান্য {ব্যবহারকারী {ব্যবহারকারী} নিষিদ্ধ করা হবে}}'
-      unbanned_ips: 'নিষিদ্ধ <code>{আইপিএস}</code>।'
       title: 'আইপি(গুলি) নিষিদ্ধ করুন'
       unban_title: 'আনব্যান আইপি (গুলি)'
       address_label: 'আইপি ঠিকানা'
@@ -1492,7 +1133,6 @@ fof-anti-spam:
       move_discussions_tag_label: 'আলোচনা কোয়ারেন্টাইন ট্যাগে স্থানান্তর করুন'
       move_discussions_tag_help: 'এটি এই ব্যবহারকারীর দ্বারা শুরু করা সমস্ত আলোচনাকে ফোরাম সেটিংসে আপনার নির্দিষ্ট ট্যাগে স্থানান্তরিত করবে। অক্ষম করা থাকলে, আলোচনাগুলি তাদের বর্তমান ট্যাগগুলিতে ছেড়ে দেওয়া হবে।'
       process_button: প্রক্রিয়া
-      title: '{username} কে একজন স্প্যামার হিসাবে চিহ্নিত করুন'
       report_to_sfs_label: 'StopForumSpam এ রিপোর্ট করুন'
       report_to_sfs_help: 'এটি ব্যবহারকারীর মৌলিক বিবরণ (ব্যবহারকারীর নাম, ইমেল, আইপি ঠিকানা) স্টপফোরামস্প্যামে প্রতিবেদন করবে। এটি ব্যবহারকারীকে স্টপফোরামস্প্যাম পরিষেবা ব্যবহার করে এমন অন্যান্য ফোরামে নিবন্ধন থেকে বিরত রাখতে সহায়তা করবে।'
     user_controls:
@@ -1511,18 +1151,11 @@ flarum-sticky:
     discussion_controls:
       unsticky_button: আনস্টিকি
       sticky_button: স্টিকি
-    post_stream:
-      discussion_stickied_text: '{username} {time} আলোচনাটি স্টিকি করেছেন।'
-      discussion_unstickied_text: '{username} {time} আলোচনাটি আনস্টিকি করেছে।'
     badge:
       sticky_tooltip: স্টিকি
   ref:
     sticky: স্টিকি
 flarum-statistics: null
-flarum-pusher:
-  forum:
-    discussion_list:
-      show_updates_text: '{গণনা, বহুবচন, এক {দেখান # আপডেট করা আলোচনা} অন্যান্য {দেখান # আপডেট করা আলোচনা}}'
 flarum-lock:
   forum:
     badge:
@@ -1530,24 +1163,13 @@ flarum-lock:
     discussion_controls:
       lock_button: তালা
       unlock_button: 'আনলক করুন'
-    notifications:
-      discussion_locked_text: '{username} লক করা হয়েছে'
-    post_stream:
-      discussion_locked_text: '{username} আলোচনা {time} লক করেছে।'
-      discussion_unlocked_text: '{username} আলোচনাটি {time} আনলক করেছে।'
     settings:
       notify_discussion_locked_label: 'আমার শুরু করা আলোচনাকে কেউ তালাবদ্ধ করে রেখেছে'
 flarum-likes:
   forum:
-    notifications:
-      post_liked_text: '{username} জন আপনার পোস্ট লাইক করেছেন'
-      others_text: '{গণনা, বহুবচন, একটি {# অন্যান্য} অন্যান্য {# অন্যান্য}}'
     post:
       like_link: চান
-      liked_by_self_text: '{ব্যবহারকারী} এটি পছন্দ করেন।'
-      liked_by_text: '{গণনা, বহুবচন, একজন {{ব্যবহারকারী} এটি পছন্দ করেছেন}} অন্য {{ব্যবহারকারী} এর মতো}}।'
       unlike_link: বিপরীত
-      others_link: '{গণনা, বহুবচন, একটি {# অন্যান্য} অন্যান্য {# অন্যান্য}}'
       you_text: আপনি
     post_likes:
       title: 'ব্যবহারকারীরা যারা এটি পছন্দ করেন'
@@ -1602,9 +1224,6 @@ dhtml-composer:
       character_counter: 'চরিত্র কাউন্টার'
 datlechin-birthdays:
   forum:
-    user:
-      birthday_text: 'জন্মদিন: {date}'
-      age_text: 'বয়স: {বয়স}'
     change_dob:
       title: 'জন্ম তারিখ সম্পাদনা করুন'
       date_of_birth_text: জন্মতারিখ
@@ -1617,16 +1236,12 @@ datlechin-birthdays:
       dob_heading: জন্মতারিখ
     nav:
       nav_item: 'আজ জন্মদিন'
-    page:
-      discussion_count: '{গণনা, বহুবচন, এক {আলোচনা: #} অন্যান্য {আলোচনা: #}}'
-      post_count: '{গণনা, বহুবচন, এক {পোস্ট: #} অন্যান্য {পোস্ট: #}}'
     edit_user:
       dob_heading: জন্মতারিখ
     sign_up:
       dob_placeholder: জন্মতারিখ
   api:
     invalid_dob_message: 'অবৈধ জন্ম তারিখ'
-    invalid_age_message: 'আপনার বয়স কমপক্ষে {minAge} বছর বয়সী হতে হবে।'
   ref:
     date_of_birth: জন্মতারিখ
 clarkwinkelmann-post-permissions: null
@@ -1662,24 +1277,13 @@ askvortsov-rich-text:
       insert_image: { src_placeholder: যোগসূত্র, title_placeholder: শীর্ষক }
       insert_link: { text_placeholder: 'পাঠ্য বার্তা', href_placeholder: ইউআরএল, title_placeholder: 'শিরোনাম (হোভারে দেখায়)', remove_button: অপসারণ }
       additional_items_tooltip: 'অতিরিক্ত নিয়ন্ত্রণ'
-      bold_tooltip: 'বোল্ড টেক্সট <{modifierKey}-b>'
-      code_tooltip: 'ইনলাইন কোড <{modifierKey}-''>'
       code_block_tooltip: 'একটি কোড ব্লক ঢোকান'
-      header_tooltip: 'শিরোলেখ {level} <shift-{modifierKey}-{level}-এ পরিবর্তন করুন>'
       horizontal_rule_tooltip: 'অনুভূমিক নিয়ম ঢোকান'
       image_tooltip: 'একটি চিত্র যুক্ত করুন'
-      italic_tooltip: 'ইটালিক টেক্সট <{modifierKey}-i>'
       link_tooltip: 'একটি লিঙ্ক যোগ করুন'
-      ordered_list_tooltip: 'সংখ্যাযুক্ত তালিকা <শিফট-{মডিফায়ারকী}-9>'
-      paragraph_tooltip: 'অনুচ্ছেদে পরিবর্তন করুন <শিফট-{পরিবর্তনকারীকী}-0>'
-      quote_tooltip: 'একটি উদ্ধৃতি ঢোকান <{modifierKey}-q>'
       spoiler_block_tooltip: 'ব্লক স্পয়লার/ড্রপডাউন'
-      spoiler_inline_tooltip: 'স্পয়লার <{modifierKey}-;>'
       strike_tooltip: 'স্ট্রাইকথ্রু <alt-shift-5>'
-      sub_tooltip: 'সাবস্ক্রিপ্ট <{modifierKey}-,>'
-      sup_tooltip: 'সুপারস্ক্রিপ্ট <{modifierKey}-.>'
       text_type_tooltip: 'পাঠ্য প্রকার নির্বাচন করুন'
-      unordered_list_tooltip: 'বুলেটযুক্ত তালিকা <শিফট-{মডিফায়ারকী}-8>'
   forum:
     settings:
       composer_heading: সুরকার
@@ -1694,7 +1298,6 @@ askvortsov-pwa:
       share_button: অংশীদারি
     post_controls:
       share_button: অংশীদারি
-      share_api: { title: '{শিরোনাম}'' এ {username} এর উত্তর' }
     user_controls:
       share_button: অংশীদারি
     settings:
@@ -1705,20 +1308,7 @@ askvortsov-pwa:
       header: 'নেটওয়ার্ক সংযোগ ত্রুটি'
       text: 'এই অ্যাপ্লিকেশনটির একটি নেটওয়ার্ক সংযোগ প্রয়োজন; এটি অফলাইনে ব্যবহার করা যাবে না। অনুগ্রহ করে আপনার সংযোগ পরীক্ষা করুন।'
 askvortsov-moderator-warnings:
-  emails:
-    post_warned:
-      subject: '{warner_display_name} আপনাকে {discussion_title}-এ {স্ট্রাইক, বহুবচন, একটি {# স্ট্রাইক} অন্য {# স্ট্রাইক}} দিয়ে সতর্ক করেছেন'
-      body: "আরে {warnee_display_name}!\n\n{warner_display_name} আপনাকে {discussion_title}-এ {স্ট্রাইক, বহুবচন, একটি {# স্ট্রাইক} অন্য {# স্ট্রাইক}} দিয়ে সতর্ক করেছেন\n\nনিম্নলিখিত কারণ দেওয়া হয়েছিল:\n\n---\n\n{public_comment}\n"
-    user_warned:
-      subject: '{warner_display_name} আপনাকে {স্ট্রাইক, বহুবচন, একটি {# স্ট্রাইক} অন্য {# স্ট্রাইক}} দিয়ে সতর্ক করেছেন'
-      body: "আরে {warnee_display_name}!\n\n{warner_display_name} আপনাকে {স্ট্রাইক, বহুবচন, একটি {# স্ট্রাইক} অন্য {# স্ট্রাইক}} দিয়ে সতর্ক করেছেন\n\nনিম্নলিখিত কারণ দেওয়া হয়েছিল:\n\n---\n\n{public_comment}\n"
   forum:
-    notifications:
-      warning_text: '{স্ট্রাইক, বহুবচন, একটি {{mod_username}} দ্বারা আপনাকে # স্ট্রাইক দিয়ে সতর্ক করা হয়েছিল {mod_username}}} দ্বারা আপনাকে # স্ট্রাইক দিয়ে সতর্ক করা হয়েছিল'
-      warning_no_strikes_text: 'আপনাকে {mod_username} দ্বারা সতর্ক করা হয়েছে (কোনও স্ট্রাইক নয়)'
-    post:
-      warning: '{স্ট্রাইক, বহুবচন, একটি {{mod_username}} দ্বারা # স্ট্রাইক দিয়ে সতর্ক করা হয়েছে অন্য {mod_username}} দ্বারা # স্ট্রাইক দিয়ে সতর্ক করা হয়েছে'
-      warning_no_strikes: '{mod_username} দ্বারা কোনও স্ট্রাইক ছাড়াই সতর্ক করা হয়েছে'
     post_controls:
       warning_button: 'ব্যবহারকারীকে সতর্ক করুন'
     user:
@@ -1735,20 +1325,14 @@ askvortsov-moderator-warnings:
     warning_list:
       add_button: 'নতুন সতর্কতা'
       no_warnings: 'দেখে মনে হচ্ছে এখানে কোনও সতর্কতা নেই।'
-      warnings: '{স্ট্রাইক, বহুবচন, একটি {মডারেটর সতর্কতা: # ধর্মঘট প্রাপ্ত} অন্যান্য {মডারেটর সতর্কতা: # স্ট্রাইক প্রাপ্ত}}'
       warnings_no_strikes: 'মডারেটর সতর্কতা: কোন ধর্মঘট পাওয়া যায়নি'
     warning_list_item:
-      list_item_heading: '{স্ট্রাইক, বহুবচন, একটি {<strong>#</strong> স্ট্রাইক, {সময়}} অন্যান্য {<strong>#</strong> স্ট্রাইক, {সময়}}}'
-      list_item_heading_hidden: '{স্ট্রাইক, বহুবচন, একটি {<strong>#</strong> স্ট্রাইক, {সময়} <strong>(সরানো হয়েছে)</strong>} অন্যান্য {<strong>#</strong> স্ট্রাইক, {সময়} <strong>(সরানো হয়েছে)</strong>}}'
       public_comment: সতর্কীকরণ
       private_comment: 'মডারেটর-দৃশ্যমান মন্তব্য'
       linked_post: 'লিংকড পোস্ট'
     warning_modal:
       confirmation_message: 'আপনার সতর্কতা সংরক্ষিত হয়েছে। এটি দেখার জন্য আপনাকে পৃষ্ঠাটি রিফ্রেশ করতে হতে পারে।'
-      heading: '<strong>{username}</strong> সতর্ক করুন'
       strikes_heading: 'কত স্ট্রাইক প্রয়োগ করতে হবে?'
-      public_comment_heading: '<strong>{username}</strong> কেন এই সতর্কতাগুলি পাচ্ছেন? এই মন্তব্যগুলি ব্যবহারকারী এবং অন্যান্য মডারেটরদের কাছে দৃশ্যমান হবে।'
-      private_comment_heading: '<strong>{username}</strong> কেন এই সতর্কতাগুলি পাচ্ছেন? এই মন্তব্যগুলি কেবল অন্যান্য মডারেটরদের কাছে দৃশ্যমান হবে।'
       submit_button: 'সতর্কতা সংরক্ষণ করুন'
 askvortsov-discussion-templates:
   forum:

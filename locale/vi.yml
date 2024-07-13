@@ -3,7 +3,6 @@ core:
     change_email:
       incorrect_password_message: 'Mật khẩu bạn đã nhập không chính xác.'
       confirm_password_placeholder: 'Xác nhận mật khẩu'
-      confirmation_message: 'Chúng tôi đã gửi email xác nhận tới {email}. Nếu nó không đến sớm, hãy kiểm tra thư mục spam của bạn.'
       dismiss_button: OK
       submit_button: 'Lưu thay đổi'
       title: 'Thay đổi email'
@@ -26,7 +25,6 @@ core:
     composer_edit:
       discard_confirmation: 'Bạn chưa lưu các thay đổi của mình. Bạn có muốn loại bỏ chúng không?'
       edited_message: 'Chỉnh sửa của bạn đã được thực hiện.'
-      post_link: 'Đăng #{number} trong {thảo luận}'
       submit_button: 'Lưu thay đổi'
       view_button: Cảnh
     composer_reply:
@@ -48,10 +46,6 @@ core:
       restore_button: 'Khôi phục'
     discussion_list:
       empty_text: 'Có vẻ như không có cuộc thảo luận nào ở đây.'
-      replied_text: '{tên người dùng} trả lời {ago}'
-      started_text: '{tên người dùng} bắt đầu {ago}'
-      total_replies_a11y_label: '{count, số nhiều, một {# trả lời} khác {# trả lời}}'
-      unread_replies_a11y_label: '{count, số nhiều, một {# trả lời chưa đọc} khác {# trả lời chưa đọc}}. Đánh dấu chưa đọc {count, số nhiều, một {reply} {replies}} khác là đã đọc.'
       load_more_button: 'Tải thêm'
     forgot_password:
       email_sent_message: 'Nếu email bạn đã nhập được đăng ký với trang này, chúng tôi sẽ gửi cho bạn một email chứa một liên kết để đặt lại mật khẩu của bạn. Kiểm tra thư rác của bạn nếu bạn không nhận được nó trong vòng một hoặc hai phút.'
@@ -107,7 +101,6 @@ core:
     notifications:
       delete_all_confirm: 'Bạn có chắc chắn muốn xóa tất cả thông báo không? Hành động này không thể đảo ngược'
       delete_all_tooltip: 'Xóa tất cả thông báo'
-      discussion_renamed_text: '{tên người dùng} đã thay đổi tiêu đề'
       empty_text: 'Không có thông báo'
       mark_as_read_tooltip: 'Đánh dấu là đã đọc'
       toggle_dropdown_accessible_label: 'Xem thông báo'
@@ -116,8 +109,6 @@ core:
       tooltip: 'Thông báo'
     post:
       edited_text: Edited
-      edited_tooltip: '{tên người dùng} đã chỉnh sửa {ago}'
-      number_tooltip: 'Bài đăng #{number}'
     post_controls:
       delete_confirmation: 'Bạn có chắc chắn muốn xóa bài đăng này mãi mãi không? Hành động này không thể hoàn tác.'
       hide_confirmation: 'Bạn có chắc chắn muốn xóa bài đăng này không?'
@@ -131,23 +122,16 @@ core:
     post_scrubber:
       now_link: 'Bây giờ'
       original_post_link: 'Bài gốc'
-      unread_text: '{count} chưa đọc'
-      viewing_text: '{count, số nhiều, một {{index} của {formattedCount} post} khác {{index} của {formattedCount} posts}}'
     post_stream:
-      discussion_renamed_old_tooltip: 'Tiêu đề cũ là: "{old}"'
-      discussion_renamed_text: '{username} đã đổi tiêu đề thành {new} {time}.'
-      time_lapsed_text: '{period} sau này'
       load_more_button: 'Tải thêm'
       reply_placeholder: 'Viết thư trả lời...'
     rename_discussion:
       title: 'Đổi tên thảo luận'
       submit_button: Rename
     search:
-      all_discussions_button: 'Tìm kiếm "{query}" trong tất cả các cuộc thảo luận'
       discussions_heading: 'Thảo luận'
       users_heading: 'Người dùng'
     security:
-      browser_on_operating_system: '{browser} trên {os}'
       cannot_terminate_current_session: 'Không thể chấm dứt phiên hoạt động hiện tại. Thay vào đó, hãy đăng xuất.'
       created: Tạo
       current_active_session: 'Phiên hoạt động hiện tại'
@@ -159,13 +143,11 @@ core:
       new_access_token_modal: { submit_button: 'Tạo Token', title_placeholder: 'Tiêu đề', title: 'Mã thông báo mới' }
       revoke_access_token: 'Thu hồi'
       sessions_heading: 'Phiên hoạt động'
-      session_terminated: '{count, số nhiều, một {Phiên đã chấm dứt} khác {# Phiên đã chấm dứt}}.'
       session_termination_failed: 'Đã xảy ra lỗi khi chấm dứt phiên của bạn.'
       show_access_token: 'Xem Token'
       terminate_all_other_sessions: 'Chấm dứt tất cả các phiên khác'
       terminate_session: 'Chấm dứt'
       token_revoked: 'Token bị thu hồi.'
-      token_item_title: '{title} - {mã thông báo}'
       token_title_placeholder: /
       never: 'Không bao giờ'
       new_access_token_button: 'Mã thông báo mới'
@@ -174,7 +156,6 @@ core:
       title: 'An ninh'
     settings:
       account_heading: 'Tài khoản'
-      notification_checkbox_a11y_label_template: 'Nhận thông báo "{description}" qua {method}'
       notify_by_web_heading: Web
       notify_discussion_renamed_label: 'Ai đó đổi tên một cuộc thảo luận mà tôi đã bắt đầu'
       privacy_disclose_online_label: 'Cho phép người khác nhìn thấy khi tôi trực tuyến'
@@ -186,7 +167,6 @@ core:
       title: 'Cài đặt'
     sign_up:
       log_in_text: 'Bạn đã có tài khoản? <a>Đăng nhập</a>'
-      welcome_text: 'Chào mừng, {tên người dùng}!'
       dismiss_button: OK
       email_placeholder: Email
       password_placeholder: 'Mật khẩu'
@@ -196,8 +176,6 @@ core:
     user:
       avatar_upload_button: 'Tải lên'
       avatar_upload_tooltip: 'Tải hình đại diện mới lên'
-      in_discussion_text: 'Trong {thảo luận}'
-      joined_date_text: 'Đã tham gia {ago}'
       online_text: 'Trực tuyến'
       posts_empty_text: 'Có vẻ như không có bài viết nào ở đây.'
       avatar_remove_button: Triệt
@@ -209,15 +187,12 @@ core:
     user_controls:
       button: 'Điều khiển'
       delete_confirmation: 'Bạn có chắc chắn muốn xóa người dùng này không? Bài đăng của người dùng sẽ KHÔNG bị xóa.'
-      delete_error_message: 'Xóa người dùng <i>{tên người dùng} ({email})</i> không thành công'
-      delete_success_message: 'Người dùng <i>{username} ({email})</i> đã bị xóa'
       toggle_dropdown_accessible_label: 'Chuyển đổi menu thả xuống kiểm soát người dùng'
       delete_button: Xóa
       edit_button: 'Biên tập'
     user_email_confirmation:
       resend_button: 'Gửi lại email xác nhận'
       sent_message: Gửi
-      alert_message: 'Chúng tôi đã gửi email xác nhận tới {email}. Nếu nó không đến sớm, hãy kiểm tra thư mục spam của bạn.'
     welcome_hero:
       hide: 'Ẩn tin nhắn chào mừng'
     badge:
@@ -230,8 +205,6 @@ core:
       hidden_tooltip: Ẩn
     dropdown:
       toggle_dropdown_accessible_label: 'Chuyển đổi menu thả xuống'
-    data_segment:
-      label: '{nhãn}:'
     edit_user:
       activate_button: 'Kích hoạt người dùng'
       groups_heading: Nhóm
@@ -246,33 +219,17 @@ core:
       username_heading: 'Tên đăng nhập'
       username_label: 'Tên đăng nhập'
     error:
-      circular_dependencies_message: 'Đã phát hiện phụ thuộc tròn: {extensions}. Phá thai. Vui lòng tắt một trong các tiện ích mở rộng và thử lại.'
-      dependent_extensions_message: 'Không thể tắt {extension} cho đến khi các phần mở rộng phụ thuộc sau bị tắt: {extensions}'
-      extension_initialiation_failed_message: '{extension} không thể khởi tạo, hãy kiểm tra bảng điều khiển trình duyệt để biết thêm thông tin.'
       generic_message: 'Rất tiếc! Đã xảy ra sự cố. Vui lòng tải lại trang và thử lại.'
       generic_cross_origin_message: 'Rất tiếc! Đã xảy ra sự cố trong quá trình yêu cầu nguồn gốc chéo. Vui lòng tải lại trang và thử lại.'
-      missing_dependencies_message: 'Không thể bật {extension} cho đến khi các phần phụ thuộc sau được bật: {extensions}'
       not_found_message: 'Không tìm thấy tài nguyên được yêu cầu.'
       payload_too_large_message: 'Tải trọng yêu cầu quá lớn.'
       permission_denied_message: 'Bạn không có quyền làm điều đó.'
       rate_limit_exceeded_message: 'Bạn đang đi hơi quá nhanh. Vui lòng thử lại sau vài giây.'
       render_failed_message: 'Rất tiếc, chúng tôi đã gặp lỗi khi hiển thị nội dung này. Nếu bạn là người dùng, vui lòng thử lại sau. Nếu bạn là quản trị viên, hãy xem các tệp nhật ký Flarum của bạn để biết thêm thông tin.'
-    meta_titles:
-      with_page_title: '{pageNumber, số nhiều, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Trang # - {forumName}}}'
-      without_page_title: '{pageNumber, số nhiều, =1 {{forumName}} khác {Page # - {forumName}}}'
     modal:
       close: Đóng
     nav:
       drawer_button: 'Mở ngăn điều hướng'
-    number_suffix:
-      kilo_text: 'Về phía'
-      mega_text: M
-    series:
-      glue_text: ', '
-      three_text: '{first}, {second} và {third}'
-      two_text: '{first} và {second}'
-    username:
-      deleted_text: '[đã xóa]'
     loading_indicator:
       accessible_label: Tải...
   views:
@@ -290,11 +247,9 @@ core:
       invalid_confirmation_token: 'Liên kết xác nhận này đã được sử dụng hoặc không hợp lệ.'
       not_authenticated: 'Bạn không có quyền truy cập trang này. Hãy thử lại sau khi đăng nhập.'
       not_found: 'Không thể tìm thấy trang bạn yêu cầu.'
-      not_found_return_link: 'Quay lại {forum}'
       permission_denied: 'Bạn không có quyền truy cập trang này.'
       unknown: 'Đã xảy ra lỗi khi cố gắng tải trang này.'
     log_out:
-      log_out_confirmation: 'Bạn có chắc chắn muốn đăng xuất khỏi {forum} không?'
       log_out_button: 'Đăng xuất'
       title: 'Đăng xuất'
     reset_password:
@@ -311,23 +266,15 @@ core:
       previous_page_button: 'Trang trước'
   api:
     invalid_username_message: 'Tên người dùng chỉ có thể chứa chữ cái, số và dấu gạch ngang.'
-    invalid_filter_type:
-      must_be_numeric_message: 'Bộ lọc {filter} phải là số.'
-      must_not_be_array_message: 'Bộ lọc {filter} không được là một mảng.'
-      must_not_be_multidimensional_array_message: 'Bộ lọc {filter} không được là một mảng đa chiều.'
   email:
     activate_account:
       subject: 'Kích hoạt tài khoản mới của bạn'
-      body: "Này {tên người dùng}!\n\nAi đó (hy vọng là bạn!) đã đăng ký {forum} bằng địa chỉ email này.\n\nNếu đây là bạn, chỉ cần nhấp vào liên kết sau và tài khoản của bạn sẽ được kích hoạt:\n{url}\n\nNếu bạn không đăng ký, vui lòng bỏ qua email này.\n"
     confirm_email:
       subject: 'Xác nhận địa chỉ email mới của bạn'
-      body: "Này {tên người dùng}!\n\nAi đó (hy vọng là bạn!) đã thay đổi địa chỉ email của họ trên {forum} thành địa chỉ này.\n\nNếu đây là bạn, chỉ cần nhấp vào liên kết sau và email của bạn sẽ được xác nhận:\n{url}\n\nNếu đây không phải là bạn, vui lòng bỏ qua email này.\n"
     reset_password:
-      body: "Này {tên người dùng}!\n\nAi đó (hy vọng là bạn!) đã gửi yêu cầu quên mật khẩu cho tài khoản của bạn trên {forum}.\n\nNếu đây là bạn, hãy nhấp vào liên kết sau để đặt lại mật khẩu của bạn:\n{url}\n\nNếu bạn không muốn thay đổi mật khẩu của mình, chỉ cần bỏ qua email này và sẽ không có gì xảy ra.\n"
       subject: 'Đặt lại mật khẩu của bạn'
     send_test:
       subject: 'Kiểm tra email Flarum'
-      body: "Này {tên người dùng}!\n\nĐây là email kiểm tra để xác nhận rằng cấu hình email Flarum của bạn đang hoạt động bình thường.\n\nNếu đây là bạn, email này có nghĩa là cấu hình của bạn hoạt động!\n\nNếu đây không phải là bạn, vui lòng bỏ qua email này.\n"
   ref:
     all_discussions: 'Tất cả các cuộc thảo luận'
     change_email: 'Thay đổi email'
@@ -335,7 +282,6 @@ core:
     color: Màu
     confirm_password: 'Xác nhận mật khẩu'
     confirm_email: 'Xác nhận email'
-    confirmation_email_sent: 'Chúng tôi đã gửi email xác nhận tới {email}. Nếu nó không đến sớm, hãy kiểm tra thư mục spam của bạn.'
     custom_footer_text: 'Thêm HTML sẽ được hiển thị ở cuối trang.'
     custom_footer_title: 'Chỉnh sửa chân trang tùy chỉnh'
     custom_header_text: 'Thêm HTML sẽ được hiển thị ở đầu trang, phía trên tiêu đề riêng của Flarum.'
@@ -349,7 +295,6 @@ core:
     extensions: 'Phần mở rộng'
     generic_confirmation_message: 'Bạn có chắc chắn muốn tiếp tục? Hành động này không thể hoàn tác.'
     icon: 'Biểu tượng'
-    icon_text: 'Nhập tên của bất kỳ lớp biểu tượng <a>FontAwesome</a> nào, <em>bao gồm</em> cả tiền tố <code>fa-fa.</code>'
     load_more: 'Tải thêm'
     loading: Tải...
     log_in: 'Đăng nhập'
@@ -373,7 +318,6 @@ core:
     security: 'An ninh'
     settings: 'Cài đặt'
     sign_up: 'Đăng ký'
-    some_others: '{count, số nhiều, một {# khác} khác {# khác}}'
     start_a_discussion: 'Bắt đầu một cuộc thảo luận'
     username: 'Tên đăng nhập'
     users: 'Người dùng'
@@ -389,128 +333,12 @@ core:
     members: 'Thành viên'
     mod: Cách
     mods: Mods
-validation:
-  accepted: 'Thuộc tính :phải được chấp nhận.'
-  active_url: 'Thuộc tính :không phải là URL hợp lệ.'
-  after: 'Thuộc tính ::phải là ngày sau :d ate.'
-  after_or_equal: 'Thuộc tính :phải là ngày sau hoặc bằng :d ate.'
-  alpha: 'Thuộc tính :chỉ được chứa các chữ cái.'
-  alpha_dash: 'Thuộc tính :chỉ được chứa chữ cái, số, dấu gạch ngang và dấu gạch dưới.'
-  alpha_num: 'Thuộc tính :chỉ được chứa chữ cái và số.'
-  array: 'Thuộc tính :phải là một mảng.'
-  before: 'Thuộc tính ::phải là một ngày trước khi :d ate.'
-  before_or_equal: 'Thuộc tính ::phải là ngày trước hoặc bằng :d ate.'
-  between:
-    numeric: 'Thuộc tính ::phải nằm trong khoảng :min và :max.'
-    file: 'Thuộc tính :phải nằm trong khoảng từ :min đến :max kilobyte.'
-    string: 'Thuộc tính : phải nằm giữa các ký tự :min và :max.'
-    array: 'Thuộc tính :phải có các mục từ :min đến :max.'
-  boolean: 'Trường :attribute phải đúng hoặc sai.'
-  confirmed: 'Xác nhận :attribute không khớp.'
-  date: 'Thuộc tính :không phải là ngày hợp lệ.'
-  date_equals: 'Thuộc tính :phải là ngày bằng :d ate.'
-  date_format: 'Thuộc tính ::không khớp với định dạng :format.'
-  different: ':attribute và :other phải khác nhau.'
-  digits: 'Thuộc tính : phải là chữ số :d igits.'
-  digits_between: 'Thuộc tính : phải nằm giữa các chữ số :min và :max.'
-  dimensions: 'Thuộc tính :có kích thước hình ảnh không hợp lệ.'
-  distinct: 'Trường :attribute có giá trị trùng lặp.'
-  email: 'Thuộc tính :phải là địa chỉ email hợp lệ.'
-  ends_with: 'Thuộc tính ::phải kết thúc bằng một trong các dấu sau: :values.'
-  exists: 'Thuộc tính :attribute đã chọn không hợp lệ.'
-  file: 'Thuộc tính :phải là một tệp.'
-  file_too_large: 'Thuộc tính :quá lớn.'
-  file_upload_failed: 'Thuộc tính :không tải lên được.'
-  filled: 'Trường :attribute phải có giá trị.'
-  gt:
-    numeric: 'Thuộc tính :phải lớn hơn :value.'
-    file: 'Thuộc tính :phải lớn hơn :value kilobyte.'
-    string: 'Thuộc tính :phải lớn hơn các ký tự :value.'
-    array: 'Thuộc tính :phải có nhiều hơn :value items.'
-  gte:
-    numeric: 'Thuộc tính :phải lớn hơn hoặc bằng :value.'
-    file: 'Thuộc tính :phải lớn hơn hoặc bằng :value kilobyte.'
-    string: 'Thuộc tính :phải lớn hơn hoặc bằng :value ký tự.'
-    array: 'Thuộc tính :phải có các mục :value trở lên.'
-  image: 'Thuộc tính :phải là một hình ảnh.'
-  in: 'Thuộc tính :attribute đã chọn không hợp lệ.'
-  in_array: 'Trường :attribute không tồn tại trong :other.'
-  integer: 'Thuộc tính :phải là một số nguyên.'
-  ip: 'Thuộc tính :phải là địa chỉ IP hợp lệ.'
-  ipv4: 'Thuộc tính :phải là địa chỉ IPv4 hợp lệ.'
-  ipv6: 'Thuộc tính :phải là địa chỉ IPv6 hợp lệ.'
-  json: 'Thuộc tính :phải là một chuỗi JSON hợp lệ.'
-  lt:
-    numeric: 'Thuộc tính :phải nhỏ hơn :value.'
-    file: 'Thuộc tính :phải nhỏ hơn :value kilobyte.'
-    string: 'Thuộc tính :phải nhỏ hơn các ký tự :value.'
-    array: 'Thuộc tính :phải có các mục nhỏ hơn :value.'
-  lte:
-    numeric: 'Thuộc tính :phải nhỏ hơn hoặc bằng :value.'
-    file: 'Thuộc tính :phải nhỏ hơn hoặc bằng :value kilobyte.'
-    string: 'Thuộc tính :phải nhỏ hơn hoặc bằng :value ký tự.'
-    array: 'Thuộc tính :không được có nhiều hơn :value items.'
-  max:
-    numeric: 'Thuộc tính :không được lớn hơn :max.'
-    file: 'Thuộc tính :không được lớn hơn :max kilobyte.'
-    string: 'Thuộc tính : không được lớn hơn các ký tự :max.'
-    array: 'Thuộc tính :không được có nhiều hơn :max items.'
-  mimes: 'Thuộc tính ::phải là một tệp có kiểu: :values.'
-  mimetypes: 'Thuộc tính ::phải là một tệp có kiểu: :values.'
-  min:
-    numeric: 'Thuộc tính ::ít nhất phải là:min.'
-    file: 'Thuộc tính :ít nhất phải là :min kilobyte.'
-    string: 'Thuộc tính : phải có ít nhất :min ký tự.'
-    array: 'Thuộc tính : phải có ít nhất :min items.'
-  multiple_of: 'Thuộc tính :phải là bội số của :value.'
-  not_in: 'Thuộc tính :attribute đã chọn không hợp lệ.'
-  not_regex: 'Định dạng :attribute không hợp lệ.'
-  numeric: 'Thuộc tính :phải là một số.'
-  password: 'Mật khẩu không chính xác.'
-  present: 'Trường :attribute phải có mặt.'
-  regex: 'Định dạng :attribute không hợp lệ.'
-  required: 'Trường :attribute là bắt buộc.'
-  required_if: 'Trường :attribute là bắt buộc khi:other là :value.'
-  required_unless: 'Trường :attribute là bắt buộc trừ khi:other nằm trong :values.'
-  required_with: 'Trường :attribute là bắt buộc khi có :values.'
-  required_with_all: 'Trường :attribute là bắt buộc khi có :values.'
-  required_without: 'Trường :attribute là bắt buộc khi :values không có mặt.'
-  required_without_all: 'Trường :attribute là bắt buộc khi không có giá trị :.'
-  prohibited: 'Trường :attribute bị cấm.'
-  prohibited_if: 'Trường :attribute bị cấm khi:other là :value.'
-  prohibited_unless: 'Trường :attribute bị cấm trừ khi:other nằm trong :values.'
-  same: ':attribute và :other phải khớp.'
-  size:
-    numeric: 'Thuộc tính :phải là :size.'
-    file: 'Thuộc tính :phải là :size kilobyte.'
-    string: 'Thuộc tính : phải là ký tự :size.'
-    array: 'Thuộc tính : phải chứa các mục :size.'
-  starts_with: 'Thuộc tính ::phải bắt đầu bằng một trong các dấu sau: :values.'
-  string: 'Thuộc tính ::phải là một chuỗi.'
-  timezone: 'Thuộc tính :phải là vùng hợp lệ.'
-  unique: 'Thuộc tính :đã được thực hiện.'
-  uploaded: 'Thuộc tính :không tải lên được.'
-  url: 'Định dạng :attribute không hợp lệ.'
-  uuid: 'Thuộc tính ::phải là UUID hợp lệ.'
-  attributes:
-    username: 'Tên đăng nhập'
-    password: 'mật khẩu'
-    email: Email
-    title: 'tiêu đề'
-    content: 'nội dung'
-    name_singular: 'Tên số ít'
-    name_plural: 'Tên số nhiều'
-    tag_count_primary: 'Số lượng thẻ chính'
-    tag_count_secondary: 'Số lượng thẻ phụ'
-  recaptcha: 'xác thực reCAPTCHA không thành công.'
-  recaptcha-unknown: 'Đã xảy ra lỗi không xác định khi xác thực reCAPTCHA ({errors}).'
 flarum-tags:
   forum:
     all_tags:
       meta_description_text: 'Tất cả các thẻ'
       meta_title_text: Tags
     choose_tags:
-      edit_title: 'Chỉnh sửa thẻ cho {title}'
       title: 'Chọn thẻ cho cuộc thảo luận của bạn'
     discussion_controls:
       edit_tags_button: 'Chỉnh sửa thẻ'
@@ -520,48 +348,27 @@ flarum-tags:
       more_link: 'Nhiều hơn...'
       untagged_link: 'Không được gắn thẻ'
       tags_link: Tags
-    post_stream:
-      added_and_removed_tags_text: '{username} đã thêm {tagsAdded} và xóa {tagsRemoved} {time}.'
-      added_tags_text: '{username} đã thêm {tagsAdded} {time}.'
-      removed_tags_text: '{username} đã xóa {tagsRemoved} {time}.'
-      tags_text: '{count, số nhiều, một thẻ {{tags}} khác {{thẻ} thẻ}}'
-    tag:
-      meta_description_text: 'Tất cả các cuộc thảo luận với thẻ {tag}'
     composer_discussion:
       choose_tags_link: 'Chọn thẻ'
   lib:
     deleted_tag_text: Xóa
     tag_selection_modal:
       bypass_requirements: 'Yêu cầu về thẻ bỏ qua'
-      choose_primary_placeholder: '{count, số nhiều, một {Choose a primary tag} other {Choose # primary tags}}'
-      choose_secondary_placeholder: '{count, số nhiều, một {Chọn thêm 1 thẻ} khác {Choose # more tags}}'
-      choose_tags_placeholder: '{count, số nhiều, một {Chọn thêm 1 thẻ} khác {Choose # more tags}}'
       submit_button: OK
       title: 'Chọn thẻ'
   ref:
     choose_tags: 'Chọn thẻ'
-    choose_tags_placeholder: '{count, số nhiều, một {Chọn thêm 1 thẻ} khác {Choose # more tags}}'
     name: Tên
     tags: Tags
 flarum-mentions:
   forum:
     composer:
       mention_tooltip: 'Đề cập đến người dùng, nhóm hoặc bài đăng'
-      reply_to_post_text: 'Trả lời #{number}'
     mentioned_by:
       title: 'Trả lời bài đăng này'
       load_more_button: 'Tải thêm'
-    notifications:
-      post_mentioned_text: '{tên người dùng} đã trả lời bài đăng của bạn'
-      user_mentioned_text: '{tên người dùng} đã đề cập đến bạn'
-      group_mentioned_text: '{tên người dùng} đã đề cập đến một nhóm mà bạn là thành viên'
-      others_text: '{count, số nhiều, một {# khác} khác {# khác}}'
     post:
-      mentioned_by_more_text: '{count} trả lời thêm.'
-      mentioned_by_self_text: '{người dùng} đã trả lời điều này.'
-      mentioned_by_text: '{người dùng} đã trả lời điều này.'
       quote_button: 'Trích dẫn'
-      others_text: '{count, số nhiều, một {# khác} khác {# khác}}'
       reply_link: 'Trả lời'
       you_text: Mày
     settings:
@@ -570,28 +377,12 @@ flarum-mentions:
       notify_group_mentioned_label: 'Ai đó đề cập đến nhóm mà tôi là thành viên trong bài đăng'
     user:
       mentions_link: Mentions
-    post_mention:
-      deleted_text: '[không rõ]'
-    group_mention:
-      deleted_text: '[nhóm không xác định]'
-  email:
-    post_mentioned:
-      subject: '{replier_display_name} đã trả lời bài đăng của bạn trong {title}'
-      body: "Này {recipient_display_name}!\n\n{replier_display_name} đã trả lời bài đăng của bạn (#{post_number}) trong {title}.\n\n{url}\n\n---\n\n{nội dung}\n"
-    user_mentioned:
-      subject: '{mentioner_display_name} đã đề cập đến bạn trong {title}'
-      body: "Này {recipient_display_name}!\n\n{mentioner_display_name} đã đề cập đến bạn trong một bài đăng trong {title}.\n\n{url}\n\n---\n\n{nội dung}\n"
-    group_mentioned:
-      subject: '{mentioner_display_name} đã đề cập đến một nhóm mà bạn là thành viên trong {title}'
-      body: "Này {recipient_display_name}!\n\n{mentioner_display_name} đã đề cập đến một nhóm mà bạn là thành viên trong {title}.\n\n{url}\n\n---\n\n{nội dung}\n"
 flarum-subscriptions:
   forum:
     discussion_controls:
       unfollow_button: 'Hủy theo dõi'
       unignore_button: 'Thưa ông'
       follow_button: Theo
-    notifications:
-      new_post_text: '{tên người dùng} đã đăng'
     settings:
       follow_after_reply_label: 'Tự động theo dõi các cuộc thảo luận mà tôi trả lời'
       notify_for_all_posts_label: 'Thông báo về mọi bài đăng mới thay vì chỉ bài đăng cuối cùng trong cuộc thảo luận'
@@ -613,10 +404,6 @@ flarum-subscriptions:
       meta_title_text: Sau
     index:
       following_link: Sau
-  email:
-    new_post:
-      subject: '[Bài mới] {tiêu đề}'
-      body: "Này {recipient_display_name}!\n\n{poster_display_name} đã tạo một bài đăng trong một cuộc thảo luận mà bạn đang theo dõi: {title}.\n\nĐể xem hoạt động mới, hãy xem liên kết sau:\n{url}\n\n---\n\n{nội dung}\n\n---\n\nBạn sẽ không nhận được thêm bất kỳ thông báo nào về cuộc thảo luận này cho đến khi bạn được cập nhật.\n"
   ref:
     follow: Theo
     following: Sau
@@ -625,7 +412,6 @@ flarum-flags:
   forum:
     flag_post:
       confirmation_message: 'Cảm ơn bạn đã gắn cờ bài đăng này. Người kiểm duyệt của chúng tôi sẽ xem xét nó.'
-      reason_details_placeholder: 'Chi tiết bổ sung (tùy chọn)'
       reason_inappropriate_label: 'Không phù hợp'
       reason_inappropriate_text: 'Bài đăng này xúc phạm, lạm dụng hoặc vi phạm <a>nguyên tắc cộng đồng</a> của chúng tôi.'
       reason_missing_message: 'Vui lòng cung cấp một số chi tiết cho người điều hành của chúng tôi.'
@@ -639,13 +425,10 @@ flarum-flags:
       title: 'Cột cờ'
     flagged_posts:
       empty_text: 'Không có cờ'
-      item_text: '{tên người dùng} trong <em>{thảo luận}</em>'
       title: 'Bài viết bị gắn cờ'
       tooltip: 'Bài viết bị gắn cờ'
     post:
       dismiss_flag_button: 'Loại bỏ cờ'
-      flagged_by_text: 'Được gắn cờ bởi {username}'
-      flagged_by_with_reason_text: 'Được {username} gắn cờ là {reason}'
     post_controls:
       flag_button: Cờ
   ref:
@@ -654,13 +437,11 @@ flarum-flags:
 flarum-suspend:
   forum:
     notifications:
-      user_suspended_text: 'Bạn đã bị đình chỉ vì {timeReadable}'
       user_suspended_indefinite_text: 'Bạn đã bị đình chỉ vô thời hạn'
       user_unsuspended_text: 'Bạn đã không bị đình chỉ'
     suspension_info:
       dismiss_button: Bỏ
       indefinite: 'Đây là đình chỉ vô thời hạn'
-      limited: 'Việc đình chỉ này sẽ có hiệu lực cho đến {date}'
       title: 'Tài khoản này bị tạm ngưng'
     suspend_user:
       display_message: 'Hiển thị thông báo cho người dùng'
@@ -671,7 +452,6 @@ flarum-suspend:
       placeholder_optional: 'Tùy chọn'
       reason: 'Lý do đình chỉ'
       status_heading: 'Tình trạng tạm ngưng'
-      title: 'Tạm ngưng {tên người dùng}'
       submit_button: 'Lưu thay đổi'
     user_badge:
       suspended_tooltip: Treo
@@ -681,10 +461,8 @@ flarum-suspend:
     no_reason_given: 'Không có lý do nào được đưa ra cho việc đình chỉ này.'
     suspended:
       subject: 'Tài khoản của bạn đã bị tạm ngưng'
-      body: "Này {recipient_display_name},\n\nBạn đã bị đình chỉ vì lý do sau:\n\n---\n{suspension_message}\n---\n"
     unsuspended:
       subject: 'Tài khoản của bạn đã không bị tạm ngưng'
-      body: "Này {recipient_display_name},\n\nBạn đã không bị đình chỉ. Bạn có thể quay lại diễn đàn bằng cách nhấp vào liên kết sau:\n\n{forum_url}\n"
 blomstra-gdpr:
   lib:
     data:
@@ -707,8 +485,6 @@ fof-upload:
       error: Lỗi
       loading: 'Tải lên'
       unauthorized: 'Bạn không được phép tải xuống tệp'
-    validation:
-      max_size: 'Chúng tôi không chấp nhận tải lên trên {max} kb.'
     text_preview:
       expand: 'Mở rộng bản xem trước'
       collapse: 'Thu gọn bản xem trước'
@@ -718,7 +494,6 @@ fof-upload:
   api:
     upload_errors:
       forbidden_type: 'Không được phép tải lên các tệp thuộc loại này.'
-      unsupported_type: 'Bộ điều hợp tải lên không hỗ trợ loại mime được cung cấp: {mime}.'
       could_not_detect_mime: 'Không thể phát hiện loại MIME của tệp này, vui lòng thử lại.'
       max_upload_file_size_ini: 'Tải lên giới hạn kích thước tệp tối đa đạt được từ php.ini.'
       max_upload_file_size_form: 'Tải lên giới hạn kích thước tệp tối đa đạt được từ biểu mẫu.'
@@ -727,7 +502,6 @@ fof-upload:
       no_upload_tmp_folder: 'Không có thư mục tmp để tải tệp lên.'
       cannot_write_to_disk: 'Không thể ghi vào đĩa.'
       upload_blocked_by_php_extension: 'Một tiện ích mở rộng php đã chặn tải lên.'
-      no_files_made_it_to_upload: 'Vui lòng tải lên các tệp không lớn hơn {max} kb.'
   lib:
     upload-shared-file-modal:
       title: 'Tệp được chia sẻ mới'
@@ -740,13 +514,9 @@ fof-upload:
       release_to_upload: 'Phát hành để tải lên'
       modal_empty_desktop: 'Danh sách tệp của bạn trống. Nhấp vào nút hoặc kéo tệp vào đây để tải lên.'
       modal_empty_phone: 'Danh sách tệp của bạn trống. Nhấn vào nút ở trên để tải tệp lên.'
-      select_file_a11y_label: 'Chọn tệp "{fileName}"'
-      confirm_selection_btn: '{fileCount, số nhiều, =0 {Không được chọn} một {Chọn tệp} khác {Chọn tệp}}'
       load_more_files_btn: 'Tải nhiều tệp hơn'
-      delete_file_a11y_label: 'Xóa tệp "{fileName}"'
-      delete_confirmation: 'Bạn có chắc chắn muốn xóa "{fileName}" không?'
-      hide_file: { btn_a11y_label_hide: 'Ẩn "{fileName}" khỏi trình quản lý phương tiện', btn_a11y_label_show: 'Hiển thị "{fileName}" trong trình quản lý phương tiện', hide_confirmation: 'Bạn có chắc chắn muốn ẩn "{fileName}" không? Ẩn tệp sẽ chỉ xóa tệp đó khỏi trình quản lý phương tiện của bạn và sẽ không ảnh hưởng đến các bài đăng hiện có.', hide_success: 'Tệp ẩn', show_confirmation: 'Bạn có chắc chắn muốn hiển thị "{fileName}" không? Hiển thị tệp sẽ hiển thị tệp đó trong trình quản lý phương tiện của bạn.', show_success: 'Tệp hiển thị', hide_fail: 'Không thể ẩn tệp "{fileName}"', show_fail: 'Không thể hiển thị tệp "{fileName}"', loading: 'Ẩn tập tin...' }
-      hide_shared_file: { btn_a11y_label_hide: 'Đặt "{fileName}" ở chế độ riêng tư (không có URL công khai)', btn_a11y_label_show: 'Đặt "{fileName}" ở chế độ công khai (với URL công khai)', hide_confirmation: 'Bạn có chắc chắn muốn đặt "{fileName}" ở chế độ riêng tư không? Đặt tệp ở chế độ riêng tư sẽ xóa URL công khai của tệp đó, nhưng nó sẽ không ảnh hưởng đến các bài đăng hiện có. Nó cũng sẽ không còn hiển thị trong trình quản lý phương tiện cho người dùng trái phép.', hide_success: 'Tệp được đặt ở chế độ riêng tư', show_confirmation: 'Bạn có chắc chắn muốn đặt "{fileName}" ở chế độ công khai không? Đặt tệp ở chế độ công khai sẽ giúp bất kỳ ai có URL công khai đều có thể truy cập tệp đó và bất kỳ ai cũng có thể chia sẻ tệp đó bằng trình quản lý phương tiện.', show_success: 'Tệp được công khai', hide_fail: 'Không thể đặt tệp "{fileName}" ở chế độ riêng tư', show_fail: 'Không thể đặt tệp "{fileName}" ở chế độ công khai', loading: 'Đặt tệp ở chế độ riêng tư...' }
+      hide_file: { hide_success: 'Tệp ẩn', show_success: 'Tệp hiển thị', loading: 'Ẩn tập tin...' }
+      hide_shared_file: { hide_success: 'Tệp được đặt ở chế độ riêng tư', show_success: 'Tệp được công khai', loading: 'Đặt tệp ở chế độ riêng tư...' }
 flarum-bbcode:
   forum:
     quote:
@@ -779,8 +549,6 @@ fof-follow-tags:
       following_tag_tooltip: Sau
       lurking_tag_tooltip: 'Bí mật'
     sub_controls:
-      header: 'Đăng ký {tagName}'
-      subscription_label: 'Chọn cấp độ đăng ký của bạn cho {tagName}'
       following_text: 'Được thông báo về tất cả các cuộc thảo luận mới.'
       hiding_text: 'Ẩn thảo luận khỏi trang Tất cả Thảo luận.'
       ignoring_text: 'Không bao giờ được thông báo.'
@@ -795,21 +563,8 @@ fof-follow-tags:
       hiding_button: Ẩn
       ignoring_button: 'Bỏ qua'
       lurking_button: 'Bí mật'
-    notifications:
-      new_discussion_text: '{tên người dùng} bắt đầu'
-      new_post_text: '{tên người dùng} đã đăng'
-      new_discussion_tag_text: '{username} đã thay đổi thẻ'
     user:
       settings: { heading: 'Theo Tags', filter_label: 'Nội dung hiển thị theo mặc định trong trang Theo dõi' }
-  email:
-    subject:
-      newDiscussionInTag: '[Thẻ | Thảo luận mới] {title}'
-      newPostInTag: '[Thẻ | Bài mới] {title}'
-      newDiscussionTag: '[Thẻ | Thẻ đã thay đổi] {title}'
-    body:
-      newDiscussionInTag: "Này {recipient_display_name},\n\n{actor_display_name} bắt đầu thảo luận trong thẻ bạn đang theo dõi: {discussion_title}\n\nĐể xem cuộc thảo luận mới, hãy xem liên kết sau:\n{discussion_url}\n\n---\n\n{post_content}\n"
-      newPostInTag: "Này {recipient_display_name},\n\n{actor_display_name} được đăng trong thảo luận về thẻ bạn đang theo dõi: {discussion_title}\n\nĐể xem hoạt động mới, hãy xem liên kết sau:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nBạn sẽ không nhận được thêm bất kỳ thông báo nào về cuộc thảo luận này cho đến khi bạn được cập nhật.\n"
-      newDiscussionTag: "Này {recipient_display_name},\n\n{actor_display_name} vừa thay đổi thẻ trên thảo luận của {author_display_name} thành thẻ bạn đang theo dõi {discussion_title}\n\nĐể xem cuộc thảo luận mới, hãy xem liên kết sau:\n{discussion_url}\n"
   ref:
     follow: Theo
     following: Sau
@@ -838,17 +593,8 @@ flarum-nicknames:
       nickname_placeholder: 'Tên hiệu'
 fof-oauth:
   forum:
-    log_in:
-      with_button: 'Đăng nhập bằng {provider}'
-      with_discord_button: 'Đăng nhập bằng {provider}'
-      with_facebook_button: 'Đăng nhập bằng {provider}'
-      with_github_button: 'Đăng nhập bằng {provider}'
-      with_gitlab_button: 'Đăng nhập bằng {provider}'
-      with_google_button: 'Đăng nhập bằng {provider}'
-      with_linkedin_button: 'Đăng nhập bằng {provider}'
-      with_twitter_button: 'Đăng nhập bằng {provider}'
     user:
-      settings: { linked-account: { label: 'Tài khoản được liên kết', last-used-label: 'Sử dụng lần cuối', link-created-label: 'Liên kết đã tạo', orphaned-account: 'Bạn đã đăng nhập thông qua nhà cung cấp này trước đây, nhưng diễn đàn này đã vô hiệu hóa đăng nhập bằng phương pháp này kể từ đó.', help: 'Các tài khoản được liên kết này cho phép bạn đăng nhập vào diễn đàn bằng các nhà cung cấp khác.', identifier-label: '{nhà cung cấp} ID', unlink-confirm: 'Bạn có chắc chắn muốn xóa liên kết với {provider} không? Bạn sẽ không thể đăng nhập vào diễn đàn này nữa trừ khi bạn xác thực lại trong tương lai.' } }
+      settings: { linked-account: { label: 'Tài khoản được liên kết', last-used-label: 'Sử dụng lần cuối', link-created-label: 'Liên kết đã tạo', orphaned-account: 'Bạn đã đăng nhập thông qua nhà cung cấp này trước đây, nhưng diễn đàn này đã vô hiệu hóa đăng nhập bằng phương pháp này kể từ đó.', help: 'Các tài khoản được liên kết này cho phép bạn đăng nhập vào diễn đàn bằng các nhà cung cấp khác.' } }
     signup:
       username_help: 'Vui lòng chọn tên người dùng để được biết đến tại đây'
     unlink: 'Xóa liên kết'
@@ -882,10 +628,8 @@ fof-impersonate:
   forum:
     modal:
       title: 'Đăng nhập với tư cách người dùng khác'
-      label: 'Với quyền lực lớn đi kèm với trách nhiệm lớn. Bằng cách tiếp tục, bạn sẽ trở thành {username} cho đến khi bạn đăng xuất.'
       placeholder_optional: '(Không bắt buộc) Cung cấp lý do của bạn để chuyển sang người dùng này'
       placeholder_required: 'Bạn phải cung cấp lý do chuyển sang người dùng này trước khi tiếp tục'
-      impersonate_username: 'Đăng nhập với tư cách {tên người dùng}'
     user_controls:
       impersonate_button: 'Đăng nhập với tư cách người dùng'
 fof-byobu:
@@ -896,7 +640,6 @@ fof-byobu:
       add_recipients: Nhận
       submit: OK
       edit_recipients: 'Chỉnh sửa người nhận'
-      send_pd: 'Gửi tin nhắn cho {username}'
       cancel: Hủy
       make_public: 'Đặt cuộc thảo luận này ở chế độ công khai'
       remove_from_discussion: 'Để lại cuộc thảo luận riêng tư này'
@@ -905,8 +648,6 @@ fof-byobu:
       title_placeholder: 'Tiêu đề thảo luận riêng tư'
     confirm:
       make_public: 'Bạn có chắc chắn muốn loại bỏ người nhận và hiển thị cuộc thảo luận này cho bất kỳ ai có thể xem thẻ được gán không?'
-    labels:
-      recipients: '{count, số nhiều, một {{count} Người nhận} khác {{count} Người nhận}}'
     nav:
       start_button: 'Thảo luận riêng'
       nav_item: 'Thảo luận riêng tư'
@@ -915,11 +656,9 @@ fof-byobu:
     search:
       headings: { groups: 'Nhóm Quyền' }
     modal:
-      titles: { update_recipients: 'Cập nhật người nhận {title}', add_recipients: 'Thêm người nhận vào cuộc thảo luận của bạn' }
+      titles: { add_recipients: 'Thêm người nhận vào cuộc thảo luận của bạn' }
       labels: { selected_users: 'Người dùng được chọn', search_field: 'Tìm kiếm người dùng' }
       help: { add_recipients: 'Cuộc thảo luận này sẽ chỉ hiển thị với những người dùng bạn chọn ở đây. Cần có ít nhất 1 người nhận (ngoài chính bạn).', update_recipients: 'Cuộc thảo luận này sẽ chỉ hiển thị với những người dùng bạn chọn ở đây.', selected_users: 'Nhấp vào tên người dùng để xóa họ.', click_user_to_remove_tooltip: 'Nhấp để xóa' }
-    post:
-      recipients_modified: { added_and_removed: '{tên người dùng} đã thêm người nhận {đã thêm} và xóa {đã xóa}.', added: '{tên người dùng} đã thêm người nhận {đã thêm}.', made_public: '{tên người dùng} đã xóa tất cả người nhận và công khai thảo luận', removed: '{tên người dùng} đã xóa người nhận {đã xóa}.', removed_self: '{tên người dùng} rời khỏi thảo luận riêng.' }
     user:
       settings: { block_pd: 'Chặn các cuộc thảo luận riêng tư' }
       byobu_link: 'Thảo luận riêng tư'
@@ -927,23 +666,9 @@ fof-byobu:
     notifications:
       pd_label: 'Ai đó đưa tôi vào một cuộc thảo luận riêng tư mới'
       pd_reply_label: 'Ai đó đăng bài trong cuộc thảo luận riêng tư mà tôi là người nhận'
-      pd_reply_text: '{tên người dùng} được đăng trong một cuộc thảo luận riêng tư mà bạn là một phần của'
-      pd_text: '{tên người dùng} bắt đầu một cuộc thảo luận riêng tư mới với bạn'
       pd_user_left_label: 'Người dùng người nhận để lại cuộc thảo luận riêng tư mà tôi tham gia'
-      pd_user_left_text: '{tên người dùng} rời khỏi thảo luận riêng tư'
-      pd_added_text: '{tên người dùng} đã thêm bạn vào một cuộc thảo luận riêng tư'
       pd_added_label: 'Ai đó thêm tôi vào một cuộc thảo luận riêng tư hiện có'
-  email:
-    subject:
-      private_discussion_created: '[Thảo luận riêng] {display_name} bắt đầu một cuộc thảo luận riêng mới với bạn'
-      private_discussion_replied: '[Thảo luận riêng] {display_name} được đăng trong một cuộc thảo luận riêng tư'
-      recipient_removed: '[Thảo luận riêng] {display_name} rời khỏi thảo luận'
-      private_discussion_added: '[Thảo luận riêng] {display_name} đã thêm bạn vào thảo luận riêng'
-    body:
-      private_discussion_created: "Này {recipient_display_name},\n\n{actor_display_name} bắt đầu một cuộc thảo luận riêng mới với bạn với tư cách là người nhận: {discussion_title}.\n\nXem nó ở đây:\n{discussion_url}\n\nBạn có thể cần phải đăng nhập trước khi có thể truy cập liên kết này.\n"
-      private_discussion_replied: "Này {recipient_display_name},\n\n{actor_display_name} được đăng trong một cuộc thảo luận riêng với bạn với tư cách là người nhận: {discussion_title}.\n\nXem nó ở đây:\n{post_url}\n\nBạn có thể cần phải đăng nhập trước khi có thể truy cập liên kết này.\n"
-      recipient_removed: "Này {recipient_display_name},\n\n{actor_display_name} rời thảo luận riêng: {discussion_title}. Họ sẽ không thể xem bất kỳ nội dung nào trong số đó nữa.\n\nXem nó ở đây:\n{discussion_url}\n\nBạn có thể cần phải đăng nhập trước khi có thể truy cập liên kết này.\n"
-      private_discussion_added: "Này {recipient_display_name},\n\n{actor_display_name} đã thêm bạn vào thảo luận riêng hiện có: {discussion_title}.\n\nXem nó ở đây:\n{discussion_url}\n\nBạn có thể cần phải đăng nhập trước khi có thể truy cập liên kết này.\n"
+  email: null
 v17development-flarum-badges:
   forum:
     badge_information: 'Thông tin huy hiệu'
@@ -966,17 +691,11 @@ v17development-flarum-badges:
       no_earning_reason: 'Không có lý do kiếm tiền nào được đặt ra'
       earned_on: 'Huy hiệu kiếm được trên'
       category: 'Danh mục huy hiệu'
-      received_on: 'Đã nhận vào {date}'
       badge_details: 'Chi tiết huy hiệu'
-      earned_count: '{count, số nhiều, một <b>{# người dùng</b> đã nhận được huy hiệu này} người dùng {<b>#</b> khác đã nhận được huy hiệu này}}'
-      earned_by_count: '{count, số nhiều, một {Earned by <b># user</b>} other {Earned by <b># users</b>}}'
-      others_link: '+ {count} Thêm'
     badges_in_card:
       title: 'Huy hiệu trong thẻ người dùng'
       manage_badges: 'Quản lý huy hiệu'
       description: 'Bạn có thể thay đổi huy hiệu hiển thị trong thẻ người dùng bằng một trong các huy hiệu khác. Nếu bạn không chọn bất kỳ, chúng sẽ được chọn tự động.'
-      select_limit: 'Bạn có thể chọn {limit, số nhiều, một {<b>một huy hiệu</b>} {<b># badges</b>}} khác để hiển thị trong thẻ người dùng của bạn.'
-      hit_limit: 'Chỉ có chỗ cho <b> {limit, số nhiều, một {<b>một huy hiệu</b>} {<b># badges</b>}} khác</b> trong thẻ của bạn. Bỏ chọn huy hiệu để nhường chỗ cho huy hiệu này.'
     moderation:
       remove_badge: 'Xóa huy hiệu khỏi người dùng'
       remove_badge_confirm: 'Bạn có chắc chắn muốn xóa huy hiệu này khỏi người dùng này không?'
@@ -985,14 +704,10 @@ v17development-flarum-badges:
       title: 'Bạn đã nhận được huy hiệu mới'
       settings: 'Tôi đã nhận được huy hiệu'
     uncategorized: Uncategorized
-v17development-flarum-seo:
-  forum:
-    profile_title: 'Hồ sơ của {tên người dùng}'
-    profile_description: 'Hồ sơ của {tên người dùng} | {discussion_count} thảo luận | {comment_count} bài viết'
+v17development-flarum-seo: null
 the-turk-miserable-users:
   forum:
     miserable_user:
-      title: 'Khốn khổ {tên người dùng}'
       status_heading: 'Tình trạng khốn khổ'
       not_miserable_label: 'Không khổ sở'
       indefinitely_label: 'Khốn khổ vô thời hạn'
@@ -1009,7 +724,6 @@ sycho-profile-cover:
   forum:
     cover: Che
     edit_cover: 'Chỉnh sửa bìa'
-    notice: 'Kích thước tối đa: {size}'
     added:
       success: 'Bìa hồ sơ được cập nhật.'
       error: 'Không thể tải lên hình ảnh.'
@@ -1018,10 +732,7 @@ sycho-profile-cover:
       error: 'Không thể tháo nắp, hãy thử lại sau.'
 sycho-photoswipe: null
 nearata-tags-color-generator: null
-nearata-prevent-double-posting:
-  forum:
-    exception:
-      too_many_replies: 'Không được phép trả lời liên tiếp quá {count}. Thay vào đó, vui lòng chỉnh sửa câu trả lời trước đó của bạn hoặc đợi ai đó trả lời bạn.'
+nearata-prevent-double-posting: null
 nearata-copy-code-to-clipboard:
   forum:
     copy: 'Sao chép vào khay nhớ tạm'
@@ -1030,7 +741,6 @@ michaelbelgium-flarum-profile-views:
   forum:
     user:
       viewlist: { title: 'Khách truy cập cuối cùng', guest: Khách }
-      view_count_text: '{viewcount, số nhiều, một {view {viewcount} time} khác {view {viewcount} lần}}'
 justoverclock-country-flags:
   forum:
     inputCountryCode: 'Mã quốc gia'
@@ -1058,13 +768,10 @@ ianm-syndication:
     autodiscovery:
       forum_activity: 'Hoạt động diễn đàn'
       forum_new_discussions: 'Các cuộc thảo luận mới của Diễn đàn'
-      tag_activity: 'Hoạt động cho thẻ {tag}'
-      tag_new_discussions: 'Thảo luận trong thẻ {tag}'
       discussion_last_posts: 'Cuộc thảo luận này'
       user_last_posts: 'Bài đăng và nhận xét của người dùng này'
     feeds:
-      entries: { user_posts: { title_reply: 'Re: {thảo luận}' } }
-      titles: { main_title: '{forum_name}', main_subtitle: 'Bài viết cuối cùng trong diễn đàn', main_d_title: 'Thảo luận mới trong {forum_name}', main_d_subtitle: 'Các cuộc thảo luận mới nhất trong diễn đàn', tag_title: 'Hoạt động trong thẻ {tag}', tag_subtitle: 'Bài đăng cuối cùng trong thẻ {tag}', tag_d_title: 'Thảo luận mới trong thẻ {tag}', tag_d_subtitle: 'Các thảo luận mới nhất trong thẻ {tag}', discussion_title: '{discussion_name}', discussion_subtitle: 'Thông điệp cuối cùng trong cuộc thảo luận này', user_title: '{tên người dùng}', user_subtitle: 'Bài viết và bình luận mới nhất của người dùng này.' }
+      titles: { main_subtitle: 'Bài viết cuối cùng trong diễn đàn', main_d_subtitle: 'Các cuộc thảo luận mới nhất trong diễn đàn', discussion_subtitle: 'Thông điệp cuối cùng trong cuộc thảo luận này', user_subtitle: 'Bài viết và bình luận mới nhất của người dùng này.' }
     discussion:
       feed_link: 'Cho ăn'
 ianm-log-viewer: null
@@ -1072,7 +779,6 @@ ianm-html-head: null
 ianm-follow-users:
   forum:
     followed: Theo
-    followers: '{count, số nhiều, một {Người theo dõi} khác {Người theo dõi}}'
     profile_page:
       no_following: 'Có vẻ như bạn không theo dõi bất cứ ai.'
     settings:
@@ -1081,17 +787,12 @@ ianm-follow-users:
       notify_new_discussion_label: 'Người mà tôi đang theo dõi bắt đầu một cuộc thảo luận'
       notify_new_post_label: 'Ai đó tôi đang theo dõi bài đăng trong một cuộc thảo luận hiện có'
       block_follow: 'Ngăn người dùng theo dõi tôi'
-    notifications:
-      new_discussion_text: '{tên người dùng} bắt đầu'
-      new_post_text: '{tên người dùng} được đăng trong một cuộc thảo luận'
-      new_follower_text: '{tên người dùng} đã theo dõi bạn'
-      new_unfollower_text: '{tên người dùng} đã ngừng theo dõi bạn'
     badge:
       label: { follow: 'Theo dõi các cuộc thảo luận', lurk: 'Theo dõi tất cả' }
     filter:
       following: 'Người dùng được theo dõi'
     modals:
-      select_follow_level: { title: 'Chọn cấp độ theo dõi cho {tên người dùng}', description: 'Chọn cách bạn muốn theo dõi <em>{tên người dùng}</em>.', follow_levels_heading: 'Theo dõi các cấp độ', follow_select_label: 'Theo dõi loại', no_user_attr_provided_err: 'Uh oh, đã xảy ra sự cố khi mở phương thức này.', no_user_attr_provided_err_debug: 'Không có thuộc tính ''user'' nào được chuyển đến phương thức SelectFollowUserLevel khi được tạo. Phương thức không thể được hiển thị.', save_btn: Cứu, cancel_btn: Hủy }
+      select_follow_level: { follow_levels_heading: 'Theo dõi các cấp độ', follow_select_label: 'Theo dõi loại', no_user_attr_provided_err: 'Uh oh, đã xảy ra sự cố khi mở phương thức này.', no_user_attr_provided_err_debug: 'Không có thuộc tính ''user'' nào được chuyển đến phương thức SelectFollowUserLevel khi được tạo. Phương thức không thể được hiển thị.', save_btn: Cứu, cancel_btn: Hủy }
     profile_link: 'Người dùng được theo dõi'
     user_controls:
       follow_button: Theo
@@ -1101,37 +802,28 @@ ianm-follow-users:
       follow_tag_button: Theo
       unfollow_tag_button: 'Thay đổi loại theo dõi'
   email:
-    new_discussion_by_user_subject: '[Theo dõi người dùng] {tiêu đề}'
     new_follower_subject: '[Theo dõi người dùng] Bạn có một người theo dõi mới!'
-    new_post_subject: '[Theo dõi người dùng] Bài đăng mới trong {title}'
-    new_discussion_by_user_body: "Này {recipient_display_name},\n\n{user_display_name} bắt đầu thảo luận mới: {discussion_title}\n\nĐể xem cuộc thảo luận mới, hãy xem liên kết sau:\n\n{discussion_url}\n\n---\n\n{post_content}\n"
-    new_follower_body: "Này {recipient_display_name},\n\n{follower_display_name} bắt đầu theo dõi bạn, vì vậy họ sẽ được thông báo khi bạn bắt đầu một cuộc thảo luận mới.\n\nĐể xem hồ sơ của họ, hãy xem liên kết sau:\n\n{profile_url}\n"
-    new_post_body: "Này {recipient_display_name},\n\n{user_display_name} đã đăng trong thảo luận: {discussion_title}\n\nĐể xem hoạt động mới, hãy xem liên kết sau:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nBạn sẽ không nhận được thêm bất kỳ thông báo nào về cuộc thảo luận này cho đến khi bạn được cập nhật.\n"
   lib:
     following_link: 'Người dùng được theo dõi'
     follow: Theo
     change_follow_type: 'Thay đổi loại theo dõi'
     unfollow: 'Hủy theo dõi'
     follow_levels:
-      unfollow: { name: 'Đừng làm theo', description: "Không nhận được bất kỳ thông báo nào về hoạt động của <em>{username}</em>.\n" }
-      follow: { name: 'Theo dõi các cuộc thảo luận', description: "Nhận thông báo khi <em>{username}</em> bắt đầu cuộc thảo luận mới.\n" }
-      lurk: { name: 'Theo dõi tất cả', description: "Nhận thông báo khi <em>{tên người dùng}</em> bắt đầu một cuộc thảo luận hoặc bài đăng mới trong bất kỳ cuộc thảo luận nào.\n" }
+      unfollow: { name: 'Đừng làm theo' }
+      follow: { name: 'Theo dõi các cuộc thảo luận' }
+      lurk: { name: 'Theo dõi tất cả' }
 fof-username-request:
   forum:
     nickname_modals:
-      action: { help_text: 'Vui lòng đảm bảo rằng việc thay đổi biệt hiệu được yêu cầu này tuân thủ nguyên tắc của diễn đàn.', decision_title: 'Quyết định', approval_label: 'Chấp nhận', rejected_label: 'Bác bỏ', submit_button: Trình, reason_title: 'Lý do từ chối', success: 'Quyết định đã gửi.', name: '{name} đã yêu cầu đổi biệt hiệu thành "{requestedName}"', title: 'Yêu cầu đổi biệt danh' }
-      results: { title: 'Yêu cầu đổi biệt danh', approved: 'Yêu cầu đổi biệt hiệu của bạn đã được chấp thuận', new_name: 'Biệt hiệu của bạn đã được đổi thành công thành: {name}', rejected: 'Yêu cầu đổi biệt hiệu của bạn đã bị từ chối', reason: 'Lý do từ chối: <i>"{reason}"</i>.', resubmit: 'Tại thời điểm này, bạn có thể gửi lại yêu cầu thay đổi biệt hiệu mới từ cài đặt tài khoản của mình nếu bạn muốn.', dismiss_button: OK }
-      request: { title: 'Yêu cầu thay đổi biệt hiệu', current_request: 'Bạn đã yêu cầu thay đổi biệt hiệu của mình thành "{name}". Bạn có thể cập nhật hoặc xóa yêu cầu của mình.', submit_button: 'Gửi yêu cầu', delete_button: 'Xóa yêu cầu', confirmation_message: 'Yêu cầu đổi biệt hiệu của bạn đã được gửi và đang chờ phê duyệt.', deleted: 'Yêu cầu biệt danh đã bị xóa.', dismiss_button: OK }
+      action: { help_text: 'Vui lòng đảm bảo rằng việc thay đổi biệt hiệu được yêu cầu này tuân thủ nguyên tắc của diễn đàn.', decision_title: 'Quyết định', approval_label: 'Chấp nhận', rejected_label: 'Bác bỏ', submit_button: Trình, reason_title: 'Lý do từ chối', success: 'Quyết định đã gửi.', title: 'Yêu cầu đổi biệt danh' }
+      results: { title: 'Yêu cầu đổi biệt danh', approved: 'Yêu cầu đổi biệt hiệu của bạn đã được chấp thuận', rejected: 'Yêu cầu đổi biệt hiệu của bạn đã bị từ chối', resubmit: 'Tại thời điểm này, bạn có thể gửi lại yêu cầu thay đổi biệt hiệu mới từ cài đặt tài khoản của mình nếu bạn muốn.', dismiss_button: OK }
+      request: { title: 'Yêu cầu thay đổi biệt hiệu', submit_button: 'Gửi yêu cầu', delete_button: 'Xóa yêu cầu', confirmation_message: 'Yêu cầu đổi biệt hiệu của bạn đã được gửi và đang chờ phê duyệt.', deleted: 'Yêu cầu biệt danh đã bị xóa.', dismiss_button: OK }
     username_modals:
-      action: { help_text: 'Vui lòng đảm bảo rằng yêu cầu thay đổi tên người dùng này tuân thủ nguyên tắc của diễn đàn.', decision_title: 'Quyết định', approval_label: 'Chấp nhận', rejected_label: 'Bác bỏ', submit_button: Trình, reason_title: 'Lý do từ chối', success: 'Quyết định đã gửi.', name: '{name} đã yêu cầu thay đổi tên người dùng của họ thành "{requestedName}"', title: 'Yêu cầu thay đổi tên người dùng' }
-      results: { title: 'Yêu cầu thay đổi tên người dùng', approved: 'Yêu cầu thay đổi tên người dùng của bạn đã được chấp thuận', new_name: 'Tên người dùng của bạn đã được thay đổi thành công thành: {name}', rejected: 'Yêu cầu thay đổi tên người dùng của bạn đã bị từ chối', reason: 'Lý do từ chối: <i>"{reason}"</i>.', resubmit: 'Tại thời điểm này, bạn có thể gửi lại yêu cầu thay đổi tên người dùng mới từ cài đặt tài khoản của mình nếu bạn chọn.', dismiss_button: OK }
-      request: { title: 'Yêu cầu thay đổi tên người dùng', current_request: 'Bạn đã yêu cầu thay đổi tên người dùng của mình thành "{name}". Bạn có thể cập nhật hoặc xóa yêu cầu của mình.', submit_button: 'Gửi yêu cầu', delete_button: 'Xóa yêu cầu', confirmation_message: 'Yêu cầu thay đổi tên người dùng của bạn đã được gửi và đang chờ phê duyệt.', deleted: 'Yêu cầu tên người dùng đã bị xóa.', dismiss_button: OK }
+      action: { help_text: 'Vui lòng đảm bảo rằng yêu cầu thay đổi tên người dùng này tuân thủ nguyên tắc của diễn đàn.', decision_title: 'Quyết định', approval_label: 'Chấp nhận', rejected_label: 'Bác bỏ', submit_button: Trình, reason_title: 'Lý do từ chối', success: 'Quyết định đã gửi.', title: 'Yêu cầu thay đổi tên người dùng' }
+      results: { title: 'Yêu cầu thay đổi tên người dùng', approved: 'Yêu cầu thay đổi tên người dùng của bạn đã được chấp thuận', rejected: 'Yêu cầu thay đổi tên người dùng của bạn đã bị từ chối', resubmit: 'Tại thời điểm này, bạn có thể gửi lại yêu cầu thay đổi tên người dùng mới từ cài đặt tài khoản của mình nếu bạn chọn.', dismiss_button: OK }
+      request: { title: 'Yêu cầu thay đổi tên người dùng', submit_button: 'Gửi yêu cầu', delete_button: 'Xóa yêu cầu', confirmation_message: 'Yêu cầu thay đổi tên người dùng của bạn đã được gửi và đang chờ phê duyệt.', deleted: 'Yêu cầu tên người dùng đã bị xóa.', dismiss_button: OK }
     pending_requests:
       empty_text: 'Không tìm thấy yêu cầu đổi tên.'
-      nickname_item_text: '{name} đã yêu cầu thay đổi biệt hiệu'
-      nickname_exerpt: 'Biệt danh được yêu cầu: {requestedName}'
-      username_item_text: '{name} đã yêu cầu thay đổi tên người dùng'
-      username_exerpt: 'Tên người dùng được yêu cầu: {requestedName}'
       tooltip: 'Yêu cầu đổi tên'
       title: 'Yêu cầu đổi tên'
     settings:
@@ -1149,15 +841,9 @@ fof-username-request:
   email:
     body:
       noReasonProvided: 'Không có lý do nào được cung cấp.'
-      approved: "Xin chào {recipient_display_name},\n\nYêu cầu thay đổi tên người dùng của bạn thành \"{new_username}\" đã được {actor_display_name} chấp thuận.\n\nBây giờ bạn có thể đăng nhập bằng tên người dùng mới của mình: {login_url}\n"
-      rejected: "Xin chào {recipient_display_name},\n\nYêu cầu thay đổi tên người dùng của bạn từ \"{old_username}\" thành \"{requested_username}\" đã bị {actor_display_name} từ chối.\n\nLý do: {reason}\n"
-    subject:
-      approved: '{display_name} đã chấp thuận thay đổi tên người dùng của bạn thành {requested_username}'
-      rejected: '{display_name} từ chối đổi tên người dùng thành {requested_username}'
 fof-user-bio:
   forum:
     userbioPlaceholder: 'Viết điều gì đó về bản thân bạn'
-    userbioPlaceholderOtherUser: 'Viết tiểu sử cho {username}'
     profile:
       cancel_confirm: 'Bạn có chắc chắn muốn hủy chỉnh sửa tiểu sử của mình không? Bạn sẽ mất mọi thay đổi bạn đã thực hiện.'
       cancel_button: Hủy
@@ -1165,9 +851,6 @@ fof-user-bio:
       edit_bio_label: 'Chỉnh sửa tiểu sử'
 fof-split:
   forum:
-    post:
-      was_split_to: '{count, số nhiều, một bài {{count} được tách thành {target}.} các bài {{count} khác được chia thành {target}.}}'
-      was_split_from: '{count, số nhiều, một bài {{count} được tách ra từ {target}.} các bài {{count} khác được tách ra từ {target}.}}'
     split:
       from: 'Tách ra từ đây'
       to: 'Chia nhỏ đến đây'
@@ -1221,13 +904,11 @@ fof-reactions:
   forum:
     disabled-reaction: 'Bạn không thể sử dụng phản ứng này ngay bây giờ, vui lòng làm mới trang'
     warning: 'Phản ứng của bạn đã được chuyển đổi'
-    notification: '{tên người dùng} đã phản ứng với {reaction} với bài đăng của bạn'
     settings:
       notify_post_reacted_label: 'Ai đó bày tỏ cảm xúc về một trong các bài viết của tôi'
     reacting-own-post: 'Bạn không thể phản ứng với bài đăng của chính mình'
     modal:
       title: 'Phản ứng'
-      anonymous_count: '{count, số nhiều, một {# người dùng ẩn danh} khác {# người dùng ẩn danh}}'
       no_reactions: 'Chưa có phản ứng'
     mod_item: 'Xem phản ứng'
     react_button_label: 'Phản ứng'
@@ -1241,22 +922,19 @@ fof-profile-image-crop:
 fof-prevent-necrobumping:
   forum:
     composer:
-      warning: { title: 'Cuộc thảo luận này đã hơn <b>{time}</b> cũ.', description: 'Rất có khả năng là nó không cần bất kỳ cuộc thảo luận nào thêm và do đó va chạm nó không phục vụ mục đích.', checkbox_label: 'Tôi biết rằng cuộc thảo luận này khá cũ nhưng vẫn muốn trả lời.', error: 'Cuộc thảo luận này quá cũ để trả lời.' }
+      warning: { description: 'Rất có khả năng là nó không cần bất kỳ cuộc thảo luận nào thêm và do đó va chạm nó không phục vụ mục đích.', checkbox_label: 'Tôi biết rằng cuộc thảo luận này khá cũ nhưng vẫn muốn trả lời.', error: 'Cuộc thảo luận này quá cũ để trả lời.' }
 fof-pretty-mail: null
 fof-polls:
   forum:
-    days_remaining: 'Cuộc thăm dò ý kiến kết thúc {time}.'
     no_permission: 'Bạn không có quyền bỏ phiếu'
     poll_ended: 'Cuộc thăm dò này đã kết thúc.'
     public_poll: 'Xem cử tri'
-    max_votes_allowed: 'Cuộc thăm dò ý kiến cho phép bỏ phiếu cho {max, số nhiều, một {# option} khác {# options}}.'
     composer_discussion:
       add_poll: 'Thêm cuộc thăm dò ý kiến'
       edit_poll: 'Chỉnh sửa cuộc thăm dò ý kiến'
     modal:
       add_title: 'Thêm cuộc thăm dò ý kiến'
       add_option_label: 'Thêm tùy chọn'
-      date_placeholder: 'Ngày kết thúc cuộc thăm dò ý kiến (Không bắt buộc)'
       edit_title: 'Chỉnh sửa cuộc thăm dò ý kiến'
       include_question: 'Bạn phải bao gồm một câu hỏi'
       max: 'Bạn có thể có tối đa 10 câu trả lời'
@@ -1277,7 +955,6 @@ fof-polls:
       edit: 'Chỉnh sửa cuộc thăm dò ý kiến'
     tooltip:
       badge: 'Thăm dò ý kiến'
-      votes: '{đếm, số nhiều, một {# phiếu} khác {# phiếu}}'
     votes_modal:
       title: 'Cử tri'
 fof-nightmode:
@@ -1297,11 +974,9 @@ fof-moderator-notes:
   forum:
     no_content_given: 'Một ghi chú trống không được phép.'
     moderatorNotes:
-      created_text: '{username} đã tạo ghi chú này vào {date}'
       add_button: 'Ghi chú mới'
       create-heading: 'Tạo ghi chú của người kiểm duyệt mới'
       dismiss_button: 'Thực hiện'
-      input_heading: 'Nhập ghi chú của bạn cho <strong>{tên người dùng}</strong>, (đánh dấu được hỗ trợ)'
       noNotes: 'Có vẻ như không có ghi chú nào ở đây.'
       submit_button: 'Lưu ghi chú'
       delete: Xóa
@@ -1309,8 +984,6 @@ fof-moderator-notes:
     user:
       notes: 'Ghi chú của người điều hành'
   api:
-    auto_note: '_I đã chuyển sang thành viên này:_ {reason}'
-    auto_note_actor: '_Switched to_ @{tên người dùng}: {reason}'
     no_reason_provided: 'Không có lý do nào được cung cấp'
 fof-linguist: null
 fof-html-errors: null
@@ -1325,12 +998,8 @@ fof-gamification:
       name: 'Người dùng'
       amount: Điểm
     notification:
-      upvote: '{tên người dùng} đã ủng hộ bài đăng của bạn'
-      downvote: '{tên người dùng} đã downvote bài viết của bạn'
       prefrences: { vote: 'Khi một trong các bài đăng của tôi được bình chọn lên / xuống' }
     user:
-      card: { points: '{đếm, số nhiều, một { {đếm} điểm} khác {{đếm} điểm}}' }
-      rank: '{xếp hạng}'
       votes_link: Phiếu
     modal:
       downvotes_label: 'Downvoters:'
@@ -1344,11 +1013,6 @@ fof-gamification:
     post:
       upvote_button: 'Upvote post'
       downvote_button: 'Bài đăng downvote'
-  email:
-    body:
-      postVoted: "Này {recipient_display_name},\n\n{actor_display_name} vừa bỏ phiếu cho bài viết của bạn trong {discussion_title}.\n\nXem tại đây: {discussion_url}\n"
-    subject:
-      postVoted: 'Bài viết của bạn đã được bình chọn bởi {display_name}'
 fof-formatting: null
 fof-drafts:
   console:
@@ -1367,7 +1031,6 @@ fof-drafts:
       title: Nháp
       delete_all_button: 'Xóa tất cả bản nháp'
       delete_button: 'Xóa bản nháp'
-      scheduled_icon_tooltip: 'Đã lên lịch cho {datetime}'
       scheduled_icon_tooltip_formatter: 'L [tại] LT'
       alert: 'Bạn có chắc chắn muốn xóa bản nháp của mình không?'
       delete_all_alert: 'Bạn có chắc chắn muốn xóa tất cả các bản nháp của mình không?'
@@ -1375,13 +1038,10 @@ fof-drafts:
       tooltip: Nháp
     schedule_draft_modal:
       text: 'Lên lịch cho bản nháp của bạn để tự động đăng sau!'
-      scheduled_text: 'Hiện đã lên lịch đăng bài vào {datetime}.'
-      scheduled_error: 'Không thể lên lịch nháp: {error}.'
       unschedule_button: 'Hủy lịch trình'
       unschedule_warning: 'Bạn có chắc chắn muốn bỏ lịch dự thảo này không?'
       reschedule_button: 'Đổi lịch'
       schedule_button: Lịch
-      schedule_time_preview: 'Bản nháp này sẽ được tự động xuất bản vào <b>{datetime}</b>.'
       schedule_time_preview_formatter: LLLL
       schedule_time_preview_invalid: 'Ngày và/hoặc giờ không hợp lệ'
       title: 'Lên lịch dự thảo'
@@ -1393,13 +1053,10 @@ fof-best-answer:
     this_best_answer: 'Chọn câu trả lời hay nhất'
     remove_best_answer: 'Bỏ chọn câu trả lời hay nhất'
     best_answer_button: 'Câu trả lời hay nhất'
-    best_answer_label: 'đặt bởi <a>{username}</a> {time_set}'
     errors:
       mismatch: 'Bài viết được chọn không tồn tại trong cuộc thảo luận này.'
     notification:
-      best_answer_in_discussion: '{tên người dùng} đặt câu trả lời tốt nhất trong cuộc thảo luận này'
       content: 'Vui lòng chọn Câu trả lời hay nhất nếu câu hỏi của bạn đã được trả lời'
-      awarded: 'Bài đăng của bạn được {username} đặt làm câu trả lời hay nhất'
       preferences: { awarded_best_answer: 'Ai đó đặt bài đăng của tôi làm câu trả lời tốt nhất', best_answer_in_discussion: 'Một câu trả lời tốt nhất được đặt trong một cuộc thảo luận mà tôi đã tham gia', select_best_answer: 'Một lời nhắc tự động để chọn câu trả lời tốt nhất trong cuộc thảo luận mà tôi đã bắt đầu' }
     index:
       ask_question: 'Đặt câu hỏi'
@@ -1413,22 +1070,13 @@ fof-best-answer:
       accessible_label: 'Lựa chọn đã giải quyết / Chưa giải quyết'
     composer:
       titlePlaceholder: 'Tiêu đề câu hỏi'
-    user:
-      best-answer-count: '{đếm, số nhiều, một { {đếm} câu trả lời hay nhất} khác {{đếm} câu trả lời hay nhất}}'
     search:
       discussions_solutions_heading: 'Thảo luận với các giải pháp'
-      all_discussions_solutions_button: 'Tìm kiếm tất cả các cuộc thảo luận với các giải pháp cho "{query}"'
     discussion:
       jump_to_best_answer_button: 'Xem câu trả lời tốt nhất'
   email:
     subject:
-      awarded: 'Bài của anh đã được thiết lập là câu trả lời tốt nhất bởi{dis Play_ name}'
-      ba-set: 'Một câu trả lời tốt nhất được đặt bởi{dis Play_ name}'
       select: 'Anh đã tìm được câu trả lời chưa?'
-    body:
-      awarded: "Này...\n\nLàm tốt lắm. Chỉ cần đặt vị trí của bạn là câu trả lời tốt nhất trong cuộc thảo luận: Cảm ơn đã giúp.\n\nXem nó ở đây:\n"
-      ba-set: "Này...\n\nChỉ cần đặt câu trả lời tốt nhất trong cuộc thảo luận:\n\nXem này:\n"
-      select: "Này...\n\nChỉ cần đăng ký thôi, đến giờ anh nên có rất nhiều câu trả lời cho câu hỏi của mình: Hy vọng một trong số họ đã giúp bạn giải quyết vấn đề của bạn.\n\nNếu có, sẽ rất hữu ích cho các thành viên tương lai nếu bạn có thể trả lời tốt nhất cho câu hỏi của mình. Nó sẽ giúp mọi người với cùng một vấn đề tìm ra câu trả lời họ cần, và đó cũng là một lời cảm ơn lớn với các thành viên đã giúp bạn. Họ tự nguyện dành thời gian, nên thật tốt khi cho họ biết rằng họ đang làm tốt.\n\nHãy ghé thăm cuộc thảo luận ở đây:{ decussition_url}, và chọn một cột thích hợp nhất để trả lời tốt nhất.\n\nCảm ơn!\n"
 fof-user-directory:
   lib:
     sort:
@@ -1437,8 +1085,6 @@ fof-user-directory:
 fof-ban-ips:
   forum:
     modal:
-      ban_options_only_ip: 'Chỉ cấm IP hiện tại (<code>{ip}</code>)'
-      ban_options_all_ip: 'Cấm tất cả các IP được sử dụng bởi <i>{username}</i>'
       ban_ip_no_users: 'Không ai khác sẽ bị cấm'
     user_badge:
       banned_tooltip: 'Bị cấm'
@@ -1455,13 +1101,8 @@ fof-ban-ips:
       check_button: Kiểm
       save_button: Cứu
       ban_ip_confirmation: 'Bạn có chắc chắn muốn chặn địa chỉ IP này sử dụng trên diễn đàn không? Điều này sẽ chặn người dùng có (các) địa chỉ IP này đăng nhập và đăng ký.'
-      ban_ip_users: '{count, số nhiều, một {User {users} sẽ bị cấm} {Users {users} khác sẽ bị cấm}}'
       unban_ip_confirmation: 'Bạn có chắc chắn muốn bỏ cấm người dùng này và tất cả những người dùng khác không bị cấm bởi các IP khác không?'
-      unban_options_only_ip: 'Chỉ bỏ cấm IP hiện tại (<code>{ip}</code>)'
-      unban_options_all_ip: 'Bỏ cấm tất cả các IP được <i>{username}</i> sử dụng'
       unban_ip_no_users: 'Không ai khác sẽ không bị cấm'
-      unban_ip_users: '{count, số nhiều, một {User {users} sẽ được bỏ cấm} khác {Users {users} sẽ được bỏ cấm}}'
-      unbanned_ips: '<code>{ips}</code> không bị cấm.'
       title: 'Cấm IP'
       unban_title: 'Bỏ cấm (các) IP'
       address_label: 'Địa chỉ IP'
@@ -1492,7 +1133,6 @@ fof-anti-spam:
       move_discussions_tag_label: 'Chuyển các cuộc thảo luận sang thẻ cách ly'
       move_discussions_tag_help: 'Thao tác này sẽ di chuyển tất cả các cuộc thảo luận do người dùng này bắt đầu sang thẻ bạn đã chỉ định trong cài đặt diễn đàn. Khi bị vô hiệu hóa, các cuộc thảo luận sẽ được để lại trong các thẻ hiện tại của chúng.'
       process_button: 'Quá trình'
-      title: 'Đánh dấu {username} là người gửi spam'
       report_to_sfs_label: 'Báo cáo cho StopForumSpam'
       report_to_sfs_help: 'Điều này sẽ báo cáo các chi tiết cơ bản của người dùng (tên người dùng, email, địa chỉ IP) cho StopForumSpam. Điều này sẽ giúp ngăn người dùng đăng ký trên các diễn đàn khác sử dụng dịch vụ StopForumSpam.'
     user_controls:
@@ -1511,18 +1151,11 @@ flarum-sticky:
     discussion_controls:
       unsticky_button: 'Không dính'
       sticky_button: Dính
-    post_stream:
-      discussion_stickied_text: '{tên người dùng} đã dán thảo luận {time}.'
-      discussion_unstickied_text: '{tên người dùng} đã bỏ dính thảo luận {time}.'
     badge:
       sticky_tooltip: Dính
   ref:
     sticky: Dính
 flarum-statistics: null
-flarum-pusher:
-  forum:
-    discussion_list:
-      show_updates_text: '{đếm, số nhiều, một {Hiển thị # thảo luận cập nhật} khác {Hiển thị # thảo luận cập nhật}}'
 flarum-lock:
   forum:
     badge:
@@ -1530,24 +1163,13 @@ flarum-lock:
     discussion_controls:
       lock_button: Khóa
       unlock_button: 'Mở khóa'
-    notifications:
-      discussion_locked_text: '{tên người dùng} bị khóa'
-    post_stream:
-      discussion_locked_text: '{tên người dùng} đã khóa thảo luận {time}.'
-      discussion_unlocked_text: '{tên người dùng} đã mở khóa thảo luận {time}.'
     settings:
       notify_discussion_locked_label: 'Ai đó khóa một cuộc thảo luận mà tôi đã bắt đầu'
 flarum-likes:
   forum:
-    notifications:
-      post_liked_text: '{tên người dùng} đã thích bài đăng của bạn'
-      others_text: '{count, số nhiều, một {# khác} khác {# khác}}'
     post:
       like_link: Như
-      liked_by_self_text: '{người dùng} như thế này.'
-      liked_by_text: '{count, số nhiều, một {{users} thích cái này} {{users} khác như thế này}}.'
       unlike_link: 'Giống như'
-      others_link: '{count, số nhiều, một {# khác} khác {# khác}}'
       you_text: Mày
     post_likes:
       title: 'Người dùng thích điều này'
@@ -1602,9 +1224,6 @@ dhtml-composer:
       character_counter: 'Bộ đếm ký tự'
 datlechin-birthdays:
   forum:
-    user:
-      birthday_text: 'Sinh nhật: {date}'
-      age_text: 'Tuổi: {tuổi}'
     change_dob:
       title: 'Chỉnh sửa ngày sinh'
       date_of_birth_text: 'Ngày sinh'
@@ -1617,16 +1236,12 @@ datlechin-birthdays:
       dob_heading: 'Ngày sinh'
     nav:
       nav_item: 'Sinh nhật hôm nay'
-    page:
-      discussion_count: '{count, số nhiều, một {Thảo luận: #} other {Thảo luận: #}}'
-      post_count: '{count, số nhiều, một {Post: #} other {Bài đăng: #}}'
     edit_user:
       dob_heading: 'Ngày sinh'
     sign_up:
       dob_placeholder: 'Ngày sinh'
   api:
     invalid_dob_message: 'Ngày sinh không hợp lệ'
-    invalid_age_message: 'Tuổi của bạn phải ít nhất {minAge} tuổi.'
   ref:
     date_of_birth: 'Ngày sinh'
 clarkwinkelmann-post-permissions: null
@@ -1662,24 +1277,13 @@ askvortsov-rich-text:
       insert_image: { src_placeholder: 'Liên kết', title_placeholder: 'Tiêu đề' }
       insert_link: { text_placeholder: 'Nhắn tin', href_placeholder: 'Địa chỉ', title_placeholder: 'Tiêu đề (hiển thị khi di chuột)', remove_button: Triệt }
       additional_items_tooltip: 'Kiểm soát bổ sung'
-      bold_tooltip: 'Chữ in đậm <{modifierKey}-b>'
-      code_tooltip: 'Mã nội tuyến <{modifierKey}-''>'
       code_block_tooltip: 'Chèn khối mã'
-      header_tooltip: 'Thay đổi thành tiêu đề {level} <shift-{modifierKey}-{level}>'
       horizontal_rule_tooltip: 'Chèn quy tắc ngang'
       image_tooltip: 'Thêm hình ảnh'
-      italic_tooltip: 'Văn bản in nghiêng <{modifierKey}-i>'
       link_tooltip: 'Thêm liên kết'
-      ordered_list_tooltip: 'Danh sách đánh số <shift-{modifierKey}-9>'
-      paragraph_tooltip: 'Thay đổi thành đoạn <shift-{modifierKey}-0>'
-      quote_tooltip: 'Chèn dấu ngoặc kép <{modifierKey}-q>'
       spoiler_block_tooltip: 'Chặn Spoiler / Thả xuống'
-      spoiler_inline_tooltip: 'Spoiler <{modifierKey}-;>'
       strike_tooltip: 'Gạch ngang <alt-shift-5>'
-      sub_tooltip: 'Chỉ số dưới <{modifierKey}-,>'
-      sup_tooltip: 'Chỉ số trên <{modifierKey}-.>'
       text_type_tooltip: 'Chọn loại văn bản'
-      unordered_list_tooltip: 'Danh sách dấu đầu dòng <shift-{modifierKey}-8>'
   forum:
     settings:
       composer_heading: 'Nhà soạn nhạc'
@@ -1694,7 +1298,6 @@ askvortsov-pwa:
       share_button: 'Chia sẻ'
     post_controls:
       share_button: 'Chia sẻ'
-      share_api: { title: 'Trả lời {username} cho {title}''' }
     user_controls:
       share_button: 'Chia sẻ'
     settings:
@@ -1705,20 +1308,7 @@ askvortsov-pwa:
       header: 'Lỗi kết nối mạng'
       text: 'Ứng dụng này yêu cầu kết nối mạng; Nó không thể được sử dụng ngoại tuyến. Vui lòng kiểm tra kết nối của bạn.'
 askvortsov-moderator-warnings:
-  emails:
-    post_warned:
-      subject: '{warner_display_name} đã cảnh báo bạn bằng {đình công, số nhiều, một {# đình công} khác {# đình công}} trong {discussion_title}'
-      body: "Này {warnee_display_name}!\n\n{warner_display_name} đã cảnh báo bạn bằng {đình công, số nhiều, một {# đình công} khác {# đình công}} trong {discussion_title}\n\nLý do sau đây đã được đưa ra:\n\n---\n\n{public_comment}\n"
-    user_warned:
-      subject: '{warner_display_name} đã cảnh báo bạn bằng {đình công, số nhiều, một {# đình công} khác {# đình công}}'
-      body: "Này {warnee_display_name}!\n\n{warner_display_name} đã cảnh báo bạn bằng {đình công, số nhiều, một {# đình công} khác {# đình công}}\n\nLý do sau đây đã được đưa ra:\n\n---\n\n{public_comment}\n"
   forum:
-    notifications:
-      warning_text: '{đình công, số nhiều, một {Bạn đã được {mod_username}} cảnh báo bằng # đình công bởi {}} khác {Bạn đã được {mod_username}}} cảnh báo bằng # đình công'
-      warning_no_strikes_text: 'Bạn đã được cảnh báo bởi {mod_username} (không có cảnh cáo)'
-    post:
-      warning: '{đình công, số nhiều, một {Warning with # strike by {mod_username}} other {Warning with # strikes by {mod_username}}}'
-      warning_no_strikes: 'Được cảnh báo không có cảnh cáo bởi {mod_username}'
     post_controls:
       warning_button: 'Cảnh báo người dùng'
     user:
@@ -1735,20 +1325,14 @@ askvortsov-moderator-warnings:
     warning_list:
       add_button: 'Cảnh báo mới'
       no_warnings: 'Có vẻ như không có cảnh báo nào ở đây.'
-      warnings: '{cảnh cáo, số nhiều, một {Cảnh báo của người điều hành: # Đã nhận cảnh cáo} khác {Cảnh báo của người điều hành: # Đã nhận cảnh cáo}}'
       warnings_no_strikes: 'Cảnh báo của người điều hành: Không nhận được cảnh cáo nào'
     warning_list_item:
-      list_item_heading: '{đình công, số nhiều, một {<strong>#</strong> đình công, {time}} khác {<strong>#</strong> đình công, {time}}}'
-      list_item_heading_hidden: '{đình công, số nhiều, một {<strong>#</strong> đình công, {time} <strong>(đã xóa)</strong>} khác {<strong>#</strong> đình công, {time} <strong>(đã xóa)</strong>}}'
       public_comment: 'Cảnh báo'
       private_comment: 'Nhận xét hiển thị của người điều hành'
       linked_post: 'Bài đăng được liên kết'
     warning_modal:
       confirmation_message: 'Cảnh báo của bạn đã được lưu. Bạn có thể cần phải làm mới trang để xem nó.'
-      heading: 'Cảnh báo <strong>{tên người dùng}</strong>'
       strikes_heading: 'Nên áp dụng bao nhiêu cảnh cáo?'
-      public_comment_heading: 'Tại sao <strong>{username}</strong> nhận được những cảnh báo này? Những nhận xét này sẽ hiển thị cho người dùng và những người kiểm duyệt khác.'
-      private_comment_heading: 'Tại sao <strong>{username}</strong> nhận được những cảnh báo này? Những nhận xét này sẽ CHỈ hiển thị cho những người kiểm duyệt khác.'
       submit_button: 'Lưu cảnh báo'
 askvortsov-discussion-templates:
   forum:

@@ -3,7 +3,6 @@ core:
     change_email:
       incorrect_password_message: 'Vneseno geslo ni pravilno.'
       confirm_password_placeholder: 'Potrdite geslo'
-      confirmation_message: 'Potrditveno e-poštno sporočilo smo poslali na {email}. Če ne prispe kmalu, preverite mapo z vsiljeno pošto.'
       dismiss_button: 'V redu'
       submit_button: 'Shrani spremembe'
       title: 'Spremeni e-pošto'
@@ -26,7 +25,6 @@ core:
     composer_edit:
       discard_confirmation: 'Sprememb niste shranili. Jih želite zavreči?'
       edited_message: 'Vaša sprememba je bila narejena.'
-      post_link: 'Objavi #{številka} v {discussion}'
       submit_button: 'Shrani spremembe'
       view_button: Pogled
     composer_reply:
@@ -48,10 +46,6 @@ core:
       restore_button: Obnoviti
     discussion_list:
       empty_text: 'Zdi se, kot da tu ni razprav.'
-      replied_text: '{username} je odgovoril {ago}'
-      started_text: '{username} se je začel {ago}'
-      total_replies_a11y_label: '{count, množina, ena {# odgovor} drugo {# odgovori}}'
-      unread_replies_a11y_label: '{count, množina, en {# neprebran odgovor} drugi {# neprebrani odgovori}}. Označi neprebrano {count, množina, ena {reply} druga {replies}} kot prebrano.'
       load_more_button: 'Naloži več'
     forgot_password:
       email_sent_message: 'Če je vnešeno e-pošto registrirano na tej spletni strani, vam bomo poslali e-pošto, ki vsebuje povezavo za ponastavitev gesla. Preverite mapo z neželeno pošto, če je ne prejmete v naslednji minuti ali dveh.'
@@ -107,7 +101,6 @@ core:
     notifications:
       delete_all_confirm: 'Ali ste prepričani, da želite izbrisati vsa obvestila? Tega dejanja ni mogoče preklicati'
       delete_all_tooltip: 'Brisanje vseh obvestil'
-      discussion_renamed_text: '{username} spremenil naslov'
       empty_text: 'Brez obvestil'
       mark_as_read_tooltip: 'Označi kot prebrano'
       toggle_dropdown_accessible_label: 'Ogled obvestil'
@@ -116,8 +109,6 @@ core:
       tooltip: Obvestila
     post:
       edited_text: Urejati
-      edited_tooltip: '{username} uredil {ago}'
-      number_tooltip: 'Objava #{številka}'
     post_controls:
       delete_confirmation: 'Ali ste prepričani, da želite to objavo izbrisati za vedno? Tega dejanja ni mogoče razveljaviti.'
       hide_confirmation: 'Ali ste prepričani, da želite izbrisati to objavo?'
@@ -131,23 +122,16 @@ core:
     post_scrubber:
       now_link: Zdaj
       original_post_link: 'Izvirna objava'
-      unread_text: '{count} neprebrano'
-      viewing_text: '{count, plural, one {{index} of {formattedCount} post} other {{index} of {formattedCount} posts}}'
     post_stream:
-      discussion_renamed_old_tooltip: 'Stari naslov je bil: »{old}«'
-      discussion_renamed_text: '{username} je spremenil naslov v {new} {time}.'
-      time_lapsed_text: '{obdobje} pozneje'
       load_more_button: 'Naloži več'
       reply_placeholder: 'Napišite odgovor ...'
     rename_discussion:
       title: 'Preimenovanje razprave'
       submit_button: Preimenuj
     search:
-      all_discussions_button: 'V vseh razpravah poiščite »{query}«'
       discussions_heading: Razprave
       users_heading: Uporabniki
     security:
-      browser_on_operating_system: '{browser} on {os}'
       cannot_terminate_current_session: 'Trenutne aktivne seje ni mogoče prekiniti. Namesto tega se odjavite.'
       created: Ustvaril
       current_active_session: 'Trenutna aktivna seja'
@@ -159,13 +143,11 @@ core:
       new_access_token_modal: { submit_button: 'Ustvarjanje žetona', title_placeholder: Naslov, title: 'Nov žeton' }
       revoke_access_token: Prekliče
       sessions_heading: 'Aktivne seje'
-      session_terminated: '{count, množina, ena {Seja se je končala} druga {# Seje so se končale}}.'
       session_termination_failed: 'Med prekinitvijo sej je prišlo do napake.'
       show_access_token: 'Ogled žetona'
       terminate_all_other_sessions: 'Prekinite vse druge seje'
       terminate_session: Končati
       token_revoked: 'Žeton je preklican.'
-      token_item_title: '{title} - {token}'
       token_title_placeholder: /
       never: Nikoli
       new_access_token_button: 'Nov žeton'
@@ -174,7 +156,6 @@ core:
       title: Varnost
     settings:
       account_heading: Račun
-      notification_checkbox_a11y_label_template: 'Prejemanje obvestil »{description}« prek {method}'
       notify_by_web_heading: Splet
       notify_discussion_renamed_label: 'Nekdo preimenuje razpravo, ki sem jo začel'
       privacy_disclose_online_label: 'Omogočanje drugim, da vidijo, kdaj imam vzpostavljeno povezavo'
@@ -186,7 +167,6 @@ core:
       title: Nastavitve
     sign_up:
       log_in_text: 'Že imate račun? <a>prijava</a>'
-      welcome_text: 'Dobrodošli, {uporabniško ime}!'
       dismiss_button: 'V redu'
       email_placeholder: 'E- pošta'
       password_placeholder: Geslo
@@ -196,8 +176,6 @@ core:
     user:
       avatar_upload_button: Upload
       avatar_upload_tooltip: 'Nalaganje novega avatarja'
-      in_discussion_text: 'V {discussion}'
-      joined_date_text: 'Pridružil se je {ago}'
       online_text: Dosegljiv
       posts_empty_text: 'Izgleda, da tukaj ni objav.'
       avatar_remove_button: Odstrani
@@ -209,15 +187,12 @@ core:
     user_controls:
       button: Kontrolnike
       delete_confirmation: 'Ali ste prepričani, da želite izbrisati tega uporabnika? Objave uporabnika NE bodo izbrisane.'
-      delete_error_message: 'Izbris uporabnika <i>{username} ({email})</i> ni uspel'
-      delete_success_message: 'Uporabnik <i>{uporabniško ime} ({email})</i> je bil izbrisan'
       toggle_dropdown_accessible_label: 'Preklop spustnega menija uporabniških kontrolnikov'
       delete_button: Izbrisati
       edit_button: Urediti
     user_email_confirmation:
       resend_button: 'Vnovično pošiljanje potrditvenega e-poštnega sporočila'
       sent_message: Poslal
-      alert_message: 'Potrditveno e-poštno sporočilo smo poslali na {email}. Če ne prispe kmalu, preverite mapo z vsiljeno pošto.'
     welcome_hero:
       hide: 'Skrivanje pozdravnega sporočila'
     badge:
@@ -230,8 +205,6 @@ core:
       hidden_tooltip: Skriven
     dropdown:
       toggle_dropdown_accessible_label: 'Preklopni spustni meni'
-    data_segment:
-      label: '{label}:'
     edit_user:
       activate_button: 'Aktiviraj uporabnika'
       groups_heading: Skupine
@@ -246,33 +219,17 @@ core:
       username_heading: 'Uporabniško ime'
       username_label: 'Uporabniško ime'
     error:
-      circular_dependencies_message: 'Zaznane krožne odvisnosti: {extensions}. Prekinitev. Onemogočite eno od razširitev in poskusite znova.'
-      dependent_extensions_message: '{extension} ni mogoče onemogočiti, dokler niso onemogočene te odvisne razširitve: {extensions}'
-      extension_initialiation_failed_message: '{extension} ni uspelo inicializirati, dodatne informacije poiščite v konzoli brskalnika.'
       generic_message: 'Ups! Nekaj je šlo narobe. Znova naložite stran in poskusite znova.'
       generic_cross_origin_message: 'Ups! Med zahtevo za navzkrižno poreklo je prišlo do napake. Znova naložite stran in poskusite znova.'
-      missing_dependencies_message: 'Razširitve {extension} ni mogoče omogočiti, dokler niso omogočene te odvisnosti: {extensions}'
       not_found_message: 'Zahtevanega vira ni bilo mogoče najti.'
       payload_too_large_message: 'Koristna obremenitev zahteve je bila prevelika.'
       permission_denied_message: 'Za to nimate dovoljenja.'
       rate_limit_exceeded_message: 'Greš malo prehitro. Poskusite znova čez nekaj sekund.'
       render_failed_message: 'Žal smo pri prikazovanju te vsebine naleteli na napako. Če ste uporabnik, poskusite znova pozneje. Če ste skrbnik, si za več informacij oglejte dnevniške datoteke Flarum.'
-    meta_titles:
-      with_page_title: '{pageNumber, množina, =1 {{pageTitle} - {forumName}} drugo {{pageTitle}: Page # - {forumName}}}'
-      without_page_title: '{pageNumber, množina, =1 {{forumName}} druga {Page # - {forumName}}}'
     modal:
       close: Blizu
     nav:
       drawer_button: 'Odpiranje predala za krmarjenje'
-    number_suffix:
-      kilo_text: Proti
-      mega_text: M
-    series:
-      glue_text: ', '
-      three_text: '{first}, {second} in {third}'
-      two_text: '{first} in {second}'
-    username:
-      deleted_text: '[izbrisano]'
     loading_indicator:
       accessible_label: Nakladanje...
   views:
@@ -290,11 +247,9 @@ core:
       invalid_confirmation_token: 'Ta potrditvena povezava je že bila uporabljena ali pa ni veljavna.'
       not_authenticated: 'Nimate dovoljenja za dostop do te strani. Po prijavi poskusite znova.'
       not_found: 'Strani, ki ste jo zahtevali, ni bilo mogoče najti.'
-      not_found_return_link: 'Vrnite se na {forum}'
       permission_denied: 'Nimate dovoljenja za dostop do te strani.'
       unknown: 'Pri nalaganju te strani je prišlo do napake.'
     log_out:
-      log_out_confirmation: 'Ali ste prepričani, da se želite odjaviti iz {forum}?'
       log_out_button: 'Odjavite se'
       title: 'Odjavite se'
     reset_password:
@@ -311,23 +266,15 @@ core:
       previous_page_button: 'Prejšnja stran'
   api:
     invalid_username_message: 'Uporabniško ime lahko vsebuje samo črke, številke in črtice.'
-    invalid_filter_type:
-      must_be_numeric_message: 'Filter {filter} mora biti številski.'
-      must_not_be_array_message: 'Filter {filter} ne sme biti matrika.'
-      must_not_be_multidimensional_array_message: 'Filter {filter} ne sme biti večdimenzionalno polje.'
   email:
     activate_account:
       subject: 'Aktiviranje novega računa'
-      body: "Hej {uporabniško ime}!\n\nNekdo (upajmo, da vi!) se je prijavil na {forum} s tem e-poštnim naslovom.\n\nČe ste bili to vi, preprosto kliknite naslednjo povezavo in vaš račun bo aktiviran:\n{URL}\n\nČe se niste prijavili, prezrite to e-poštno sporočilo.\n"
     confirm_email:
       subject: 'Potrdite svoj novi e-poštni naslov'
-      body: "Hej {uporabniško ime}!\n\nNekdo (upajmo, da vi!) je spremenil svoj e-poštni naslov na {forum} v tega.\n\nČe ste bili to vi, preprosto kliknite naslednjo povezavo in vaš e-poštni naslov bo potrjen:\n{URL}\n\nČe to niste bili vi, prosimo, prezrite to e-poštno sporočilo.\n"
     reset_password:
-      body: "Hej {uporabniško ime}!\n\nNekdo (upajmo, da vi!) je poslal pozabljeno zahtevo za geslo za vaš račun na {forum}.\n\nČe ste bili to vi, kliknite spodnjo povezavo za ponastavitev gesla:\n{URL}\n\nČe ne želite spremeniti gesla, preprosto prezrite to e-poštno sporočilo in nič se ne bo zgodilo.\n"
       subject: 'Ponastavitev gesla'
     send_test:
       subject: 'Test e-pošte Flarum'
-      body: "Hej {uporabniško ime}!\n\nTo je preskusno e-poštno sporočilo, ki potrjuje, da konfiguracija e-pošte Flarum deluje pravilno.\n\nČe ste bili to vi, to e-poštno sporočilo pomeni, da vaša konfiguracija deluje!\n\nČe to niste bili vi, prosimo, prezrite to e-poštno sporočilo.\n"
   ref:
     all_discussions: 'Vse razprave'
     change_email: 'Spremeni e-pošto'
@@ -335,7 +282,6 @@ core:
     color: Barva
     confirm_password: 'Potrdite geslo'
     confirm_email: 'Potrdi e-pošto'
-    confirmation_email_sent: 'Potrditveno e-poštno sporočilo smo poslali na {email}. Če ne prispe kmalu, preverite mapo z vsiljeno pošto.'
     custom_footer_text: 'Dodajte HTML, da bo prikazan na dnu strani.'
     custom_footer_title: 'Urejanje noge po meri'
     custom_header_text: 'Dodajte HTML, ki bo prikazan na samem vrhu strani, nad lastno glavo Flaruma.'
@@ -349,7 +295,6 @@ core:
     extensions: Razširitve
     generic_confirmation_message: 'Ste prepričani, da želite nadaljevati? Tega dejanja ni mogoče razveljaviti.'
     icon: Ikona
-    icon_text: 'Vnesite ime katerega koli razreda ikon <a>FontAwesome</a>, <em>vključno s</em> predpono <code>fas fa.</code>'
     load_more: 'Naloži več'
     loading: Nakladanje...
     log_in: Prijava
@@ -373,7 +318,6 @@ core:
     security: Varnost
     settings: Nastavitve
     sign_up: Prijava
-    some_others: '{count, množina, ena {# drugo} drugo {# drugi}}'
     start_a_discussion: 'Začetek razprave'
     username: 'Uporabniško ime'
     users: Uporabniki
@@ -389,128 +333,12 @@ core:
     members: Člani
     mod: Način
     mods: Mods
-validation:
-  accepted: 'Atribut :attribute mora biti sprejet.'
-  active_url: 'Atribut :atribut ni veljaven URL.'
-  after: 'Atribut :atribut mora biti datum po :d ate.'
-  after_or_equal: 'Atribut :atribut mora biti datum po ali enak :d ate.'
-  alpha: 'Atribut :atribut mora vsebovati samo črke.'
-  alpha_dash: 'Atribut :atribut mora vsebovati samo črke, številke, črtice in podčrtaje.'
-  alpha_num: 'Atribut :atribut mora vsebovati samo črke in številke.'
-  array: 'Atribut :atrika mora biti matrika.'
-  before: 'Atribut :atribut mora biti datum, preden :d pojdi.'
-  before_or_equal: 'Atribut :atribut mora biti datum pred ali enak :d ate.'
-  between:
-    numeric: 'Atribut :0 mora biti med :min in :max.'
-    file: 'Atribut :0 mora biti med :min in :max kilobajtov.'
-    string: 'Atribut :0 mora biti med znaki :min in :max.'
-    array: 'Atribut :atribut mora imeti med elementi :min in :max.'
-  boolean: 'Polje :attribute mora biti true ali false.'
-  confirmed: 'Potrditev :attribute se ne ujema.'
-  date: 'Atribut :atribut ni veljaven datum.'
-  date_equals: 'Atribut :atribut mora biti datum, ki je enak :d ate.'
-  date_format: 'Atribut :a se ne ujema z obliko :format.'
-  different: 'Atribut :atribut in :drugo morata biti različna.'
-  digits: 'Atribut :atribut mora biti :d igits številke.'
-  digits_between: 'Atribut :0 mora biti med :min in :max števkami.'
-  dimensions: 'Atribut :, ima neveljavne dimenzije slike.'
-  distinct: 'Polje :attribute ima podvojeno vrednost.'
-  email: 'Atribut :atribut mora biti veljaven e-poštni naslov.'
-  ends_with: 'Atribut :attribute se mora končati z enim od teh elementov: :vrednosti.'
-  exists: 'Izbrani :atribut ni veljaven.'
-  file: 'Atribut :attribute mora biti datoteka.'
-  file_too_large: 'Atribut :je prevelik.'
-  file_upload_failed: 'Atribut :: ni bilo mogoče naložiti.'
-  filled: 'Polje :attribute mora imeti vrednost.'
-  gt:
-    numeric: 'Atribut :atribut mora biti večji od vrednosti :.'
-    file: 'Atribut :atribut mora biti večji od kilobajtov vrednosti :.'
-    string: 'Atribut :atribut mora biti večji od znakov :vrednost.'
-    array: 'Atribut :atribut mora imeti več kot elemente :vrednost.'
-  gte:
-    numeric: 'Atribut :atribut mora biti večji ali enak :vrednosti.'
-    file: 'Atribut :atribut mora biti večji ali enak :vrednosti kilobajtov.'
-    string: 'Atribut :atribut mora biti večji ali enak znakom :vrednost.'
-    array: 'Atribut :atribut mora imeti elemente :value ali več.'
-  image: 'Atribut :atribut mora biti slika.'
-  in: 'Izbrani :atribut ni veljaven.'
-  in_array: 'Polje :attribute ne obstaja v :drugo.'
-  integer: 'Atribut :attribute mora biti celo število.'
-  ip: 'Atribut :attribute mora biti veljaven naslov IP.'
-  ipv4: 'Atribut :atribut mora biti veljaven naslov IPv4.'
-  ipv6: 'Atribut :atribut mora biti veljaven naslov IPv6.'
-  json: 'Atribut :atribut mora biti veljaven niz JSON.'
-  lt:
-    numeric: 'Atribut :atribut mora biti manjši od vrednosti :.'
-    file: 'Atribut :atribut mora biti manjši od kilobajtov vrednosti :.'
-    string: 'Atribut :atribut mora biti manjši od znakov :vrednost.'
-    array: 'Atribut :attribute mora imeti manj kot elemente :vrednost.'
-  lte:
-    numeric: 'Atribut :atribut mora biti manjši ali enak :vrednosti.'
-    file: 'Atribut :atribut mora biti manjši ali enak :vrednost kilobajtov.'
-    string: 'Atribut :atribut mora biti manjši ali enak znakom :vrednost.'
-    array: 'Atribut :atribut ne sme imeti več kot elemente :vrednost.'
-  max:
-    numeric: 'Atribut :max ne sme biti večji od :max.'
-    file: 'Atribut :max ne sme biti večji od :max kilobajtov.'
-    string: 'Atribut :max ne sme biti večji od znakov :max.'
-    array: 'Atribut :max ne sme imeti več kot :max postavke.'
-  mimes: 'Atribut :atribut mora biti datoteka vrste: :vrednosti.'
-  mimetypes: 'Atribut :atribut mora biti datoteka vrste: :vrednosti.'
-  min:
-    numeric: 'Atribut :mora biti vsaj :min.'
-    file: 'Atribut :atribut mora biti vsaj :min kilobajtov.'
-    string: 'Atribut :atribut mora vsebovati vsaj :min znakov.'
-    array: 'Atribut :atribut mora imeti elemente vsaj :min.'
-  multiple_of: 'Atribut :attribute mora biti večkratnik :vrednost.'
-  not_in: 'Izbrani :atribut ni veljaven.'
-  not_regex: 'Oblika zapisa :attribute ni veljavna.'
-  numeric: 'Atribut :atribut mora biti številka.'
-  password: 'Geslo ni pravilno.'
-  present: 'Polje :attribute mora biti prisotno.'
-  regex: 'Oblika zapisa :attribute ni veljavna.'
-  required: 'Polje :attribute je obvezno.'
-  required_if: 'Polje :attribute je obvezno, ko je :drugo :vrednost.'
-  required_unless: 'Polje :attribute je obvezno, razen če je :drugo v :vrednosti.'
-  required_with: 'Polje :attribute je obvezno, kadar je prisotno :vrednosti.'
-  required_with_all: 'Polje :attribute je obvezno, kadar so prisotne vrednosti :.'
-  required_without: 'Polje :attribute je obvezno, kadar :vrednosti niso prisotne.'
-  required_without_all: 'Polje :attribute je obvezno, če ni prisotna nobena vrednost :vrednosti.'
-  prohibited: 'Polje :attribute je prepovedano.'
-  prohibited_if: 'Polje :attribute je prepovedano, če je :drugo :vrednost.'
-  prohibited_unless: 'Polje :attribute je prepovedano, razen če je :drugo v :vrednosti.'
-  same: 'Atribut :atribut in :drugo se morata ujemati.'
-  size:
-    numeric: 'Atribut :mora biti :velikost.'
-    file: 'Atribut :mora biti :velikost kilobajtov.'
-    string: 'Atribut :mora biti :velikostni znaki.'
-    array: 'Atribut :atribut mora vsebovati elemente :velikost.'
-  starts_with: 'Atribut :attribute se mora začeti z enim od teh elementov: :vrednosti.'
-  string: 'Atribut :atribut mora biti niz.'
-  timezone: 'Atribut :attribute mora biti veljavno območje.'
-  unique: 'Atribut :atribut je že izkoriščen.'
-  uploaded: 'Atribut :: ni bilo mogoče naložiti.'
-  url: 'Oblika zapisa :attribute ni veljavna.'
-  uuid: 'Atribut :atribut mora biti veljaven UUID.'
-  attributes:
-    username: 'Uporabniško ime'
-    password: geslo
-    email: E-pošta
-    title: naslov
-    content: vsebina
-    name_singular: 'Ednino ime'
-    name_plural: 'množinsko ime'
-    tag_count_primary: 'Število primarnih oznak'
-    tag_count_secondary: 'Število sekundarnih oznak'
-  recaptcha: 'validacija reCAPTCHA ni uspela.'
-  recaptcha-unknown: 'Med preverjanjem veljavnosti reCAPTCHA ({errors}) je prišlo do neznane napake.'
 flarum-tags:
   forum:
     all_tags:
       meta_description_text: 'Vse oznake'
       meta_title_text: Tags
     choose_tags:
-      edit_title: 'Urejanje oznak za {title}'
       title: 'Izberite oznake za razpravo'
     discussion_controls:
       edit_tags_button: 'Urejanje oznak'
@@ -520,48 +348,27 @@ flarum-tags:
       more_link: Več...
       untagged_link: Neoznačene
       tags_link: Tags
-    post_stream:
-      added_and_removed_tags_text: '{username} je dodal {tagsAdded} in odstranil {tagsRemoved} {time}.'
-      added_tags_text: '{username} je dodal {tagsAdded} {time}.'
-      removed_tags_text: '{username} je odstranil {tagsRemoved} {time}.'
-      tags_text: '{count, množina, ena {{tags} tag} druga {{tags} oznake}}'
-    tag:
-      meta_description_text: 'Vse razprave z oznako {tag}'
     composer_discussion:
       choose_tags_link: 'Izberite oznake'
   lib:
     deleted_tag_text: Izbrisati
     tag_selection_modal:
       bypass_requirements: 'Zahteve za obhod oznak'
-      choose_primary_placeholder: '{count, množina, ena {Izberite primarno oznako} drugo {Izberite #primarne oznake}}'
-      choose_secondary_placeholder: '{count, množina, ena {Izberite 1 več oznak} drugo {Izberite # več oznak}}'
-      choose_tags_placeholder: '{count, množina, ena {Izberite 1 več oznak} drugo {Izberite # več oznak}}'
       submit_button: 'V redu'
       title: 'Izberite oznake'
   ref:
     choose_tags: 'Izberite oznake'
-    choose_tags_placeholder: '{count, množina, ena {Izberite 1 več oznak} drugo {Izberite # več oznak}}'
     name: Ime
     tags: Tags
 flarum-mentions:
   forum:
     composer:
       mention_tooltip: 'Omemba uporabnika, skupine ali objave'
-      reply_to_post_text: 'Odgovorite na #{številka}'
     mentioned_by:
       title: 'Odgovori na to objavo'
       load_more_button: 'Naloži več'
-    notifications:
-      post_mentioned_text: '{uporabniško ime} je odgovoril na vašo objavo'
-      user_mentioned_text: '{uporabniško ime} vas je omenil'
-      group_mentioned_text: '{username} je omenil skupino, katere član ste'
-      others_text: '{count, množina, ena {# drugo} drugo {# drugi}}'
     post:
-      mentioned_by_more_text: '{count} več odgovorov.'
-      mentioned_by_self_text: '{users} je odgovoril na to.'
-      mentioned_by_text: '{users} je odgovoril na to.'
       quote_button: Narekovaj
-      others_text: '{count, množina, ena {# drugo} drugo {# drugi}}'
       reply_link: Odgovoriti
       you_text: Ti
     settings:
@@ -570,28 +377,12 @@ flarum-mentions:
       notify_group_mentioned_label: 'Nekdo omeni skupino, katere član sem v objavi'
     user:
       mentions_link: Omenja
-    post_mention:
-      deleted_text: '[neznano]'
-    group_mention:
-      deleted_text: '[neznana skupina]'
-  email:
-    post_mentioned:
-      subject: '{replier_display_name} je odgovoril na vašo objavo v {title}'
-      body: "Hej, {recipient_display_name}!\n\n{replier_display_name} je odgovoril na vašo objavo (#{post_number}) v {title}.\n\n{URL}\n\n---\n\n{vsebina}\n"
-    user_mentioned:
-      subject: '{mentioner_display_name} vas je omenil v {title}'
-      body: "Hej, {recipient_display_name}!\n\n{mentioner_display_name} vas je omenil v objavi v {title}.\n\n{URL}\n\n---\n\n{vsebina}\n"
-    group_mentioned:
-      subject: '{mentioner_display_name} je omenil skupino, katere član ste, v {title}'
-      body: "Hej, {recipient_display_name}!\n\n{mentioner_display_name} je v {title} omenil skupino, katere član ste.\n\n{URL}\n\n---\n\n{vsebina}\n"
 flarum-subscriptions:
   forum:
     discussion_controls:
       unfollow_button: 'Prenehanje spremljanja'
       unignore_button: 'Gospod,'
       follow_button: Slediti
-    notifications:
-      new_post_text: '{uporabniško ime} objavljeno'
     settings:
       follow_after_reply_label: 'Samodejno spremljanje razprav, na katere odgovorim'
       notify_for_all_posts_label: 'Obveščanje o vsaki novi objavi namesto le zadnje v razpravi'
@@ -613,10 +404,6 @@ flarum-subscriptions:
       meta_title_text: Naslednje
     index:
       following_link: Naslednje
-  email:
-    new_post:
-      subject: '[Nova objava] {naslov}'
-      body: "Hej, {recipient_display_name}!\n\n{poster_display_name} je objavil objavo v razpravi, ki jo spremljate: {title}.\n\nČe si želite ogledati novo dejavnost, si oglejte naslednjo povezavo:\n{URL}\n\n---\n\n{vsebina}\n\n---\n\nObvestil o tej razpravi ne boste več prejemali, dokler ne boste na tekočem.\n"
   ref:
     follow: Slediti
     following: Naslednje
@@ -625,7 +412,6 @@ flarum-flags:
   forum:
     flag_post:
       confirmation_message: 'Hvala, ker ste označili to objavo. Naši moderatorji ga bodo preučili.'
-      reason_details_placeholder: 'Dodatne podrobnosti (neobvezno)'
       reason_inappropriate_label: Neprimeren
       reason_inappropriate_text: 'Ta objava je žaljiva, žaljiva ali krši naše <a>smernice za skupnost</a>.'
       reason_missing_message: 'Navedite nekaj podrobnosti za naše moderatorje.'
@@ -639,13 +425,10 @@ flarum-flags:
       title: 'Objava zastavice'
     flagged_posts:
       empty_text: 'Brez zastav'
-      item_text: '{username} in <em>{discussion}</em>'
       title: 'Objave, označene z zastavico'
       tooltip: 'Objave, označene z zastavico'
     post:
       dismiss_flag_button: 'Opustitev zastavice'
-      flagged_by_text: 'Označeno z zastavico {username}'
-      flagged_by_with_reason_text: 'Označil {username} kot {reason}'
     post_controls:
       flag_button: Zastava
   ref:
@@ -654,13 +437,11 @@ flarum-flags:
 flarum-suspend:
   forum:
     notifications:
-      user_suspended_text: 'Začasno ste bili suspendirani za {timeReadable}'
       user_suspended_indefinite_text: 'Suspendirali ste za nedoločen čas'
       user_unsuspended_text: 'Niste bili suspendirani'
     suspension_info:
       dismiss_button: Zavrne
       indefinite: 'To je suspenzija za nedoločen čas'
-      limited: 'Ta začasna prekinitev velja do {date}'
       title: 'Ta račun je blokiran'
     suspend_user:
       display_message: 'Prikaži sporočilo za uporabnika'
@@ -671,7 +452,6 @@ flarum-suspend:
       placeholder_optional: Neobvezno
       reason: 'Razlog za začasno prekinitev'
       status_heading: 'Stanje začasne prekinitve'
-      title: 'Začasna prekinitev {uporabniško ime}'
       submit_button: 'Shrani spremembe'
     user_badge:
       suspended_tooltip: Prekinjena
@@ -681,10 +461,8 @@ flarum-suspend:
     no_reason_given: 'Za to prekinitev ni bil naveden razlog.'
     suspended:
       subject: 'Vaš račun je blokiran'
-      body: "Hej {recipient_display_name},\n\nSuspendirani ste bili iz naslednjih razlogov:\n\n---\n{suspension_message}\n---\n"
     unsuspended:
       subject: 'Vaš račun je neblokiran'
-      body: "Hej {recipient_display_name},\n\nBili ste nesuspendirani. Na forum se lahko vrnete s klikom na naslednjo povezavo:\n\n{forum_url}\n"
 blomstra-gdpr:
   lib:
     data:
@@ -707,8 +485,6 @@ fof-upload:
       error: Napaka
       loading: Nalaganje
       unauthorized: 'Prenos datotek ni dovoljen'
-    validation:
-      max_size: 'Prenosov prek {max} kb ne sprejemamo.'
     text_preview:
       expand: 'Razširitev predogleda'
       collapse: 'Strni predogled'
@@ -718,7 +494,6 @@ fof-upload:
   api:
     upload_errors:
       forbidden_type: 'Nalaganje datotek te vrste ni dovoljeno.'
-      unsupported_type: 'Upload adapter ne podpira navedene vrste mime: {mime}.'
       could_not_detect_mime: 'Vrste MIME te datoteke ni bilo mogoče zaznati, poskusite znova.'
       max_upload_file_size_ini: 'Naložite največjo dovoljeno velikost datoteke, doseženo od php.ini.'
       max_upload_file_size_form: 'Naložite največjo dovoljeno velikost datoteke, doseženo iz obrazca.'
@@ -727,7 +502,6 @@ fof-upload:
       no_upload_tmp_folder: 'Ni mape tmp za nalaganje datotek.'
       cannot_write_to_disk: 'Ne morem pisati na disk.'
       upload_blocked_by_php_extension: 'Razširitev php je blokirala nalaganje.'
-      no_files_made_it_to_upload: 'Naložite datoteke, ki niso večje od {max} kb.'
   lib:
     upload-shared-file-modal:
       title: 'Nova datoteka v skupni rabi'
@@ -740,13 +514,9 @@ fof-upload:
       release_to_upload: 'Sprostitev za nalaganje'
       modal_empty_desktop: 'Seznam datotek je prazen. Kliknite gumb ali povlecite datoteko sem, da jo naložite.'
       modal_empty_phone: 'Seznam datotek je prazen. Tapnite zgornji gumb, da naložite datoteko.'
-      select_file_a11y_label: 'Izberite datoteko »{fileName}«'
-      confirm_selection_btn: '{fileCount, množina, =0 {None selected} ena {Select file} druga {Select files}}'
       load_more_files_btn: 'Naloži več datotek'
-      delete_file_a11y_label: 'Izbrišite datoteko »{fileName}«'
-      delete_confirmation: 'Ali ste prepričani, da želite izbrisati »{fileName}«?'
-      hide_file: { btn_a11y_label_hide: 'Skrivanje »{fileName}« pred upraviteljem medijev', btn_a11y_label_show: 'Pokaži »{fileName}« v upravitelju predstavnosti', hide_confirmation: 'Ali ste prepričani, da želite skriti »{fileName}«? Če skrijete datoteko, jo boste odstranili le iz upravitelja predstavnosti in ne boste vplivali na obstoječe objave.', hide_success: 'Datoteka skrita', show_confirmation: 'Ali ste prepričani, da želite prikazati »{fileName}«? Če prikažete datoteko, bo vidna v upravitelju predstavnosti.', show_success: 'Prikazana datoteka', hide_fail: 'Datoteke »{fileName}« ni bilo mogoče skriti', show_fail: 'Datoteke »{fileName}« ni bilo mogoče prikazati.', loading: 'Skrivanje datoteke ...' }
-      hide_shared_file: { btn_a11y_label_hide: 'Nastavitev »{fileName}« v zasebno (brez javnega URL-ja)', btn_a11y_label_show: 'Nastavitev »{fileName}« v javno (z javnim URL-jem)', hide_confirmation: 'Ali ste prepričani, da želite nastaviti »{fileName}« zasebno? Če datoteko nastavite kot zasebno, boste odstranili njen javni URL, vendar to ne bo vplivalo na obstoječe objave. Prav tako ne bo več viden v upravitelju medijev nepooblaščenim uporabnikom.', hide_success: 'Datoteka postane zasebna', show_confirmation: 'Ali ste prepričani, da želite, da je »{fileName}« javno? Če datoteko objavite, bo dostopna vsem z javnim URL-jem, vsakdo pa jo bo lahko dal v skupno rabo prek upravitelja predstavnosti.', show_success: 'Datoteka objavljena', hide_fail: 'Datoteke »{fileName}« ni bilo mogoče narediti zasebne', show_fail: 'Datoteke »{fileName}« ni bilo mogoče narediti javne', loading: 'Spreminjanje datoteke v zasebno ...' }
+      hide_file: { hide_success: 'Datoteka skrita', show_success: 'Prikazana datoteka', loading: 'Skrivanje datoteke ...' }
+      hide_shared_file: { hide_success: 'Datoteka postane zasebna', show_success: 'Datoteka objavljena', loading: 'Spreminjanje datoteke v zasebno ...' }
 flarum-bbcode:
   forum:
     quote:
@@ -779,8 +549,6 @@ fof-follow-tags:
       following_tag_tooltip: Naslednje
       lurking_tag_tooltip: Skrit
     sub_controls:
-      header: 'Naročnina na {tagName}'
-      subscription_label: 'Izberite raven naročnine za {tagName}'
       following_text: 'Bodite obveščeni o vseh novih razpravah.'
       hiding_text: 'Skrivanje razprav na strani »Vse razprave«.'
       ignoring_text: 'Nikoli ne bodite obveščeni.'
@@ -795,21 +563,8 @@ fof-follow-tags:
       hiding_button: Skriva
       ignoring_button: Ignoriranje
       lurking_button: Skrit
-    notifications:
-      new_discussion_text: '{uporabniško ime} se je začelo'
-      new_post_text: '{uporabniško ime} objavljeno'
-      new_discussion_tag_text: '{username} spremenil oznako'
     user:
       settings: { heading: 'Sledenje oznakam', filter_label: 'Kaj privzeto prikazati na strani »Sledi«' }
-  email:
-    subject:
-      newDiscussionInTag: '[Oznaka | Nova razprava] {naslov}'
-      newPostInTag: '[Oznaka | Nova objava] {naslov}'
-      newDiscussionTag: '[Oznaka | Spremenjena oznaka] {title}'
-    body:
-      newDiscussionInTag: "Hej {recipient_display_name},\n\n{actor_display_name} je začel razpravo z oznako, ki jo spremljate: {discussion_title}\n\nČe si želite ogledati novo razpravo, si oglejte naslednjo povezavo:\n{discussion_url}\n\n---\n\n{post_content}\n"
-      newPostInTag: "Hej {recipient_display_name},\n\n{actor_display_name} Objavljeno v razpravi o oznaki, ki jo spremljate: {discussion_title}\n\nČe si želite ogledati novo dejavnost, si oglejte naslednjo povezavo:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nDokler ne boste na tekočem, ne boste več prejemali obvestil o tej razpravi.\n"
-      newDiscussionTag: "Hej {recipient_display_name},\n\n{actor_display_name} je pravkar spremenil oznako v razpravi za {author_display_name} v oznako, ki ji sledite {discussion_title}\n\nČe si želite ogledati novo razpravo, si oglejte naslednjo povezavo:\n{discussion_url}\n"
   ref:
     follow: Slediti
     following: Naslednje
@@ -838,17 +593,8 @@ flarum-nicknames:
       nickname_placeholder: Vzdevek
 fof-oauth:
   forum:
-    log_in:
-      with_button: 'Prijavite se z {provider}'
-      with_discord_button: 'Prijavite se z {provider}'
-      with_facebook_button: 'Prijavite se z {provider}'
-      with_github_button: 'Prijavite se z {provider}'
-      with_gitlab_button: 'Prijavite se z {provider}'
-      with_google_button: 'Prijavite se z {provider}'
-      with_linkedin_button: 'Prijavite se z {provider}'
-      with_twitter_button: 'Prijavite se z {provider}'
     user:
-      settings: { linked-account: { label: 'Povezani računi', last-used-label: 'Zadnja uporaba', link-created-label: 'Ustvarjena povezava', orphaned-account: 'Že prej ste se prijavili prek tega ponudnika, vendar je ta forum od takrat onemogočil prijavo s to metodo.', help: 'Ti povezani računi vam omogočajo, da se v forum prijavite prek drugih ponudnikov.', identifier-label: '{ponudnik} ID', unlink-confirm: 'Ali ste prepričani, da želite odstraniti povezavo z {provider}? Na ta forum se ne boste več mogli prijaviti, če v prihodnje ne boste znova preverili pristnosti.' } }
+      settings: { linked-account: { label: 'Povezani računi', last-used-label: 'Zadnja uporaba', link-created-label: 'Ustvarjena povezava', orphaned-account: 'Že prej ste se prijavili prek tega ponudnika, vendar je ta forum od takrat onemogočil prijavo s to metodo.', help: 'Ti povezani računi vam omogočajo, da se v forum prijavite prek drugih ponudnikov.' } }
     signup:
       username_help: 'Izberite uporabniško ime, ki ga želite poznati tukaj'
     unlink: 'Odstrani povezavo'
@@ -882,10 +628,8 @@ fof-impersonate:
   forum:
     modal:
       title: 'Prijavite se kot drug uporabnik'
-      label: 'Z veliko močjo prihaja velika odgovornost. Z nadaljevanjem boste postali {uporabniško ime}, dokler se ne odjavite.'
       placeholder_optional: '(Neobvezno) Navedite razlog za prehod na tega uporabnika'
       placeholder_required: 'Pred nadaljevanjem morate navesti razlog za prehod na tega uporabnika'
-      impersonate_username: 'Prijavite se kot {username}'
     user_controls:
       impersonate_button: 'Prijavite se kot uporabnik'
 fof-byobu:
@@ -896,7 +640,6 @@ fof-byobu:
       add_recipients: Prejemniki
       submit: 'V redu'
       edit_recipients: 'Urejanje prejemnikov'
-      send_pd: 'Pošiljanje sporočila {username}'
       cancel: Odpovedati
       make_public: 'Naj bo ta razprava javna'
       remove_from_discussion: 'Zapustite to zasebno razpravo'
@@ -905,8 +648,6 @@ fof-byobu:
       title_placeholder: 'Naslov zasebne razprave'
     confirm:
       make_public: 'Ali ste prepričani, da želite odstraniti prejemnike in narediti to razpravo vidno vsem, ki si lahko ogledajo dodeljeno oznako?'
-    labels:
-      recipients: '{count, množina, ena {{count} Prejemnik} druga {{count} Prejemniki}}'
     nav:
       start_button: 'Razpravljajte zasebno'
       nav_item: 'Zasebne razprave'
@@ -915,11 +656,9 @@ fof-byobu:
     search:
       headings: { groups: 'Skupine dovoljenj' }
     modal:
-      titles: { update_recipients: 'Posodobitev prejemnikov {title}', add_recipients: 'Dodajanje prejemnikov v razpravo' }
+      titles: { add_recipients: 'Dodajanje prejemnikov v razpravo' }
       labels: { selected_users: 'Izbrani uporabniki', search_field: 'Iskanje uporabnika' }
       help: { add_recipients: 'Ta razprava bo vidna samo uporabnikom, ki jih izberete tukaj. Potreben je vsaj 1 prejemnik (razen vas).', update_recipients: 'Ta razprava bo vidna samo uporabnikom, ki jih izberete tukaj.', selected_users: 'Kliknite ime uporabnika, da ga odstranite.', click_user_to_remove_tooltip: 'Kliknite za odstranitev' }
-    post:
-      recipients_modified: { added_and_removed: '{username} je dodal prejemnike {add} in odstranil {removed}.', added: '{username} dodal prejemnike {added}.', made_public: '{username} je odstranil vse prejemnike in javno objavil razpravo', removed: '{username} odstranjeni prejemniki {removed}.', removed_self: '{username} je zapustil zasebno razpravo.' }
     user:
       settings: { block_pd: 'Blokiranje zasebnih razprav' }
       byobu_link: 'Zasebne razprave'
@@ -927,23 +666,9 @@ fof-byobu:
     notifications:
       pd_label: 'Nekdo me vključi v novo zasebno razpravo'
       pd_reply_label: 'Nekdo objavi v zasebni razpravi, katere prejemnik sem'
-      pd_reply_text: '{uporabniško ime} objavljeno v zasebni razpravi, katere del ste'
-      pd_text: '{username} je z vami začel novo zasebno razpravo'
       pd_user_left_label: 'Uporabnik prejemnik zapusti zasebno razpravo, v kateri sodelujem'
-      pd_user_left_text: '{uporabniško ime} je zapustilo zasebno razpravo'
-      pd_added_text: '{username} vas je dodal v zasebno razpravo'
       pd_added_label: 'Nekdo me doda v obstoječo zasebno razpravo'
-  email:
-    subject:
-      private_discussion_created: '[Zasebna razprava] {display_name} je z vami začel novo zasebno razpravo'
-      private_discussion_replied: '[Zasebna razprava] {display_name} objavljeno v zasebni razpravi'
-      recipient_removed: '[Zasebna razprava] {display_name} je zapustil razpravo'
-      private_discussion_added: '[Zasebna razprava] {display_name} vas je dodal v zasebno razpravo'
-    body:
-      private_discussion_created: "Hej {recipient_display_name},\n\n{actor_display_name} je začel novo zasebno razpravo z vami kot prejemnikom: {discussion_title}.\n\nOglejte si ga tukaj:\n{discussion_url}\n\nMorda se boste morali najprej prijaviti, preden boste lahko dostopali do te povezave.\n"
-      private_discussion_replied: "Hej {recipient_display_name},\n\n{actor_display_name} Objavljeno v zasebni razpravi z vami kot prejemnikom: {discussion_title}.\n\nOglejte si ga tukaj:\n{post_url}\n\nMorda se boste morali najprej prijaviti, preden boste lahko dostopali do te povezave.\n"
-      recipient_removed: "Hej {recipient_display_name},\n\n{actor_display_name} je zapustil zasebno razpravo: {discussion_title}. Ne bodo si več mogli ogledati nobene njegove vsebine.\n\nOglejte si ga tukaj:\n{discussion_url}\n\nMorda se boste morali najprej prijaviti, preden boste lahko dostopali do te povezave.\n"
-      private_discussion_added: "Hej {recipient_display_name},\n\n{actor_display_name} vas je dodal v obstoječo zasebno razpravo: {discussion_title}.\n\nOglejte si ga tukaj:\n{discussion_url}\n\nMorda se boste morali najprej prijaviti, preden boste lahko dostopali do te povezave.\n"
+  email: null
 v17development-flarum-badges:
   forum:
     badge_information: 'Podatki o znački'
@@ -966,17 +691,11 @@ v17development-flarum-badges:
       no_earning_reason: 'Brez določenega razloga za zaslužek'
       earned_on: 'Prislužena značka'
       category: 'Kategorija značke'
-      received_on: 'Prejeto dne {date}'
       badge_details: 'Podrobnosti o znački'
-      earned_count: '{count, množina, en <b>{# uporabnik</b> si je prislužil to značko} drugi {<b># uporabniki</b> so si prislužili to značko}}'
-      earned_by_count: '{count, množina, ena {Zaslužil <b># uporabnik</b>} drugo {Zaslužil <b># uporabniki</b>}}'
-      others_link: '+ {count} Več'
     badges_in_card:
       title: 'Značke na uporabniški kartici'
       manage_badges: 'Upravljanje značk'
       description: 'Vidne značke na uporabniški kartici lahko spremenite z eno od drugih značk. Če jih ne izberete, bodo izbrane samodejno.'
-      select_limit: 'Izberete lahko {limit, množina, ena {<b>ena značka</b>} druga {<b># značke</b>}}, da boste vidni na uporabniški kartici.'
-      hit_limit: 'Na kartici je samo mesto za <b> {limit, množina, ena {<b>ena značka</b>} druga {<b># značke</b>}}</b>. Počistite značko, da sprostite prostor za to značko.'
     moderation:
       remove_badge: 'Odstranjevanje značke uporabniku'
       remove_badge_confirm: 'Ali ste prepričani, da želite temu uporabniku odstraniti to značko?'
@@ -985,14 +704,10 @@ v17development-flarum-badges:
       title: 'Prejeli ste novo značko'
       settings: 'Prejel sem značko'
     uncategorized: Nekategorizirane
-v17development-flarum-seo:
-  forum:
-    profile_title: 'Profil {username}'
-    profile_description: 'Profil {username} | {discussion_count} razprave | {comment_count} Objave'
+v17development-flarum-seo: null
 the-turk-miserable-users:
   forum:
     miserable_user:
-      title: 'Nesrečno {uporabniško ime}'
       status_heading: 'Nesrečen status'
       not_miserable_label: 'Ni nesrečno'
       indefinitely_label: 'Nesrečen za nedoločen čas'
@@ -1009,7 +724,6 @@ sycho-profile-cover:
   forum:
     cover: Kriti
     edit_cover: 'Uredi naslovnico'
-    notice: 'Največja velikost: {velikost}'
     added:
       success: 'Pokrov profila je posodobljen.'
       error: 'Slike ni bilo mogoče naložiti.'
@@ -1018,10 +732,7 @@ sycho-profile-cover:
       error: 'Pokrova ni bilo mogoče odstraniti, poskusite znova pozneje.'
 sycho-photoswipe: null
 nearata-tags-color-generator: null
-nearata-prevent-double-posting:
-  forum:
-    exception:
-      too_many_replies: 'Dovoljeni so največ zaporedni odgovori {count}. Namesto tega uredite prejšnji odgovor ali počakajte, da vam nekdo odgovori.'
+nearata-prevent-double-posting: null
 nearata-copy-code-to-clipboard:
   forum:
     copy: 'Kopiranje v odložišče'
@@ -1030,7 +741,6 @@ michaelbelgium-flarum-profile-views:
   forum:
     user:
       viewlist: { title: 'Zadnji obiskovalci', guest: Gost }
-      view_count_text: '{viewcount, množina, ena {viewcount} time} druga {viewcount} times}}'
 justoverclock-country-flags:
   forum:
     inputCountryCode: 'Koda države'
@@ -1058,13 +768,10 @@ ianm-syndication:
     autodiscovery:
       forum_activity: 'Dejavnost foruma'
       forum_new_discussions: 'Nove razprave foruma'
-      tag_activity: 'Dejavnost za oznako {tag}'
-      tag_new_discussions: 'Razprave v oznaki {tag}'
       discussion_last_posts: 'Ta razprava'
       user_last_posts: 'Objave in komentarji tega uporabnika'
     feeds:
-      entries: { user_posts: { title_reply: 'Re: {discussion}' } }
-      titles: { main_title: '{forum_name}', main_subtitle: 'Zadnje objave na forumu', main_d_title: 'Nove razprave v {forum_name}', main_d_subtitle: 'Najnovejše razprave na forumu', tag_title: 'Dejavnost v oznaki {tag}', tag_subtitle: 'Zadnje objave v oznaki {tag}', tag_d_title: 'Nove razprave v oznaki {tag}', tag_d_subtitle: 'Najnovejše razprave v oznaki {tag}', discussion_title: '{discussion_name}', discussion_subtitle: 'Zadnja sporočila v tej razpravi', user_title: '{uporabniško ime}', user_subtitle: 'Najnovejše objave in komentarji tega uporabnika.' }
+      titles: { main_subtitle: 'Zadnje objave na forumu', main_d_subtitle: 'Najnovejše razprave na forumu', discussion_subtitle: 'Zadnja sporočila v tej razpravi', user_subtitle: 'Najnovejše objave in komentarji tega uporabnika.' }
     discussion:
       feed_link: Hraniti
 ianm-log-viewer: null
@@ -1072,7 +779,6 @@ ianm-html-head: null
 ianm-follow-users:
   forum:
     followed: Sledil
-    followers: '{count, množina, ena {Follower} druga {Followers}}'
     profile_page:
       no_following: 'Izgleda, kot da nikogar ne spremljate.'
     settings:
@@ -1081,17 +787,12 @@ ianm-follow-users:
       notify_new_discussion_label: 'Nekdo, ki ga spremljam, začne razpravo'
       notify_new_post_label: 'Nekdo, ki ga spremljam objave v obstoječi razpravi'
       block_follow: 'Preprečevanje uporabnikom, da me spremljajo'
-    notifications:
-      new_discussion_text: '{uporabniško ime} se je začelo'
-      new_post_text: '{uporabniško ime} objavljeno v razpravi'
-      new_follower_text: '{uporabniško ime} vas je spremljalo'
-      new_unfollower_text: '{uporabniško ime} vas ni več spremljalo'
     badge:
       label: { follow: 'Po razpravah', lurk: 'Sledite vsem' }
     filter:
       following: 'Spremljani uporabniki'
     modals:
-      select_follow_level: { title: 'Izberite raven spremljanja za {username}', description: 'Izberite, kako želite slediti <em>{uporabniško ime}</em>.', follow_levels_heading: 'Spremljajte ravni', follow_select_label: 'Vrsta sledenja', no_user_attr_provided_err: 'Uh, nekaj je šlo narobe, ko je odprl ta način.', no_user_attr_provided_err_debug: 'Ko je bil ustvarjen, način SelectFollowUserLevel ni bil posredovan nobenemu atributu »uporabnik«. Modala ni mogoče upodobiti.', save_btn: Shraniti, cancel_btn: Odpovedati }
+      select_follow_level: { follow_levels_heading: 'Spremljajte ravni', follow_select_label: 'Vrsta sledenja', no_user_attr_provided_err: 'Uh, nekaj je šlo narobe, ko je odprl ta način.', no_user_attr_provided_err_debug: 'Ko je bil ustvarjen, način SelectFollowUserLevel ni bil posredovan nobenemu atributu »uporabnik«. Modala ni mogoče upodobiti.', save_btn: Shraniti, cancel_btn: Odpovedati }
     profile_link: 'Spremljani uporabniki'
     user_controls:
       follow_button: Slediti
@@ -1101,37 +802,28 @@ ianm-follow-users:
       follow_tag_button: Slediti
       unfollow_tag_button: 'Spremeni vrsto spremljanja'
   email:
-    new_discussion_by_user_subject: '[Sledite uporabniku] {naslov}'
     new_follower_subject: '[Sledite uporabniku] Imate novega privrženca!'
-    new_post_subject: '[Sledite uporabniku] Nova objava v {title}'
-    new_discussion_by_user_body: "Hej {recipient_display_name},\n\n{user_display_name} je začel novo razpravo: {discussion_title}\n\nČe si želite ogledati novo razpravo, si oglejte naslednjo povezavo:\n\n{discussion_url}\n\n---\n\n{post_content}\n"
-    new_follower_body: "Hej {recipient_display_name},\n\n{follower_display_name} vas je začel spremljati, zato bodo obveščeni, ko začnete novo razpravo.\n\nČe si želite ogledati njihov profil, si oglejte naslednjo povezavo:\n\n{profile_url}\n"
-    new_post_body: "Hej {recipient_display_name},\n\n{user_display_name} objavljeno v razpravi: {discussion_title}\n\nČe si želite ogledati novo dejavnost, si oglejte naslednjo povezavo:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nObvestil o tej razpravi ne boste več prejemali, dokler ne boste na tekočem.\n"
   lib:
     following_link: 'Spremljani uporabniki'
     follow: Slediti
     change_follow_type: 'Spremeni vrsto spremljanja'
     unfollow: 'Prenehanje spremljanja'
     follow_levels:
-      unfollow: { name: 'Ne sledite', description: "Ne prejemajte obvestil o dejavnosti <em>{username}</em>.\n" }
-      follow: { name: 'Spremljanje razprav', description: "Prejemanje obvestil, ko <em>{username}</em> začne novo razpravo.\n" }
-      lurk: { name: 'Sledite vsem', description: "Prejemanje obvestil, ko <em>{username}</em> začne novo razpravo ali objave v kateri koli razpravi.\n" }
+      unfollow: { name: 'Ne sledite' }
+      follow: { name: 'Spremljanje razprav' }
+      lurk: { name: 'Sledite vsem' }
 fof-username-request:
   forum:
     nickname_modals:
-      action: { help_text: 'Prepričajte se, da je ta zahtevana sprememba vzdevka v skladu s smernicami foruma.', decision_title: Odločitev, approval_label: Odobriti, rejected_label: Zavrne, submit_button: Predložiti, reason_title: 'Razlog za zavrnitev', success: 'Poslana odločba.', name: '{name} je zahteval, da svoj vzdevek spremeni v »{requestedName}«', title: 'Zahteva za spremembo vzdevka' }
-      results: { title: 'Zahteva za spremembo vzdevka', approved: 'Vaša zahteva za spremembo vzdevka je bila odobrena', new_name: 'Vaš vzdevek je bil uspešno spremenjen v: {ime}', rejected: 'Vaša zahteva za spremembo vzdevka je bila zavrnjena', reason: 'Razlog za zavrnitev: <i>"{reason}".</i>', resubmit: 'Trenutno lahko v nastavitvah računa znova pošljete novo zahtevo za spremembo vzdevka, če se tako odločite.', dismiss_button: 'V redu' }
-      request: { title: 'Zahtevaj spremembo vzdevka', current_request: 'Zahtevali ste že, da spremenite vzdevek v »{ime}«. Zahtevo lahko posodobite ali izbrišete.', submit_button: 'Pošlji zahtevo', delete_button: 'Izbriši zahtevo', confirmation_message: 'Vaša zahteva za spremembo vzdevka je bila poslana in čaka na odobritev.', deleted: 'Zahteva za vzdevek je izbrisana.', dismiss_button: 'V redu' }
+      action: { help_text: 'Prepričajte se, da je ta zahtevana sprememba vzdevka v skladu s smernicami foruma.', decision_title: Odločitev, approval_label: Odobriti, rejected_label: Zavrne, submit_button: Predložiti, reason_title: 'Razlog za zavrnitev', success: 'Poslana odločba.', title: 'Zahteva za spremembo vzdevka' }
+      results: { title: 'Zahteva za spremembo vzdevka', approved: 'Vaša zahteva za spremembo vzdevka je bila odobrena', rejected: 'Vaša zahteva za spremembo vzdevka je bila zavrnjena', resubmit: 'Trenutno lahko v nastavitvah računa znova pošljete novo zahtevo za spremembo vzdevka, če se tako odločite.', dismiss_button: 'V redu' }
+      request: { title: 'Zahtevaj spremembo vzdevka', submit_button: 'Pošlji zahtevo', delete_button: 'Izbriši zahtevo', confirmation_message: 'Vaša zahteva za spremembo vzdevka je bila poslana in čaka na odobritev.', deleted: 'Zahteva za vzdevek je izbrisana.', dismiss_button: 'V redu' }
     username_modals:
-      action: { help_text: 'Prepričajte se, da je zahtevana sprememba uporabniškega imena v skladu s smernicami foruma.', decision_title: Odločitev, approval_label: Odobriti, rejected_label: Zavrne, submit_button: Predložiti, reason_title: 'Razlog za zavrnitev', success: 'Poslana odločba.', name: '{name} je zahteval, da svoje uporabniško ime spremeni v »{requestedName}«', title: 'Zahteva za spremembo uporabniškega imena' }
-      results: { title: 'Zahteva za spremembo uporabniškega imena', approved: 'Vaša zahteva za spremembo uporabniškega imena je bila odobrena', new_name: 'Vaše uporabniško ime je bilo uspešno spremenjeno v: {name}', rejected: 'Vaša zahteva za spremembo uporabniškega imena je bila zavrnjena', reason: 'Razlog za zavrnitev: <i>"{reason}".</i>', resubmit: 'Trenutno lahko v nastavitvah računa znova pošljete novo zahtevo za spremembo uporabniškega imena, če tako želite.', dismiss_button: 'V redu' }
-      request: { title: 'Zahtevaj spremembo uporabniškega imena', current_request: 'Zahtevali ste že, da spremenite svoje uporabniško ime v »{ime}«. Zahtevo lahko posodobite ali izbrišete.', submit_button: 'Pošlji zahtevo', delete_button: 'Izbriši zahtevo', confirmation_message: 'Vaša zahteva za spremembo uporabniškega imena je bila poslana in čaka na odobritev.', deleted: 'Zahteva za uporabniško ime je izbrisana.', dismiss_button: 'V redu' }
+      action: { help_text: 'Prepričajte se, da je zahtevana sprememba uporabniškega imena v skladu s smernicami foruma.', decision_title: Odločitev, approval_label: Odobriti, rejected_label: Zavrne, submit_button: Predložiti, reason_title: 'Razlog za zavrnitev', success: 'Poslana odločba.', title: 'Zahteva za spremembo uporabniškega imena' }
+      results: { title: 'Zahteva za spremembo uporabniškega imena', approved: 'Vaša zahteva za spremembo uporabniškega imena je bila odobrena', rejected: 'Vaša zahteva za spremembo uporabniškega imena je bila zavrnjena', resubmit: 'Trenutno lahko v nastavitvah računa znova pošljete novo zahtevo za spremembo uporabniškega imena, če tako želite.', dismiss_button: 'V redu' }
+      request: { title: 'Zahtevaj spremembo uporabniškega imena', submit_button: 'Pošlji zahtevo', delete_button: 'Izbriši zahtevo', confirmation_message: 'Vaša zahteva za spremembo uporabniškega imena je bila poslana in čaka na odobritev.', deleted: 'Zahteva za uporabniško ime je izbrisana.', dismiss_button: 'V redu' }
     pending_requests:
       empty_text: 'Ni najdenih zahtev za spremembo imena.'
-      nickname_item_text: '{ime} zahteval spremembo vzdevka'
-      nickname_exerpt: 'Zahtevani vzdevek: {requestedName}'
-      username_item_text: '{ime} zahteval spremembo uporabniškega imena'
-      username_exerpt: 'Zahtevano uporabniško ime: {requestedName}'
       tooltip: 'Zahteve za spremembo imena'
       title: 'Zahteve za spremembo imena'
     settings:
@@ -1149,15 +841,9 @@ fof-username-request:
   email:
     body:
       noReasonProvided: 'Ni razloga.'
-      approved: "Pozdravljeni {recipient_display_name},\n\nVašo zahtevo za spremembo uporabniškega imena v »{new_username}« je odobril {actor_display_name}.\n\nZdaj se lahko prijavite s svojim novim uporabniškim imenom: {login_url}\n"
-      rejected: "Pozdravljeni {recipient_display_name},\n\nVašo zahtevo za spremembo uporabniškega imena iz »{old_username}« v »{requested_username}« je {actor_display_name} zavrnil.\n\nRazlog: {razlog}\n"
-    subject:
-      approved: '{display_name} je odobril spremembo uporabniškega imena v {requested_username}'
-      rejected: '{display_name} je zavrnil spremembo uporabniškega imena v {requested_username}'
 fof-user-bio:
   forum:
     userbioPlaceholder: 'Napišite nekaj o sebi'
-    userbioPlaceholderOtherUser: 'Pisanje življenjepisa za {username}'
     profile:
       cancel_confirm: 'Ali ste prepričani, da želite preklicati urejanje biografije? Izgubili boste vse spremembe, ki ste jih naredili.'
       cancel_button: Odpovedati
@@ -1165,9 +851,6 @@ fof-user-bio:
       edit_bio_label: 'Uredi biografijo'
 fof-split:
   forum:
-    post:
-      was_split_to: '{count, množina, ena objava {{count} je bila razdeljena na {target}.} druge objave {{count} so bile razdeljene na {target}.}}'
-      was_split_from: '{count, množina, ena objava {{count} je bila ločena od {target}.} druge objave {{count} so bile ločene od {target}.}}'
     split:
       from: 'Split od tu'
       to: 'Split na to mesto'
@@ -1221,13 +904,11 @@ fof-reactions:
   forum:
     disabled-reaction: 'Te reakcije trenutno ne morete uporabiti, osvežite stran'
     warning: 'Vaša reakcija je bila spreobrnjena'
-    notification: '{username} se je odzval z {reaction} na vašo objavo'
     settings:
       notify_post_reacted_label: 'Nekdo se odzove na eno od mojih objav'
     reacting-own-post: 'Ne morete se odzvati na svojo objavo'
     modal:
       title: Reakcije
-      anonymous_count: '{count, množina, ena {# anonimni uporabnik} drugi {# anonimni uporabniki}}'
       no_reactions: 'Še ni reakcij'
     mod_item: 'Ogled reakcij'
     react_button_label: Reagirajo
@@ -1241,22 +922,19 @@ fof-profile-image-crop:
 fof-prevent-necrobumping:
   forum:
     composer:
-      warning: { title: 'Ta razprava je starejša od <b>{time}</b>.', description: 'Zelo verjetno je, da ne potrebuje nadaljnje razprave in zato udarjanje ne služi nobenemu namenu.', checkbox_label: 'Zavedam se, da je ta razprava precej stara, vendar bi vseeno rada odgovorila.', error: 'Ta razprava je prestara, da bi nanjo odgovorili.' }
+      warning: { description: 'Zelo verjetno je, da ne potrebuje nadaljnje razprave in zato udarjanje ne služi nobenemu namenu.', checkbox_label: 'Zavedam se, da je ta razprava precej stara, vendar bi vseeno rada odgovorila.', error: 'Ta razprava je prestara, da bi nanjo odgovorili.' }
 fof-pretty-mail: null
 fof-polls:
   forum:
-    days_remaining: 'Anketa se konča {time}.'
     no_permission: 'Nimate dovoljenja za glasovanje'
     poll_ended: 'Ta anketa se je končala.'
     public_poll: 'Ogled volivcev'
-    max_votes_allowed: 'Anketa omogoča glasovanje za {max, množina, ena {# možnost} druga {# options}}.'
     composer_discussion:
       add_poll: 'Dodajanje ankete'
       edit_poll: 'Urejanje ankete'
     modal:
       add_title: 'Dodajanje ankete'
       add_option_label: 'Dodajanje možnosti'
-      date_placeholder: 'Končni datum ankete (izbirno)'
       edit_title: 'Urejanje ankete'
       include_question: 'Vključiti morate vprašanje'
       max: 'Imate lahko največ 10 odgovorov'
@@ -1277,7 +955,6 @@ fof-polls:
       edit: 'Urejanje ankete'
     tooltip:
       badge: Anketa
-      votes: '{count, množina, ena {# vote} drugo {# glasov}}'
     votes_modal:
       title: Volivci
 fof-nightmode:
@@ -1297,11 +974,9 @@ fof-moderator-notes:
   forum:
     no_content_given: 'Prazna opomba ni dovoljena.'
     moderatorNotes:
-      created_text: '{username} je to opombo ustvaril dne {date}'
       add_button: 'Nova opomba'
       create-heading: 'Ustvarjanje nove opombe voditelja'
       dismiss_button: Storiti
-      input_heading: 'Vnesite opombe za <strong>{username}</strong>, (oznaka je podprta)'
       noNotes: 'Izgleda, da tukaj ni nobenih opomb.'
       submit_button: 'Shrani opombo'
       delete: Izbrisati
@@ -1309,8 +984,6 @@ fof-moderator-notes:
     user:
       notes: 'Opombe moderatorja'
   api:
-    auto_note: '_I je preklopil na tega uporabnika:_ {razlog}'
-    auto_note_actor: '_Switched to_ @{username}: {reason}'
     no_reason_provided: 'Ni razloga'
 fof-linguist: null
 fof-html-errors: null
@@ -1325,12 +998,8 @@ fof-gamification:
       name: Uporabnik
       amount: Točk
     notification:
-      upvote: '{uporabniško ime} je podprl vašo objavo'
-      downvote: '{uporabniško ime} zavrnil vašo objavo'
       prefrences: { vote: 'Ko je ena od mojih objav izglasovana gor/dol' }
     user:
-      card: { points: '{count, množina, ena { {count} point} drugo {{count} points}}' }
-      rank: '{rank}'
       votes_link: Glasov
     modal:
       downvotes_label: 'Negativni volivci:'
@@ -1344,11 +1013,6 @@ fof-gamification:
     post:
       upvote_button: 'Privoli v objavo'
       downvote_button: 'Glasovanje proti'
-  email:
-    body:
-      postVoted: "Hej {recipient_display_name},\n\n{actor_display_name} pravkar glasoval za vašo objavo v {discussion_title}.\n\nOglejte si ga tukaj: {discussion_url}\n"
-    subject:
-      postVoted: 'O vaši objavi je glasoval {display_name}'
 fof-formatting: null
 fof-drafts:
   console:
@@ -1367,7 +1031,6 @@ fof-drafts:
       title: Osnutke
       delete_all_button: 'Brisanje vseh osnutkov'
       delete_button: 'Brisanje osnutka'
-      scheduled_icon_tooltip: 'Načrtovano za {datetime}'
       scheduled_icon_tooltip_formatter: 'L [at] LT'
       alert: 'Ali ste prepričani, da želite izbrisati osnutek?'
       delete_all_alert: 'Ali ste prepričani, da želite izbrisati vse osnutke?'
@@ -1375,13 +1038,10 @@ fof-drafts:
       tooltip: Osnutke
     schedule_draft_modal:
       text: 'Načrtujte svoj osnutek za samodejno objavo pozneje!'
-      scheduled_text: 'Trenutno je predvideno objavljanje na {datetime}.'
-      scheduled_error: 'Ni mogoče načrtovati osnutka: {error}.'
       unschedule_button: Razporejanje
       unschedule_warning: 'Ali ste prepričani, da želite ta osnutek prestaviti?'
       reschedule_button: Prerazporedi
       schedule_button: Urnik
-      schedule_time_preview: 'Ta osnutek bo samodejno objavljen <b>dne {datetime}</b>.'
       schedule_time_preview_formatter: LLLL
       schedule_time_preview_invalid: 'Neveljaven datum in/ali ura'
       title: 'Osnutek urnika'
@@ -1393,13 +1053,10 @@ fof-best-answer:
     this_best_answer: 'Izberite najboljši odgovor'
     remove_best_answer: 'Prekličite izbiro najboljšega odgovora'
     best_answer_button: 'Najboljši odgovor'
-    best_answer_label: 'nastavil <a>{username}</a> {time_set}'
     errors:
       mismatch: 'Izbrana objava v tej razpravi ne obstaja.'
     notification:
-      best_answer_in_discussion: '{uporabniško ime} nastavite najboljši odgovor v tej razpravi'
       content: 'Izberite najboljši odgovor, če je bil odgovor na vaše vprašanje'
-      awarded: 'Vaša objava je bila nastavljena kot najboljši odgovor s strani {username}'
       preferences: { awarded_best_answer: 'Nekdo nastavi mojo objavo kot najboljši odgovor', best_answer_in_discussion: 'Najboljši odgovor je v razpravi, v kateri sem sodeloval', select_best_answer: 'Samodejni opomnik za izbiro najboljšega odgovora v razpravi, ki sem jo začel' }
     index:
       ask_question: 'Zastavite vprašanje'
@@ -1413,22 +1070,13 @@ fof-best-answer:
       accessible_label: 'Rešen/nerešen izbor'
     composer:
       titlePlaceholder: 'Naslov vprašanja'
-    user:
-      best-answer-count: '{count, množina, ena { {count} najboljši odgovor} drugo {{count} najboljši odgovori}}'
     search:
       discussions_solutions_heading: 'Razprave z rešitvami'
-      all_discussions_solutions_button: 'Iskanje vseh razprav z rešitvami za »{query}«'
     discussion:
       jump_to_best_answer_button: 'Poglej najboljši odgovor'
   email:
     subject:
-      awarded: 'Vaš post je bil nastavljen kot najboljši odgovor s {display_name}'
-      ba-set: 'Najboljši odgovor je nastavil {display_name}'
       select: 'Ti je uspelo dobiti odgovor?'
-    body:
-      awarded: "Prevod in priredba:\n\nOdlično opravljeno, {aktor_ display_name} Samo nastavite svoj položaj kot najboljši odgovor v razpravi: {razprava_naslov}. Hvala za pomoč.\n\nPrikaži tukaj: {razprava_ url}\n"
-      ba-set: "Prevod in priredba:\n\n{actor_ display_name} pravkar nastavite najboljši odgovor v razpravi: {razprava_naslov}, v kateri ste sodelovali.\n\nOglejte si:\n"
-      select: "Prevod in priredba:\n\nSamo preverjanje v; do sedaj bi morali imeti veliko odgovorov na vaše vprašanje: {razprava_naslov}. Upam, da ti je eden od njih pomagal rešiti problem.\n\nČe je tako, bi bilo za prihodnje člane res koristno, če bi lahko na svoje vprašanje najbolje odgovorili. Pomagalo bo ljudem z isto težavo najti odgovor, ki ga potrebujejo, in je tudi velika zahvala članom, ki so ti pomagali. Prostovoljno dajo svoj čas, zato jim je lepo sporočiti, da jim gre dobro.\n\nObiščite razpravo tukaj: {diskusija_url} in izberite najprimernejšo objavo kot najboljši odgovor.\n\nHvala!\n"
 fof-user-directory:
   lib:
     sort:
@@ -1437,8 +1085,6 @@ fof-user-directory:
 fof-ban-ips:
   forum:
     modal:
-      ban_options_only_ip: 'Samo prepoved trenutnega IP-ja (<code>{ip}</code>)'
-      ban_options_all_ip: 'Prepoved vseh naslovov IP, ki jih uporablja <i>{username}</i>'
       ban_ip_no_users: 'Nihče drug ne bo prepovedan'
     user_badge:
       banned_tooltip: Prepovedane
@@ -1455,13 +1101,8 @@ fof-ban-ips:
       check_button: Preveriti
       save_button: Shraniti
       ban_ip_confirmation: 'Ali ste prepričani, da želite blokirati uporabo tega naslova IP na forumu? To bo uporabnikom s tem naslovom IP preprečilo prijavo in registracijo.'
-      ban_ip_users: '{count, množina, ena {User {users} bo prepovedana} drugi {Uporabniki {users}}'
       unban_ip_confirmation: 'Ali ste prepričani, da želite tega uporabnika in vse druge uporabnike, ki jih drugi IP-ji ne prepovedujejo?'
-      unban_options_only_ip: 'Samo preklic trenutnega IP-ja (<code>{ip}</code>)'
-      unban_options_all_ip: 'Preklic prepovedi vseh naslovov IP, ki jih uporablja <i>{username}</i>'
       unban_ip_no_users: 'Nihče drug ne bo prepovedan'
-      unban_ip_users: '{count, množina, ena {User {users} bo neprepovedana}, drugi {Uporabniki {users} pa bodo prepovedani}}'
-      unbanned_ips: 'Neprepovedano <code>{ips}</code>.'
       title: 'Prepoved IP-jev'
       unban_title: 'Razveljavitev IP-jev'
       address_label: 'Naslov IP'
@@ -1492,7 +1133,6 @@ fof-anti-spam:
       move_discussions_tag_label: 'Premikanje razprav v karanteno oznako'
       move_discussions_tag_help: 'S tem boste vse razprave, ki jih je začel ta uporabnik, premaknili na oznako, ki ste jo določili v nastavitvah foruma. Ko je onemogočen, bodo razprave ostale v trenutnih oznakah.'
       process_button: Proces
-      title: 'Označi {username} kot pošiljatelja neželene pošte'
       report_to_sfs_label: 'Poročajte na StopForumSpam'
       report_to_sfs_help: 'To bo prijavilo osnovne podatke uporabnika (uporabniško ime, e-poštni naslov, naslov IP) na StopForumSpam. To bo uporabniku preprečilo registracijo na drugih forumih, ki uporabljajo storitev StopForumSpam.'
     user_controls:
@@ -1511,18 +1151,11 @@ flarum-sticky:
     discussion_controls:
       unsticky_button: Nelepljivo
       sticky_button: Lepljivo
-    post_stream:
-      discussion_stickied_text: '{username} je prilepil razpravo {time}.'
-      discussion_unstickied_text: '{username} je odlepil razpravo {time}.'
     badge:
       sticky_tooltip: Lepljivo
   ref:
     sticky: Lepljivo
 flarum-statistics: null
-flarum-pusher:
-  forum:
-    discussion_list:
-      show_updates_text: '{count, množina, ena {Pokaži # posodobljeno razpravo} drugo {Pokaži # posodobljene razprave}}'
 flarum-lock:
   forum:
     badge:
@@ -1530,24 +1163,13 @@ flarum-lock:
     discussion_controls:
       lock_button: Ključavnica
       unlock_button: Odkleniti
-    notifications:
-      discussion_locked_text: '{uporabniško ime} zaklenjeno'
-    post_stream:
-      discussion_locked_text: '{username} je zaklenil razpravo {time}.'
-      discussion_unlocked_text: '{username} je odklenil razpravo {time}.'
     settings:
       notify_discussion_locked_label: 'Nekdo zaklene razpravo, ki sem jo začel'
 flarum-likes:
   forum:
-    notifications:
-      post_liked_text: '{uporabniško ime} všeč vaša objava'
-      others_text: '{count, množina, ena {# drugo} drugo {# drugi}}'
     post:
       like_link: Všeč
-      liked_by_self_text: '{uporabniki} takole.'
-      liked_by_text: '{count, množina, ena {{users} je všeč} druga {{users}, kot je ta}}.'
       unlike_link: Nasprotju
-      others_link: '{count, množina, ena {# drugo} drugo {# drugi}}'
       you_text: Ti
     post_likes:
       title: 'Uporabniki, ki jim je to všeč'
@@ -1602,9 +1224,6 @@ dhtml-composer:
       character_counter: 'Števec znakov'
 datlechin-birthdays:
   forum:
-    user:
-      birthday_text: 'Rojstni dan: {datum}'
-      age_text: 'Starost: {starost}'
     change_dob:
       title: 'Uredi datum rojstva'
       date_of_birth_text: 'Datum rojstva'
@@ -1617,16 +1236,12 @@ datlechin-birthdays:
       dob_heading: 'Datum rojstva'
     nav:
       nav_item: 'Današnji rojstni dnevi'
-    page:
-      discussion_count: '{count, množina, ena {Razprava: #} drugo {Razprave: #}}'
-      post_count: '{count, množina, ena {Post: #} drugo {Objave: #}}'
     edit_user:
       dob_heading: 'Datum rojstva'
     sign_up:
       dob_placeholder: 'Datum rojstva'
   api:
     invalid_dob_message: 'Neveljaven datum rojstva'
-    invalid_age_message: 'Vaša starost mora biti stara vsaj {minAge} let.'
   ref:
     date_of_birth: 'Datum rojstva'
 clarkwinkelmann-post-permissions: null
@@ -1662,24 +1277,13 @@ askvortsov-rich-text:
       insert_image: { src_placeholder: Povezava, title_placeholder: Naslov }
       insert_link: { text_placeholder: 'Besedilno sporočilo', href_placeholder: URL, title_placeholder: 'Naslov (prikazuje se na kazalcu)', remove_button: Odstrani }
       additional_items_tooltip: 'Dodatne kontrole'
-      bold_tooltip: 'Krepko besedilo <{modifierKey}-b>'
-      code_tooltip: 'Koda v vrstici <{modifierKey}-''>'
       code_block_tooltip: 'Vstavljanje kodnega bloka'
-      header_tooltip: 'Spremeni v glavo {level} <shift-{modifierKey}-{level}>'
       horizontal_rule_tooltip: 'Vstavljanje vodoravnega pravila'
       image_tooltip: 'Dodajanje slike'
-      italic_tooltip: 'Ležeče besedilo <{modifierKey}-i>'
       link_tooltip: 'Dodajanje povezave'
-      ordered_list_tooltip: 'Oštevilčen seznam <shift-{modifierKey}-9>'
-      paragraph_tooltip: 'Sprememba odstavka <shift-{modifierKey}-0>'
-      quote_tooltip: 'Vstavljanje ponudbe <{modifierKey}-q>'
       spoiler_block_tooltip: 'Blokiraj spojler/spustni meni'
-      spoiler_inline_tooltip: 'Spoiler <{modifierKey}-;>'
       strike_tooltip: 'Prečrtano <alt-shift-5>'
-      sub_tooltip: 'Podpisano <{modifierKey}-,>'
-      sup_tooltip: 'Nadpisano <{modifierKey}-.>'
       text_type_tooltip: 'Izberite vrsto besedila'
-      unordered_list_tooltip: 'Označen seznam <shift-{modifierKey}-8>'
   forum:
     settings:
       composer_heading: Skladatelj
@@ -1694,7 +1298,6 @@ askvortsov-pwa:
       share_button: Delež
     post_controls:
       share_button: Delež
-      share_api: { title: 'Odgovor {username} na {title}''' }
     user_controls:
       share_button: Delež
     settings:
@@ -1705,20 +1308,7 @@ askvortsov-pwa:
       header: 'Napaka omrežne povezave'
       text: 'Ta aplikacija zahteva omrežno povezavo; Ni ga mogoče uporabljati brez povezave. Preverite povezavo.'
 askvortsov-moderator-warnings:
-  emails:
-    post_warned:
-      subject: '{warner_display_name} vas je opozoril z {strikes, plural, one {# strike} other {# strikes}} in {discussion_title}'
-      body: "Hej, {warnee_display_name}!\n\n{warner_display_name} vas je opozoril z {strikes, plural, one {# strike} other {# strikes}} in {discussion_title}\n\nPodan je bil naslednji razlog:\n\n---\n\n{public_comment}\n"
-    user_warned:
-      subject: '{warner_display_name} vas je opozoril z {strikes, množina, ena {# strike} druga {# strikes}}'
-      body: "Hej, {warnee_display_name}!\n\n{warner_display_name} vas je opozoril z {strikes, množina, ena {# strike} druga {# strikes}}\n\nPodan je bil naslednji razlog:\n\n---\n\n{public_comment}\n"
   forum:
-    notifications:
-      warning_text: '{strikes, množina, ena {Opozorili ste vas z # stavko {mod_username}} drugi {Opozorili ste vas z # stavki {mod_username}}}'
-      warning_no_strikes_text: 'Opozoril vas je {mod_username} (brez opominov)'
-    post:
-      warning: '{strikes, množina, ena {Warned with # strike by {mod_username}} drugo {Warned with # strikes by {mod_username}}}'
-      warning_no_strikes: 'Opozorilo brez opominov s strani {mod_username}'
     post_controls:
       warning_button: 'Opozori uporabnika'
     user:
@@ -1735,20 +1325,14 @@ askvortsov-moderator-warnings:
     warning_list:
       add_button: 'Novo opozorilo'
       no_warnings: 'Zdi se, da tukaj ni nobenih opozoril.'
-      warnings: '{strikes, množina, ena {Opozorila moderatorja: # prejet udarec} drugo {opozorila moderatorja: # prejeti opomini}}'
       warnings_no_strikes: 'Opozorila moderatorja: opomini niso bili prejeti'
     warning_list_item:
-      list_item_heading: '{strikes, množina, ena {<strong>#</strong> strike, {time}} drugo {<strong>#</strong> strikes, {time}}}'
-      list_item_heading_hidden: '{strikes, množina, ena {<strong>#</strong> strike, {time} <strong>(removed)</strong>} druga {<strong>#</strong> strikes, {time} <strong>(removed)</strong>}}'
       public_comment: Opozorilo
       private_comment: 'Moderator-vidni komentarji'
       linked_post: 'Povezana objava'
     warning_modal:
       confirmation_message: 'Vaše opozorilo je shranjeno. Morda boste morali osvežiti stran, da jo boste videli.'
-      heading: 'Opozori <strong>{uporabniško ime}</strong>'
       strikes_heading: 'Koliko stavk je treba uporabiti?'
-      public_comment_heading: 'Zakaj <strong>{username}</strong> prejema ta opozorila? Ti komentarji bodo vidni uporabniku in drugim moderatorjem.'
-      private_comment_heading: 'Zakaj <strong>{username}</strong> prejema ta opozorila? Ti komentarji bodo VIDNI samo drugim moderatorjem.'
       submit_button: 'Shrani opozorilo'
 askvortsov-discussion-templates:
   forum:

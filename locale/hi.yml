@@ -3,7 +3,6 @@ core:
     change_email:
       incorrect_password_message: 'आपके द्वारा दर्ज किया गया पासवर्ड ग़लत है.'
       confirm_password_placeholder: 'पासवर्ड की पुष्टि करें'
-      confirmation_message: 'हमने {email} को एक पुष्टिकरण ईमेल भेजा है। यदि यह जल्द ही नहीं आता है, तो अपने स्पैम फ़ोल्डर की जांच करें।'
       dismiss_button: 'ठीक है'
       submit_button: 'परिवर्तन सहेजें'
       title: 'ईमेल बदलें'
@@ -26,7 +25,6 @@ core:
     composer_edit:
       discard_confirmation: 'आपने अपने परिवर्तन सहेजे नहीं हैं. क्या आप उन्हें त्यागना चाहते हैं?'
       edited_message: 'आपका संपादन किया गया था।'
-      post_link: '{चर्चा} में #{number} पोस्ट करें'
       submit_button: 'परिवर्तन सहेजें'
       view_button: देखना
     composer_reply:
@@ -48,10 +46,6 @@ core:
       restore_button: 'पुनर्स्थापित करना'
     discussion_list:
       empty_text: 'ऐसा लगता है कि यहां कोई चर्चा नहीं है।'
-      replied_text: '{username} ने {ago} उत्तर दिया'
-      started_text: '{username} {ago} प्रारंभ किया'
-      total_replies_a11y_label: '{गिनती, बहुवचन, एक {# उत्तर} अन्य {# उत्तर}}'
-      unread_replies_a11y_label: '{गिनती, बहुवचन, एक {# अपठित उत्तर} अन्य {# अपठित उत्तर}}। अपठित {गणना, बहुवचन, एक {उत्तर} अन्य {उत्तर}} को पढ़े गए के रूप में चिह्नित करें।'
       load_more_button: 'और लोड करें'
     forgot_password:
       email_sent_message: 'यदि आपके द्वारा प्रवेश किया गया ईमेल इस साइट के साथ पंजीकृत है, तो हम आपको एक ईमेल भेज देंगे जिसमें आपका पासवर्ड रीसेट करने के लिए एक लिंक है। यदि आप इसे अगले मिनट या दो के भीतर प्राप्त नहीं करते हैं तो अपने स्पैम फ़ोल्डर को चेक करें।'
@@ -107,7 +101,6 @@ core:
     notifications:
       delete_all_confirm: 'क्या आप वाकई सभी सूचनाएँ हटाना चाहते हैं? यह क्रिया प्रतिवर्ती नहीं है'
       delete_all_tooltip: 'सभी सूचनाएं हटाएं'
-      discussion_renamed_text: '{username} ने शीर्षक बदल दिया है'
       empty_text: 'कोई सूचना नहीं'
       mark_as_read_tooltip: 'पढ़ा गया के रूप में चिह्नित करें'
       toggle_dropdown_accessible_label: 'सूचनाएं देखें'
@@ -116,8 +109,6 @@ core:
       tooltip: सूचनाएँ
     post:
       edited_text: संपादित
-      edited_tooltip: '{उपयोगकर्ता नाम} संपादित {ago}'
-      number_tooltip: 'पोस्ट #{संख्या}'
     post_controls:
       delete_confirmation: 'क्या आप वाकई इस पोस्ट को हमेशा के लिए हटाना चाहते हैं? इस क्रिया को पूर्ववत नहीं किया जा सकता.'
       hide_confirmation: 'क्या आप वाकई इस पोस्ट को हटाना चाहते हैं?'
@@ -131,23 +122,16 @@ core:
     post_scrubber:
       now_link: अब
       original_post_link: 'मूल पोस्ट'
-      unread_text: '{count} अपठित'
-      viewing_text: '{count, plural, one {{index} of {formattedCount} post} other {index} of {formattedCount} posts}}'
     post_stream:
-      discussion_renamed_old_tooltip: 'पुराना शीर्षक था: "{पुराना}"'
-      discussion_renamed_text: '{username} ने शीर्षक को {new} {time} में बदल दिया.'
-      time_lapsed_text: '{अवधि} बाद में'
       load_more_button: 'और लोड करें'
       reply_placeholder: 'एक उत्तर लिखें ...'
     rename_discussion:
       title: 'चर्चा का नाम बदलें'
       submit_button: पुनर्नामित
     search:
-      all_discussions_button: 'सभी चर्चाओं को "{query}" के लिए खोजें'
       discussions_heading: चर्चा
       users_heading: उपयोगकर्ताओं
     security:
-      browser_on_operating_system: '{ब्राउज़र} पर {os}'
       cannot_terminate_current_session: 'वर्तमान सक्रिय सत्र समाप्त नहीं कर सकता. इसके बजाय लॉग आउट करें।'
       created: बनाया
       current_active_session: 'वर्तमान सक्रिय सत्र'
@@ -159,13 +143,11 @@ core:
       new_access_token_modal: { submit_button: 'टोकन बनाएं', title_placeholder: उपाधि, title: 'नया टोकन' }
       revoke_access_token: 'रद्द करना'
       sessions_heading: 'सक्रिय सत्र'
-      session_terminated: '{गणना, बहुवचन, एक {सत्र समाप्त} अन्य {# सत्र समाप्त}}।'
       session_termination_failed: 'आपके सत्र समाप्त करते समय कोई त्रुटि उत्पन्न हुई.'
       show_access_token: 'टोकन देखें'
       terminate_all_other_sessions: 'अन्य सभी सत्र समाप्त करें'
       terminate_session: समाप्त
       token_revoked: 'टोकन निरस्त कर दिया गया.'
-      token_item_title: '{शीर्षक} - {टोकन}'
       token_title_placeholder: /
       never: 'कभी नहीं'
       new_access_token_button: 'नया टोकन'
@@ -174,7 +156,6 @@ core:
       title: प्रतिभूति
     settings:
       account_heading: खाता
-      notification_checkbox_a11y_label_template: '{विधि} के माध्यम से "{विवरण}" सूचनाएं प्राप्त करें'
       notify_by_web_heading: वेब
       notify_discussion_renamed_label: 'कोई मेरे द्वारा शुरू की गई चर्चा का नाम बदलता है'
       privacy_disclose_online_label: 'अन्य लोगों को यह देखने की अनुमति दें कि मैं कब ऑनलाइन हूँ'
@@ -186,7 +167,6 @@ core:
       title: सेटिंग्स
     sign_up:
       log_in_text: 'पहले से ही एक खाता है? <a>लॉग इन करो</a>'
-      welcome_text: 'आपका स्वागत है, {उपयोगकर्ता नाम}!'
       dismiss_button: 'ठीक है'
       email_placeholder: ईमेल
       password_placeholder: पासवर्ड
@@ -196,8 +176,6 @@ core:
     user:
       avatar_upload_button: अपलोड
       avatar_upload_tooltip: 'एक नया अवतार अपलोड करें'
-      in_discussion_text: '{चर्चा} में'
-      joined_date_text: '{ago} में शामिल हुए'
       online_text: ऑनलाइन
       posts_empty_text: 'ऐसा लगता है कि यहां कोई पोस्ट नहीं है।'
       avatar_remove_button: हटाना
@@ -209,15 +187,12 @@ core:
     user_controls:
       button: नियंत्रण
       delete_confirmation: 'क्या आप वाकई इस उपयोगकर्ता को हटाना चाहते हैं? उपयोगकर्ता के पोस्ट हटाए नहीं जाएंगे।'
-      delete_error_message: 'उपयोगकर्ता <i>{username} ({email})</i> को हटाना विफल'
-      delete_success_message: 'उपयोगकर्ता <i>{उपयोगकर्ता नाम} ({email})</i> हटा दिया गया था'
       toggle_dropdown_accessible_label: 'टॉगल उपयोगकर्ता नियंत्रण ड्रॉपडाउन मेनू'
       delete_button: मिटाना
       edit_button: 'संपादन करना'
     user_email_confirmation:
       resend_button: 'पुष्टिकरण ईमेल पुनः भेजें'
       sent_message: रूप
-      alert_message: 'हमने {email} को एक पुष्टिकरण ईमेल भेजा है। यदि यह जल्द ही नहीं आता है, तो अपने स्पैम फ़ोल्डर की जांच करें।'
     welcome_hero:
       hide: 'स्वागत संदेश छुपाएं'
     badge:
@@ -230,8 +205,6 @@ core:
       hidden_tooltip: 'छिपा हुआ'
     dropdown:
       toggle_dropdown_accessible_label: 'टॉगल ड्रॉपडाउन मेनू'
-    data_segment:
-      label: '{लेबल}:'
     edit_user:
       activate_button: 'उपयोगकर्ता सक्रिय करें'
       groups_heading: समूहों
@@ -246,33 +219,17 @@ core:
       username_heading: 'उपयोगकर्ता नाम'
       username_label: 'उपयोगकर्ता नाम'
     error:
-      circular_dependencies_message: 'परिपत्रीय निर्भरताओं का पता चला: {एक्सटेंशन}. निरस्त। कृपया एक्सटेंशन में से किसी एक को अक्षम करें और पुनः प्रयास करें.'
-      dependent_extensions_message: '{extension} को तब तक अक्षम नहीं कर सकता जब तक कि निम्न निर्भर एक्सटेंशन अक्षम न कर दिए जाएँ: {extensions}'
-      extension_initialiation_failed_message: '{extension} प्रारंभ करने में विफल, अधिक जानकारी के लिए ब्राउज़र कंसोल की जाँच करें.'
       generic_message: 'उफ़! कुछ गलत हो गया। कृपया पृष्ठ को पुनः लोड करें और पुनः प्रयास करें।'
       generic_cross_origin_message: 'उफ़! क्रॉस-ओरिजिन अनुरोध के दौरान कुछ गलत हो गया। कृपया पृष्ठ को पुनः लोड करें और पुनः प्रयास करें।'
-      missing_dependencies_message: '{extension} को तब तक सक्षम नहीं किया जा सकता जब तक कि निम्न निर्भरताएँ सक्षम न हों: {extensions}'
       not_found_message: 'अनुरोधित संसाधन नहीं मिला.'
       payload_too_large_message: 'अनुरोध पेलोड बहुत बड़ा था।'
       permission_denied_message: 'आपको ऐसा करने की अनुमति नहीं है।'
       rate_limit_exceeded_message: 'आप थोड़ा बहुत जल्दी जा रहे हैं। कृपया कुछ सेकंड में पुन: प्रयास करें.'
       render_failed_message: 'क्षमा करें, हमें यह सामग्री प्रदर्शित करते समय एक त्रुटि का सामना करना पड़ा. यदि आप एक उपयोगकर्ता हैं, तो कृपया बाद में पुनः प्रयास करें। यदि आप एक व्यवस्थापक हैं, तो अधिक जानकारी के लिए अपनी Flarum लॉग फ़ाइलों पर एक नज़र डालें।'
-    meta_titles:
-      with_page_title: '{pageNumber, बहुवचन, =1 {{pageTitle} - {forumName}} अन्य {{pageTitle}: पृष्ठ # - {forumName}}}'
-      without_page_title: '{pageNumber, बहुवचन, =1 {{forumName}} अन्य {Page # - {forumName}}}'
     modal:
       close: 'बंद करना'
     nav:
       drawer_button: 'नेविगेशन दराज खोलें'
-    number_suffix:
-      kilo_text: 'के प्रति'
-      mega_text: लाख
-    series:
-      glue_text: ', '
-      three_text: '{पहला}, {दूसरा}, और {तीसरा}'
-      two_text: '{पहला} और {दूसरा}'
-    username:
-      deleted_text: '[हटाया गया]'
     loading_indicator:
       accessible_label: लोड।।।
   views:
@@ -290,11 +247,9 @@ core:
       invalid_confirmation_token: 'यह पुष्टिकरण लिंक पहले ही उपयोग किया जा चुका है या अमान्य है.'
       not_authenticated: 'आपको इस पृष्ठ तक पहुँचने की अनुमति नहीं है. लॉग इन करने के बाद पुनः प्रयास करें।'
       not_found: 'आपके द्वारा अनुरोधित पृष्ठ नहीं मिल सका.'
-      not_found_return_link: '{फ़ोरम} पर लौटें'
       permission_denied: 'आपको इस पृष्ठ तक पहुँचने की अनुमति नहीं है.'
       unknown: 'इस पृष्ठ को लोड करने का प्रयास करते समय कोई त्रुटि उत्पन्न हुई.'
     log_out:
-      log_out_confirmation: 'क्या आप वाकई {फ़ोरम} से लॉग आउट करना चाहते हैं?'
       log_out_button: 'लॉग आउट'
       title: 'लॉग आउट'
     reset_password:
@@ -311,23 +266,15 @@ core:
       previous_page_button: 'पिछला पृष्ठ'
   api:
     invalid_username_message: 'उपयोगकर्ता नाम में केवल अक्षर, संख्याएं और डैश हो सकते हैं।'
-    invalid_filter_type:
-      must_be_numeric_message: '{फ़िल्टर} फ़िल्टर सांख्यिक होना चाहिए.'
-      must_not_be_array_message: '{filter} फ़िल्टर एक सरणी नहीं होना चाहिए.'
-      must_not_be_multidimensional_array_message: '{filter} फ़िल्टर एक बहुआयामी सरणी नहीं होना चाहिए.'
   email:
     activate_account:
       subject: 'अपना नया खाता सक्रिय करें'
-      body: "अरे {उपयोगकर्ता नाम}!\n\nकिसी ने (उम्मीद है कि आप!) ने इस ईमेल पते के साथ {फ़ोरम} पर साइन अप किया है।\n\nयदि यह आप थे, तो बस निम्न लिंक पर क्लिक करें और आपका खाता सक्रिय हो जाएगा:\n{url}\n\nयदि आपने साइन अप नहीं किया है, तो कृपया इस ईमेल को अनदेखा करें।\n"
     confirm_email:
       subject: 'अपने नए ईमेल पते की पुष्टि करें'
-      body: "अरे {उपयोगकर्ता नाम}!\n\nकिसी ने (उम्मीद है कि आप!) ने {फ़ोरम} पर अपना ईमेल पता इस पर बदल दिया है।\n\nयदि यह आप थे, तो बस निम्न लिंक पर क्लिक करें और आपके ईमेल की पुष्टि की जाएगी:\n{url}\n\nयदि यह आप नहीं थे, तो कृपया इस ईमेल को अनदेखा करें।\n"
     reset_password:
-      body: "अरे {उपयोगकर्ता नाम}!\n\nकिसी ने (उम्मीद है कि आप!) ने {forum} पर आपके खाते के लिए एक भूल गए पासवर्ड अनुरोध सबमिट किया है।\n\nयदि यह आप थे, तो अपना पासवर्ड रीसेट करने के लिए निम्न लिंक पर क्लिक करें:\n{url}\n\nयदि आप अपना पासवर्ड बदलना नहीं चाहते हैं, तो बस इस ईमेल को अनदेखा करें और कुछ भी नहीं होगा।\n"
       subject: 'अपना पासवर्ड रीसेट करें'
     send_test:
       subject: 'फ्लेरम ईमेल टेस्ट'
-      body: "अरे {उपयोगकर्ता नाम}!\n\nयह पुष्टि करने के लिए एक परीक्षण ईमेल है कि आपका Flarum ईमेल कॉन्फ़िगरेशन ठीक से काम कर रहा है।\n\nयदि यह आप थे, तो इस ईमेल का मतलब है कि आपका कॉन्फ़िगरेशन काम करता है!\n\nयदि यह आप नहीं थे, तो कृपया इस ईमेल को अनदेखा करें।\n"
   ref:
     all_discussions: 'सभी चर्चाएँ'
     change_email: 'ईमेल बदलें'
@@ -335,7 +282,6 @@ core:
     color: रंग
     confirm_password: 'पासवर्ड की पुष्टि करें'
     confirm_email: 'ईमेल की पुष्टि करें'
-    confirmation_email_sent: 'हमने {email} को एक पुष्टिकरण ईमेल भेजा है। यदि यह जल्द ही नहीं आता है, तो अपने स्पैम फ़ोल्डर की जांच करें।'
     custom_footer_text: 'पृष्ठ के बहुत नीचे प्रदर्शित होने के लिए HTML जोड़ें।'
     custom_footer_title: 'कस्टम पाद लेख संपादित करें'
     custom_header_text: 'Flarum के अपने हेडर के ऊपर, पृष्ठ के शीर्ष पर प्रदर्शित होने के लिए HTML जोड़ें।'
@@ -349,7 +295,6 @@ core:
     extensions: एक्सटेंशन
     generic_confirmation_message: 'क्या आप वाकई आगे बढ़ना चाहते हैं? इस क्रिया को पूर्ववत नहीं किया जा सकता.'
     icon: मूर्ति
-    icon_text: 'किसी भी <a>FontAwesome</a> आइकन वर्ग का नाम दर्ज करें, <code>जिसमें fas fa-</code> उपसर्ग <em>शामिल</em> है।'
     load_more: 'और लोड करें'
     loading: लोड।।।
     log_in: 'लॉग इन करो'
@@ -373,7 +318,6 @@ core:
     security: प्रतिभूति
     settings: सेटिंग्स
     sign_up: 'नाम लिखो'
-    some_others: '{गिनती, बहुवचन, एक {# अन्य} अन्य {# अन्य}}'
     start_a_discussion: 'चर्चा प्रारंभ करें'
     username: 'उपयोगकर्ता नाम'
     users: उपयोगकर्ताओं
@@ -389,128 +333,12 @@ core:
     members: सदस्यों
     mod: रीति
     mods: मोड
-validation:
-  accepted: ':विशेषता स्वीकार की जानी चाहिए।'
-  active_url: ':विशेषता कोई मान्य URL नहीं है.'
-  after: ':विशेषता :d ate के बाद की तारीख होनी चाहिए।'
-  after_or_equal: ':विशेषता :d ate के बाद या उसके बराबर दिनांक होनी चाहिए.'
-  alpha: ':विशेषता में केवल अक्षर होने चाहिए.'
-  alpha_dash: ':विशेषता में केवल अक्षर, संख्याएं, डैश और अंडरस्कोर होने चाहिए।'
-  alpha_num: ':विशेषता में केवल अक्षर और संख्याएँ होनी चाहिए.'
-  array: ':विशेषता एक सरणी होनी चाहिए।'
-  before: ':विशेषता :d ate से पहले की तारीख होनी चाहिए।'
-  before_or_equal: ':विशेषता :d ate से पहले या बराबर की तारीख होनी चाहिए।'
-  between:
-    numeric: ':विशेषता :min और :max के बीच होनी चाहिए.'
-    file: ':विशेषता :min और :max किलोबाइट के बीच होनी चाहिए.'
-    string: ':विशेषता :min और :max वर्णों के बीच होनी चाहिए.'
-    array: ':विशेषता में :min और :max आइटम के बीच होना चाहिए.'
-  boolean: ':विशेषता फ़ील्ड सही या गलत होनी चाहिए.'
-  confirmed: ':विशेषता पुष्टिकरण मेल नहीं खाता.'
-  date: ':विशेषता कोई मान्य दिनांक नहीं है.'
-  date_equals: ':विशेषता :d ate के बराबर दिनांक होनी चाहिए.'
-  date_format: ':विशेषता स्वरूप: प्रारूप से मेल नहीं खाती।'
-  different: ':विशेषता और :other भिन्न होना चाहिए.'
-  digits: ':विशेषता :d igits अंक होना चाहिए।'
-  digits_between: ':विशेषता :min और :max अंकों के बीच होनी चाहिए.'
-  dimensions: ':विशेषता में अमान्य छवि आयाम हैं।'
-  distinct: ':विशेषता फ़ील्ड में एक डुप्लिकेट मान है।'
-  email: ':विशेषता एक मान्य ईमेल पता होना चाहिए।'
-  ends_with: ':विशेषता निम्न में से किसी एक के साथ समाप्त होनी चाहिए: :मान.'
-  exists: 'चयनित :विशेषता अमान्य है.'
-  file: ':विशेषता एक फ़ाइल होनी चाहिए।'
-  file_too_large: ':विशेषता बहुत बड़ी है.'
-  file_upload_failed: ':विशेषता अपलोड करने में विफल.'
-  filled: ':विशेषता फ़ील्ड का मान होना आवश्यक है.'
-  gt:
-    numeric: ':विशेषता :value से बड़ी होनी चाहिए.'
-    file: ':विशेषता :value किलोबाइट से बड़ी होनी चाहिए.'
-    string: ':विशेषता :value वर्णों से बड़ी होनी चाहिए.'
-    array: ':विशेषता में :value से अधिक आइटम होने चाहिए.'
-  gte:
-    numeric: ':विशेषता :मान से बड़ा या बराबर होना आवश्यक है.'
-    file: ':विशेषता :value किलोबाइट से बड़ा या बराबर होना आवश्यक है.'
-    string: ':विशेषता :value वर्णों से बड़ा या बराबर होना आवश्यक है.'
-    array: ':विशेषता में :value आइटम या अधिक होना चाहिए।'
-  image: ':विशेषता एक छवि होनी चाहिए।'
-  in: 'चयनित :विशेषता अमान्य है.'
-  in_array: ':other में :विशेषता फ़ील्ड मौजूद नहीं है.'
-  integer: ':विशेषता एक पूर्णांक होना चाहिए.'
-  ip: ':विशेषता एक मान्य IP पता होना चाहिए।'
-  ipv4: ':विशेषता एक मान्य IPv4 पता होना चाहिए।'
-  ipv6: ':विशेषता एक मान्य IPv6 पता होना चाहिए।'
-  json: ':विशेषता एक मान्य JSON स्ट्रिंग होनी चाहिए।'
-  lt:
-    numeric: ':विशेषता :मान से कम होनी चाहिए.'
-    file: ':विशेषता :मान किलोबाइट से कम होना आवश्यक है.'
-    string: ':विशेषता :मान वर्णों से कम होनी चाहिए.'
-    array: ':विशेषता में :value आइटम से कम होना चाहिए.'
-  lte:
-    numeric: ':विशेषता :value से कम या बराबर होनी चाहिए.'
-    file: ':विशेषता :value किलोबाइट से कम या बराबर होनी चाहिए.'
-    string: ':विशेषता :value वर्णों से कम या बराबर होनी चाहिए.'
-    array: ':विशेषता में :value आइटम से अधिक नहीं होना चाहिए.'
-  max:
-    numeric: ':विशेषता :max से बड़ी नहीं होनी चाहिए.'
-    file: ':विशेषता :max किलोबाइट से बड़ी नहीं होनी चाहिए.'
-    string: ':विशेषता :max वर्णों से बड़ी नहीं होनी चाहिए.'
-    array: ':विशेषता में :max से अधिक आइटम नहीं होने चाहिए.'
-  mimes: ':विशेषता प्रकार की एक फ़ाइल होनी चाहिए: :values.'
-  mimetypes: ':विशेषता प्रकार की एक फ़ाइल होनी चाहिए: :values.'
-  min:
-    numeric: ':विशेषता कम से कम :min होनी चाहिए।'
-    file: ':विशेषता कम से कम :min किलोबाइट होनी चाहिए.'
-    string: ':विशेषता कम से कम :min वर्ण होनी चाहिए.'
-    array: ':विशेषता में कम से कम :min आइटम होने चाहिए.'
-  multiple_of: ':विशेषता :value का गुणज होना चाहिए.'
-  not_in: 'चयनित :विशेषता अमान्य है.'
-  not_regex: ':विशेषता स्वरूप अमान्य है।'
-  numeric: ':विशेषता एक संख्या होनी चाहिए.'
-  password: 'पासवर्ड ग़लत है.'
-  present: ':विशेषता फ़ील्ड मौजूद होना चाहिए.'
-  regex: ':विशेषता स्वरूप अमान्य है।'
-  required: ':विशेषता फ़ील्ड आवश्यक है।'
-  required_if: ':विशेषता फ़ील्ड की आवश्यकता तब होती है जब :other :value होता है.'
-  required_unless: ':विशेषता फ़ील्ड की आवश्यकता होती है जब तक कि :other :मानों में न हो।'
-  required_with: ':values मौजूद होने पर :विशेषता फ़ील्ड आवश्यक होती है.'
-  required_with_all: ':विशेषता फ़ील्ड की आवश्यकता तब होती है जब :मान मौजूद हों.'
-  required_without: ':विशेषता फ़ील्ड की आवश्यकता तब होती है जब :values मौजूद न हो.'
-  required_without_all: ':विशेषता फ़ील्ड की आवश्यकता तब होती है जब इनमें से कोई भी :मान मौजूद न हो.'
-  prohibited: ':विशेषता फ़ील्ड प्रतिबंधित है.'
-  prohibited_if: ':विशेषता फ़ील्ड निषिद्ध है जब :other :value है।'
-  prohibited_unless: ':विशेषता फ़ील्ड तब तक निषिद्ध है जब तक कि :other :मानों में न हो.'
-  same: ':विशेषता और :other मेल खाना चाहिए।'
-  size:
-    numeric: ':विशेषता :size होनी चाहिए.'
-    file: ':विशेषता :size किलोबाइट होनी चाहिए।'
-    string: ':विशेषता :size वर्ण होनी चाहिए.'
-    array: ':विशेषता में :size आइटम होने चाहिए.'
-  starts_with: ':विशेषता निम्न में से किसी एक से प्रारंभ होनी चाहिए: :मान.'
-  string: ':विशेषता एक स्ट्रिंग होना आवश्यक है.'
-  timezone: ':विशेषता एक मान्य क्षेत्र होना चाहिए.'
-  unique: ':विशेषता पहले ही ली जा चुकी है।'
-  uploaded: ':विशेषता अपलोड करने में विफल.'
-  url: ':विशेषता स्वरूप अमान्य है।'
-  uuid: ':विशेषता एक मान्य UUID होना चाहिए।'
-  attributes:
-    username: 'उपयोगकर्ता नाम'
-    password: पासवर्ड
-    email: ईमेल
-    title: उपाधि
-    content: सन्तोष
-    name_singular: 'एकवचन नाम'
-    name_plural: 'बहुवचन नाम'
-    tag_count_primary: 'प्राथमिक टैग्स की संख्या'
-    tag_count_secondary: 'द्वितीयक टैग की संख्या'
-  recaptcha: 'reCAPTCHA सत्यापन विफल हुआ।'
-  recaptcha-unknown: 'reCAPTCHA ({errors}) को मान्य करते समय कोई अज्ञात त्रुटि उत्पन्न हुई.'
 flarum-tags:
   forum:
     all_tags:
       meta_description_text: 'सभी टैग'
       meta_title_text: टैग
     choose_tags:
-      edit_title: '{शीर्षक} के लिए टैग्स संपादित करें'
       title: 'अपनी चर्चा के लिए टैग चुनें'
     discussion_controls:
       edit_tags_button: 'टैग संपादित करें'
@@ -520,48 +348,27 @@ flarum-tags:
       more_link: अधिक।।।
       untagged_link: 'अनटैग किया गया'
       tags_link: टैग
-    post_stream:
-      added_and_removed_tags_text: '{username} ने {tagsAdded } जोड़ा और {tagsRemoved} {time} को हटा दिया।'
-      added_tags_text: '{username} ने {tagsAdded } {time} जोड़ा।'
-      removed_tags_text: '{username} ने {tagsRemoved} {time} को हटा दिया है.'
-      tags_text: '{गणना, बहुवचन, एक {{टैग} टैग} अन्य {{टैग} टैग}}'
-    tag:
-      meta_description_text: '{टैग} टैग के साथ सभी चर्चाएँ'
     composer_discussion:
       choose_tags_link: 'टैग चुनें'
   lib:
     deleted_tag_text: 'हटाए गए'
     tag_selection_modal:
       bypass_requirements: 'बायपास टैग आवश्यकताएँ'
-      choose_primary_placeholder: '{गिनती, बहुवचन, एक {प्राथमिक टैग चुनें} अन्य {# प्राथमिक टैग चुनें}}'
-      choose_secondary_placeholder: '{गिनती, बहुवचन, एक {1 और टैग चुनें} अन्य {# अधिक टैग चुनें}}'
-      choose_tags_placeholder: '{गिनती, बहुवचन, एक {1 और टैग चुनें} अन्य {# अधिक टैग चुनें}}'
       submit_button: 'ठीक है'
       title: 'टैग चुनें'
   ref:
     choose_tags: 'टैग चुनें'
-    choose_tags_placeholder: '{गिनती, बहुवचन, एक {1 और टैग चुनें} अन्य {# अधिक टैग चुनें}}'
     name: नाम
     tags: टैग
 flarum-mentions:
   forum:
     composer:
       mention_tooltip: 'उपयोगकर्ता, समूह या पोस्ट का उल्लेख करें'
-      reply_to_post_text: '#{number} का उत्तर दें'
     mentioned_by:
       title: 'इस पोस्ट के जवाब'
       load_more_button: 'और लोड करें'
-    notifications:
-      post_mentioned_text: '{उपयोगकर्ता नाम} ने आपकी पोस्ट का उत्तर दिया'
-      user_mentioned_text: '{उपयोगकर्ता नाम} ने आपका उल्लेख किया है'
-      group_mentioned_text: '{username} में उस समूह का उल्लेख किया गया है जिसके आप सदस्य हैं'
-      others_text: '{गिनती, बहुवचन, एक {# अन्य} अन्य {# अन्य}}'
     post:
-      mentioned_by_more_text: '{गिनती} अधिक उत्तर।'
-      mentioned_by_self_text: '{उपयोगकर्ता} ने इसका उत्तर दिया।'
-      mentioned_by_text: '{उपयोगकर्ता} ने इसका उत्तर दिया।'
       quote_button: उद्धरण
-      others_text: '{गिनती, बहुवचन, एक {# अन्य} अन्य {# अन्य}}'
       reply_link: उत्तर
       you_text: तुम
     settings:
@@ -570,28 +377,12 @@ flarum-mentions:
       notify_group_mentioned_label: 'कोई व्यक्ति किसी पोस्ट में उस समूह का उल्लेख करता है जिसका मैं सदस्य हूँ'
     user:
       mentions_link: उल्लेख
-    post_mention:
-      deleted_text: '[अज्ञात]'
-    group_mention:
-      deleted_text: '[अज्ञात समूह]'
-  email:
-    post_mentioned:
-      subject: '{replier_display_name} ने {शीर्षक} में आपकी पोस्ट का उत्तर दिया'
-      body: "अरे {recipient_display_name}!\n\n{replier_display_name} ने {title} में आपकी पोस्ट (#{post_number}) का उत्तर दिया।\n\n{url}\n\n---\n\n{सामग्री}\n"
-    user_mentioned:
-      subject: '{mentioner_display_name} ने {शीर्षक} में आपका उल्लेख किया है'
-      body: "अरे {recipient_display_name}!\n\n{mentioner_display_name} ने {title} में एक पोस्ट में आपका उल्लेख किया है।\n\n{url}\n\n---\n\n{सामग्री}\n"
-    group_mentioned:
-      subject: '{mentioner_display_name} ने {title} में उस समूह का उल्लेख किया है जिसके आप सदस्य हैं'
-      body: "अरे {recipient_display_name}!\n\n{mentioner_display_name} ने {title} में उस समूह का उल्लेख किया है जिसके आप सदस्य हैं.\n\n{url}\n\n---\n\n{सामग्री}\n"
 flarum-subscriptions:
   forum:
     discussion_controls:
       unfollow_button: 'अनफ़ॉलो करना'
       unignore_button: अनसिर
       follow_button: 'पीछा करना'
-    notifications:
-      new_post_text: '{उपयोगकर्ता नाम} पोस्ट किया गया'
     settings:
       follow_after_reply_label: 'स्वचालित रूप से उन चर्चाओं का अनुसरण करें जिनका मैं उत्तर देता हूं'
       notify_for_all_posts_label: 'चर्चा में केवल अंतिम पोस्ट के बजाय हर नई पोस्ट के बारे में सूचित करें'
@@ -613,10 +404,6 @@ flarum-subscriptions:
       meta_title_text: 'के परिणामस्‍वरूप'
     index:
       following_link: 'के परिणामस्‍वरूप'
-  email:
-    new_post:
-      subject: '[नई पोस्ट] {शीर्षक}'
-      body: "अरे {recipient_display_name}!\n\n{poster_display_name} ने उस चर्चा में एक पोस्ट किया जिसका आप अनुसरण कर रहे हैं: {शीर्षक}.\n\nनई गतिविधि देखने के लिए, निम्न लिंक देखें:\n{url}\n\n---\n\n{सामग्री}\n\n---\n\nजब तक आप अप-टू-डेट नहीं होंगे, तब तक आपको इस चर्चा के बारे में कोई और सूचना प्राप्त नहीं होगी।\n"
   ref:
     follow: 'पीछा करना'
     following: 'के परिणामस्‍वरूप'
@@ -625,7 +412,6 @@ flarum-flags:
   forum:
     flag_post:
       confirmation_message: 'आप इस पोस्ट ध्वजांकित करने के लिए धन्यवाद. हमारे मॉडरेटर इस पर गौर करेंगे।'
-      reason_details_placeholder: 'अतिरिक्त विवरण (वैकल्पिक)'
       reason_inappropriate_label: अनुपयुक्त
       reason_inappropriate_text: 'यह पोस्ट आपत्तिजनक, अपमानजनक या हमारे <a>समुदाय दिशानिर्देशों</a> का उल्लंघन करती है.'
       reason_missing_message: 'कृपया हमारे मध्यस्थों के लिए कुछ विवरण प्रदान करें।'
@@ -639,13 +425,10 @@ flarum-flags:
       title: 'फ्लैग पोस्ट'
     flagged_posts:
       empty_text: 'कोई झंडा नहीं'
-      item_text: '<em>{चर्चा}</em> में {उपयोगकर्ता नाम}'
       title: 'ध्वजांकित पोस्ट'
       tooltip: 'ध्वजांकित पोस्ट'
     post:
       dismiss_flag_button: 'झंडा खारिज करें'
-      flagged_by_text: '{username} द्वारा ध्वजांकित'
-      flagged_by_with_reason_text: '{username} द्वारा {reason} के रूप में ध्वजांकित किया गया'
     post_controls:
       flag_button: झंडा
   ref:
@@ -654,13 +437,11 @@ flarum-flags:
 flarum-suspend:
   forum:
     notifications:
-      user_suspended_text: 'आपको {timeReadable} के लिए निलंबित कर दिया गया है'
       user_suspended_indefinite_text: 'आपको अनिश्चित काल के लिए निलंबित कर दिया गया है'
       user_unsuspended_text: 'आपको निलंबित नहीं किया गया है'
     suspension_info:
       dismiss_button: हटा
       indefinite: 'यह एक अनिश्चितकालीन निलंबन है'
-      limited: 'यह निलंबन {date} तक लागू रहेगा'
       title: 'यह खाता निलंबित कर दिया गया है'
     suspend_user:
       display_message: 'उपयोगकर्ता के लिए संदेश प्रदर्शित करें'
@@ -671,7 +452,6 @@ flarum-suspend:
       placeholder_optional: वैकल्पिक
       reason: 'निलंबन का कारण'
       status_heading: 'निलंबन की स्थिति'
-      title: '{उपयोगकर्ता नाम} निलंबित करें'
       submit_button: 'परिवर्तन सहेजें'
     user_badge:
       suspended_tooltip: निलंबित
@@ -681,10 +461,8 @@ flarum-suspend:
     no_reason_given: 'इस निलंबन का कोई कारण नहीं बताया गया है।'
     suspended:
       subject: 'आपका खाता निलंबित कर दिया गया है'
-      body: "अरे {recipient_display_name},\n\nआपको निम्नलिखित कारणों से निलंबित किया गया है:\n\n---\n{suspension_message}\n---\n"
     unsuspended:
       subject: 'आपका खाता निलंबित नहीं किया गया है'
-      body: "अरे {recipient_display_name},\n\nआपको निलंबित नहीं किया गया है। आप निम्न लिंक पर क्लिक करके मंच पर वापस जा सकते हैं:\n\n{forum_url}\n"
 blomstra-gdpr:
   lib:
     data:
@@ -707,8 +485,6 @@ fof-upload:
       error: चूक
       loading: अपलोड
       unauthorized: 'आपको फ़ाइलें डाउनलोड करने की अनुमति नहीं है'
-    validation:
-      max_size: '{max} kb से अधिक अपलोड स्वीकार नहीं किए जाते हैं.'
     text_preview:
       expand: 'पूर्वावलोकन विस्तृत करें'
       collapse: 'पूर्वावलोकन संक्षिप्त करें'
@@ -718,7 +494,6 @@ fof-upload:
   api:
     upload_errors:
       forbidden_type: 'इस प्रकार की फ़ाइलें अपलोड करने की अनुमति नहीं है.'
-      unsupported_type: 'अपलोड एडाप्टर प्रदान किए गए माइम प्रकार का समर्थन नहीं करता: {mime}.'
       could_not_detect_mime: 'इस फ़ाइल के MIME प्रकार का पता नहीं लगा सका, कृपया पुन: प्रयास करें.'
       max_upload_file_size_ini: 'अपलोड अधिकतम फ़ाइल आकार सीमा php.ini से पहुंच गई।'
       max_upload_file_size_form: 'अपलोड अधिकतम फ़ाइल आकार सीमा प्रपत्र से पहुँच गया.'
@@ -727,7 +502,6 @@ fof-upload:
       no_upload_tmp_folder: 'फ़ाइलें अपलोड करने के लिए कोई tmp फ़ोल्डर नहीं।'
       cannot_write_to_disk: 'डिस्क पर नहीं लिख सकता.'
       upload_blocked_by_php_extension: 'एक php एक्सटेंशन ने अपलोड को ब्लॉक कर दिया।'
-      no_files_made_it_to_upload: 'कृपया {max} kb से बड़ी फ़ाइलें अपलोड न करें.'
   lib:
     upload-shared-file-modal:
       title: 'नई साझा की गई फ़ाइल'
@@ -740,13 +514,9 @@ fof-upload:
       release_to_upload: 'अपलोड करने के लिए रिलीज'
       modal_empty_desktop: 'आपकी फ़ाइल सूची रिक्त है. अपलोड करने के लिए बटन पर क्लिक करें या फ़ाइल को यहाँ खींचें.'
       modal_empty_phone: 'आपकी फ़ाइल सूची रिक्त है. फ़ाइल अपलोड करने के लिए ऊपर दिए गए बटन पर टैप करें.'
-      select_file_a11y_label: 'फ़ाइल "{fileName}" चुनें'
-      confirm_selection_btn: '{fileCount, बहुवचन, = 0 {कोई नहीं चयनित} एक {फ़ाइल चुनें} अन्य {फ़ाइलों का चयन करें}}'
       load_more_files_btn: 'अधिक फ़ाइलें लोड करें'
-      delete_file_a11y_label: 'फ़ाइल हटाएँ "{fileName}"'
-      delete_confirmation: 'क्या आप वाकई "{fileName}" हटाना चाहते हैं?'
-      hide_file: { btn_a11y_label_hide: 'मीडिया प्रबंधक से "{फ़ाइल नाम}" छुपाएं', btn_a11y_label_show: 'मीडिया प्रबंधक में "{फ़ाइल नाम}" दिखाएँ', hide_confirmation: 'क्या आप वाकई "{fileName}" छुपाना चाहते हैं? किसी फ़ाइल को छिपाने से वह केवल आपके मीडिया प्रबंधक से निकाली जाएगी और मौजूदा पोस्ट प्रभावित नहीं होगी.', hide_success: 'फ़ाइल छिपाई गई', show_confirmation: 'क्या आप वाकई "{fileName}" दिखाना चाहते हैं? फ़ाइल दिखाने से वह आपके मीडिया मैनेजर में दिखाई देगी।', show_success: 'फ़ाइल दिखाई गई है', hide_fail: 'फ़ाइल "{fileName}" छुपा नहीं सका', show_fail: 'फ़ाइल "{fileName}" नहीं दिखा सका', loading: 'फ़ाइल छुपा रहा है...' }
-      hide_shared_file: { btn_a11y_label_hide: '"{fileName}" को निजी बनाएँ (कोई सार्वजनिक URL नहीं)', btn_a11y_label_show: '"{fileName}" को सार्वजनिक करें (सार्वजनिक URL के साथ)', hide_confirmation: 'क्या आप वाकई "{fileName}" को निजी बनाना चाहते हैं? किसी फ़ाइल को निजी बनाने से उसका सार्वजनिक URL निकाल दिया जाएगा, लेकिन यह मौजूदा पोस्ट को प्रभावित नहीं करेगा. यह अब अनधिकृत उपयोगकर्ताओं को मीडिया प्रबंधक में भी दिखाई नहीं देगा।', hide_success: 'फ़ाइल को निजी बनाया गया', show_confirmation: 'क्या आप वाकई "{fileName}" को सार्वजनिक बनाना चाहते हैं? किसी फ़ाइल को सार्वजनिक करने से वह सार्वजनिक URL वाले किसी भी व्यक्ति के लिए सुलभ हो जाएगी और कोई भी मीडिया प्रबंधक का उपयोग करके इसे साझा कर सकता है।', show_success: 'फाइल सार्वजनिक की गई', hide_fail: 'फ़ाइल "{fileName}" को निजी नहीं बना सका', show_fail: 'फ़ाइल "{fileName}" को सार्वजनिक नहीं कर सका', loading: 'फ़ाइल को निजी बनाना...' }
+      hide_file: { hide_success: 'फ़ाइल छिपाई गई', show_success: 'फ़ाइल दिखाई गई है', loading: 'फ़ाइल छुपा रहा है...' }
+      hide_shared_file: { hide_success: 'फ़ाइल को निजी बनाया गया', show_success: 'फाइल सार्वजनिक की गई', loading: 'फ़ाइल को निजी बनाना...' }
 flarum-bbcode:
   forum:
     quote:
@@ -779,8 +549,6 @@ fof-follow-tags:
       following_tag_tooltip: 'के परिणामस्‍वरूप'
       lurking_tag_tooltip: गुप्त
     sub_controls:
-      header: '{tagName} के लिए सदस्यता'
-      subscription_label: '{tagName} के लिए अपना सदस्यता स्तर चुनें'
       following_text: 'सभी नई चर्चाओं के बारे में सूचित रहें।'
       hiding_text: 'सभी चर्चाएँ पृष्ठ से चर्चाएँ छुपाएँ.'
       ignoring_text: 'कभी सूचित नहीं किया जाएगा।'
@@ -795,21 +563,8 @@ fof-follow-tags:
       hiding_button: ठुकाई
       ignoring_button: अनदेखी
       lurking_button: गुप्त
-    notifications:
-      new_discussion_text: '{उपयोगकर्ता नाम} प्रारंभ हो गया'
-      new_post_text: '{उपयोगकर्ता नाम} पोस्ट किया गया'
-      new_discussion_tag_text: '{username} ने टैग बदल दिया है'
     user:
       settings: { heading: 'टैग का पालन करें', filter_label: 'निम्न पृष्ठ में डिफ़ॉल्ट रूप से क्या दिखाना है' }
-  email:
-    subject:
-      newDiscussionInTag: '[टैग | नई चर्चा] {शीर्षक}'
-      newPostInTag: '[टैग | नई पोस्ट] {शीर्षक}'
-      newDiscussionTag: '[टैग | बदला हुआ टैग] {शीर्षक}'
-    body:
-      newDiscussionInTag: "अरे {recipient_display_name},\n\n{actor_display_name} ने उस टैग में चर्चा प्रारंभ की जिसका आप अनुसरण कर रहे हैं: {discussion_title}\n\nनई चर्चा देखने के लिए, निम्न लिंक देखें:\n{discussion_url}\n\n---\n\n{post_content}\n"
-      newPostInTag: "अरे {recipient_display_name},\n\n{actor_display_name} आपके द्वारा अनुसरण किए जा रहे टैग पर चर्चा में पोस्ट किया गया: {discussion_title}\n\nनई गतिविधि देखने के लिए, निम्न लिंक देखें:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nजब तक आप अप टू डेट नहीं होंगे, तब तक आपको इस चर्चा के बारे में कोई और सूचना प्राप्त नहीं होगी.\n"
-      newDiscussionTag: "अरे {recipient_display_name},\n\n{actor_display_name} ने अभी-अभी {author_display_name} द्वारा चर्चा पर टैग को उस टैग में बदल दिया है जिसका आप {discussion_title} अनुसरण कर रहे हैं\n\nनई चर्चा देखने के लिए, निम्न लिंक देखें:\n{discussion_url}\n"
   ref:
     follow: 'पीछा करना'
     following: 'के परिणामस्‍वरूप'
@@ -838,17 +593,8 @@ flarum-nicknames:
       nickname_placeholder: उपनाम
 fof-oauth:
   forum:
-    log_in:
-      with_button: '{प्रदाता} के साथ लॉग इन करें'
-      with_discord_button: '{प्रदाता} के साथ लॉग इन करें'
-      with_facebook_button: '{प्रदाता} के साथ लॉग इन करें'
-      with_github_button: '{प्रदाता} के साथ लॉग इन करें'
-      with_gitlab_button: '{प्रदाता} के साथ लॉग इन करें'
-      with_google_button: '{प्रदाता} के साथ लॉग इन करें'
-      with_linkedin_button: '{प्रदाता} के साथ लॉग इन करें'
-      with_twitter_button: '{प्रदाता} के साथ लॉग इन करें'
     user:
-      settings: { linked-account: { label: 'लिंक किए गए खाते', last-used-label: 'अंतिम बार उपयोग किया गया', link-created-label: 'लिंक बनाया गया', orphaned-account: 'आपने पहले इस प्रदाता के माध्यम से साइन इन किया है, लेकिन इस फ़ोरम ने तब से इस विधि के साथ साइन-इन अक्षम कर दिया है।', help: 'ये लिंक किए गए खाते आपको अन्य प्रदाताओं का उपयोग करके फ़ोरम में साइन इन करने की अनुमति देते हैं।', identifier-label: '{प्रदाता} परिचय', unlink-confirm: 'क्या आप वाकई {प्रदाता} के साथ लिंक निकालना चाहते हैं? आप इस फ़ोरम में तब तक साइन इन नहीं कर पाएँगे, जब तक कि आप भविष्य में पुनः प्रमाणित नहीं करते.' } }
+      settings: { linked-account: { label: 'लिंक किए गए खाते', last-used-label: 'अंतिम बार उपयोग किया गया', link-created-label: 'लिंक बनाया गया', orphaned-account: 'आपने पहले इस प्रदाता के माध्यम से साइन इन किया है, लेकिन इस फ़ोरम ने तब से इस विधि के साथ साइन-इन अक्षम कर दिया है।', help: 'ये लिंक किए गए खाते आपको अन्य प्रदाताओं का उपयोग करके फ़ोरम में साइन इन करने की अनुमति देते हैं।' } }
     signup:
       username_help: 'कृपया यहां से ज्ञात होने के लिए एक उपयोगकर्ता नाम चुनें'
     unlink: 'लिंक हटाएं'
@@ -882,10 +628,8 @@ fof-impersonate:
   forum:
     modal:
       title: 'किसी अन्य उपयोगकर्ता के रूप में लॉगिन करें'
-      label: 'महान शक्ति के साथ बड़ी जिम्मेदारी आता है। जारी रखने पर, आप लॉग आउट होने तक {उपयोगकर्ता नाम} बन जाएंगे।'
       placeholder_optional: '(वैकल्पिक) इस उपयोगकर्ता पर स्विच करने का अपना कारण प्रदान करें'
       placeholder_required: 'आगे बढ़ने से पहले आपको इस उपयोगकर्ता पर स्विच करने का अपना कारण बताना होगा'
-      impersonate_username: '{उपयोगकर्ता नाम} के रूप में लॉगिन करें'
     user_controls:
       impersonate_button: 'उपयोगकर्ता के रूप में लॉगिन करें'
 fof-byobu:
@@ -896,7 +640,6 @@ fof-byobu:
       add_recipients: प्राप्तकर्ताओं
       submit: 'ठीक है'
       edit_recipients: 'प्राप्तकर्ताओं को संपादित करें'
-      send_pd: '{उपयोगकर्ता नाम} को संदेश भेजें'
       cancel: 'रद्द करना'
       make_public: 'इस चर्चा को सार्वजनिक करें'
       remove_from_discussion: 'इस निजी चर्चा को छोड़ दें'
@@ -905,8 +648,6 @@ fof-byobu:
       title_placeholder: 'निजी चर्चा शीर्षक'
     confirm:
       make_public: 'क्या आप वाकई प्राप्तकर्ताओं को निकालना चाहते हैं और इस चर्चा को उन सभी के लिए दृश्यमान बनाना चाहते हैं जो असाइन किए गए टैग को देख सकते हैं?'
-    labels:
-      recipients: '{गणना, बहुवचन, एक {{गिनती} प्राप्तकर्ता} अन्य {{गिनती} प्राप्तकर्ता}}'
     nav:
       start_button: 'निजी तौर पर चर्चा करें'
       nav_item: 'निजी चर्चाएं'
@@ -915,11 +656,9 @@ fof-byobu:
     search:
       headings: { groups: 'अनुमति समूह' }
     modal:
-      titles: { update_recipients: '{title} के प्राप्तकर्ताओं का अद्यतन करें', add_recipients: 'अपनी चर्चा में प्राप्तकर्ता जोड़ें' }
+      titles: { add_recipients: 'अपनी चर्चा में प्राप्तकर्ता जोड़ें' }
       labels: { selected_users: 'चयनित उपयोगकर्ता', search_field: 'उपयोगकर्ता के लिए खोजें' }
       help: { add_recipients: 'यह चर्चा केवल आपके द्वारा यहां चुने गए उपयोगकर्ताओं को दिखाई देगी। कम से कम 1 प्राप्तकर्ता (आपके अलावा) आवश्यक है।', update_recipients: 'यह चर्चा केवल आपके द्वारा यहां चुने गए उपयोगकर्ताओं को दिखाई देगी।', selected_users: 'किसी उपयोगकर्ता को निकालने के लिए उसके नाम पर क्लिक करें.', click_user_to_remove_tooltip: 'हटाने के लिए क्लिक करें' }
-    post:
-      recipients_modified: { added_and_removed: '{username} ने प्राप्तकर्ताओं को {जोड़ा} जोड़ा और {हटाया गया} हटा दिया।', added: '{username} जोड़ा गया प्राप्तकर्ता {जोड़ा}।', made_public: '{username} ने सभी प्राप्तकर्ताओं को हटा दिया और चर्चा को सार्वजनिक कर दिया', removed: '{उपयोगकर्ता नाम} हटाए गए प्राप्तकर्ता {हटाए गए}।', removed_self: '{उपयोगकर्ता नाम} ने निजी चर्चा छोड़ दी।' }
     user:
       settings: { block_pd: 'निजी चर्चाओं को ब्लॉक करें' }
       byobu_link: 'निजी चर्चाएं'
@@ -927,23 +666,9 @@ fof-byobu:
     notifications:
       pd_label: 'कोई मुझे एक नई निजी चर्चा में शामिल करता है'
       pd_reply_label: 'कोई व्यक्ति किसी निजी चर्चा में पोस्ट करता है जिसका मैं प्राप्तकर्ता हूं'
-      pd_reply_text: '{उपयोगकर्ता नाम} एक निजी चर्चा में पोस्ट किया गया है जिसका आप हिस्सा हैं'
-      pd_text: '{username} ने आपके साथ एक नई निजी चर्चा शुरू की है'
       pd_user_left_label: 'एक प्राप्तकर्ता उपयोगकर्ता एक निजी चर्चा छोड़ देता है जिसका मैं एक हिस्सा हूं'
-      pd_user_left_text: '{उपयोगकर्ता नाम} ने निजी चर्चा छोड़ दी'
-      pd_added_text: '{username} ने आपको एक निजी चर्चा में जोड़ा'
       pd_added_label: 'कोई मुझे मौजूदा निजी चर्चा में जोड़ता है'
-  email:
-    subject:
-      private_discussion_created: '[निजी चर्चा] {display_name} ने आपके साथ एक नई निजी चर्चा शुरू की'
-      private_discussion_replied: '[निजी चर्चा] {display_name} एक निजी चर्चा में पोस्ट किया गया'
-      recipient_removed: '[निजी चर्चा] {display_name} ने चर्चा छोड़ दी'
-      private_discussion_added: '[निजी चर्चा] {display_name} ने आपको एक निजी चर्चा में जोड़ा'
-    body:
-      private_discussion_created: "अरे {recipient_display_name},\n\n{actor_display_name} ने प्राप्तकर्ता के रूप में आपके साथ एक नई निजी चर्चा प्रारंभ की: {discussion_title}.\n\nइसे यहाँ देखें:\n{discussion_url}\n\nइस लिंक तक पहुंचने में सक्षम होने से पहले आपको पहले लॉगिन करने की आवश्यकता हो सकती है।\n"
-      private_discussion_replied: "अरे {recipient_display_name},\n\n{actor_display_name} एक प्राप्तकर्ता के रूप में आपके साथ एक निजी चर्चा में पोस्ट किया गया: {discussion_title}।\n\nइसे यहाँ देखें:\n{post_url}\n\nइस लिंक तक पहुंचने में सक्षम होने से पहले आपको पहले लॉगिन करने की आवश्यकता हो सकती है।\n"
-      recipient_removed: "अरे {recipient_display_name},\n\n{actor_display_name} ने निजी चर्चा छोड़ दी: {discussion_title}. वे अब इसकी किसी भी सामग्री को नहीं देख पाएंगे।\n\nइसे यहाँ देखें:\n{discussion_url}\n\nइस लिंक तक पहुंचने में सक्षम होने से पहले आपको पहले लॉगिन करने की आवश्यकता हो सकती है।\n"
-      private_discussion_added: "अरे {recipient_display_name},\n\n{actor_display_name} ने आपको एक मौजूदा निजी चर्चा में जोड़ा: {discussion_title}.\n\nइसे यहाँ देखें:\n{discussion_url}\n\nइस लिंक तक पहुंचने में सक्षम होने से पहले आपको पहले लॉगिन करने की आवश्यकता हो सकती है।\n"
+  email: null
 v17development-flarum-badges:
   forum:
     badge_information: 'बैज की जानकारी'
@@ -966,17 +691,11 @@ v17development-flarum-badges:
       no_earning_reason: 'कोई कमाई का कारण निर्धारित नहीं है'
       earned_on: 'बैज अर्जित किया गया'
       category: 'बैज श्रेणी'
-      received_on: '{तारीख} को प्राप्त हुआ'
       badge_details: 'बैज विवरण'
-      earned_count: '{गणना, बहुवचन, एक {<b># उपयोगकर्ता</b> ने यह बैज अर्जित किया है} अन्य {<b># उपयोगकर्ताओं</b> ने यह बैज अर्जित किया है}}'
-      earned_by_count: '{गणना, बहुवचन, एक {<b># उपयोगकर्ता</b> द्वारा अर्जित} अन्य {<b># उपयोगकर्ताओं</b> द्वारा अर्जित}}'
-      others_link: '+ {गिनती} अधिक'
     badges_in_card:
       title: 'उपयोगकर्ता कार्ड में बैज'
       manage_badges: 'बैज प्रबंधित करें'
       description: 'आप अपने उपयोगकर्ता कार्ड में दृश्यमान बैज को अपने किसी अन्य बैज से बदल सकते हैं। यदि आप कोई भी चयन नहीं करते हैं, तो वे स्वचालित रूप से चयनित हो जाएंगे.'
-      select_limit: 'आप अपने उपयोगकर्ता कार्ड में दिखाई देने के लिए {सीमा, बहुवचन, एक {<b>एक बैज</b>} अन्य {<b># बैज</b>}} का चयन कर सकते हैं।'
-      hit_limit: 'आपके कार्ड में <b> केवल {सीमा, बहुवचन, एक {<b>एक बैज</b>} अन्य {<b># बैज</b>}}</b> के लिए जगह है। इस बैज के लिए जगह बनाने के लिए बैज को अचयनित करें।'
     moderation:
       remove_badge: 'उपयोगकर्ता से बैज निकालें'
       remove_badge_confirm: 'क्या आप वाकई इस उपयोगकर्ता से यह बैज निकालना चाहते हैं?'
@@ -985,14 +704,10 @@ v17development-flarum-badges:
       title: 'आपको एक नया बैज मिला है'
       settings: 'मुझे एक बैज मिला है'
     uncategorized: 'संयुक्त राष्ट्र वर्गीकृत'
-v17development-flarum-seo:
-  forum:
-    profile_title: '{उपयोगकर्ता नाम} की प्रोफ़ाइल'
-    profile_description: '{उपयोगकर्ता नाम} की प्रोफाइल | {discussion_count} चर्चाएँ | {comment_count} पोस्ट'
+v17development-flarum-seo: null
 the-turk-miserable-users:
   forum:
     miserable_user:
-      title: 'दयनीय {उपयोगकर्ता नाम}'
       status_heading: 'दयनीय स्थिति'
       not_miserable_label: 'दुखी नहीं'
       indefinitely_label: 'अनिश्चित काल के लिए दुखी'
@@ -1009,7 +724,6 @@ sycho-profile-cover:
   forum:
     cover: आवरण
     edit_cover: 'कवर संपादित करें'
-    notice: 'अधिकतम आकार: {आकार}'
     added:
       success: 'प्रोफाइल कवर अपडेट किया गया।'
       error: 'छवि अपलोड नहीं की जा सकी.'
@@ -1018,10 +732,7 @@ sycho-profile-cover:
       error: 'कवर नहीं निकाल सका, बाद में पुन: प्रयास करें.'
 sycho-photoswipe: null
 nearata-tags-color-generator: null
-nearata-prevent-double-posting:
-  forum:
-    exception:
-      too_many_replies: '{गिनती} से अधिक लगातार उत्तरों की अनुमति नहीं है। कृपया इसके बजाय अपना पिछला जवाब संपादित करें, या किसी के आपको जवाब देने की प्रतीक्षा करें।'
+nearata-prevent-double-posting: null
 nearata-copy-code-to-clipboard:
   forum:
     copy: 'क्लिपबोर्ड पर कॉपी करें'
@@ -1030,7 +741,6 @@ michaelbelgium-flarum-profile-views:
   forum:
     user:
       viewlist: { title: 'अंतिम आगंतुक', guest: अतिथि }
-      view_count_text: '{व्यूकाउंट, बहुवचन, एक {देखा {व्यूकाउंट} समय} अन्य {देखा {व्यूकाउंट} बार}}'
 justoverclock-country-flags:
   forum:
     inputCountryCode: 'देश कोड'
@@ -1058,13 +768,10 @@ ianm-syndication:
     autodiscovery:
       forum_activity: 'फोरम गतिविधि'
       forum_new_discussions: 'फोरम की नई चर्चाएं'
-      tag_activity: '{टैग} टैग के लिए गतिविधि'
-      tag_new_discussions: '{टैग} टैग में चर्चाएँ'
       discussion_last_posts: 'यह चर्चा'
       user_last_posts: 'इस उपयोगकर्ता द्वारा पोस्ट & टिप्पणियाँ'
     feeds:
-      entries: { user_posts: { title_reply: 'पुन: {चर्चा}' } }
-      titles: { main_title: '{forum_name}', main_subtitle: 'फोरम में अंतिम पोस्ट', main_d_title: '{forum_name} में नई चर्चाएँ', main_d_subtitle: 'मंच में नवीनतम चर्चाएं', tag_title: '{टैग} टैग में गतिविधि', tag_subtitle: '{टैग} टैग में अंतिम पोस्ट', tag_d_title: '{टैग} टैग में नई चर्चाएँ', tag_d_subtitle: '{टैग} टैग में नवीनतम चर्चाएँ', discussion_title: '{discussion_name}', discussion_subtitle: 'इस चर्चा में अंतिम संदेश', user_title: '{उपयोगकर्ता नाम}', user_subtitle: 'इस उपयोगकर्ता द्वारा नवीनतम पोस्ट और टिप्पणियां।' }
+      titles: { main_subtitle: 'फोरम में अंतिम पोस्ट', main_d_subtitle: 'मंच में नवीनतम चर्चाएं', discussion_subtitle: 'इस चर्चा में अंतिम संदेश', user_subtitle: 'इस उपयोगकर्ता द्वारा नवीनतम पोस्ट और टिप्पणियां।' }
     discussion:
       feed_link: खिलाना
 ianm-log-viewer: null
@@ -1072,7 +779,6 @@ ianm-html-head: null
 ianm-follow-users:
   forum:
     followed: बाद
-    followers: '{गिनती, बहुवचन, एक {अनुयायी} अन्य {अनुयायी}}'
     profile_page:
       no_following: 'ऐसा लगता है कि आप किसी का अनुसरण नहीं कर रहे हैं।'
     settings:
@@ -1081,17 +787,12 @@ ianm-follow-users:
       notify_new_discussion_label: 'मैं जिस व्यक्ति का अनुसरण कर रहा हूँ वह चर्चा शुरू करता है'
       notify_new_post_label: 'कोई ऐसा व्यक्ति जिसका मैं किसी मौजूदा चर्चा में पोस्ट का अनुसरण कर रहा हूँ'
       block_follow: 'उपयोगकर्ताओं को मेरा अनुसरण करने से रोकें'
-    notifications:
-      new_discussion_text: '{उपयोगकर्ता नाम} प्रारंभ हो गया'
-      new_post_text: '{उपयोगकर्ता नाम} एक चर्चा में पोस्ट किया गया'
-      new_follower_text: '{username} ने आपका अनुसरण किया'
-      new_unfollower_text: '{उपयोगकर्ता नाम} ने आपका अनुसरण करना बंद कर दिया है'
     badge:
       label: { follow: 'चर्चाओं के बाद', lurk: 'सभी का पालन करना' }
     filter:
       following: 'फ़ॉलो किए गए उपयोगकर्ता'
     modals:
-      select_follow_level: { title: '{username} के लिए फ़ॉलो स्तर का चयन करें', description: 'चुनें कि आप <em>{उपयोगकर्ता नाम}</em> को कैसे फ़ॉलो करना चाहते हैं.', follow_levels_heading: 'स्तरों का पालन करें', follow_select_label: 'फ़ॉलो प्रकार', no_user_attr_provided_err: 'उह ओह, इस मोडल को खोलते समय कुछ गलत हो गया।', no_user_attr_provided_err_debug: 'बनाते समय SelectFollowUserLevel मोडल में कोई ''उपयोगकर्ता'' विशेषता पास नहीं की गई थी। मॉडल का प्रतिपादन नहीं किया जा सकता।', save_btn: 'रक्षा कर', cancel_btn: 'रद्द करना' }
+      select_follow_level: { follow_levels_heading: 'स्तरों का पालन करें', follow_select_label: 'फ़ॉलो प्रकार', no_user_attr_provided_err: 'उह ओह, इस मोडल को खोलते समय कुछ गलत हो गया।', no_user_attr_provided_err_debug: 'बनाते समय SelectFollowUserLevel मोडल में कोई ''उपयोगकर्ता'' विशेषता पास नहीं की गई थी। मॉडल का प्रतिपादन नहीं किया जा सकता।', save_btn: 'रक्षा कर', cancel_btn: 'रद्द करना' }
     profile_link: 'फ़ॉलो किए गए उपयोगकर्ता'
     user_controls:
       follow_button: 'पीछा करना'
@@ -1101,37 +802,28 @@ ianm-follow-users:
       follow_tag_button: 'पीछा करना'
       unfollow_tag_button: 'फ़ॉलो करने का प्रकार बदलना'
   email:
-    new_discussion_by_user_subject: '[उपयोगकर्ता का अनुसरण करें] {शीर्षक}'
     new_follower_subject: '[उपयोगकर्ता का अनुसरण करें] आपके पास एक नया अनुयायी है!'
-    new_post_subject: '[उपयोगकर्ता का अनुसरण करें] {शीर्षक} में नई पोस्ट'
-    new_discussion_by_user_body: "अरे {recipient_display_name},\n\n{user_display_name} ने एक नई चर्चा प्रारंभ की: {discussion_title}\n\nनई चर्चा देखने के लिए, निम्न लिंक देखें:\n\n{discussion_url}\n\n---\n\n{post_content}\n"
-    new_follower_body: "अरे {recipient_display_name},\n\n{follower_display_name} ने आपका अनुसरण करना प्रारंभ कर दिया है, इसलिए जब आप कोई नई चर्चा प्रारंभ करेंगे तो उन्हें सूचित किया जाएगा.\n\nउनकी प्रोफ़ाइल देखने के लिए, निम्न लिंक देखें:\n\n{profile_url}\n"
-    new_post_body: "अरे {recipient_display_name},\n\n{user_display_name} एक चर्चा में पोस्ट किया गया: {discussion_title}\n\nनई गतिविधि देखने के लिए, निम्न लिंक देखें:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nजब तक आप अप-टू-डेट नहीं होंगे, तब तक आपको इस चर्चा के बारे में कोई और सूचना प्राप्त नहीं होगी।\n"
   lib:
     following_link: 'फ़ॉलो किए गए उपयोगकर्ता'
     follow: 'पीछा करना'
     change_follow_type: 'फ़ॉलो करने का प्रकार बदलना'
     unfollow: 'अनफ़ॉलो करना'
     follow_levels:
-      unfollow: { name: 'का पालन न करें', description: "<em>{username}</em> की गतिविधि के लिए कोई सूचना प्राप्त न करें।\n" }
-      follow: { name: 'चर्चाओं का पालन करें', description: "<em>{username}</em> द्वारा नई चर्चा प्रारंभ होने पर सूचनाएँ प्राप्त करें.\n" }
-      lurk: { name: 'सभी का पालन करें', description: "जब <em>{उपयोगकर्ता नाम}</em> किसी भी चर्चा में कोई नई चर्चा या पोस्ट प्रारंभ करता है, तो सूचनाएँ प्राप्त करें.\n" }
+      unfollow: { name: 'का पालन न करें' }
+      follow: { name: 'चर्चाओं का पालन करें' }
+      lurk: { name: 'सभी का पालन करें' }
 fof-username-request:
   forum:
     nickname_modals:
-      action: { help_text: 'कृपया सुनिश्चित करें कि यह अनुरोधित उपनाम परिवर्तन फ़ोरम दिशानिर्देशों का पालन करता है.', decision_title: निर्णय, approval_label: 'समर्थन कर', rejected_label: 'अस्वीकार करना', submit_button: 'जमा करें', reason_title: 'अस्वीकृति का कारण', success: 'निर्णय भेज दिया गया है।', name: '{name} ने अपना उपनाम बदलकर "{requestedName}" करने का अनुरोध किया है', title: 'उपनाम परिवर्तन अनुरोध' }
-      results: { title: 'उपनाम परिवर्तन अनुरोध', approved: 'आपका उपनाम परिवर्तन अनुरोध स्वीकार कर लिया गया है', new_name: 'आपका उपनाम सफलतापूर्वक इसमें बदल दिया गया है: {name}', rejected: 'आपका उपनाम परिवर्तन अनुरोध अस्वीकार कर दिया गया था', reason: 'अस्वीकृति का कारण: <i>"{कारण}"</i>।', resubmit: 'इस समय, यदि आप ऐसा चुनते हैं, तो आप अपनी खाता सेटिंग से एक नया उपनाम परिवर्तन अनुरोध पुनः सबमिट कर सकते हैं।', dismiss_button: 'ठीक है' }
-      request: { title: 'उपनाम परिवर्तन का अनुरोध करें', current_request: 'आपने पहले ही अपना उपनाम "{name}" में बदलने का अनुरोध किया है। आप या तो अपना अनुरोध अपडेट कर सकते हैं या इसे हटा सकते हैं।', submit_button: 'अनुरोध सबमिट करें', delete_button: 'अनुरोध हटाएं', confirmation_message: 'आपका उपनाम परिवर्तन अनुरोध सबमिट कर दिया गया है और अनुमोदन लंबित है।', deleted: 'उपनाम अनुरोध हटा दिया गया.', dismiss_button: 'ठीक है' }
+      action: { help_text: 'कृपया सुनिश्चित करें कि यह अनुरोधित उपनाम परिवर्तन फ़ोरम दिशानिर्देशों का पालन करता है.', decision_title: निर्णय, approval_label: 'समर्थन कर', rejected_label: 'अस्वीकार करना', submit_button: 'जमा करें', reason_title: 'अस्वीकृति का कारण', success: 'निर्णय भेज दिया गया है।', title: 'उपनाम परिवर्तन अनुरोध' }
+      results: { title: 'उपनाम परिवर्तन अनुरोध', approved: 'आपका उपनाम परिवर्तन अनुरोध स्वीकार कर लिया गया है', rejected: 'आपका उपनाम परिवर्तन अनुरोध अस्वीकार कर दिया गया था', resubmit: 'इस समय, यदि आप ऐसा चुनते हैं, तो आप अपनी खाता सेटिंग से एक नया उपनाम परिवर्तन अनुरोध पुनः सबमिट कर सकते हैं।', dismiss_button: 'ठीक है' }
+      request: { title: 'उपनाम परिवर्तन का अनुरोध करें', submit_button: 'अनुरोध सबमिट करें', delete_button: 'अनुरोध हटाएं', confirmation_message: 'आपका उपनाम परिवर्तन अनुरोध सबमिट कर दिया गया है और अनुमोदन लंबित है।', deleted: 'उपनाम अनुरोध हटा दिया गया.', dismiss_button: 'ठीक है' }
     username_modals:
-      action: { help_text: 'कृपया सुनिश्चित करें कि यह अनुरोधित उपयोगकर्ता नाम परिवर्तन फ़ोरम दिशानिर्देशों का पालन करता है.', decision_title: निर्णय, approval_label: 'समर्थन कर', rejected_label: 'अस्वीकार करना', submit_button: 'जमा करें', reason_title: 'अस्वीकृति का कारण', success: 'निर्णय भेज दिया गया है।', name: '{name} ने अपना उपयोगकर्ता नाम बदलकर "{requestedName}" करने का अनुरोध किया है', title: 'उपयोगकर्ता नाम बदलने का अनुरोध' }
-      results: { title: 'उपयोगकर्ता नाम बदलने का अनुरोध', approved: 'आपका उपयोगकर्ता नाम बदलने का अनुरोध स्वीकार कर लिया गया है', new_name: 'आपका उपयोगकर्ता नाम सफलतापूर्वक इसमें बदल दिया गया है: {name}', rejected: 'आपका उपयोगकर्ता नाम बदलने का अनुरोध अस्वीकार कर दिया गया था', reason: 'अस्वीकृति का कारण: <i>"{कारण}"</i>।', resubmit: 'इस समय, यदि आप ऐसा करना चुनते हैं, तो आप अपनी खाता सेटिंग से एक नया उपयोगकर्ता नाम परिवर्तन अनुरोध पुनः सबमिट कर सकते हैं.', dismiss_button: 'ठीक है' }
-      request: { title: 'उपयोगकर्ता नाम बदलने का अनुरोध करें', current_request: 'आपने पहले ही अपना उपयोगकर्ता नाम बदलकर "{name}" करने का अनुरोध कर दिया है। आप या तो अपना अनुरोध अपडेट कर सकते हैं या इसे हटा सकते हैं।', submit_button: 'अनुरोध सबमिट करें', delete_button: 'अनुरोध हटाएं', confirmation_message: 'आपका उपयोगकर्ता नाम बदलने का अनुरोध सबमिट कर दिया गया है और अनुमोदन लंबित है.', deleted: 'उपयोगकर्ता नाम अनुरोध हटा दिया गया.', dismiss_button: 'ठीक है' }
+      action: { help_text: 'कृपया सुनिश्चित करें कि यह अनुरोधित उपयोगकर्ता नाम परिवर्तन फ़ोरम दिशानिर्देशों का पालन करता है.', decision_title: निर्णय, approval_label: 'समर्थन कर', rejected_label: 'अस्वीकार करना', submit_button: 'जमा करें', reason_title: 'अस्वीकृति का कारण', success: 'निर्णय भेज दिया गया है।', title: 'उपयोगकर्ता नाम बदलने का अनुरोध' }
+      results: { title: 'उपयोगकर्ता नाम बदलने का अनुरोध', approved: 'आपका उपयोगकर्ता नाम बदलने का अनुरोध स्वीकार कर लिया गया है', rejected: 'आपका उपयोगकर्ता नाम बदलने का अनुरोध अस्वीकार कर दिया गया था', resubmit: 'इस समय, यदि आप ऐसा करना चुनते हैं, तो आप अपनी खाता सेटिंग से एक नया उपयोगकर्ता नाम परिवर्तन अनुरोध पुनः सबमिट कर सकते हैं.', dismiss_button: 'ठीक है' }
+      request: { title: 'उपयोगकर्ता नाम बदलने का अनुरोध करें', submit_button: 'अनुरोध सबमिट करें', delete_button: 'अनुरोध हटाएं', confirmation_message: 'आपका उपयोगकर्ता नाम बदलने का अनुरोध सबमिट कर दिया गया है और अनुमोदन लंबित है.', deleted: 'उपयोगकर्ता नाम अनुरोध हटा दिया गया.', dismiss_button: 'ठीक है' }
     pending_requests:
       empty_text: 'कोई नाम परिवर्तन अनुरोध नहीं मिला.'
-      nickname_item_text: '{name} ने प्रचलित नाम बदलने का अनुरोध किया है'
-      nickname_exerpt: 'अनुरोधित उपनाम: {requestedName}'
-      username_item_text: '{name} ने उपयोगकर्ता नाम बदलने का अनुरोध किया है'
-      username_exerpt: 'अनुरोधित उपयोगकर्ता नाम: {requestedName}'
       tooltip: 'नाम परिवर्तन अनुरोध'
       title: 'नाम परिवर्तन अनुरोध'
     settings:
@@ -1149,15 +841,9 @@ fof-username-request:
   email:
     body:
       noReasonProvided: 'कोई कारण नहीं बताया गया।'
-      approved: "नमस्ते {recipient_display_name},\n\nअपना उपयोगकर्ता नाम बदलकर \"{new_username}\" करने के आपके अनुरोध को {actor_display_name} द्वारा अनुमोदित कर दिया गया है.\n\nअब आप अपने नए उपयोगकर्ता नाम से लॉग इन कर सकते हैं: {login_url}\n"
-      rejected: "नमस्ते {recipient_display_name},\n\nअपना उपयोगकर्ता नाम \"{old_username}\" से \"{requested_username}\" में बदलने का आपका अनुरोध {actor_display_name} द्वारा अस्वीकार कर दिया गया है.\n\nकारण: {कारण}\n"
-    subject:
-      approved: '{display_name} ने आपके उपयोगकर्ता नाम परिवर्तन को {requested_username} में अनुमोदित किया है'
-      rejected: '{display_name} ने आपके उपयोगकर्ता नाम परिवर्तन को {requested_username} में अस्वीकार कर दिया है'
 fof-user-bio:
   forum:
     userbioPlaceholder: 'अपने बारे में कुछ लिखें'
-    userbioPlaceholderOtherUser: '{उपयोगकर्ता नाम} के लिए एक जीवनी लिखें'
     profile:
       cancel_confirm: 'क्या आप वाकई अपने परिचय का संपादन रद्द करना चाहते हैं? आप अपने द्वारा किए गए किसी भी परिवर्तन को खो देंगे।'
       cancel_button: 'रद्द करना'
@@ -1165,9 +851,6 @@ fof-user-bio:
       edit_bio_label: 'बायो संपादित करें'
 fof-split:
   forum:
-    post:
-      was_split_to: '{गणना, बहुवचन, एक {{गणना} पोस्ट को {लक्ष्य}} में विभाजित किया गया था। अन्य {{गणना} पदों को {लक्ष्य} में विभाजित किया गया था।'
-      was_split_from: '{गणना, बहुवचन, एक {{गणना} पोस्ट को {लक्ष्य} से विभाजित किया गया था। अन्य {{गणना} पोस्ट को {लक्ष्य} से विभाजित किया गया था।'
     split:
       from: 'यहाँ से अलग हो जाओ'
       to: 'यहाँ करने के लिए विभाजित'
@@ -1221,13 +904,11 @@ fof-reactions:
   forum:
     disabled-reaction: 'आप अभी इस प्रतिक्रिया का उपयोग नहीं कर सकते, कृपया पृष्ठ को ताज़ा करें'
     warning: 'आपकी प्रतिक्रिया परिवर्तित हो गई थी'
-    notification: '{उपयोगकर्ता नाम} ने आपकी पोस्ट पर {प्रतिक्रिया} के साथ प्रतिक्रिया दी'
     settings:
       notify_post_reacted_label: 'कोई मेरी पोस्ट पर प्रतिक्रिया देता है'
     reacting-own-post: 'आप अपनी ही पोस्ट पर प्रतिक्रिया नहीं दे सकते'
     modal:
       title: प्रतिक्रियाओं
-      anonymous_count: '{गणना, बहुवचन, एक {# अनाम उपयोगकर्ता} अन्य {# अनाम उपयोगकर्ता}}'
       no_reactions: 'अभी तक कोई प्रतिक्रिया नहीं'
     mod_item: 'रिएक्शन देखें'
     react_button_label: 'प्रतिक्रिया करना'
@@ -1241,22 +922,19 @@ fof-profile-image-crop:
 fof-prevent-necrobumping:
   forum:
     composer:
-      warning: { title: 'यह चर्चा <b>{समय}</b> से अधिक पुरानी है।', description: 'यह बहुत संभावना है कि इसे किसी और चर्चा की आवश्यकता नहीं है और इस प्रकार इसे टक्कर देने से कोई उद्देश्य नहीं है।', checkbox_label: 'मुझे पता है कि यह चर्चा काफी पुरानी है लेकिन फिर भी मैं इसका उत्तर देना चाहूंगा।', error: 'यह चर्चा उत्तर देने के लिए बहुत पुरानी है।' }
+      warning: { description: 'यह बहुत संभावना है कि इसे किसी और चर्चा की आवश्यकता नहीं है और इस प्रकार इसे टक्कर देने से कोई उद्देश्य नहीं है।', checkbox_label: 'मुझे पता है कि यह चर्चा काफी पुरानी है लेकिन फिर भी मैं इसका उत्तर देना चाहूंगा।', error: 'यह चर्चा उत्तर देने के लिए बहुत पुरानी है।' }
 fof-pretty-mail: null
 fof-polls:
   forum:
-    days_remaining: 'पोल {समय} समाप्त होता है।'
     no_permission: 'आपको वोट देने की अनुमति नहीं है'
     poll_ended: 'यह पोल खत्म हो चुका है।'
     public_poll: 'मतदाताओं को देखें'
-    max_votes_allowed: 'पोल {अधिकतम, बहुवचन, एक {# विकल्प} अन्य {# विकल्प}} के लिए मतदान की अनुमति देता है।'
     composer_discussion:
       add_poll: 'पोल जोड़ें'
       edit_poll: 'पोल संपादित करें'
     modal:
       add_title: 'पोल जोड़ें'
       add_option_label: 'एक विकल्प जोड़ें'
-      date_placeholder: 'मतदान समाप्त होने की तिथि (वैकल्पिक)'
       edit_title: 'पोल संपादित करें'
       include_question: 'आपको एक प्रश्न शामिल करना होगा'
       max: 'आपके पास अधिकतम 10 उत्तर हो सकते हैं'
@@ -1277,7 +955,6 @@ fof-polls:
       edit: 'पोल संपादित करें'
     tooltip:
       badge: मतदान
-      votes: '{गिनती, बहुवचन, एक {# वोट} अन्य {# वोट}}'
     votes_modal:
       title: मतदाताओं
 fof-nightmode:
@@ -1297,11 +974,9 @@ fof-moderator-notes:
   forum:
     no_content_given: 'एक खाली नोट की अनुमति नहीं है।'
     moderatorNotes:
-      created_text: '{username} ने इस नोट को {date} पर बनाया है'
       add_button: 'नया नोट'
       create-heading: 'एक नया मॉडरेटर नोट बनाएँ'
       dismiss_button: समाज-सम्मत
-      input_heading: '<strong>{उपयोगकर्ता नाम}</strong> के लिए अपने नोट्स दर्ज करें, (मार्कडाउन समर्थित है)'
       noNotes: 'ऐसा लगता है कि यहां कोई नोट नहीं हैं।'
       submit_button: 'नोट सहेजें'
       delete: मिटाना
@@ -1309,8 +984,6 @@ fof-moderator-notes:
     user:
       notes: 'मॉडरेटर नोट्स'
   api:
-    auto_note: '_I इस उपयोगकर्ता पर स्विच किया गया:_ {कारण}'
-    auto_note_actor: '_Switched to_ @{उपयोगकर्ता नाम}: {कारण}'
     no_reason_provided: 'कोई कारण नहीं बताया गया'
 fof-linguist: null
 fof-html-errors: null
@@ -1325,12 +998,8 @@ fof-gamification:
       name: उपभोक्ता
       amount: अंक
     notification:
-      upvote: '{उपयोगकर्ता नाम} ने आपकी पोस्ट को अपवोट किया'
-      downvote: '{उपयोगकर्ता नाम} ने आपकी पोस्ट को डाउनवोट किया'
       prefrences: { vote: 'जब मेरी एक पोस्ट ऊपर/नीचे मतदान की जाती है' }
     user:
-      card: { points: '{गणना, बहुवचन, एक { {गिनती} बिंदु} अन्य {{गिनती} अंक}}' }
-      rank: '{रैंक}'
       votes_link: वोट
     modal:
       downvotes_label: 'डाउनवोटर:'
@@ -1344,11 +1013,6 @@ fof-gamification:
     post:
       upvote_button: 'अपवोट पोस्ट'
       downvote_button: 'डाउनवोट पोस्ट'
-  email:
-    body:
-      postVoted: "अरे {recipient_display_name},\n\n{actor_display_name} ने अभी-अभी {discussion_title} में आपकी पोस्ट पर मतदान किया है.\n\nइसे यहाँ देखें: {discussion_url}\n"
-    subject:
-      postVoted: 'आपकी पोस्ट पर {display_name} द्वारा मतदान किया गया था'
 fof-formatting: null
 fof-drafts:
   console:
@@ -1367,7 +1031,6 @@ fof-drafts:
       title: ड्राफ्ट
       delete_all_button: 'सभी ड्राफ़्ट हटाएँ'
       delete_button: 'ड्राफ़्ट हटाएं'
-      scheduled_icon_tooltip: '{datetime} के लिए शेड्यूल किया गया'
       scheduled_icon_tooltip_formatter: 'एल [पर] एलटी'
       alert: 'क्या आप वाकई अपना ड्राफ़्ट हटाना चाहते हैं?'
       delete_all_alert: 'क्या आप वाकई अपने सभी प्रारूप हटाना चाहते हैं?'
@@ -1375,13 +1038,10 @@ fof-drafts:
       tooltip: ड्राफ्ट
     schedule_draft_modal:
       text: 'अपने ड्राफ़्ट को बाद में स्वचालित रूप से पोस्ट करने के लिए शेड्यूल करें!'
-      scheduled_text: 'वर्तमान में {datetime} पर पोस्ट करने के लिए निर्धारित है।'
-      scheduled_error: 'प्रारूप शेड्यूल करने में असमर्थ: {error}.'
       unschedule_button: 'शेड्यूल नहीं'
       unschedule_warning: 'क्या आप वाकई इस प्रारूप को शेड्यूल रद्द करना चाहते हैं?'
       reschedule_button: पुनर्निर्धारित
       schedule_button: अनुसूची
-      schedule_time_preview: 'यह ड्राफ़्ट {<b>datetime}</b> पर स्वचालित रूप से प्रकाशित हो जाएगा.'
       schedule_time_preview_formatter: एलएलएलएल
       schedule_time_preview_invalid: 'अमान्य दिनांक और/या समय'
       title: 'अनुसूची मसौदा'
@@ -1393,13 +1053,10 @@ fof-best-answer:
     this_best_answer: 'सर्वश्रेष्ठ उत्तर का चयन करें'
     remove_best_answer: 'सर्वश्रेष्ठ उत्तर का चयन रद्द करें'
     best_answer_button: 'सर्वश्रेष्ठ उत्तर'
-    best_answer_label: '<a>{username}</a> {time_set} द्वारा सेट करें'
     errors:
       mismatch: 'चयनित पोस्ट इस चर्चा में मौजूद नहीं है.'
     notification:
-      best_answer_in_discussion: '{उपयोगकर्ता नाम} इस चर्चा में एक सर्वश्रेष्ठ उत्तर सेट करें'
       content: 'यदि आपके प्रश्न का उत्तर दिया गया है तो कृपया सर्वश्रेष्ठ उत्तर चुनें'
-      awarded: 'आपकी पोस्ट को {उपयोगकर्ता नाम} द्वारा सर्वश्रेष्ठ उत्तर के रूप में सेट किया गया था'
       preferences: { awarded_best_answer: 'कोई मेरी पोस्ट को सर्वश्रेष्ठ उत्तर के रूप में सेट करता है', best_answer_in_discussion: 'एक सबसे अच्छा जवाब उस चर्चा में सेट किया गया है जिसमें मैंने भाग लिया था', select_best_answer: 'मेरे द्वारा शुरू की गई चर्चा में सर्वश्रेष्ठ उत्तर का चयन करने के लिए एक स्वचालित अनुस्मारक' }
     index:
       ask_question: 'एक प्रश्न पूछें'
@@ -1413,22 +1070,13 @@ fof-best-answer:
       accessible_label: 'हल/अनसुलझा चयन'
     composer:
       titlePlaceholder: 'प्रश्न का शीर्षक'
-    user:
-      best-answer-count: '{गणना, बहुवचन, एक {{गिनती} सबसे अच्छा उत्तर} अन्य {{गिनती} सबसे अच्छा उत्तर}}'
     search:
       discussions_solutions_heading: 'समाधान के साथ चर्चा'
-      all_discussions_solutions_button: '"{query}" के लिए समाधान के साथ सभी चर्चाओं को खोजें'
     discussion:
       jump_to_best_answer_button: 'सर्वश्रेष्ठ उत्तर देखें'
   email:
     subject:
-      awarded: 'आपका पोस्ट {display_name} द्वारा सर्वश्रेष्ठ उत्तर के रूप में सेट किया गया था'
-      ba-set: 'सबसे अच्छा जवाब {display_name} द्वारा निर्धारित किया गया था'
       select: 'क्या आप अपने प्रश्न का उत्तर देने का प्रबंधन करते हैं?'
-    body:
-      awarded: "Hey {recipient_display_name},\n\nग्रेट जॉब, {actor_display_name} बस अपनी पोस्ट को चर्चा में सर्वश्रेष्ठ उत्तर के रूप में सेट करें: {discussion_title}। मदद करने के लिए धन्यवाद।\n\nइसे यहां देखें: {discussion_url}\n"
-      ba-set: "Hey {recipient_display_name},\n\n{actor_display_name} ने सिर्फ इस चर्चा में एक सर्वश्रेष्ठ जवाब दिया: {discussion_title}, जिसने आपने भाग लिया।\n\nइसे बाहर देखें: {discussion_url}\n"
-      select: "Hey {recipient_display_name},\n\nबस में जाँच; अब तक आपके पास अपने सवाल का जवाब देना चाहिए: {discussion_title}। शायद उनमें से एक ने आपको अपनी समस्या को हल करने में मदद की है।\n\nयदि ऐसा हो तो भविष्य के सदस्यों के लिए यह वास्तव में मददगार होगा यदि आप अपने प्रश्न का सबसे अच्छा जवाब दे सकते हैं। यह उन लोगों की मदद करेगा जो उसी समस्या से पीड़ित होंगे, जिनका जवाब उनकी आवश्यकता है, और यह उन सदस्यों को भी धन्यवाद देता है जिन्होंने आपकी मदद की थी। वे अपना समय स्वेच्छा से देते हैं, इसलिए उन्हें यह बताने के लिए अच्छा है कि वे अच्छी तरह से कर रहे हैं।\n\nयहां चर्चा पर जाएं: {discussion_url}, और सबसे उपयुक्त पोस्ट का चयन सर्वोत्तम उत्तर के रूप में करें।\n\nधन्यवाद!\n"
 fof-user-directory:
   lib:
     sort:
@@ -1437,8 +1085,6 @@ fof-user-directory:
 fof-ban-ips:
   forum:
     modal:
-      ban_options_only_ip: 'केवल वर्तमान IP (<code>{ip}</code>) पर प्रतिबंध लगाएं'
-      ban_options_all_ip: '<i>{उपयोगकर्ता नाम}</i> द्वारा उपयोग किए जाने वाले सभी आईपी पर प्रतिबंध लगाएं'
       ban_ip_no_users: 'किसी और पर प्रतिबंध नहीं लगाया जाएगा'
     user_badge:
       banned_tooltip: प्रतिबंधित
@@ -1455,13 +1101,8 @@ fof-ban-ips:
       check_button: जाँच
       save_button: 'रक्षा कर'
       ban_ip_confirmation: 'क्या आप वाकई इस IP पते को फ़ोरम पर उपयोग से अवरोधित करना चाहते हैं? यह इस आईपी पते (तों) वाले उपयोगकर्ताओं को लॉग इन करने और पंजीकरण करने से रोक देगा।'
-      ban_ip_users: '{गणना, बहुवचन, एक {उपयोगकर्ता {उपयोगकर्ता} पर प्रतिबंध लगा दिया जाएगा} अन्य {उपयोगकर्ता {उपयोगकर्ता} पर प्रतिबंध लगा दिया जाएगा}}'
       unban_ip_confirmation: 'क्या आप वाकई इस उपयोगकर्ता और अन्य सभी उपयोगकर्ताओं को अन्य IP द्वारा प्रतिबंधित नहीं करना चाहते हैं?'
-      unban_options_only_ip: 'केवल वर्तमान IP (<code>{ip}</code>) पर से प्रतिबंध हटाना'
-      unban_options_all_ip: '<i>{username}</i> द्वारा उपयोग किए जाने वाले सभी IP को अनबैन करें'
       unban_ip_no_users: 'किसी और पर से प्रतिबंध नहीं हटाया जाएगा'
-      unban_ip_users: '{गणना, बहुवचन, एक {उपयोगकर्ता {उपयोगकर्ता} अप्रतिबंधित हो जाएगा} अन्य {उपयोगकर्ता {उपयोगकर्ता} अप्रतिबंधित होंगे}}'
-      unbanned_ips: 'अप्रतिबंधित <code>{ips}</code>।'
       title: 'आईपी पर प्रतिबंध लगाएं'
       unban_title: 'अनबैन आईपी'
       address_label: 'IP पता'
@@ -1492,7 +1133,6 @@ fof-anti-spam:
       move_discussions_tag_label: 'चर्चाओं को क्वारंटाइन टैग पर ले जाएं'
       move_discussions_tag_help: 'यह इस उपयोगकर्ता द्वारा शुरू की गई सभी चर्चाओं को आपके द्वारा फ़ोरम सेटिंग्स में निर्दिष्ट टैग पर ले जाएगा। अक्षम होने पर, चर्चाएँ उनके वर्तमान टैग में छोड़ दी जाएँगी.'
       process_button: प्रक्रिया
-      title: '{username} को स्पैमर के रूप में चिह्नित करें'
       report_to_sfs_label: 'StopForumSpam को रिपोर्ट करें'
       report_to_sfs_help: 'यह उपयोगकर्ता के मूल विवरण (उपयोगकर्ता नाम, ईमेल, आईपी पता) को StopForumSpam को रिपोर्ट करेगा। यह उपयोगकर्ता को StopForumSpam सेवा का उपयोग करने वाले अन्य मंचों पर पंजीकरण करने से रोकने में मदद करेगा।'
     user_controls:
@@ -1511,18 +1151,11 @@ flarum-sticky:
     discussion_controls:
       unsticky_button: 'चिपचिपा नहीं'
       sticky_button: चिपचिपा
-    post_stream:
-      discussion_stickied_text: '{उपयोगकर्ता नाम} ने चर्चा {समय} को चिपका दिया।'
-      discussion_unstickied_text: '{उपयोगकर्ता नाम} ने चर्चा {समय} को अनस्टिक कर दिया।'
     badge:
       sticky_tooltip: चिपचिपा
   ref:
     sticky: चिपचिपा
 flarum-statistics: null
-flarum-pusher:
-  forum:
-    discussion_list:
-      show_updates_text: '{गणना, बहुवचन, एक {# अद्यतन चर्चा दिखाएं} अन्य {# अद्यतन चर्चाएँ दिखाएं}}'
 flarum-lock:
   forum:
     badge:
@@ -1530,24 +1163,13 @@ flarum-lock:
     discussion_controls:
       lock_button: ताला
       unlock_button: 'ताला खोलना'
-    notifications:
-      discussion_locked_text: '{उपयोगकर्ता नाम} लॉक किया गया'
-    post_stream:
-      discussion_locked_text: '{username} ने चर्चा {time} को अवरोधित कर दिया है.'
-      discussion_unlocked_text: '{username} ने चर्चा {time} को अनलॉक कर दिया.'
     settings:
       notify_discussion_locked_label: 'कोई मेरे द्वारा शुरू की गई चर्चा को लॉक करता है'
 flarum-likes:
   forum:
-    notifications:
-      post_liked_text: '{उपयोगकर्ता नाम} आपकी पोस्ट पसंद आया'
-      others_text: '{गिनती, बहुवचन, एक {# अन्य} अन्य {# अन्य}}'
     post:
       like_link: पसंद
-      liked_by_self_text: '{उपयोगकर्ता} इस तरह।'
-      liked_by_text: '{गिनती, बहुवचन, एक {{उपयोगकर्ता} इसे पसंद करता है} अन्य {{उपयोगकर्ता} इस तरह}}।'
       unlike_link: 'के विपरीत'
-      others_link: '{गिनती, बहुवचन, एक {# अन्य} अन्य {# अन्य}}'
       you_text: तुम
     post_likes:
       title: 'यूजर्स को जो इसे पसंद करते हैं'
@@ -1602,9 +1224,6 @@ dhtml-composer:
       character_counter: 'चरित्र काउंटर'
 datlechin-birthdays:
   forum:
-    user:
-      birthday_text: 'जन्मदिन: {तारीख}'
-      age_text: 'आयु: {आयु}'
     change_dob:
       title: 'जन्म तिथि संपादित करें'
       date_of_birth_text: 'जन्म तिथि'
@@ -1617,16 +1236,12 @@ datlechin-birthdays:
       dob_heading: 'जन्म तिथि'
     nav:
       nav_item: 'आज के जन्मदिन'
-    page:
-      discussion_count: '{गिनती, बहुवचन, एक {चर्चा: #} अन्य {चर्चा: #}}'
-      post_count: '{गिनती, बहुवचन, एक {पोस्ट: #} अन्य {पोस्ट: #}}'
     edit_user:
       dob_heading: 'जन्म तिथि'
     sign_up:
       dob_placeholder: 'जन्म तिथि'
   api:
     invalid_dob_message: 'जन्म की अमान्य तिथि'
-    invalid_age_message: 'आपकी उम्र कम से कम {minAge} वर्ष होनी चाहिए।'
   ref:
     date_of_birth: 'जन्म तिथि'
 clarkwinkelmann-post-permissions: null
@@ -1662,24 +1277,13 @@ askvortsov-rich-text:
       insert_image: { src_placeholder: जोड, title_placeholder: उपाधि }
       insert_link: { text_placeholder: टेक्स्ट, href_placeholder: यूआरएल, title_placeholder: 'शीर्षक (होवर पर दिखाता है)', remove_button: हटाना }
       additional_items_tooltip: 'अतिरिक्त नियंत्रण'
-      bold_tooltip: 'बोल्ड टेक्स्ट <{modifierKey}-b>'
-      code_tooltip: 'इनलाइन कोड <{modifierKey}-''>'
       code_block_tooltip: 'कोड ब्लॉक सम्मिलित करें'
-      header_tooltip: 'हेडर {स्तर} <shift-{modifierKey}-{level} में बदलें>'
       horizontal_rule_tooltip: 'क्षैतिज नियम सम्मिलित करें'
       image_tooltip: 'एक छवि जोड़ें'
-      italic_tooltip: 'इटैलिक टेक्स्ट <{modifierKey}-i>'
       link_tooltip: 'कोई लिंक जोड़ना'
-      ordered_list_tooltip: 'क्रमांकित सूची <shift-{modifierKey} -9>'
-      paragraph_tooltip: 'अनुच्छेद <shift-{modifierKey}-0 में बदलें>'
-      quote_tooltip: 'एक उद्धरण सम्मिलित करें <{modifierKey}-q>'
       spoiler_block_tooltip: 'ब्लॉक स्पॉइलर/ड्रॉपडाउन'
-      spoiler_inline_tooltip: 'Spoiler <{modifierKey}-;>'
       strike_tooltip: 'स्ट्राइकथ्रू <alt-shift-5>'
-      sub_tooltip: 'सबस्क्रिप्ट <{modifierKey}-,>'
-      sup_tooltip: 'सुपरस्क्रिप्ट <{modifierKey}-.>'
       text_type_tooltip: 'पाठ प्रकार का चयन करें'
-      unordered_list_tooltip: 'बुलेटेड सूची <shift-{modifierKey}-8>'
   forum:
     settings:
       composer_heading: संगीतकार
@@ -1694,7 +1298,6 @@ askvortsov-pwa:
       share_button: पत्ती
     post_controls:
       share_button: पत्ती
-      share_api: { title: '{title} को {username} का जवाब''' }
     user_controls:
       share_button: पत्ती
     settings:
@@ -1705,20 +1308,7 @@ askvortsov-pwa:
       header: 'नेटवर्क कनेक्शन त्रुटि'
       text: 'इस एप्लिकेशन को एक नेटवर्क कनेक्शन की आवश्यकता है; इसे ऑफ़लाइन उपयोग नहीं किया जा सकता है। कृपया अपना कनेक्शन जांचें।'
 askvortsov-moderator-warnings:
-  emails:
-    post_warned:
-      subject: '{warner_display_name} ने आपको {strikes, plural, one {# strike} और {# strikes}} के साथ {discussion_title} से चेतावनी दी है'
-      body: "अरे {warnee_display_name}!\n\n{warner_display_name} ने आपको {strikes, plural, one {# strike} और {# strikes}} के साथ {discussion_title} से चेतावनी दी है\n\nनिम्नलिखित कारण दिया गया था:\n\n---\n\n{public_comment}\n"
-    user_warned:
-      subject: '{warner_display_name} ने आपको {स्ट्राइक, बहुवचन, एक {# स्ट्राइक} अन्य {# स्ट्राइक}} के साथ चेतावनी दी'
-      body: "अरे {warnee_display_name}!\n\n{warner_display_name} ने आपको {स्ट्राइक, बहुवचन, एक {# स्ट्राइक} अन्य {# स्ट्राइक}} के साथ चेतावनी दी\n\nनिम्नलिखित कारण दिया गया था:\n\n---\n\n{public_comment}\n"
   forum:
-    notifications:
-      warning_text: '{हड़ताले, बहुवचन, एक {आपको {mod_username}} द्वारा # हड़ताल के साथ चेतावनी दी गई थी अन्य {आपको {mod_username}}} द्वारा # हमलों के साथ चेतावनी दी गई थी।'
-      warning_no_strikes_text: 'आपको {mod_username} (कोई हड़ताल नहीं) द्वारा चेतावनी दी गई थी'
-    post:
-      warning: '{strikes, plural, one {{mod_username}} द्वारा # स्ट्राइक के साथ चेतावनी दी गई अन्य {{# स्ट्राइक के साथ चेतावनी {mod_username}}}'
-      warning_no_strikes: '{mod_username} द्वारा कोई हड़ताल के साथ चेतावनी दी'
     post_controls:
       warning_button: 'उपयोगकर्ता को चेतावनी दें'
     user:
@@ -1735,20 +1325,14 @@ askvortsov-moderator-warnings:
     warning_list:
       add_button: 'नई चेतावनी'
       no_warnings: 'ऐसा लगता है कि यहां कोई चेतावनी नहीं है।'
-      warnings: '{strikes, plurals, one {मॉडरेटर चेतावनियां: # स्ट्राइक प्राप्त} अन्य {मॉडरेटर चेतावनियां: # स्ट्राइक प्राप्त}}'
       warnings_no_strikes: 'मॉडरेटर चेतावनी: कोई स्ट्राइक प्राप्त नहीं हुई'
     warning_list_item:
-      list_item_heading: '{स्ट्राइक, बहुवचन, एक {<strong>#</strong> स्ट्राइक, {समय}} अन्य {<strong>#</strong> स्ट्राइक, {समय}}}'
-      list_item_heading_hidden: '{स्ट्राइक, बहुवचन, एक {<strong>#</strong> स्ट्राइक, {समय} <strong>(हटाया गया)</strong>} अन्य {<strong>#</strong> स्ट्राइक, {समय} <strong>(हटाया गया)</strong>}}'
       public_comment: चेतावनी
       private_comment: 'मॉडरेटर-दृश्यमान टिप्पणियाँ'
       linked_post: 'लिंक की गई पोस्ट'
     warning_modal:
       confirmation_message: 'आपकी चेतावनी सहेज ली गई है. पृष्ठ को देखने के लिए आपको उसे रीफ़्रेश करने की आवश्यकता हो सकती है.'
-      heading: '<strong>चेतावनी {उपयोगकर्ता नाम}</strong>'
       strikes_heading: 'कितनी स्ट्राइक लागू की जानी चाहिए?'
-      public_comment_heading: '<strong>{username}</strong> को ये चेतावनियाँ क्यों मिल रही हैं? ये टिप्पणियां उपयोगकर्ता और अन्य मॉडरेटर को दिखाई देंगी।'
-      private_comment_heading: '<strong>{username}</strong> को ये चेतावनियाँ क्यों मिल रही हैं? ये टिप्पणियां केवल अन्य मध्यस्थों को दिखाई देंगी।'
       submit_button: 'चेतावनी सहेजें'
 askvortsov-discussion-templates:
   forum:

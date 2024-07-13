@@ -3,7 +3,6 @@ core:
     change_email:
       incorrect_password_message: 'Sisestatud parool on vale.'
       confirm_password_placeholder: 'Kinnitage parool'
-      confirmation_message: 'Saatsime kinnitusmeili aadressile {email}. Kui see ei saabu niipea, kontrollige oma rämpsposti kausta.'
       dismiss_button: OK
       submit_button: 'Salvesta muudatused'
       title: 'E-posti aadressi muutmine'
@@ -26,7 +25,6 @@ core:
     composer_edit:
       discard_confirmation: 'Te pole muudatusi salvestanud. Kas soovite need ära visata?'
       edited_message: 'Teie muudatus on tehtud.'
-      post_link: '#{number} postitamine {arutelu}'
       submit_button: 'Salvesta muudatused'
       view_button: Vaade
     composer_reply:
@@ -48,10 +46,6 @@ core:
       restore_button: Taastada
     discussion_list:
       empty_text: 'Tundub, et siin ei ole arutelusid.'
-      replied_text: '{kasutajanimi} vastas {ago}'
-      started_text: '{kasutajanimi} algas {ago}'
-      total_replies_a11y_label: '{count, plural, one {# reply} other {# answers}}'
-      unread_replies_a11y_label: '{count, mitmuses, üks {# lugemata vastus} teine {# lugemata vastused}}. Loendamata {loendamine, mitmus, üks {vastus} teine {vastused}} loetuks märkimine.'
       load_more_button: 'Laadi rohkem'
     forgot_password:
       email_sent_message: 'Kui sisestatud e-kiri on registreeritud sellel saidil, saadame teile e-kirja, mis sisaldab linki teie parooli lähtestamiseks. Kontrolli oma rämpsposti kausta, kui sa ei saa seda järgmise minuti või kahe jooksul.'
@@ -107,7 +101,6 @@ core:
     notifications:
       delete_all_confirm: 'Kas olete kindel, et soovite kõik teatised kustutada? Seda toimingut ei saa tagasi pöörata'
       delete_all_tooltip: 'Kõigi teatiste kustutamine'
-      discussion_renamed_text: '{kasutajanimi} muutis pealkirja'
       empty_text: 'Teateid pole'
       mark_as_read_tooltip: 'Loetuks märkimine'
       toggle_dropdown_accessible_label: 'Märguannete vaatamine'
@@ -116,8 +109,6 @@ core:
       tooltip: Teatised
     post:
       edited_text: Redigeerida
-      edited_tooltip: '{kasutajanimi} edited {ago}'
-      number_tooltip: 'Postita #{number}'
     post_controls:
       delete_confirmation: 'Kas olete kindel, et soovite selle postituse igaveseks kustutada? Seda toimingut ei saa tagasi võtta.'
       hide_confirmation: 'Kas olete kindel, et soovite selle postituse kustutada?'
@@ -131,23 +122,16 @@ core:
     post_scrubber:
       now_link: Nüüd
       original_post_link: 'Algne postitus'
-      unread_text: '{count} lugemata'
-      viewing_text: '{count, plural, one {{index} of {formattedCount} post} other {{index} of {formattedCount} posts}}'
     post_stream:
-      discussion_renamed_old_tooltip: 'Vana pealkiri oli: "{vana}"'
-      discussion_renamed_text: '{kasutajanimi} muutis pealkirjaks {uus} {aeg}.'
-      time_lapsed_text: '{periood} hiljem'
       load_more_button: 'Laadi rohkem'
       reply_placeholder: 'Kirjutage vastus...'
     rename_discussion:
       title: 'Arutelu ümbernimetamine'
       submit_button: 'Ümber nimetada'
     search:
-      all_discussions_button: 'Otsige kõigist aruteludest märksõna "{päring}"'
       discussions_heading: Arutelu
       users_heading: Kasutajad
     security:
-      browser_on_operating_system: '{brauser} on {os}'
       cannot_terminate_current_session: 'Praegust aktiivset seanssi ei saa lõpetada. Logige selle asemel välja.'
       created: Loodud
       current_active_session: 'Praegune aktiivne seanss'
@@ -159,13 +143,11 @@ core:
       new_access_token_modal: { submit_button: 'Loo märk', title_placeholder: Pealkiri, title: 'Uus märk' }
       revoke_access_token: Tühistada
       sessions_heading: 'Aktiivsed seansid'
-      session_terminated: '{count, mitmuses, üks {Session lõpetatud} teine {# Sessions lõpetatud}}.'
       session_termination_failed: 'Seansside lõpetamisel ilmnes tõrge.'
       show_access_token: 'Vaata märki'
       terminate_all_other_sessions: 'Kõigi teiste seansside lõpetamine'
       terminate_session: Lõpetada
       token_revoked: 'Märk tühistatud.'
-      token_item_title: '{title} - {token}'
       token_title_placeholder: /
       never: Iial
       new_access_token_button: 'Uus märk'
@@ -174,7 +156,6 @@ core:
       title: Turvalisus
     settings:
       account_heading: Konto
-      notification_checkbox_a11y_label_template: '"{description}" teatiste saamine teenuse {method} kaudu'
       notify_by_web_heading: Veeb
       notify_discussion_renamed_label: 'Keegi nimetab minu alustatud arutelu ümber'
       privacy_disclose_online_label: 'Lubage teistel näha, millal ma võrgus olen'
@@ -186,7 +167,6 @@ core:
       title: Seaded
     sign_up:
       log_in_text: 'Kas teil on juba konto? <a>Logi sisse</a>'
-      welcome_text: 'Tere tulemast, {kasutajanimi}!'
       dismiss_button: OK
       email_placeholder: 'E- post'
       password_placeholder: Salasõna
@@ -196,8 +176,6 @@ core:
     user:
       avatar_upload_button: Laadida
       avatar_upload_tooltip: 'Laadige üles uus avatari'
-      in_discussion_text: 'Jaotises {arutelu}'
-      joined_date_text: 'Liitunud {ago}'
       online_text: Online
       posts_empty_text: 'Tundub, et siin pole postitusi.'
       avatar_remove_button: Eemaldada
@@ -209,15 +187,12 @@ core:
     user_controls:
       button: Kontrolli
       delete_confirmation: 'Kas olete kindel, et soovite selle kasutaja kustutada? Kasutaja postitusi EI kustutata.'
-      delete_error_message: 'Kasutaja <i>{kasutajanimi} ({meil})</i> kustutamine nurjus'
-      delete_success_message: 'Kasutaja <i>{kasutajanimi} ({email})</i> kustutati'
       toggle_dropdown_accessible_label: 'Lülitage kasutaja juhtelementide rippmenüü sisse'
       delete_button: Kustutama
       edit_button: Toimetama
     user_email_confirmation:
       resend_button: 'Saada kinnitusmeil uuesti'
       sent_message: Saadetud
-      alert_message: 'Saatsime kinnitusmeili aadressile {email}. Kui see ei saabu niipea, kontrollige oma rämpsposti kausta.'
     welcome_hero:
       hide: 'Peida tervitussõnum'
     badge:
@@ -230,8 +205,6 @@ core:
       hidden_tooltip: Peidetud
     dropdown:
       toggle_dropdown_accessible_label: 'Lülitage rippmenüü sisse'
-    data_segment:
-      label: '{label}:'
     edit_user:
       activate_button: 'Kasutaja aktiveerimine'
       groups_heading: Rühmad
@@ -246,33 +219,17 @@ core:
       username_heading: Kasutajanimi
       username_label: Kasutajanimi
     error:
-      circular_dependencies_message: 'Tuvastatud ringikujulised sõltuvused: {extensions}. Katkestamine. Keelake üks laiendustest ja proovige uuesti.'
-      dependent_extensions_message: 'Funktsiooni {extension} ei saa keelata enne, kui järgmised sõltuvad laiendid on keelatud. {laiendid}'
-      extension_initialiation_failed_message: '{extension} ei käivitunud, lisateabe saamiseks kontrollige brauserikonsooli.'
       generic_message: 'Oops! Midagi läks valesti. Laadige leht uuesti ja proovige uuesti.'
       generic_cross_origin_message: 'Oops! Ristpäritolu taotluse ajal läks midagi valesti. Laadige leht uuesti ja proovige uuesti.'
-      missing_dependencies_message: 'Funktsiooni {extension} ei saa lubada enne, kui järgmised sõltuvused on lubatud. {laiendid}'
       not_found_message: 'Soovitud ressurssi ei leitud.'
       payload_too_large_message: 'Taotluse kasulik koormus oli liiga suur.'
       permission_denied_message: 'Teil ei ole selleks luba.'
       rate_limit_exceeded_message: 'Sa lähed natuke liiga kiiresti. Proovige mõne sekundi pärast uuesti.'
       render_failed_message: 'Kahjuks ilmnes selle sisu kuvamisel tõrge. Kui olete kasutaja, proovige hiljem uuesti. Kui olete administraator, vaadake lisateabe saamiseks oma Flarumi logifaile.'
-    meta_titles:
-      with_page_title: '{pageNumber, mitmuses, =1 {{pageTitle} - {forumName}} muu {{pageTitle}: Page # - {forumName}}}'
-      without_page_title: '{pageNumber, mitmuses, =1 {{forumName}} muu {Page # - {forumName}}}'
     modal:
       close: Sulgema
     nav:
       drawer_button: 'Avage navigeerimissahtel'
-    number_suffix:
-      kilo_text: Suunas
-      mega_text: M
-    series:
-      glue_text: ', '
-      three_text: '{esimene}, {teine} ja {kolmas}'
-      two_text: '{esimene} ja {teine}'
-    username:
-      deleted_text: '[kehtetu]'
     loading_indicator:
       accessible_label: Laadimise...
   views:
@@ -290,11 +247,9 @@ core:
       invalid_confirmation_token: 'Seda kinnituslinki on juba kasutatud või see on kehtetu.'
       not_authenticated: 'Teil pole sellele lehele juurdepääsuks luba. Proovige pärast sisselogimist uuesti.'
       not_found: 'Teie soovitud lehte ei leitud.'
-      not_found_return_link: 'Tagasi lehele {forum}'
       permission_denied: 'Teil pole sellele lehele juurdepääsuks luba.'
       unknown: 'Selle lehe laadimisel ilmnes tõrge.'
     log_out:
-      log_out_confirmation: 'Kas olete kindel, et soovite {forum}-ist välja logida?'
       log_out_button: 'Logi välja'
       title: 'Logi välja'
     reset_password:
@@ -311,23 +266,15 @@ core:
       previous_page_button: 'Eelmine lehekülg'
   api:
     invalid_username_message: 'Kasutajanimi võib sisaldada ainult tähti, numbreid ja sidekriipse.'
-    invalid_filter_type:
-      must_be_numeric_message: 'Filter {filter} peab olema numbriline.'
-      must_not_be_array_message: 'Filter {filter} ei tohi olla massiiv.'
-      must_not_be_multidimensional_array_message: 'Filter {filter} ei tohi olla mitmemõõtmeline massiiv.'
   email:
     activate_account:
       subject: 'Uue konto aktiveerimine'
-      body: "Hei {kasutajanimi}!\n\nKeegi (loodetavasti sina!) on registreerunud {forum} selle e-posti aadressiga.\n\nKui see olite teie, klõpsake lihtsalt järgmisel lingil ja teie konto aktiveeritakse:\n{url}\n\nKui te ei registreerunud, ignoreerige seda e-kirja.\n"
     confirm_email:
       subject: 'Kinnitage oma uus e-posti aadress'
-      body: "Hei {kasutajanimi}!\n\nKeegi (loodetavasti teie!) on muutnud oma e-posti aadressi {foorumis} selliseks.\n\nKui see olite teie, klõpsake lihtsalt järgmisel lingil ja teie e-posti aadress kinnitatakse:\n{url}\n\nKui see ei olnud teie, siis palun ignoreerige seda e-kirja.\n"
     reset_password:
-      body: "Hei {kasutajanimi}!\n\nKeegi (loodetavasti teie!) on esitanud teie kontole {forum} unustatud paroolitaotluse.\n\nKui see olite teie, klõpsake parooli lähtestamiseks järgmist linki:\n{url}\n\nKui te ei soovi oma parooli muuta, ignoreerige seda e-kirja ja midagi ei juhtu.\n"
       subject: 'Parooli lähtestamine'
     send_test:
       subject: 'Flarumi e-posti test'
-      body: "Hei {kasutajanimi}!\n\nSee on testmeil kinnitamaks, et teie Flarumi e-posti konfiguratsioon töötab korralikult.\n\nKui see olite teie, tähendab see e-kiri, et teie konfiguratsioon töötab!\n\nKui see ei olnud teie, siis palun ignoreerige seda e-kirja.\n"
   ref:
     all_discussions: 'Kõik arutelud'
     change_email: 'E-posti aadressi muutmine'
@@ -335,7 +282,6 @@ core:
     color: Värv
     confirm_password: 'Kinnitage parool'
     confirm_email: 'Kinnitage e-posti aadress'
-    confirmation_email_sent: 'Saatsime kinnitusmeili aadressile {email}. Kui see ei saabu niipea, kontrollige oma rämpsposti kausta.'
     custom_footer_text: 'Lisage HTML, mis kuvatakse lehe allosas.'
     custom_footer_title: 'Kohandatud jaluse redigeerimine'
     custom_header_text: 'Lisage HTML, mis kuvatakse lehe ülaosas, Flarumi enda päise kohal.'
@@ -349,7 +295,6 @@ core:
     extensions: Laiendused
     generic_confirmation_message: 'Kas olete kindel, et soovite jätkata? Seda toimingut ei saa tagasi võtta.'
     icon: Ikoon
-    icon_text: 'Sisestage mis tahes <a>FontAwesome</a> ikooniklassi nimi, <em>sealhulgas</em> <code>eesliide fas fa-</code>.'
     load_more: 'Laadi rohkem'
     loading: Laadimise...
     log_in: 'Logi sisse'
@@ -373,7 +318,6 @@ core:
     security: Turvalisus
     settings: Seaded
     sign_up: 'Pane nimi kirja'
-    some_others: '{count, plural, one {# other} other {# others}}'
     start_a_discussion: 'Arutelu alustamine'
     username: Kasutajanimi
     users: Kasutajad
@@ -389,128 +333,12 @@ core:
     members: Liikmed
     mod: Viisil
     mods: Modifikatsioonid
-validation:
-  accepted: 'Atribuut :tuleb aktsepteerida.'
-  active_url: 'Atribuut :attribute pole kehtiv URL.'
-  after: 'Atribuut :Atribuut peab olema kuupäev pärast :d sõi.'
-  after_or_equal: 'Atribuut :Atribuut peab olema kuupäev, mis järgneb :d sõi või on sellega võrdne.'
-  alpha: 'Atribuut :peab sisaldama ainult tähti.'
-  alpha_dash: 'Atribuut :peab sisaldama ainult tähti, numbreid, sidekriipse ja allkriipse.'
-  alpha_num: 'Atribuut :peab sisaldama ainult tähti ja numbreid.'
-  array: 'Atribuut :peab olema massiiv.'
-  before: 'Atribuut :Atribuut peab olema kuupäev enne :d sõid.'
-  before_or_equal: 'Atribuut :Atribuut peab olema kuupäev enne :d sõi või sellega võrdne.'
-  between:
-    numeric: 'Atribuut :min peab olema vahemikus :min kuni :max.'
-    file: 'Atribuut :min peab olema vahemikus :min kuni :max kilobaiti.'
-    string: 'Atribuut :min peab olema märkide :min ja :max vahel.'
-    array: 'Atribuudil :min ja :max peavad olema üksused.'
-  boolean: 'Atribuudi väli :peab olema tõene või väär.'
-  confirmed: ':atribuudi kinnitus ei ühti.'
-  date: 'Atribuut :ei ole sobiv kuupäev.'
-  date_equals: 'Atribuut :Atribuut peab olema kuupäev, mis on võrdne kuupäevaga :d.'
-  date_format: 'Atribuut :ei vasta vormingule :format.'
-  different: 'Atribuut :ja :muu peavad olema erinevad.'
-  digits: 'Atribuut :peab olema :d igits numbrid.'
-  digits_between: 'Atribuut :min ja :max peab olema numbrite :min ja :max vahel.'
-  dimensions: 'Atribuudil :atribuudil on sobimatud pildi mõõtmed.'
-  distinct: 'Väljal :attribute on duplikaatväärtus.'
-  email: 'Atribuut :peab olema kehtiv e-posti aadress.'
-  ends_with: 'Atribuudi :lõpu peab olema üks järgmistest: :väärtused.'
-  exists: 'Valitud atribuut :on sobimatu.'
-  file: 'Atribuut :peab olema fail.'
-  file_too_large: 'Atribuut :on liiga suur.'
-  file_upload_failed: 'Atribuuti :ei õnnestunud üles laadida.'
-  filled: 'Väljal :attribute peab olema väärtus.'
-  gt:
-    numeric: 'Atribuut :peab olema suurem kui :väärtus.'
-    file: 'Atribuut :peab olema suurem kui :väärtus kilobaitides.'
-    string: 'Atribuut :attribute peab olema suurem kui :value märgid.'
-    array: 'Atribuudil :value peab olema rohkem kui :value üksusi.'
-  gte:
-    numeric: 'Atribuut :attribute peab olema suurem või võrdne :value.'
-    file: 'Atribuut :attribute peab olema suurem või võrdne väärtusega :value kilobates.'
-    string: 'Atribuut :attribute peab olema suurem või võrdne :value märgiga.'
-    array: 'Atribuudil :value items või rohkem.'
-  image: 'Atribuut :peab olema pilt.'
-  in: 'Valitud atribuut :on sobimatu.'
-  in_array: 'Atribuudivälja :muu ei eksisteeri.'
-  integer: 'Atribuut :peab olema täisarv.'
-  ip: 'Atribuut :attribute peab olema kehtiv IP-aadress.'
-  ipv4: 'Atribuut :attribute peab olema kehtiv IPv4-aadress.'
-  ipv6: 'Atribuut :peab olema kehtiv IPv6-aadress.'
-  json: 'Atribuut :peab olema kehtiv JSON-string.'
-  lt:
-    numeric: 'Atribuut :peab olema väiksem kui :väärtus.'
-    file: 'Atribuut :peab olema väiksem kui :väärtus kilobaiti.'
-    string: 'Atribuut :attribute peab olema väiksem kui :value märgid.'
-    array: 'Atribuudil :value peab olema väiksem kui :value items.'
-  lte:
-    numeric: 'Atribuut :value peab olema väiksem või võrdne :value.'
-    file: 'Atribuut :Attribute peab olema väiksem või võrdne väärtusega :value kilobait.'
-    string: 'Atribuut :attribute peab olema väiksem või võrdne :value märgiga.'
-    array: 'Atribuudil :value ei tohi olla rohkem kui :value üksusi.'
-  max:
-    numeric: 'Atribuut :ei tohi olla suurem kui :max.'
-    file: 'Atribuut :ei tohi olla suurem kui :max kilobaiti.'
-    string: 'Atribuut :max ei tohi olla suurem kui :max tähemärgid.'
-    array: 'Atribuudil :max ei tohi olla rohkem kui :max üksusi.'
-  mimes: 'Atribuut :attribute peab olema fail, mille tüüp on: :values.'
-  mimetypes: 'Atribuut :attribute peab olema fail, mille tüüp on: :values.'
-  min:
-    numeric: 'Atribuut :peab olema vähemalt :min.'
-    file: 'Atribuut :peab olema vähemalt :min kilobaiti.'
-    string: 'Atribuut :min peab olema vähemalt :min tähemärgid.'
-    array: 'Atribuudil :min peab olema vähemalt :min üksusi.'
-  multiple_of: 'Atribuut :peab olema :value kordne.'
-  not_in: 'Valitud atribuut :on sobimatu.'
-  not_regex: 'Atribuudi vorming :on sobimatu.'
-  numeric: 'Atribuut :peab olema arv.'
-  password: 'Parool on vale.'
-  present: 'Atribuudi väli :peab olema olemas.'
-  regex: 'Atribuudi vorming :on sobimatu.'
-  required: 'Väli :attribute on kohustuslik.'
-  required_if: 'Atribuudi väli on nõutav, kui :muu on :value.'
-  required_unless: 'Atribuudi väli :on nõutav, välja arvatud juhul, kui :muu on jaotises :väärtused.'
-  required_with: 'Atribuudi väli :on nõutav, kui :väärtused on olemas.'
-  required_with_all: 'Atribuudi väli :on nõutav, kui :väärtused on olemas.'
-  required_without: 'Väli :attribute on nõutav, kui atribuut :values pole olemas.'
-  required_without_all: 'Atribuudiväli :on nõutav, kui ühtegi :väärtust pole.'
-  prohibited: 'Atribuudi väli :on keelatud.'
-  prohibited_if: 'Atribuudi väli :on keelatud, kui :muu on :value.'
-  prohibited_unless: 'Atribuudi väli :on keelatud, välja arvatud juhul, kui :muu on jaotises :väärtused.'
-  same: 'Atribuut :ja :muu peavad ühtima.'
-  size:
-    numeric: 'Atribuut :peab olema :size.'
-    file: 'Atribuut :peab olema :suurus kilobaiti.'
-    string: 'Atribuut :size peab olema :size märgid.'
-    array: 'Atribuut :size peab sisaldama üksusi :size.'
-  starts_with: 'Atribuut :peab algama ühega järgmistest: :väärtused.'
-  string: 'Atribuut :peab olema string.'
-  timezone: 'Atribuut :peab olema kehtiv tsoon.'
-  unique: 'Atribuut :on juba võetud.'
-  uploaded: 'Atribuuti :ei õnnestunud üles laadida.'
-  url: 'Atribuudi vorming :on sobimatu.'
-  uuid: 'Atribuut :peab olema kehtiv UUID.'
-  attributes:
-    username: kasutajanimi
-    password: salasõna
-    email: Meil
-    title: Pealkiri
-    content: sisu
-    name_singular: 'ainsuse nimi'
-    name_plural: 'mitmuse nimi'
-    tag_count_primary: 'Esmaste siltide arv'
-    tag_count_secondary: 'teiseste siltide arv'
-  recaptcha: 'reCAPTCHA valideerimine ebaõnnestus.'
-  recaptcha-unknown: 'ReCAPTCHA valideerimisel ilmnes tundmatu tõrge ({vead}).'
 flarum-tags:
   forum:
     all_tags:
       meta_description_text: 'Kõik sildid'
       meta_title_text: Tags
     choose_tags:
-      edit_title: '{title} siltide redigeerimine'
       title: 'Valige arutelu jaoks sildid'
     discussion_controls:
       edit_tags_button: 'Siltide redigeerimine'
@@ -520,48 +348,27 @@ flarum-tags:
       more_link: Rohkem...
       untagged_link: Sildistamata
       tags_link: Tags
-    post_stream:
-      added_and_removed_tags_text: '{username} lisas {tagsAdded} ja eemaldas {tagsRemoved} {time}.'
-      added_tags_text: '{kasutajanimi} lisas {tagsAdded} {time}.'
-      removed_tags_text: '{kasutajanimi} eemaldas {tagsRemoved} {time}.'
-      tags_text: '{count, plural, one {{tags} tag} other {{tags} tags}}'
-    tag:
-      meta_description_text: 'Kõik arutelud sildiga {tag}'
     composer_discussion:
       choose_tags_link: 'Valige Sildid'
   lib:
     deleted_tag_text: Kustutatud
     tag_selection_modal:
       bypass_requirements: 'Möödasõidusildi nõuded'
-      choose_primary_placeholder: '{count, plural, one {Choose a primary tag} other {Choose # primary tags}}'
-      choose_secondary_placeholder: '{count, mitmus, üks {Vali veel 1 silt} teine {Vali # rohkem silte}}'
-      choose_tags_placeholder: '{count, mitmus, üks {Vali veel 1 silt} teine {Vali # rohkem silte}}'
       submit_button: OK
       title: 'Valige Sildid'
   ref:
     choose_tags: 'Valige Sildid'
-    choose_tags_placeholder: '{count, mitmus, üks {Vali veel 1 silt} teine {Vali # rohkem silte}}'
     name: Nimi
     tags: Tags
 flarum-mentions:
   forum:
     composer:
       mention_tooltip: 'Kasutaja, rühma või postituse mainimine'
-      reply_to_post_text: 'Vastus #{number}'
     mentioned_by:
       title: 'Vastused sellele postitusele'
       load_more_button: 'Laadi rohkem'
-    notifications:
-      post_mentioned_text: '{kasutajanimi} vastas teie postitusele'
-      user_mentioned_text: '{kasutajanimi} mainis sind'
-      group_mentioned_text: '{kasutajanimi} mainis rühma, mille liige te olete'
-      others_text: '{count, plural, one {# other} other {# others}}'
     post:
-      mentioned_by_more_text: '{count} rohkem vastuseid.'
-      mentioned_by_self_text: '{kasutajad} vastasid sellele.'
-      mentioned_by_text: '{kasutajad} vastasid sellele.'
       quote_button: Tsitaat
-      others_text: '{count, plural, one {# other} other {# others}}'
       reply_link: Vastuse
       you_text: Te
     settings:
@@ -570,28 +377,12 @@ flarum-mentions:
       notify_group_mentioned_label: 'Keegi mainib postituses rühma, mille liige ma olen'
     user:
       mentions_link: Mainib
-    post_mention:
-      deleted_text: '[teadmata]'
-    group_mention:
-      deleted_text: '[tundmatu rühm]'
-  email:
-    post_mentioned:
-      subject: '{replier_display_name} vastas teie postitusele rakenduses {title}'
-      body: "Hei {recipient_display_name}!\n\n{replier_display_name} vastas teie postitusele (#{post_number}) jaotises {title}.\n\n{url}\n\n---\n\n{sisu}\n"
-    user_mentioned:
-      subject: '{mentioner_display_name} mainis teid {title}'
-      body: "Hei {recipient_display_name}!\n\n{mentioner_display_name} mainis teid postituses {title}.\n\n{url}\n\n---\n\n{sisu}\n"
-    group_mentioned:
-      subject: '{mentioner_display_name} mainis rühma, mille liige te olete, jaotises {title}'
-      body: "Hei {recipient_display_name}!\n\n{mentioner_display_name} mainis rühma, mille liige te olete, jaotises {title}.\n\n{url}\n\n---\n\n{sisu}\n"
 flarum-subscriptions:
   forum:
     discussion_controls:
       unfollow_button: 'Jälgimise tühistamine'
       unignore_button: Unsir
       follow_button: Järgnema
-    notifications:
-      new_post_text: '{kasutajanimi} postitatud'
     settings:
       follow_after_reply_label: 'Järgige automaatselt arutelusid, millele ma vastan'
       notify_for_all_posts_label: 'Teavitage igast uuest postitusest, mitte ainult viimasest arutelust'
@@ -613,10 +404,6 @@ flarum-subscriptions:
       meta_title_text: Järgmine
     index:
       following_link: Järgmine
-  email:
-    new_post:
-      subject: '[Uus postitus] {pealkiri}'
-      body: "Hei {recipient_display_name}!\n\n{poster_display_name} tegi teie jälgitavas arutelus postituse: {title}.\n\nUue tegevuse vaatamiseks vaadake järgmist linki:\n{url}\n\n---\n\n{sisu}\n\n---\n\nTe ei saa selle arutelu kohta rohkem märguandeid enne, kui olete ajakohane.\n"
   ref:
     follow: Järgnema
     following: Järgmine
@@ -625,7 +412,6 @@ flarum-flags:
   forum:
     flag_post:
       confirmation_message: 'Täname, et märgistasite selle postituse. Meie moderaatorid uurivad seda.'
-      reason_details_placeholder: 'Täiendavad üksikasjad (valikuline)'
       reason_inappropriate_label: Sobimatu
       reason_inappropriate_text: 'See postitus on solvav, solvav või rikub meie <a>kogukonna juhiseid</a>.'
       reason_missing_message: 'Palun esitage mõned üksikasjad meie moderaatoritele.'
@@ -639,13 +425,10 @@ flarum-flags:
       title: 'Lipuga postitus'
     flagged_posts:
       empty_text: 'Lippe pole'
-      item_text: '{kasutajanimi} in <em>{arutelu}</em>'
       title: 'Lipuga märgitud postitused'
       tooltip: 'Lipuga märgitud postitused'
     post:
       dismiss_flag_button: 'Lipust loobumine'
-      flagged_by_text: 'Lipuga märgitud {kasutajanimi}'
-      flagged_by_with_reason_text: '{kasutajanimi} on tähistatud kui {põhjus}'
     post_controls:
       flag_button: Lipp
   ref:
@@ -654,13 +437,11 @@ flarum-flags:
 flarum-suspend:
   forum:
     notifications:
-      user_suspended_text: 'Teid on peatatud ajaks {timeReadable}'
       user_suspended_indefinite_text: 'Teid on peatatud määramata ajaks'
       user_unsuspended_text: 'Teid on peatatud'
     suspension_info:
       dismiss_button: Jätta
       indefinite: 'See on tähtajatu peatamine'
-      limited: 'Peatamine kehtib kuni {date}'
       title: 'See konto on peatatud'
     suspend_user:
       display_message: 'Kuva sõnum kasutajale'
@@ -671,7 +452,6 @@ flarum-suspend:
       placeholder_optional: Vabatahtlik
       reason: 'Peatamise põhjus'
       status_heading: 'Peatamise staatus'
-      title: 'Peata {kasutajanimi}'
       submit_button: 'Salvesta muudatused'
     user_badge:
       suspended_tooltip: Peatatud
@@ -681,10 +461,8 @@ flarum-suspend:
     no_reason_given: 'Peatamiseks ei esitatud ühtegi põhjust.'
     suspended:
       subject: 'Teie konto on peatatud'
-      body: "Hei {recipient_display_name},\n\nTeid on peatatud järgmisel põhjusel:\n\n---\n{suspension_message}\n---\n"
     unsuspended:
       subject: 'Teie konto on peatamata'
-      body: "Hei {recipient_display_name},\n\nTeid on peatatud. Võite minna tagasi foorumisse, klõpsates järgmisel lingil:\n\n{forum_url}\n"
 blomstra-gdpr:
   lib:
     data:
@@ -707,8 +485,6 @@ fof-upload:
       error: Viga
       loading: Uploading
       unauthorized: 'Teil pole lubatud faile alla laadida'
-    validation:
-      max_size: 'Üle {max} kb üleslaadimisi ei aktsepteerita.'
     text_preview:
       expand: 'Laiendage eelvaadet'
       collapse: 'Ahenda eelvaade'
@@ -718,7 +494,6 @@ fof-upload:
   api:
     upload_errors:
       forbidden_type: 'Seda tüüpi failide üleslaadimine pole lubatud.'
-      unsupported_type: 'Üleslaadimisadapter ei toeta kaasasolevat miimikatüüpi: {mime}.'
       could_not_detect_mime: 'Selle faili MIME-tüüpi ei õnnestunud tuvastada, proovige uuesti.'
       max_upload_file_size_ini: 'Laadige üles maksimaalne failide mahupiirang, mis on saavutatud alates php.ini. aastast.'
       max_upload_file_size_form: 'Laadige üles maksimaalne failimahu piirang, mis on saavutatud vormilt.'
@@ -727,7 +502,6 @@ fof-upload:
       no_upload_tmp_folder: 'Failide üleslaadimiseks pole tmp-kausta.'
       cannot_write_to_disk: 'Kettale ei saa kirjutada.'
       upload_blocked_by_php_extension: 'Php laiendus blokeeris üleslaadimise.'
-      no_files_made_it_to_upload: 'Palun laadige üles failid, mis ei ole suuremad kui {max} kb.'
   lib:
     upload-shared-file-modal:
       title: 'Uus ühiskasutatav fail'
@@ -740,13 +514,9 @@ fof-upload:
       release_to_upload: 'Üleslaadimiseks vabastamine'
       modal_empty_desktop: 'Teie faililoend on tühi. Klõpsake nuppu või lohistage fail üleslaadimiseks siia.'
       modal_empty_phone: 'Teie faililoend on tühi. Faili üleslaadimiseks puudutage ülalolevat nuppu.'
-      select_file_a11y_label: 'Valige fail "{fileName}"'
-      confirm_selection_btn: '{fileCount, mitmuses, =0 {Pole valitud} üks {Vali fail} teine {Vali failid}}'
       load_more_files_btn: 'Laadige rohkem faile'
-      delete_file_a11y_label: 'Kustuta fail "{fileName}"'
-      delete_confirmation: 'Kas olete kindel, et soovite "{fileName}" kustutada?'
-      hide_file: { btn_a11y_label_hide: '"{failinimi}" peitmine meediumihalduris', btn_a11y_label_show: 'Kuva "{fileName}" meediumihalduris', hide_confirmation: 'Kas olete kindel, et soovite peita "{fileName}"? Faili peitmine eemaldab selle ainult teie meediumihaldurist ega mõjuta olemasolevaid postitusi.', hide_success: 'Fail on peidetud', show_confirmation: 'Kas olete kindel, et soovite kuvada "{fileName}"? Faili kuvamine muudab selle teie meediumihalduris nähtavaks.', show_success: 'Kuvatud fail', hide_fail: 'Faili "{fileName}" ei õnnestunud peita', show_fail: 'Faili "{fileName}" ei saanud kuvada', loading: 'Faili peitmine...' }
-      hide_shared_file: { btn_a11y_label_hide: '"{fileName}" privaatseks muutmine (avalikku URL-i pole)', btn_a11y_label_show: '"{fileName}" avalikuks muutmine (avaliku URL-iga)', hide_confirmation: 'Kas olete kindel, et soovite muuta "{fileName}" privaatseks? Faili privaatseks muutmisel eemaldatakse selle avalik URL, kuid see ei mõjuta olemasolevaid postitusi. Samuti ei ole see enam meediahalduris volitamata kasutajatele nähtav.', hide_success: 'Fail on muudetud privaatseks', show_confirmation: 'Kas olete kindel, et soovite "{fileName}" avalikuks muuta? Faili avalikuks muutmine muudab selle kättesaadavaks kõigile, kellel on avalik URL, ja igaüks saab seda meediumihalduri kaudu jagada.', show_success: 'Fail on avalikustatud', hide_fail: 'Faili "{fileName}" ei saanud privaatseks muuta', show_fail: 'Faili "{fileName}" ei saanud avalikuks muuta', loading: 'Faili privaatseks muutmine...' }
+      hide_file: { hide_success: 'Fail on peidetud', show_success: 'Kuvatud fail', loading: 'Faili peitmine...' }
+      hide_shared_file: { hide_success: 'Fail on muudetud privaatseks', show_success: 'Fail on avalikustatud', loading: 'Faili privaatseks muutmine...' }
 flarum-bbcode:
   forum:
     quote:
@@ -779,8 +549,6 @@ fof-follow-tags:
       following_tag_tooltip: Järgmine
       lurking_tag_tooltip: Varitsemine
     sub_controls:
-      header: 'Teenuse {tagName} tellimus'
-      subscription_label: 'Valige oma tellimuse tase parameetri {tagName} jaoks'
       following_text: 'Olge kursis kõigi uute aruteludega.'
       hiding_text: 'Peida arutelud lehelt Kõik arutelud.'
       ignoring_text: 'Ärge kunagi teavitage.'
@@ -795,21 +563,8 @@ fof-follow-tags:
       hiding_button: Peitmine
       ignoring_button: Ignoreerides
       lurking_button: Varitsemine
-    notifications:
-      new_discussion_text: '{kasutajanimi} on käivitatud'
-      new_post_text: '{kasutajanimi} postitatud'
-      new_discussion_tag_text: '{kasutajanimi} muutis silti'
     user:
       settings: { heading: 'Järgige silte', filter_label: 'Mida kuvada vaikimisi lehel Järgmine' }
-  email:
-    subject:
-      newDiscussionInTag: '[Silt | Uus arutelu] {pealkiri}'
-      newPostInTag: '[Silt | Uus postitus] {pealkiri}'
-      newDiscussionTag: '[Silt | Muudetud silt] {title}'
-    body:
-      newDiscussionInTag: "Hei {recipient_display_name},\n\n{actor_display_name} alustas arutelu teie jälgitavas sildis: {discussion_title}\n\nUue arutelu vaatamiseks vaadake järgmist linki:\n{discussion_url}\n\n---\n\n{post_content}\n"
-      newPostInTag: "Hei {recipient_display_name},\n\n{actor_display_name} postitati teie jälgitava sildi arutelusse: {discussion_title}\n\nUue tegevuse vaatamiseks vaadake järgmist linki:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nTe ei saa selle arutelu kohta rohkem märguandeid enne, kui olete ajakohane.\n"
-      newDiscussionTag: "Hei {recipient_display_name},\n\n{actor_display_name} muutis just {author_display_name} arutelu sildi teie jälgitavaks sildiks {discussion_title}\n\nUue arutelu vaatamiseks vaadake järgmist linki:\n{discussion_url}\n"
   ref:
     follow: Järgnema
     following: Järgmine
@@ -838,17 +593,8 @@ flarum-nicknames:
       nickname_placeholder: Hüüdnimi
 fof-oauth:
   forum:
-    log_in:
-      with_button: 'Logi sisse rakendusega {provider}'
-      with_discord_button: 'Logi sisse rakendusega {provider}'
-      with_facebook_button: 'Logi sisse rakendusega {provider}'
-      with_github_button: 'Logi sisse rakendusega {provider}'
-      with_gitlab_button: 'Logi sisse rakendusega {provider}'
-      with_google_button: 'Logi sisse rakendusega {provider}'
-      with_linkedin_button: 'Logi sisse rakendusega {provider}'
-      with_twitter_button: 'Logi sisse rakendusega {provider}'
     user:
-      settings: { linked-account: { label: 'Lingitud kontod', last-used-label: 'Viimati kasutatud', link-created-label: 'Link on loodud', orphaned-account: 'Olete selle pakkuja kaudu varem sisse loginud, kuid sellest ajast alates on see foorum selle meetodiga sisselogimise keelanud.', help: 'Need lingitud kontod võimaldavad teil foorumisse sisse logida teiste teenusepakkujate abil.', identifier-label: '{pakkuja} ID', unlink-confirm: 'Kas olete kindel, et soovite lingi {provider} eemaldada? Te ei saa enam sellesse foorumisse sisse logida, kui te tulevikus uuesti ei autenti.' } }
+      settings: { linked-account: { label: 'Lingitud kontod', last-used-label: 'Viimati kasutatud', link-created-label: 'Link on loodud', orphaned-account: 'Olete selle pakkuja kaudu varem sisse loginud, kuid sellest ajast alates on see foorum selle meetodiga sisselogimise keelanud.', help: 'Need lingitud kontod võimaldavad teil foorumisse sisse logida teiste teenusepakkujate abil.' } }
     signup:
       username_help: 'Palun valige kasutajanimi, mida siin teada saada'
     unlink: 'Eemalda link'
@@ -882,10 +628,8 @@ fof-impersonate:
   forum:
     modal:
       title: 'Logi sisse teise kasutajana'
-      label: 'Suure väega kaasneb suur vastutus. Jätkates saate {kasutajanimi}, kuni logite välja.'
       placeholder_optional: '(Valikuline) Esitage sellele kasutajale ülemineku põhjus'
       placeholder_required: 'Enne jätkamist peate esitama oma põhjuse sellele kasutajale üleminekuks'
-      impersonate_username: 'Logi sisse kui {kasutajanimi}'
     user_controls:
       impersonate_button: 'Logi sisse kasutajana'
 fof-byobu:
@@ -896,7 +640,6 @@ fof-byobu:
       add_recipients: Adressaadid
       submit: OK
       edit_recipients: 'Adressaatide redigeerimine'
-      send_pd: 'Saada sõnum {kasutajanimi}'
       cancel: Tühistama
       make_public: 'Tehke see arutelu avalikuks'
       remove_from_discussion: 'Jätke see privaatne arutelu'
@@ -905,8 +648,6 @@ fof-byobu:
       title_placeholder: 'Privaatse arutelu pealkiri'
     confirm:
       make_public: 'Kas olete kindel, et soovite adressaadid eemaldada ja muuta selle arutelu nähtavaks kõigile, kes saavad määratud silti vaadata?'
-    labels:
-      recipients: '{count, plural, one {{count} Recipient} other {{count} Recipients}}'
     nav:
       start_button: 'Arutage privaatselt'
       nav_item: 'Privaatsed arutelud'
@@ -915,11 +656,9 @@ fof-byobu:
     search:
       headings: { groups: Õigusegrupid }
     modal:
-      titles: { update_recipients: '{title} adressaatide värskendamine', add_recipients: 'Adressaatide lisamine arutelusse' }
+      titles: { add_recipients: 'Adressaatide lisamine arutelusse' }
       labels: { selected_users: 'Valitud kasutajad', search_field: 'Otsi kasutajat' }
       help: { add_recipients: 'See arutelu on nähtav ainult siin valitud kasutajatele. Nõutav on vähemalt 1 saaja (peale teie enda).', update_recipients: 'See arutelu on nähtav ainult siin valitud kasutajatele.', selected_users: 'Kasutaja eemaldamiseks klõpsake tema nime.', click_user_to_remove_tooltip: 'Klõpsake eemaldamiseks' }
-    post:
-      recipients_modified: { added_and_removed: '{kasutajanimi} lisas adressaadid {added} ja eemaldas {removed}.', added: '{kasutajanimi} lisas adressaadid {lisatud}.', made_public: '{kasutajanimi} eemaldas kõik adressaadid ja tegi arutelu avalikuks', removed: '{kasutajanimi} eemaldas adressaadid {eemaldatud}.', removed_self: '{kasutajanimi} lahkus privaatsest arutelust.' }
     user:
       settings: { block_pd: 'Privaatsete arutelude blokeerimine' }
       byobu_link: 'Privaatsed arutelud'
@@ -927,23 +666,9 @@ fof-byobu:
     notifications:
       pd_label: 'Keegi kaasab mind uude privaatsesse arutellu'
       pd_reply_label: 'Keegi postitab privaatses arutelus, mille saaja ma olen'
-      pd_reply_text: '{kasutajanimi} postitatud privaatses arutelus, kuhu kuulute'
-      pd_text: '{kasutajanimi} alustas teiega uut privaatset arutelu'
       pd_user_left_label: 'Adressaatkasutaja lahkub privaatsest arutelust, milles osalen'
-      pd_user_left_text: '{kasutajanimi} lahkus privaatsest arutelust'
-      pd_added_text: '{kasutajanimi} lisas teid privaatsesse arutellu'
       pd_added_label: 'Keegi lisab mind olemasolevasse privaatsesse arutellu'
-  email:
-    subject:
-      private_discussion_created: '[Privaatne arutelu] {display_name} alustas teiega uut privaatset arutelu'
-      private_discussion_replied: '[Privaatne arutelu] {display_name} on postitatud privaatses arutelus'
-      recipient_removed: '[Privaatne arutelu] {display_name} lahkus arutelust'
-      private_discussion_added: '[Privaatne arutelu] {display_name} lisas teid privaatsesse arutellu'
-    body:
-      private_discussion_created: "Hei {recipient_display_name},\n\n{actor_display_name} alustas teie kui adressaadiga uut privaatset arutelu: {discussion_title}.\n\nVaadake seda siin:\n{discussion_url}\n\nVõimalik, et peate enne sellele lingile juurdepääsu saamist kõigepealt sisse logima.\n"
-      private_discussion_replied: "Hei {recipient_display_name},\n\n{actor_display_name} postitatud privaatses arutelus teie kui adressaadiga: {discussion_title}.\n\nVaadake seda siin:\n{post_url}\n\nVõimalik, et peate enne sellele lingile juurdepääsu saamist kõigepealt sisse logima.\n"
-      recipient_removed: "Hei {recipient_display_name},\n\n{actor_display_name} lahkus privaatsest arutelust: {discussion_title}. Nad ei saa enam selle sisu vaadata.\n\nVaadake seda siin:\n{discussion_url}\n\nVõimalik, et peate enne sellele lingile juurdepääsu saamist kõigepealt sisse logima.\n"
-      private_discussion_added: "Hei {recipient_display_name},\n\n{actor_display_name} lisas teid olemasolevasse privaatsesse arutellu: {discussion_title}.\n\nVaadake seda siin:\n{discussion_url}\n\nVõimalik, et peate enne sellele lingile juurdepääsu saamist kõigepealt sisse logima.\n"
+  email: null
 v17development-flarum-badges:
   forum:
     badge_information: 'Märgi teave'
@@ -966,17 +691,11 @@ v17development-flarum-badges:
       no_earning_reason: 'Teenimise põhjust pole määratud'
       earned_on: 'Märk teenitud'
       category: 'Märgi kategooria'
-      received_on: 'Kätte saadud {kuupäev}'
       badge_details: 'Märgi üksikasjad'
-      earned_count: '{count, plural, üks {<b># kasutaja</b> on selle märgi välja teeninud} teised {<b># kasutajad</b> on selle märgi välja teeninud}}'
-      earned_by_count: '{count, plural, one {Earned <b>by # user</b>} other {Earned <b>by # users</b>}}'
-      others_link: '+ {count} Rohkem'
     badges_in_card:
       title: 'Märgid kasutajakaardil'
       manage_badges: 'Märkide haldamine'
       description: 'Kasutajakaardil nähtavaid märke saate muuta mõne teise märgiga. Kui te ühtegi ei vali, valitakse need automaatselt.'
-      select_limit: 'Saate valida {limit, plural, one {<b>one badge</b>} other {<b># badges</b>}}, et see oleks teie kasutajakaardil nähtav.'
-      hit_limit: 'Teie kaardil on ainult <b> koht {limit, plural, one {<b>one badge</b>} other {<b># badges</b>}}</b> jaoks. Märgi jaoks ruumi tegemiseks tühistage märk.'
     moderation:
       remove_badge: 'Kasutajalt märgi eemaldamine'
       remove_badge_confirm: 'Kas olete kindel, et soovite selle märgi sellelt kasutajalt eemaldada?'
@@ -985,14 +704,10 @@ v17development-flarum-badges:
       title: 'Olete saanud uue märgi'
       settings: 'Olen saanud märgi'
     uncategorized: Uncategorized
-v17development-flarum-seo:
-  forum:
-    profile_title: '{kasutajanimi} profiil'
-    profile_description: '{kasutajanimi} profiil | {discussion_count} arutelud | {comment_count} postitused'
+v17development-flarum-seo: null
 the-turk-miserable-users:
   forum:
     miserable_user:
-      title: 'Õnnetu {kasutajanimi}'
       status_heading: 'Armetu staatus'
       not_miserable_label: 'Pole õnnetu'
       indefinitely_label: 'Õnnetu lõputult'
@@ -1009,7 +724,6 @@ sycho-profile-cover:
   forum:
     cover: Katma
     edit_cover: 'Kaane redigeerimine'
-    notice: 'Maksimaalne suurus: {size}'
     added:
       success: 'Profiili kate on uuendatud.'
       error: 'Pilti ei saanud üles laadida.'
@@ -1018,10 +732,7 @@ sycho-profile-cover:
       error: 'Katet ei saanud eemaldada, proovige hiljem uuesti.'
 sycho-photoswipe: null
 nearata-tags-color-generator: null
-nearata-prevent-double-posting:
-  forum:
-    exception:
-      too_many_replies: 'Lubatud on ainult {count} järjestikused vastused. Muutke selle asemel oma eelmist vastust või oodake, kuni keegi teile vastab.'
+nearata-prevent-double-posting: null
 nearata-copy-code-to-clipboard:
   forum:
     copy: 'Lõikelauale kopeerimine'
@@ -1030,7 +741,6 @@ michaelbelgium-flarum-profile-views:
   forum:
     user:
       viewlist: { title: 'Viimased külastajad', guest: Külaline }
-      view_count_text: '{viewcount, mitmuses, üks {viewed {viewcount} time} other {viewed {viewcount} times}}'
 justoverclock-country-flags:
   forum:
     inputCountryCode: 'Riigi kood'
@@ -1058,13 +768,10 @@ ianm-syndication:
     autodiscovery:
       forum_activity: 'Foorumi tegevus'
       forum_new_discussions: 'Foorumi uued arutelud'
-      tag_activity: 'Sildi {tag} tegevus'
-      tag_new_discussions: 'Arutelud sildil {tag}'
       discussion_last_posts: 'See arutelu'
       user_last_posts: 'Selle kasutaja postitused ja kommentaarid'
     feeds:
-      entries: { user_posts: { title_reply: 'Re: {arutelu}' } }
-      titles: { main_title: '{forum_name}', main_subtitle: 'Viimased postitused foorumis', main_d_title: 'Uued arutelud rakenduses {forum_name}', main_d_subtitle: 'Uusimad arutelud foorumil', tag_title: 'Tegevus sildil {tag}', tag_subtitle: 'Viimased postitused sildil {tag}', tag_d_title: 'Uued arutelud sildil {tag}', tag_d_subtitle: 'Sildi {tag} uusimad arutelud', discussion_title: '{discussion_name}', discussion_subtitle: 'Selle arutelu viimased sõnumid', user_title: '{kasutajanimi}', user_subtitle: 'Selle kasutaja viimased postitused ja kommentaarid.' }
+      titles: { main_subtitle: 'Viimased postitused foorumis', main_d_subtitle: 'Uusimad arutelud foorumil', discussion_subtitle: 'Selle arutelu viimased sõnumid', user_subtitle: 'Selle kasutaja viimased postitused ja kommentaarid.' }
     discussion:
       feed_link: Sööda
 ianm-log-viewer: null
@@ -1072,7 +779,6 @@ ianm-html-head: null
 ianm-follow-users:
   forum:
     followed: Järgida
-    followers: '{count, plural, one {Follower} other {Followers}}'
     profile_page:
       no_following: 'Tundub, et te ei jälgi kedagi.'
     settings:
@@ -1081,17 +787,12 @@ ianm-follow-users:
       notify_new_discussion_label: 'Keegi, keda ma jälgin, alustab arutelu'
       notify_new_post_label: 'Keegi, keda ma jälgin, postitab olemasolevas arutelus'
       block_follow: 'Kasutajatel minu jälgimise keelamine'
-    notifications:
-      new_discussion_text: '{kasutajanimi} on käivitatud'
-      new_post_text: '{kasutajanimi} on postitatud arutelusse'
-      new_follower_text: '{kasutajanimi} järgnes teile'
-      new_unfollower_text: '{kasutajanimi} lõpetas teie jälgimise'
     badge:
       label: { follow: 'Pärast arutelusid', lurk: 'Lõppude lõpuks' }
     filter:
       following: 'Jälgitavad kasutajad'
     modals:
-      select_follow_level: { title: 'Valige sätte {kasutajanimi} jaoks jälgimistase', description: 'Valige, kuidas soovite <em>funktsiooni {kasutajanimi}</em> jälgida.', follow_levels_heading: 'Tasemete jälgimine', follow_select_label: 'Järgige tüüpi', no_user_attr_provided_err: 'Uh oh, selle modaali avamisel läks midagi valesti.', no_user_attr_provided_err_debug: 'Atribuuti "user" ei edastatud SelectFollowUserLevel modaalile, kui see loodi. Modaali ei saa renderdada.', save_btn: Salvestama, cancel_btn: Tühistama }
+      select_follow_level: { follow_levels_heading: 'Tasemete jälgimine', follow_select_label: 'Järgige tüüpi', no_user_attr_provided_err: 'Uh oh, selle modaali avamisel läks midagi valesti.', no_user_attr_provided_err_debug: 'Atribuuti "user" ei edastatud SelectFollowUserLevel modaalile, kui see loodi. Modaali ei saa renderdada.', save_btn: Salvestama, cancel_btn: Tühistama }
     profile_link: 'Jälgitud kasutajad'
     user_controls:
       follow_button: Järgnema
@@ -1101,37 +802,28 @@ ianm-follow-users:
       follow_tag_button: Järgnema
       unfollow_tag_button: 'Muuda jälgimise tüüpi'
   email:
-    new_discussion_by_user_subject: '[Jälgi kasutajat] {pealkiri}'
     new_follower_subject: '[Jälgi kasutajat] Teil on uus jälgija!'
-    new_post_subject: '[Jälgi kasutajat] Uus postitus rakenduses {title}'
-    new_discussion_by_user_body: "Hei {recipient_display_name},\n\n{user_display_name} alustas uut arutelu: {discussion_title}\n\nUue arutelu vaatamiseks vaadake järgmist linki:\n\n{discussion_url}\n\n---\n\n{post_content}\n"
-    new_follower_body: "Hei {recipient_display_name},\n\n{follower_display_name} hakkas teid jälgima, nii et neid teavitatakse uue arutelu alustamisest.\n\nNende profiili vaatamiseks vaadake järgmist linki:\n\n{profile_url}\n"
-    new_post_body: "Hei {recipient_display_name},\n\n{user_display_name} postitatud arutelus: {discussion_title}\n\nUue tegevuse vaatamiseks vaadake järgmist linki:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nTe ei saa selle arutelu kohta rohkem märguandeid enne, kui olete ajakohane.\n"
   lib:
     following_link: 'Jälgitud kasutajad'
     follow: Järgnema
     change_follow_type: 'Muuda jälgimise tüüpi'
     unfollow: 'Jälgimise tühistamine'
     follow_levels:
-      unfollow: { name: 'Ära jälgi', description: "Ärge saage märguandeid <em>{kasutajanimi}</em> tegevuse kohta.\n" }
-      follow: { name: 'Arutelude jälgimine', description: "Saate teatisi, kui <em>{kasutajanimi}</em> alustab uut arutelu.\n" }
-      lurk: { name: 'Jälgi kõiki', description: "Saate teatisi, kui <em>{kasutajanimi}</em> alustab uut arutelu või postitab mis tahes arutelu.\n" }
+      unfollow: { name: 'Ära jälgi' }
+      follow: { name: 'Arutelude jälgimine' }
+      lurk: { name: 'Jälgi kõiki' }
 fof-username-request:
   forum:
     nickname_modals:
-      action: { help_text: 'Veenduge, et see taotletud hüüdnime muutmine järgib foorumi juhiseid.', decision_title: Otsus, approval_label: Kinnitada, rejected_label: 'Tagasi lükata', submit_button: Esitada, reason_title: 'Tagasilükkamise põhjus', success: 'Otsus saadetud.', name: '{name} on taotlenud hüüdnime muutmist hüüdnimeks "{requestedName}"', title: 'Hüüdnime muutmise taotlus' }
-      results: { title: 'Hüüdnime muutmise taotlus', approved: 'Teie hüüdnime muutmise taotlus on heaks kiidetud', new_name: 'Teie hüüdnimi on edukalt muudetud järgmiselt: {name}', rejected: 'Teie hüüdnime muutmise taotlus lükati tagasi', reason: 'Tagasilükkamise põhjus: <i>"{põhjus}"</i>.', resubmit: 'Sel ajal võite soovi korral oma konto seadetes uue hüüdnime muutmise taotluse uuesti esitada.', dismiss_button: OK }
-      request: { title: 'Hüüdnime muutmise taotlemine', current_request: 'Olete juba taotlenud oma hüüdnime muutmist "{nimi}". Saate oma taotlust värskendada või selle kustutada.', submit_button: 'Esitan taotluse', delete_button: 'Kustuta taotlus', confirmation_message: 'Teie hüüdnime muutmise taotlus on esitatud ja ootab kinnitamist.', deleted: 'Hüüdnime taotlus on kustutatud.', dismiss_button: OK }
+      action: { help_text: 'Veenduge, et see taotletud hüüdnime muutmine järgib foorumi juhiseid.', decision_title: Otsus, approval_label: Kinnitada, rejected_label: 'Tagasi lükata', submit_button: Esitada, reason_title: 'Tagasilükkamise põhjus', success: 'Otsus saadetud.', title: 'Hüüdnime muutmise taotlus' }
+      results: { title: 'Hüüdnime muutmise taotlus', approved: 'Teie hüüdnime muutmise taotlus on heaks kiidetud', rejected: 'Teie hüüdnime muutmise taotlus lükati tagasi', resubmit: 'Sel ajal võite soovi korral oma konto seadetes uue hüüdnime muutmise taotluse uuesti esitada.', dismiss_button: OK }
+      request: { title: 'Hüüdnime muutmise taotlemine', submit_button: 'Esitan taotluse', delete_button: 'Kustuta taotlus', confirmation_message: 'Teie hüüdnime muutmise taotlus on esitatud ja ootab kinnitamist.', deleted: 'Hüüdnime taotlus on kustutatud.', dismiss_button: OK }
     username_modals:
-      action: { help_text: 'Palun veenduge, et see taotletud kasutajanime muutmine järgib foorumi juhiseid.', decision_title: Otsus, approval_label: Kinnitada, rejected_label: 'Tagasi lükata', submit_button: Esitada, reason_title: 'Tagasilükkamise põhjus', success: 'Otsus saadetud.', name: '{name} on taotlenud oma kasutajanime muutmist "{requestedName}"', title: 'Kasutajanime muutmise taotlus' }
-      results: { title: 'Kasutajanime muutmise taotlus', approved: 'Teie kasutajanime muutmise taotlus on heaks kiidetud', new_name: 'Teie kasutajanimi on edukalt muudetud: {name}', rejected: 'Teie kasutajanime muutmise taotlus lükati tagasi', reason: 'Tagasilükkamise põhjus: <i>"{põhjus}"</i>.', resubmit: 'Sel ajal võite oma konto seadetest uue kasutajanime muutmise taotluse uuesti esitada, kui otsustate seda teha.', dismiss_button: OK }
-      request: { title: 'Taotlege kasutajanime muutmist', current_request: 'Olete juba taotlenud oma kasutajanime muutmist "{nimi}". Saate oma taotlust värskendada või selle kustutada.', submit_button: 'Esitan taotluse', delete_button: 'Kustuta taotlus', confirmation_message: 'Teie kasutajanime muutmise taotlus on esitatud ja ootab kinnitamist.', deleted: 'Kasutajanime taotlus kustutati.', dismiss_button: OK }
+      action: { help_text: 'Palun veenduge, et see taotletud kasutajanime muutmine järgib foorumi juhiseid.', decision_title: Otsus, approval_label: Kinnitada, rejected_label: 'Tagasi lükata', submit_button: Esitada, reason_title: 'Tagasilükkamise põhjus', success: 'Otsus saadetud.', title: 'Kasutajanime muutmise taotlus' }
+      results: { title: 'Kasutajanime muutmise taotlus', approved: 'Teie kasutajanime muutmise taotlus on heaks kiidetud', rejected: 'Teie kasutajanime muutmise taotlus lükati tagasi', resubmit: 'Sel ajal võite oma konto seadetest uue kasutajanime muutmise taotluse uuesti esitada, kui otsustate seda teha.', dismiss_button: OK }
+      request: { title: 'Taotlege kasutajanime muutmist', submit_button: 'Esitan taotluse', delete_button: 'Kustuta taotlus', confirmation_message: 'Teie kasutajanime muutmise taotlus on esitatud ja ootab kinnitamist.', deleted: 'Kasutajanime taotlus kustutati.', dismiss_button: OK }
     pending_requests:
       empty_text: 'Nime muutmise taotlusi ei leitud.'
-      nickname_item_text: '{name} taotles hüüdnime muutmist'
-      nickname_exerpt: 'Taotletud hüüdnimi: {requestedName}'
-      username_item_text: '{name} taotles kasutajanime muutmist'
-      username_exerpt: 'Taotletud kasutajanimi: {requestedName}'
       tooltip: 'Nime muutmise taotlused'
       title: 'Nime muutmise taotlused'
     settings:
@@ -1149,15 +841,9 @@ fof-username-request:
   email:
     body:
       noReasonProvided: 'Põhjust ei esitatud.'
-      approved: "Tere {recipient_display_name},\n\n{actor_display_name} on heaks kiitnud teie taotluse muuta oma kasutajanimeks \"{new_username}\".\n\nNüüd saate sisse logida oma uue kasutajanimega: {login_url}\n"
-      rejected: "Tere {recipient_display_name},\n\n{actor_display_name} lükkas tagasi teie taotluse muuta oma kasutajanimi \"{old_username}\" asemel \"{requested_username}\".\n\nPõhjus: {põhjus}\n"
-    subject:
-      approved: '{display_name} kinnitas teie kasutajanimeks {requested_username}'
-      rejected: '{display_name} lükkas teie kasutajanime muutmise tagasi väärtuseks {requested_username}'
 fof-user-bio:
   forum:
     userbioPlaceholder: 'Kirjutage midagi enda kohta'
-    userbioPlaceholderOtherUser: 'Kirjutage {kasutajanimi} biograafia'
     profile:
       cancel_confirm: 'Kas olete kindel, et soovite oma biograafia redigeerimise tühistada? Kõik tehtud muudatused lähevad kaotsi.'
       cancel_button: Tühistama
@@ -1165,9 +851,6 @@ fof-user-bio:
       edit_bio_label: 'Muuda biograafiat'
 fof-split:
   forum:
-    post:
-      was_split_to: '{count, plural, üks {{count} postitus jagati {target}.} teised {{count} postitused jagati {target}.}}'
-      was_split_from: '{count, mitmuses, üks {{count} postitus tükeldati {target}.} teised {{count} postitused tükeldati {target}.}}'
     split:
       from: 'Siit lahku löödud'
       to: 'Jaga siia'
@@ -1221,13 +904,11 @@ fof-reactions:
   forum:
     disabled-reaction: 'Te ei saa seda reaktsiooni praegu kasutada, värskendage lehte'
     warning: 'Teie reaktsioon pöördus usule'
-    notification: '{kasutajanimi} reageeris teie postitusele {reaction}'
     settings:
       notify_post_reacted_label: 'Keegi reageerib ühele minu postitusele'
     reacting-own-post: 'Te ei saa oma postitusele reageerida'
     modal:
       title: Reaktsioonid
-      anonymous_count: '{count, plural, one {# anonymous user} other {# anonymous users}}'
       no_reactions: 'Reaktsioone pole veel'
     mod_item: 'Vaata reaktsioone'
     react_button_label: Reageerida
@@ -1241,22 +922,19 @@ fof-profile-image-crop:
 fof-prevent-necrobumping:
   forum:
     composer:
-      warning: { title: 'See arutelu on rohkem kui <b>{aeg}</b> vana.', description: 'On väga tõenäoline, et see ei vaja edasist arutelu ja seega ei ole sellel mõtet.', checkbox_label: 'Olen teadlik, et see arutelu on üsna vana, kuid tahaksin siiski vastata.', error: 'See arutelu on vastamiseks liiga vana.' }
+      warning: { description: 'On väga tõenäoline, et see ei vaja edasist arutelu ja seega ei ole sellel mõtet.', checkbox_label: 'Olen teadlik, et see arutelu on üsna vana, kuid tahaksin siiski vastata.', error: 'See arutelu on vastamiseks liiga vana.' }
 fof-pretty-mail: null
 fof-polls:
   forum:
-    days_remaining: 'Küsitlus lõpeb {time}.'
     no_permission: 'Teil pole hääletamiseks luba'
     poll_ended: 'See küsitlus on lõppenud.'
     public_poll: 'Vaata valijaid'
-    max_votes_allowed: 'Küsitlus võimaldab hääletada {max, mitmuses, üks {# valik} muu {# valik}}.'
     composer_discussion:
       add_poll: 'Lisa küsitlus'
       edit_poll: 'Redigeeri küsitlust'
     modal:
       add_title: 'Küsitluse lisamine'
       add_option_label: 'Lisa valik'
-      date_placeholder: 'Küsitluse lõppkuupäev (valikuline)'
       edit_title: 'Redigeeri küsitlust'
       include_question: 'Peate lisama küsimuse'
       max: 'Teil võib olla maksimaalselt 10 vastust'
@@ -1277,7 +955,6 @@ fof-polls:
       edit: 'Redigeeri küsitlust'
     tooltip:
       badge: Küsitlus
-      votes: '{loe, mitmuses, üks {# hääl} teine {# hääled}}'
     votes_modal:
       title: Valijad
 fof-nightmode:
@@ -1297,11 +974,9 @@ fof-moderator-notes:
   forum:
     no_content_given: 'Tühi märkus ei ole lubatud.'
     moderatorNotes:
-      created_text: '{kasutajanimi} lõi selle märkuse {date}'
       add_button: 'Uus märkus'
       create-heading: 'Uue moderaatori märkme loomine'
       dismiss_button: Teinud
-      input_heading: 'Sisestage oma märkmed <strong>{kasutajanimi}</strong>, (allahindlus on toetatud)'
       noNotes: 'Tundub, et siin pole märkmeid.'
       submit_button: 'Salvesta märkus'
       delete: Kustutama
@@ -1309,8 +984,6 @@ fof-moderator-notes:
     user:
       notes: 'Moderaatori märkused'
   api:
-    auto_note: '_I lülitus sellele kasutajale:_ {põhjus}'
-    auto_note_actor: '_Switched to_ @{kasutajanimi}: {põhjus}'
     no_reason_provided: 'Põhjust pole esitatud'
 fof-linguist: null
 fof-html-errors: null
@@ -1325,12 +998,8 @@ fof-gamification:
       name: Kasutaja
       amount: Punktid
     notification:
-      upvote: '{kasutajanimi} hääletas teie postituse poolt'
-      downvote: '{kasutajanimi} vähendas teie postitust'
       prefrences: { vote: 'Kui üks minu postitustest on üles/alla hääletatud' }
     user:
-      card: { points: '{count, plural, one { {count} point} other {{count} points}}' }
-      rank: '{auaste}'
       votes_link: Häält
     modal:
       downvotes_label: 'Allahääletajad:'
@@ -1344,11 +1013,6 @@ fof-gamification:
     post:
       upvote_button: 'Üleshääletatud postitus'
       downvote_button: 'Allahääletatud postitus'
-  email:
-    body:
-      postVoted: "Hei {recipient_display_name},\n\n{actor_display_name} hääletas just teie postituse üle {discussion_title}.\n\nVaata seda siit: {discussion_url}\n"
-    subject:
-      postVoted: 'Teie postituse üle hääletas {display_name}'
 fof-formatting: null
 fof-drafts:
   console:
@@ -1367,7 +1031,6 @@ fof-drafts:
       title: Mustandid
       delete_all_button: 'Kõigi mustandite kustutamine'
       delete_button: 'Mustandi kustutamine'
-      scheduled_icon_tooltip: 'Plaanitud teenusele {datetime}'
       scheduled_icon_tooltip_formatter: 'L [at] LT'
       alert: 'Kas olete kindel, et soovite oma mustandi kustutada?'
       delete_all_alert: 'Kas olete kindel, et soovite kõik oma mustandid kustutada?'
@@ -1375,13 +1038,10 @@ fof-drafts:
       tooltip: Mustandid
     schedule_draft_modal:
       text: 'Ajastage oma mustand automaatselt hiljem postitama!'
-      scheduled_text: 'Praegu plaanitakse postitada {datetime}.'
-      scheduled_error: 'Mustandit ei saa ajastada: {error}.'
       unschedule_button: 'Planeerimata jätmine'
       unschedule_warning: 'Kas olete kindel, et soovite selle mustandi ajakava tühistada?'
       reschedule_button: 'Ajakava muutmine'
       schedule_button: Ajakava
-      schedule_time_preview: 'See mustand avaldatakse automaatselt veebisaidil <b>{datetime}</b>.'
       schedule_time_preview_formatter: LLLL
       schedule_time_preview_invalid: 'Sobimatu kuupäev ja/või kellaaeg'
       title: 'Ajakava eelnõu'
@@ -1393,13 +1053,10 @@ fof-best-answer:
     this_best_answer: 'Valige parim vastus'
     remove_best_answer: 'Parima vastuse valiku tühistamine'
     best_answer_button: 'Parim vastus'
-    best_answer_label: 'määras <a>{kasutajanimi}</a> {time_set}'
     errors:
       mismatch: 'Valitud postitust selles arutelus ei ole.'
     notification:
-      best_answer_in_discussion: '{kasutajanimi} määras selles arutelus parima vastuse'
       content: 'Palun valige parim vastus, kui teie küsimusele on vastatud'
-      awarded: 'Teie postituse määras parimaks vastuseks {kasutajanimi}'
       preferences: { awarded_best_answer: 'Keegi määrab minu postituse parimaks vastuseks', best_answer_in_discussion: 'Parim vastus on määratud arutelus, milles osalesin', select_best_answer: 'Automaatne meeldetuletus parima vastuse valimiseks minu alustatud arutelus' }
     index:
       ask_question: 'Esitage küsimus'
@@ -1413,22 +1070,13 @@ fof-best-answer:
       accessible_label: 'Lahendatud/lahendamata valik'
     composer:
       titlePlaceholder: 'Küsimuse pealkiri'
-    user:
-      best-answer-count: '{count, plural, one { {count} best answer} other {{count} best answers}}'
     search:
       discussions_solutions_heading: 'Arutelud lahendustega'
-      all_discussions_solutions_button: 'Otsige kõigist aruteludest lahendusi "{päring}"'
     discussion:
       jump_to_best_answer_button: 'Vaadelgem parimat vastust'
   email:
     subject:
-      awarded: 'Sinu postitus seati parimaks vastuseks {display_name}'
-      ba-set: 'Parima vastuse seadis {display_name}'
       select: 'Kas sa said oma küsimusele vastuse?'
-    body:
-      awarded: "Hei {recipient_display_name},\n\nHea töö, {actor_display_name} lihtsalt seada oma postitus parim vastus arutelu: {discussion_title}. Tänan abi eest.\n\nVaadake siia: {discussion_url}\n"
-      ba-set: "Hei {recipient_display_name},\n\n{actor_ display_name} määras just parima vastuse arutelus: {discussion_title}, milles te osalesite.\n\nVaadake seda: {discussion_url}\n"
-      select: "Hei {recipient_display_name},\n\nLihtsalt kontrollin; nüüd peaks sul olema palju vastuseid oma küsimusele: {discussion_title}. Loodetavasti on üks neist aidanud sul oma probleemi lahendada.\n\nSellisel juhul oleks tulevastele liikmetele tõesti kasulik, kui saaksid oma küsimusele parima vastuse anda. See aitab sama probleemiga inimestel leida vajalikku vastust ja see on suur tänu ka liikmetele, kes sind aitasid. Nad annavad oma aega vabatahtlikult, nii et on tore öelda, et neil läheb hästi.\n\nKülasta arutelu siin: {discussion_url}, ja vali kõige sobivam postitus parima vastusena.\n\nTänan!\n"
 fof-user-directory:
   lib:
     sort:
@@ -1437,8 +1085,6 @@ fof-user-directory:
 fof-ban-ips:
   forum:
     modal:
-      ban_options_only_ip: 'Keelake ainult praegune IP (<code>{ip})</code>'
-      ban_options_all_ip: 'Keelake kõik IP-d, mida kasutab <i>{kasutajanimi}</i>'
       ban_ip_no_users: 'Kedagi teist ei keelata'
     user_badge:
       banned_tooltip: Keelatud
@@ -1455,13 +1101,8 @@ fof-ban-ips:
       check_button: Kontrollima
       save_button: Salvestama
       ban_ip_confirmation: 'Kas olete kindel, et soovite selle IP-aadressi kasutamise foorumis blokeerida? See blokeerib selle IP-aadressi (-aadresside) kasutajatel sisselogimise ja registreerimise.'
-      ban_ip_users: '{count, mitmuses, üks {Kasutaja {kasutajad} keelatakse} teised {Kasutajad {kasutajad} keelatakse}}'
       unban_ip_confirmation: 'Kas olete kindel, et soovite selle kasutaja ja kõigi teiste kasutajate, keda teised IP-d ei keela, blokeerida?'
-      unban_options_only_ip: 'Ainult praeguse IP blokeerimise tühistamine (<code>{ip})</code>'
-      unban_options_all_ip: 'Tühistage kõik IP-d, mida kasutab <i>{kasutajanimi}</i>'
       unban_ip_no_users: 'Kedagi teist ei blokeerita'
-      unban_ip_users: '{count, plural, one {User {users} on unbanned} teised {Users {users} on unbanned}}'
-      unbanned_ips: 'Unbanned <code>{ips}</code>.'
       title: 'IP(de) keelamine'
       unban_title: 'Unban IP(d)'
       address_label: IP-aadress
@@ -1492,7 +1133,6 @@ fof-anti-spam:
       move_discussions_tag_label: 'Arutelude teisaldamine karantiinisildile'
       move_discussions_tag_help: 'See teisaldab kõik selle kasutaja alustatud arutelud foorumi seadetes määratud sildile. Kui see on keelatud, jäetakse arutelud nende praegustesse siltidesse.'
       process_button: Protsess
-      title: '{kasutajanime} märkimine rämpsposti saatjaks'
       report_to_sfs_label: 'Teatage StopForumSpamile'
       report_to_sfs_help: 'See teatab kasutaja põhiandmed (kasutajanimi, e-posti aadress, IP-aadress) StopForumSpamile. See aitab vältida kasutaja registreerumist teistel foorumitel, mis kasutavad teenust StopForumSpam.'
     user_controls:
@@ -1511,18 +1151,11 @@ flarum-sticky:
     discussion_controls:
       unsticky_button: Kleepumatu
       sticky_button: Kleepuv
-    post_stream:
-      discussion_stickied_text: '{kasutajanimi} kleepis arutelu {time}.'
-      discussion_unstickied_text: '{kasutajanimi} tühistas arutelu {time}.'
     badge:
       sticky_tooltip: Kleepuv
   ref:
     sticky: Kleepuv
 flarum-statistics: null
-flarum-pusher:
-  forum:
-    discussion_list:
-      show_updates_text: '{count, mitmuses, üks {Show # updated discussion} other {Show # updated discussions}}'
 flarum-lock:
   forum:
     badge:
@@ -1530,24 +1163,13 @@ flarum-lock:
     discussion_controls:
       lock_button: Lukk
       unlock_button: Avada
-    notifications:
-      discussion_locked_text: '{kasutajanimi} on lukus'
-    post_stream:
-      discussion_locked_text: '{kasutajanimi} lukustas arutelu {time}.'
-      discussion_unlocked_text: '{kasutajanimi} avas arutelu {time}.'
     settings:
       notify_discussion_locked_label: 'Keegi lukustab minu alustatud arutelu'
 flarum-likes:
   forum:
-    notifications:
-      post_liked_text: '{kasutajanimi} meeldis teie postitusele'
-      others_text: '{count, plural, one {# other} other {# others}}'
     post:
       like_link: Nagu
-      liked_by_self_text: '{kasutajad} niimoodi.'
-      liked_by_text: '{count, mitmuses, ühele {{kasutajale} meeldib see} teistele {{kasutajatele} nagu see}}.'
       unlike_link: Erinevalt
-      others_link: '{count, plural, one {# other} other {# others}}'
       you_text: Te
     post_likes:
       title: 'Kasutajad, kellele see meeldib'
@@ -1602,9 +1224,6 @@ dhtml-composer:
       character_counter: 'Märkide loendur'
 datlechin-birthdays:
   forum:
-    user:
-      birthday_text: 'Sünnipäev: {kuupäev}'
-      age_text: 'Vanus: {vanus}'
     change_dob:
       title: 'Muuda sünnikuupäeva'
       date_of_birth_text: Sünnikuupäev
@@ -1617,16 +1236,12 @@ datlechin-birthdays:
       dob_heading: Sünnikuupäev
     nav:
       nav_item: 'Tänased sünnipäevad'
-    page:
-      discussion_count: '{count, mitmuses, üks {Arutelu: #} muu {Arutelud: #}}'
-      post_count: '{count, mitmuses, üks {Post: #} other {Posts: #}}'
     edit_user:
       dob_heading: Sünnikuupäev
     sign_up:
       dob_placeholder: Sünnikuupäev
   api:
     invalid_dob_message: 'Kehtetu sünniaeg'
-    invalid_age_message: 'Teie vanus peab olema vähemalt {minAge} aastat vana.'
   ref:
     date_of_birth: Sünnikuupäev
 clarkwinkelmann-post-permissions: null
@@ -1662,24 +1277,13 @@ askvortsov-rich-text:
       insert_image: { src_placeholder: Link, title_placeholder: Pealkiri }
       insert_link: { text_placeholder: Tekst, href_placeholder: URL, title_placeholder: 'Pealkiri (kuvatakse kursoril)', remove_button: Eemaldada }
       additional_items_tooltip: 'Täiendavad juhtelemendid'
-      bold_tooltip: 'Paks tekst <{modifierKey}-b>'
-      code_tooltip: 'Tekstisisene kood <{modifierKey}-''>'
       code_block_tooltip: 'Koodiploki lisamine'
-      header_tooltip: 'Päise {level} muutmine <shift-{modifierKey}-{level}>'
       horizontal_rule_tooltip: 'Horisontaalse reegli lisamine'
       image_tooltip: 'Pildi lisamine'
-      italic_tooltip: 'Kursiivtekst <{modifierKey}-i>'
       link_tooltip: 'Lingi lisamine'
-      ordered_list_tooltip: 'Nummerdatud loend <shift-{modifierKey}-9>'
-      paragraph_tooltip: 'Lõigu muutmine <shift-{modifierKey}-0>'
-      quote_tooltip: 'Tsitaadi lisamine <{modifierKey}-q>'
       spoiler_block_tooltip: 'Blokeeri spoiler/rippmenüü'
-      spoiler_inline_tooltip: 'Spoiler <{modifierKey}-;>'
       strike_tooltip: 'Läbikriipsutus <alt-shift-5>'
-      sub_tooltip: 'Allindeks <{modifierKey}-,>'
-      sup_tooltip: 'Ülaindeks <{modifierKey}-.>'
       text_type_tooltip: 'Valige Teksti tüüp'
-      unordered_list_tooltip: 'Täpploend <shift-{modifierKey}-8>'
   forum:
     settings:
       composer_heading: Helilooja
@@ -1694,7 +1298,6 @@ askvortsov-pwa:
       share_button: Jagama
     post_controls:
       share_button: Jagama
-      share_api: { title: '{kasutajanimi}''s vastus aadressile {title}''' }
     user_controls:
       share_button: Jagama
     settings:
@@ -1705,20 +1308,7 @@ askvortsov-pwa:
       header: 'Võrguühenduse viga'
       text: 'See rakendus nõuab võrguühendust; seda ei saa võrguühenduseta kasutada. Palun kontrollige oma ühendust.'
 askvortsov-moderator-warnings:
-  emails:
-    post_warned:
-      subject: '{warner_display_name} hoiatas teid {strikes, plural, one {# strike} other {# strikes}} in {discussion_title}'
-      body: "Hei {warnee_display_name}!\n\n{warner_display_name} hoiatas teid {strikes, plural, one {# strike} other {# strikes}} in {discussion_title}\n\nPõhjendati seda järgmiselt:\n\n---\n\n{public_comment}\n"
-    user_warned:
-      subject: '{warner_display_name} hoiatas teid {strikes, plural, one {# strike} other {# strikes}}'
-      body: "Hei {warnee_display_name}!\n\n{warner_display_name} hoiatas teid {strikes, plural, one {# strike} other {# strikes}}\n\nPõhjendati seda järgmiselt:\n\n---\n\n{public_comment}\n"
   forum:
-    notifications:
-      warning_text: '{streigid, mitmuses, üks {Teid hoiatati # streigiga {mod_username}} teine {Teid hoiatati # streikidega {mod_username}}}'
-      warning_no_strikes_text: 'Teid hoiatas {mod_username} (streike pole)'
-    post:
-      warning: '{streigid, mitmuses, üks {Hoiatatud # streigiga {mod_username}} teine {Hoiatatud # streigiga {mod_username}}}'
-      warning_no_strikes: '{mod_username} hoiatas ilma streikideta'
     post_controls:
       warning_button: 'Hoiata kasutajat'
     user:
@@ -1735,20 +1325,14 @@ askvortsov-moderator-warnings:
     warning_list:
       add_button: 'Uus hoiatus'
       no_warnings: 'Tundub, et siin pole hoiatusi.'
-      warnings: '{streigid, mitmuses, üks {Moderaatori hoiatused: # Strike Received} muud {Moderaatori hoiatused: # Saadud streigid}}'
       warnings_no_strikes: 'Moderaatori hoiatused: streike ei saadud'
     warning_list_item:
-      list_item_heading: '{strikes, plural, one {<strong>#</strong> strike, {time}} other {<strong>#</strong> strikes, {time}}}'
-      list_item_heading_hidden: '{streigid, mitmuses, üks {<strong>#</strong> streik, {aeg} <strong>(eemaldatud)</strong>} muud {<strong>#</strong> streigid, {aeg} <strong>(eemaldatud)</strong>}}'
       public_comment: Hoiatus
       private_comment: 'Moderaatori nähtavad kommentaarid'
       linked_post: 'Lingitud postitus'
     warning_modal:
       confirmation_message: 'Teie hoiatus on salvestatud. Võimalik, et peate selle nägemiseks lehte värskendama.'
-      heading: 'Hoiata <strong>{kasutajanimi}</strong>'
       strikes_heading: 'Mitu streiki tuleks kohaldada?'
-      public_comment_heading: 'Miks <strong>{kasutajanimi}</strong> neid hoiatusi saab? Need kommentaarid on nähtavad kasutajale ja teistele moderaatoritele.'
-      private_comment_heading: 'Miks <strong>{kasutajanimi}</strong> neid hoiatusi saab? Need kommentaarid on nähtavad AINULT teistele moderaatoritele.'
       submit_button: 'Salvesta hoiatus'
 askvortsov-discussion-templates:
   forum:

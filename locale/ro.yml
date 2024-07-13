@@ -3,7 +3,6 @@ core:
     change_email:
       incorrect_password_message: 'Parola introdusă este incorectă.'
       confirm_password_placeholder: 'Confirmare parolă'
-      confirmation_message: 'Am trimis un e-mail de confirmare la {email}. Dacă nu ajunge curând, verificați folderul de spam.'
       dismiss_button: OK
       submit_button: 'Salvați modificările'
       title: 'Schimbați adresa de e-mail'
@@ -26,7 +25,6 @@ core:
     composer_edit:
       discard_confirmation: 'Nu ați salvat modificările. Doriți să le aruncați?'
       edited_message: 'Editarea a fost făcută.'
-      post_link: 'Postați #{number} în {discussion}'
       submit_button: 'Salvați modificările'
       view_button: Vedere
     composer_reply:
@@ -48,10 +46,6 @@ core:
       restore_button: Restaura
     discussion_list:
       empty_text: 'Se pare că nu există discuții aici.'
-      replied_text: '{username} a răspuns {ago}'
-      started_text: '{username} a început {ago}'
-      total_replies_a11y_label: '{număr, plural, un {# răspuns} altul {# răspunsuri}}'
-      unread_replies_a11y_label: '{număr, plural, un {# răspuns necitit} altul {# răspunsuri necitite}}. Marcați necitit {count, plural, un {reply} altul {replies}} ca citit.'
       load_more_button: 'Încarcă mai mult'
     forgot_password:
       email_sent_message: 'Dacă e-mail-ul pe care l-aţi introdus este înregistrat pe acest site, vă vom trimite un e-mail conţinând un link pentru resetarea parolei. Verificați dosarul spam dacă nu-l primiți în următorul minut sau două.'
@@ -107,7 +101,6 @@ core:
     notifications:
       delete_all_confirm: 'Sigur doriți să ștergeți toate notificările? Această acțiune nu este reversibilă'
       delete_all_tooltip: 'Ștergeți toate notificările'
-      discussion_renamed_text: '{username} a schimbat titlul'
       empty_text: 'Fără notificări'
       mark_as_read_tooltip: 'Marcați ca citit'
       toggle_dropdown_accessible_label: 'Vizualizarea notificărilor'
@@ -116,8 +109,6 @@ core:
       tooltip: Notificări
     post:
       edited_text: Editate
-      edited_tooltip: '{username} editat {ago}'
-      number_tooltip: 'Postează #{number}'
     post_controls:
       delete_confirmation: 'Sunteți sigur că doriți să ștergeți această postare pentru totdeauna? Această acțiune nu poate fi anulată.'
       hide_confirmation: 'Sunteți sigur că doriți să ștergeți această postare?'
@@ -131,23 +122,16 @@ core:
     post_scrubber:
       now_link: Acum
       original_post_link: 'Postarea originală'
-      unread_text: '{count} necitit'
-      viewing_text: '{count, plural, un {{index} din {formattedCount} post} altul {{index} din {formattedCount} postări}}'
     post_stream:
-      discussion_renamed_old_tooltip: 'Vechiul titlu era: "{vechi}"'
-      discussion_renamed_text: '{username} a schimbat titlul în {new} {time}.'
-      time_lapsed_text: '{punct} mai târziu'
       load_more_button: 'Încarcă mai mult'
       reply_placeholder: 'Scrie un răspuns...'
     rename_discussion:
       title: 'Redenumirea discuției'
       submit_button: Redenumire
     search:
-      all_discussions_button: 'Căutați în toate discuțiile "{query}"'
       discussions_heading: Discuţii
       users_heading: Utilizatorii
     security:
-      browser_on_operating_system: '{browser} pe {OS}'
       cannot_terminate_current_session: 'Nu se poate încheia sesiunea activă curentă. Deconectați-vă în schimb.'
       created: Creat
       current_active_session: 'Sesiunea activă curentă'
@@ -159,13 +143,11 @@ core:
       new_access_token_modal: { submit_button: 'Creați token', title_placeholder: Titlu, title: 'Token nou' }
       revoke_access_token: Revoca
       sessions_heading: 'Sesiuni active'
-      session_terminated: '{count, plural, un {Sesiune încheiată} altul {# Sesiuni încheiate}}.'
       session_termination_failed: 'A apărut o eroare la terminarea sesiunilor.'
       show_access_token: 'Vezi tokenul'
       terminate_all_other_sessions: 'Încheiați toate celelalte sesiuni'
       terminate_session: Termina
       token_revoked: 'Token revocat.'
-      token_item_title: '{titlu} - {token}'
       token_title_placeholder: /
       never: Niciodată
       new_access_token_button: 'Token nou'
@@ -174,7 +156,6 @@ core:
       title: Securitate
     settings:
       account_heading: Cont
-      notification_checkbox_a11y_label_template: 'Primiți notificări "{description}" prin {method}'
       notify_by_web_heading: Web
       notify_discussion_renamed_label: 'Cineva redenumește o discuție pe care am început-o'
       privacy_disclose_online_label: 'Permiteți altora să vadă când sunt online'
@@ -186,7 +167,6 @@ core:
       title: Setări
     sign_up:
       log_in_text: 'Aveți deja un cont? <a>conectează-te</a>'
-      welcome_text: 'Bine ați venit, {nume de utilizator}!'
       dismiss_button: OK
       email_placeholder: Email
       password_placeholder: Parolă
@@ -196,8 +176,6 @@ core:
     user:
       avatar_upload_button: Încărca
       avatar_upload_tooltip: 'Încărcați un avatar nou'
-      in_discussion_text: 'În {discuție}'
-      joined_date_text: 'S-a înscris în {ago}'
       online_text: Online
       posts_empty_text: 'Se pare că nu există postări aici.'
       avatar_remove_button: Depărta
@@ -209,15 +187,12 @@ core:
     user_controls:
       button: Controale
       delete_confirmation: 'Sigur doriți să ștergeți acest utilizator? Postările utilizatorului NU vor fi șterse.'
-      delete_error_message: 'Ștergerea utilizatorului <i>{username} ({email})</i> nu a reușit'
-      delete_success_message: 'Utilizatorul <i>{username} ({email})</i> a fost șters'
       toggle_dropdown_accessible_label: 'Comutați meniul vertical Comenzi utilizator'
       delete_button: Șterge
       edit_button: Editare
     user_email_confirmation:
       resend_button: 'Retrimiteți e-mailul de confirmare'
       sent_message: Trimis
-      alert_message: 'Am trimis un e-mail de confirmare la {email}. Dacă nu ajunge curând, verificați folderul de spam.'
     welcome_hero:
       hide: 'Ascundeți mesajul de întâmpinare'
     badge:
@@ -230,8 +205,6 @@ core:
       hidden_tooltip: Ascuns
     dropdown:
       toggle_dropdown_accessible_label: 'Comutați meniul derulant'
-    data_segment:
-      label: '{etichetă}:'
     edit_user:
       activate_button: 'Activare utilizator'
       groups_heading: Grupuri
@@ -246,33 +219,17 @@ core:
       username_heading: 'Nume utilizator'
       username_label: 'Nume utilizator'
     error:
-      circular_dependencies_message: 'Dependențe circulare detectate: {extensions}. Abandonare. Vă rugăm să dezactivați una dintre extensii și să încercați din nou.'
-      dependent_extensions_message: 'Nu se poate dezactiva {extension} până când următoarele extensii dependente nu sunt dezactivate: {extensions}'
-      extension_initialiation_failed_message: '{extension} nu a reușit inițializarea, verificați consola browserului pentru informații suplimentare.'
       generic_message: 'Oops! Ceva nu a mers bine. Reîncărcați pagina și încercați din nou.'
       generic_cross_origin_message: 'Oops! Ceva nu a mers bine în timpul unei solicitări de origine încrucișată. Reîncărcați pagina și încercați din nou.'
-      missing_dependencies_message: 'Nu se poate activa {extension} până când nu sunt activate următoarele dependențe: {extensions}'
       not_found_message: 'Resursa solicitată nu a fost găsită.'
       payload_too_large_message: 'Sarcina utilă solicitată a fost prea mare.'
       permission_denied_message: 'Nu aveți permisiunea de a face acest lucru.'
       rate_limit_exceeded_message: 'Mergi un pic prea repede. Vă rugăm să încercați din nou în câteva secunde.'
       render_failed_message: 'Ne pare rău, am întâmpinat o eroare la afișarea acestui conținut. Dacă sunteți utilizator, încercați din nou mai târziu. Dacă sunteți administrator, aruncați o privire în fișierele jurnal Flarum pentru mai multe informații.'
-    meta_titles:
-      with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} altele {{pageTitle}: Pagina # - {forumName}}}'
-      without_page_title: '{pageNumber, plural, =1 {{forumName}} altele {Page # - {forumName}}}'
     modal:
       close: Închide
     nav:
       drawer_button: 'Deschideți sertarul de navigare'
-    number_suffix:
-      kilo_text: Înspre
-      mega_text: M
-    series:
-      glue_text: ', '
-      three_text: '{primul}, {al doilea} și {al treilea}'
-      two_text: '{primul} și {al doilea}'
-    username:
-      deleted_text: '[eliminat]'
     loading_indicator:
       accessible_label: Încărcare...
   views:
@@ -290,11 +247,9 @@ core:
       invalid_confirmation_token: 'Acest link de confirmare a fost deja utilizat sau este nevalid.'
       not_authenticated: 'Nu aveți permisiunea de a accesa această pagină. Încercați din nou după conectare.'
       not_found: 'Pagina pe care ați solicitat-o nu a putut fi găsită.'
-      not_found_return_link: 'Înapoi la {forum}'
       permission_denied: 'Nu aveți permisiunea de a accesa această pagină.'
       unknown: 'A apărut o eroare în timp ce încercați să încărcați această pagină.'
     log_out:
-      log_out_confirmation: 'Sigur doriți să vă deconectați de la {forum}?'
       log_out_button: Deconectează-te
       title: Deconectează-te
     reset_password:
@@ -311,23 +266,15 @@ core:
       previous_page_button: 'Pagina anterioară'
   api:
     invalid_username_message: 'Numele de utilizator poate conține numai litere, cifre și cratime.'
-    invalid_filter_type:
-      must_be_numeric_message: 'Filtrul {filter} trebuie să fie numeric.'
-      must_not_be_array_message: 'Filtrul {filter} nu trebuie să fie o matrice.'
-      must_not_be_multidimensional_array_message: 'Filtrul {filter} nu trebuie să fie o matrice multidimensională.'
   email:
     activate_account:
       subject: 'Activați-vă noul cont'
-      body: "Hei {nume de utilizator}!\n\nCineva (sperăm că dvs.!) s-a înscris la {forum} cu această adresă de e-mail.\n\nDacă ați fost dvs., pur și simplu faceți clic pe următorul link și contul dvs. va fi activat:\n{url}\n\nDacă nu v-ați înscris, vă rugăm să ignorați acest e-mail.\n"
     confirm_email:
       subject: 'Confirmați noua adresă de e-mail'
-      body: "Hei {nume de utilizator}!\n\nCineva (sperăm că tu!) și-a schimbat adresa de e-mail de pe {forum} cu aceasta.\n\nDacă ați fost dvs., pur și simplu faceți clic pe următorul link și e-mailul dvs. va fi confirmat:\n{url}\n\nDacă nu ați fost dvs., vă rugăm să ignorați acest e-mail.\n"
     reset_password:
-      body: "Hei {nume de utilizator}!\n\nCineva (sperăm că dvs.!) a trimis o solicitare de parolă uitată pentru contul dvs. pe {forum}.\n\nDacă ați fost dvs., faceți clic pe următorul link pentru a vă reseta parola:\n{url}\n\nDacă nu doriți să vă schimbați parola, ignorați acest e-mail și nu se va întâmpla nimic.\n"
       subject: 'Resetarea parolei'
     send_test:
       subject: 'Test de e-mail Flarum'
-      body: "Hei {nume de utilizator}!\n\nAcesta este un e-mail de test pentru a confirma că configurația e-mailului Flarum funcționează corect.\n\nDacă ați fost dvs., acest e-mail înseamnă că configurația dvs. funcționează!\n\nDacă nu ați fost dvs., vă rugăm să ignorați acest e-mail.\n"
   ref:
     all_discussions: 'Toate discuțiile'
     change_email: 'Schimbați adresa de e-mail'
@@ -335,7 +282,6 @@ core:
     color: Culoare
     confirm_password: 'Confirmare parolă'
     confirm_email: 'Confirmați e-mailul'
-    confirmation_email_sent: 'Am trimis un e-mail de confirmare la {email}. Dacă nu ajunge curând, verificați folderul de spam.'
     custom_footer_text: 'Adăugați HTML pentru a fi afișat chiar în partea de jos a paginii.'
     custom_footer_title: 'Editarea subsolului personalizat'
     custom_header_text: 'Adăugați HTML pentru a fi afișat chiar în partea de sus a paginii, deasupra antetului Flarum.'
@@ -349,7 +295,6 @@ core:
     extensions: Extensii
     generic_confirmation_message: 'Sunteți sigur că doriți să continuați? Această acțiune nu poate fi anulată.'
     icon: Icoană
-    icon_text: 'Introduceți numele oricărei clase de pictograme <a>FontAwesome</a>, <em>inclusiv</em> prefixul <code>fas fa-</code>.'
     load_more: 'Încarcă mai mult'
     loading: Încărcare...
     log_in: Conectează-te
@@ -373,7 +318,6 @@ core:
     security: Securitate
     settings: Setări
     sign_up: Înscrie-te
-    some_others: '{număr, plural, unul {# altul} altul {# altele}}'
     start_a_discussion: 'Începeți o discuție'
     username: 'Nume utilizator'
     users: Utilizatorii
@@ -389,128 +333,12 @@ core:
     members: Membri
     mod: Mod
     mods: Mods
-validation:
-  accepted: 'Atributul :trebuie acceptat.'
-  active_url: ':attribute nu este o adresă URL validă.'
-  after: 'Atributul :trebuie să fie o dată după :d ate.'
-  after_or_equal: 'Atributul :trebuie să fie o dată ulterioară sau egală cu :d ate.'
-  alpha: 'Atributul :trebuie să conțină numai litere.'
-  alpha_dash: 'Atributul :trebuie să conțină numai litere, cifre, cratime și caractere de subliniere.'
-  alpha_num: 'Atributul :trebuie să conțină numai litere și cifre.'
-  array: 'Atributul :trebuie să fie o matrice.'
-  before: 'Atributul :trebuie să fie o dată înainte de :d ate.'
-  before_or_equal: 'Atributul :trebuie să fie o dată anterioară sau egală cu :d ate.'
-  between:
-    numeric: 'Atributul :trebuie să fie între :min și :max.'
-    file: 'Atributul :trebuie să fie între :min și :max kilobytes.'
-    string: 'Atributul :trebuie să fie între caracterele :min și :max.'
-    array: 'Atributul :trebuie să aibă între :min și :max items.'
-  boolean: 'Câmpul :attribute trebuie să fie true sau false.'
-  confirmed: 'Confirmarea :attribute nu corespunde.'
-  date: 'Atributul :nu este o dată validă.'
-  date_equals: 'Atributul :trebuie să fie o dată egală cu :d ate.'
-  date_format: 'Atributul :nu corespunde formatului:format.'
-  different: 'Atributul :și :altele trebuie să fie diferite.'
-  digits: 'Atributul :trebuie să fie :d igits digits.'
-  digits_between: 'Atributul :trebuie să fie între cifrele :min și :max.'
-  dimensions: 'Atributul :are dimensiuni de imagine nevalide.'
-  distinct: 'Câmpul :attribute are o valoare dublată.'
-  email: 'Atributul :trebuie să fie o adresă de e-mail validă.'
-  ends_with: 'Atributul :trebuie să se termine cu una dintre următoarele: :values.'
-  exists: 'Atributul :selectat nu este valid.'
-  file: 'Atributul :trebuie să fie un fișier.'
-  file_too_large: 'Atributul :este prea mare.'
-  file_upload_failed: 'Atributul :nu s-a încărcat.'
-  filled: 'Câmpul :attribute trebuie să aibă o valoare.'
-  gt:
-    numeric: 'Atributul :trebuie să fie mai mare decât :value.'
-    file: 'Atributul :trebuie să fie mai mare decât :value kilobytes.'
-    string: 'Atributul :trebuie să fie mai mare decât caracterele :value.'
-    array: 'Atributul :trebuie să aibă mai mult de: value items.'
-  gte:
-    numeric: 'Atributul :trebuie să fie mai mare sau egal cu :value.'
-    file: 'Atributul :trebuie să fie mai mare sau egal cu :value kilobytes.'
-    string: 'Atributul :trebuie să fie mai mare sau egal cu caracterele :value.'
-    array: 'Atributul :trebuie să aibă :value items sau mai multe.'
-  image: 'Atributul :trebuie să fie o imagine.'
-  in: 'Atributul :selectat nu este valid.'
-  in_array: 'Câmpul :attribute nu există în :altele.'
-  integer: 'Atributul :trebuie să fie un întreg.'
-  ip: 'Atributul :trebuie să fie o adresă IP validă.'
-  ipv4: 'Atributul :trebuie să fie o adresă IPv4 validă.'
-  ipv6: 'Atributul :trebuie să fie o adresă IPv6 validă.'
-  json: 'Atributul :trebuie să fie un șir JSON valid.'
-  lt:
-    numeric: 'Atributul :trebuie să fie mai mic decât :value.'
-    file: 'Atributul :trebuie să fie mai mic decât :value kilobytes.'
-    string: 'Atributul :trebuie să fie mai mic decât caracterele :value.'
-    array: 'Atributul :trebuie să aibă elemente mai mici decât:value.'
-  lte:
-    numeric: 'Atributul :trebuie să fie mai mic sau egal cu :value.'
-    file: 'Atributul :trebuie să fie mai mic sau egal cu kiloocteți :valoare.'
-    string: 'Atributul :trebuie să fie mai mic sau egal cu caracterele :value.'
-    array: 'Atributul :nu trebuie să aibă mai mult de :value items.'
-  max:
-    numeric: 'Atributul :nu trebuie să fie mai mare decât :max.'
-    file: 'Atributul :nu trebuie să fie mai mare de :max kilobytes.'
-    string: 'Atributul :nu trebuie să fie mai mare de caracterele :max.'
-    array: 'Atributul :nu trebuie să aibă mai mult de :max items.'
-  mimes: 'Atributul :trebuie să fie un fișier de tipul: :values.'
-  mimetypes: 'Atributul :trebuie să fie un fișier de tipul: :values.'
-  min:
-    numeric: 'Atributul :trebuie să fie cel puțin :min.'
-    file: 'Atributul :trebuie să fie de cel puțin :min kiloocteți.'
-    string: 'Atributul :trebuie să aibă cel puțin :min caractere.'
-    array: 'Atributul :trebuie să aibă elemente de cel puțin :min.'
-  multiple_of: 'Atributul :trebuie să fie un multiplu al :value.'
-  not_in: 'Atributul :selectat nu este valid.'
-  not_regex: 'Formatul :attribute nu este valid.'
-  numeric: 'Atributul :trebuie să fie un număr.'
-  password: 'Parola este incorectă.'
-  present: 'Câmpul :attribute trebuie să fie prezent.'
-  regex: 'Formatul :attribute nu este valid.'
-  required: 'Câmpul :attribute este obligatoriu.'
-  required_if: 'Câmpul :attribute este obligatoriu atunci când :altele este :value.'
-  required_unless: 'Câmpul :attribute este obligatoriu, cu excepția cazului în :altele în :values.'
-  required_with: 'Câmpul :attribute este obligatoriu atunci când :values este prezent.'
-  required_with_all: 'Câmpul :attribute este obligatoriu atunci când :values sunt prezente.'
-  required_without: 'Câmpul :attribute este obligatoriu atunci când :values nu este prezent.'
-  required_without_all: 'Câmpul :attribute este obligatoriu atunci când niciuna dintre :valori nu este prezentă.'
-  prohibited: 'Câmpul :attribute este interzis.'
-  prohibited_if: 'Câmpul :attribute este interzis atunci când :altele este :value.'
-  prohibited_unless: 'Câmpul :attribute este interzis, cu excepția cazului în care:altele este în :values.'
-  same: 'Atributul :și :altele trebuie să corespundă.'
-  size:
-    numeric: 'Atributul :trebuie să fie:size.'
-    file: 'Atributul :trebuie să fie:dimensiune kiloocteți.'
-    string: 'Atributul :trebuie să fie :size caractere.'
-    array: 'Atributul :trebuie să conțină: elemente de dimensiune.'
-  starts_with: 'Atributul :trebuie să înceapă cu una dintre următoarele: :values.'
-  string: 'Atributul :trebuie să fie un șir.'
-  timezone: 'Atributul :trebuie să fie o zonă validă.'
-  unique: 'Atributul :a fost deja luat.'
-  uploaded: 'Atributul :nu s-a încărcat.'
-  url: 'Formatul :attribute nu este valid.'
-  uuid: 'Atributul :trebuie să fie un UUID valid.'
-  attributes:
-    username: 'nume utilizator'
-    password: parolă
-    email: E-mail
-    title: titlu
-    content: conținut
-    name_singular: 'Nume singular'
-    name_plural: 'Denumire plural'
-    tag_count_primary: 'Numărul de etichete primare'
-    tag_count_secondary: 'numărul de etichete secundare'
-  recaptcha: 'Validarea reCAPTCHA nu a reușit.'
-  recaptcha-unknown: 'A apărut o eroare necunoscută la validarea reCAPTCHA ({errors}).'
 flarum-tags:
   forum:
     all_tags:
       meta_description_text: 'Toate etichetele'
       meta_title_text: Tags
     choose_tags:
-      edit_title: 'Editarea etichetelor pentru {title}'
       title: 'Alegeți etichete pentru discuție'
     discussion_controls:
       edit_tags_button: 'Editarea etichetelor'
@@ -520,48 +348,27 @@ flarum-tags:
       more_link: 'Mai mult...'
       untagged_link: 'Fără taguri'
       tags_link: Tags
-    post_stream:
-      added_and_removed_tags_text: '{username} a adăugat {tagsAdded} și a eliminat {tagsRemoved} {time}.'
-      added_tags_text: '{username} a adăugat {tagsAdded} {time}.'
-      removed_tags_text: '{username} a eliminat {tagsRemoved} {time}.'
-      tags_text: '{count, plural, un {{tags} tag} altele {{tags} tags}}'
-    tag:
-      meta_description_text: 'Toate discuțiile cu eticheta {tag}'
     composer_discussion:
       choose_tags_link: 'Alegeți etichete'
   lib:
     deleted_tag_text: Şterse
     tag_selection_modal:
       bypass_requirements: 'Cerințe privind eticheta de ocolire'
-      choose_primary_placeholder: '{count, plural, unul {Alegeți o etichetă principală} altul {Alegeți # etichete primare}}'
-      choose_secondary_placeholder: '{count, plural, unul {Alegeți încă 1 etichetă} altul {Alegeți # mai multe etichete}}'
-      choose_tags_placeholder: '{count, plural, unul {Alegeți încă 1 etichetă} altul {Alegeți # mai multe etichete}}'
       submit_button: OK
       title: 'Alegeți etichete'
   ref:
     choose_tags: 'Alegeți etichete'
-    choose_tags_placeholder: '{count, plural, unul {Alegeți încă 1 etichetă} altul {Alegeți # mai multe etichete}}'
     name: Nume
     tags: Tags
 flarum-mentions:
   forum:
     composer:
       mention_tooltip: 'Menționează un utilizator, un grup sau o postare'
-      reply_to_post_text: 'Răspundeți la #{number}'
     mentioned_by:
       title: 'Răspunsuri la această postare'
       load_more_button: 'Încarcă mai mult'
-    notifications:
-      post_mentioned_text: '{username} a răspuns la postarea dvs.'
-      user_mentioned_text: '{username} te-a menționat'
-      group_mentioned_text: '{username} a menționat un grup din care faci parte'
-      others_text: '{număr, plural, unul {# altul} altul {# altele}}'
     post:
-      mentioned_by_more_text: '{count} mai multe răspunsuri.'
-      mentioned_by_self_text: '{utilizatori} a răspuns la aceasta.'
-      mentioned_by_text: '{utilizatori} a răspuns la aceasta.'
       quote_button: Citat
-      others_text: '{număr, plural, unul {# altul} altul {# altele}}'
       reply_link: Răspunde
       you_text: Tu
     settings:
@@ -570,28 +377,12 @@ flarum-mentions:
       notify_group_mentioned_label: 'Cineva menționează un grup din care fac parte într-o postare'
     user:
       mentions_link: Menţionează
-    post_mention:
-      deleted_text: '[necunoscut]'
-    group_mention:
-      deleted_text: '[grup necunoscut]'
-  email:
-    post_mentioned:
-      subject: '{replier_display_name} a răspuns la postarea ta în {title}'
-      body: "Hei {recipient_display_name}!\n\n{replier_display_name} a răspuns la postarea ta (#{post_number}) în {title}.\n\n{url}\n\n---\n\n{conținut}\n"
-    user_mentioned:
-      subject: '{mentioner_display_name} te-a menționat în {title}'
-      body: "Hei {recipient_display_name}!\n\n{mentioner_display_name} v-a menționat într-o postare din {title}.\n\n{url}\n\n---\n\n{conținut}\n"
-    group_mentioned:
-      subject: '{mentioner_display_name} a menționat un grup din care faceți parte în {title}'
-      body: "Hei {recipient_display_name}!\n\n{mentioner_display_name} a menționat un grup din care faceți parte în {title}.\n\n{url}\n\n---\n\n{conținut}\n"
 flarum-subscriptions:
   forum:
     discussion_controls:
       unfollow_button: 'Anulează urmărirea'
       unignore_button: Unsir
       follow_button: Urma
-    notifications:
-      new_post_text: '{nume utilizator} postat'
     settings:
       follow_after_reply_label: 'Urmăriți automat discuțiile la care răspund'
       notify_for_all_posts_label: 'Notificați despre fiecare postare nouă în loc de ultima dintr-o discuție'
@@ -613,10 +404,6 @@ flarum-subscriptions:
       meta_title_text: Următor
     index:
       following_link: Următor
-  email:
-    new_post:
-      subject: '[Post nou] {titlu}'
-      body: "Hei {recipient_display_name}!\n\n{poster_display_name} a făcut o postare într-o discuție pe care o urmăriți: {title}.\n\nPentru a vizualiza noua activitate, consultați următorul link:\n{url}\n\n---\n\n{conținut}\n\n---\n\nNu veți mai primi notificări despre această discuție până când nu sunteți la curent.\n"
   ref:
     follow: Urma
     following: Următor
@@ -625,7 +412,6 @@ flarum-flags:
   forum:
     flag_post:
       confirmation_message: 'Vă mulțumim că ați semnalat această postare. Moderatorii noștri o vor analiza.'
-      reason_details_placeholder: 'Detalii suplimentare (opțional)'
       reason_inappropriate_label: Inoportun
       reason_inappropriate_text: 'Această postare este jignitoare, abuzivă sau încalcă <a>regulile comunității</a>.'
       reason_missing_message: 'Vă rugăm să furnizați câteva detalii moderatorilor noștri.'
@@ -639,13 +425,10 @@ flarum-flags:
       title: 'Stâlp de semnalizare'
     flagged_posts:
       empty_text: 'Fără steaguri'
-      item_text: '{username} în <em>{discussion}</em>'
       title: 'Postări semnalizate'
       tooltip: 'Postări semnalizate'
     post:
       dismiss_flag_button: 'Respingeți steagul'
-      flagged_by_text: 'Semnalizat de {username}'
-      flagged_by_with_reason_text: 'Semnalizat de {username} ca {reason}'
     post_controls:
       flag_button: Drapel
   ref:
@@ -654,13 +437,11 @@ flarum-flags:
 flarum-suspend:
   forum:
     notifications:
-      user_suspended_text: 'Ați fost suspendat pentru {timeReadable}'
       user_suspended_indefinite_text: 'Ați fost suspendat pe termen nelimitat'
       user_unsuspended_text: 'Ați fost nesuspendat'
     suspension_info:
       dismiss_button: 'A concedia'
       indefinite: 'Aceasta este o suspendare nedeterminată'
-      limited: 'Această suspendare va fi în vigoare până la {date}'
       title: 'Acest cont este suspendat'
     suspend_user:
       display_message: 'Afișare mesaj pentru utilizator'
@@ -671,7 +452,6 @@ flarum-suspend:
       placeholder_optional: Facultativ
       reason: 'Motivul suspendării'
       status_heading: 'Starea suspendării'
-      title: 'Suspendare {nume utilizator}'
       submit_button: 'Salvați modificările'
     user_badge:
       suspended_tooltip: Suspendat
@@ -681,10 +461,8 @@ flarum-suspend:
     no_reason_given: 'Nu a fost oferit niciun motiv pentru această suspendare.'
     suspended:
       subject: 'Contul tău a fost suspendat'
-      body: "Hei {recipient_display_name},\n\nAți fost suspendat din următorul motiv:\n\n---\n{suspension_message}\n---\n"
     unsuspended:
       subject: 'Contul dvs. a fost nesuspendat'
-      body: "Hei {recipient_display_name},\n\nAți fost nesuspendat. Puteți reveni la forum făcând clic pe următorul link:\n\n{forum_url}\n"
 blomstra-gdpr:
   lib:
     data:
@@ -707,8 +485,6 @@ fof-upload:
       error: Eroare
       loading: Încărcarea
       unauthorized: 'Nu aveți voie să descărcați fișiere'
-    validation:
-      max_size: 'Încărcările peste {max} kb nu sunt acceptate.'
     text_preview:
       expand: 'Extindeți previzualizarea'
       collapse: 'Restrângere previzualizare'
@@ -718,7 +494,6 @@ fof-upload:
   api:
     upload_errors:
       forbidden_type: 'Încărcarea fișierelor de acest tip nu este permisă.'
-      unsupported_type: 'Adaptorul de încărcare nu acceptă tipul de mimă furnizat: {mime}.'
       could_not_detect_mime: 'Nu s-a putut detecta tipul MIME al acestui fișier, încercați din nou.'
       max_upload_file_size_ini: 'Limita maximă de dimensiune a fișierului de încărcare a fost atinsă de la php.ini.'
       max_upload_file_size_form: 'Încărcați limita maximă a dimensiunii fișierului atinsă din formular.'
@@ -727,7 +502,6 @@ fof-upload:
       no_upload_tmp_folder: 'Nu există folder tmp pentru încărcarea fișierelor.'
       cannot_write_to_disk: 'Nu se poate scrie pe disc.'
       upload_blocked_by_php_extension: 'O extensie php a blocat încărcarea.'
-      no_files_made_it_to_upload: 'Vă rugăm să încărcați fișiere nu mai mari de {max} kb.'
   lib:
     upload-shared-file-modal:
       title: 'Fișier partajat nou'
@@ -740,13 +514,9 @@ fof-upload:
       release_to_upload: 'Versiune pentru încărcare'
       modal_empty_desktop: 'Lista de fișiere este goală. Faceți clic pe buton sau trageți un fișier aici pentru a-l încărca.'
       modal_empty_phone: 'Lista de fișiere este goală. Atingeți butonul de mai sus pentru a încărca un fișier.'
-      select_file_a11y_label: 'Selectați fișierul "{fileName}"'
-      confirm_selection_btn: '{fileCount, plural, =0 {Niciunul selectat} unul {Selectați fișier} altul {Selectați fișiere}}'
       load_more_files_btn: 'Încărcați mai multe fișiere'
-      delete_file_a11y_label: 'Ștergeți fișierul "{fileName}"'
-      delete_confirmation: 'Sigur doriți să ștergeți "{fileName}"?'
-      hide_file: { btn_a11y_label_hide: 'Ascundeți "{fileName}" din managerul media', btn_a11y_label_show: 'Afișați "{fileName}" în Media Manager', hide_confirmation: 'Sigur doriți să ascundeți "{fileName}"? Ascunderea unui fișier va elimina doar din managerul media și nu va afecta postările existente.', hide_success: 'Fișier ascuns', show_confirmation: 'Sigur doriți să afișați "{fileName}"? Afișarea unui fișier îl va face vizibil în managerul media.', show_success: 'Fișier afișat', hide_fail: 'Nu s-a putut ascunde fișierul "{fileName}"', show_fail: 'Nu s-a putut afișa fișierul "{fileName}"', loading: 'Ascunderea fișierului...' }
-      hide_shared_file: { btn_a11y_label_hide: 'Faceți "{fileName}" privat (fără adresă URL publică)', btn_a11y_label_show: 'Faceți public "{fileName}" (cu URL public)', hide_confirmation: 'Sigur doriți să faceți "{fileName}" privat? Transformarea unui fișier în privat va elimina adresa URL publică a acestuia, dar nu va afecta postările existente. De asemenea, nu va mai fi vizibil în managerul media pentru utilizatorii neautorizați.', hide_success: 'Fișier făcut privat', show_confirmation: 'Sigur doriți să faceți public "{fileName}"? Publicarea unui fișier îl va face accesibil oricui are o adresă URL publică și oricine îl poate partaja folosind managerul media.', show_success: 'Dosar făcut public', hide_fail: 'Nu s-a putut face fișierul "{fileName}" privat', show_fail: 'Nu s-a putut face public fișierul "{fileName}"', loading: 'Făcând fișierul privat ...' }
+      hide_file: { hide_success: 'Fișier ascuns', show_success: 'Fișier afișat', loading: 'Ascunderea fișierului...' }
+      hide_shared_file: { hide_success: 'Fișier făcut privat', show_success: 'Dosar făcut public', loading: 'Făcând fișierul privat ...' }
 flarum-bbcode:
   forum:
     quote:
@@ -779,8 +549,6 @@ fof-follow-tags:
       following_tag_tooltip: Următor
       lurking_tag_tooltip: Spectatori
     sub_controls:
-      header: 'Abonare pentru {tagName}'
-      subscription_label: 'Selectați nivelul de abonament pentru {tagName}'
       following_text: 'Fiți informat cu privire la toate discuțiile noi.'
       hiding_text: 'Ascundeți discuțiile din pagina Toate discuțiile.'
       ignoring_text: 'Nu fiți niciodată anunțat.'
@@ -795,21 +563,8 @@ fof-follow-tags:
       hiding_button: Ascunde
       ignoring_button: Ignorând
       lurking_button: Spectatori
-    notifications:
-      new_discussion_text: '{username} a început'
-      new_post_text: '{nume utilizator} postat'
-      new_discussion_tag_text: '{username} a modificat eticheta'
     user:
       settings: { heading: 'Urmăriți etichetele', filter_label: 'Ce se afișează în mod implicit în pagina următoare' }
-  email:
-    subject:
-      newDiscussionInTag: '[Etichetă | Discuție nouă] {title}'
-      newPostInTag: '[Etichetă | Postare nouă] {title}'
-      newDiscussionTag: '[Etichetă | Etichetă modificată] {title}'
-    body:
-      newDiscussionInTag: "Hei {recipient_display_name},\n\n{actor_display_name} a început o discuție într-o etichetă pe care o urmăriți: {discussion_title}\n\nPentru a vizualiza noua discuție, consultați următorul link:\n{discussion_url}\n\n---\n\n{post_content}\n"
-      newPostInTag: "Hei {recipient_display_name},\n\n{actor_display_name} postat într-o discuție pe o etichetă pe care o urmăriți: {discussion_title}\n\nPentru a vizualiza noua activitate, consultați următorul link:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNu veți mai primi notificări despre această discuție până când nu sunteți la curent.\n"
-      newDiscussionTag: "Hei {recipient_display_name},\n\n{actor_display_name} tocmai a schimbat eticheta dintr-o discuție de {author_display_name} într-o etichetă pe care o urmăriți {discussion_title}\n\nPentru a vizualiza noua discuție, consultați următorul link:\n{discussion_url}\n"
   ref:
     follow: Urma
     following: Următor
@@ -838,17 +593,8 @@ flarum-nicknames:
       nickname_placeholder: Poreclă
 fof-oauth:
   forum:
-    log_in:
-      with_button: 'Conectați-vă cu {provider}'
-      with_discord_button: 'Conectați-vă cu {provider}'
-      with_facebook_button: 'Conectați-vă cu {provider}'
-      with_github_button: 'Conectați-vă cu {provider}'
-      with_gitlab_button: 'Conectați-vă cu {provider}'
-      with_google_button: 'Conectați-vă cu {provider}'
-      with_linkedin_button: 'Conectați-vă cu {provider}'
-      with_twitter_button: 'Conectați-vă cu {provider}'
     user:
-      settings: { linked-account: { label: 'Conturi conectate', last-used-label: 'Ultima utilizare', link-created-label: 'Link creat', orphaned-account: 'V-ați conectat anterior prin intermediul acestui furnizor, dar acest forum a dezactivat conectarea cu această metodă de atunci.', help: 'Aceste conturi conectate vă permit să vă conectați la forum folosind alți furnizori.', identifier-label: '{furnizor} ID', unlink-confirm: 'Sigur doriți să eliminați linkul cu {provider}? Nu vă veți mai putea conecta la acest forum decât dacă vă autentificați din nou în viitor.' } }
+      settings: { linked-account: { label: 'Conturi conectate', last-used-label: 'Ultima utilizare', link-created-label: 'Link creat', orphaned-account: 'V-ați conectat anterior prin intermediul acestui furnizor, dar acest forum a dezactivat conectarea cu această metodă de atunci.', help: 'Aceste conturi conectate vă permit să vă conectați la forum folosind alți furnizori.' } }
     signup:
       username_help: 'Vă rugăm să alegeți un nume de utilizator care să fie cunoscut aici'
     unlink: 'Eliminați linkul'
@@ -882,10 +628,8 @@ fof-impersonate:
   forum:
     modal:
       title: 'Conectați-vă ca alt utilizator'
-      label: 'Cu o mare putere vine o mare responsabilitate. Continuând, veți deveni {nume de utilizator} până când vă deconectați.'
       placeholder_optional: '(Opțional) Furnizați motivul pentru care treceți la acest utilizator'
       placeholder_required: 'Trebuie să furnizați motivul trecerii la acest utilizator înainte de a continua'
-      impersonate_username: 'Conectați-vă ca {nume de utilizator}'
     user_controls:
       impersonate_button: 'Loghează-te ca utilizator'
 fof-byobu:
@@ -896,7 +640,6 @@ fof-byobu:
       add_recipients: Destinatari
       submit: OK
       edit_recipients: 'Editarea destinatarilor'
-      send_pd: 'Trimiteți {username} un mesaj'
       cancel: Anula
       make_public: 'Faceți publică această discuție'
       remove_from_discussion: 'Părăsiți această discuție privată'
@@ -905,8 +648,6 @@ fof-byobu:
       title_placeholder: 'Titlul discuției private'
     confirm:
       make_public: 'Sigur doriți să eliminați destinatarii și să faceți această discuție vizibilă pentru oricine poate vizualiza eticheta atribuită?'
-    labels:
-      recipients: '{count, plural, un {{count} Destinatar} altul {{count} Destinatari}}'
     nav:
       start_button: 'Discutați în privat'
       nav_item: 'Discuții private'
@@ -915,11 +656,9 @@ fof-byobu:
     search:
       headings: { groups: 'Grupuri de permisiuni' }
     modal:
-      titles: { update_recipients: 'Actualizați destinatarii {title}', add_recipients: 'Adăugarea destinatarilor la discuție' }
+      titles: { add_recipients: 'Adăugarea destinatarilor la discuție' }
       labels: { selected_users: 'Utilizatori selectați', search_field: 'Căutare utilizator' }
       help: { add_recipients: 'Această discuție va fi vizibilă numai pentru utilizatorii pe care îi alegeți aici. Este necesar cel puțin 1 destinatar (altul decât dvs.).', update_recipients: 'Această discuție va fi vizibilă numai pentru utilizatorii pe care îi alegeți aici.', selected_users: 'Faceți clic pe numele unui utilizator pentru a-l elimina.', click_user_to_remove_tooltip: 'Faceți clic pentru a elimina' }
-    post:
-      recipients_modified: { added_and_removed: '{username} a adăugat destinatarii {added} și a eliminat {removed}.', added: '{username} a adăugat destinatari {added}.', made_public: '{username} a eliminat toți destinatarii și a făcut publică discuția', removed: '{username} destinatari eliminați {removed}.', removed_self: '{username} a părăsit discuția privată.' }
     user:
       settings: { block_pd: 'Blocați discuțiile private' }
       byobu_link: 'Discuții private'
@@ -927,23 +666,9 @@ fof-byobu:
     notifications:
       pd_label: 'Cineva mă include într-o nouă discuție privată'
       pd_reply_label: 'Cineva postează într-o discuție privată pe care o primesc'
-      pd_reply_text: '{nume utilizator} postat într-o discuție privată din care faceți parte'
-      pd_text: '{username} a început o nouă discuție privată cu dvs.'
       pd_user_left_label: 'Un utilizator destinatar părăsește o discuție privată din care fac parte'
-      pd_user_left_text: '{username} a părăsit discuția privată'
-      pd_added_text: '{username} v-a adăugat la o discuție privată'
       pd_added_label: 'Cineva mă adaugă la o discuție privată existentă'
-  email:
-    subject:
-      private_discussion_created: '[Discuție privată] {display_name} a început o nouă discuție privată cu dvs.'
-      private_discussion_replied: '[Discuție privată] {display_name} postat într-o discuție privată'
-      recipient_removed: '[Discuție privată] {display_name} a părăsit discuția'
-      private_discussion_added: '[Discuție privată] {display_name} v-a adăugat la o discuție privată'
-    body:
-      private_discussion_created: "Hei {recipient_display_name},\n\n{actor_display_name} a început o nouă discuție privată cu dvs. ca destinatar: {discussion_title}.\n\nVizualizează-l aici:\n{discussion_url}\n\nPoate fi necesar să vă conectați mai întâi înainte de a putea accesa acest link.\n"
-      private_discussion_replied: "Hei {recipient_display_name},\n\n{actor_display_name} postat într-o discuție privată cu dvs. ca destinatar: {discussion_title}.\n\nVizualizează-l aici:\n{post_url}\n\nPoate fi necesar să vă conectați mai întâi înainte de a putea accesa acest link.\n"
-      recipient_removed: "Hei {recipient_display_name},\n\n{actor_display_name} a părăsit discuția privată: {discussion_title}. Nu vor mai putea vedea niciun conținut.\n\nVizualizează-l aici:\n{discussion_url}\n\nPoate fi necesar să vă conectați mai întâi înainte de a putea accesa acest link.\n"
-      private_discussion_added: "Hei {recipient_display_name},\n\n{actor_display_name} v-a adăugat la o discuție privată existentă: {discussion_title}.\n\nVizualizează-l aici:\n{discussion_url}\n\nPoate fi necesar să vă conectați mai întâi înainte de a putea accesa acest link.\n"
+  email: null
 v17development-flarum-badges:
   forum:
     badge_information: 'Informații despre insignă'
@@ -966,17 +691,11 @@ v17development-flarum-badges:
       no_earning_reason: 'Nu este stabilit niciun motiv de câștig'
       earned_on: 'Insigna câștigată la'
       category: 'Categoria insignei'
-      received_on: 'Primit la {data}'
       badge_details: 'Detalii insignă'
-      earned_count: '{count, plural, un <b>utilizator {#</b> a obținut această insignă} alți utilizatori {<b>#</b> au obținut această insignă}}'
-      earned_by_count: '{count, plural, unul {Câștigat de <b># user</b>} altul {Câștigat de <b># utilizatori</b>}}'
-      others_link: '+ {count} Mai mult'
     badges_in_card:
       title: 'Ecusoane în cardul de utilizator'
       manage_badges: 'Gestionarea ecusoanelor'
       description: 'Puteți schimba ecusoanele vizibile din cardul de utilizator cu una dintre celelalte ecusoane. Dacă nu selectați niciunul, acestea vor fi selectate automat.'
-      select_limit: 'Puteți selecta {limită, plural, un {<b>o insignă</b>} altele {<b># ecusoane</b>}} pentru a fi vizibile în cardul de utilizator.'
-      hit_limit: 'Există loc doar pentru <b> {limită, plural, un {<b>o insignă</b>} altul {<b># insigne</b>}}</b> în cardul dvs. Deselectați o insignă pentru a face loc acesteia.'
     moderation:
       remove_badge: 'Eliminați insigna de la utilizator'
       remove_badge_confirm: 'Sigur doriți să eliminați această insignă de la acest utilizator?'
@@ -985,14 +704,10 @@ v17development-flarum-badges:
       title: 'Ați primit o nouă insignă'
       settings: 'Am primit o insignă'
     uncategorized: Uncategorized
-v17development-flarum-seo:
-  forum:
-    profile_title: 'Profilul lui {username}'
-    profile_description: 'Profilul lui {username} | {discussion_count} Discuții | {comment_count} postări'
+v17development-flarum-seo: null
 the-turk-miserable-users:
   forum:
     miserable_user:
-      title: 'Mizerabil {nume de utilizator}'
       status_heading: 'Stare mizerabilă'
       not_miserable_label: 'Nu mizerabil'
       indefinitely_label: 'Mizerabil pe termen nelimitat'
@@ -1009,7 +724,6 @@ sycho-profile-cover:
   forum:
     cover: Acoperi
     edit_cover: 'Editează coperta'
-    notice: 'Dimensiunea maximă: {size}'
     added:
       success: 'Coperta profilului actualizată.'
       error: 'Imaginea nu a putut fi încărcată.'
@@ -1018,10 +732,7 @@ sycho-profile-cover:
       error: 'Nu s-a putut scoate capacul, încercați din nou mai târziu.'
 sycho-photoswipe: null
 nearata-tags-color-generator: null
-nearata-prevent-double-posting:
-  forum:
-    exception:
-      too_many_replies: 'Nu sunt permise mai mult de {count} răspunsuri consecutive. Vă rugăm să editați răspunsul anterior sau să așteptați ca cineva să vă răspundă.'
+nearata-prevent-double-posting: null
 nearata-copy-code-to-clipboard:
   forum:
     copy: 'Copierea în clipboard'
@@ -1030,7 +741,6 @@ michaelbelgium-flarum-profile-views:
   forum:
     user:
       viewlist: { title: 'Ultimii vizitatori', guest: Musafir }
-      view_count_text: '{viewcount, plural, un {vizualizat {viewcount} timp} altul {vizualizat {viewcount} ori}}'
 justoverclock-country-flags:
   forum:
     inputCountryCode: 'Codul țării'
@@ -1058,13 +768,10 @@ ianm-syndication:
     autodiscovery:
       forum_activity: 'Activitatea forumului'
       forum_new_discussions: 'Noile discuții ale forumului'
-      tag_activity: 'Activitatea pentru eticheta {tag}'
-      tag_new_discussions: 'Discuții în eticheta {tag}'
       discussion_last_posts: 'Această discuție'
       user_last_posts: 'Postări și comentarii ale acestui utilizator'
     feeds:
-      entries: { user_posts: { title_reply: 'Re: {discuție}' } }
-      titles: { main_title: '{forum_name}', main_subtitle: 'Ultimele mesaje pe forum', main_d_title: 'Discuții noi în {forum_name}', main_d_subtitle: 'Cele mai noi discuții din forum', tag_title: 'Activitatea din eticheta {tag}', tag_subtitle: 'Ultimele postări din eticheta {tag}', tag_d_title: 'Discuții noi în eticheta {tag}', tag_d_subtitle: 'Cele mai noi discuții din eticheta {tag}', discussion_title: '{discussion_name}', discussion_subtitle: 'Ultimele mesaje din această discuție', user_title: '{nume utilizator}', user_subtitle: 'Ultimele postări și comentarii ale acestui utilizator.' }
+      titles: { main_subtitle: 'Ultimele mesaje pe forum', main_d_subtitle: 'Cele mai noi discuții din forum', discussion_subtitle: 'Ultimele mesaje din această discuție', user_subtitle: 'Ultimele postări și comentarii ale acestui utilizator.' }
     discussion:
       feed_link: Hrăni
 ianm-log-viewer: null
@@ -1072,7 +779,6 @@ ianm-html-head: null
 ianm-follow-users:
   forum:
     followed: Urmat
-    followers: '{count, plural, unul {Urmăritor} altul {Urmăritori}}'
     profile_page:
       no_following: 'Se pare că nu urmărești pe nimeni.'
     settings:
@@ -1081,17 +787,12 @@ ianm-follow-users:
       notify_new_discussion_label: 'Cineva pe care îl urmăresc începe o discuție'
       notify_new_post_label: 'Cineva pe care îl urmăresc postează într-o discuție existentă'
       block_follow: 'Împiedicați utilizatorii să mă urmărească'
-    notifications:
-      new_discussion_text: '{username} a început'
-      new_post_text: '{username} postat într-o discuție'
-      new_follower_text: '{username} te-a urmărit'
-      new_unfollower_text: '{username} nu vă mai urmărește'
     badge:
       label: { follow: 'În urma discuțiilor', lurk: 'În urma tuturor' }
     filter:
       following: 'Utilizatori urmăriți'
     modals:
-      select_follow_level: { title: 'Selectați nivelul de urmărire pentru {nume utilizator}', description: 'Alegeți cum doriți să urmăriți <em>{username}</em>.', follow_levels_heading: 'Niveluri de urmărire', follow_select_label: 'Tipul de urmărire', no_user_attr_provided_err: 'Uh oh, ceva nu a mers bine în timp ce deschideam acest modal.', no_user_attr_provided_err_debug: 'Niciun atribut "user" nu a fost transmis modalului SelectFollowUserLevel atunci când a fost creat. Modul nu poate fi redat.', save_btn: Salva, cancel_btn: Anula }
+      select_follow_level: { follow_levels_heading: 'Niveluri de urmărire', follow_select_label: 'Tipul de urmărire', no_user_attr_provided_err: 'Uh oh, ceva nu a mers bine în timp ce deschideam acest modal.', no_user_attr_provided_err_debug: 'Niciun atribut "user" nu a fost transmis modalului SelectFollowUserLevel atunci când a fost creat. Modul nu poate fi redat.', save_btn: Salva, cancel_btn: Anula }
     profile_link: 'Utilizatori urmăriți'
     user_controls:
       follow_button: Urma
@@ -1101,37 +802,28 @@ ianm-follow-users:
       follow_tag_button: Urma
       unfollow_tag_button: 'Schimbați tipul de urmărire'
   email:
-    new_discussion_by_user_subject: '[Urmăriți utilizatorul] {titlu}'
     new_follower_subject: '[Urmăriți utilizatorul] Ai un nou adept!'
-    new_post_subject: '[Urmăriți utilizatorul] Postare nouă în {title}'
-    new_discussion_by_user_body: "Hei {recipient_display_name},\n\n{user_display_name} a început o nouă discuție: {discussion_title}\n\nPentru a vizualiza noua discuție, consultați următorul link:\n\n{discussion_url}\n\n---\n\n{post_content}\n"
-    new_follower_body: "Hei {recipient_display_name},\n\n{follower_display_name} a început să vă urmărească, așa că vor fi notificați când începeți o discuție nouă.\n\nPentru a vizualiza profilul lor, consultați următorul link:\n\n{profile_url}\n"
-    new_post_body: "Hei {recipient_display_name},\n\n{user_display_name} postat într-o discuție: {discussion_title}\n\nPentru a vizualiza noua activitate, consultați următorul link:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNu veți mai primi notificări despre această discuție până când nu sunteți la curent.\n"
   lib:
     following_link: 'Utilizatori urmăriți'
     follow: Urma
     change_follow_type: 'Schimbați tipul de urmărire'
     unfollow: 'Anulează urmărirea'
     follow_levels:
-      unfollow: { name: 'Nu urmați', description: "Nu primiți notificări pentru activitatea <em>{username}</em>.\n" }
-      follow: { name: 'Urmăriți discuțiile', description: "Primiți notificări atunci când <em>{username}</em> începe o nouă discuție.\n" }
-      lurk: { name: 'Urmărește tot', description: "Primiți notificări atunci când <em>{username}</em> începe o discuție nouă sau postează în cadrul oricărei discuții.\n" }
+      unfollow: { name: 'Nu urmați' }
+      follow: { name: 'Urmăriți discuțiile' }
+      lurk: { name: 'Urmărește tot' }
 fof-username-request:
   forum:
     nickname_modals:
-      action: { help_text: 'Vă rugăm să vă asigurați că această schimbare de poreclă solicitată respectă regulile forumului.', decision_title: Decizie, approval_label: Aproba, rejected_label: Respinge, submit_button: Prezinte, reason_title: 'Motivul respingerii', success: 'Decizia trimisă.', name: '{name} a solicitat schimbarea pseudonimului în "{requestName}"', title: 'Cerere de schimbare a poreclei' }
-      results: { title: 'Cerere de schimbare a poreclei', approved: 'Solicitarea ta de schimbare a pseudonimului a fost aprobată', new_name: 'Porecla ta a fost schimbată cu succes în: {name}', rejected: 'Solicitarea de schimbare a poreclei a fost respinsă', reason: 'Motivul respingerii: <i>"{motiv}"</i>.', resubmit: 'În acest moment, puteți retrimite o nouă solicitare de modificare a poreclei din setările contului, dacă doriți acest lucru.', dismiss_button: OK }
-      request: { title: 'Solicitați schimbarea pseudonimului', current_request: 'Ați solicitat deja să vă schimbați pseudonimul în "{name}". Puteți fie să vă actualizați solicitarea, fie să o ștergeți.', submit_button: 'Trimite cerere', delete_button: 'Ștergere solicitare', confirmation_message: 'Solicitarea ta de schimbare a pseudonimului a fost trimisă și așteaptă aprobarea.', deleted: 'Solicitarea de pseudonim a fost ștearsă.', dismiss_button: OK }
+      action: { help_text: 'Vă rugăm să vă asigurați că această schimbare de poreclă solicitată respectă regulile forumului.', decision_title: Decizie, approval_label: Aproba, rejected_label: Respinge, submit_button: Prezinte, reason_title: 'Motivul respingerii', success: 'Decizia trimisă.', title: 'Cerere de schimbare a poreclei' }
+      results: { title: 'Cerere de schimbare a poreclei', approved: 'Solicitarea ta de schimbare a pseudonimului a fost aprobată', rejected: 'Solicitarea de schimbare a poreclei a fost respinsă', resubmit: 'În acest moment, puteți retrimite o nouă solicitare de modificare a poreclei din setările contului, dacă doriți acest lucru.', dismiss_button: OK }
+      request: { title: 'Solicitați schimbarea pseudonimului', submit_button: 'Trimite cerere', delete_button: 'Ștergere solicitare', confirmation_message: 'Solicitarea ta de schimbare a pseudonimului a fost trimisă și așteaptă aprobarea.', deleted: 'Solicitarea de pseudonim a fost ștearsă.', dismiss_button: OK }
     username_modals:
-      action: { help_text: 'Vă rugăm să vă asigurați că această modificare solicitată a numelui de utilizator respectă regulile forumului.', decision_title: Decizie, approval_label: Aproba, rejected_label: Respinge, submit_button: Prezinte, reason_title: 'Motivul respingerii', success: 'Decizia trimisă.', name: '{name} a solicitat schimbarea numelui de utilizator în "{requestName}"', title: 'Cerere de schimbare a numelui de utilizator' }
-      results: { title: 'Cerere de schimbare a numelui de utilizator', approved: 'Solicitarea ta de schimbare a numelui de utilizator a fost aprobată', new_name: 'Numele dvs. de utilizator a fost schimbat cu succes în: {nume}', rejected: 'Solicitarea de modificare a numelui de utilizator a fost respinsă', reason: 'Motivul respingerii: <i>"{motiv}"</i>.', resubmit: 'În acest moment, puteți retrimite o nouă solicitare de modificare a numelui de utilizator din setările contului, dacă alegeți acest lucru.', dismiss_button: OK }
-      request: { title: 'Solicitați schimbarea numelui de utilizator', current_request: 'Ați solicitat deja schimbarea numelui de utilizator în "{name}". Puteți fie să vă actualizați solicitarea, fie să o ștergeți.', submit_button: 'Trimite cerere', delete_button: 'Ștergere solicitare', confirmation_message: 'Solicitarea dvs. de modificare a numelui de utilizator a fost trimisă și așteaptă aprobarea.', deleted: 'Solicitarea numelui de utilizator a fost ștearsă.', dismiss_button: OK }
+      action: { help_text: 'Vă rugăm să vă asigurați că această modificare solicitată a numelui de utilizator respectă regulile forumului.', decision_title: Decizie, approval_label: Aproba, rejected_label: Respinge, submit_button: Prezinte, reason_title: 'Motivul respingerii', success: 'Decizia trimisă.', title: 'Cerere de schimbare a numelui de utilizator' }
+      results: { title: 'Cerere de schimbare a numelui de utilizator', approved: 'Solicitarea ta de schimbare a numelui de utilizator a fost aprobată', rejected: 'Solicitarea de modificare a numelui de utilizator a fost respinsă', resubmit: 'În acest moment, puteți retrimite o nouă solicitare de modificare a numelui de utilizator din setările contului, dacă alegeți acest lucru.', dismiss_button: OK }
+      request: { title: 'Solicitați schimbarea numelui de utilizator', submit_button: 'Trimite cerere', delete_button: 'Ștergere solicitare', confirmation_message: 'Solicitarea dvs. de modificare a numelui de utilizator a fost trimisă și așteaptă aprobarea.', deleted: 'Solicitarea numelui de utilizator a fost ștearsă.', dismiss_button: OK }
     pending_requests:
       empty_text: 'Nu s-au găsit solicitări de schimbare a numelui.'
-      nickname_item_text: '{name} a solicitat o schimbare a poreclei'
-      nickname_exerpt: 'Pseudonim solicitat: {requestName}'
-      username_item_text: '{name} a solicitat o schimbare a numelui de utilizator'
-      username_exerpt: 'Nume de utilizator solicitat: {requestName}'
       tooltip: 'Cereri de schimbare a numelui'
       title: 'Cereri de schimbare a numelui'
     settings:
@@ -1149,15 +841,9 @@ fof-username-request:
   email:
     body:
       noReasonProvided: 'Nu a fost furnizat niciun motiv.'
-      approved: "Bună ziua {recipient_display_name},\n\nSolicitarea dvs. de a vă schimba numele de utilizator în \"{new_username}\" a fost aprobată de {actor_display_name}.\n\nAcum vă puteți conecta cu noul nume de utilizator: {login_url}\n"
-      rejected: "Bună ziua {recipient_display_name},\n\nSolicitarea dvs. de a vă schimba numele de utilizator din \"{old_username}\" în \"{requested_username}\" a fost respinsă de {actor_display_name}.\n\nMotivul: {motiv}\n"
-    subject:
-      approved: '{display_name} a aprobat schimbarea numelui de utilizator în {requested_username}'
-      rejected: '{display_name} a respins schimbarea numelui de utilizator în {requested_username}'
 fof-user-bio:
   forum:
     userbioPlaceholder: 'Scrie ceva despre tine'
-    userbioPlaceholderOtherUser: 'Scrieți o biografie pentru {username}'
     profile:
       cancel_confirm: 'Sigur doriți să anulați editarea biografiei? Veți pierde toate modificările pe care le-ați făcut.'
       cancel_button: Anula
@@ -1165,9 +851,6 @@ fof-user-bio:
       edit_bio_label: 'Editează biografia'
 fof-split:
   forum:
-    post:
-      was_split_to: '{count, plural, o postare {{count} a fost împărțită în {target}.} alte {{count} postări au fost împărțite în {target}.}}'
-      was_split_from: '{count, plural, o postare {{count} a fost separată de {target}.} alte {{count} postări au fost împărțite din {target}.}}'
     split:
       from: 'Despărțiți-vă de aici'
       to: 'Împărțiți aici'
@@ -1221,13 +904,11 @@ fof-reactions:
   forum:
     disabled-reaction: 'Nu puteți folosi această reacție chiar acum, vă rugăm să reîmprospătați pagina'
     warning: 'Reacția ta a fost convertită'
-    notification: '{username} a reacționat cu {reaction} la postarea dvs.'
     settings:
       notify_post_reacted_label: 'Cineva reacționează la una dintre postările mele'
     reacting-own-post: 'Nu puteți reacționa la propria postare'
     modal:
       title: Reacţii
-      anonymous_count: '{count, plural, unul {# utilizator anonim} altul {# utilizatori anonimi}}'
       no_reactions: 'Nu există reacții încă'
     mod_item: 'Vezi reacțiile'
     react_button_label: Reacţiona
@@ -1241,22 +922,19 @@ fof-profile-image-crop:
 fof-prevent-necrobumping:
   forum:
     composer:
-      warning: { title: 'Această discuție este mai veche decât <b>{time}</b>.', description: 'Este foarte probabil ca aceasta să nu mai aibă nevoie de alte discuții și, prin urmare, lovirea ei nu servește la nimic.', checkbox_label: 'Sunt conștient că această discuție este destul de veche, dar aș dori totuși să răspund.', error: 'Această discuție este prea veche pentru a răspunde.' }
+      warning: { description: 'Este foarte probabil ca aceasta să nu mai aibă nevoie de alte discuții și, prin urmare, lovirea ei nu servește la nimic.', checkbox_label: 'Sunt conștient că această discuție este destul de veche, dar aș dori totuși să răspund.', error: 'Această discuție este prea veche pentru a răspunde.' }
 fof-pretty-mail: null
 fof-polls:
   forum:
-    days_remaining: 'Sondajul se încheie {time}.'
     no_permission: 'Nu aveți permisiunea de a vota'
     poll_ended: 'Acest sondaj s-a încheiat.'
     public_poll: 'Vizualizați alegătorii'
-    max_votes_allowed: 'Sondajul permite votarea pentru {max, plural, o opțiune {#}, alte opțiuni {#}}.'
     composer_discussion:
       add_poll: 'Adaugă sondaj'
       edit_poll: 'Editează sondajul'
     modal:
       add_title: 'Adăugați un sondaj'
       add_option_label: 'Adăugați o opțiune'
-      date_placeholder: 'Data de încheiere a sondajului (opțional)'
       edit_title: 'Editează sondajul'
       include_question: 'Trebuie să includeți o întrebare'
       max: 'Puteți avea maximum 10 răspunsuri'
@@ -1277,7 +955,6 @@ fof-polls:
       edit: 'Editează sondajul'
     tooltip:
       badge: Sondaj
-      votes: '{număr, plural, un {# vot} altul {# voturi}}'
     votes_modal:
       title: Alegătorii
 fof-nightmode:
@@ -1297,11 +974,9 @@ fof-moderator-notes:
   forum:
     no_content_given: 'O notă goală nu este permisă.'
     moderatorNotes:
-      created_text: '{username} a creat această notă la {date}'
       add_button: 'Notă nouă'
       create-heading: 'Crearea unei noi note de moderator'
       dismiss_button: Făcut
-      input_heading: 'Introduceți notele pentru <strong>{nume utilizator}</strong>, (marcarea este acceptată)'
       noNotes: 'Se pare că nu există note aici.'
       submit_button: 'Salvați nota'
       delete: Șterge
@@ -1309,8 +984,6 @@ fof-moderator-notes:
     user:
       notes: 'Notele moderatorului'
   api:
-    auto_note: '_I trecut la acest utilizator:_ {motiv}'
-    auto_note_actor: '_Switched to_ @{nume utilizator}: {motiv}'
     no_reason_provided: 'Nu a fost furnizat niciun motiv'
 fof-linguist: null
 fof-html-errors: null
@@ -1325,12 +998,8 @@ fof-gamification:
       name: Utilizator
       amount: Puncte
     notification:
-      upvote: '{username} upvotat postarea dvs.'
-      downvote: '{username} a votat negativ postarea dvs.'
       prefrences: { vote: 'Când una dintre postările mele este votată în sus / în jos' }
     user:
-      card: { points: '{număr, plural, un { {count} punct} altul {{count} puncte}}' }
-      rank: '{rang}'
       votes_link: Voturi
     modal:
       downvotes_label: 'Alegători negativi:'
@@ -1344,11 +1013,6 @@ fof-gamification:
     post:
       upvote_button: 'Postare cu voturi pozitive'
       downvote_button: 'Postare cu vot negativ'
-  email:
-    body:
-      postVoted: "Hei {recipient_display_name},\n\n{actor_display_name} tocmai a votat postarea ta în {discussion_title}.\n\nVizualizați-l aici: {discussion_url}\n"
-    subject:
-      postVoted: 'Postarea ta a fost votată de {display_name}'
 fof-formatting: null
 fof-drafts:
   console:
@@ -1367,7 +1031,6 @@ fof-drafts:
       title: Proiectele
       delete_all_button: 'Ștergerea tuturor schițelor'
       delete_button: 'Ștergeți schița'
-      scheduled_icon_tooltip: 'Programat pentru {datetime}'
       scheduled_icon_tooltip_formatter: 'L [at] LT'
       alert: 'Sigur doriți să ștergeți schița?'
       delete_all_alert: 'Sigur doriți să ștergeți toate schițele?'
@@ -1375,13 +1038,10 @@ fof-drafts:
       tooltip: Proiectele
     schedule_draft_modal:
       text: 'Programează-ți schița pentru a fi postată automat ulterior!'
-      scheduled_text: 'În prezent, este programat să posteze pe {datetime}.'
-      scheduled_error: 'Nu se poate programa schița: {error}.'
       unschedule_button: Neprogramare
       unschedule_warning: 'Sunteți sigur că doriți să deprogramați acest proiect?'
       reschedule_button: Reprogramarea
       schedule_button: Orar
-      schedule_time_preview: 'Această schiță va fi publicată automat pe <b>{datetime}</b>.'
       schedule_time_preview_formatter: LLLL
       schedule_time_preview_invalid: 'Data și/sau ora nevalide'
       title: 'Proiect de program'
@@ -1393,13 +1053,10 @@ fof-best-answer:
     this_best_answer: 'Selectați cel mai bun răspuns'
     remove_best_answer: 'Deselectați cel mai bun răspuns'
     best_answer_button: 'Cel mai bun răspuns'
-    best_answer_label: 'setat de <a>{username}</a> {time_set}'
     errors:
       mismatch: 'Postarea selectată nu există în această discuție.'
     notification:
-      best_answer_in_discussion: '{username} stabilește cel mai bun răspuns în această discuție'
       content: 'Vă rugăm să selectați cel mai bun răspuns dacă întrebarea dvs. a primit răspuns'
-      awarded: 'Postarea ta a fost setată ca cel mai bun răspuns de {username}'
       preferences: { awarded_best_answer: 'Cineva stabilește postarea mea ca cel mai bun răspuns', best_answer_in_discussion: 'Cel mai bun răspuns este stabilit într-o discuție la care am participat', select_best_answer: 'Un memento automat pentru a selecta cel mai bun răspuns într-o discuție pe care am început-o' }
     index:
       ask_question: 'Pune o întrebare'
@@ -1413,22 +1070,13 @@ fof-best-answer:
       accessible_label: 'Selecție rezolvată/nerezolvată'
     composer:
       titlePlaceholder: 'Titlul întrebării'
-    user:
-      best-answer-count: '{număr, plural, unul { {conte} cel mai bun răspuns} altul {{conte} cele mai bune răspunsuri}}'
     search:
       discussions_solutions_heading: 'Discuții cu soluții'
-      all_discussions_solutions_button: 'Căutați în toate discuțiile cu soluții pentru "{query}"'
     discussion:
       jump_to_best_answer_button: 'Vizualizare cel mai bun răspuns'
   email:
     subject:
-      awarded: 'Postul tău a fost setat ca cel mai bun răspuns de {display_name}'
-      ba-set: 'Cel mai bun răspuns a fost stabilit de {display_name}'
       select: 'Ai reuşit să-ţi răspunzi la întrebare?'
-    body:
-      awarded: "Hei {recipient_display_name},\n\nBună treabă, {actor_display_name} doar setați postul ca cel mai bun răspuns în discuție: {discuție_titlu}. Mulţumesc pentru ajutor.\n\nVedeți aici: {discuție_url}\n"
-      ba-set: "Hei {recipient_display_name},\n\n{actor_display_name} tocmai a stabilit un răspuns cel mai bun în discuție: {discuție_titlu}, la care ați participat.\n\nFii atent: {discuţie_url}\n"
-      select: "Hei {recipient_display_name},\n\nDoar verificam; până acum ar trebui să aveți o mulțime de răspunsuri la întrebarea dumneavoastră: {discuție_titlu}. Să sperăm că unul dintre ei te-a ajutat să-ţi rezolvi problema.\n\nDacă da, ar fi foarte util pentru viitorii membri dacă aţi putea găsi un răspuns optim la întrebarea dumneavoastră. Îi va ajuta pe oameni cu aceeaşi problemă să găsească răspunsul de care au nevoie, şi este de asemenea un mare mulţumesc membrilor care te-au ajutat. Îşi acordă timpul voluntar, aşa că e bine să-i anunţi că se descurcă bine.\n\nVizitaţi discuţia aici: {discuţie_url}, şi selectaţi postul cel mai potrivit ca cel mai bun răspuns.\n\nMulţumesc!\n"
 fof-user-directory:
   lib:
     sort:
@@ -1437,8 +1085,6 @@ fof-user-directory:
 fof-ban-ips:
   forum:
     modal:
-      ban_options_only_ip: 'Interziceți numai IP-ul curent (<code>{ip}</code>)'
-      ban_options_all_ip: 'Interziceți toate IP-urile utilizate de <i>{username}</i>'
       ban_ip_no_users: 'Nimeni altcineva nu va fi interzis'
     user_badge:
       banned_tooltip: Interzis
@@ -1455,13 +1101,8 @@ fof-ban-ips:
       check_button: Verificare
       save_button: Salva
       ban_ip_confirmation: 'Sunteți sigur că doriți să blocați utilizarea acestei adrese IP pe forum? Acest lucru va bloca utilizatorii cu aceste adrese IP să se conecteze și să se înregistreze.'
-      ban_ip_users: '{count, plural, unul {Utilizator {utilizatori} va fi banat} altul {Utilizatori {utilizatori} va fi banat}}'
       unban_ip_confirmation: 'Sunteți sigur că doriți să anulați banarea acestui utilizator și a tuturor celorlalți utilizatori care nu sunt interziși de alte IP-uri?'
-      unban_options_only_ip: 'Numai anulați interzicerea IP-ului curent (<code>{ip}</code>)'
-      unban_options_all_ip: 'Anulați interzicerea tuturor IP-urilor utilizate de <i>{username}</i>'
       unban_ip_no_users: 'Nimeni altcineva nu va fi debanat'
-      unban_ip_users: '{count, plural, un {Utilizator {utilizatori} va fi debanat} altul {Utilizatori {utilizatori} va fi anulat}}'
-      unbanned_ips: 'Nebanat <code>{ips}</code>.'
       title: 'Interzicerea IP-urilor'
       unban_title: 'Anularea interzicerii IP-urilor'
       address_label: 'Adresă IP'
@@ -1492,7 +1133,6 @@ fof-anti-spam:
       move_discussions_tag_label: 'Mutarea discuțiilor în eticheta de carantină'
       move_discussions_tag_help: 'Acest lucru va muta toate discuțiile inițiate de acest utilizator în eticheta pe care ați specificat-o în setările forumului. Când sunt dezactivate, discuțiile vor fi lăsate în etichetele curente.'
       process_button: Proces
-      title: 'Marcați {username} ca spammer'
       report_to_sfs_label: 'Raportați la StopForumSpam'
       report_to_sfs_help: 'Aceasta va raporta detaliile de bază ale utilizatorului (nume de utilizator, e-mail, adresă IP) către StopForumSpam. Acest lucru va ajuta la împiedicarea utilizatorului să se înregistreze pe alte forumuri care utilizează serviciul StopForumSpam.'
     user_controls:
@@ -1511,18 +1151,11 @@ flarum-sticky:
     discussion_controls:
       unsticky_button: Nelipicios
       sticky_button: Lipicios
-    post_stream:
-      discussion_stickied_text: '{username} a lipit discuția {time}.'
-      discussion_unstickied_text: '{username} a dezlipit discuția {time}.'
     badge:
       sticky_tooltip: Lipicios
   ref:
     sticky: Lipicios
 flarum-statistics: null
-flarum-pusher:
-  forum:
-    discussion_list:
-      show_updates_text: '{număr, plural, unul {Arată # discuție actualizată} altul {Arată # discuții actualizate}}'
 flarum-lock:
   forum:
     badge:
@@ -1530,24 +1163,13 @@ flarum-lock:
     discussion_controls:
       lock_button: Lacăt
       unlock_button: Debloca
-    notifications:
-      discussion_locked_text: '{nume utilizator} blocat'
-    post_stream:
-      discussion_locked_text: '{username} a blocat discuția {time}.'
-      discussion_unlocked_text: '{username} a deblocat discuția {time}.'
     settings:
       notify_discussion_locked_label: 'Cineva blochează o discuție pe care am început-o'
 flarum-likes:
   forum:
-    notifications:
-      post_liked_text: '{username} ți-a apreciat postarea'
-      others_text: '{număr, plural, unul {# altul} altul {# altele}}'
     post:
       like_link: Plăcea
-      liked_by_self_text: '{utilizatori} astfel.'
-      liked_by_text: '{număr, plural, unul {{utilizatori} îi place asta} altul {{utilizatori} ca acesta}}.'
       unlike_link: 'Spre deosebire'
-      others_link: '{număr, plural, unul {# altul} altul {# altele}}'
       you_text: Tu
     post_likes:
       title: 'Utilizatorii cărora le place acest lucru'
@@ -1602,9 +1224,6 @@ dhtml-composer:
       character_counter: 'Contorul de caractere'
 datlechin-birthdays:
   forum:
-    user:
-      birthday_text: 'Data nașterii: {date}'
-      age_text: 'Vârstă: {vârstă}'
     change_dob:
       title: 'Editați data nașterii'
       date_of_birth_text: 'Data naşterii'
@@ -1617,16 +1236,12 @@ datlechin-birthdays:
       dob_heading: 'Data naşterii'
     nav:
       nav_item: 'Zilele de naștere de astăzi'
-    page:
-      discussion_count: '{count, plural, unul {Discuție: #} altul {Discuții: #}}'
-      post_count: '{count, plural, unul {Post: #} altul {Postări: #}}'
     edit_user:
       dob_heading: 'Data naşterii'
     sign_up:
       dob_placeholder: 'Data naşterii'
   api:
     invalid_dob_message: 'Data nașterii nevalidă'
-    invalid_age_message: 'Vârsta dvs. trebuie să aibă cel puțin {minAge} ani.'
   ref:
     date_of_birth: 'Data naşterii'
 clarkwinkelmann-post-permissions: null
@@ -1662,24 +1277,13 @@ askvortsov-rich-text:
       insert_image: { src_placeholder: Legătură, title_placeholder: Titlu }
       insert_link: { text_placeholder: Text, href_placeholder: 'Adresa URL', title_placeholder: 'Titlu (arată la trecere)', remove_button: Depărta }
       additional_items_tooltip: 'Controale suplimentare'
-      bold_tooltip: 'Text aldin <{modifierKey}-b>'
-      code_tooltip: 'Cod inline <{modifierKey}-''>'
       code_block_tooltip: 'Inserarea unui bloc de cod'
-      header_tooltip: 'Schimbați în antet {level} <shift-{modifierKey}-{level}>'
       horizontal_rule_tooltip: 'Inserarea regulii orizontale'
       image_tooltip: 'Adăugați o imagine'
-      italic_tooltip: 'Text cursiv <{modifierKey}-i>'
       link_tooltip: 'Adăugați un link'
-      ordered_list_tooltip: 'Listă numerotată <shift-{modifierKey}-9>'
-      paragraph_tooltip: 'Modificarea paragrafului <shift-{modifierKey}-0>'
-      quote_tooltip: 'Inserarea unei oferte <{modifierKey}-q>'
       spoiler_block_tooltip: 'Blocați spoilerul / meniul derulant'
-      spoiler_inline_tooltip: 'Spoiler <{modifierKey}-;>'
       strike_tooltip: 'tăiat cu <alt-shift-5>o linie'
-      sub_tooltip: 'Indice <{modifierKey}-,>'
-      sup_tooltip: 'Exponent <{modifierKey}-.>'
       text_type_tooltip: 'Selectați tipul de text'
-      unordered_list_tooltip: 'Listă cu marcatori <shift-{modifierKey}-8>'
   forum:
     settings:
       composer_heading: Compozitor
@@ -1694,7 +1298,6 @@ askvortsov-pwa:
       share_button: Acțiune
     post_controls:
       share_button: Acțiune
-      share_api: { title: 'Răspunsul lui {username} la {title}''' }
     user_controls:
       share_button: Acțiune
     settings:
@@ -1705,20 +1308,7 @@ askvortsov-pwa:
       header: 'Eroare de conexiune la rețea'
       text: 'Această aplicație necesită o conexiune la rețea; Nu poate fi folosit offline. Vă rugăm să verificați conexiunea.'
 askvortsov-moderator-warnings:
-  emails:
-    post_warned:
-      subject: '{warner_display_name} v-a avertizat cu {greve, plural, un {# grevă} altul {# greve}} în {discussion_title}'
-      body: "Hei {warnee_display_name}!\n\n{warner_display_name} v-a avertizat cu {greve, plural, un {# grevă} altul {# greve}} în {discussion_title}\n\nA fost invocat următorul motiv:\n\n---\n\n{public_comment}\n"
-    user_warned:
-      subject: '{warner_display_name} v-a avertizat cu {greve, plural, unul {# grevă} altul {# greve}}'
-      body: "Hei {warnee_display_name}!\n\n{warner_display_name} v-a avertizat cu {greve, plural, unul {# grevă} altul {# greve}}\n\nA fost invocat următorul motiv:\n\n---\n\n{public_comment}\n"
   forum:
-    notifications:
-      warning_text: '{greve, plural, unul {Ați fost avertizat cu # grevă de {mod_username}} altul {Ați fost avertizat cu # greve de {mod_username}}}'
-      warning_no_strikes_text: 'Ați fost avertizat de {mod_username} (fără avertismente)'
-    post:
-      warning: '{greve, plural, unul {Avertizat cu # avertisment de {mod_username}} altul {Avertizat cu # avertismente de {mod_username}}}'
-      warning_no_strikes: 'Avertizat fără avertismente de {mod_username}'
     post_controls:
       warning_button: 'Avertizare utilizator'
     user:
@@ -1735,20 +1325,14 @@ askvortsov-moderator-warnings:
     warning_list:
       add_button: 'Avertisment nou'
       no_warnings: 'Se pare că nu există avertismente aici.'
-      warnings: '{avertismente, plural, unul {Avertismente moderator: # Grevă primită} altele {Avertismente moderator: # Avertismente primite}}'
       warnings_no_strikes: 'Avertismente moderator: Nu s-au primit avertismente'
     warning_list_item:
-      list_item_heading: '{greve, plural, un {<strong>#</strong> grevă, {timp}} altele {<strong>#</strong> greve, {timp}}}'
-      list_item_heading_hidden: '{avertismente, plural, un {<strong>#</strong> avertisment, {timp} <strong>(eliminat)</strong>} altele {<strong>#</strong> avertismente, {timp} <strong>(eliminat)</strong>}}'
       public_comment: Avertisment
       private_comment: 'Comentarii vizibile ale moderatorului'
       linked_post: 'Postare legată'
     warning_modal:
       confirmation_message: 'Avertismentul tău a fost salvat. Poate fi necesar să reîmprospătați pagina pentru a o vedea.'
-      heading: 'Avertizați <strong>{username}</strong>'
       strikes_heading: 'Câte avertismente ar trebui aplicate?'
-      public_comment_heading: 'De ce <strong>primește {username}</strong> aceste avertismente? Aceste comentarii vor fi vizibile pentru utilizator și alți moderatori.'
-      private_comment_heading: 'De ce <strong>primește {username}</strong> aceste avertismente? Aceste comentarii vor fi vizibile NUMAI pentru alți moderatori.'
       submit_button: 'Salvați avertismentul'
 askvortsov-discussion-templates:
   forum:

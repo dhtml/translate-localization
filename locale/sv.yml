@@ -3,7 +3,6 @@ core:
     change_email:
       incorrect_password_message: 'Lösenordet du angav är felaktigt.'
       confirm_password_placeholder: 'Bekräfta lösenord'
-      confirmation_message: 'Vi har skickat en bekräftelse via e-post till {email}. Om den inte kommer snart, kontrollera din skräppostmapp.'
       dismiss_button: OKEJ
       submit_button: 'Spara ändringar'
       title: 'Ändra e-postadress'
@@ -26,7 +25,6 @@ core:
     composer_edit:
       discard_confirmation: 'Du har inte sparat ändringarna. Vill du göra dig av med dem?'
       edited_message: 'Din redigering har gjorts.'
-      post_link: 'Posta #{nummer} i {diskussion}'
       submit_button: 'Spara ändringar'
       view_button: Utsikt
     composer_reply:
@@ -48,10 +46,6 @@ core:
       restore_button: Återställa
     discussion_list:
       empty_text: 'Det ser ut som om det inte finns några diskussioner här.'
-      replied_text: '{användarnamn} svarade {ago}'
-      started_text: '{användarnamn} startade {ago}'
-      total_replies_a11y_label: '{antal, plural, en {# svar} annan {# svar}}'
-      unread_replies_a11y_label: '{count, plural, en {# oläst svar} annan {# olästa svar}}. Markera som läst {antal, plural, en {svara} annan {svar}} som läst.'
       load_more_button: 'Ladda mer'
     forgot_password:
       email_sent_message: 'Om det e-postmeddelande du angav är registrerat hos denna webbplats skickar vi ett e-postmeddelande som innehåller en länk för att återställa ditt lösenord. Kontrollera din spam-mapp om du inte får den inom nästa minut eller två.'
@@ -107,7 +101,6 @@ core:
     notifications:
       delete_all_confirm: 'Är du säker på att du vill ta bort alla aviseringar? Den här åtgärden kan inte ångras'
       delete_all_tooltip: 'Ta bort alla aviseringar'
-      discussion_renamed_text: '{användarnamn} ändrade titeln'
       empty_text: 'Inga meddelanden'
       mark_as_read_tooltip: 'Markera som läst'
       toggle_dropdown_accessible_label: 'Visa meddelanden'
@@ -116,8 +109,6 @@ core:
       tooltip: Meddelanden
     post:
       edited_text: Redigerad
-      edited_tooltip: '{användarnamn} redigerad {ago}'
-      number_tooltip: 'Inlägg #{nummer}'
     post_controls:
       delete_confirmation: 'Är du säker på att du vill ta bort det här inlägget för alltid? Det går inte att ångra den här åtgärden.'
       hide_confirmation: 'Är du säker på att du vill ta bort det här inlägget?'
@@ -131,23 +122,16 @@ core:
     post_scrubber:
       now_link: Nu
       original_post_link: 'Ursprungligt inlägg'
-      unread_text: '{count} olästa'
-      viewing_text: '{count, plural, en {{index} av {formattedCount} post} andra {{index} av {formattedCount} inlägg}}'
     post_stream:
-      discussion_renamed_old_tooltip: 'Den gamla titeln var: "{old}"'
-      discussion_renamed_text: '{användarnamn} ändrade titeln till {new} {time}.'
-      time_lapsed_text: '{period} senare'
       load_more_button: 'Ladda mer'
       reply_placeholder: 'Skriv ett svar...'
     rename_discussion:
       title: 'Byt namn på diskussion'
       submit_button: 'Byt namn'
     search:
-      all_discussions_button: 'Sök i alla diskussioner efter "{query}"'
       discussions_heading: Diskussioner
       users_heading: Användare
     security:
-      browser_on_operating_system: '{browser} på {os}'
       cannot_terminate_current_session: 'Det går inte att avsluta den aktuella aktiva sessionen. Logga ut istället.'
       created: Skapad
       current_active_session: 'Aktuell aktiv session'
@@ -159,13 +143,11 @@ core:
       new_access_token_modal: { submit_button: 'Skapa token', title_placeholder: Titel, title: 'Ny token' }
       revoke_access_token: Återkalla
       sessions_heading: 'Aktiva sessioner'
-      session_terminated: '{count, plural, en {Session avslutad} andra {# Sessioner avslutade}}.'
       session_termination_failed: 'Ett fel uppstod när dina sessioner skulle avslutas.'
       show_access_token: 'Visa token'
       terminate_all_other_sessions: 'Avsluta alla andra sessioner'
       terminate_session: Avsluta
       token_revoked: 'Token har återkallats.'
-      token_item_title: '{title} - {token}'
       token_title_placeholder: /
       never: Aldrig
       new_access_token_button: 'Ny token'
@@ -174,7 +156,6 @@ core:
       title: Säkerhet
     settings:
       account_heading: Konto
-      notification_checkbox_a11y_label_template: 'Ta emot "{description}"-meddelanden via {method}'
       notify_by_web_heading: Webb
       notify_discussion_renamed_label: 'Någon byter namn på en diskussion som jag har startat'
       privacy_disclose_online_label: 'Låt andra se när jag är online'
@@ -186,7 +167,6 @@ core:
       title: Inställningar
     sign_up:
       log_in_text: 'Har du redan ett konto? <a>Logga in</a>'
-      welcome_text: 'Välkommen, {användarnamn}!'
       dismiss_button: OKEJ
       email_placeholder: E-post
       password_placeholder: Lösenord
@@ -196,8 +176,6 @@ core:
     user:
       avatar_upload_button: 'Ladda upp'
       avatar_upload_tooltip: 'Ladda upp en ny avatar'
-      in_discussion_text: 'I {diskussion}'
-      joined_date_text: 'Gick med {ago}'
       online_text: Uppkopplad
       posts_empty_text: 'Det ser ut som att det inte finns några inlägg här.'
       avatar_remove_button: Avlägsna
@@ -209,15 +187,12 @@ core:
     user_controls:
       button: Kontroller
       delete_confirmation: 'Är du säker på att du vill ta bort den här användaren? Användarens inlägg kommer INTE att raderas.'
-      delete_error_message: 'Det gick inte att ta bort användaren <i>{användarnamn} ({email})</i>'
-      delete_success_message: 'Användaren <i>{användarnamn} ({email})</i> har tagits bort'
       toggle_dropdown_accessible_label: 'Växla rullgardinsmeny för användarkontroller'
       delete_button: 'Ta bort'
       edit_button: Redigera
     user_email_confirmation:
       resend_button: 'Skicka bekräftelse via e-post igen'
       sent_message: Sänt
-      alert_message: 'Vi har skickat en bekräftelse via e-post till {email}. Om den inte kommer snart, kontrollera din skräppostmapp.'
     welcome_hero:
       hide: 'Dölj välkomstmeddelande'
     badge:
@@ -230,8 +205,6 @@ core:
       hidden_tooltip: Dold
     dropdown:
       toggle_dropdown_accessible_label: 'Växla rullgardinsmeny'
-    data_segment:
-      label: '{etikett}:'
     edit_user:
       activate_button: 'Aktivera användare'
       groups_heading: Grupper
@@ -246,33 +219,17 @@ core:
       username_heading: Användarnamn
       username_label: Användarnamn
     error:
-      circular_dependencies_message: 'Cirkulära beroenden har identifierats: {extensions}. Avbryter. Inaktivera ett av tilläggen och försök igen.'
-      dependent_extensions_message: 'Det går inte att inaktivera {extension} förrän följande beroende tillägg har inaktiverats: {extensions}'
-      extension_initialiation_failed_message: '{extension} misslyckades med att initiera, kontrollera webbläsarkonsolen för ytterligare information.'
       generic_message: 'Hoppsan! Något gick fel. Ladda om sidan och försök igen.'
       generic_cross_origin_message: 'Hoppsan! Något gick fel under en begäran om korsande ursprung. Ladda om sidan och försök igen.'
-      missing_dependencies_message: 'Det går inte att aktivera {extension} förrän följande beroenden har aktiverats: {extensions}'
       not_found_message: 'Det gick inte att hitta den begärda resursen.'
       payload_too_large_message: 'Nyttolasten för begäran var för stor.'
       permission_denied_message: 'Du har inte behörighet att göra det.'
       rate_limit_exceeded_message: 'Du går lite för fort fram. Försök igen om några sekunder.'
       render_failed_message: 'Tyvärr, vi stötte på ett fel när det här innehållet visades. Om du är en användare, försök igen senare. Om du är administratör kan du ta en titt i dina Flarum-loggfiler för mer information.'
-    meta_titles:
-      with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} andra {{pageTitle}: Sida # - {forumName}}}'
-      without_page_title: '{pageNumber, plural, =1 {{forumName}} andra {Sida # - {forumName}}}'
     modal:
       close: Stänga
     nav:
       drawer_button: 'Öppna navigeringslådan'
-    number_suffix:
-      kilo_text: Mot
-      mega_text: M
-    series:
-      glue_text: ', '
-      three_text: '{first}, {second} och {third}'
-      two_text: '{first} och {second}'
-    username:
-      deleted_text: '[struken]'
     loading_indicator:
       accessible_label: Lastning...
   views:
@@ -290,11 +247,9 @@ core:
       invalid_confirmation_token: 'Den här bekräftelselänken har redan använts eller är ogiltig.'
       not_authenticated: 'Du har inte behörighet att komma åt den här sidan. Försök igen efter att du har loggat in.'
       not_found: 'Det gick inte att hitta sidan du begärde.'
-      not_found_return_link: 'Återgå till {forum}'
       permission_denied: 'Du har inte behörighet att komma åt den här sidan.'
       unknown: 'Ett fel uppstod när den här sidan skulle laddas.'
     log_out:
-      log_out_confirmation: 'Är du säker på att du vill logga ut från {forum}?'
       log_out_button: 'Logga ut'
       title: 'Logga ut'
     reset_password:
@@ -311,23 +266,15 @@ core:
       previous_page_button: 'Föregående sida'
   api:
     invalid_username_message: 'Användarnamnet får endast innehålla bokstäver, siffror och bindestreck.'
-    invalid_filter_type:
-      must_be_numeric_message: 'Filtret {filter} måste vara numeriskt.'
-      must_not_be_array_message: 'Filtret {filter} får inte vara en matris.'
-      must_not_be_multidimensional_array_message: 'Filtret {filter} får inte vara en flerdimensionell matris.'
   email:
     activate_account:
       subject: 'Aktivera ditt nya konto'
-      body: "Hej {användarnamn}!\n\nNågon (förhoppningsvis du!) har registrerat sig på {forum} med den här e-postadressen.\n\nOm detta var du, klicka bara på följande länk och ditt konto kommer att aktiveras:\n{url}\n\nOm du inte har registrerat dig, vänligen ignorera detta e-postmeddelande.\n"
     confirm_email:
       subject: 'Bekräfta din nya e-postadress'
-      body: "Hej {användarnamn}!\n\nNågon (förhoppningsvis du!) har ändrat sin e-postadress på {forum} till den här.\n\nOm det var du klickar du bara på följande länk så bekräftas din e-postadress:\n{url}\n\nOm det inte var du, vänligen ignorera detta e-postmeddelande.\n"
     reset_password:
-      body: "Hej {användarnamn}!\n\nNågon (förhoppningsvis du!) har skickat in en glömd lösenordsförfrågan för ditt konto på {forum}.\n\nOm det var du klickar du på följande länk för att återställa ditt lösenord:\n{url}\n\nOm du inte vill ändra ditt lösenord ignorerar du bara det här e-postmeddelandet så händer ingenting.\n"
       subject: 'Återställ ditt lösenord'
     send_test:
       subject: 'Flarum e-posttest'
-      body: "Hej {användarnamn}!\n\nDet här är ett testmeddelande som bekräftar att din Flarum-e-postkonfiguration fungerar som den ska.\n\nOm det var du betyder det här e-postmeddelandet att din konfiguration fungerar!\n\nOm det inte var du, vänligen ignorera detta e-postmeddelande.\n"
   ref:
     all_discussions: 'Alla diskussioner'
     change_email: 'Ändra e-postadress'
@@ -335,7 +282,6 @@ core:
     color: Färg
     confirm_password: 'Bekräfta lösenord'
     confirm_email: 'Bekräfta e-post'
-    confirmation_email_sent: 'Vi har skickat en bekräftelse via e-post till {email}. Om den inte kommer snart, kontrollera din skräppostmapp.'
     custom_footer_text: 'Lägg till HTML som ska visas längst ner på sidan.'
     custom_footer_title: 'Redigera anpassad sidfot'
     custom_header_text: 'Lägg till HTML som ska visas högst upp på sidan, ovanför Flarums egen rubrik.'
@@ -349,7 +295,6 @@ core:
     extensions: Tillägg
     generic_confirmation_message: 'Är du säker på att du vill fortsätta? Det går inte att ångra den här åtgärden.'
     icon: Ikon
-    icon_text: 'Ange namnet på en <a>FontAwesome-ikonklass</a>, <em>inklusive</em> <code>prefixet fas fa-</code>.'
     load_more: 'Ladda mer'
     loading: Lastning...
     log_in: 'Logga in'
@@ -373,7 +318,6 @@ core:
     security: Säkerhet
     settings: Inställningar
     sign_up: 'Registrera sig'
-    some_others: '{räkna, plural, en {# annan} annan {# andra}}'
     start_a_discussion: 'Starta en diskussion'
     username: Användarnamn
     users: Användare
@@ -389,128 +333,12 @@ core:
     members: Medlemmar
     mod: Sätt
     mods: Mods
-validation:
-  accepted: 'Attributet :attribute måste accepteras.'
-  active_url: ':attribute är inte en giltig URL.'
-  after: 'Attributet :attribute måste vara ett datum efter :d ate.'
-  after_or_equal: 'Attributet :attribute måste vara ett datum efter eller lika med :d ate.'
-  alpha: 'Attributet :attribute får bara innehålla bokstäver.'
-  alpha_dash: 'Attributet :attribute får bara innehålla bokstäver, siffror, bindestreck och understreck.'
-  alpha_num: 'Attributet :attribute får bara innehålla bokstäver och siffror.'
-  array: ':attribute måste vara en matris.'
-  before: 'Attributet :attribute måste vara ett datum innan :d ate.'
-  before_or_equal: 'Attributet :attribute måste vara ett datum före eller lika med :d ate.'
-  between:
-    numeric: 'Attributet :attribute måste vara mellan :min och :max.'
-    file: 'Attributet :attribute måste vara mellan :min och :max kilobyte.'
-    string: 'Attributet :attribute måste vara mellan :min- och :max-tecken.'
-    array: 'Attributet :attribute måste ha mellan objekten :min och :max.'
-  boolean: 'Fältet :attribute måste vara sant eller falskt.'
-  confirmed: 'Bekräftelsen :attribute matchar inte.'
-  date: 'Attributet :attribute är inte ett giltigt datum.'
-  date_equals: 'Attributet :attribute måste vara ett datum som är lika med :d ate.'
-  date_format: 'Attributet :attribute matchar inte formatet :format.'
-  different: ':attribute och :other måste vara olika.'
-  digits: 'Attributet :attribute måste vara :d igits siffror.'
-  digits_between: 'Attributet :attribute måste vara mellan siffrorna :min och :max.'
-  dimensions: 'Attributet :attribute har ogiltiga bilddimensioner.'
-  distinct: 'Fältet :attribute har ett dubblettvärde.'
-  email: ':attributet måste vara en giltig e-postadress.'
-  ends_with: 'Attributet :attribute måste sluta med något av följande: :values.'
-  exists: 'Det valda :attributet är ogiltigt.'
-  file: ':attribute måste vara en fil.'
-  file_too_large: 'Attributet ::är för stort.'
-  file_upload_failed: 'Det gick inte att ladda upp :attributet.'
-  filled: 'Fältet :attribute måste ha ett värde.'
-  gt:
-    numeric: 'Attributet :attribute måste vara större än :value.'
-    file: 'Attributet :attribute måste vara större än :value kilobyte.'
-    string: ':attributet måste vara större än :value-tecken.'
-    array: 'Attributet :attribute måste ha fler än :value objekt.'
-  gte:
-    numeric: 'Attributet :attribute måste vara större än eller lika med :value.'
-    file: 'Attributet :attribute måste vara större än eller lika med :value kilobyte.'
-    string: 'Attributet :attribute måste vara större än eller lika med :value-tecken.'
-    array: 'Attributet :attribute måste ha :value-objekt eller mer.'
-  image: ':attributet måste vara en bild.'
-  in: 'Det valda :attributet är ogiltigt.'
-  in_array: 'Fältet :attribute finns inte i :other.'
-  integer: ':attributet måste vara ett heltal.'
-  ip: ':attribute måste vara en giltig IP-adress.'
-  ipv4: ':attributet måste vara en giltig IPv4-adress.'
-  ipv6: ':attributet måste vara en giltig IPv6-adress.'
-  json: ':attribute måste vara en giltig JSON-sträng.'
-  lt:
-    numeric: 'Attributet :attribute måste vara mindre än :value.'
-    file: 'Attributet :attribute måste vara mindre än :value kilobyte.'
-    string: ':attributet måste vara mindre än :value tecken.'
-    array: 'Attributet :attribute måste ha objekt som är mindre än :value.'
-  lte:
-    numeric: 'Attributet :attribute måste vara mindre än eller lika med :value.'
-    file: ':attributet måste vara mindre än eller lika med :value kilobyte.'
-    string: ':attributet måste vara mindre än eller lika med :value-tecken.'
-    array: 'Attributet :attribute får inte ha fler än :value-objekt.'
-  max:
-    numeric: 'Attributet :attribute får inte vara större än :max.'
-    file: 'Attributet :attribute får inte vara större än :max kilobyte.'
-    string: ':attribute får inte vara större än :max tecken.'
-    array: 'Attributet :attribute får inte ha fler än :max-objekt.'
-  mimes: ':attribute måste vara en fil av typen: :values.'
-  mimetypes: ':attribute måste vara en fil av typen: :values.'
-  min:
-    numeric: 'Attributet :attribute måste vara minst :min.'
-    file: 'Attributet :attribute måste vara minst :min kilobyte.'
-    string: 'Attributet :attribute måste bestå av minst :min-tecken.'
-    array: 'Attributet :måste ha minst :min-objekt.'
-  multiple_of: 'Attributet :attribute måste vara en multipel av :value.'
-  not_in: 'Det valda :attributet är ogiltigt.'
-  not_regex: 'Formatet :attribute är ogiltigt.'
-  numeric: 'Attributet :attribute måste vara ett tal.'
-  password: 'Lösenordet är felaktigt.'
-  present: 'Fältet :attribute måste finnas.'
-  regex: 'Formatet :attribute är ogiltigt.'
-  required: 'Fältet :attribute är obligatoriskt.'
-  required_if: 'Fältet :attribute är obligatoriskt när :other är :value.'
-  required_unless: 'Fältet :attribute är obligatoriskt om inte :other finns i :values.'
-  required_with: 'Fältet :attribute är obligatoriskt när :values finns.'
-  required_with_all: 'Fältet :attribute är obligatoriskt när :values finns.'
-  required_without: 'Fältet :attribute är obligatoriskt när :values inte finns.'
-  required_without_all: 'Fältet :attribute är obligatoriskt när inget av :värdena finns.'
-  prohibited: 'Fältet :attribute är förbjudet.'
-  prohibited_if: 'Fältet :attribute är förbjudet när :other är :value.'
-  prohibited_unless: 'Fältet :attribute är förbjudet om inte :other finns i :values.'
-  same: ':attribute och :other måste matcha.'
-  size:
-    numeric: 'Attributet :attribute måste vara :size.'
-    file: 'Attributet :attribute måste vara :size kilobyte.'
-    string: 'Attributet :attribute måste vara :size tecken.'
-    array: 'Attributet :attribute måste innehålla :size items.'
-  starts_with: 'Attributet :attribute måste börja med något av följande: :values.'
-  string: ':attribute måste vara en sträng.'
-  timezone: ':attribute måste vara en giltig zon.'
-  unique: 'Attributet :har redan tagits.'
-  uploaded: 'Det gick inte att ladda upp :attributet.'
-  url: 'Formatet :attribute är ogiltigt.'
-  uuid: ':attributet måste vara ett giltigt UUID.'
-  attributes:
-    username: Användarnamn
-    password: lösenord
-    email: E-post
-    title: titel
-    content: innehåll
-    name_singular: 'singular namn'
-    name_plural: 'plural namn'
-    tag_count_primary: 'Antal primära taggar'
-    tag_count_secondary: 'Antal sekundära taggar'
-  recaptcha: 'reCAPTCHA-valideringen misslyckades.'
-  recaptcha-unknown: 'Ett okänt fel uppstod vid validering av reCAPTCHA ({errors}).'
 flarum-tags:
   forum:
     all_tags:
       meta_description_text: 'Alla Taggar'
       meta_title_text: Taggar
     choose_tags:
-      edit_title: 'Redigera taggar för {title}'
       title: 'Välj taggar för din diskussion'
     discussion_controls:
       edit_tags_button: 'Redigera taggar'
@@ -520,48 +348,27 @@ flarum-tags:
       more_link: Mer...
       untagged_link: Otaggade
       tags_link: Taggar
-    post_stream:
-      added_and_removed_tags_text: '{username} lade till {tagsAdded} och tog bort {tagsRemoved} {time}.'
-      added_tags_text: '{username} lade till {tagsAdded} {time}.'
-      removed_tags_text: '{username} tog bort {tagsRemoved} {time}.'
-      tags_text: '{count, plural, en {{tags} tag} andra {{tags} tags}}'
-    tag:
-      meta_description_text: 'Alla diskussioner med taggen {tag}'
     composer_discussion:
       choose_tags_link: 'Välj taggar'
   lib:
     deleted_tag_text: Borttagen
     tag_selection_modal:
       bypass_requirements: 'Krav för att kringgå taggar'
-      choose_primary_placeholder: '{antal, plural, en {Välj en primär tagg} annan {Välj # primära taggar}}'
-      choose_secondary_placeholder: '{antal, plural, en {Välj 1 mer tagg} annan {Välj # fler taggar}}'
-      choose_tags_placeholder: '{antal, plural, en {Välj 1 mer tagg} annan {Välj # fler taggar}}'
       submit_button: OKEJ
       title: 'Välj taggar'
   ref:
     choose_tags: 'Välj taggar'
-    choose_tags_placeholder: '{antal, plural, en {Välj 1 mer tagg} annan {Välj # fler taggar}}'
     name: Namn
     tags: Taggar
 flarum-mentions:
   forum:
     composer:
       mention_tooltip: 'Nämn en användare, en grupp eller ett inlägg'
-      reply_to_post_text: 'Svara på #{nummer}'
     mentioned_by:
       title: 'Svar på det här inlägget'
       load_more_button: 'Ladda mer'
-    notifications:
-      post_mentioned_text: '{användarnamn} svarade på ditt inlägg'
-      user_mentioned_text: '{användarnamn} nämnde dig'
-      group_mentioned_text: '{username} nämnde en grupp du är medlem i'
-      others_text: '{räkna, plural, en {# annan} annan {# andra}}'
     post:
-      mentioned_by_more_text: '{count} fler svar.'
-      mentioned_by_self_text: '{användare} svarade på detta.'
-      mentioned_by_text: '{användare} svarade på detta.'
       quote_button: Citera
-      others_text: '{räkna, plural, en {# annan} annan {# andra}}'
       reply_link: Svar
       you_text: Du
     settings:
@@ -570,28 +377,12 @@ flarum-mentions:
       notify_group_mentioned_label: 'Någon nämner en grupp som jag är medlem i i ett inlägg'
     user:
       mentions_link: Nämner
-    post_mention:
-      deleted_text: '[Okänt]'
-    group_mention:
-      deleted_text: '[okänd grupp]'
-  email:
-    post_mentioned:
-      subject: '{replier_display_name} svarade på ditt inlägg i {title}'
-      body: "Hej {recipient_display_name}!\n\n{replier_display_name} svarade på ditt inlägg (#{post_number}) i {title}.\n\n{url}\n\n---\n\n{innehåll}\n"
-    user_mentioned:
-      subject: '{mentioner_display_name} nämnde dig i {title}'
-      body: "Hej {recipient_display_name}!\n\n{mentioner_display_name} nämnde dig i ett inlägg i {title}.\n\n{url}\n\n---\n\n{innehåll}\n"
-    group_mentioned:
-      subject: '{mentioner_display_name} nämnde en grupp du är medlem i i {title}'
-      body: "Hej {recipient_display_name}!\n\n{mentioner_display_name} nämnde en grupp du är medlem i i {title}.\n\n{url}\n\n---\n\n{innehåll}\n"
 flarum-subscriptions:
   forum:
     discussion_controls:
       unfollow_button: 'Sluta följa'
       unignore_button: 'Unsir Unsir'
       follow_button: Följa
-    notifications:
-      new_post_text: '{användarnamn} postat'
     settings:
       follow_after_reply_label: 'Följ automatiskt diskussioner som jag svarar på'
       notify_for_all_posts_label: 'Meddela om varje nytt inlägg i stället för bara det sista i en diskussion'
@@ -613,10 +404,6 @@ flarum-subscriptions:
       meta_title_text: Följande
     index:
       following_link: Följande
-  email:
-    new_post:
-      subject: '[Nytt inlägg] {titel}'
-      body: "Hej {recipient_display_name}!\n\n{poster_display_name} gjorde ett inlägg i en diskussion som du följer: {title}.\n\nOm du vill se den nya aktiviteten kan du kolla in följande länk:\n{url}\n\n---\n\n{innehåll}\n\n---\n\nDu kommer inte att få några fler aviseringar om den här diskussionen förrän du är uppdaterad.\n"
   ref:
     follow: Följa
     following: Följande
@@ -625,7 +412,6 @@ flarum-flags:
   forum:
     flag_post:
       confirmation_message: 'Tack för att du flaggade det här inlägget. Våra moderatorer kommer att undersöka det.'
-      reason_details_placeholder: 'Ytterligare information (valfritt)'
       reason_inappropriate_label: Olämplig
       reason_inappropriate_text: 'Det här inlägget är stötande, kränkande eller bryter mot våra <a>riktlinjer för communityn</a>.'
       reason_missing_message: 'Vänligen ge några detaljer till våra moderatorer.'
@@ -639,13 +425,10 @@ flarum-flags:
       title: 'Flagga stolpe'
     flagged_posts:
       empty_text: 'Inga flaggor'
-      item_text: '{användarnamn} i <em>{diskussion}</em>'
       title: 'Flaggade inlägg'
       tooltip: 'Flaggade inlägg'
     post:
       dismiss_flag_button: 'Avfärda flagga'
-      flagged_by_text: 'Flaggad av {användarnamn}'
-      flagged_by_with_reason_text: 'Flaggad av {användarnamn} som {anledning}'
     post_controls:
       flag_button: Flagga
   ref:
@@ -654,13 +437,11 @@ flarum-flags:
 flarum-suspend:
   forum:
     notifications:
-      user_suspended_text: 'Du har stängts av i {timeReadable}'
       user_suspended_indefinite_text: 'Du har stängts av på obestämd tid'
       user_unsuspended_text: 'Du har inte avstängts'
     suspension_info:
       dismiss_button: Avskeda
       indefinite: 'Detta är en avstängning på obestämd tid'
-      limited: 'Avstängningen gäller till och med den {datum}'
       title: 'Det här kontot är avstängt'
     suspend_user:
       display_message: 'Visa meddelande för användare'
@@ -671,7 +452,6 @@ flarum-suspend:
       placeholder_optional: Valfri
       reason: 'Skäl för avstängning'
       status_heading: 'Status för avstängning'
-      title: 'Stäng av {användarnamn}'
       submit_button: 'Spara ändringar'
     user_badge:
       suspended_tooltip: Upphängd
@@ -681,10 +461,8 @@ flarum-suspend:
     no_reason_given: 'Någon anledning till denna avstängning angavs inte.'
     suspended:
       subject: 'Ditt konto har stängts av'
-      body: "Hej {recipient_display_name},\n\nDu har stängts av av följande anledning:\n\n---\n{suspension_message}\n---\n"
     unsuspended:
       subject: 'Ditt konto har inte stängts av'
-      body: "Hej {recipient_display_name},\n\nDu har inte stängts av. Du kan gå tillbaka till forumet genom att klicka på följande länk:\n\n{forum_url}\n"
 blomstra-gdpr:
   lib:
     data:
@@ -707,8 +485,6 @@ fof-upload:
       error: Fel
       loading: Uppladdning
       unauthorized: 'Du får inte ladda ner filer'
-    validation:
-      max_size: 'Uppladdningar över {max} kb accepteras inte.'
     text_preview:
       expand: 'Expandera förhandsgranskning'
       collapse: 'Komprimera förhandsgranskning'
@@ -718,7 +494,6 @@ fof-upload:
   api:
     upload_errors:
       forbidden_type: 'Det är inte tillåtet att ladda upp filer av den här typen.'
-      unsupported_type: 'Uppladdningsadaptern stöder inte den angivna MIME-typen: {mime}.'
       could_not_detect_mime: 'Det gick inte att identifiera MIME-typen för den här filen, försök igen.'
       max_upload_file_size_ini: 'Den maximala filstorleksgränsen för uppladdning har nåtts från php.ini.'
       max_upload_file_size_form: 'Ladda upp den maximala filstorleksgränsen som har nåtts från formuläret.'
@@ -727,7 +502,6 @@ fof-upload:
       no_upload_tmp_folder: 'Ingen tmp-mapp för att ladda upp filer.'
       cannot_write_to_disk: 'Det går inte att skriva till disken.'
       upload_blocked_by_php_extension: 'Ett php-tillägg blockerade uppladdningen.'
-      no_files_made_it_to_upload: 'Ladda upp filer som inte är större än {max} kb.'
   lib:
     upload-shared-file-modal:
       title: 'Ny delad fil'
@@ -740,13 +514,9 @@ fof-upload:
       release_to_upload: 'Släpp för att ladda upp'
       modal_empty_desktop: 'Fillistan är tom. Klicka på knappen eller dra en fil hit för att ladda upp.'
       modal_empty_phone: 'Fillistan är tom. Tryck på knappen ovan för att ladda upp en fil.'
-      select_file_a11y_label: 'Välj filen "{fileName}"'
-      confirm_selection_btn: '{fileCount, plural, =0 {Ingen vald} en {Välj fil} annan {Välj filer}}'
       load_more_files_btn: 'Läsa in fler filer'
-      delete_file_a11y_label: 'Ta bort filen "{fileName}"'
-      delete_confirmation: 'Är du säker på att du vill ta bort "{fileName}"?'
-      hide_file: { btn_a11y_label_hide: 'Dölj "{fileName}" från mediehanteraren', btn_a11y_label_show: 'Visa "{fileName}" i mediehanteraren', hide_confirmation: 'Är du säker på att du vill dölja "{fileName}"? Att dölja en fil tar bara bort den från din mediehanterare och påverkar inte befintliga inlägg.', hide_success: 'Filen är dold', show_confirmation: 'Är du säker på att du vill visa "{fileName}"? Om du visar en fil blir den synlig i din mediehanterare.', show_success: 'Fil som visas', hide_fail: 'Det gick inte att dölja filen {fileName}', show_fail: 'Det gick inte att visa filen "{fileName}"', loading: 'Döljer fil...' }
-      hide_shared_file: { btn_a11y_label_hide: 'Gör "{fileName}" privat (ingen offentlig URL)', btn_a11y_label_show: 'Gör "{fileName}" offentligt (med offentlig URL)', hide_confirmation: 'Är du säker på att du vill göra {fileName} privat? Att göra en fil privat kommer att ta bort dess offentliga URL, men det kommer inte att påverka befintliga inlägg. Den kommer inte heller längre att vara synlig i mediehanteraren för obehöriga användare.', hide_success: 'Filen har gjorts privat', show_confirmation: 'Är du säker på att du vill göra {fileName} offentligt? Om du gör en fil offentlig blir den tillgänglig för alla som har en offentlig URL och vem som helst kan dela den med hjälp av mediehanteraren.', show_success: 'Filen har offentliggjorts', hide_fail: 'Det gick inte att göra filen "{fileName}" privat', show_fail: 'Det gick inte att göra filen "{fileName}" offentlig', loading: 'Att göra filen privat...' }
+      hide_file: { hide_success: 'Filen är dold', show_success: 'Fil som visas', loading: 'Döljer fil...' }
+      hide_shared_file: { hide_success: 'Filen har gjorts privat', show_success: 'Filen har offentliggjorts', loading: 'Att göra filen privat...' }
 flarum-bbcode:
   forum:
     quote:
@@ -779,8 +549,6 @@ fof-follow-tags:
       following_tag_tooltip: Följande
       lurking_tag_tooltip: Lurar
     sub_controls:
-      header: 'Prenumeration på {tagName}'
-      subscription_label: 'Välj din prenumerationsnivå för {tagName}'
       following_text: 'Få ett meddelande om alla nya diskussioner.'
       hiding_text: 'Dölj diskussioner från sidan Alla diskussioner.'
       ignoring_text: 'Bli aldrig meddelad.'
@@ -795,21 +563,8 @@ fof-follow-tags:
       hiding_button: Dölja
       ignoring_button: Ignorera
       lurking_button: Lurar
-    notifications:
-      new_discussion_text: '{användarnamn} startade'
-      new_post_text: '{användarnamn} postat'
-      new_discussion_tag_text: '{username} ändrade taggen'
     user:
       settings: { heading: 'Följ taggar', filter_label: 'Vad som ska visas som standard på följande sida' }
-  email:
-    subject:
-      newDiscussionInTag: '[Tagg | Ny diskussion] {title}'
-      newPostInTag: '[Tagg | Nytt inlägg] {title}'
-      newDiscussionTag: '[Tagg | Ändrad tagg] {title}'
-    body:
-      newDiscussionInTag: "Hej {recipient_display_name},\n\n{actor_display_name} startade en diskussion i en tagg som du följer: {discussion_title}\n\nFör att se den nya diskussionen, kolla in följande länk:\n{discussion_url}\n\n---\n\n{post_content}\n"
-      newPostInTag: "Hej {recipient_display_name},\n\n{actor_display_name} postat i en diskussion om en tagg du följer: {discussion_title}\n\nOm du vill se den nya aktiviteten kan du kolla in följande länk:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nDu kommer inte att få några fler aviseringar om den här diskussionen förrän du är uppdaterad.\n"
-      newDiscussionTag: "Hej {recipient_display_name},\n\n{actor_display_name} har precis ändrat taggen på en diskussion med {author_display_name} till en tagg du följer {discussion_title}\n\nFör att se den nya diskussionen, kolla in följande länk:\n{discussion_url}\n"
   ref:
     follow: Följa
     following: Följande
@@ -838,17 +593,8 @@ flarum-nicknames:
       nickname_placeholder: Smeknamn
 fof-oauth:
   forum:
-    log_in:
-      with_button: 'Logga in med {provider}'
-      with_discord_button: 'Logga in med {provider}'
-      with_facebook_button: 'Logga in med {provider}'
-      with_github_button: 'Logga in med {provider}'
-      with_gitlab_button: 'Logga in med {provider}'
-      with_google_button: 'Logga in med {provider}'
-      with_linkedin_button: 'Logga in med {provider}'
-      with_twitter_button: 'Logga in med {provider}'
     user:
-      settings: { linked-account: { label: 'Länkade konton', last-used-label: 'Senast använd', link-created-label: 'Länk skapad', orphaned-account: 'Du har loggat in via den här leverantören tidigare, men det här forumet har inaktiverat inloggning med den här metoden sedan dess.', help: 'Dessa länkade konton låter dig logga in på forumet med hjälp av andra leverantörer.', identifier-label: '{leverantör} ID', unlink-confirm: 'Är du säker på att du vill ta bort länken med {provider}? Du kommer inte längre att kunna logga in på det här forumet om du inte autentiserar dig igen i framtiden.' } }
+      settings: { linked-account: { label: 'Länkade konton', last-used-label: 'Senast använd', link-created-label: 'Länk skapad', orphaned-account: 'Du har loggat in via den här leverantören tidigare, men det här forumet har inaktiverat inloggning med den här metoden sedan dess.', help: 'Dessa länkade konton låter dig logga in på forumet med hjälp av andra leverantörer.' } }
     signup:
       username_help: 'Välj ett användarnamn som du vill känna till här'
     unlink: 'Ta bort länk'
@@ -882,10 +628,8 @@ fof-impersonate:
   forum:
     modal:
       title: 'Logga in som en annan användare'
-      label: 'Med stor makt kommer stort ansvar. Genom att fortsätta blir du {användarnamn} tills du loggar ut.'
       placeholder_optional: '(Valfritt) Ange anledningen till att du byter till den här användaren'
       placeholder_required: 'Du måste ange anledningen till att du byter till den här användaren innan du fortsätter'
-      impersonate_username: 'Logga in som {användarnamn}'
     user_controls:
       impersonate_button: 'Logga in som användare'
 fof-byobu:
@@ -896,7 +640,6 @@ fof-byobu:
       add_recipients: Mottagare
       submit: OKEJ
       edit_recipients: 'Redigera mottagare'
-      send_pd: 'Skicka {användarnamn} ett meddelande'
       cancel: Annullera
       make_public: 'Gör den här diskussionen offentlig'
       remove_from_discussion: 'Lämna denna privata diskussion'
@@ -905,8 +648,6 @@ fof-byobu:
       title_placeholder: 'Titel på privat diskussion'
     confirm:
       make_public: 'Är du säker på att du vill ta bort mottagarna och göra den här diskussionen synlig för alla som kan se den tilldelade taggen?'
-    labels:
-      recipients: '{count, plural, en {{count} Mottagare} andra {{count} Mottagare}}'
     nav:
       start_button: 'Diskutera privat'
       nav_item: 'Privata diskussioner'
@@ -915,11 +656,9 @@ fof-byobu:
     search:
       headings: { groups: Behörighetsgrupper }
     modal:
-      titles: { update_recipients: 'Uppdatera mottagare av {title}', add_recipients: 'Lägga till mottagare i din diskussion' }
+      titles: { add_recipients: 'Lägga till mottagare i din diskussion' }
       labels: { selected_users: 'Utvalda användare', search_field: 'Sök efter användare' }
       help: { add_recipients: 'Den här diskussionen kommer bara att vara synlig för de användare som du väljer här. Minst 1 mottagare (annan än dig själv) krävs.', update_recipients: 'Den här diskussionen kommer bara att vara synlig för de användare som du väljer här.', selected_users: 'Klicka på en användares namn för att ta bort dem.', click_user_to_remove_tooltip: 'Klicka för att ta bort' }
-    post:
-      recipients_modified: { added_and_removed: '{användarnamn} lade till mottagare {tillagda} och tog bort {removed}.', added: '{användarnamn} lade till mottagare {tillagda}.', made_public: '{användarnamn} tog bort alla mottagare och gjorde diskussionen offentlig', removed: '{användarnamn} tog bort mottagare {borttagna}.', removed_self: '{användarnamn} lämnade den privata diskussionen.' }
     user:
       settings: { block_pd: 'Blockera privata diskussioner' }
       byobu_link: 'Privata diskussioner'
@@ -927,23 +666,9 @@ fof-byobu:
     notifications:
       pd_label: 'Någon inkluderar mig i en ny privat diskussion'
       pd_reply_label: 'Någon gör ett inlägg i en privat diskussion som jag är mottagare av'
-      pd_reply_text: '{användarnamn} postat i en privat diskussion som du är en del av'
-      pd_text: '{username} startade en ny privat diskussion med dig'
       pd_user_left_label: 'En mottagande användare lämnar en privat diskussion som jag är en del av'
-      pd_user_left_text: '{användarnamn} lämnade den privata diskussionen'
-      pd_added_text: '{användarnamn} har lagt till dig i en privat diskussion'
       pd_added_label: 'Någon lägger till mig i en befintlig privat diskussion'
-  email:
-    subject:
-      private_discussion_created: '[Privat diskussion] {display_name} startade en ny privat diskussion med dig'
-      private_discussion_replied: '[Privat diskussion] {display_name} postat i en privat diskussion'
-      recipient_removed: '[Privat diskussion] {display_name} lämnade diskussionen'
-      private_discussion_added: '[Privat diskussion] {display_name} lagt till dig i en privat diskussion'
-    body:
-      private_discussion_created: "Hej {recipient_display_name},\n\n{actor_display_name} startat en ny privat diskussion med dig som mottagare: {discussion_title}.\n\nSe den här:\n{discussion_url}\n\nDu kan behöva logga in först innan du kan komma åt den här länken.\n"
-      private_discussion_replied: "Hej {recipient_display_name},\n\n{actor_display_name} postat i en privat diskussion med dig som mottagare: {discussion_title}.\n\nSe den här:\n{post_url}\n\nDu kan behöva logga in först innan du kan komma åt den här länken.\n"
-      recipient_removed: "Hej {recipient_display_name},\n\n{actor_display_name} lämnade den privata diskussionen: {discussion_title}. De kommer inte längre att kunna se något av innehållet.\n\nSe den här:\n{discussion_url}\n\nDu kan behöva logga in först innan du kan komma åt den här länken.\n"
-      private_discussion_added: "Hej {recipient_display_name},\n\n{actor_display_name} lade till dig i en befintlig privat diskussion: {discussion_title}.\n\nSe den här:\n{discussion_url}\n\nDu kan behöva logga in först innan du kan komma åt den här länken.\n"
+  email: null
 v17development-flarum-badges:
   forum:
     badge_information: 'Information om emblem'
@@ -966,17 +691,11 @@ v17development-flarum-badges:
       no_earning_reason: 'Ingen intjäningsorsak har angetts'
       earned_on: 'Emblem som tjänats in den'
       category: 'Kategori av emblem'
-      received_on: 'Mottaget den {datum}'
       badge_details: 'Information om emblem'
-      earned_count: '{count, plural, en {<b># användare</b> har förtjänat detta märke} andra {<b># användare</b> har förtjänat detta märke}}'
-      earned_by_count: '{count, plural, one {Earned by <b># user</b>} other {Earned by <b># users</b>}}'
-      others_link: '+ {count} Mer'
     badges_in_card:
       title: 'Emblem på användarkortet'
       manage_badges: 'Hantera emblem'
       description: 'Du kan ändra de synliga märkena på ditt användarkort med ett av dina andra märken. Om du inte väljer någon väljs de automatiskt.'
-      select_limit: 'Du kan välja {limit, plural, en {<b>ett märke</b>} andra {<b># märken</b>}} för att vara synlig på ditt användarkort.'
-      hit_limit: 'Det finns bara plats för <b> {limit, plural, en {ett <b>märke</b>} andra {<b># märken</b>}}</b> på ditt kort. Avmarkera ett märke för att göra plats för det här märket.'
     moderation:
       remove_badge: 'Ta bort märke från användare'
       remove_badge_confirm: 'Är du säker på att du vill ta bort det här märket från den här användaren?'
@@ -985,14 +704,10 @@ v17development-flarum-badges:
       title: 'Du har fått ett nytt märke'
       settings: 'Jag har fått ett märke'
     uncategorized: Uncategorized
-v17development-flarum-seo:
-  forum:
-    profile_title: 'Profil för {användarnamn}'
-    profile_description: 'Profil för {användarnamn} | {discussion_count} diskussioner | {comment_count} inlägg'
+v17development-flarum-seo: null
 the-turk-miserable-users:
   forum:
     miserable_user:
-      title: 'Eländigt {användarnamn}'
       status_heading: 'Eländigt tillstånd'
       not_miserable_label: 'Inte olycklig'
       indefinitely_label: 'Eländigt på obestämd tid'
@@ -1009,7 +724,6 @@ sycho-profile-cover:
   forum:
     cover: Täcka
     edit_cover: 'Redigera omslag'
-    notice: 'Maximal storlek: {size}'
     added:
       success: 'Profilomslaget har uppdaterats.'
       error: 'Bilden kunde inte laddas upp.'
@@ -1018,10 +732,7 @@ sycho-profile-cover:
       error: 'Det gick inte att ta bort locket, försök igen senare.'
 sycho-photoswipe: null
 nearata-tags-color-generator: null
-nearata-prevent-double-posting:
-  forum:
-    exception:
-      too_many_replies: 'Inte fler än {count} på varandra följande svar är tillåtna. Redigera ditt tidigare svar istället, eller vänta på att någon svarar dig.'
+nearata-prevent-double-posting: null
 nearata-copy-code-to-clipboard:
   forum:
     copy: 'Kopiera till Urklipp'
@@ -1030,7 +741,6 @@ michaelbelgium-flarum-profile-views:
   forum:
     user:
       viewlist: { title: 'Sista besökarna', guest: Gäst }
-      view_count_text: '{viewcount, plural, en {visad {viewcount} tid} annan {visad {viewcount} gånger}}'
 justoverclock-country-flags:
   forum:
     inputCountryCode: Landskod
@@ -1058,13 +768,10 @@ ianm-syndication:
     autodiscovery:
       forum_activity: 'Aktivitet i forumet'
       forum_new_discussions: 'Forumets nya diskussioner'
-      tag_activity: 'Aktivitet för taggen {tag}'
-      tag_new_discussions: 'Diskussioner i taggen {tag}'
       discussion_last_posts: 'Den här diskussionen'
       user_last_posts: 'Inlägg och kommentarer av denna användare'
     feeds:
-      entries: { user_posts: { title_reply: 'Re: {diskussion}' } }
-      titles: { main_title: '{forum_name}', main_subtitle: 'Senaste inläggen i forumet', main_d_title: 'Nya diskussioner i {forum_name}', main_d_subtitle: 'De nyaste diskussionerna i forumet', tag_title: 'Aktivitet i taggen {tag}', tag_subtitle: 'Senaste inläggen i {tag}-taggen', tag_d_title: 'Nya diskussioner i {tag}-taggen', tag_d_subtitle: 'De senaste diskussionerna i {tag}-taggen', discussion_title: '{discussion_name}', discussion_subtitle: 'Senaste meddelandena i den här diskussionen', user_title: '{användarnamn}', user_subtitle: 'Senaste inlägg och kommentarer av denna användare.' }
+      titles: { main_subtitle: 'Senaste inläggen i forumet', main_d_subtitle: 'De nyaste diskussionerna i forumet', discussion_subtitle: 'Senaste meddelandena i den här diskussionen', user_subtitle: 'Senaste inlägg och kommentarer av denna användare.' }
     discussion:
       feed_link: Mata
 ianm-log-viewer: null
@@ -1072,7 +779,6 @@ ianm-html-head: null
 ianm-follow-users:
   forum:
     followed: Följt
-    followers: '{antal, plural, en {följare} annan {följare}}'
     profile_page:
       no_following: 'Det verkar som om du inte följer någon.'
     settings:
@@ -1081,17 +787,12 @@ ianm-follow-users:
       notify_new_discussion_label: 'Någon jag följer startar en diskussion'
       notify_new_post_label: 'Någon som jag följer inlägg i en befintlig diskussion'
       block_follow: 'Hindra användare från att följa mig'
-    notifications:
-      new_discussion_text: '{användarnamn} startade'
-      new_post_text: '{användarnamn} postat i en diskussion'
-      new_follower_text: '{användarnamn} följde dig'
-      new_unfollower_text: '{användarnamn} har slutat följa dig'
     badge:
       label: { follow: 'Efter diskussioner', lurk: 'Efter att ha följt alla' }
     filter:
       following: 'Följda användare'
     modals:
-      select_follow_level: { title: 'Välj följningsnivå för {användarnamn}', description: 'Välj hur du vill följa <em>{användarnamn}</em>.', follow_levels_heading: 'Följ nivåer', follow_select_label: 'Typ av följning', no_user_attr_provided_err: 'Uh oh, något gick fel när du öppnade den här modalen.', no_user_attr_provided_err_debug: 'Inget "user"-attribut skickades till modalen SelectFollowUserLevel när det skapades. Modal kan inte återges.', save_btn: Spara, cancel_btn: Annullera }
+      select_follow_level: { follow_levels_heading: 'Följ nivåer', follow_select_label: 'Typ av följning', no_user_attr_provided_err: 'Uh oh, något gick fel när du öppnade den här modalen.', no_user_attr_provided_err_debug: 'Inget "user"-attribut skickades till modalen SelectFollowUserLevel när det skapades. Modal kan inte återges.', save_btn: Spara, cancel_btn: Annullera }
     profile_link: 'Följda användare'
     user_controls:
       follow_button: Följa
@@ -1101,37 +802,28 @@ ianm-follow-users:
       follow_tag_button: Följa
       unfollow_tag_button: 'Ändra typ av följare'
   email:
-    new_discussion_by_user_subject: '[Följ användare] {titel}'
     new_follower_subject: '[Följ användare] Du har en ny följare!'
-    new_post_subject: '[Följ användare] Nytt inlägg i {title}'
-    new_discussion_by_user_body: "Hej {recipient_display_name},\n\n{user_display_name} startade en ny diskussion: {discussion_title}\n\nFör att se den nya diskussionen, kolla in följande länk:\n\n{discussion_url}\n\n---\n\n{post_content}\n"
-    new_follower_body: "Hej {recipient_display_name},\n\n{follower_display_name} började följa dig, så de får ett meddelande när du startar en ny diskussion.\n\nFör att se deras profil, kolla in följande länk:\n\n{profile_url}\n"
-    new_post_body: "Hej {recipient_display_name},\n\n{user_display_name} postat i en diskussion: {discussion_title}\n\nOm du vill se den nya aktiviteten kan du kolla in följande länk:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nDu kommer inte att få några fler aviseringar om den här diskussionen förrän du är uppdaterad.\n"
   lib:
     following_link: 'Följda användare'
     follow: Följa
     change_follow_type: 'Ändra typ av följare'
     unfollow: 'Sluta följa'
     follow_levels:
-      unfollow: { name: 'Följ inte', description: "Få inga aviseringar om <em>{användarnamn}</em>:s aktivitet.\n" }
-      follow: { name: 'Följ diskussioner', description: "Få notifikationer när <em>{användarnamn}</em> startar en ny diskussion.\n" }
-      lurk: { name: 'Följ alla', description: "Få notiser när <em>{användarnamn}</em> startar en ny diskussion eller gör inlägg i en diskussion.\n" }
+      unfollow: { name: 'Följ inte' }
+      follow: { name: 'Följ diskussioner' }
+      lurk: { name: 'Följ alla' }
 fof-username-request:
   forum:
     nickname_modals:
-      action: { help_text: 'Se till att denna begärda smeknamnsändring följer forumets riktlinjer.', decision_title: Beslut, approval_label: Godkänna, rejected_label: Avvisa, submit_button: Inlämna, reason_title: 'Orsak till avslag', success: 'Beslutet har skickats.', name: '{name} har begärt att ändra sitt smeknamn till "{requestedName}"', title: 'Begäran om ändring av smeknamn' }
-      results: { title: 'Begäran om ändring av smeknamn', approved: 'Din begäran om ändring av smeknamn har godkänts', new_name: 'Ditt smeknamn har ändrats till: {name}', rejected: 'Din begäran om att ändra smeknamn avvisades', reason: 'Orsak till avvisning: <i>"{reason}".</i>', resubmit: 'För närvarande kan du skicka in en ny begäran om att ändra smeknamn från dina kontoinställningar om du väljer att göra det.', dismiss_button: OKEJ }
-      request: { title: 'Begär ändring av smeknamn', current_request: 'Du har redan begärt att få ändra ditt smeknamn till "{name}". Du kan antingen uppdatera din begäran eller ta bort den.', submit_button: 'Skicka förfrågan', delete_button: 'Ta bort begäran', confirmation_message: 'Din begäran om ändring av smeknamn har skickats in och väntar på godkännande.', deleted: 'Begäran om smeknamn har tagits bort.', dismiss_button: OKEJ }
+      action: { help_text: 'Se till att denna begärda smeknamnsändring följer forumets riktlinjer.', decision_title: Beslut, approval_label: Godkänna, rejected_label: Avvisa, submit_button: Inlämna, reason_title: 'Orsak till avslag', success: 'Beslutet har skickats.', title: 'Begäran om ändring av smeknamn' }
+      results: { title: 'Begäran om ändring av smeknamn', approved: 'Din begäran om ändring av smeknamn har godkänts', rejected: 'Din begäran om att ändra smeknamn avvisades', resubmit: 'För närvarande kan du skicka in en ny begäran om att ändra smeknamn från dina kontoinställningar om du väljer att göra det.', dismiss_button: OKEJ }
+      request: { title: 'Begär ändring av smeknamn', submit_button: 'Skicka förfrågan', delete_button: 'Ta bort begäran', confirmation_message: 'Din begäran om ändring av smeknamn har skickats in och väntar på godkännande.', deleted: 'Begäran om smeknamn har tagits bort.', dismiss_button: OKEJ }
     username_modals:
-      action: { help_text: 'Se till att den begärda användarnamnsändringen följer forumets riktlinjer.', decision_title: Beslut, approval_label: Godkänna, rejected_label: Avvisa, submit_button: Inlämna, reason_title: 'Orsak till avslag', success: 'Beslutet har skickats.', name: '{name} har begärt att ändra sitt användarnamn till "{requestedName}"', title: 'Begäran om ändring av användarnamn' }
-      results: { title: 'Begäran om ändring av användarnamn', approved: 'Din begäran om ändring av användarnamn har godkänts', new_name: 'Ditt användarnamn har ändrats till: {name}', rejected: 'Din begäran om ändring av användarnamn avvisades', reason: 'Orsak till avvisning: <i>"{reason}".</i>', resubmit: 'För närvarande kan du skicka in en ny begäran om ändring av användarnamn från dina kontoinställningar om du väljer att göra det.', dismiss_button: OKEJ }
-      request: { title: 'Begär ändring av användarnamn', current_request: 'Du har redan begärt att få ändra ditt användarnamn till "{name}". Du kan antingen uppdatera din begäran eller ta bort den.', submit_button: 'Skicka förfrågan', delete_button: 'Ta bort begäran', confirmation_message: 'Din begäran om ändring av användarnamn har skickats och väntar på godkännande.', deleted: 'Begäran om användarnamn har tagits bort.', dismiss_button: OKEJ }
+      action: { help_text: 'Se till att den begärda användarnamnsändringen följer forumets riktlinjer.', decision_title: Beslut, approval_label: Godkänna, rejected_label: Avvisa, submit_button: Inlämna, reason_title: 'Orsak till avslag', success: 'Beslutet har skickats.', title: 'Begäran om ändring av användarnamn' }
+      results: { title: 'Begäran om ändring av användarnamn', approved: 'Din begäran om ändring av användarnamn har godkänts', rejected: 'Din begäran om ändring av användarnamn avvisades', resubmit: 'För närvarande kan du skicka in en ny begäran om ändring av användarnamn från dina kontoinställningar om du väljer att göra det.', dismiss_button: OKEJ }
+      request: { title: 'Begär ändring av användarnamn', submit_button: 'Skicka förfrågan', delete_button: 'Ta bort begäran', confirmation_message: 'Din begäran om ändring av användarnamn har skickats och väntar på godkännande.', deleted: 'Begäran om användarnamn har tagits bort.', dismiss_button: OKEJ }
     pending_requests:
       empty_text: 'Inga begäranden om namnändring hittades.'
-      nickname_item_text: '{name} begärde en smeknamnsändring'
-      nickname_exerpt: 'Begärt smeknamn: {requestedName}'
-      username_item_text: '{name} begärde en ändring av användarnamn'
-      username_exerpt: 'Begärt användarnamn: {requestedName}'
       tooltip: 'Begäran om namnändring'
       title: 'Begäran om namnändring'
     settings:
@@ -1149,15 +841,9 @@ fof-username-request:
   email:
     body:
       noReasonProvided: 'Ingen anledning har angetts.'
-      approved: "Hej {recipient_display_name},\n\nDin begäran om att ändra ditt användarnamn till \"{new_username}\" har godkänts av {actor_display_name}.\n\nDu kan nu logga in med ditt nya användarnamn: {login_url}\n"
-      rejected: "Hej {recipient_display_name},\n\nDin begäran om att ändra ditt användarnamn från \"{old_username}\" till \"{requested_username}\" har avvisats av {actor_display_name}.\n\nOrsak: {anledning}\n"
-    subject:
-      approved: '{display_name} godkände att ditt användarnamn ändrades till {requested_username}'
-      rejected: '{display_name} avvisade ändringen av ditt användarnamn till {requested_username}'
 fof-user-bio:
   forum:
     userbioPlaceholder: 'Skriv något om dig själv'
-    userbioPlaceholderOtherUser: 'Skriv en biografi för {användarnamn}'
     profile:
       cancel_confirm: 'Är du säker på att du vill avbryta redigeringen av din biografi? Du förlorar alla ändringar du har gjort.'
       cancel_button: Annullera
@@ -1165,9 +851,6 @@ fof-user-bio:
       edit_bio_label: 'Redigera biografi'
 fof-split:
   forum:
-    post:
-      was_split_to: '{count, plural, ett {{count} inlägg delades till {target}.} andra {{count} inlägg delades till {target}.}}'
-      was_split_from: '{count, plural, ett {{count} inlägg delades från {target}.} andra {{count} inlägg delades från {target}.}}'
     split:
       from: 'Dela härifrån'
       to: 'Dela upp till här'
@@ -1221,13 +904,11 @@ fof-reactions:
   forum:
     disabled-reaction: 'Du kan inte använda den här reaktionen just nu, uppdatera sidan'
     warning: 'Din reaktion blev omvänd'
-    notification: '{användarnamn} reagerade med {reaktion} på ditt inlägg'
     settings:
       notify_post_reacted_label: 'Någon reagerar på ett av mina inlägg'
     reacting-own-post: 'Du kan inte reagera på ditt eget inlägg'
     modal:
       title: Reaktioner
-      anonymous_count: '{antal, plural, en {# anonym användare} annan {# anonym användare}}'
       no_reactions: 'Inga reaktioner ännu'
     mod_item: 'Visa reaktioner'
     react_button_label: Reagera
@@ -1241,22 +922,19 @@ fof-profile-image-crop:
 fof-prevent-necrobumping:
   forum:
     composer:
-      warning: { title: 'Den här diskussionen är mer än <b>{tid}</b> gammal.', description: 'Det är mycket troligt att det inte behöver diskuteras ytterligare och därför tjänar det inget syfte att stöta på det.', checkbox_label: 'Jag är medveten om att denna diskussion är ganska gammal, men jag skulle ändå vilja svara.', error: 'Den här diskussionen är för gammal för att svara på.' }
+      warning: { description: 'Det är mycket troligt att det inte behöver diskuteras ytterligare och därför tjänar det inget syfte att stöta på det.', checkbox_label: 'Jag är medveten om att denna diskussion är ganska gammal, men jag skulle ändå vilja svara.', error: 'Den här diskussionen är för gammal för att svara på.' }
 fof-pretty-mail: null
 fof-polls:
   forum:
-    days_remaining: 'Omröstningen slutar {time}.'
     no_permission: 'Du har inte behörighet att rösta'
     poll_ended: 'Den här omröstningen är avslutad.'
     public_poll: 'Visa väljare'
-    max_votes_allowed: 'Omröstning gör det möjligt att rösta på {max, plural, ett {# alternativ} andra {# alternativ}}.'
     composer_discussion:
       add_poll: 'Lägg till omröstning'
       edit_poll: 'Redigera omröstning'
     modal:
       add_title: 'Lägg till en omröstning'
       add_option_label: 'Lägg till ett alternativ'
-      date_placeholder: 'Slutdatum för omröstning (valfritt)'
       edit_title: 'Redigera omröstning'
       include_question: 'Du måste inkludera en fråga'
       max: 'Du kan ha högst 10 svar'
@@ -1277,7 +955,6 @@ fof-polls:
       edit: 'Redigera omröstning'
     tooltip:
       badge: Enkät
-      votes: '{räkna, plural, en {# röst} annan {# röster}}'
     votes_modal:
       title: Väljarna
 fof-nightmode:
@@ -1297,11 +974,9 @@ fof-moderator-notes:
   forum:
     no_content_given: 'En tom lapp är inte tillåten.'
     moderatorNotes:
-      created_text: '{användarnamn} skapade denna anteckning den {date}'
       add_button: 'Ny anteckning'
       create-heading: 'Skapa en ny moderatoranteckning'
       dismiss_button: Färdig
-      input_heading: 'Ange dina anteckningar för <strong>{användarnamn}</strong>, (markdown stöds)'
       noNotes: 'Det ser ut som om det inte finns några anteckningar här.'
       submit_button: 'Spara anteckning'
       delete: 'Ta bort'
@@ -1309,8 +984,6 @@ fof-moderator-notes:
     user:
       notes: 'Moderator Anteckningar'
   api:
-    auto_note: '_I bytte till den här användaren:_ {reason}'
-    auto_note_actor: '_Switched to_ @{användarnamn}: {anledning}'
     no_reason_provided: 'Ingen anledning angiven'
 fof-linguist: null
 fof-html-errors: null
@@ -1325,12 +998,8 @@ fof-gamification:
       name: Användare
       amount: Poäng
     notification:
-      upvote: '{användarnamn} röstade upp ditt inlägg'
-      downvote: '{användarnamn} nedröstade ditt inlägg'
       prefrences: { vote: 'När ett av mina inlägg är upp/ner röstade' }
     user:
-      card: { points: '{count, plural, en { {count} poäng} andra {{count} poäng}}' }
-      rank: '{rang}'
       votes_link: Röster
     modal:
       downvotes_label: 'Nedröstare:'
@@ -1344,11 +1013,6 @@ fof-gamification:
     post:
       upvote_button: 'Rösta upp inlägg'
       downvote_button: 'Rösta ned inlägg'
-  email:
-    body:
-      postVoted: "Hej {recipient_display_name},\n\n{actor_display_name} röstade precis på ditt inlägg i {discussion_title}.\n\nVisa den här: {discussion_url}\n"
-    subject:
-      postVoted: 'Ditt inlägg röstades fram av {display_name}'
 fof-formatting: null
 fof-drafts:
   console:
@@ -1367,7 +1031,6 @@ fof-drafts:
       title: Utkast
       delete_all_button: 'Ta bort alla utkast'
       delete_button: 'Ta bort utkast'
-      scheduled_icon_tooltip: 'Schemalagd för {datetime}'
       scheduled_icon_tooltip_formatter: 'L [at] LT'
       alert: 'Är du säker på att du vill ta bort utkastet?'
       delete_all_alert: 'Är du säker på att du vill ta bort alla dina utkast?'
@@ -1375,13 +1038,10 @@ fof-drafts:
       tooltip: Utkast
     schedule_draft_modal:
       text: 'Schemalägg ditt utkast så att det automatiskt publiceras vid ett senare tillfälle!'
-      scheduled_text: 'För närvarande schemalagd att publicera på {datetime}.'
-      scheduled_error: 'Det går inte att schemalägga utkastet: {error}.'
       unschedule_button: 'Ta bort schemat'
       unschedule_warning: 'Är du säker på att du vill ta bort schemat för det här utkastet?'
       reschedule_button: 'Boka om'
       schedule_button: Schema
-      schedule_time_preview: 'Det här utkastet publiceras automatiskt på <b>{datetime}</b>.'
       schedule_time_preview_formatter: 'LLLL (på engelska)'
       schedule_time_preview_invalid: 'Ogiltigt datum och/eller ogiltig tid'
       title: 'Schema utkast'
@@ -1393,13 +1053,10 @@ fof-best-answer:
     this_best_answer: 'Välj Bästa svar'
     remove_best_answer: 'Avmarkera Bästa svar'
     best_answer_button: 'Bästa svaret'
-    best_answer_label: 'Satt av <a>{användarnamn}</a> {time_set}'
     errors:
       mismatch: 'Markerat inlägg finns inte i den här diskussionen.'
     notification:
-      best_answer_in_discussion: '{användarnamn} ange det bästa svaret i den här diskussionen'
       content: 'Välj ett bästa svar om din fråga har besvarats'
-      awarded: 'Ditt inlägg har angetts som det bästa svaret av {användarnamn}'
       preferences: { awarded_best_answer: 'Någon ställer in mitt inlägg som ett bästa svar', best_answer_in_discussion: 'Det bästa svaret finns i en diskussion jag deltagit i', select_best_answer: 'En automatisk påminnelse om att välja det bästa svaret i en diskussion som jag har startat' }
     index:
       ask_question: 'Ställ en fråga'
@@ -1413,22 +1070,13 @@ fof-best-answer:
       accessible_label: 'Löst/Olöst urval'
     composer:
       titlePlaceholder: 'Frågans titel'
-    user:
-      best-answer-count: '{count, plural, one { {count} bästa svaret} andra {{count} bästa svaren}}'
     search:
       discussions_solutions_heading: 'Diskussioner med lösningar'
-      all_discussions_solutions_button: 'Sök i alla diskussioner med lösningar för "{query}"'
     discussion:
       jump_to_best_answer_button: 'Visa bästa svar'
   email:
     subject:
-      awarded: 'Ditt inlägg sattes som det bästa svaret av {display_name}'
-      ba-set: 'Ett bästa svar sattes av {display_name}'
       select: 'Har du lyckats få din fråga besvarad?'
-    body:
-      awarded: "Hej {recipient_display_name},\n\nBra jobb, {actor_display_name} Ställ in ditt inlägg som det bästa svaret i diskussionen: {discussion_title}. Tack för att du hjälpte.\n\nSe det här: {discussion_url}\n"
-      ba-set: "Hej {recipient_display_name},\n\n{actor_display_name} ställ bara in ett bästa svar i diskussionen: {discussion_title}, som du deltog i.\n\nKolla in det: {discussion_url}\n"
-      select: "Hej {recipient_display_name},\n\nBara checka in; nu bör du ha gott om svar på din fråga: {discussion_title}. Förhoppningsvis har en av dem hjälpt dig att lösa ditt problem.\n\nOm så är fallet skulle det vara till stor hjälp för framtida medlemmar om du kunde ställa in ett bästa svar på din fråga. Det hjälper människor med samma problem att hitta svaret de behöver, och det är också ett stort tack till medlemmarna som hjälpte dig. De ger sin tid frivilligt, så det är trevligt att låta dem veta att de gör bra.\n\nBesök diskussionen här: {discussion_url} och välj det lämpligaste inlägget som det bästa svaret.\n\nTack!\n"
 fof-user-directory:
   lib:
     sort:
@@ -1437,8 +1085,6 @@ fof-user-directory:
 fof-ban-ips:
   forum:
     modal:
-      ban_options_only_ip: 'Förbjud endast aktuell IP-adress (<code>{ip}</code>)'
-      ban_options_all_ip: 'Blockera alla IP-adresser som används av <i>{användarnamn}</i>'
       ban_ip_no_users: 'Ingen annan kommer att förbjudas'
     user_badge:
       banned_tooltip: Bannad
@@ -1455,13 +1101,8 @@ fof-ban-ips:
       check_button: Check
       save_button: Spara
       ban_ip_confirmation: 'Är du säker på att du vill blockera denna IP-adress från att användas på forumet? Detta kommer att blockera användare med denna IP-adress(er) från att logga in och registrera sig.'
-      ban_ip_users: '{count, plural, en {Användare {användare} kommer att förbjudas} andra {Användare {användare} kommer att förbjudas}}'
       unban_ip_confirmation: 'Är du säker på att du vill ta bort förbudet för den här användaren och alla andra användare som inte är förbjudna av andra IP-adresser?'
-      unban_options_only_ip: 'Ta endast bort blockeringen av den aktuella IP-adressen (<code>{ip}</code>)'
-      unban_options_all_ip: 'Ta bort blockeringen av alla IP-adresser som används av <i>{användarnamn}</i>'
       unban_ip_no_users: 'Ingen annan kommer att bli avstängd'
-      unban_ip_users: '{count, plural, en {Användare {användare} kommer att avbannas} andra {Användare {users} kommer att bli avstängda}}'
-      unbanned_ips: 'Ej förbjudna <code>{ips}</code>.'
       title: 'Förbjud IP-adresser'
       unban_title: 'Unban IP-adresser'
       address_label: IP-adress
@@ -1492,7 +1133,6 @@ fof-anti-spam:
       move_discussions_tag_label: 'Flytta diskussioner till taggen i karantän'
       move_discussions_tag_help: 'Detta kommer att flytta alla diskussioner som startats av den här användaren till den tagg du angav i forumets inställningar. När det är inaktiverat kommer diskussioner att lämnas i sina nuvarande taggar.'
       process_button: Process
-      title: 'Markera {användarnamn} som en spammare'
       report_to_sfs_label: 'Rapportera till StopForumSpam'
       report_to_sfs_help: 'Detta kommer att rapportera användarens grundläggande uppgifter (användarnamn, e-post, IP-adress) till StopForumSpam. Detta kommer att hjälpa till att förhindra användaren från att registrera sig på andra forum som använder tjänsten StopForumSpam.'
     user_controls:
@@ -1511,18 +1151,11 @@ flarum-sticky:
     discussion_controls:
       unsticky_button: 'Ta bort klibbiga'
       sticky_button: Klibbig
-    post_stream:
-      discussion_stickied_text: '{användarnamn} klistrade in diskussionen {time}.'
-      discussion_unstickied_text: '{användarnamn} tog bort klistrade bort diskussionen {time}.'
     badge:
       sticky_tooltip: Klibbig
   ref:
     sticky: Klibbig
 flarum-statistics: null
-flarum-pusher:
-  forum:
-    discussion_list:
-      show_updates_text: '{antal, plural, en {Visa # uppdaterad diskussion} annan {Visa # uppdaterade diskussioner}}'
 flarum-lock:
   forum:
     badge:
@@ -1530,24 +1163,13 @@ flarum-lock:
     discussion_controls:
       lock_button: Lås
       unlock_button: 'Låsa upp'
-    notifications:
-      discussion_locked_text: '{användarnamn} låst'
-    post_stream:
-      discussion_locked_text: '{användarnamn} låste diskussionen {time}.'
-      discussion_unlocked_text: '{användarnamn} låste upp diskussionen {time}.'
     settings:
       notify_discussion_locked_label: 'Någon låser en diskussion som jag har startat'
 flarum-likes:
   forum:
-    notifications:
-      post_liked_text: '{användarnamn} gillade ditt inlägg'
-      others_text: '{räkna, plural, en {# annan} annan {# andra}}'
     post:
       like_link: 'Tycka om'
-      liked_by_self_text: '{användare} så här.'
-      liked_by_text: '{count, plural, en {{users} gillar detta} andra {{users} gillar detta}}.'
       unlike_link: Olik
-      others_link: '{räkna, plural, en {# annan} annan {# andra}}'
       you_text: Du
     post_likes:
       title: 'Användare som gillar detta'
@@ -1602,9 +1224,6 @@ dhtml-composer:
       character_counter: 'Räknare för tecken'
 datlechin-birthdays:
   forum:
-    user:
-      birthday_text: 'Födelsedag: {datum}'
-      age_text: 'Ålder: {ålder}'
     change_dob:
       title: 'Redigera födelsedatum'
       date_of_birth_text: Födelsedatum
@@ -1617,16 +1236,12 @@ datlechin-birthdays:
       dob_heading: Födelsedatum
     nav:
       nav_item: 'Dagens födelsedagar'
-    page:
-      discussion_count: '{antal, plural, ett {Diskussion: #} annat {Diskussioner: #}}'
-      post_count: '{antal, plural, en {Post: #} andra {Inlägg: #}}'
     edit_user:
       dob_heading: Födelsedatum
     sign_up:
       dob_placeholder: Födelsedatum
   api:
     invalid_dob_message: 'Ogiltigt födelsedatum'
-    invalid_age_message: 'Din ålder måste vara minst {minAge} år.'
   ref:
     date_of_birth: Födelsedatum
 clarkwinkelmann-post-permissions: null
@@ -1662,24 +1277,13 @@ askvortsov-rich-text:
       insert_image: { src_placeholder: Länk, title_placeholder: Titel }
       insert_link: { text_placeholder: SMS, href_placeholder: URL, title_placeholder: 'Titel (visas när du håller muspekaren)', remove_button: Avlägsna }
       additional_items_tooltip: 'Ytterligare kontroller'
-      bold_tooltip: 'Fet text <{modifierKey}-b>'
-      code_tooltip: 'Infogad kod <{modifierKey}-''>'
       code_block_tooltip: 'Infoga ett kodblock'
-      header_tooltip: 'Ändra till rubrik {level} <shift-{modifierKey}-{level}>'
       horizontal_rule_tooltip: 'Infoga vågrät linje'
       image_tooltip: 'Lägga till en bild'
-      italic_tooltip: 'Kursiv text <{modifierKey}-i>'
       link_tooltip: 'Lägg till en länk'
-      ordered_list_tooltip: 'Numrerad lista <shift-{modifierKey}-9>'
-      paragraph_tooltip: 'Ändra till stycke <shift-{modifierKey}-0>'
-      quote_tooltip: 'Infoga ett citattecken <{modifierKey}-q>'
       spoiler_block_tooltip: 'Blockera spoiler/rullgardinsmeny'
-      spoiler_inline_tooltip: 'Spoiler <{modifierKey}-;>'
       strike_tooltip: 'Genomstruken <alt-shift-5>'
-      sub_tooltip: 'Nedsänkt <{modifierKey}-,>'
-      sup_tooltip: 'Upphöjd <{modifierKey}-.>'
       text_type_tooltip: 'Välj texttyp'
-      unordered_list_tooltip: 'Punktlista <shift-{modifierKey}-8>'
   forum:
     settings:
       composer_heading: Kompositör
@@ -1694,7 +1298,6 @@ askvortsov-pwa:
       share_button: Aktie
     post_controls:
       share_button: Aktie
-      share_api: { title: '{användarnamn}s svar på {title}''' }
     user_controls:
       share_button: Aktie
     settings:
@@ -1705,20 +1308,7 @@ askvortsov-pwa:
       header: 'Fel vid nätverksanslutning'
       text: 'Den här appen kräver en nätverksanslutning. Den kan inte användas offline. Kontrollera din anslutning.'
 askvortsov-moderator-warnings:
-  emails:
-    post_warned:
-      subject: '{warner_display_name} varnade dig med {strikes, plural, en {# strike} annan {# strikes}} i {discussion_title}'
-      body: "Hej {warnee_display_name}!\n\n{warner_display_name} varnade dig med {strikes, plural, en {# strike} annan {# strikes}} i {discussion_title}\n\nFöljande skäl angavs:\n\n---\n\n{public_comment}\n"
-    user_warned:
-      subject: '{warner_display_name} varnade dig med {strikes, plural, en {# strike} annan {# strikes}}'
-      body: "Hej {warnee_display_name}!\n\n{warner_display_name} varnade dig med {strikes, plural, en {# strike} annan {# strikes}}\n\nFöljande skäl angavs:\n\n---\n\n{public_comment}\n"
   forum:
-    notifications:
-      warning_text: '{strikes, plural, one {Du varnades med # strike av {mod_username}} andra {Du varnades med # strikes av {mod_username}}}'
-      warning_no_strikes_text: 'Du blev varnad av {mod_username} (inga strejker)'
-    post:
-      warning: '{strikes, plural, en {Varnad med # strike av {mod_username}} annan {Varnad med # strikes av {mod_username}}}'
-      warning_no_strikes: 'Varnad utan några strejker av {mod_username}'
     post_controls:
       warning_button: 'Varna användaren'
     user:
@@ -1735,20 +1325,14 @@ askvortsov-moderator-warnings:
     warning_list:
       add_button: 'Ny varning'
       no_warnings: 'Det ser ut som att det inte finns några varningar här.'
-      warnings: '{strejker, plural, en {Moderatorvarningar: # Varning mottagen} annan {Moderatorvarningar: # Varningar mottagna}}'
       warnings_no_strikes: 'Moderatorvarningar: Inga varningar mottagna'
     warning_list_item:
-      list_item_heading: '{strikes, plural, en {<strong>#</strong> strike, {time}} annan {<strong>#</strong> strikes, {time}}}'
-      list_item_heading_hidden: '{strikes, plural, en {<strong>#</strong> strike, {time} <strong>(borttagen)</strong>} andra {# strikes, {<strong>time</strong>} <strong>(borttagen)</strong>}}'
       public_comment: Varning
       private_comment: 'Moderator-Synliga Kommentarer'
       linked_post: 'Länkat inlägg'
     warning_modal:
       confirmation_message: 'Din varning har sparats. Du kan behöva uppdatera sidan för att se den.'
-      heading: 'Varna <strong>{användarnamn}</strong>'
       strikes_heading: 'Hur många strejker ska tillämpas?'
-      public_comment_heading: 'Varför får <strong>{användarnamn}</strong> dessa varningar? Dessa kommentarer kommer att vara synliga för användaren och andra moderatorer.'
-      private_comment_heading: 'Varför får <strong>{användarnamn}</strong> dessa varningar? Dessa kommentarer kommer ENDAST att vara synliga för andra moderatorer.'
       submit_button: 'Spara varning'
 askvortsov-discussion-templates:
   forum:

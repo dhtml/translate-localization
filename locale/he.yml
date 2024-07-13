@@ -3,7 +3,6 @@ core:
     change_email:
       incorrect_password_message: 'הסיסמה שהזנת שגויה.'
       confirm_password_placeholder: 'אשר סיסמה'
-      confirmation_message: 'שלחנו דוא"ל אישור לכתובת {email}. אם הוא לא יגיע בקרוב, בדוק את תיקיית דואר הזבל שלך.'
       dismiss_button: אוקיי
       submit_button: 'שמירת שינויים'
       title: 'שינוי דוא"ל'
@@ -26,7 +25,6 @@ core:
     composer_edit:
       discard_confirmation: 'לא שמרת את השינויים שלך. האם ברצונך להשליך אותם?'
       edited_message: 'העריכה שלך בוצעה.'
-      post_link: 'פרסם #{number} ב- {discussion}'
       submit_button: 'שמירת שינויים'
       view_button: נוף
     composer_reply:
@@ -48,10 +46,6 @@ core:
       restore_button: לשחזר
     discussion_list:
       empty_text: 'נראה כאילו אין כאן דיונים.'
-      replied_text: '{username} השיב {ago}'
-      started_text: '{username} התחיל {ago}'
-      total_replies_a11y_label: '{ספירה, רבים, {# תגובה} אחר {# תגובות}}'
-      unread_replies_a11y_label: '{ספירה, ברבים, אחת {# תשובה שלא נקראה} אחרת {# תשובות שלא נקראו}}. סמן לא נקרא {ספירה, רבים, אחד {תגובה} אחר {תגובות}} כפי שנקרא.'
       load_more_button: 'טען עוד'
     forgot_password:
       email_sent_message: 'אם הדוא"ל שאתה נכנס נרשם עם אתר זה, אנו נשלח לך דוא"ל המכיל קישור כדי לאפס את הסיסמה שלך. בדוק את תיקיית הספאם שלך אם אתה לא מקבל את זה בדקה או שתיים.'
@@ -107,7 +101,6 @@ core:
     notifications:
       delete_all_confirm: 'האם אתה בטוח שברצונך למחוק את כל ההתראות? פעולה זו אינה הפיכה'
       delete_all_tooltip: 'מחיקת כל ההודעות'
-      discussion_renamed_text: '{username} שינה את הכותרת'
       empty_text: 'אין התראות'
       mark_as_read_tooltip: 'סמן כנקרא'
       toggle_dropdown_accessible_label: 'הצגת הודעות'
@@ -116,8 +109,6 @@ core:
       tooltip: הודעות
     post:
       edited_text: נערך
-      edited_tooltip: '{username} נערך {ago}'
-      number_tooltip: 'פרסם #{מספר}'
     post_controls:
       delete_confirmation: 'האם אתה בטוח שאתה רוצה למחוק את הפוסט הזה לנצח? לא ניתן לבטל פעולה זו.'
       hide_confirmation: 'האם אתה בטוח שברצונך למחוק את הפוסט הזה?'
@@ -131,23 +122,16 @@ core:
     post_scrubber:
       now_link: כעת
       original_post_link: 'פוסט מקורי'
-      unread_text: '{ספירה} לא נקרא'
-      viewing_text: '{count, רבים, {{index} אחד של {formattedCount} post} אחר {{index} של {formattedCount} posts}}'
     post_stream:
-      discussion_renamed_old_tooltip: 'הכותרת הישנה הייתה: "{ישן}"'
-      discussion_renamed_text: '{username} שינה את הכותרת ל- {new} {time}.'
-      time_lapsed_text: '{נקודה} מאוחר יותר'
       load_more_button: 'טען עוד'
       reply_placeholder: 'כתוב תגובה...'
     rename_discussion:
       title: 'שינוי שם דיון'
       submit_button: לשנות
     search:
-      all_discussions_button: 'חפש בכל הדיונים אחר "{query}"'
       discussions_heading: דיונים
       users_heading: משתמשים
     security:
-      browser_on_operating_system: '{דפדפן} ב- {OS}'
       cannot_terminate_current_session: 'אין אפשרות לסיים את ההפעלה הפעילה הנוכחית. התנתק במקום זאת.'
       created: שנוצרו
       current_active_session: 'הפעלה פעילה נוכחית'
@@ -159,13 +143,11 @@ core:
       new_access_token_modal: { submit_button: 'צור אסימון', title_placeholder: כותר, title: 'אסימון חדש' }
       revoke_access_token: לבטל
       sessions_heading: 'הפעלות פעילות'
-      session_terminated: '{ספירה, ברבים, אחד {הפעלה הסתיימה} אחר {# הפעלות הסתיימו}}.'
       session_termination_failed: 'אירעה שגיאה בעת סיום ההפעלות.'
       show_access_token: 'אסימון תצוגה'
       terminate_all_other_sessions: 'סיום כל המפגשים האחרים'
       terminate_session: לסיים
       token_revoked: 'האסימון בוטל.'
-      token_item_title: '{כותרת} - {אסימון}'
       token_title_placeholder: /
       never: 'אף פעם'
       new_access_token_button: 'אסימון חדש'
@@ -174,7 +156,6 @@ core:
       title: ביטחון
     settings:
       account_heading: חשבון
-      notification_checkbox_a11y_label_template: 'קבל הודעות "{description}" באמצעות {method}'
       notify_by_web_heading: אינטרנט
       notify_discussion_renamed_label: 'מישהו משנה שם לדיון שהתחלתי'
       privacy_disclose_online_label: 'אפשר לאחרים לראות מתי אני במצב מקוון'
@@ -186,7 +167,6 @@ core:
       title: הגדרות
     sign_up:
       log_in_text: 'כבר יש לך חשבון? <a>כנס</a>'
-      welcome_text: 'ברוך הבא, {שם משתמש}!'
       dismiss_button: אוקיי
       email_placeholder: 'דואר אלקטרוני'
       password_placeholder: סיסמה
@@ -196,8 +176,6 @@ core:
     user:
       avatar_upload_button: העלאה
       avatar_upload_tooltip: 'העלאת אוואטאר חדש'
-      in_discussion_text: 'ב- {דיון}'
-      joined_date_text: 'הצטרף {לפני}'
       online_text: מקוון
       posts_empty_text: 'נראה שאין כאן פוסטים.'
       avatar_remove_button: להסיר
@@ -209,15 +187,12 @@ core:
     user_controls:
       button: פקדים
       delete_confirmation: 'האם אתה בטוח שברצונך למחוק משתמש זה? הפוסטים של המשתמש לא יימחקו.'
-      delete_error_message: 'מחיקת המשתמש <i>{username} ({email})</i> נכשלה'
-      delete_success_message: 'משתמש <i>{username} ({email})</i> נמחק'
       toggle_dropdown_accessible_label: 'התפריט הנפתח Toggle user controls'
       delete_button: למחוק
       edit_button: עריכה
     user_email_confirmation:
       resend_button: 'שליחה חוזרת של דוא"ל אישור'
       sent_message: שלח
-      alert_message: 'שלחנו דוא"ל אישור לכתובת {email}. אם הוא לא יגיע בקרוב, בדוק את תיקיית דואר הזבל שלך.'
     welcome_hero:
       hide: 'הסתרת הודעת ברכה'
     badge:
@@ -230,8 +205,6 @@ core:
       hidden_tooltip: מוסתרים
     dropdown:
       toggle_dropdown_accessible_label: 'תפריט נפתח דו-מצבי'
-    data_segment:
-      label: '{תווית}:'
     edit_user:
       activate_button: 'הפעלת משתמש'
       groups_heading: קבוצות
@@ -246,33 +219,17 @@ core:
       username_heading: 'שם משתמש'
       username_label: 'שם משתמש'
     error:
-      circular_dependencies_message: 'זוהו יחסי תלות מעגליים: {הרחבות}. ביטול. השבת אחת מההרחבות ונסה שוב.'
-      dependent_extensions_message: 'אין אפשרות להפוך את {extension} ללא זמין עד שההרחבות התלויות הבאות יהפכו ללא זמינות: {הרחבות}'
-      extension_initialiation_failed_message: 'אתחול {הרחבה} נכשל, עיין במסוף הדפדפן לקבלת מידע נוסף.'
       generic_message: 'אופס! משהו השתבש. טען מחדש את הדף ונסה שוב.'
       generic_cross_origin_message: 'אופס! משהו השתבש במהלך בקשה צולבת מקורות. טען מחדש את הדף ונסה שוב.'
-      missing_dependencies_message: 'אין אפשרות להפוך את {extension} לזמין עד שיחסי התלות הבאים יהיו זמינים: {extensions}'
       not_found_message: 'המשאב המבוקש לא נמצא.'
       payload_too_large_message: 'מטען הבקשה היה גדול מדי.'
       permission_denied_message: 'אין לך רשות לעשות זאת.'
       rate_limit_exceeded_message: 'אתה הולך קצת מהר מדי. נסה שוב בעוד מספר שניות.'
       render_failed_message: 'מצטערים, נתקלנו בשגיאה בעת הצגת תוכן זה. אם אתה משתמש, נסה שוב מאוחר יותר. אם אתה מנהל מערכת, עיין בקבצי יומן הרישום של Flarum לקבלת מידע נוסף.'
-    meta_titles:
-      with_page_title: '{pageNumber, ברבים, =1 {{pageTitle} - {forumName}} אחר {{pageTitle}: Page # - {forumName}}}'
-      without_page_title: '{pageNumber, ברבים, =1 {{forumName}} אחר {Page # - {forumName}}}'
     modal:
       close: קרוב
     nav:
       drawer_button: 'פתיחת מגירת ניווט'
-    number_suffix:
-      kilo_text: לכיוון
-      mega_text: M
-    series:
-      glue_text: ', '
-      three_text: '{ראשון}, {שני} ו- {שלישי}'
-      two_text: '{ראשון} ו{שני}'
-    username:
-      deleted_text: '[נמחק]'
     loading_indicator:
       accessible_label: טעינת...
   views:
@@ -290,11 +247,9 @@ core:
       invalid_confirmation_token: 'קישור אישור זה כבר נמצא בשימוש או שאינו חוקי.'
       not_authenticated: 'אין לך הרשאה לגשת לדף זה. נסה שוב לאחר הכניסה.'
       not_found: 'הדף שביקשת לא נמצא.'
-      not_found_return_link: 'חזור אל {forum}'
       permission_denied: 'אין לך הרשאה לגשת לדף זה.'
       unknown: 'אירעה שגיאה בעת ניסיון לטעון דף זה.'
     log_out:
-      log_out_confirmation: 'האם אתה בטוח שברצונך להתנתק מ- {forum}?'
       log_out_button: התנתקות
       title: התנתקות
     reset_password:
@@ -311,23 +266,15 @@ core:
       previous_page_button: 'לעמוד הקודם'
   api:
     invalid_username_message: 'שם המשתמש יכול להכיל רק אותיות, מספרים ומקפים.'
-    invalid_filter_type:
-      must_be_numeric_message: 'מסנן {filter} חייב להיות מספרי.'
-      must_not_be_array_message: 'אסור שהמסנן {filter} יהיה מערך.'
-      must_not_be_multidimensional_array_message: 'אסור שהמסנן {filter} יהיה מערך רב-ממדי.'
   email:
     activate_account:
       subject: 'הפעל את החשבון החדש שלך'
-      body: "היי {שם משתמש}!\n\nמישהו (אני מקווה שאתה!) נרשם ל{forum} עם כתובת דוא\"ל זו.\n\nאם זה היית אתה, פשוט לחץ על הקישור הבא והחשבון שלך יופעל:\n{כתובת URL}\n\nאם לא נרשמת, אנא התעלם מדוא\"ל זה.\n"
     confirm_email:
       subject: 'אשר את כתובת הדוא"ל החדשה שלך'
-      body: "היי {שם משתמש}!\n\nמישהו (אני מקווה שאתה!) שינה את כתובת הדוא\"ל שלו ב- {forum} לכתובת זו.\n\nאם זה היית אתה, פשוט לחץ על הקישור הבא והדוא\"ל שלך יאושר:\n{כתובת URL}\n\nאם זה לא היית אתה, אנא התעלם מדוא\"ל זה.\n"
     reset_password:
-      body: "היי {שם משתמש}!\n\nמישהו (אני מקווה שאתה!) הגיש בקשה לסיסמה שנשכחה עבור החשבון שלך ב- {forum}.\n\nאם זה היית אתה, לחץ על הקישור הבא כדי לאפס את הסיסמה שלך:\n{כתובת URL}\n\nאם אינך מעוניין לשנות את הסיסמה שלך, פשוט התעלם מדוא\"ל זה ושום דבר לא יקרה.\n"
       subject: 'אפס את הסיסמה שלך'
     send_test:
       subject: 'בדיקת דוא"ל Flarum'
-      body: "היי {שם משתמש}!\n\nזהו דוא\"ל בדיקה כדי לאשר שתצורת הדוא\"ל שלך ב- Flarum פועלת כראוי.\n\nאם זה היית אתה, הודעת דוא\"ל זו פירושה שהתצורה שלך עובדת!\n\nאם זה לא היית אתה, אנא התעלם מדוא\"ל זה.\n"
   ref:
     all_discussions: 'כל הדיונים'
     change_email: 'שינוי דוא"ל'
@@ -335,7 +282,6 @@ core:
     color: צבע
     confirm_password: 'אשר סיסמה'
     confirm_email: 'אשר דוא"ל'
-    confirmation_email_sent: 'שלחנו דוא"ל אישור לכתובת {email}. אם הוא לא יגיע בקרוב, בדוק את תיקיית דואר הזבל שלך.'
     custom_footer_text: 'הוסף HTML שיוצג בתחתית הדף.'
     custom_footer_title: 'עריכת כותרת תחתונה מותאמת אישית'
     custom_header_text: 'הוסף HTML שיוצג בחלק העליון של הדף, מעל הכותרת של Flarium עצמו.'
@@ -349,7 +295,6 @@ core:
     extensions: הרחבות
     generic_confirmation_message: 'האם אתה בטוח שאתה רוצה להמשיך? לא ניתן לבטל פעולה זו.'
     icon: סמל
-    icon_text: 'הזן את השם של כל מחלקת סמלים של <a>FontAwesome</a> <em>כולל</em> קידומת <code>fa.</code>'
     load_more: 'טען עוד'
     loading: טעינת...
     log_in: כנס
@@ -373,7 +318,6 @@ core:
     security: ביטחון
     settings: הגדרות
     sign_up: הירשם
-    some_others: '{לספור, ברבים, אחד {# השני} אחר {# אחרים}}'
     start_a_discussion: 'התחלת דיון'
     username: 'שם משתמש'
     users: משתמשים
@@ -389,128 +333,12 @@ core:
     members: חברים
     mod: באופן
     mods: אופנות
-validation:
-  accepted: 'יש לקבל את :attribute.'
-  active_url: 'התכונה :אינה כתובת URL חוקית.'
-  after: 'התכונה :: חייבת להיות תאריך לאחר :d ate.'
-  after_or_equal: 'התכונה :: חייבת להיות תאריך אחרי :d ate או שווה לו.'
-  alpha: 'התכונה :: חייבת להכיל אותיות בלבד.'
-  alpha_dash: 'התכונה :: חייבת לכלול רק אותיות, מספרים, מקפים וקו תחתון.'
-  alpha_num: 'התכונה :: חייבת להכיל רק אותיות ומספרים.'
-  array: 'התכונה :חייבת להיות מערך.'
-  before: 'התכונה :: חייבת להיות תאריך לפני :d ate.'
-  before_or_equal: 'התכונה :: חייבת להיות תאריך לפני או שווה ל- :d ate.'
-  between:
-    numeric: 'התכונה :: חייבת להיות בין :min ל- :max.'
-    file: 'התכונה :: חייבת להיות בין :min ל- :max קילו-בתים.'
-    string: 'התכונה :: חייבת להיות בין התווים :min ו- :max.'
-    array: 'התכונה :: חייבת לכלול בין פריטים :min ו- :max.'
-  boolean: 'השדה :attribute חייב להיות true או false.'
-  confirmed: 'אישור :attribute אינו תואם.'
-  date: 'התכונה :אינה תאריך חוקי.'
-  date_equals: 'התכונה :: חייבת להיות תאריך השווה ל- :d ate.'
-  date_format: 'התכונה :: אינה תואמת לתבנית :format.'
-  different: ':תכונה ו- :אחר חייבים להיות שונים.'
-  digits: 'התכונה :חייבת להיות ספרות :d igits.'
-  digits_between: 'התכונה :: חייבת להיות בין ספרות :min ו- :max.'
-  dimensions: 'לתכונה :יש מידות תמונה לא חוקיות.'
-  distinct: 'לשדה :attribute יש ערך כפול.'
-  email: 'התכונה :: חייבת להיות כתובת דוא"ל חוקית.'
-  ends_with: 'התכונה :: חייבת להסתיים באחת מהאפשרויות הבאות: :values.'
-  exists: 'התכונה :selected אינה חוקית.'
-  file: 'התכונה :: חייבת להיות קובץ.'
-  file_too_large: 'התכונה :גדולה מדי.'
-  file_upload_failed: 'העלאת התכונה :: נכשלה.'
-  filled: 'לשדה :attribute חייב להיות ערך.'
-  gt:
-    numeric: 'התכונה :: חייבת להיות גדולה מ- :value.'
-    file: 'התכונה :: חייבת להיות גדולה מקילו-בתים של :value.'
-    string: 'התכונה :חייבת להיות גדולה מתווי :value.'
-    array: 'התכונה :: חייבת לכלול יותר מפריטי :value.'
-  gte:
-    numeric: 'התכונה :: חייבת להיות גדולה או שווה ל- :value.'
-    file: 'התכונה :: חייבת להיות גדולה או שווה לקילו-בתים :value.'
-    string: 'התכונה :: חייבת להיות גדולה או שווה לתווי :value.'
-    array: 'התכונה :: חייבת לכלול פריטי :value או יותר.'
-  image: 'התכונה :חייבת להיות תמונה.'
-  in: 'התכונה :selected אינה חוקית.'
-  in_array: 'השדה :attribute אינו קיים ב- :other.'
-  integer: 'התכונה :חייבת להיות מספר שלם.'
-  ip: 'התכונה :: חייבת להיות כתובת IP חוקית.'
-  ipv4: 'התכונה :חייבת להיות כתובת IPv4 חוקית.'
-  ipv6: 'התכונה :חייבת להיות כתובת IPv6 חוקית.'
-  json: 'התכונה :חייבת להיות מחרוזת JSON חוקית.'
-  lt:
-    numeric: 'התכונה :: חייבת להיות קטנה מ- :value.'
-    file: 'התכונה :: חייבת להיות קטנה מ- :value קילו-בתים.'
-    string: 'התכונה :חייבת להיות קטנה מתווי :value.'
-    array: 'התכונה :: חייבת לכלול פחות מ- :value items.'
-  lte:
-    numeric: 'התכונה :: חייבת להיות קטנה או שווה :value.'
-    file: 'התכונה :: חייבת להיות קטנה או שווה לקילו-בתים :value.'
-    string: 'התכונה :חייבת להיות קטנה או שווה לתווי :value.'
-    array: 'התכונה :: אינה יכולה לכלול יותר מפריטי :value.'
-  max:
-    numeric: 'התכונה :: אינה יכולה להיות גדולה מ- :max.'
-    file: 'התכונה :: אינה יכולה להיות גדולה מ- :מקסימום קילו-בתים.'
-    string: 'התכונה :: אינה יכולה להיות גדולה מתווי :max.'
-    array: 'התכונה :: אינה יכולה לכלול יותר מ- :max פריטים.'
-  mimes: 'התכונה :: חייבת להיות קובץ מסוג: :values.'
-  mimetypes: 'התכונה :: חייבת להיות קובץ מסוג: :values.'
-  min:
-    numeric: 'התכונה :: חייבת להיות לפחות :min.'
-    file: 'התכונה :: חייבת להיות לפחות :מינימום קילו-בתים.'
-    string: 'התכונה :: חייבת להיות לפחות :תווים זעירים.'
-    array: 'התכונה :: חייבת לכלול לפחות :min פריטים.'
-  multiple_of: 'התכונה :חייבת להיות כפולה של :value.'
-  not_in: 'התכונה :selected אינה חוקית.'
-  not_regex: 'תבנית :attribute אינה חוקית.'
-  numeric: 'התכונה :חייבת להיות מספר.'
-  password: 'הסיסמה שגויה.'
-  present: 'השדה :attribute חייב להיות קיים.'
-  regex: 'תבנית :attribute אינה חוקית.'
-  required: 'שדה :attribute נדרש.'
-  required_if: 'השדה :attribute נדרש כאשר :other הוא :value.'
-  required_unless: 'השדה :attribute נדרש אלא אם :other נמצא ב- :values.'
-  required_with: 'השדה :attribute נדרש כאשר :values קיים.'
-  required_with_all: 'השדה :attribute נדרש כאשר קיימים :values.'
-  required_without: 'השדה :attribute נדרש כאשר :values אינו קיים.'
-  required_without_all: 'השדה :attribute נדרש כאשר אף אחד מ- :values אינו קיים.'
-  prohibited: 'השדה :attribute אסור.'
-  prohibited_if: 'השדה :attribute אסור כאשר :other הוא :value.'
-  prohibited_unless: 'השדה :attribute אסור אלא אם :other נמצא ב- :values.'
-  same: ':תכונה ו- :other חייבים להתאים.'
-  size:
-    numeric: 'התכונה :חייבת להיות :size.'
-    file: 'התכונה :: חייבת להיות : גודל קילו-בתים.'
-    string: 'התכונה :חייבת להיות תווי :size.'
-    array: 'התכונה :: חייבת להכיל פריטי :גודל.'
-  starts_with: 'התכונה :: חייבת להתחיל באחת מהאפשרויות הבאות: :values.'
-  string: 'התכונה :חייבת להיות מחרוזת.'
-  timezone: 'התכונה :: חייבת להיות אזור חוקי.'
-  unique: 'התכונה :: כבר נלקחה.'
-  uploaded: 'העלאת התכונה :: נכשלה.'
-  url: 'תבנית :attribute אינה חוקית.'
-  uuid: 'התכונה :חייבת להיות UUID חוקי.'
-  attributes:
-    username: 'שם משתמש'
-    password: סיסמה
-    email: 'דואר אלקטרוני'
-    title: כותר
-    content: תוכן
-    name_singular: 'שם יחיד'
-    name_plural: 'שם עממי'
-    tag_count_primary: 'מספר התגים הראשיים'
-    tag_count_secondary: 'מספר תגים משניים'
-  recaptcha: 'אימות reCAPTCHA נכשל.'
-  recaptcha-unknown: 'אירעה שגיאה לא ידועה בעת אימות reCAPTCHA ({errors}).'
 flarum-tags:
   forum:
     all_tags:
       meta_description_text: 'כל התגיות'
       meta_title_text: תגיות
     choose_tags:
-      edit_title: 'עריכת תגיות עבור {title}'
       title: 'בחר תגיות עבור הדיון שלך'
     discussion_controls:
       edit_tags_button: 'עריכת תגים'
@@ -520,48 +348,27 @@ flarum-tags:
       more_link: עוד...
       untagged_link: מתויגות
       tags_link: תגיות
-    post_stream:
-      added_and_removed_tags_text: '{username} הוסיף את {tagsAdded} והסיר את {tagsRemoved} {time}.'
-      added_tags_text: '{username} הוסיף את {tagsAdded} {time}.'
-      removed_tags_text: '{username} הסיר את {tagsRemoved} {time}.'
-      tags_text: '{ספירה, רבים, תג {{tags} אחד} תג {{tags} אחר}}'
-    tag:
-      meta_description_text: 'כל הדיונים עם התגית {tag}'
     composer_discussion:
       choose_tags_link: 'בחר תגיות'
   lib:
     deleted_tag_text: שנמחקו
     tag_selection_modal:
       bypass_requirements: 'עקיפת דרישות תג'
-      choose_primary_placeholder: '{ספירה, רבים, אחד {בחר תג ראשי} אחר {בחר # תגים ראשיים}}'
-      choose_secondary_placeholder: '{לספור, ברבים, אחד {בחר תג אחד נוסף} אחר {בחר # תגים נוספים}}'
-      choose_tags_placeholder: '{לספור, ברבים, אחד {בחר תג אחד נוסף} אחר {בחר # תגים נוספים}}'
       submit_button: אוקיי
       title: 'בחר תגיות'
   ref:
     choose_tags: 'בחר תגיות'
-    choose_tags_placeholder: '{לספור, ברבים, אחד {בחר תג אחד נוסף} אחר {בחר # תגים נוספים}}'
     name: שם
     tags: תגיות
 flarum-mentions:
   forum:
     composer:
       mention_tooltip: 'אזכור משתמש, קבוצה או פוסט'
-      reply_to_post_text: 'השב ל#{number}'
     mentioned_by:
       title: 'תגובות לפוסט זה'
       load_more_button: 'טען עוד'
-    notifications:
-      post_mentioned_text: '{שם משתמש} הגיב לפוסט שלך'
-      user_mentioned_text: '{שם משתמש} הזכיר אותך'
-      group_mentioned_text: '{username} הזכיר קבוצה שאתה חבר בה'
-      others_text: '{לספור, ברבים, אחד {# השני} אחר {# אחרים}}'
     post:
-      mentioned_by_more_text: '{ספיר} תגובות נוספות.'
-      mentioned_by_self_text: '{משתמשים} השיב על כך.'
-      mentioned_by_text: '{משתמשים} השיב על כך.'
       quote_button: 'הצעת מחיר'
-      others_text: '{לספור, ברבים, אחד {# השני} אחר {# אחרים}}'
       reply_link: ענה
       you_text: אתה
     settings:
@@ -570,28 +377,12 @@ flarum-mentions:
       notify_group_mentioned_label: 'מישהו מזכיר קבוצה שאני חבר בה בפוסט'
     user:
       mentions_link: מזכיר
-    post_mention:
-      deleted_text: '[לא ידוע]'
-    group_mention:
-      deleted_text: '[קבוצה לא ידועה]'
-  email:
-    post_mentioned:
-      subject: '{replier_display_name} השיב להודעה שלך ב- {title}'
-      body: "היי {recipient_display_name}!\n\n{replier_display_name} השיב להודעה שלך (#{post_number}) ב- {title}.\n\n{כתובת URL}\n\n---\n\n{תוכן}\n"
-    user_mentioned:
-      subject: '{mentioner_display_name} הזכיר אותך ב{כותרת}'
-      body: "היי {recipient_display_name}!\n\n{mentioner_display_name} הזכירו אותך בפוסט ב{כותרת}.\n\n{כתובת URL}\n\n---\n\n{תוכן}\n"
-    group_mentioned:
-      subject: '{mentioner_display_name} הזכרת קבוצה שאתה חבר בה ב- {title}'
-      body: "היי {recipient_display_name}!\n\n{mentioner_display_name} הזכיר קבוצה שאתה חבר בה ב- {title}.\n\n{כתובת URL}\n\n---\n\n{תוכן}\n"
 flarum-subscriptions:
   forum:
     discussion_controls:
       unfollow_button: 'בטל מעקב'
       unignore_button: 'לא אדוני'
       follow_button: בצע
-    notifications:
-      new_post_text: '{שם משתמש} פורסם'
     settings:
       follow_after_reply_label: 'מעקב אוטומטי אחר דיונים שאני משיב להם'
       notify_for_all_posts_label: 'הודע על כל הודעה חדשה במקום רק על האחרונה בדיון'
@@ -613,10 +404,6 @@ flarum-subscriptions:
       meta_title_text: הבאה
     index:
       following_link: הבאה
-  email:
-    new_post:
-      subject: '[פוסט חדש] {כותרת}'
-      body: "היי {recipient_display_name}!\n\n{poster_display_name} פרסם הודעה בדיון שאתה עוקב אחריו: {title}.\n\nכדי להציג את הפעילות החדשה, עיין בקישור הבא:\n{כתובת URL}\n\n---\n\n{תוכן}\n\n---\n\nלא תקבל התראות נוספות על דיון זה עד שתהיה מעודכן.\n"
   ref:
     follow: בצע
     following: הבאה
@@ -625,7 +412,6 @@ flarum-flags:
   forum:
     flag_post:
       confirmation_message: 'תודה שסימנת את הפוסט הזה. המנהלים שלנו יבדקו את זה.'
-      reason_details_placeholder: 'פרטים נוספים (אופציונלי)'
       reason_inappropriate_label: הולם
       reason_inappropriate_text: 'פוסט זה פוגעני, פוגעני או מפר את <a>הנחיות הקהילה</a> שלנו.'
       reason_missing_message: 'אנא ספקו כמה פרטים עבור המנחים שלנו.'
@@ -639,13 +425,10 @@ flarum-flags:
       title: 'פוסט דגל'
     flagged_posts:
       empty_text: 'בלי דגלים'
-      item_text: '{username} ב<em>- {discussion}</em>'
       title: 'פוסטים המסומנים בדגל'
       tooltip: 'פוסטים המסומנים בדגל'
     post:
       dismiss_flag_button: 'ביטול דגל'
-      flagged_by_text: 'מסומן בדגל על-ידי {username}'
-      flagged_by_with_reason_text: 'מסומן בדגל על-ידי {username} כ- {reason}'
     post_controls:
       flag_button: דגל
   ref:
@@ -654,13 +437,11 @@ flarum-flags:
 flarum-suspend:
   forum:
     notifications:
-      user_suspended_text: 'הושעית למשך {timeReadable}'
       user_suspended_indefinite_text: 'הושעיתם ללא הגבלת זמן'
       user_unsuspended_text: 'לא הושעיתם'
     suspension_info:
       dismiss_button: בטל
       indefinite: 'מדובר בהשעיה ללא הגבלת זמן'
-      limited: 'השעיה זו תהיה בתוקף עד {תאריך}'
       title: 'חשבון זה מושעה'
     suspend_user:
       display_message: 'הודעת תצוגה למשתמש'
@@ -671,7 +452,6 @@ flarum-suspend:
       placeholder_optional: אופציונלי
       reason: 'סיבת ההשעיה'
       status_heading: 'סטטוס השעיה'
-      title: 'השעיה {username}'
       submit_button: 'שמירת שינויים'
     user_badge:
       suspended_tooltip: מושעה
@@ -681,10 +461,8 @@ flarum-suspend:
     no_reason_given: 'לא נמסרה סיבה להשעיה זו.'
     suspended:
       subject: 'החשבון שלך הושעה'
-      body: "היי {recipient_display_name},\n\nהושעיתם מהסיבה הבאה:\n\n---\n{suspension_message}\n---\n"
     unsuspended:
       subject: 'החשבון שלך לא הושעה'
-      body: "היי {recipient_display_name},\n\nלא הושעת. אתה יכול לחזור לפורום על ידי לחיצה על הקישור הבא:\n\n{forum_url}\n"
 blomstra-gdpr:
   lib:
     data:
@@ -707,8 +485,6 @@ fof-upload:
       error: שגיאה
       loading: העלאת
       unauthorized: 'אינך רשאי להוריד קבצים'
-    validation:
-      max_size: 'העלאות מעל {max} kb לא יתקבלו.'
     text_preview:
       expand: 'הרחבת התצוגה המקדימה'
       collapse: 'כווץ תצוגה מקדימה'
@@ -718,7 +494,6 @@ fof-upload:
   api:
     upload_errors:
       forbidden_type: 'העלאת קבצים מסוג זה אסורה.'
-      unsupported_type: 'מתאם ההעלאה אינו תומך בסוג הפנטומימה שסופק: {mime}.'
       could_not_detect_mime: 'לא היתה אפשרות לזהות את סוג MIME של קובץ זה, נסה שוב.'
       max_upload_file_size_ini: 'העלה מגבלת גודל קובץ מקסימלית שהושגה מ- php.ini.'
       max_upload_file_size_form: 'העלה מגבלת גודל קובץ מקסימלית שהושגה מהטופס.'
@@ -727,7 +502,6 @@ fof-upload:
       no_upload_tmp_folder: 'אין תיקיית tmp להעלאת קבצים.'
       cannot_write_to_disk: 'אין אפשרות לכתוב לדיסק.'
       upload_blocked_by_php_extension: 'תוסף PHP חסם את ההעלאה.'
-      no_files_made_it_to_upload: 'אנא העלה קבצים שגודלם אינו עולה על {max} kb.'
   lib:
     upload-shared-file-modal:
       title: 'קובץ משותף חדש'
@@ -740,13 +514,9 @@ fof-upload:
       release_to_upload: 'הפצה להעלאה'
       modal_empty_desktop: 'רשימת הקבצים שלך ריקה. לחץ על הלחצן או גרור קובץ לכאן כדי להעלות.'
       modal_empty_phone: 'רשימת הקבצים שלך ריקה. הקש על הלחצן למעלה כדי להעלות קובץ.'
-      select_file_a11y_label: 'בחר קובץ "{fileName}"'
-      confirm_selection_btn: '{fileCount, ברבים, =0 {לא נבחר} אחד {בחר קובץ} אחר {בחר קבצים}}'
       load_more_files_btn: 'טעינת קבצים נוספים'
-      delete_file_a11y_label: 'מחק את הקובץ "{fileName}"'
-      delete_confirmation: 'האם אתה בטוח שברצונך למחוק את "{fileName}"?'
-      hide_file: { btn_a11y_label_hide: 'הסתר את "{fileName}" ממנהל המדיה', btn_a11y_label_show: 'הצג את "{fileName}" במנהל המדיה', hide_confirmation: 'האם אתה בטוח שברצונך להסתיר את "{fileName}"? הסתרת קובץ תסיר אותו רק ממנהל המדיה ולא תשפיע על פוסטים קיימים.', hide_success: 'קובץ מוסתר', show_confirmation: 'האם אתה בטוח שברצונך להציג את "{fileName}"? הצגת קובץ תהפוך אותו לגלוי במנהל המדיה שלך.', show_success: 'הקובץ מוצג', hide_fail: 'לא היתה אפשרות להסתיר את הקובץ "{fileName}"', show_fail: 'לא היתה אפשרות להציג את הקובץ "{fileName}"', loading: 'הסתרת קובץ...' }
-      hide_shared_file: { btn_a11y_label_hide: 'הפיכת "{fileName}" לפרטי (ללא כתובת URL ציבורית)', btn_a11y_label_show: 'הפיכת "{fileName}" לציבורי (עם כתובת URL ציבורית)', hide_confirmation: 'האם אתה בטוח שברצונך להפוך את "{fileName}" לפרטי? הפיכת קובץ לפרטי תסיר את כתובת ה- URL הציבורית שלו, אך היא לא תשפיע על פרסומים קיימים. הוא גם לא יהיה גלוי עוד במנהל המדיה למשתמשים לא מורשים.', hide_success: 'הקובץ הפך לפרטי', show_confirmation: 'האם אתה בטוח שברצונך להפוך את "{fileName}" לציבורי? הפיכת קובץ לציבורי תהפוך אותו לנגיש לכל מי שיש לו כתובת URL ציבורית וכל אחד יוכל לשתף אותו באמצעות מנהל המדיה.', show_success: 'הקובץ הפך לציבורי', hide_fail: 'לא היתה אפשרות להפוך את הקובץ "{fileName}" לפרטי', show_fail: 'לא היתה אפשרות להפוך את הקובץ "{fileName}" לציבורי', loading: 'הפיכת הקובץ לפרטי...' }
+      hide_file: { hide_success: 'קובץ מוסתר', show_success: 'הקובץ מוצג', loading: 'הסתרת קובץ...' }
+      hide_shared_file: { hide_success: 'הקובץ הפך לפרטי', show_success: 'הקובץ הפך לציבורי', loading: 'הפיכת הקובץ לפרטי...' }
 flarum-bbcode:
   forum:
     quote:
@@ -779,8 +549,6 @@ fof-follow-tags:
       following_tag_tooltip: הבאה
       lurking_tag_tooltip: אורב
     sub_controls:
-      header: 'מנוי עבור {tagName}'
-      subscription_label: 'בחר את רמת המנוי שלך עבור {tagName}'
       following_text: 'קבל הודעה על כל הדיונים החדשים.'
       hiding_text: 'הסתר דיונים מהדף ''כל הדיונים''.'
       ignoring_text: 'לעולם אל תקבל הודעה.'
@@ -795,21 +563,8 @@ fof-follow-tags:
       hiding_button: מסתיר
       ignoring_button: מתעלם
       lurking_button: אורב
-    notifications:
-      new_discussion_text: '{username} התחיל'
-      new_post_text: '{שם משתמש} פורסם'
-      new_discussion_tag_text: '{username} שינה את התגית'
     user:
       settings: { heading: 'עקוב אחר תגיות', filter_label: 'מה להציג כברירת מחדל בדף הבא' }
-  email:
-    subject:
-      newDiscussionInTag: '[תג | דיון חדש] {כותרת}'
-      newPostInTag: '[תג | פוסט חדש] {כותרת}'
-      newDiscussionTag: '[תג | תג השתנה] {title}'
-    body:
-      newDiscussionInTag: "היי {recipient_display_name},\n\n{actor_display_name} התחלת דיון בתגית שאתה עוקב אחריה: {discussion_title}\n\nכדי להציג את הדיון החדש, עיין בקישור הבא:\n{discussion_url}\n\n---\n\n{post_content}\n"
-      newPostInTag: "היי {recipient_display_name},\n\n{actor_display_name} פורסם בדיון על תגית שאתה עוקב אחריה: {discussion_title}\n\nכדי להציג את הפעילות החדשה, עיין בקישור הבא:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nלא תקבל הודעות נוספות על דיון זה עד שתהיה מעודכן.\n"
-      newDiscussionTag: "היי {recipient_display_name},\n\n{actor_display_name} פשוט שינתה את התגית בדיון על-ידי {author_display_name} לתגית שאתה עוקב אחריה {discussion_title}\n\nכדי להציג את הדיון החדש, עיין בקישור הבא:\n{discussion_url}\n"
   ref:
     follow: בצע
     following: הבאה
@@ -838,17 +593,8 @@ flarum-nicknames:
       nickname_placeholder: כינוי
 fof-oauth:
   forum:
-    log_in:
-      with_button: 'התחבר באמצעות {provider}'
-      with_discord_button: 'התחבר באמצעות {provider}'
-      with_facebook_button: 'התחבר באמצעות {provider}'
-      with_github_button: 'התחבר באמצעות {provider}'
-      with_gitlab_button: 'התחבר באמצעות {provider}'
-      with_google_button: 'התחבר באמצעות {provider}'
-      with_linkedin_button: 'התחבר באמצעות {provider}'
-      with_twitter_button: 'התחבר באמצעות {provider}'
     user:
-      settings: { linked-account: { label: 'חשבונות מקושרים', last-used-label: 'שימוש אחרון', link-created-label: 'הקישור נוצר', orphaned-account: 'נכנסת דרך ספק זה בעבר, אך פורום זה השבית את הכניסה באמצעות שיטה זו מאז.', help: 'חשבונות מקושרים אלה מאפשרים לך להיכנס לפורום באמצעות ספקים אחרים.', identifier-label: '{ספק} מזהה', unlink-confirm: 'האם אתה בטוח שברצונך להסיר את הקישור עם {provider}? לא תוכל עוד להיכנס לפורום זה אלא אם תבצע אימות מחדש בעתיד.' } }
+      settings: { linked-account: { label: 'חשבונות מקושרים', last-used-label: 'שימוש אחרון', link-created-label: 'הקישור נוצר', orphaned-account: 'נכנסת דרך ספק זה בעבר, אך פורום זה השבית את הכניסה באמצעות שיטה זו מאז.', help: 'חשבונות מקושרים אלה מאפשרים לך להיכנס לפורום באמצעות ספקים אחרים.' } }
     signup:
       username_help: 'אנא בחר שם משתמש שיכיר אותך כאן'
     unlink: 'הסר קישור'
@@ -882,10 +628,8 @@ fof-impersonate:
   forum:
     modal:
       title: 'התחבר כמשתמש אחר'
-      label: 'עם כוח גדול באה אחריות גדולה. על ידי המשך, תהפוך ל- {username} עד שתתנתק.'
       placeholder_optional: '(אופציונלי) ספק את הסיבה שלך למעבר למשתמש זה'
       placeholder_required: 'עליך לספק את הסיבה שלך למעבר למשתמש זה לפני שתמשיך'
-      impersonate_username: 'התחבר כ- {username}'
     user_controls:
       impersonate_button: 'התחבר כמשתמש'
 fof-byobu:
@@ -896,7 +640,6 @@ fof-byobu:
       add_recipients: נמענים
       submit: אוקיי
       edit_recipients: 'עריכת נמענים'
-      send_pd: 'שליחת הודעה {username}'
       cancel: ביטל
       make_public: 'הפוך דיון זה לציבורי'
       remove_from_discussion: 'עזבו את הדיון הפרטי הזה'
@@ -905,8 +648,6 @@ fof-byobu:
       title_placeholder: 'כותרת דיון פרטי'
     confirm:
       make_public: 'האם אתה בטוח שברצונך להסיר את הנמענים ולהפוך דיון זה לגלוי לכל מי שיכול להציג את התגית שהוקצתה?'
-    labels:
-      recipients: '{ספירה, רבים, אחד {{count} נמען} אחר {{count} נמענים}}'
     nav:
       start_button: 'דיון פרטי'
       nav_item: 'דיונים על Private'
@@ -915,11 +656,9 @@ fof-byobu:
     search:
       headings: { groups: 'קבוצות הרשאות' }
     modal:
-      titles: { update_recipients: 'עדכון נמענים של {title}', add_recipients: 'הוספת נמענים לדיון' }
+      titles: { add_recipients: 'הוספת נמענים לדיון' }
       labels: { selected_users: 'משתמשים נבחרים', search_field: 'חפש משתמש' }
       help: { add_recipients: 'דיון זה יהיה גלוי רק למשתמשים שתבחר כאן. נדרש לפחות נמען אחד (מלבדך).', update_recipients: 'דיון זה יהיה גלוי רק למשתמשים שתבחר כאן.', selected_users: 'לחץ על שם משתמש כדי להסיר אותו.', click_user_to_remove_tooltip: 'לחץ כדי להסיר' }
-    post:
-      recipients_modified: { added_and_removed: '{username} הוסיף נמענים {הוסיף} והסיר {הוסר}.', added: '{username} הוסיף נמענים {הוסיף}.', made_public: '{username} הסיר את כל הנמענים והפך את הדיון לציבורי', removed: '{username} הוסרו נמענים {הוסרו}.', removed_self: '{username} עזב את הדיון הפרטי.' }
     user:
       settings: { block_pd: 'חסימת דיונים פרטיים' }
       byobu_link: 'דיונים על Private'
@@ -927,23 +666,9 @@ fof-byobu:
     notifications:
       pd_label: 'מישהו כולל אותי בדיון פרטי חדש'
       pd_reply_label: 'מישהו מפרסם בדיון פרטי שאני נמען שלו'
-      pd_reply_text: '{username} פורסם בדיון פרטי שאתה חלק ממנו'
-      pd_text: '{username} התחיל איתך דיון פרטי חדש'
       pd_user_left_label: 'משתמש נמען עוזב דיון פרטי שאני חלק ממנו'
-      pd_user_left_text: '{username} עזב את הדיון הפרטי'
-      pd_added_text: '{username} הוסיף אותך לדיון פרטי'
       pd_added_label: 'מישהו מוסיף אותי לדיון פרטי קיים'
-  email:
-    subject:
-      private_discussion_created: '[דיון פרטי] {display_name} התחיל איתך דיון פרטי חדש'
-      private_discussion_replied: '[דיון פרטי] {display_name} פורסם בדיון פרטי'
-      recipient_removed: '[דיון פרטי] {display_name} עזב את הדיון'
-      private_discussion_added: '[דיון פרטי] {display_name} הוסיף אותך לדיון פרטי'
-    body:
-      private_discussion_created: "היי {recipient_display_name},\n\n{actor_display_name} התחיל איתך דיון פרטי חדש כנמען: {discussion_title}.\n\nצפו בו כאן:\n{discussion_url}\n\nייתכן שיהיה עליך להתחבר תחילה לפני שתוכל לגשת לקישור זה.\n"
-      private_discussion_replied: "היי {recipient_display_name},\n\n{actor_display_name} פורסם בדיון פרטי איתך כנמען: {discussion_title}.\n\nצפו בו כאן:\n{post_url}\n\nייתכן שיהיה עליך להתחבר תחילה לפני שתוכל לגשת לקישור זה.\n"
-      recipient_removed: "היי {recipient_display_name},\n\n{actor_display_name} עזב את הדיון הפרטי: {discussion_title}. הם לא יוכלו עוד לצפות בתוכן שלו.\n\nצפו בו כאן:\n{discussion_url}\n\nייתכן שיהיה עליך להתחבר תחילה לפני שתוכל לגשת לקישור זה.\n"
-      private_discussion_added: "היי {recipient_display_name},\n\n{actor_display_name} הוסיף אותך לדיון פרטי קיים: {discussion_title}.\n\nצפו בו כאן:\n{discussion_url}\n\nייתכן שיהיה עליך להתחבר תחילה לפני שתוכל לגשת לקישור זה.\n"
+  email: null
 v17development-flarum-badges:
   forum:
     badge_information: 'פרטי תג'
@@ -966,17 +691,11 @@ v17development-flarum-badges:
       no_earning_reason: 'לא נקבעו סיבות השתכרות'
       earned_on: 'תג שנצבר ב-'
       category: 'קטגוריית תג'
-      received_on: 'התקבל בתאריך {date}'
       badge_details: 'פרטי תג'
-      earned_count: '{ספירה, רבים, משתמש {<b>#</b> אחד הרוויח תג זה} <b>משתמשי {#</b> אחרים הרוויחו תג זה}}'
-      earned_by_count: '{לספור, ברבים, אחד {הרוויח על ידי <b># משתמש</b>} אחר {הרוויח על ידי <b># משתמשים</b>}}'
-      others_link: '+ {count} עוד'
     badges_in_card:
       title: 'תגים בכרטיס משתמש'
       manage_badges: 'ניהול תגים'
       description: 'באפשרותך לשנות את התגים הגלויים בכרטיס המשתמש שלך באמצעות אחד התגים האחרים שלך. אם לא תבחר אף אחד מהם, הם ייבחרו באופן אוטומטי.'
-      select_limit: 'באפשרותך לבחור {הגבלה, רבים, {<b>תג אחד</b>} אחר {<b># תגים</b>}} כדי להיות גלויים בכרטיס המשתמש שלך.'
-      hit_limit: 'יש מקום רק עבור <b> {הגבלה, רבים, {<b>תג אחד</b>} אחר {<b># תגים</b>}}</b> בכרטיס שלך. בטל את הבחירה בתג כדי לפנות מקום לתג זה.'
     moderation:
       remove_badge: 'הסרת תג מהמשתמש'
       remove_badge_confirm: 'האם אתה בטוח שברצונך להסיר תג זה ממשתמש זה?'
@@ -985,14 +704,10 @@ v17development-flarum-badges:
       title: 'קיבלת תג חדש'
       settings: 'קיבלתי תג'
     uncategorized: 'ללא קטגוריה'
-v17development-flarum-seo:
-  forum:
-    profile_title: 'פרופיל של {username}'
-    profile_description: 'פרופיל של {username} | דיונים על {discussion_count} | {comment_count} פוסטים'
+v17development-flarum-seo: null
 the-turk-miserable-users:
   forum:
     miserable_user:
-      title: 'עלוב {שם משתמש}'
       status_heading: 'מעמד אומלל'
       not_miserable_label: 'לא אומלל'
       indefinitely_label: 'אומלל עד אין קץ'
@@ -1009,7 +724,6 @@ sycho-profile-cover:
   forum:
     cover: כריכה
     edit_cover: 'עריכת שער'
-    notice: 'גודל מקסימלי: {size}'
     added:
       success: 'תמונת הפרופיל עודכנה.'
       error: 'לא היתה אפשרות להעלות תמונה.'
@@ -1018,10 +732,7 @@ sycho-profile-cover:
       error: 'לא ניתן להסיר את הכיסוי, נסה שוב מאוחר יותר.'
 sycho-photoswipe: null
 nearata-tags-color-generator: null
-nearata-prevent-double-posting:
-  forum:
-    exception:
-      too_many_replies: 'לא יותר מ- {count} תשובות רצופות מותרות. ערוך את תשובתך הקודמת במקום זאת, או המתן עד שמישהו ישיב לך.'
+nearata-prevent-double-posting: null
 nearata-copy-code-to-clipboard:
   forum:
     copy: 'העתק ללוח'
@@ -1030,7 +741,6 @@ michaelbelgium-flarum-profile-views:
   forum:
     user:
       viewlist: { title: 'מבקרים אחרונים', guest: אורח }
-      view_count_text: '{viewcount, רבים, אחד {view {viewcount} time} אחר {view {viewcount} פעמים}}'
 justoverclock-country-flags:
   forum:
     inputCountryCode: 'קוד מדינה'
@@ -1058,13 +768,10 @@ ianm-syndication:
     autodiscovery:
       forum_activity: 'פעילות הפורום'
       forum_new_discussions: 'הדיונים החדשים של הפורום'
-      tag_activity: 'פעילות עבור התג {tag}'
-      tag_new_discussions: 'דיונים בתגית {tag}'
       discussion_last_posts: 'דיון זה'
       user_last_posts: 'פוסטים ותגובות מאת משתמש זה'
     feeds:
-      entries: { user_posts: { title_reply: 'הנדון: {דיון}' } }
-      titles: { main_title: '{forum_name}', main_subtitle: 'הודעות אחרונות בפורום', main_d_title: 'דיונים חדשים ב- {forum_name}', main_d_subtitle: 'הדיונים החדשים בפורום', tag_title: 'פעילות בתג {tag}', tag_subtitle: 'פוסטים אחרונים בתגית {תג}', tag_d_title: 'דיונים חדשים בתגית {tag}', tag_d_subtitle: 'הדיונים החדשים ביותר בתגית {tag}', discussion_title: '{discussion_name}', discussion_subtitle: 'הודעות אחרונות בדיון זה', user_title: '{שם משתמש}', user_subtitle: 'הודעות ותגובות אחרונות של משתמש זה.' }
+      titles: { main_subtitle: 'הודעות אחרונות בפורום', main_d_subtitle: 'הדיונים החדשים בפורום', discussion_subtitle: 'הודעות אחרונות בדיון זה', user_subtitle: 'הודעות ותגובות אחרונות של משתמש זה.' }
     discussion:
       feed_link: הזנה
 ianm-log-viewer: null
@@ -1072,7 +779,6 @@ ianm-html-head: null
 ianm-follow-users:
   forum:
     followed: 'עקבו אחריו'
-    followers: '{לספור, ברבים, אחד {עוקב} אחר {עוקבים}}'
     profile_page:
       no_following: 'נראה שאתה לא עוקב אחרי אף אחד.'
     settings:
@@ -1081,17 +787,12 @@ ianm-follow-users:
       notify_new_discussion_label: 'מישהו שאני עוקב אחריו מתחיל דיון'
       notify_new_post_label: 'מישהו שאני עוקב אחריו מפרסם פוסטים בדיון קיים'
       block_follow: 'מנע ממשתמשים לעקוב אחריי'
-    notifications:
-      new_discussion_text: '{username} התחיל'
-      new_post_text: '{שם משתמש} פורסם בדיון'
-      new_follower_text: '{username} עקבו אחריך'
-      new_unfollower_text: '{username} הפסיק לעקוב אחריך'
     badge:
       label: { follow: 'בעקבות הדיונים', lurk: 'עוקב הכל' }
     filter:
       following: 'משתמשים במעקב'
     modals:
-      select_follow_level: { title: 'בחר רמת מעקב עבור {username}', description: 'בחר כיצד ברצונך לעקוב אחר <em>{username}</em>.', follow_levels_heading: 'עקוב אחר רמות', follow_select_label: 'עקוב אחר סוג', no_user_attr_provided_err: 'אוי אוי, משהו השתבש כשפתחתי את המודאל הזה.', no_user_attr_provided_err_debug: 'אף תכונה ''משתמש'' לא הועברה למודאל SelectFollowUserLevel בעת יצירתה. לא ניתן לעבד מודאלי.', save_btn: שמר, cancel_btn: ביטל }
+      select_follow_level: { follow_levels_heading: 'עקוב אחר רמות', follow_select_label: 'עקוב אחר סוג', no_user_attr_provided_err: 'אוי אוי, משהו השתבש כשפתחתי את המודאל הזה.', no_user_attr_provided_err_debug: 'אף תכונה ''משתמש'' לא הועברה למודאל SelectFollowUserLevel בעת יצירתה. לא ניתן לעבד מודאלי.', save_btn: שמר, cancel_btn: ביטל }
     profile_link: 'משתמשים במעקב'
     user_controls:
       follow_button: בצע
@@ -1101,37 +802,28 @@ ianm-follow-users:
       follow_tag_button: בצע
       unfollow_tag_button: 'שינוי סוג מעקב'
   email:
-    new_discussion_by_user_subject: '[עקוב אחר המשתמש] {כותרת}'
     new_follower_subject: '[עקוב אחר המשתמש] יש לך עוקב חדש!'
-    new_post_subject: '[עקוב אחר המשתמש] פוסט חדש ב- {title}'
-    new_discussion_by_user_body: "היי {recipient_display_name},\n\n{user_display_name} התחיל דיון חדש: {discussion_title}\n\nכדי להציג את הדיון החדש, עיין בקישור הבא:\n\n{discussion_url}\n\n---\n\n{post_content}\n"
-    new_follower_body: "היי {recipient_display_name},\n\n{follower_display_name} התחילו לעקוב אחריך, כך שהם יקבלו הודעה כשתתחיל דיון חדש.\n\nכדי להציג את הפרופיל שלהם, עיין בקישור הבא:\n\n{profile_url}\n"
-    new_post_body: "היי {recipient_display_name},\n\n{user_display_name} פורסם בדיון: {discussion_title}\n\nכדי להציג את הפעילות החדשה, עיין בקישור הבא:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nלא תקבל התראות נוספות על דיון זה עד שתהיה מעודכן.\n"
   lib:
     following_link: 'משתמשים במעקב'
     follow: בצע
     change_follow_type: 'שינוי סוג מעקב'
     unfollow: 'בטל מעקב'
     follow_levels:
-      unfollow: { name: 'אל תעקוב', description: "אל תקבל התראות על הפעילות של <em>{username}</em>.\n" }
-      follow: { name: 'מעקב אחר דיונים', description: "קבל התראות כאשר <em>{username}</em> מתחיל דיון חדש.\n" }
-      lurk: { name: 'עקוב אחר הכל', description: "קבל התראות כאשר <em>{username}</em> מתחיל דיון חדש או מפרסם פוסטים בתוך דיון כלשהו.\n" }
+      unfollow: { name: 'אל תעקוב' }
+      follow: { name: 'מעקב אחר דיונים' }
+      lurk: { name: 'עקוב אחר הכל' }
 fof-username-request:
   forum:
     nickname_modals:
-      action: { help_text: 'אנא ודא כי שינוי כינוי מבוקש זה תואם את הנחיות הפורום.', decision_title: ההחלטה, approval_label: לאשר, rejected_label: דחה, submit_button: שלח, reason_title: 'סיבת הדחייה', success: 'ההחלטה נשלחה.', name: '{name} ביקש לשנות את כינויו ל- "{requestedName}"', title: 'כינוי: Change Request' }
-      results: { title: 'כינוי: Change Request', approved: 'בקשתך לשינוי כינוי אושרה', new_name: 'הכינוי שלך שונה בהצלחה ל: {name}', rejected: 'בקשתך לשינוי כינוי נדחתה', reason: 'סיבת הדחייה: <i>"{סיבה}".</i>', resubmit: 'בשלב זה, תוכל לשלוח מחדש בקשה חדשה לשינוי כינוי מהגדרות החשבון שלך, אם תבחר בכך.', dismiss_button: אוקיי }
-      request: { title: 'בקש שינוי כינוי', current_request: 'כבר ביקשת לשנות את הכינוי שלך ל- "{name}". באפשרותך לעדכן את בקשתך או למחוק אותה.', submit_button: 'שלח בקשה', delete_button: 'בקשת מחיקה', confirmation_message: 'הבקשה שלך לשינוי כינוי הוגשה וממתינה לאישור.', deleted: 'בקשת הכינוי נמחקה.', dismiss_button: אוקיי }
+      action: { help_text: 'אנא ודא כי שינוי כינוי מבוקש זה תואם את הנחיות הפורום.', decision_title: ההחלטה, approval_label: לאשר, rejected_label: דחה, submit_button: שלח, reason_title: 'סיבת הדחייה', success: 'ההחלטה נשלחה.', title: 'כינוי: Change Request' }
+      results: { title: 'כינוי: Change Request', approved: 'בקשתך לשינוי כינוי אושרה', rejected: 'בקשתך לשינוי כינוי נדחתה', resubmit: 'בשלב זה, תוכל לשלוח מחדש בקשה חדשה לשינוי כינוי מהגדרות החשבון שלך, אם תבחר בכך.', dismiss_button: אוקיי }
+      request: { title: 'בקש שינוי כינוי', submit_button: 'שלח בקשה', delete_button: 'בקשת מחיקה', confirmation_message: 'הבקשה שלך לשינוי כינוי הוגשה וממתינה לאישור.', deleted: 'בקשת הכינוי נמחקה.', dismiss_button: אוקיי }
     username_modals:
-      action: { help_text: 'אנא ודא ששינוי שם המשתמש המבוקש תואם להנחיות הפורום.', decision_title: ההחלטה, approval_label: לאשר, rejected_label: דחה, submit_button: שלח, reason_title: 'סיבת הדחייה', success: 'ההחלטה נשלחה.', name: '{name} ביקש לשנות את שם המשתמש שלו ל- "{requestedName}"', title: 'בקשה לשינוי שם משתמש' }
-      results: { title: 'בקשה לשינוי שם משתמש', approved: 'בקשתך לשינוי שם המשתמש אושרה', new_name: 'שם המשתמש שלך השתנה בהצלחה ל: {name}', rejected: 'בקשתך לשינוי שם המשתמש נדחתה', reason: 'סיבת הדחייה: <i>"{סיבה}".</i>', resubmit: 'בשלב זה, תוכל לשלוח מחדש בקשה חדשה לשינוי שם משתמש מהגדרות החשבון שלך, אם תבחר בכך.', dismiss_button: אוקיי }
-      request: { title: 'בקש שינוי שם משתמש', current_request: 'כבר ביקשת לשנות את שם המשתמש שלך ל- "{name}". באפשרותך לעדכן את בקשתך או למחוק אותה.', submit_button: 'שלח בקשה', delete_button: 'בקשת מחיקה', confirmation_message: 'הבקשה שלך לשינוי שם המשתמש נשלחה וממתינה לאישור.', deleted: 'בקשת שם המשתמש נמחקה.', dismiss_button: אוקיי }
+      action: { help_text: 'אנא ודא ששינוי שם המשתמש המבוקש תואם להנחיות הפורום.', decision_title: ההחלטה, approval_label: לאשר, rejected_label: דחה, submit_button: שלח, reason_title: 'סיבת הדחייה', success: 'ההחלטה נשלחה.', title: 'בקשה לשינוי שם משתמש' }
+      results: { title: 'בקשה לשינוי שם משתמש', approved: 'בקשתך לשינוי שם המשתמש אושרה', rejected: 'בקשתך לשינוי שם המשתמש נדחתה', resubmit: 'בשלב זה, תוכל לשלוח מחדש בקשה חדשה לשינוי שם משתמש מהגדרות החשבון שלך, אם תבחר בכך.', dismiss_button: אוקיי }
+      request: { title: 'בקש שינוי שם משתמש', submit_button: 'שלח בקשה', delete_button: 'בקשת מחיקה', confirmation_message: 'הבקשה שלך לשינוי שם המשתמש נשלחה וממתינה לאישור.', deleted: 'בקשת שם המשתמש נמחקה.', dismiss_button: אוקיי }
     pending_requests:
       empty_text: 'לא נמצאו בקשות לשינוי שם.'
-      nickname_item_text: '{שם} ביקש שינוי כינוי'
-      nickname_exerpt: 'כינוי מבוקש: {requestedName}'
-      username_item_text: '{name} ביקש שינוי שם משתמש'
-      username_exerpt: 'שם המשתמש המבוקש: {requestedName}'
       tooltip: 'בקשות לשינוי שם'
       title: 'בקשות לשינוי שם'
     settings:
@@ -1149,15 +841,9 @@ fof-username-request:
   email:
     body:
       noReasonProvided: 'לא נמסרה סיבה.'
-      approved: "שלום {recipient_display_name},\n\nבקשתך לשנות את שם המשתמש שלך ל- \"{new_username}\" אושרה על-ידי {actor_display_name}.\n\nכעת תוכל להתחבר עם שם המשתמש החדש שלך: {login_url}\n"
-      rejected: "שלום {recipient_display_name},\n\nבקשתך לשנות את שם המשתמש שלך מ- \"{old_username}\" ל- \"{requested_username}\" נדחתה על-ידי {actor_display_name}.\n\nסיבה: {סיבה}\n"
-    subject:
-      approved: '{display_name} אישר את שינוי שם המשתמש שלך ל- {requested_username}'
-      rejected: '{display_name} דחתה את שינוי שם המשתמש שלך ל- {requested_username}'
 fof-user-bio:
   forum:
     userbioPlaceholder: 'כתוב משהו על עצמך'
-    userbioPlaceholderOtherUser: 'כתוב ביוגרפיה עבור {username}'
     profile:
       cancel_confirm: 'האם אתה בטוח שברצונך לבטל את עריכת הביוגרפיה שלך? תאבד את כל השינויים שביצעת.'
       cancel_button: ביטל
@@ -1165,9 +851,6 @@ fof-user-bio:
       edit_bio_label: 'עריכת ביוגרפיה'
 fof-split:
   forum:
-    post:
-      was_split_to: '{ספירה, רבים, פוסט {{ספירה} אחד פוצל ל- {יעד}.} פוסטים אחרים {{ספירה} פוצלו ל- {יעד}.}}'
-      was_split_from: '{ספירה, רבים, פוסט {{ספירה} אחד פוצל מ- {יעד}.} פוסטים אחרים {{ספירה} פוצלו מ- {יעד}.}}'
     split:
       from: 'התפצל מכאן'
       to: 'פיצול לכאן'
@@ -1221,13 +904,11 @@ fof-reactions:
   forum:
     disabled-reaction: 'אינך יכול להשתמש בתגובה זו כעת, אנא רענן את הדף'
     warning: 'תגובתך הומרה'
-    notification: '{username} הגיב עם {תגובה} לפוסט שלך'
     settings:
       notify_post_reacted_label: 'מישהו מגיב לאחד הפוסטים שלי'
     reacting-own-post: 'אינך יכול להגיב לפוסט שלך'
     modal:
       title: תגובות
-      anonymous_count: '{ספירה, רבים, {# משתמש אנונימי} אחר {# משתמשים אנונימיים}}'
       no_reactions: 'עדיין אין תגובות'
     mod_item: 'הצג תגובות'
     react_button_label: להגיב
@@ -1241,22 +922,19 @@ fof-profile-image-crop:
 fof-prevent-necrobumping:
   forum:
     composer:
-      warning: { title: 'הדיון הזה הוא בן יותר מ<b>{זמן}</b>.', description: 'סביר מאוד להניח שהוא אינו זקוק לדיון נוסף ולכן הקפצה עליו אינה משרתת שום מטרה.', checkbox_label: 'אני מודע לכך שהדיון הזה הוא די ישן אבל עדיין הייתי רוצה להשיב.', error: 'הדיון הזה ישן מכדי לענות עליו.' }
+      warning: { description: 'סביר מאוד להניח שהוא אינו זקוק לדיון נוסף ולכן הקפצה עליו אינה משרתת שום מטרה.', checkbox_label: 'אני מודע לכך שהדיון הזה הוא די ישן אבל עדיין הייתי רוצה להשיב.', error: 'הדיון הזה ישן מכדי לענות עליו.' }
 fof-pretty-mail: null
 fof-polls:
   forum:
-    days_remaining: 'הסקר מסתיים {זמן}.'
     no_permission: 'אין לך רשות להצביע'
     poll_ended: 'הסקר הזה הסתיים.'
     public_poll: 'הצגת מצביעים'
-    max_votes_allowed: 'סקר מאפשר הצבעה עבור {מקסימום, רבים, {# אפשרות} אחת {# אפשרויות}} אחרות.'
     composer_discussion:
       add_poll: 'הוסף סקר'
       edit_poll: 'עריכת סקר'
     modal:
       add_title: 'הוספת סקר'
       add_option_label: 'הוספת אפשרות'
-      date_placeholder: 'תאריך סיום תשאול (אופציונלי)'
       edit_title: 'עריכת סקר'
       include_question: 'עליך לכלול שאלה'
       max: 'אתה יכול לקבל מקסימום של 10 תשובות'
@@ -1277,7 +955,6 @@ fof-polls:
       edit: 'עריכת סקר'
     tooltip:
       badge: סקר
-      votes: '{לספור, ברבים, אחד {# להצביע} אחר {# הצבעות}}'
     votes_modal:
       title: הבוחרים
 fof-nightmode:
@@ -1297,11 +974,9 @@ fof-moderator-notes:
   forum:
     no_content_given: 'פתק ריק אינו מותר.'
     moderatorNotes:
-      created_text: '{username} יצר הערה זו ב- {date}'
       add_button: 'הערה חדשה'
       create-heading: 'יצירת הערת מנחה חדשה'
       dismiss_button: לעשות
-      input_heading: 'הזן את ההערות שלך עבור <strong>{username}</strong>, (markdown נתמך)'
       noNotes: 'נראה שאין כאן הערות.'
       submit_button: 'שמור הערה'
       delete: למחוק
@@ -1309,8 +984,6 @@ fof-moderator-notes:
     user:
       notes: 'הערות מנחה'
   api:
-    auto_note: '_I עבר למשתמש זה:_ {סיבה}'
-    auto_note_actor: '_Switched to_ @{username}: {reason}'
     no_reason_provided: 'לא נמסרה סיבה'
 fof-linguist: null
 fof-html-errors: null
@@ -1325,12 +998,8 @@ fof-gamification:
       name: משתמש
       amount: נקודות
     notification:
-      upvote: '{username} הצביע בעד הפוסט שלך'
-      downvote: '{username} הצביע בעד הפוסט שלך'
       prefrences: { vote: 'כאשר אחד הפוסטים שלי הוא למעלה/למטה, הצביעו' }
     user:
-      card: { points: '{ספירה, רבים, נקודה אחת { {ספירה}} אחרת {{ספירה} נקודות}}' }
-      rank: '{דרגה}'
       votes_link: קולות
     modal:
       downvotes_label: 'מצביעי מטה:'
@@ -1344,11 +1013,6 @@ fof-gamification:
     post:
       upvote_button: 'פוסט הצבעה בעד'
       downvote_button: 'פוסט הצבעה נגד'
-  email:
-    body:
-      postVoted: "היי {recipient_display_name},\n\n{actor_display_name} בדיוק הצבעת על הפוסט שלך ב{discussion_title}.\n\nהצג אותו כאן: {discussion_url}\n"
-    subject:
-      postVoted: 'הפוסט שלך נבחר על ידי {display_name}'
 fof-formatting: null
 fof-drafts:
   console:
@@ -1367,7 +1031,6 @@ fof-drafts:
       title: טיוטות
       delete_all_button: 'מחיקת כל הטיוטות'
       delete_button: 'מחיקת טיוטה'
-      scheduled_icon_tooltip: 'מתוזמן ל- {datetime}'
       scheduled_icon_tooltip_formatter: 'L [at] LT'
       alert: 'האם אתה בטוח שברצונך למחוק את הטיוטה?'
       delete_all_alert: 'האם אתה בטוח שברצונך למחוק את כל הטיוטות שלך?'
@@ -1375,13 +1038,10 @@ fof-drafts:
       tooltip: טיוטות
     schedule_draft_modal:
       text: 'תזמן את הטיוטה שלך לפרסום אוטומטי במועד מאוחר יותר!'
-      scheduled_text: 'כרגע מתוכנן לפרסם ב- {datetime}.'
-      scheduled_error: 'אין אפשרות לתזמן טיוטה: {error}.'
       unschedule_button: 'בטל לוח זמנים'
       unschedule_warning: 'האם אתה בטוח שברצונך לבטל את לוח הזמנים של טיוטה זו?'
       reschedule_button: 'תזמון מחדש'
       schedule_button: 'לוח זמנים'
-      schedule_time_preview: 'טיוטה זו תפורסם באופן אוטומטי ב- <b>{datetime}</b>.'
       schedule_time_preview_formatter: LLLL
       schedule_time_preview_invalid: 'תאריך ו/או שעה לא חוקיים'
       title: 'טיוטת לוח זמנים'
@@ -1393,13 +1053,10 @@ fof-best-answer:
     this_best_answer: 'בחר את התשובה הטובה ביותר'
     remove_best_answer: 'בטל את הבחירה באפשרות התשובה הטובה ביותר'
     best_answer_button: 'התשובה הטובה ביותר'
-    best_answer_label: 'מוגדר על-ידי <a>{username}</a> {time_set}'
     errors:
       mismatch: 'ההודעה שנבחרה אינה קיימת בדיון זה.'
     notification:
-      best_answer_in_discussion: '{username} הגדר את התשובה הטובה ביותר בדיון זה'
       content: 'בחר את התשובה הטובה ביותר אם שאלתך נענתה'
-      awarded: 'הפוסט שלך הוגדר כתשובה הטובה ביותר על-ידי {username}'
       preferences: { awarded_best_answer: 'מישהו מגדיר את הפוסט שלי כתשובה הטובה ביותר', best_answer_in_discussion: 'התשובה הטובה ביותר נקבעה בדיון שהשתתפתי בו', select_best_answer: 'תזכורת אוטומטית לבחירת התשובה הטובה ביותר בדיון שהתחלתי' }
     index:
       ask_question: 'שאל שאלה'
@@ -1413,22 +1070,13 @@ fof-best-answer:
       accessible_label: 'בחירה פתורה/לא פתורה'
     composer:
       titlePlaceholder: 'כותרת השאלה'
-    user:
-      best-answer-count: '{לספור, ברבים, אחד { {לספור} את התשובה הטובה ביותר} אחר {{לספור} את התשובות הטובות ביותר}}'
     search:
       discussions_solutions_heading: 'דיונים עם פתרונות'
-      all_discussions_solutions_button: 'חפש בכל הדיונים באמצעות פתרונות עבור "{query}"'
     discussion:
       jump_to_best_answer_button: 'התשובה הטובה ביותר'
   email:
     subject:
-      awarded: 'הפוסט שלך נקבע כתשובה הטובה ביותר על-ידי מצגת_name.'
-      ba-set: 'תשובה טובה נקבעה על ידי [_name]'
       select: 'הצלחת לענות על השאלה שלך?'
-    body:
-      awarded: "Hey [recipient_comi_name]\n\nעבודה גדולה, {actor_show_name} הגדרת הפוסט שלך כתשובה הטובה ביותר בדיון: {discussion_title} תודה שעזרת.\n\nשם הסרטון: [discussion_url]\n"
-      ba-set: "Hey [recipient_comi_name]\n\n[actor_ show_name] Just Set a Best answer in theדיון: {discussion_title}, אשר השתתפת.\n\nתגית: {discussion_url}\n"
-      select: "Hey [recipient_comi_name]\n\nרק לבדוק; עכשיו צריך הרבה תשובות לשאלה שלך:  {_title. אני מקווה שאחד מהם עזר לך לפתור את הבעיה שלך.\n\nאם כן, זה יהיה מועיל מאוד עבור חברים עתידיים אם אתה יכול להגדיר תשובה הטובה ביותר לשאלה שלך. זה יעזור לאנשים עם אותה בעיה למצוא את התשובה שהם צריכים, וזה גם תודה גדולה לחברים שעזרו לך. הם נותנים את הזמן שלהם בהתנדבות, אז נחמד לתת להם לדעת שהם עושים טוב.\n\nבקר בדיון כאן: {discussion_url} ובחר את הפוסט המתאים ביותר כתשובה הטובה ביותר.\n\nתודה!\n"
 fof-user-directory:
   lib:
     sort:
@@ -1437,8 +1085,6 @@ fof-user-directory:
 fof-ban-ips:
   forum:
     modal:
-      ban_options_only_ip: 'חסום רק IP נוכחי (<code>{ip}</code>)'
-      ban_options_all_ip: 'חסימת כל כתובות ה-IP המשמשות את <i>{username}</i>'
       ban_ip_no_users: 'אף אחד אחר לא יורחק'
     user_badge:
       banned_tooltip: מגורש
@@ -1455,13 +1101,8 @@ fof-ban-ips:
       check_button: חשבון
       save_button: שמר
       ban_ip_confirmation: 'האם אתה בטוח שברצונך לחסום כתובת IP זו משימוש בפורום? פעולה זו תחסום משתמשים עם כתובות IP אלה מלהתחבר ולהירשם.'
-      ban_ip_users: '{לספור, ברבים, {משתמש {משתמשים} אחד ייחסם} {משתמשים {משתמשים} אחרים ייחסמו}}'
       unban_ip_confirmation: 'האם אתה בטוח שאתה רוצה לבטל את החסימה של משתמש זה וכל המשתמשים האחרים שלא נאסרו על ידי כתובות IP אחרות?'
-      unban_options_only_ip: 'בטל חסימה של IP נוכחי (<code>{ip}</code> בלבד)'
-      unban_options_all_ip: 'בטל את החסימה של כל כתובות ה- IP המשמשות את <i>{username}</i>'
       unban_ip_no_users: 'אף אחד אחר לא יהיה מוחרם'
-      unban_ip_users: '{ספירה, ברבים, {User {users} אחד לא ייחסם} {Users {users} אחרים לא ייחסמו}}'
-      unbanned_ips: 'לא נאסר <code>{ips}</code>.'
       title: 'איסור כתובות IP'
       unban_title: 'ביטול חסימה של כתובות IP'
       address_label: 'כתובת IP'
@@ -1492,7 +1133,6 @@ fof-anti-spam:
       move_discussions_tag_label: 'העברת דיונים לתגית בהסגר'
       move_discussions_tag_help: 'פעולה זו תעביר את כל הדיונים שהתחיל משתמש זה לתגית שציינת בהגדרות הפורום. כאשר אפשרות זו אינה זמינה, דיונים יישארו בתגיות הנוכחיות שלהם.'
       process_button: תהליך
-      title: 'סמן את {username} כמפיץ דואר זבל'
       report_to_sfs_label: 'דווח ל- StopForumSpam'
       report_to_sfs_help: 'פעולה זו תדווח על הפרטים הבסיסיים של המשתמש (שם משתמש, דוא"ל, כתובת IP) ל- StopForumSpam. פעולה זו תסייע למנוע מהמשתמש להירשם בפורומים אחרים המשתמשים בשירות StopForumSpam.'
     user_controls:
@@ -1511,18 +1151,11 @@ flarum-sticky:
     discussion_controls:
       unsticky_button: 'לא דביק'
       sticky_button: דביק
-    post_stream:
-      discussion_stickied_text: '{שם משתמש} הדביק את הדיון {זמן}.'
-      discussion_unstickied_text: '{username} פתח את הדיון {זמן}.'
     badge:
       sticky_tooltip: דביק
   ref:
     sticky: דביק
 flarum-statistics: null
-flarum-pusher:
-  forum:
-    discussion_list:
-      show_updates_text: '{ספירה, ברבים, אחד {הצג # דיון מעודכן} אחר {הצג # דיונים מעודכנים}}'
 flarum-lock:
   forum:
     badge:
@@ -1530,24 +1163,13 @@ flarum-lock:
     discussion_controls:
       lock_button: נעל
       unlock_button: לפתוח
-    notifications:
-      discussion_locked_text: '{שם משתמש} נעול'
-    post_stream:
-      discussion_locked_text: '{username} נעל את הדיון {time}.'
-      discussion_unlocked_text: '{username} פתח את הדיון {time}.'
     settings:
       notify_discussion_locked_label: 'מישהו נועל דיון שהתחלתי'
 flarum-likes:
   forum:
-    notifications:
-      post_liked_text: '{שם משתמש} אהבת את הפוסט שלך'
-      others_text: '{לספור, ברבים, אחד {# השני} אחר {# אחרים}}'
     post:
       like_link: כמו
-      liked_by_self_text: '{משתמשים} ככה.'
-      liked_by_text: '{לספור, ברבים, אחד {{משתמשים} אוהב את זה} אחר {{משתמשים} כמו זה}}.'
       unlike_link: בניגוד
-      others_link: '{לספור, ברבים, אחד {# השני} אחר {# אחרים}}'
       you_text: אתה
     post_likes:
       title: 'משתמשים שאוהבים את זה'
@@ -1602,9 +1224,6 @@ dhtml-composer:
       character_counter: 'מונה תווים'
 datlechin-birthdays:
   forum:
-    user:
-      birthday_text: 'יום הולדת: {תאריך}'
-      age_text: 'גיל: {גיל}'
     change_dob:
       title: 'עריכת תאריך לידה'
       date_of_birth_text: 'תאריך לידה'
@@ -1617,16 +1236,12 @@ datlechin-birthdays:
       dob_heading: 'תאריך לידה'
     nav:
       nav_item: 'ימי הולדת של היום'
-    page:
-      discussion_count: '{לספור, ברבים, אחד {דיון: #} אחר {דיונים: #}}'
-      post_count: '{ספירה, ברבים, אחד {הודעה: #} אחר {הודעות: #}}'
     edit_user:
       dob_heading: 'תאריך לידה'
     sign_up:
       dob_placeholder: 'תאריך לידה'
   api:
     invalid_dob_message: 'תאריך לידה לא חוקי'
-    invalid_age_message: 'גילך חייב להיות לפחות {minAge} שנים.'
   ref:
     date_of_birth: 'תאריך לידה'
 clarkwinkelmann-post-permissions: null
@@ -1662,24 +1277,13 @@ askvortsov-rich-text:
       insert_image: { src_placeholder: קישור, title_placeholder: כותר }
       insert_link: { text_placeholder: טקסט, href_placeholder: 'כתובת URL', title_placeholder: 'כותרת (מראה בריחוף)', remove_button: להסיר }
       additional_items_tooltip: 'בקרות נוספות'
-      bold_tooltip: 'טקסט מודגש <{modifierKey}-b>'
-      code_tooltip: 'קוד מוטבע <{modifierKey}-''>'
       code_block_tooltip: 'הוספת גוש קוד'
-      header_tooltip: 'שנה לכותרת העליונה {level} <shift-{modifierKey}-{level}>'
       horizontal_rule_tooltip: 'הוספת כלל אופקי'
       image_tooltip: 'הוספת תמונה'
-      italic_tooltip: 'טקסט נטוי <{modifierKey}-i>'
       link_tooltip: 'הוספת קישור'
-      ordered_list_tooltip: 'רשימה ממוספרת <shift-{modifierKey}-9>'
-      paragraph_tooltip: 'שנה לפיסקה <shift-{modifierKey}-0>'
-      quote_tooltip: 'הוסף הצעת מחיר <{modifierKey}-q>'
       spoiler_block_tooltip: 'חסום ספוילר/רשימה נפתחת'
-      spoiler_inline_tooltip: 'ספוילר <{modifierKey}-;>'
       strike_tooltip: 'קו חוצה <alt-shift-5>'
-      sub_tooltip: 'כתב תחתי <{modifierKey}-,>'
-      sup_tooltip: 'כתב עילי <{modifierKey}-.>'
       text_type_tooltip: 'בחר סוג טקסט'
-      unordered_list_tooltip: 'רשימה עם תבליטים <shift-{modifierKey}-8>'
   forum:
     settings:
       composer_heading: מלחין
@@ -1694,7 +1298,6 @@ askvortsov-pwa:
       share_button: לשתף
     post_controls:
       share_button: לשתף
-      share_api: { title: 'התשובה של {username} ל- {title}''' }
     user_controls:
       share_button: לשתף
     settings:
@@ -1705,20 +1308,7 @@ askvortsov-pwa:
       header: 'שגיאת חיבור רשת'
       text: 'יישום זה דורש חיבור רשת; לא ניתן להשתמש בו במצב לא מקוון. בדוק את החיבור שלך.'
 askvortsov-moderator-warnings:
-  emails:
-    post_warned:
-      subject: '{warner_display_name} הזהיר אותך עם {שביתות, רבים, אחד {# שביתה} אחר {# שביתות}} ב {discussion_title}'
-      body: "היי {warnee_display_name}!\n\n{warner_display_name} הזהיר אותך עם {שביתות, רבים, אחד {# שביתה} אחר {# שביתות}} ב {discussion_title}\n\nהסיבה הבאה ניתנה:\n\n---\n\n{public_comment}\n"
-    user_warned:
-      subject: '{warner_display_name} הזהירו אותך עם {שביתות, רבים, אחד {# שביתה} אחר {# שביתות}}'
-      body: "היי {warnee_display_name}!\n\n{warner_display_name} הזהירו אותך עם {שביתות, רבים, אחד {# שביתה} אחר {# שביתות}}\n\nהסיבה הבאה ניתנה:\n\n---\n\n{public_comment}\n"
   forum:
-    notifications:
-      warning_text: '{שביתות, ברבים, אחת {הזהירו אותך ב# שביתה על ידי {mod_username}} אחרת {הזהירו אותך ב# שביתות על ידי {mod_username}}}'
-      warning_no_strikes_text: 'הוזהרת על-ידי {mod_username} (ללא שביתות)'
-    post:
-      warning: '{שביתות, ברבים, אחד {הזהיר עם # שביתה על ידי {mod_username}} אחר {הזהיר עם # שביתות על ידי {mod_username}}}'
-      warning_no_strikes: 'הוזהר ללא שביתות על ידי {mod_username}'
     post_controls:
       warning_button: 'הזהר משתמש'
     user:
@@ -1735,20 +1325,14 @@ askvortsov-moderator-warnings:
     warning_list:
       add_button: 'אזהרה חדשה'
       no_warnings: 'נראה שאין כאן אזהרות.'
-      warnings: '{שביתות, ברבים, אחת {אזהרות מנחה: # שביתה התקבלה} אחר {אזהרות מנחה: # שביתות התקבלו}}'
       warnings_no_strikes: 'אזהרות המנחה: לא התקבלו שביתות'
     warning_list_item:
-      list_item_heading: '{שביתות, ברבים, אחד {<strong>#</strong> שביתה, {זמן}} אחר {<strong>#</strong> שביתות, {זמן}}}'
-      list_item_heading_hidden: '{שביתות, ברבים, {<strong>#</strong> שביתה, {זמן} <strong>(הוסר)</strong>} אחר {<strong>#</strong> שביתות, {זמן} <strong>(הוסר)</strong>}}'
       public_comment: אזהרה
       private_comment: 'הערות גלויות למנחה'
       linked_post: 'פוסט מקושר'
     warning_modal:
       confirmation_message: 'האזהרה שלך נשמרה. ייתכן שיהיה עליך לרענן את הדף כדי לראות אותו.'
-      heading: 'הזהר <strong>{username}</strong>'
       strikes_heading: 'כמה שביתות יש להפעיל?'
-      public_comment_heading: 'מדוע <strong>{username}</strong> מקבל אזהרות אלה? הערות אלה יהיו גלויות למשתמש ולמנהלים אחרים.'
-      private_comment_heading: 'מדוע <strong>{username}</strong> מקבל אזהרות אלה? הערות אלה יהיו גלויות רק למנחים אחרים.'
       submit_button: 'שמור אזהרה'
 askvortsov-discussion-templates:
   forum:
