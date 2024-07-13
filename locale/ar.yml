@@ -1,262 +1,1759 @@
 core:
-    forum: { change_email: { incorrect_password_message: 'كلمة المرور التي أدخلتها غير صحيحة.', confirm_password_placeholder: 'تأكيد كلمة المرور', confirmation_message: 'لقد أرسلنا رسالة تأكيد بالبريد الإلكتروني إلى {email}. إذا لم يصل قريبا، فتحقق من مجلد الرسائل غير المرغوب فيها.', dismiss_button: موافق, submit_button: 'حفظ التغييرات', title: 'تغيير البريد الإلكتروني' }, change_password: { send_button: 'إرسال بريد إلكتروني لإعادة تعيين كلمة المرور', text: 'انقر فوق الزر أدناه وتحقق من بريدك الإلكتروني بحثا عن رابط لتغيير كلمة المرور الخاصة بك.', title: 'تغيير كلمة المرور' }, composer: { close_tooltip: غلق, exit_full_screen_tooltip: 'الخروج من وضع ملء الشاشة', full_screen_tooltip: 'ملء الشاشة', minimize_tooltip: تصغير, preview_tooltip: معاينه }, composer_discussion: { body_placeholder: 'اكتب منشورا...', discard_confirmation: 'أنت لم تنشر مناقشتك. هل ترغب في التخلص منه؟', submit_button: 'ما بعد المناقشة', title_placeholder: 'عنوان المناقشة', title: 'بدء مناقشة' }, composer_edit: { discard_confirmation: 'لم تقم بحفظ التغييرات الخاصة بك. هل ترغب في التخلص منها؟', edited_message: 'تم إجراء التعديل الخاص بك.', post_link: 'أضف #{number} في {مناقشة}', submit_button: 'حفظ التغييرات', view_button: منظر }, composer_reply: { discard_confirmation: 'لم تنشر ردك. هل ترغب في التخلص منه؟', posted_message: 'تم نشر ردك.', submit_button: 'آخر رد', body_placeholder: 'اكتب ردا...', view_button: منظر }, discussion_controls: { cannot_reply_button: 'لا يمكن الرد', cannot_reply_text: 'ليس لديك إذن للرد على هذه المناقشة.', delete_confirmation: 'هل أنت متأكد من أنك تريد حذف هذه المناقشة؟', log_in_to_reply_button: 'تسجيل الدخول إلى رد', toggle_dropdown_accessible_label: 'تبديل القائمة المنسدلة لإجراءات المناقشة', delete_button: حذف, delete_forever_button: 'حذف إلى الأبد', rename_button: 'اعاده تسميه', reply_button: أجاب, restore_button: يستعيد }, discussion_list: { empty_text: 'يبدو كما لو أنه لا توجد مناقشات هنا.', replied_text: '{اسم المستخدم} أجاب {قبل}', started_text: '{اسم المستخدم} بدأ {قبل}', total_replies_a11y_label: '{العد، الجمع، واحد {# رد} آخر {# ردود}}', unread_replies_a11y_label: '{العد ، الجمع ، واحد {# رد غير مقروء} آخر {# ردود غير مقروءة}}. وضع علامة غير مقروءة {عدد ، جمع ، واحد {رد} آخر {ردود}} كمقروءة.', load_more_button: 'عرض المزيد' }, forgot_password: { email_sent_message: 'إذا كان البريد الإلكتروني الذي دخلته مسجلاً في هذا الموقع، سنرسل لك بريداً إلكترونياً يحتوي على وصلة لإعادة تحديد كلمة المرور الخاصة بك. تحقق من ملفك إذا لم تستلمه خلال الدقيقة التالية أو الثانية', not_found_message: 'لا يوجد مستعمل مسجل بذلك العنوان الإلكتروني.', submit_button: 'سرية كلمة المرور', text: 'أدخل عنوان بريدك الإلكتروني وسنرسل لك رابطاً لإعادة تحديد كلمة المرور', title: 'نسيت كلمة سر', dismiss_button: موافق, email_placeholder: Email }, header: { admin_button: الإدارة, back_to_index_tooltip: 'العودة إلى قائمة المناقشة', locale_dropdown_accessible_label: 'تغيير لغة المنتدى', profile_button: 'ملف تعريف', search_clear_button_accessible_label: 'مسح استعلام البحث', search_placeholder: 'منتدى البحث', search_role_label: 'منتدى البحث', session_dropdown_accessible_label: 'تبديل القائمة المنسدلة خيارات الجلسة', log_in_link: 'تسجيل الدخول', log_out_button: 'تسجيل الخروج', settings_button: اعدادات, sign_up_link: التسجيل }, index: { cannot_start_discussion_button: 'لا يمكن بدء المناقشة', mark_all_as_read_confirmation: 'هل أنت متأكد من أنك تريد وضع علامة على جميع المناقشات كمقروءة؟', refresh_tooltip: تحديث, toggle_sidenav_dropdown_accessible_label: 'تبديل القائمة المنسدلة للتنقل', all_discussions_link: 'جميع المناقشات', mark_all_as_read_tooltip: 'وضع علامة على الكل كمقروءة', meta_title_text: 'جميع المناقشات', start_discussion_button: 'بدء مناقشة' }, index_sort: { latest_button: أخير, newest_button: أحدث, oldest_button: أقدم, relevance_button: اهميه, toggle_dropdown_accessible_label: 'تغيير فرز قائمة المناقشة', top_button: أعلى, hot_button: تتجه, votes_button: 'الأصوات المؤيدة', front_button: 'فرونت بيج', popular_button: شعبي, unpopular_button: شعبيه }, log_in: { forgot_password_link: 'نسيت كلمة المرور؟', invalid_login_message: 'تفاصيل تسجيل الدخول الخاصة بك غير صحيحة.', remember_me_label: تذكرني, sign_up_text: 'ليس لديك حساب؟ <a>التسجيل</a>', username_or_email_placeholder: 'اسم المستخدم أو البريد الإلكتروني', password_placeholder: شعار, submit_button: 'تسجيل الدخول', title: 'تسجيل الدخول' }, notifications: { delete_all_confirm: 'هل أنت متأكد من أنك تريد حذف جميع الإشعارات؟ هذا الإجراء غير قابل للعكس', delete_all_tooltip: 'حذف جميع الإشعارات', discussion_renamed_text: '{اسم المستخدم} غير العنوان', empty_text: 'لا توجد إخطارات', mark_as_read_tooltip: 'وضع علامة كمقروءة', toggle_dropdown_accessible_label: 'عرض الإشعارات', mark_all_as_read_tooltip: 'وضع علامة على الكل كمقروءة', title: الاخطارات, tooltip: الاخطارات }, post: { edited_text: تحرير, edited_tooltip: '{اسم المستخدم} تم التعديل {قبل}', number_tooltip: 'مشاركة #{عدد}' }, post_controls: { delete_confirmation: 'هل أنت متأكد من أنك تريد حذف هذا المنشور إلى الأبد؟ لا يمكن التراجع عن هذا الإجراء.', hide_confirmation: 'هل أنت متأكد من أنك تريد حذف هذا المنشور؟', toggle_dropdown_accessible_label: 'تبديل القائمة المنسدلة لعناصر التحكم في المنشور', push_to_front_button: 'اضغط إلى فرونت بيج', pull_from_front_button: 'سحب من فرونت بيج', delete_button: حذف, delete_forever_button: 'حذف إلى الأبد', edit_button: حرر, restore_button: يستعيد }, post_scrubber: { now_link: الآن, original_post_link: 'المشاركة الأصلية', unread_text: '{عدد} غير مقروء', viewing_text: '{count, pladd, one {{index} of {formattedCount} post} other {{index} of {formattedCount} posts}}' }, post_stream: { discussion_renamed_old_tooltip: 'كان العنوان القديم: "{قديم}"', discussion_renamed_text: '{اسم المستخدم} غير العنوان إلى {جديد} {الوقت}.', time_lapsed_text: '{فترة} لاحقا', load_more_button: 'عرض المزيد', reply_placeholder: 'اكتب ردا...' }, rename_discussion: { title: 'إعادة تسمية المناقشة', submit_button: 'اعاده تسميه' }, search: { all_discussions_button: 'البحث في كافة المناقشات عن "{query}"', discussions_heading: المناقشات, users_heading: المستعملون }, security: { browser_on_operating_system: '{متصفح} على {OS}', cannot_terminate_current_session: 'لا يمكن إنهاء جلسة العمل النشطة الحالية. تسجيل الخروج بدلا من ذلك.', created: انشاء, current_active_session: 'الجلسة النشطة الحالية', developer_tokens_heading: 'رموز المطور', empty_text: 'يبدو أنه لا يوجد شيء يمكن رؤيته هنا.', global_logout: { heading: 'تسجيل الخروج العالمي', help_text: 'يمسح جلسة ملفات تعريف الارتباط الحالية ، وينهي جميع الجلسات ، ويبطل الرموز المميزة للمطور ، ويبطل أي رسائل بريد إلكتروني لتأكيد البريد الإلكتروني أو إعادة تعيين كلمة المرور.', log_out_button: 'تسجيل الخروج' }, hide_access_token: 'إخفاء الرمز المميز', last_activity: 'آخر نشاط', new_access_token_modal: { submit_button: 'إنشاء رمز مميز', title_placeholder: عنوان, title: 'رمز جديد' }, revoke_access_token: الغاء, sessions_heading: 'الجلسات النشطة', session_terminated: '{عدد ، جمع ، واحد {تم إنهاء الجلسة} أخرى {# تم إنهاء الجلسات}}.', session_termination_failed: 'حدث خطأ أثناء إنهاء جلساتك.', show_access_token: 'عرض الرمز المميز', terminate_all_other_sessions: 'إنهاء جميع الجلسات الأخرى', terminate_session: أنهى, token_revoked: 'Token revoked.', token_item_title: '{عنوان} - {رمز}', token_title_placeholder: /, never: أبدا, new_access_token_button: 'رمز جديد', revoke_access_token_confirmation: 'هل أنت متأكد من أنك تريد المتابعة؟ لا يمكن التراجع عن هذا الإجراء.', terminate_all_other_sessions_confirmation: 'هل أنت متأكد من أنك تريد المتابعة؟ لا يمكن التراجع عن هذا الإجراء.', title: أمن }, settings: { account_heading: حساب, notification_checkbox_a11y_label_template: 'تلقي إشعارات "{description}" عبر {method}', notify_by_web_heading: نسيج, notify_discussion_renamed_label: 'شخص ما يعيد تسمية مناقشة بدأتها', privacy_disclose_online_label: 'السماح للآخرين بمعرفة متى أكون متصلا بالإنترنت', privacy_heading: الخصوصيه, change_email_button: 'تغيير البريد الإلكتروني', change_password_button: 'تغيير كلمة المرور', notifications_heading: الاخطارات, notify_by_email_heading: Email, title: اعدادات }, sign_up: { log_in_text: 'هل لديك حساب بالفعل؟ <a>تسجيل الدخول</a>', welcome_text: 'مرحبا بك ، {اسم المستخدم}!', dismiss_button: موافق, email_placeholder: Email, password_placeholder: شعار, submit_button: التسجيل, title: التسجيل, username_placeholder: 'اسم المستخدم' }, user: { avatar_upload_button: رفع, avatar_upload_tooltip: 'تحميل صورة رمزية جديدة', in_discussion_text: 'في {مناقشة}', joined_date_text: 'انضم {قبل}', online_text: 'عبر الإنترنت', posts_empty_text: 'يبدو أنه لا توجد مشاركات هنا.', avatar_remove_button: أبعد, discussions_link: المناقشات, posts_link: الوظائف, posts_load_more_button: 'عرض المزيد', security_link: أمن, settings_link: اعدادات }, user_controls: { button: 'عناصر التحكم', delete_confirmation: 'هل أنت متأكد من أنك تريد حذف هذا المستخدم؟ لن يتم حذف مشاركات المستخدم.', delete_error_message: 'فشل حذف <i>المستخدم {اسم المستخدم} ({email})</i>', delete_success_message: 'تم حذف <i>المستخدم {اسم المستخدم} ({البريد الإلكتروني})</i>', toggle_dropdown_accessible_label: 'تبديل القائمة المنسدلة عناصر تحكم المستخدم', delete_button: حذف, edit_button: حرر }, user_email_confirmation: { resend_button: 'إعادة إرسال رسالة التأكيد الإلكترونية', sent_message: ارسال, alert_message: 'لقد أرسلنا رسالة تأكيد بالبريد الإلكتروني إلى {email}. إذا لم يصل قريبا، فتحقق من مجلد الرسائل غير المرغوب فيها.' }, welcome_hero: { hide: 'إخفاء رسالة الترحيب' }, badge: { frontpage_tooltip: 'تم وضع علامة FrontPage' } }
-    lib: { debug_button: تصحيح, alert: { dismiss_a11y_label: 'تجاهل التنبيه' }, badge: { hidden_tooltip: مخفي }, dropdown: { toggle_dropdown_accessible_label: 'تبديل القائمة المنسدلة' }, data_segment: { label: '{تسمية}:' }, edit_user: { activate_button: 'تفعيل المستخدم', groups_heading: المجموعات, set_password_label: 'تعيين كلمة مرور جديدة', nothing_available: 'لا يسمح لك بتعديل هذا المستخدم.', email_heading: Email, email_label: Email, password_heading: شعار, password_label: شعار, submit_button: 'حفظ التغييرات', title: 'تحرير المستخدم', username_heading: 'اسم المستخدم', username_label: 'اسم المستخدم' }, error: { circular_dependencies_message: 'التبعيات الدائرية المكتشفة: {extensions}. احباط. الرجاء تعطيل أحد الامتدادات والمحاولة مرة أخرى.', dependent_extensions_message: 'لا يمكن تعطيل {extension} حتى يتم تعطيل الملحقات التابعة التالية: {extensions}', extension_initialiation_failed_message: 'فشل تهيئة {extension}، تحقق من وحدة تحكم المتصفح للحصول على مزيد من المعلومات.', generic_message: 'عفوا! حدث خطأ ما. يرجى إعادة تحميل الصفحة والمحاولة مرة أخرى.', generic_cross_origin_message: 'عفوا! حدث خطأ ما أثناء طلب عبر الأصل. يرجى إعادة تحميل الصفحة والمحاولة مرة أخرى.', missing_dependencies_message: 'لا يمكن تمكين {extension} حتى يتم تمكين التبعيات التالية: {extensions}', not_found_message: 'لم يتم العثور على المورد المطلوب.', payload_too_large_message: 'كانت حمولة الطلب كبيرة جدا.', permission_denied_message: 'ليس لديك إذن للقيام بذلك.', rate_limit_exceeded_message: 'أنت تسير بسرعة كبيرة جدا. يرجى المحاولة مرة أخرى في بضع ثوان.', render_failed_message: 'عذرا، لقد واجهنا خطأ أثناء عرض هذا المحتوى. إذا كنت مستخدما، فيرجى إعادة المحاولة لاحقا. إذا كنت مسؤولا، فألق نظرة على ملفات سجل Flarum للحصول على مزيد من المعلومات.' }, meta_titles: { with_page_title: '{رقم الصفحة، جمع، =1 {{عنوان الصفحة} - {اسم المنتدى}} أخرى {{عنوان الصفحة}: الصفحة # - {اسم المنتدى}}}', without_page_title: '{رقم الصفحة، جمع، =1 {{اسم المنتدى}} أخرى {صفحة # - {اسم المنتدى}}}' }, modal: { close: غلق }, nav: { drawer_button: 'فتح درج التنقل' }, number_suffix: { kilo_text: نحو, mega_text: M }, series: { glue_text: ', ', three_text: '{الأول} و {الثاني} و {الثالث}', two_text: '{الأول} و {الثاني}' }, username: { deleted_text: '[حذفت]' }, loading_indicator: { accessible_label: تحميل... } }
-    views: { confirm_email: { text: 'انقر فوق الزر أدناه لتأكيد البريد الإلكتروني لحسابك.', submit_button: 'تأكيد البريد الإلكتروني', title: 'تأكيد البريد الإلكتروني' }, content: { javascript_disabled_message: 'من الأفضل عرض هذا الموقع في متصفح حديث مع تمكين جافا سكريبت.', load_error_message: 'حدث خطأ ما أثناء محاولة تحميل النسخة الكاملة من هذا الموقع. حاول تحديث هذه الصفحة لإصلاح الخطأ.', loading_text: تحميل... }, error: { csrf_token_mismatch: 'لقد كنت غير نشط لفترة طويلة جدا.', csrf_token_mismatch_return_link: 'ارجع للمحاولة مرة أخرى', invalid_confirmation_token: 'تم استخدام رابط التأكيد هذا بالفعل أو أنه غير صالح.', not_authenticated: 'ليس لديك إذن للوصول إلى هذه الصفحة. حاول مرة أخرى بعد تسجيل الدخول.', not_found: 'تعذر العثور على الصفحة التي طلبتها.', not_found_return_link: 'العودة إلى {المنتدى}', permission_denied: 'ليس لديك إذن للوصول إلى هذه الصفحة.', unknown: 'حدث خطأ أثناء محاولة تحميل هذه الصفحة.' }, log_out: { log_out_confirmation: 'هل أنت متأكد من أنك تريد تسجيل الخروج من {forum}؟', log_out_button: 'تسجيل الخروج', title: 'تسجيل الخروج' }, reset_password: { confirm_password_label: 'تأكيد كلمة المرور الجديدة', new_password_label: 'كلمة مرور جديدة', submit_button: 'حفظ التغييرات', title: 'إعادة تعيين كلمة المرور الخاصة بك' }, discussion: { next_page_button: 'الصفحة التالية', previous_page_button: 'الصفحة السابقة' }, index: { all_discussions_heading: 'جميع المناقشات', next_page_button: 'الصفحة التالية', previous_page_button: 'الصفحة السابقة' } }
-    api: { invalid_username_message: 'قد يحتوي اسم المستخدم على أحرف وأرقام وشرطات فقط.', invalid_filter_type: { must_be_numeric_message: 'يجب أن يكون عامل التصفية {filter} رقميا.', must_not_be_array_message: 'يجب ألا يكون عامل التصفية {filter} مصفوفة.', must_not_be_multidimensional_array_message: 'يجب ألا يكون عامل التصفية {filter} صفيفا متعدد الأبعاد.' } }
-    email: { activate_account: { subject: 'تفعيل حسابك الجديد', body: "مرحبا {اسم المستخدم}!\n\nقام شخص ما (نأمل أنت!) بالتسجيل في {forum} باستخدام عنوان البريد الإلكتروني هذا.\n\nإذا كنت أنت ، فما عليك سوى النقر فوق الرابط التالي وسيتم تنشيط حسابك:\n{عنوان URL}\n\nإذا لم تقم بالتسجيل ، فيرجى تجاهل هذا البريد الإلكتروني.\n" }, confirm_email: { subject: 'قم بتأكيد عنوان بريدك الإلكتروني الجديد', body: "مرحبا {اسم المستخدم}!\n\nقام شخص ما (نأمل أنت!) بتغيير عنوان بريده الإلكتروني في {forum} إلى هذا العنوان.\n\nإذا كنت أنت ، فما عليك سوى النقر فوق الارتباط التالي وسيتم تأكيد بريدك الإلكتروني:\n{عنوان URL}\n\nإذا لم تكن أنت ، فيرجى تجاهل هذا البريد الإلكتروني.\n" }, reset_password: { body: "مرحبا {اسم المستخدم}!\n\nأرسل شخص ما (نأمل أنت!) طلب كلمة مرور منسي لحسابك على {forum}.\n\nإذا كنت أنت ، فانقر فوق الارتباط التالي لإعادة تعيين كلمة المرور الخاصة بك:\n{عنوان URL}\n\nإذا كنت لا ترغب في تغيير كلمة المرور الخاصة بك ، فما عليك سوى تجاهل هذا البريد الإلكتروني ولن يحدث شيء.\n", subject: 'إعادة تعيين كلمة المرور الخاصة بك' }, send_test: { subject: 'اختبار البريد الإلكتروني Flarum', body: "مرحبا {اسم المستخدم}!\n\nهذا بريد إلكتروني تجريبي للتأكد من أن تكوين البريد الإلكتروني Flarum يعمل بشكل صحيح.\n\nإذا كنت أنت ، فهذا البريد الإلكتروني يعني أن التكوين الخاص بك يعمل!\n\nإذا لم تكن أنت ، فيرجى تجاهل هذا البريد الإلكتروني.\n" } }
-    ref: { all_discussions: 'جميع المناقشات', change_email: 'تغيير البريد الإلكتروني', change_password: 'تغيير كلمة المرور', color: لون, confirm_password: 'تأكيد كلمة المرور', confirm_email: 'تأكيد البريد الإلكتروني', confirmation_email_sent: 'لقد أرسلنا رسالة تأكيد بالبريد الإلكتروني إلى {email}. إذا لم يصل قريبا، فتحقق من مجلد الرسائل غير المرغوب فيها.', custom_footer_text: 'أضف HTML ليتم عرضه في أسفل الصفحة.', custom_footer_title: 'تحرير تذييل مخصص', custom_header_text: 'أضف HTML ليتم عرضه في أعلى الصفحة ، أعلى رأس Flarum نفسه.', custom_header_title: 'تحرير رأس مخصص', delete: حذف, delete_forever: 'حذف إلى الأبد', discussions: المناقشات, edit: حرر, edit_user: 'تحرير المستخدم', email: Email, extensions: ملحقات, generic_confirmation_message: 'هل أنت متأكد من أنك تريد المتابعة؟ لا يمكن التراجع عن هذا الإجراء.', icon: رمز, icon_text: 'أدخل اسم أي فئة رمز <a>FontAwesome</a> ، <em>بما في ذلك</em> <code>بادئة fas fa</code>- .', load_more: 'عرض المزيد', loading: تحميل..., log_in: 'تسجيل الدخول', log_out: 'تسجيل الخروج', mark_all_as_read: 'وضع علامة على الكل كمقروءة', never: أبدا, new_token: 'رمز جديد', next_page: 'الصفحة التالية', notifications: الاخطارات, okay: موافق, password: شعار, posts: الوظائف, previous_page: 'الصفحة السابقة', remove: أبعد, rename: 'اعاده تسميه', reply: أجاب, reset_your_password: 'إعادة تعيين كلمة المرور الخاصة بك', restore: يستعيد, save_changes: 'حفظ التغييرات', search_users: 'البحث عن المستخدمين', security: أمن, settings: اعدادات, sign_up: التسجيل, some_others: '{العد ، الجمع ، واحد {# آخر} آخر {# آخرون}}', start_a_discussion: 'بدء مناقشة', username: 'اسم المستخدم', users: المستعملون, view: منظر, write_a_reply: 'اكتب ردا...', you: أنت }
-    group: { admin: المشرف, admins: المشرفون, guest: ضيف, guests: الضيوف, member: عضو, members: اعضاء, mod: أسلوب, mods: تعديل }
+  forum:
+    change_email:
+      incorrect_password_message: 'كلمة المرور التي أدخلتها غير صحيحة.'
+      confirm_password_placeholder: 'تأكيد كلمة المرور'
+      confirmation_message: 'لقد أرسلنا رسالة تأكيد بالبريد الإلكتروني إلى {email}. إذا لم يصل قريبا، فتحقق من مجلد الرسائل غير المرغوب فيها.'
+      dismiss_button: موافق
+      submit_button: 'حفظ التغييرات'
+      title: 'تغيير البريد الإلكتروني'
+    change_password:
+      send_button: 'إرسال بريد إلكتروني لإعادة تعيين كلمة المرور'
+      text: 'انقر فوق الزر أدناه وتحقق من بريدك الإلكتروني بحثا عن رابط لتغيير كلمة المرور الخاصة بك.'
+      title: 'تغيير كلمة المرور'
+    composer:
+      close_tooltip: غلق
+      exit_full_screen_tooltip: 'الخروج من وضع ملء الشاشة'
+      full_screen_tooltip: 'ملء الشاشة'
+      minimize_tooltip: تصغير
+      preview_tooltip: معاينه
+    composer_discussion:
+      body_placeholder: 'اكتب منشورا...'
+      discard_confirmation: 'أنت لم تنشر مناقشتك. هل ترغب في التخلص منه؟'
+      submit_button: 'ما بعد المناقشة'
+      title_placeholder: 'عنوان المناقشة'
+      title: 'بدء مناقشة'
+    composer_edit:
+      discard_confirmation: 'لم تقم بحفظ التغييرات الخاصة بك. هل ترغب في التخلص منها؟'
+      edited_message: 'تم إجراء التعديل الخاص بك.'
+      post_link: 'أضف #{number} في {مناقشة}'
+      submit_button: 'حفظ التغييرات'
+      view_button: منظر
+    composer_reply:
+      discard_confirmation: 'لم تنشر ردك. هل ترغب في التخلص منه؟'
+      posted_message: 'تم نشر ردك.'
+      submit_button: 'آخر رد'
+      body_placeholder: 'اكتب ردا...'
+      view_button: منظر
+    discussion_controls:
+      cannot_reply_button: 'لا يمكن الرد'
+      cannot_reply_text: 'ليس لديك إذن للرد على هذه المناقشة.'
+      delete_confirmation: 'هل أنت متأكد من أنك تريد حذف هذه المناقشة؟'
+      log_in_to_reply_button: 'تسجيل الدخول إلى رد'
+      toggle_dropdown_accessible_label: 'تبديل القائمة المنسدلة لإجراءات المناقشة'
+      delete_button: حذف
+      delete_forever_button: 'حذف إلى الأبد'
+      rename_button: 'اعاده تسميه'
+      reply_button: أجاب
+      restore_button: يستعيد
+    discussion_list:
+      empty_text: 'يبدو كما لو أنه لا توجد مناقشات هنا.'
+      replied_text: '{اسم المستخدم} أجاب {قبل}'
+      started_text: '{اسم المستخدم} بدأ {قبل}'
+      total_replies_a11y_label: '{العد، الجمع، واحد {# رد} آخر {# ردود}}'
+      unread_replies_a11y_label: '{العد ، الجمع ، واحد {# رد غير مقروء} آخر {# ردود غير مقروءة}}. وضع علامة غير مقروءة {عدد ، جمع ، واحد {رد} آخر {ردود}} كمقروءة.'
+      load_more_button: 'عرض المزيد'
+    forgot_password:
+      email_sent_message: 'إذا كان البريد الإلكتروني الذي دخلته مسجلاً في هذا الموقع، سنرسل لك بريداً إلكترونياً يحتوي على وصلة لإعادة تحديد كلمة المرور الخاصة بك. تحقق من ملفك إذا لم تستلمه خلال الدقيقة التالية أو الثانية'
+      not_found_message: 'لا يوجد مستعمل مسجل بذلك العنوان الإلكتروني.'
+      submit_button: 'سرية كلمة المرور'
+      text: 'أدخل عنوان بريدك الإلكتروني وسنرسل لك رابطاً لإعادة تحديد كلمة المرور'
+      title: 'نسيت كلمة سر'
+      dismiss_button: موافق
+      email_placeholder: Email
+    header:
+      admin_button: الإدارة
+      back_to_index_tooltip: 'العودة إلى قائمة المناقشة'
+      locale_dropdown_accessible_label: 'تغيير لغة المنتدى'
+      profile_button: 'ملف تعريف'
+      search_clear_button_accessible_label: 'مسح استعلام البحث'
+      search_placeholder: 'منتدى البحث'
+      search_role_label: 'منتدى البحث'
+      session_dropdown_accessible_label: 'تبديل القائمة المنسدلة خيارات الجلسة'
+      log_in_link: 'تسجيل الدخول'
+      log_out_button: 'تسجيل الخروج'
+      settings_button: اعدادات
+      sign_up_link: التسجيل
+    index:
+      cannot_start_discussion_button: 'لا يمكن بدء المناقشة'
+      mark_all_as_read_confirmation: 'هل أنت متأكد من أنك تريد وضع علامة على جميع المناقشات كمقروءة؟'
+      refresh_tooltip: تحديث
+      toggle_sidenav_dropdown_accessible_label: 'تبديل القائمة المنسدلة للتنقل'
+      all_discussions_link: 'جميع المناقشات'
+      mark_all_as_read_tooltip: 'وضع علامة على الكل كمقروءة'
+      meta_title_text: 'جميع المناقشات'
+      start_discussion_button: 'بدء مناقشة'
+    index_sort:
+      latest_button: أخير
+      newest_button: أحدث
+      oldest_button: أقدم
+      relevance_button: اهميه
+      toggle_dropdown_accessible_label: 'تغيير فرز قائمة المناقشة'
+      top_button: أعلى
+      hot_button: تتجه
+      votes_button: 'الأصوات المؤيدة'
+      front_button: 'فرونت بيج'
+      popular_button: شعبي
+      unpopular_button: شعبيه
+    log_in:
+      forgot_password_link: 'نسيت كلمة المرور؟'
+      invalid_login_message: 'تفاصيل تسجيل الدخول الخاصة بك غير صحيحة.'
+      remember_me_label: تذكرني
+      sign_up_text: 'ليس لديك حساب؟ <a>التسجيل</a>'
+      username_or_email_placeholder: 'اسم المستخدم أو البريد الإلكتروني'
+      password_placeholder: شعار
+      submit_button: 'تسجيل الدخول'
+      title: 'تسجيل الدخول'
+    notifications:
+      delete_all_confirm: 'هل أنت متأكد من أنك تريد حذف جميع الإشعارات؟ هذا الإجراء غير قابل للعكس'
+      delete_all_tooltip: 'حذف جميع الإشعارات'
+      discussion_renamed_text: '{اسم المستخدم} غير العنوان'
+      empty_text: 'لا توجد إخطارات'
+      mark_as_read_tooltip: 'وضع علامة كمقروءة'
+      toggle_dropdown_accessible_label: 'عرض الإشعارات'
+      mark_all_as_read_tooltip: 'وضع علامة على الكل كمقروءة'
+      title: الاخطارات
+      tooltip: الاخطارات
+    post:
+      edited_text: تحرير
+      edited_tooltip: '{اسم المستخدم} تم التعديل {قبل}'
+      number_tooltip: 'مشاركة #{عدد}'
+    post_controls:
+      delete_confirmation: 'هل أنت متأكد من أنك تريد حذف هذا المنشور إلى الأبد؟ لا يمكن التراجع عن هذا الإجراء.'
+      hide_confirmation: 'هل أنت متأكد من أنك تريد حذف هذا المنشور؟'
+      toggle_dropdown_accessible_label: 'تبديل القائمة المنسدلة لعناصر التحكم في المنشور'
+      push_to_front_button: 'اضغط إلى فرونت بيج'
+      pull_from_front_button: 'سحب من فرونت بيج'
+      delete_button: حذف
+      delete_forever_button: 'حذف إلى الأبد'
+      edit_button: حرر
+      restore_button: يستعيد
+    post_scrubber:
+      now_link: الآن
+      original_post_link: 'المشاركة الأصلية'
+      unread_text: '{عدد} غير مقروء'
+      viewing_text: '{count, pladd, one {{index} of {formattedCount} post} other {{index} of {formattedCount} posts}}'
+    post_stream:
+      discussion_renamed_old_tooltip: 'كان العنوان القديم: "{قديم}"'
+      discussion_renamed_text: '{اسم المستخدم} غير العنوان إلى {جديد} {الوقت}.'
+      time_lapsed_text: '{فترة} لاحقا'
+      load_more_button: 'عرض المزيد'
+      reply_placeholder: 'اكتب ردا...'
+    rename_discussion:
+      title: 'إعادة تسمية المناقشة'
+      submit_button: 'اعاده تسميه'
+    search:
+      all_discussions_button: 'البحث في كافة المناقشات عن "{query}"'
+      discussions_heading: المناقشات
+      users_heading: المستعملون
+    security:
+      browser_on_operating_system: '{متصفح} على {OS}'
+      cannot_terminate_current_session: 'لا يمكن إنهاء جلسة العمل النشطة الحالية. تسجيل الخروج بدلا من ذلك.'
+      created: انشاء
+      current_active_session: 'الجلسة النشطة الحالية'
+      developer_tokens_heading: 'رموز المطور'
+      empty_text: 'يبدو أنه لا يوجد شيء يمكن رؤيته هنا.'
+      global_logout: { heading: 'تسجيل الخروج العالمي', help_text: 'يمسح جلسة ملفات تعريف الارتباط الحالية ، وينهي جميع الجلسات ، ويبطل الرموز المميزة للمطور ، ويبطل أي رسائل بريد إلكتروني لتأكيد البريد الإلكتروني أو إعادة تعيين كلمة المرور.', log_out_button: 'تسجيل الخروج' }
+      hide_access_token: 'إخفاء الرمز المميز'
+      last_activity: 'آخر نشاط'
+      new_access_token_modal: { submit_button: 'إنشاء رمز مميز', title_placeholder: عنوان, title: 'رمز جديد' }
+      revoke_access_token: الغاء
+      sessions_heading: 'الجلسات النشطة'
+      session_terminated: '{عدد ، جمع ، واحد {تم إنهاء الجلسة} أخرى {# تم إنهاء الجلسات}}.'
+      session_termination_failed: 'حدث خطأ أثناء إنهاء جلساتك.'
+      show_access_token: 'عرض الرمز المميز'
+      terminate_all_other_sessions: 'إنهاء جميع الجلسات الأخرى'
+      terminate_session: أنهى
+      token_revoked: 'Token revoked.'
+      token_item_title: '{عنوان} - {رمز}'
+      token_title_placeholder: /
+      never: أبدا
+      new_access_token_button: 'رمز جديد'
+      revoke_access_token_confirmation: 'هل أنت متأكد من أنك تريد المتابعة؟ لا يمكن التراجع عن هذا الإجراء.'
+      terminate_all_other_sessions_confirmation: 'هل أنت متأكد من أنك تريد المتابعة؟ لا يمكن التراجع عن هذا الإجراء.'
+      title: أمن
+    settings:
+      account_heading: حساب
+      notification_checkbox_a11y_label_template: 'تلقي إشعارات "{description}" عبر {method}'
+      notify_by_web_heading: نسيج
+      notify_discussion_renamed_label: 'شخص ما يعيد تسمية مناقشة بدأتها'
+      privacy_disclose_online_label: 'السماح للآخرين بمعرفة متى أكون متصلا بالإنترنت'
+      privacy_heading: الخصوصيه
+      change_email_button: 'تغيير البريد الإلكتروني'
+      change_password_button: 'تغيير كلمة المرور'
+      notifications_heading: الاخطارات
+      notify_by_email_heading: Email
+      title: اعدادات
+    sign_up:
+      log_in_text: 'هل لديك حساب بالفعل؟ <a>تسجيل الدخول</a>'
+      welcome_text: 'مرحبا بك ، {اسم المستخدم}!'
+      dismiss_button: موافق
+      email_placeholder: Email
+      password_placeholder: شعار
+      submit_button: التسجيل
+      title: التسجيل
+      username_placeholder: 'اسم المستخدم'
+    user:
+      avatar_upload_button: رفع
+      avatar_upload_tooltip: 'تحميل صورة رمزية جديدة'
+      in_discussion_text: 'في {مناقشة}'
+      joined_date_text: 'انضم {قبل}'
+      online_text: 'عبر الإنترنت'
+      posts_empty_text: 'يبدو أنه لا توجد مشاركات هنا.'
+      avatar_remove_button: أبعد
+      discussions_link: المناقشات
+      posts_link: الوظائف
+      posts_load_more_button: 'عرض المزيد'
+      security_link: أمن
+      settings_link: اعدادات
+    user_controls:
+      button: 'عناصر التحكم'
+      delete_confirmation: 'هل أنت متأكد من أنك تريد حذف هذا المستخدم؟ لن يتم حذف مشاركات المستخدم.'
+      delete_error_message: 'فشل حذف <i>المستخدم {اسم المستخدم} ({email})</i>'
+      delete_success_message: 'تم حذف <i>المستخدم {اسم المستخدم} ({البريد الإلكتروني})</i>'
+      toggle_dropdown_accessible_label: 'تبديل القائمة المنسدلة عناصر تحكم المستخدم'
+      delete_button: حذف
+      edit_button: حرر
+    user_email_confirmation:
+      resend_button: 'إعادة إرسال رسالة التأكيد الإلكترونية'
+      sent_message: ارسال
+      alert_message: 'لقد أرسلنا رسالة تأكيد بالبريد الإلكتروني إلى {email}. إذا لم يصل قريبا، فتحقق من مجلد الرسائل غير المرغوب فيها.'
+    welcome_hero:
+      hide: 'إخفاء رسالة الترحيب'
+    badge:
+      frontpage_tooltip: 'تم وضع علامة FrontPage'
+  lib:
+    debug_button: تصحيح
+    alert:
+      dismiss_a11y_label: 'تجاهل التنبيه'
+    badge:
+      hidden_tooltip: مخفي
+    dropdown:
+      toggle_dropdown_accessible_label: 'تبديل القائمة المنسدلة'
+    data_segment:
+      label: '{تسمية}:'
+    edit_user:
+      activate_button: 'تفعيل المستخدم'
+      groups_heading: المجموعات
+      set_password_label: 'تعيين كلمة مرور جديدة'
+      nothing_available: 'لا يسمح لك بتعديل هذا المستخدم.'
+      email_heading: Email
+      email_label: Email
+      password_heading: شعار
+      password_label: شعار
+      submit_button: 'حفظ التغييرات'
+      title: 'تحرير المستخدم'
+      username_heading: 'اسم المستخدم'
+      username_label: 'اسم المستخدم'
+    error:
+      circular_dependencies_message: 'التبعيات الدائرية المكتشفة: {extensions}. احباط. الرجاء تعطيل أحد الامتدادات والمحاولة مرة أخرى.'
+      dependent_extensions_message: 'لا يمكن تعطيل {extension} حتى يتم تعطيل الملحقات التابعة التالية: {extensions}'
+      extension_initialiation_failed_message: 'فشل تهيئة {extension}، تحقق من وحدة تحكم المتصفح للحصول على مزيد من المعلومات.'
+      generic_message: 'عفوا! حدث خطأ ما. يرجى إعادة تحميل الصفحة والمحاولة مرة أخرى.'
+      generic_cross_origin_message: 'عفوا! حدث خطأ ما أثناء طلب عبر الأصل. يرجى إعادة تحميل الصفحة والمحاولة مرة أخرى.'
+      missing_dependencies_message: 'لا يمكن تمكين {extension} حتى يتم تمكين التبعيات التالية: {extensions}'
+      not_found_message: 'لم يتم العثور على المورد المطلوب.'
+      payload_too_large_message: 'كانت حمولة الطلب كبيرة جدا.'
+      permission_denied_message: 'ليس لديك إذن للقيام بذلك.'
+      rate_limit_exceeded_message: 'أنت تسير بسرعة كبيرة جدا. يرجى المحاولة مرة أخرى في بضع ثوان.'
+      render_failed_message: 'عذرا، لقد واجهنا خطأ أثناء عرض هذا المحتوى. إذا كنت مستخدما، فيرجى إعادة المحاولة لاحقا. إذا كنت مسؤولا، فألق نظرة على ملفات سجل Flarum للحصول على مزيد من المعلومات.'
+    meta_titles:
+      with_page_title: '{رقم الصفحة، جمع، =1 {{عنوان الصفحة} - {اسم المنتدى}} أخرى {{عنوان الصفحة}: الصفحة # - {اسم المنتدى}}}'
+      without_page_title: '{رقم الصفحة، جمع، =1 {{اسم المنتدى}} أخرى {صفحة # - {اسم المنتدى}}}'
+    modal:
+      close: غلق
+    nav:
+      drawer_button: 'فتح درج التنقل'
+    number_suffix:
+      kilo_text: نحو
+      mega_text: M
+    series:
+      glue_text: ', '
+      three_text: '{الأول} و {الثاني} و {الثالث}'
+      two_text: '{الأول} و {الثاني}'
+    username:
+      deleted_text: '[حذفت]'
+    loading_indicator:
+      accessible_label: تحميل...
+  views:
+    confirm_email:
+      text: 'انقر فوق الزر أدناه لتأكيد البريد الإلكتروني لحسابك.'
+      submit_button: 'تأكيد البريد الإلكتروني'
+      title: 'تأكيد البريد الإلكتروني'
+    content:
+      javascript_disabled_message: 'من الأفضل عرض هذا الموقع في متصفح حديث مع تمكين جافا سكريبت.'
+      load_error_message: 'حدث خطأ ما أثناء محاولة تحميل النسخة الكاملة من هذا الموقع. حاول تحديث هذه الصفحة لإصلاح الخطأ.'
+      loading_text: تحميل...
+    error:
+      csrf_token_mismatch: 'لقد كنت غير نشط لفترة طويلة جدا.'
+      csrf_token_mismatch_return_link: 'ارجع للمحاولة مرة أخرى'
+      invalid_confirmation_token: 'تم استخدام رابط التأكيد هذا بالفعل أو أنه غير صالح.'
+      not_authenticated: 'ليس لديك إذن للوصول إلى هذه الصفحة. حاول مرة أخرى بعد تسجيل الدخول.'
+      not_found: 'تعذر العثور على الصفحة التي طلبتها.'
+      not_found_return_link: 'العودة إلى {المنتدى}'
+      permission_denied: 'ليس لديك إذن للوصول إلى هذه الصفحة.'
+      unknown: 'حدث خطأ أثناء محاولة تحميل هذه الصفحة.'
+    log_out:
+      log_out_confirmation: 'هل أنت متأكد من أنك تريد تسجيل الخروج من {forum}؟'
+      log_out_button: 'تسجيل الخروج'
+      title: 'تسجيل الخروج'
+    reset_password:
+      confirm_password_label: 'تأكيد كلمة المرور الجديدة'
+      new_password_label: 'كلمة مرور جديدة'
+      submit_button: 'حفظ التغييرات'
+      title: 'إعادة تعيين كلمة المرور الخاصة بك'
+    discussion:
+      next_page_button: 'الصفحة التالية'
+      previous_page_button: 'الصفحة السابقة'
+    index:
+      all_discussions_heading: 'جميع المناقشات'
+      next_page_button: 'الصفحة التالية'
+      previous_page_button: 'الصفحة السابقة'
+  api:
+    invalid_username_message: 'قد يحتوي اسم المستخدم على أحرف وأرقام وشرطات فقط.'
+    invalid_filter_type:
+      must_be_numeric_message: 'يجب أن يكون عامل التصفية {filter} رقميا.'
+      must_not_be_array_message: 'يجب ألا يكون عامل التصفية {filter} مصفوفة.'
+      must_not_be_multidimensional_array_message: 'يجب ألا يكون عامل التصفية {filter} صفيفا متعدد الأبعاد.'
+  email:
+    activate_account:
+      subject: 'تفعيل حسابك الجديد'
+      body: "مرحبا {اسم المستخدم}!\n\nقام شخص ما (نأمل أنت!) بالتسجيل في {forum} باستخدام عنوان البريد الإلكتروني هذا.\n\nإذا كنت أنت ، فما عليك سوى النقر فوق الرابط التالي وسيتم تنشيط حسابك:\n{عنوان URL}\n\nإذا لم تقم بالتسجيل ، فيرجى تجاهل هذا البريد الإلكتروني.\n"
+    confirm_email:
+      subject: 'قم بتأكيد عنوان بريدك الإلكتروني الجديد'
+      body: "مرحبا {اسم المستخدم}!\n\nقام شخص ما (نأمل أنت!) بتغيير عنوان بريده الإلكتروني في {forum} إلى هذا العنوان.\n\nإذا كنت أنت ، فما عليك سوى النقر فوق الارتباط التالي وسيتم تأكيد بريدك الإلكتروني:\n{عنوان URL}\n\nإذا لم تكن أنت ، فيرجى تجاهل هذا البريد الإلكتروني.\n"
+    reset_password:
+      body: "مرحبا {اسم المستخدم}!\n\nأرسل شخص ما (نأمل أنت!) طلب كلمة مرور منسي لحسابك على {forum}.\n\nإذا كنت أنت ، فانقر فوق الارتباط التالي لإعادة تعيين كلمة المرور الخاصة بك:\n{عنوان URL}\n\nإذا كنت لا ترغب في تغيير كلمة المرور الخاصة بك ، فما عليك سوى تجاهل هذا البريد الإلكتروني ولن يحدث شيء.\n"
+      subject: 'إعادة تعيين كلمة المرور الخاصة بك'
+    send_test:
+      subject: 'اختبار البريد الإلكتروني Flarum'
+      body: "مرحبا {اسم المستخدم}!\n\nهذا بريد إلكتروني تجريبي للتأكد من أن تكوين البريد الإلكتروني Flarum يعمل بشكل صحيح.\n\nإذا كنت أنت ، فهذا البريد الإلكتروني يعني أن التكوين الخاص بك يعمل!\n\nإذا لم تكن أنت ، فيرجى تجاهل هذا البريد الإلكتروني.\n"
+  ref:
+    all_discussions: 'جميع المناقشات'
+    change_email: 'تغيير البريد الإلكتروني'
+    change_password: 'تغيير كلمة المرور'
+    color: لون
+    confirm_password: 'تأكيد كلمة المرور'
+    confirm_email: 'تأكيد البريد الإلكتروني'
+    confirmation_email_sent: 'لقد أرسلنا رسالة تأكيد بالبريد الإلكتروني إلى {email}. إذا لم يصل قريبا، فتحقق من مجلد الرسائل غير المرغوب فيها.'
+    custom_footer_text: 'أضف HTML ليتم عرضه في أسفل الصفحة.'
+    custom_footer_title: 'تحرير تذييل مخصص'
+    custom_header_text: 'أضف HTML ليتم عرضه في أعلى الصفحة ، أعلى رأس Flarum نفسه.'
+    custom_header_title: 'تحرير رأس مخصص'
+    delete: حذف
+    delete_forever: 'حذف إلى الأبد'
+    discussions: المناقشات
+    edit: حرر
+    edit_user: 'تحرير المستخدم'
+    email: Email
+    extensions: ملحقات
+    generic_confirmation_message: 'هل أنت متأكد من أنك تريد المتابعة؟ لا يمكن التراجع عن هذا الإجراء.'
+    icon: رمز
+    icon_text: 'أدخل اسم أي فئة رمز <a>FontAwesome</a> ، <em>بما في ذلك</em> <code>بادئة fas fa</code>- .'
+    load_more: 'عرض المزيد'
+    loading: تحميل...
+    log_in: 'تسجيل الدخول'
+    log_out: 'تسجيل الخروج'
+    mark_all_as_read: 'وضع علامة على الكل كمقروءة'
+    never: أبدا
+    new_token: 'رمز جديد'
+    next_page: 'الصفحة التالية'
+    notifications: الاخطارات
+    okay: موافق
+    password: شعار
+    posts: الوظائف
+    previous_page: 'الصفحة السابقة'
+    remove: أبعد
+    rename: 'اعاده تسميه'
+    reply: أجاب
+    reset_your_password: 'إعادة تعيين كلمة المرور الخاصة بك'
+    restore: يستعيد
+    save_changes: 'حفظ التغييرات'
+    search_users: 'البحث عن المستخدمين'
+    security: أمن
+    settings: اعدادات
+    sign_up: التسجيل
+    some_others: '{العد ، الجمع ، واحد {# آخر} آخر {# آخرون}}'
+    start_a_discussion: 'بدء مناقشة'
+    username: 'اسم المستخدم'
+    users: المستعملون
+    view: منظر
+    write_a_reply: 'اكتب ردا...'
+    you: أنت
+  group:
+    admin: المشرف
+    admins: المشرفون
+    guest: ضيف
+    guests: الضيوف
+    member: عضو
+    members: اعضاء
+    mod: أسلوب
+    mods: تعديل
 validation:
-    accepted: 'يجب قبول السمة: .'
-    active_url: 'السمة :s ليست عنوان URL صالحا.'
-    after: 'يجب أن تكون السمة :a تاريخا بعد :d ate.'
-    after_or_equal: 'يجب أن تكون السمة :a date بعد أو يساوي :d ate.'
-    alpha: 'يجب أن تحتوي السمة :s على أحرف فقط.'
-    alpha_dash: 'يجب أن تحتوي السمة :s على أحرف وأرقام وشرطات وشرطات سفلية فقط.'
-    alpha_num: 'يجب أن تحتوي السمة :s على أحرف وأرقام فقط.'
-    array: 'يجب أن تكون السمة :صفيف.'
-    before: 'يجب أن تكون السمة :تاريخ قبل :d ate.'
-    before_or_equal: 'يجب أن تكون السمة :s تاريخا قبل أو يساوي :d ate.'
-    between: { numeric: 'يجب أن تكون السمة :بين :min و:max.', file: 'يجب أن تكون السمة :بين :min و:max كيلوبايت.', string: 'يجب أن تكون السمة :بين :min و:max الأحرف.', array: 'يجب أن تحتوي السمة :بين :min و:max العناصر.' }
-    boolean: 'يجب أن يكون الحقل :attribute صوابا أم خطأ.'
-    confirmed: 'تأكيد السمة: غير متطابق.'
-    date: 'السمة :ليست تاريخا صالحا.'
-    date_equals: 'يجب أن تكون السمة :تاريخ يساوي :d ate.'
-    date_format: 'السمة :لا تتطابق مع التنسيق:format.'
-    different: 'يجب أن تكون السمة :و:other مختلفة.'
-    digits: 'يجب أن تكون السمة :s أرقام :d igits .'
-    digits_between: 'يجب أن تكون السمة :بين :min و:max digits.'
-    dimensions: 'تحتوي السمة :على أبعاد صورة غير صالحة.'
-    distinct: 'يحتوي الحقل :attribute على قيمة مكررة.'
-    email: 'يجب أن تكون السمة :عنوان بريد إلكتروني صالحا.'
-    ends_with: 'يجب أن تنتهي السمة ::بأحد الإجراءات التالية: :values.'
-    exists: 'السمة :المحددة غير صالحة.'
-    file: 'يجب أن تكون السمة :ملفا.'
-    file_too_large: 'السمة :كبيرة جدا.'
-    file_upload_failed: 'فشل تحميل السمة :.'
-    filled: 'يجب أن يحتوي الحقل :attribute على قيمة.'
-    gt: { numeric: 'يجب أن تكون السمة :أكبر من:value.', file: 'يجب أن تكون السمة :أكبر من:value كيلوبايت.', string: 'يجب أن تكون السمة :أكبر من:value الأحرف.', array: 'يجب أن تحتوي السمة ::على أكثر من:عناصر القيمة.' }
-    gte: { numeric: 'يجب أن تكون السمة :أكبر من أو تساوي: القيمة.', file: 'يجب أن تكون السمة :أكبر من أو تساوي: قيمة كيلوبايت.', string: 'يجب أن تكون السمة :أكبر من أو تساوي: أحرف القيمة.', array: 'يجب أن تحتوي السمة :value على عناصر القيمة أو أكثر.' }
-    image: 'يجب أن تكون السمة :صورة.'
-    in: 'السمة :المحددة غير صالحة.'
-    in_array: 'الحقل :attribute غير موجود في:other.'
-    integer: 'يجب أن تكون السمة :عددا صحيحا.'
-    ip: 'يجب أن تكون السمة :عنوان IP صالحا.'
-    ipv4: 'يجب أن تكون السمة :عنوان IPv4 صالحا.'
-    ipv6: 'يجب أن تكون السمة :عنوان IPv6 صالحا.'
-    json: 'يجب أن تكون السمة :سلسلة JSON صالحة.'
-    lt: { numeric: 'يجب أن تكون السمة :أقل من:value.', file: 'يجب أن تكون السمة :أقل من:value كيلوبايت.', string: 'يجب أن تكون السمة :أقل من: أحرف القيمة.', array: 'يجب أن تحتوي السمة ::value على عناصر أقل من:value.' }
-    lte: { numeric: 'يجب أن تكون السمة :أقل من أو تساوي: قيمة.', file: 'يجب أن تكون السمة :أقل من أو تساوي: قيمة كيلوبايت.', string: 'يجب أن تكون السمة :أقل من أو تساوي: أحرف القيمة.', array: 'يجب ألا تحتوي السمة ::على أكثر من:value items.' }
-    max: { numeric: 'يجب ألا تكون السمة :أكبر من:max.', file: 'يجب ألا تكون السمة :أكبر من: max كيلوبايت.', string: 'يجب ألا تكون السمة :أكبر من :max الأحرف.', array: 'يجب ألا تحتوي السمة :s على أكثر من: max items.' }
-    mimes: 'يجب أن تكون السمة :ملف من النوع: :قيم.'
-    mimetypes: 'يجب أن تكون السمة :ملف من النوع: :قيم.'
-    min: { numeric: 'يجب أن تكون السمة :min على الأقل.', file: 'يجب أن تكون السمة :min على الأقل.', string: 'يجب أن تكون السمة :min على الأقل.', array: 'يجب أن تحتوي السمة :min على الأقل.' }
-    multiple_of: 'يجب أن تكون السمة :مضاعف :value.'
-    not_in: 'السمة :المحددة غير صالحة.'
-    not_regex: 'تنسيق :attribute غير صالح.'
-    numeric: 'يجب أن تكون السمة :رقما.'
-    password: 'كلمة المرور غير صحيحة.'
-    present: 'يجب أن يكون الحقل :attribute موجودا.'
-    regex: 'تنسيق :attribute غير صالح.'
-    required: 'حقل السمة: مطلوب.'
-    required_if: 'الحقل :attribute مطلوب عندما: أخرى هي: قيمة.'
-    required_unless: 'حقل :attribute مطلوب ما لم يكن :other في:قيم.'
-    required_with: 'الحقل :attribute مطلوب عند وجود:قيم.'
-    required_with_all: 'الحقل :attribute مطلوب عند وجود: القيم.'
-    required_without: 'الحقل :attribute مطلوب عندما :values غير موجودة.'
-    required_without_all: 'الحقل :attribute مطلوب في حالة عدم وجود أي من:قيم.'
-    prohibited: 'الحقل :attribute محظور.'
-    prohibited_if: 'يحظر الحقل :attribute عندما: أخرى هي: قيمة.'
-    prohibited_unless: 'يحظر الحقل :attribute ما لم: أخرى في: القيم.'
-    same: 'يجب أن تتطابق السمة :و:other.'
-    size: { numeric: 'يجب أن تكون السمة: الحجم.', file: 'يجب أن تكون السمة :size كيلوبايت.', string: 'يجب أن تكون السمة: أحرف الحجم.', array: 'يجب أن تحتوي السمة :size على عناصر الحجم.' }
-    starts_with: 'يجب أن تبدأ السمة :بأحد الإجراءات التالية: :values.'
-    string: 'يجب أن تكون السمة :string.'
-    timezone: 'يجب أن تكون السمة :منطقة صالحة.'
-    unique: 'تم بالفعل أخذ السمة: .'
-    uploaded: 'فشل تحميل السمة :.'
-    url: 'تنسيق :attribute غير صالح.'
-    uuid: 'يجب أن تكون السمة :uid صالحة.'
-    attributes: { username: 'اسم المستخدم', password: شعار, email: 'البريد الإلكتروني', title: عنوان, content: محتوى, name_singular: 'اسم المفرد', name_plural: 'الاسم التعددي', tag_count_primary: 'عدد العلامات الأساسية', tag_count_secondary: 'عدد العلامات الثانوية' }
-    recaptcha: 'فشل التحقق من صحة reCAPTCHA.'
-    recaptcha-unknown: 'حدث خطأ غير معروف أثناء التحقق من صحة reCAPTCHA ({أخطاء}).'
+  accepted: 'يجب قبول السمة: .'
+  active_url: 'السمة :s ليست عنوان URL صالحا.'
+  after: 'يجب أن تكون السمة :a تاريخا بعد :d ate.'
+  after_or_equal: 'يجب أن تكون السمة :a date بعد أو يساوي :d ate.'
+  alpha: 'يجب أن تحتوي السمة :s على أحرف فقط.'
+  alpha_dash: 'يجب أن تحتوي السمة :s على أحرف وأرقام وشرطات وشرطات سفلية فقط.'
+  alpha_num: 'يجب أن تحتوي السمة :s على أحرف وأرقام فقط.'
+  array: 'يجب أن تكون السمة :صفيف.'
+  before: 'يجب أن تكون السمة :تاريخ قبل :d ate.'
+  before_or_equal: 'يجب أن تكون السمة :s تاريخا قبل أو يساوي :d ate.'
+  between:
+    numeric: 'يجب أن تكون السمة :بين :min و:max.'
+    file: 'يجب أن تكون السمة :بين :min و:max كيلوبايت.'
+    string: 'يجب أن تكون السمة :بين :min و:max الأحرف.'
+    array: 'يجب أن تحتوي السمة :بين :min و:max العناصر.'
+  boolean: 'يجب أن يكون الحقل :attribute صوابا أم خطأ.'
+  confirmed: 'تأكيد السمة: غير متطابق.'
+  date: 'السمة :ليست تاريخا صالحا.'
+  date_equals: 'يجب أن تكون السمة :تاريخ يساوي :d ate.'
+  date_format: 'السمة :لا تتطابق مع التنسيق:format.'
+  different: 'يجب أن تكون السمة :و:other مختلفة.'
+  digits: 'يجب أن تكون السمة :s أرقام :d igits .'
+  digits_between: 'يجب أن تكون السمة :بين :min و:max digits.'
+  dimensions: 'تحتوي السمة :على أبعاد صورة غير صالحة.'
+  distinct: 'يحتوي الحقل :attribute على قيمة مكررة.'
+  email: 'يجب أن تكون السمة :عنوان بريد إلكتروني صالحا.'
+  ends_with: 'يجب أن تنتهي السمة ::بأحد الإجراءات التالية: :values.'
+  exists: 'السمة :المحددة غير صالحة.'
+  file: 'يجب أن تكون السمة :ملفا.'
+  file_too_large: 'السمة :كبيرة جدا.'
+  file_upload_failed: 'فشل تحميل السمة :.'
+  filled: 'يجب أن يحتوي الحقل :attribute على قيمة.'
+  gt:
+    numeric: 'يجب أن تكون السمة :أكبر من:value.'
+    file: 'يجب أن تكون السمة :أكبر من:value كيلوبايت.'
+    string: 'يجب أن تكون السمة :أكبر من:value الأحرف.'
+    array: 'يجب أن تحتوي السمة ::على أكثر من:عناصر القيمة.'
+  gte:
+    numeric: 'يجب أن تكون السمة :أكبر من أو تساوي: القيمة.'
+    file: 'يجب أن تكون السمة :أكبر من أو تساوي: قيمة كيلوبايت.'
+    string: 'يجب أن تكون السمة :أكبر من أو تساوي: أحرف القيمة.'
+    array: 'يجب أن تحتوي السمة :value على عناصر القيمة أو أكثر.'
+  image: 'يجب أن تكون السمة :صورة.'
+  in: 'السمة :المحددة غير صالحة.'
+  in_array: 'الحقل :attribute غير موجود في:other.'
+  integer: 'يجب أن تكون السمة :عددا صحيحا.'
+  ip: 'يجب أن تكون السمة :عنوان IP صالحا.'
+  ipv4: 'يجب أن تكون السمة :عنوان IPv4 صالحا.'
+  ipv6: 'يجب أن تكون السمة :عنوان IPv6 صالحا.'
+  json: 'يجب أن تكون السمة :سلسلة JSON صالحة.'
+  lt:
+    numeric: 'يجب أن تكون السمة :أقل من:value.'
+    file: 'يجب أن تكون السمة :أقل من:value كيلوبايت.'
+    string: 'يجب أن تكون السمة :أقل من: أحرف القيمة.'
+    array: 'يجب أن تحتوي السمة ::value على عناصر أقل من:value.'
+  lte:
+    numeric: 'يجب أن تكون السمة :أقل من أو تساوي: قيمة.'
+    file: 'يجب أن تكون السمة :أقل من أو تساوي: قيمة كيلوبايت.'
+    string: 'يجب أن تكون السمة :أقل من أو تساوي: أحرف القيمة.'
+    array: 'يجب ألا تحتوي السمة ::على أكثر من:value items.'
+  max:
+    numeric: 'يجب ألا تكون السمة :أكبر من:max.'
+    file: 'يجب ألا تكون السمة :أكبر من: max كيلوبايت.'
+    string: 'يجب ألا تكون السمة :أكبر من :max الأحرف.'
+    array: 'يجب ألا تحتوي السمة :s على أكثر من: max items.'
+  mimes: 'يجب أن تكون السمة :ملف من النوع: :قيم.'
+  mimetypes: 'يجب أن تكون السمة :ملف من النوع: :قيم.'
+  min:
+    numeric: 'يجب أن تكون السمة :min على الأقل.'
+    file: 'يجب أن تكون السمة :min على الأقل.'
+    string: 'يجب أن تكون السمة :min على الأقل.'
+    array: 'يجب أن تحتوي السمة :min على الأقل.'
+  multiple_of: 'يجب أن تكون السمة :مضاعف :value.'
+  not_in: 'السمة :المحددة غير صالحة.'
+  not_regex: 'تنسيق :attribute غير صالح.'
+  numeric: 'يجب أن تكون السمة :رقما.'
+  password: 'كلمة المرور غير صحيحة.'
+  present: 'يجب أن يكون الحقل :attribute موجودا.'
+  regex: 'تنسيق :attribute غير صالح.'
+  required: 'حقل السمة: مطلوب.'
+  required_if: 'الحقل :attribute مطلوب عندما: أخرى هي: قيمة.'
+  required_unless: 'حقل :attribute مطلوب ما لم يكن :other في:قيم.'
+  required_with: 'الحقل :attribute مطلوب عند وجود:قيم.'
+  required_with_all: 'الحقل :attribute مطلوب عند وجود: القيم.'
+  required_without: 'الحقل :attribute مطلوب عندما :values غير موجودة.'
+  required_without_all: 'الحقل :attribute مطلوب في حالة عدم وجود أي من:قيم.'
+  prohibited: 'الحقل :attribute محظور.'
+  prohibited_if: 'يحظر الحقل :attribute عندما: أخرى هي: قيمة.'
+  prohibited_unless: 'يحظر الحقل :attribute ما لم: أخرى في: القيم.'
+  same: 'يجب أن تتطابق السمة :و:other.'
+  size:
+    numeric: 'يجب أن تكون السمة: الحجم.'
+    file: 'يجب أن تكون السمة :size كيلوبايت.'
+    string: 'يجب أن تكون السمة: أحرف الحجم.'
+    array: 'يجب أن تحتوي السمة :size على عناصر الحجم.'
+  starts_with: 'يجب أن تبدأ السمة :بأحد الإجراءات التالية: :values.'
+  string: 'يجب أن تكون السمة :string.'
+  timezone: 'يجب أن تكون السمة :منطقة صالحة.'
+  unique: 'تم بالفعل أخذ السمة: .'
+  uploaded: 'فشل تحميل السمة :.'
+  url: 'تنسيق :attribute غير صالح.'
+  uuid: 'يجب أن تكون السمة :uid صالحة.'
+  attributes:
+    username: 'اسم المستخدم'
+    password: شعار
+    email: 'البريد الإلكتروني'
+    title: عنوان
+    content: محتوى
+    name_singular: 'اسم المفرد'
+    name_plural: 'الاسم التعددي'
+    tag_count_primary: 'عدد العلامات الأساسية'
+    tag_count_secondary: 'عدد العلامات الثانوية'
+  recaptcha: 'فشل التحقق من صحة reCAPTCHA.'
+  recaptcha-unknown: 'حدث خطأ غير معروف أثناء التحقق من صحة reCAPTCHA ({أخطاء}).'
 flarum-tags:
-    forum: { all_tags: { meta_description_text: 'كل العلامات', meta_title_text: العلامات }, choose_tags: { edit_title: 'تحرير العلامات ل {title}', title: 'اختر علامات لمناقشتك' }, discussion_controls: { edit_tags_button: 'تحرير العلامات' }, header: { back_to_tags_tooltip: 'العودة إلى قائمة العلامات' }, index: { more_link: أكثر..., untagged_link: 'غير موسومة', tags_link: العلامات }, post_stream: { added_and_removed_tags_text: 'أضاف {اسم المستخدم} {tagsAdded} وأزال {tagsRemoved} {time}.', added_tags_text: 'أضاف {اسم المستخدم} {tagsAdded} {time}.', removed_tags_text: '{اسم المستخدم} إزالة {tagsRemoved} {time}.', tags_text: '{العد ، الجمع ، واحد {{tags} tag} آخر {{tags} tags}}' }, tag: { meta_description_text: 'جميع المناقشات مع علامة {tag}' }, composer_discussion: { choose_tags_link: 'اختر العلامات' } }
-    lib: { deleted_tag_text: محذوف, tag_selection_modal: { bypass_requirements: 'تجاوز متطلبات العلامة', choose_primary_placeholder: '{العد ، الجمع ، واحد {اختيار علامة أساسية} أخرى {اختر # العلامات الأساسية}}', choose_secondary_placeholder: '{العد ، الجمع ، واحد {اختر 1 علامة أخرى} أخرى {اختر # المزيد من العلامات}}', choose_tags_placeholder: '{العد ، الجمع ، واحد {اختر 1 علامة أخرى} أخرى {اختر # المزيد من العلامات}}', submit_button: موافق, title: 'اختر العلامات' } }
-    ref: { choose_tags: 'اختر العلامات', choose_tags_placeholder: '{العد ، الجمع ، واحد {اختر 1 علامة أخرى} أخرى {اختر # المزيد من العلامات}}', name: اسم, tags: العلامات }
+  forum:
+    all_tags:
+      meta_description_text: 'كل العلامات'
+      meta_title_text: العلامات
+    choose_tags:
+      edit_title: 'تحرير العلامات ل {title}'
+      title: 'اختر علامات لمناقشتك'
+    discussion_controls:
+      edit_tags_button: 'تحرير العلامات'
+    header:
+      back_to_tags_tooltip: 'العودة إلى قائمة العلامات'
+    index:
+      more_link: أكثر...
+      untagged_link: 'غير موسومة'
+      tags_link: العلامات
+    post_stream:
+      added_and_removed_tags_text: 'أضاف {اسم المستخدم} {tagsAdded} وأزال {tagsRemoved} {time}.'
+      added_tags_text: 'أضاف {اسم المستخدم} {tagsAdded} {time}.'
+      removed_tags_text: '{اسم المستخدم} إزالة {tagsRemoved} {time}.'
+      tags_text: '{العد ، الجمع ، واحد {{tags} tag} آخر {{tags} tags}}'
+    tag:
+      meta_description_text: 'جميع المناقشات مع علامة {tag}'
+    composer_discussion:
+      choose_tags_link: 'اختر العلامات'
+  lib:
+    deleted_tag_text: محذوف
+    tag_selection_modal:
+      bypass_requirements: 'تجاوز متطلبات العلامة'
+      choose_primary_placeholder: '{العد ، الجمع ، واحد {اختيار علامة أساسية} أخرى {اختر # العلامات الأساسية}}'
+      choose_secondary_placeholder: '{العد ، الجمع ، واحد {اختر 1 علامة أخرى} أخرى {اختر # المزيد من العلامات}}'
+      choose_tags_placeholder: '{العد ، الجمع ، واحد {اختر 1 علامة أخرى} أخرى {اختر # المزيد من العلامات}}'
+      submit_button: موافق
+      title: 'اختر العلامات'
+  ref:
+    choose_tags: 'اختر العلامات'
+    choose_tags_placeholder: '{العد ، الجمع ، واحد {اختر 1 علامة أخرى} أخرى {اختر # المزيد من العلامات}}'
+    name: اسم
+    tags: العلامات
 flarum-mentions:
-    forum: { composer: { mention_tooltip: 'الإشارة إلى مستخدم أو مجموعة أو منشور', reply_to_post_text: 'الرد على #{number}' }, mentioned_by: { title: 'الردود على هذا المنشور', load_more_button: 'عرض المزيد' }, notifications: { post_mentioned_text: '{اسم المستخدم} رد على مشاركتك', user_mentioned_text: '{اسم المستخدم} ذكرك', group_mentioned_text: '{اسم المستخدم} ذكر مجموعة أنت عضو فيها', others_text: '{العد ، الجمع ، واحد {# آخر} آخر {# آخرون}}' }, post: { mentioned_by_more_text: '{عد} المزيد من الردود.', mentioned_by_self_text: 'أجاب {المستخدمون} على هذا.', mentioned_by_text: 'أجاب {المستخدمون} على هذا.', quote_button: استشهد, others_text: '{العد ، الجمع ، واحد {# آخر} آخر {# آخرون}}', reply_link: أجاب, you_text: أنت }, settings: { notify_post_mentioned_label: 'شخص ما يرد على إحدى مشاركاتي', notify_user_mentioned_label: 'شخص ما يذكرني في وظيفة', notify_group_mentioned_label: 'ذكر شخص ما مجموعة أنا عضو فيها في منشور' }, user: { mentions_link: يذكر }, post_mention: { deleted_text: '[غير معروف]' }, group_mention: { deleted_text: '[مجموعة غير معروفة]' } }
-    email: { post_mentioned: { subject: '{replier_display_name} رد على مشاركتك في {title}', body: "مرحبا {recipient_display_name}!\n\nرد {replier_display_name} على مشاركتك (#{post_number}) في {title}.\n\n{عنوان URL}\n\n---\n\n{المحتوى}\n" }, user_mentioned: { subject: '{mentioner_display_name} ذكرك في {عنوان}', body: "مرحبا {recipient_display_name}!\n\n{mentioner_display_name} ذكرك في منشور في {title}.\n\n{عنوان URL}\n\n---\n\n{المحتوى}\n" }, group_mentioned: { subject: '{mentioner_display_name} ذكر مجموعة أنت عضو فيها في {title}', body: "مرحبا {recipient_display_name}!\n\n{mentioner_display_name} ذكر مجموعة أنت عضو فيها في {title}.\n\n{عنوان URL}\n\n---\n\n{المحتوى}\n" } }
+  forum:
+    composer:
+      mention_tooltip: 'الإشارة إلى مستخدم أو مجموعة أو منشور'
+      reply_to_post_text: 'الرد على #{number}'
+    mentioned_by:
+      title: 'الردود على هذا المنشور'
+      load_more_button: 'عرض المزيد'
+    notifications:
+      post_mentioned_text: '{اسم المستخدم} رد على مشاركتك'
+      user_mentioned_text: '{اسم المستخدم} ذكرك'
+      group_mentioned_text: '{اسم المستخدم} ذكر مجموعة أنت عضو فيها'
+      others_text: '{العد ، الجمع ، واحد {# آخر} آخر {# آخرون}}'
+    post:
+      mentioned_by_more_text: '{عد} المزيد من الردود.'
+      mentioned_by_self_text: 'أجاب {المستخدمون} على هذا.'
+      mentioned_by_text: 'أجاب {المستخدمون} على هذا.'
+      quote_button: استشهد
+      others_text: '{العد ، الجمع ، واحد {# آخر} آخر {# آخرون}}'
+      reply_link: أجاب
+      you_text: أنت
+    settings:
+      notify_post_mentioned_label: 'شخص ما يرد على إحدى مشاركاتي'
+      notify_user_mentioned_label: 'شخص ما يذكرني في وظيفة'
+      notify_group_mentioned_label: 'ذكر شخص ما مجموعة أنا عضو فيها في منشور'
+    user:
+      mentions_link: يذكر
+    post_mention:
+      deleted_text: '[غير معروف]'
+    group_mention:
+      deleted_text: '[مجموعة غير معروفة]'
+  email:
+    post_mentioned:
+      subject: '{replier_display_name} رد على مشاركتك في {title}'
+      body: "مرحبا {recipient_display_name}!\n\nرد {replier_display_name} على مشاركتك (#{post_number}) في {title}.\n\n{عنوان URL}\n\n---\n\n{المحتوى}\n"
+    user_mentioned:
+      subject: '{mentioner_display_name} ذكرك في {عنوان}'
+      body: "مرحبا {recipient_display_name}!\n\n{mentioner_display_name} ذكرك في منشور في {title}.\n\n{عنوان URL}\n\n---\n\n{المحتوى}\n"
+    group_mentioned:
+      subject: '{mentioner_display_name} ذكر مجموعة أنت عضو فيها في {title}'
+      body: "مرحبا {recipient_display_name}!\n\n{mentioner_display_name} ذكر مجموعة أنت عضو فيها في {title}.\n\n{عنوان URL}\n\n---\n\n{المحتوى}\n"
 flarum-subscriptions:
-    forum: { discussion_controls: { unfollow_button: 'إلغاء متابعه', unignore_button: أونسر, follow_button: اتبع }, notifications: { new_post_text: '{اسم المستخدم} نشر' }, settings: { follow_after_reply_label: 'متابعة المناقشات التي أرد عليها تلقائيا', notify_for_all_posts_label: 'الإخطار بكل مشاركة جديدة بدلا من الأخيرة فقط في المناقشة', notify_new_post_label: 'شخص ما ينشر في مناقشة أتابعها' }, sub_controls: { following_text: 'يتم إخطارك بجميع الردود.', ignoring_text: 'لا يتم إخطارك أبدا. إخفاء من قائمة المناقشة.', not_following_button: 'لا يتابع', not_following_text: 'يتم إعلامك فقط عند @mentioned.', notify_alert_tooltip: 'الحصول على إشعار منتدى عند وجود مشاركات جديدة', notify_email_tooltip: 'تلقي بريد إلكتروني عند وجود مشاركات جديدة', follow_button: اتبع, following_button: التاليه, ignoring_button: تجاهل }, badge: { following_tooltip: التاليه, ignoring_tooltip: تجاهل }, following: { meta_title_text: التاليه }, index: { following_link: التاليه } }
-    email: { new_post: { subject: '[منشور جديد] {عنوان}', body: "مرحبا {recipient_display_name}!\n\n{poster_display_name} نشر منشورا في مناقشة تتابعها: {title}.\n\nلعرض النشاط الجديد ، تحقق من الرابط التالي:\n{عنوان URL}\n\n---\n\n{المحتوى}\n\n---\n\nلن تتلقى أي إشعارات أخرى حول هذه المناقشة حتى تكون على اطلاع دائم.\n" } }
-    ref: { follow: اتبع, following: التاليه, ignoring: تجاهل }
+  forum:
+    discussion_controls:
+      unfollow_button: 'إلغاء متابعه'
+      unignore_button: أونسر
+      follow_button: اتبع
+    notifications:
+      new_post_text: '{اسم المستخدم} نشر'
+    settings:
+      follow_after_reply_label: 'متابعة المناقشات التي أرد عليها تلقائيا'
+      notify_for_all_posts_label: 'الإخطار بكل مشاركة جديدة بدلا من الأخيرة فقط في المناقشة'
+      notify_new_post_label: 'شخص ما ينشر في مناقشة أتابعها'
+    sub_controls:
+      following_text: 'يتم إخطارك بجميع الردود.'
+      ignoring_text: 'لا يتم إخطارك أبدا. إخفاء من قائمة المناقشة.'
+      not_following_button: 'لا يتابع'
+      not_following_text: 'يتم إعلامك فقط عند @mentioned.'
+      notify_alert_tooltip: 'الحصول على إشعار منتدى عند وجود مشاركات جديدة'
+      notify_email_tooltip: 'تلقي بريد إلكتروني عند وجود مشاركات جديدة'
+      follow_button: اتبع
+      following_button: التاليه
+      ignoring_button: تجاهل
+    badge:
+      following_tooltip: التاليه
+      ignoring_tooltip: تجاهل
+    following:
+      meta_title_text: التاليه
+    index:
+      following_link: التاليه
+  email:
+    new_post:
+      subject: '[منشور جديد] {عنوان}'
+      body: "مرحبا {recipient_display_name}!\n\n{poster_display_name} نشر منشورا في مناقشة تتابعها: {title}.\n\nلعرض النشاط الجديد ، تحقق من الرابط التالي:\n{عنوان URL}\n\n---\n\n{المحتوى}\n\n---\n\nلن تتلقى أي إشعارات أخرى حول هذه المناقشة حتى تكون على اطلاع دائم.\n"
+  ref:
+    follow: اتبع
+    following: التاليه
+    ignoring: تجاهل
 flarum-flags:
-    forum: { flag_post: { confirmation_message: 'شكرا لك على الإبلاغ عن هذا المنشور. سينظر المشرفون لدينا في الأمر.', reason_details_placeholder: 'تفاصيل إضافية (اختياري)', reason_inappropriate_label: 'غير لائق', reason_inappropriate_text: 'هذا المنشور مسيء أو مسيء أو ينتهك <a>إرشادات المنتدى</a>.', reason_missing_message: 'يرجى تقديم بعض التفاصيل للمشرفين لدينا.', reason_off_topic_label: 'خارج الموضوع', reason_off_topic_text: 'هذه الوظيفة ليست ذات صلة بالمناقشة الحالية ويجب نقلها إلى مكان آخر.', reason_other_label: 'أخرى (يرجى التحديد)', reason_spam_label: 'البريد المزعج', reason_spam_text: 'هذا المنشور هو إعلان.', dismiss_button: موافق, submit_button: 'الإبلاغ عن المشاركة', title: 'الإبلاغ عن المشاركة' }, flagged_posts: { empty_text: 'لا أعلام', item_text: '{اسم المستخدم} في <em>{مناقشة}</em>', title: 'المشاركات التي تم الإبلاغ عنها', tooltip: 'المشاركات التي تم الإبلاغ عنها' }, post: { dismiss_flag_button: 'رفض العلم', flagged_by_text: 'تم وضع علامة عليه بواسطة {اسم المستخدم}', flagged_by_with_reason_text: 'تم وضع علامة عليه بواسطة {username} ك {reason}' }, post_controls: { flag_button: علم } }
-    ref: { flag_post: 'الإبلاغ عن المشاركة', flagged_posts: 'المشاركات التي تم الإبلاغ عنها' }
+  forum:
+    flag_post:
+      confirmation_message: 'شكرا لك على الإبلاغ عن هذا المنشور. سينظر المشرفون لدينا في الأمر.'
+      reason_details_placeholder: 'تفاصيل إضافية (اختياري)'
+      reason_inappropriate_label: 'غير لائق'
+      reason_inappropriate_text: 'هذا المنشور مسيء أو مسيء أو ينتهك <a>إرشادات المنتدى</a>.'
+      reason_missing_message: 'يرجى تقديم بعض التفاصيل للمشرفين لدينا.'
+      reason_off_topic_label: 'خارج الموضوع'
+      reason_off_topic_text: 'هذه الوظيفة ليست ذات صلة بالمناقشة الحالية ويجب نقلها إلى مكان آخر.'
+      reason_other_label: 'أخرى (يرجى التحديد)'
+      reason_spam_label: 'البريد المزعج'
+      reason_spam_text: 'هذا المنشور هو إعلان.'
+      dismiss_button: موافق
+      submit_button: 'الإبلاغ عن المشاركة'
+      title: 'الإبلاغ عن المشاركة'
+    flagged_posts:
+      empty_text: 'لا أعلام'
+      item_text: '{اسم المستخدم} في <em>{مناقشة}</em>'
+      title: 'المشاركات التي تم الإبلاغ عنها'
+      tooltip: 'المشاركات التي تم الإبلاغ عنها'
+    post:
+      dismiss_flag_button: 'رفض العلم'
+      flagged_by_text: 'تم وضع علامة عليه بواسطة {اسم المستخدم}'
+      flagged_by_with_reason_text: 'تم وضع علامة عليه بواسطة {username} ك {reason}'
+    post_controls:
+      flag_button: علم
+  ref:
+    flag_post: 'الإبلاغ عن المشاركة'
+    flagged_posts: 'المشاركات التي تم الإبلاغ عنها'
 flarum-suspend:
-    forum: { notifications: { user_suspended_text: 'لقد تم تعليقك ل {timeReadable}', user_suspended_indefinite_text: 'تم تعليقك إلى أجل غير مسمى', user_unsuspended_text: 'لقد تم إلغاء تعليقك' }, suspension_info: { dismiss_button: أقال, indefinite: 'هذا تعليق إلى أجل غير مسمى', limited: 'سيكون هذا التعليق ساري المفعول حتى {تاريخ}', title: 'تم تعليق هذا الحساب' }, suspend_user: { display_message: 'عرض رسالة للمستخدم', indefinitely_label: 'معلق إلى أجل غير مسمى', limited_time_days_text: ' أيام', limited_time_label: 'معلق لفترة محدودة...', not_suspended_label: 'غير معلق', placeholder_optional: اختياري, reason: 'سبب التعليق', status_heading: 'حالة التعليق', title: 'تعليق {اسم المستخدم}', submit_button: 'حفظ التغييرات' }, user_badge: { suspended_tooltip: معلق }, user_controls: { suspend_button: تعليق } }
-    email: { no_reason_given: 'ولم يعط أي سبب لهذا التعليق.', suspended: { subject: 'تم تعليق حسابك', body: "مرحبا {recipient_display_name} ،\n\nتم إيقافك للسبب التالي:\n\n---\n{suspension_message}\n---\n" }, unsuspended: { subject: 'تم إلغاء تعليق حسابك', body: "مرحبا {recipient_display_name} ،\n\nلقد تم تعليقك. يمكنك العودة إلى المنتدى من خلال النقر على الرابط التالي:\n\n{forum_url}\n" } }
+  forum:
+    notifications:
+      user_suspended_text: 'لقد تم تعليقك ل {timeReadable}'
+      user_suspended_indefinite_text: 'تم تعليقك إلى أجل غير مسمى'
+      user_unsuspended_text: 'لقد تم إلغاء تعليقك'
+    suspension_info:
+      dismiss_button: أقال
+      indefinite: 'هذا تعليق إلى أجل غير مسمى'
+      limited: 'سيكون هذا التعليق ساري المفعول حتى {تاريخ}'
+      title: 'تم تعليق هذا الحساب'
+    suspend_user:
+      display_message: 'عرض رسالة للمستخدم'
+      indefinitely_label: 'معلق إلى أجل غير مسمى'
+      limited_time_days_text: ' أيام'
+      limited_time_label: 'معلق لفترة محدودة...'
+      not_suspended_label: 'غير معلق'
+      placeholder_optional: اختياري
+      reason: 'سبب التعليق'
+      status_heading: 'حالة التعليق'
+      title: 'تعليق {اسم المستخدم}'
+      submit_button: 'حفظ التغييرات'
+    user_badge:
+      suspended_tooltip: معلق
+    user_controls:
+      suspend_button: تعليق
+  email:
+    no_reason_given: 'ولم يعط أي سبب لهذا التعليق.'
+    suspended:
+      subject: 'تم تعليق حسابك'
+      body: "مرحبا {recipient_display_name} ،\n\nتم إيقافك للسبب التالي:\n\n---\n{suspension_message}\n---\n"
+    unsuspended:
+      subject: 'تم إلغاء تعليق حسابك'
+      body: "مرحبا {recipient_display_name} ،\n\nلقد تم تعليقك. يمكنك العودة إلى المنتدى من خلال النقر على الرابط التالي:\n\n{forum_url}\n"
 blomstra-gdpr:
-    lib: { data: { uploads: { export_description: 'جميع الملفات التي تم تحميلها من قبل المستخدم.', anonymize_description: 'إزالة مرجع المستخدم من الملفات التي تم تحميلها. تظل الملفات نفسها في متناول المستخدمين الذين يمكنهم عرضها قبل إخفاء الهوية.', delete_description: 'يحذف جميع الملفات التي تم تحميلها من قبل المستخدم.' }, tagsubscription: { export_description: 'تصدير تفاصيل مستوى الاشتراك لعلامة، إن وجدت.', anonymize_description: 'يزيل اشتراك المستخدم في العلامة.' }, followuser: { export_description: 'تصدير تفاصيل المستخدمين المتابعين والمستخدمين المتابعين.', delete_description: 'يحذف جميع البيانات المتعلقة بالمستخدمين التاليين.', anonymize_description: 'يحذف جميع البيانات المتعلقة بالمستخدمين التاليين.' }, bannedipdata: { export_description: 'إذا كان سجل حظر IP مرتبطا بمستخدم (أي تم حظر المستخدم بواسطة IP) ، تضمين عنوان IP الخاص بالمستخدم في التصدير ، إلى جانب سبب الحظر وتاريخ الإنشاء.', anonymize_description: 'يتم فصل أي عناوين IP مرتبطة بالمستخدم ، ولكن سيظل عنوان IP نفسه محظورا ، إلى جانب السبب. تأكد من عدم تخزين بيانات معلومات تحديد الهوية الشخصية في حقل "السبب".' } } }
+  lib:
+    data:
+      uploads: { export_description: 'جميع الملفات التي تم تحميلها من قبل المستخدم.', anonymize_description: 'إزالة مرجع المستخدم من الملفات التي تم تحميلها. تظل الملفات نفسها في متناول المستخدمين الذين يمكنهم عرضها قبل إخفاء الهوية.', delete_description: 'يحذف جميع الملفات التي تم تحميلها من قبل المستخدم.' }
+      tagsubscription: { export_description: 'تصدير تفاصيل مستوى الاشتراك لعلامة، إن وجدت.', anonymize_description: 'يزيل اشتراك المستخدم في العلامة.' }
+      followuser: { export_description: 'تصدير تفاصيل المستخدمين المتابعين والمستخدمين المتابعين.', delete_description: 'يحذف جميع البيانات المتعلقة بالمستخدمين التاليين.', anonymize_description: 'يحذف جميع البيانات المتعلقة بالمستخدمين التاليين.' }
+      bannedipdata: { export_description: 'إذا كان سجل حظر IP مرتبطا بمستخدم (أي تم حظر المستخدم بواسطة IP) ، تضمين عنوان IP الخاص بالمستخدم في التصدير ، إلى جانب سبب الحظر وتاريخ الإنشاء.', anonymize_description: 'يتم فصل أي عناوين IP مرتبطة بالمستخدم ، ولكن سيظل عنوان IP نفسه محظورا ، إلى جانب السبب. تأكد من عدم تخزين بيانات معلومات تحديد الهوية الشخصية في حقل "السبب".' }
 fof-upload:
-    forum: { media_manager: 'مدير الإعلام', buttons: { attach: ألحق, upload: رفع, upload_shared: مشترك, user_uploads: 'تحميلات المستخدم', cancel: 'إلغاء الأمر', media: 'وسائل الإعلام الخاصة بي', shared_media: 'الوسائط المشتركة' }, states: { error: خطأ, loading: تحميل, unauthorized: 'لا يسمح لك بتنزيل الملفات' }, validation: { max_size: 'لا يتم قبول التحميلات التي تزيد عن {max} kb.' }, text_preview: { expand: 'توسيع المعاينة', collapse: 'طي المعاينة', error: "خطأ في معاينة الملف. ربما تم حذفه أو أن معرف الملف المقدم غير صالح.\n", no_snippet_preview: '<ستظهر المعاينة هنا بعد النشر>', no_snippet: '<لا يتوفر مقتطف معاينة>' } }
-    api: { upload_errors: { forbidden_type: 'لا يسمح بتحميل ملفات من هذا النوع.', unsupported_type: 'لا يدعم محول التحميل نوع mime المتوفر: {mime}.', could_not_detect_mime: 'تعذر الكشف عن نوع MIME لهذا الملف، يرجى المحاولة مرة أخرى.', max_upload_file_size_ini: 'تم الوصول إلى الحد الأقصى لحجم الملف للتحميل من php.ini.', max_upload_file_size_form: 'تحميل الحد الأقصى لحجم الملف الذي تم الوصول إليه من النموذج.', partial_upload: 'تحميل جزئي.', no_file_uploaded: 'لم يتم تحميل أي ملف.', no_upload_tmp_folder: 'لا يوجد مجلد tmp لتحميل الملفات.', cannot_write_to_disk: 'لا يمكن الكتابة على القرص.', upload_blocked_by_php_extension: 'حظر امتداد php التحميل.', no_files_made_it_to_upload: 'يرجى تحميل ملفات لا يزيد حجمها عن {max} kb.' } }
-    lib: { upload-shared-file-modal: { title: 'ملف مشترك جديد', dropzone: 'قم بسحب الملفات وإفلاتها هنا أو انقر للتصفح', hide-from-media-gallery: 'إخفاء من معرض وسائط المستخدم', upload: رفع }, file_list: { loading: 'جاري تحميل الملفات...', empty: 'لا توجد ملفات لإظهارها.', release_to_upload: 'الافراج عن التحميل', modal_empty_desktop: 'قائمة الملفات فارغة. انقر فوق الزر أو اسحب ملفا هنا للتحميل.', modal_empty_phone: 'قائمة الملفات فارغة. اضغط على الزر أعلاه لتحميل ملف.', select_file_a11y_label: 'حدد الملف "{اسم الملف}"', confirm_selection_btn: '{fileCount، جمع، =0 {لم يتم تحديد أي شيء} واحد {تحديد ملف} آخر {تحديد ملفات}}', load_more_files_btn: 'تحميل المزيد من الملفات', delete_file_a11y_label: 'حذف الملف "{اسم الملف}"', delete_confirmation: 'هل أنت متأكد من أنك تريد حذف "{fileName}"؟', hide_file: { btn_a11y_label_hide: 'إخفاء "{fileName}" من مدير الوسائط', btn_a11y_label_show: 'إظهار "{fileName}" في مدير الوسائط', hide_confirmation: 'هل أنت متأكد من أنك تريد إخفاء "{fileName}"؟ سيؤدي إخفاء ملف إلى إزالته فقط من مدير الوسائط ولن يؤثر على المشاركات الحالية.', hide_success: 'الملف مخفي', show_confirmation: 'هل أنت متأكد من أنك تريد إظهار "{fileName}"؟ سيؤدي عرض ملف إلى جعله مرئيا في مدير الوسائط.', show_success: 'الملف معروض', hide_fail: 'تعذر إخفاء الملف "{fileName}"', show_fail: 'تعذر إظهار الملف "{fileName}"', loading: 'إخفاء الملف...' }, hide_shared_file: { btn_a11y_label_hide: 'جعل "{fileName}" خاصا (بدون عنوان URL عام)', btn_a11y_label_show: 'جعل "{fileName}" عاما (مع عنوان URL عام)', hide_confirmation: 'هل أنت متأكد من أنك تريد جعل "{fileName}" خاصا؟ سيؤدي جعل الملف خاصا إلى إزالة عنوان URL العام الخاص به ، ولكنه لن يؤثر في المشاركات الحالية. كما أنه لن يكون مرئيا في مدير الوسائط للمستخدمين غير المصرح لهم.', hide_success: 'جعل الملف خاصا', show_confirmation: 'هل أنت متأكد من أنك تريد جعل "{fileName}" عاما؟ سيؤدي جعل الملف عاما إلى جعله في متناول أي شخص لديه عنوان URL عام ويمكن لأي شخص مشاركته باستخدام مدير الوسائط.', show_success: 'تم نشر الملف على الملأ', hide_fail: 'تعذر جعل الملف "{fileName}" خاصا', show_fail: 'تعذر جعل الملف "{fileName}" عاما', loading: 'جعل الملف خاصا...' } } }
+  forum:
+    media_manager: 'مدير الإعلام'
+    buttons:
+      attach: ألحق
+      upload: رفع
+      upload_shared: مشترك
+      user_uploads: 'تحميلات المستخدم'
+      cancel: 'إلغاء الأمر'
+      media: 'وسائل الإعلام الخاصة بي'
+      shared_media: 'الوسائط المشتركة'
+    states:
+      error: خطأ
+      loading: تحميل
+      unauthorized: 'لا يسمح لك بتنزيل الملفات'
+    validation:
+      max_size: 'لا يتم قبول التحميلات التي تزيد عن {max} kb.'
+    text_preview:
+      expand: 'توسيع المعاينة'
+      collapse: 'طي المعاينة'
+      error: "خطأ في معاينة الملف. ربما تم حذفه أو أن معرف الملف المقدم غير صالح.\n"
+      no_snippet_preview: '<ستظهر المعاينة هنا بعد النشر>'
+      no_snippet: '<لا يتوفر مقتطف معاينة>'
+  api:
+    upload_errors:
+      forbidden_type: 'لا يسمح بتحميل ملفات من هذا النوع.'
+      unsupported_type: 'لا يدعم محول التحميل نوع mime المتوفر: {mime}.'
+      could_not_detect_mime: 'تعذر الكشف عن نوع MIME لهذا الملف، يرجى المحاولة مرة أخرى.'
+      max_upload_file_size_ini: 'تم الوصول إلى الحد الأقصى لحجم الملف للتحميل من php.ini.'
+      max_upload_file_size_form: 'تحميل الحد الأقصى لحجم الملف الذي تم الوصول إليه من النموذج.'
+      partial_upload: 'تحميل جزئي.'
+      no_file_uploaded: 'لم يتم تحميل أي ملف.'
+      no_upload_tmp_folder: 'لا يوجد مجلد tmp لتحميل الملفات.'
+      cannot_write_to_disk: 'لا يمكن الكتابة على القرص.'
+      upload_blocked_by_php_extension: 'حظر امتداد php التحميل.'
+      no_files_made_it_to_upload: 'يرجى تحميل ملفات لا يزيد حجمها عن {max} kb.'
+  lib:
+    upload-shared-file-modal:
+      title: 'ملف مشترك جديد'
+      dropzone: 'قم بسحب الملفات وإفلاتها هنا أو انقر للتصفح'
+      hide-from-media-gallery: 'إخفاء من معرض وسائط المستخدم'
+      upload: رفع
+    file_list:
+      loading: 'جاري تحميل الملفات...'
+      empty: 'لا توجد ملفات لإظهارها.'
+      release_to_upload: 'الافراج عن التحميل'
+      modal_empty_desktop: 'قائمة الملفات فارغة. انقر فوق الزر أو اسحب ملفا هنا للتحميل.'
+      modal_empty_phone: 'قائمة الملفات فارغة. اضغط على الزر أعلاه لتحميل ملف.'
+      select_file_a11y_label: 'حدد الملف "{اسم الملف}"'
+      confirm_selection_btn: '{fileCount، جمع، =0 {لم يتم تحديد أي شيء} واحد {تحديد ملف} آخر {تحديد ملفات}}'
+      load_more_files_btn: 'تحميل المزيد من الملفات'
+      delete_file_a11y_label: 'حذف الملف "{اسم الملف}"'
+      delete_confirmation: 'هل أنت متأكد من أنك تريد حذف "{fileName}"؟'
+      hide_file: { btn_a11y_label_hide: 'إخفاء "{fileName}" من مدير الوسائط', btn_a11y_label_show: 'إظهار "{fileName}" في مدير الوسائط', hide_confirmation: 'هل أنت متأكد من أنك تريد إخفاء "{fileName}"؟ سيؤدي إخفاء ملف إلى إزالته فقط من مدير الوسائط ولن يؤثر على المشاركات الحالية.', hide_success: 'الملف مخفي', show_confirmation: 'هل أنت متأكد من أنك تريد إظهار "{fileName}"؟ سيؤدي عرض ملف إلى جعله مرئيا في مدير الوسائط.', show_success: 'الملف معروض', hide_fail: 'تعذر إخفاء الملف "{fileName}"', show_fail: 'تعذر إظهار الملف "{fileName}"', loading: 'إخفاء الملف...' }
+      hide_shared_file: { btn_a11y_label_hide: 'جعل "{fileName}" خاصا (بدون عنوان URL عام)', btn_a11y_label_show: 'جعل "{fileName}" عاما (مع عنوان URL عام)', hide_confirmation: 'هل أنت متأكد من أنك تريد جعل "{fileName}" خاصا؟ سيؤدي جعل الملف خاصا إلى إزالة عنوان URL العام الخاص به ، ولكنه لن يؤثر في المشاركات الحالية. كما أنه لن يكون مرئيا في مدير الوسائط للمستخدمين غير المصرح لهم.', hide_success: 'جعل الملف خاصا', show_confirmation: 'هل أنت متأكد من أنك تريد جعل "{fileName}" عاما؟ سيؤدي جعل الملف عاما إلى جعله في متناول أي شخص لديه عنوان URL عام ويمكن لأي شخص مشاركته باستخدام مدير الوسائط.', show_success: 'تم نشر الملف على الملأ', hide_fail: 'تعذر جعل الملف "{fileName}" خاصا', show_fail: 'تعذر جعل الملف "{fileName}" عاما', loading: 'جعل الملف خاصا...' }
 flarum-bbcode:
-    forum: { quote: { wrote: كتب } }
+  forum:
+    quote:
+      wrote: كتب
 flarum-markdown:
-    lib: { composer: { bold_tooltip: 'إضافة نص غامق', code_tooltip: 'أدخل الرمز', header_tooltip: 'إضافة نص رأس الصفحة', image_tooltip: 'إضافة صورة', italic_tooltip: 'إضافة نص مائل', link_tooltip: 'إضافة رابط', ordered_list_tooltip: 'إضافة قائمة ذات تعداد رقمي', quote_tooltip: 'إدراج اقتباس', spoiler_tooltip: 'إدراج جناح', strikethrough_tooltip: 'إضافة نص يتوسطه خط', unordered_list_tooltip: 'إضافة قائمة ذات تعداد نقطي' } }
+  lib:
+    composer:
+      bold_tooltip: 'إضافة نص غامق'
+      code_tooltip: 'أدخل الرمز'
+      header_tooltip: 'إضافة نص رأس الصفحة'
+      image_tooltip: 'إضافة صورة'
+      italic_tooltip: 'إضافة نص مائل'
+      link_tooltip: 'إضافة رابط'
+      ordered_list_tooltip: 'إضافة قائمة ذات تعداد رقمي'
+      quote_tooltip: 'إدراج اقتباس'
+      spoiler_tooltip: 'إدراج جناح'
+      strikethrough_tooltip: 'إضافة نص يتوسطه خط'
+      unordered_list_tooltip: 'إضافة قائمة ذات تعداد نقطي'
 fof-follow-tags:
-    forum: { settings: { notify_new_discussion_label: 'ينشئ شخص ما مناقشة في علامة أتابعها', notify_new_post_label: 'ينشر شخص ما في علامة أتابعها', notify_new_discussion_tag_label: 'يقوم شخص ما بإعادة وضع علامة على مناقشة إلى علامة أتابعها' }, index: { follow_tag_button: اتبع, unfollow_tag_button: 'توقف عن المتابعة', following: { following_none_label: 'المناقشات التالية', following_tags_label: 'العلامات المتبعة' } }, badge: { following_tag_tooltip: التاليه, lurking_tag_tooltip: الكامنه }, sub_controls: { header: 'الاشتراك في {tagName}', subscription_label: 'حدد مستوى اشتراكك في {tagName}', following_text: 'يتم إعلامك بجميع المناقشات الجديدة.', hiding_text: 'إخفاء المناقشات من صفحة كافة المناقشات.', ignoring_text: 'لا يتم إخطارك أبدا.', lurking_text: 'يتم إعلامك بجميع المناقشات والردود الجديدة.', not_following_button: 'لا يتابع', not_following_text: 'يتم إعلامك فقط عند @mentioned.', notify_alert_tooltip: 'الحصول على إشعار منتدى عند وجود مناقشات أو مشاركات جديدة', notify_email_tooltip: 'تلقي بريد إلكتروني عند وجود مناقشات أو مشاركات جديدة', submit_button: 'تأكيد الاشتراك', follow_button: اتبع, following_button: التاليه, hiding_button: اختباء, ignoring_button: تجاهل, lurking_button: الكامنه }, notifications: { new_discussion_text: '{اسم المستخدم} بدأ', new_post_text: '{اسم المستخدم} نشر', new_discussion_tag_text: '{اسم المستخدم} غير العلامة' }, user: { settings: { heading: 'متابعة العلامات', filter_label: 'ما يجب إظهاره افتراضيا في الصفحة التالية' } } }
-    email: { subject: { newDiscussionInTag: '[علامة | مناقشة جديدة] {عنوان}', newPostInTag: '[علامة | منشور جديد] {عنوان}', newDiscussionTag: '[علامة | تم تغيير العلامة] {العنوان}' }, body: { newDiscussionInTag: "مرحبا {recipient_display_name} ،\n\n{actor_display_name} بدء مناقشة في علامة تتابعها: {discussion_title}\n\nللاطلاع على المناقشة الجديدة، يرجى الاطلاع على الرابط التالي:\n{discussion_url}\n\n---\n\n{post_content}\n", newPostInTag: "مرحبا {recipient_display_name} ،\n\n{actor_display_name} نشر في مناقشة حول علامة تتابعها: {discussion_title}\n\nلعرض النشاط الجديد ، تحقق من الرابط التالي:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nلن تتلقى أي إشعارات أخرى حول هذه المناقشة حتى تكون على اطلاع دائم.\n", newDiscussionTag: "مرحبا {recipient_display_name} ،\n\n{actor_display_name} قام للتو بتغيير العلامة في مناقشة بواسطة {author_display_name} إلى علامة تتابعها {discussion_title}\n\nللاطلاع على المناقشة الجديدة، يرجى الاطلاع على الرابط التالي:\n{discussion_url}\n" } }
-    ref: { follow: اتبع, following: التاليه, hiding: اختباء, ignoring: تجاهل, lurking: الكامنه, filtering_options: { none: 'المناقشات التالية', tags: 'العلامات المتبعة' } }
+  forum:
+    settings:
+      notify_new_discussion_label: 'ينشئ شخص ما مناقشة في علامة أتابعها'
+      notify_new_post_label: 'ينشر شخص ما في علامة أتابعها'
+      notify_new_discussion_tag_label: 'يقوم شخص ما بإعادة وضع علامة على مناقشة إلى علامة أتابعها'
+    index:
+      follow_tag_button: اتبع
+      unfollow_tag_button: 'توقف عن المتابعة'
+      following: { following_none_label: 'المناقشات التالية', following_tags_label: 'العلامات المتبعة' }
+    badge:
+      following_tag_tooltip: التاليه
+      lurking_tag_tooltip: الكامنه
+    sub_controls:
+      header: 'الاشتراك في {tagName}'
+      subscription_label: 'حدد مستوى اشتراكك في {tagName}'
+      following_text: 'يتم إعلامك بجميع المناقشات الجديدة.'
+      hiding_text: 'إخفاء المناقشات من صفحة كافة المناقشات.'
+      ignoring_text: 'لا يتم إخطارك أبدا.'
+      lurking_text: 'يتم إعلامك بجميع المناقشات والردود الجديدة.'
+      not_following_button: 'لا يتابع'
+      not_following_text: 'يتم إعلامك فقط عند @mentioned.'
+      notify_alert_tooltip: 'الحصول على إشعار منتدى عند وجود مناقشات أو مشاركات جديدة'
+      notify_email_tooltip: 'تلقي بريد إلكتروني عند وجود مناقشات أو مشاركات جديدة'
+      submit_button: 'تأكيد الاشتراك'
+      follow_button: اتبع
+      following_button: التاليه
+      hiding_button: اختباء
+      ignoring_button: تجاهل
+      lurking_button: الكامنه
+    notifications:
+      new_discussion_text: '{اسم المستخدم} بدأ'
+      new_post_text: '{اسم المستخدم} نشر'
+      new_discussion_tag_text: '{اسم المستخدم} غير العلامة'
+    user:
+      settings: { heading: 'متابعة العلامات', filter_label: 'ما يجب إظهاره افتراضيا في الصفحة التالية' }
+  email:
+    subject:
+      newDiscussionInTag: '[علامة | مناقشة جديدة] {عنوان}'
+      newPostInTag: '[علامة | منشور جديد] {عنوان}'
+      newDiscussionTag: '[علامة | تم تغيير العلامة] {العنوان}'
+    body:
+      newDiscussionInTag: "مرحبا {recipient_display_name} ،\n\n{actor_display_name} بدء مناقشة في علامة تتابعها: {discussion_title}\n\nللاطلاع على المناقشة الجديدة، يرجى الاطلاع على الرابط التالي:\n{discussion_url}\n\n---\n\n{post_content}\n"
+      newPostInTag: "مرحبا {recipient_display_name} ،\n\n{actor_display_name} نشر في مناقشة حول علامة تتابعها: {discussion_title}\n\nلعرض النشاط الجديد ، تحقق من الرابط التالي:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nلن تتلقى أي إشعارات أخرى حول هذه المناقشة حتى تكون على اطلاع دائم.\n"
+      newDiscussionTag: "مرحبا {recipient_display_name} ،\n\n{actor_display_name} قام للتو بتغيير العلامة في مناقشة بواسطة {author_display_name} إلى علامة تتابعها {discussion_title}\n\nللاطلاع على المناقشة الجديدة، يرجى الاطلاع على الرابط التالي:\n{discussion_url}\n"
+  ref:
+    follow: اتبع
+    following: التاليه
+    hiding: اختباء
+    ignoring: تجاهل
+    lurking: الكامنه
+    filtering_options:
+      none: 'المناقشات التالية'
+      tags: 'العلامات المتبعة'
 flarum-nicknames:
-    api: { invalid_nickname_message: 'هذا اللقب غير صالح. يرجى الاتصال بمسؤول المنتدى للحصول على مزيد من المعلومات حول قواعد اللقب.' }
-    ref: { change_nickname: 'تغيير الاسم المستعار', nickname: لقب }
-    forum: { change_nickname: { submit_button: 'حفظ التغييرات', title: 'تغيير الاسم المستعار' }, edit_user: { nicknames_heading: 'تغيير الاسم المستعار', nicknames_text: لقب }, settings: { change_nickname_button: 'تغيير الاسم المستعار' }, sign_up: { nickname_placeholder: لقب } }
+  api:
+    invalid_nickname_message: 'هذا اللقب غير صالح. يرجى الاتصال بمسؤول المنتدى للحصول على مزيد من المعلومات حول قواعد اللقب.'
+  ref:
+    change_nickname: 'تغيير الاسم المستعار'
+    nickname: لقب
+  forum:
+    change_nickname:
+      submit_button: 'حفظ التغييرات'
+      title: 'تغيير الاسم المستعار'
+    edit_user:
+      nicknames_heading: 'تغيير الاسم المستعار'
+      nicknames_text: لقب
+    settings:
+      change_nickname_button: 'تغيير الاسم المستعار'
+    sign_up:
+      nickname_placeholder: لقب
 fof-oauth:
-    forum: { log_in: { with_button: 'تسجيل الدخول باستخدام {مزود}', with_discord_button: 'تسجيل الدخول باستخدام {مزود}', with_facebook_button: 'تسجيل الدخول باستخدام {مزود}', with_github_button: 'تسجيل الدخول باستخدام {مزود}', with_gitlab_button: 'تسجيل الدخول باستخدام {مزود}', with_google_button: 'تسجيل الدخول باستخدام {مزود}', with_linkedin_button: 'تسجيل الدخول باستخدام {مزود}', with_twitter_button: 'تسجيل الدخول باستخدام {مزود}' }, user: { settings: { linked-account: { label: 'الحسابات المرتبطة', last-used-label: 'اخر استخدام', link-created-label: 'تم إنشاء الرابط', orphaned-account: 'لقد قمت بتسجيل الدخول من خلال هذا الموفر مسبقا ، ولكن هذا المنتدى قام بتعطيل تسجيل الدخول بهذه الطريقة منذ ذلك الحين.', help: 'تسمح لك هذه الحسابات المرتبطة بتسجيل الدخول إلى المنتدى باستخدام موفرين آخرين.', identifier-label: '{مزود} معرف', unlink-confirm: 'هل أنت متأكد من أنك تريد إزالة الرابط مع {provider}؟ لن تتمكن بعد الآن من تسجيل الدخول إلى هذا المنتدى ما لم تقم بإعادة المصادقة في المستقبل.' } } }, signup: { username_help: 'الرجاء اختيار اسم مستخدم ليكون معروفا من هنا' }, unlink: 'إزالة الرابط', error: { bad_verification_code: 'رمز التحقق غير صالح أو منتهي الصلاحية. يرجى المحاولة مرة أخرى.', invalid_state: 'حالة غير صالحة. يرجى المحاولة مرة أخرى.' }, providers: { discord: الخلاف, facebook: 'فيس بوك', github: جيثب, gitlab: 'جيت لاب', google: جوجل, linkedin: 'لينكد إن', twitter: التغريد } }
-    lib: { providers: { discord: الخلاف, facebook: 'فيس بوك', github: جيثب, gitlab: 'جيت لاب', twitter: التغريد, google: جوجل, linkedin: 'لينكد إن' } }
-    ref: { settings: { app_id: 'معرف التطبيق', app_secret: 'سر التطبيق', client_id: 'معرف العميل', client_secret: 'سر العميل' } }
+  forum:
+    log_in:
+      with_button: 'تسجيل الدخول باستخدام {مزود}'
+      with_discord_button: 'تسجيل الدخول باستخدام {مزود}'
+      with_facebook_button: 'تسجيل الدخول باستخدام {مزود}'
+      with_github_button: 'تسجيل الدخول باستخدام {مزود}'
+      with_gitlab_button: 'تسجيل الدخول باستخدام {مزود}'
+      with_google_button: 'تسجيل الدخول باستخدام {مزود}'
+      with_linkedin_button: 'تسجيل الدخول باستخدام {مزود}'
+      with_twitter_button: 'تسجيل الدخول باستخدام {مزود}'
+    user:
+      settings: { linked-account: { label: 'الحسابات المرتبطة', last-used-label: 'اخر استخدام', link-created-label: 'تم إنشاء الرابط', orphaned-account: 'لقد قمت بتسجيل الدخول من خلال هذا الموفر مسبقا ، ولكن هذا المنتدى قام بتعطيل تسجيل الدخول بهذه الطريقة منذ ذلك الحين.', help: 'تسمح لك هذه الحسابات المرتبطة بتسجيل الدخول إلى المنتدى باستخدام موفرين آخرين.', identifier-label: '{مزود} معرف', unlink-confirm: 'هل أنت متأكد من أنك تريد إزالة الرابط مع {provider}؟ لن تتمكن بعد الآن من تسجيل الدخول إلى هذا المنتدى ما لم تقم بإعادة المصادقة في المستقبل.' } }
+    signup:
+      username_help: 'الرجاء اختيار اسم مستخدم ليكون معروفا من هنا'
+    unlink: 'إزالة الرابط'
+    error:
+      bad_verification_code: 'رمز التحقق غير صالح أو منتهي الصلاحية. يرجى المحاولة مرة أخرى.'
+      invalid_state: 'حالة غير صالحة. يرجى المحاولة مرة أخرى.'
+    providers:
+      discord: الخلاف
+      facebook: 'فيس بوك'
+      github: جيثب
+      gitlab: 'جيت لاب'
+      google: جوجل
+      linkedin: 'لينكد إن'
+      twitter: التغريد
+  lib:
+    providers:
+      discord: الخلاف
+      facebook: 'فيس بوك'
+      github: جيثب
+      gitlab: 'جيت لاب'
+      twitter: التغريد
+      google: جوجل
+      linkedin: 'لينكد إن'
+  ref:
+    settings:
+      app_id: 'معرف التطبيق'
+      app_secret: 'سر التطبيق'
+      client_id: 'معرف العميل'
+      client_secret: 'سر العميل'
 fof-impersonate:
-    forum: { modal: { title: 'تسجيل الدخول كمستخدم آخر', label: 'مع القوة العظمى تأتي مسؤولية كبيرة. من خلال المتابعة ، ستصبح {اسم المستخدم} حتى تقوم بتسجيل الخروج.', placeholder_optional: '(اختياري) قدم سبب التبديل إلى هذا المستخدم', placeholder_required: 'يجب عليك تقديم سبب التبديل إلى هذا المستخدم قبل المتابعة', impersonate_username: 'تسجيل الدخول باسم {اسم المستخدم}' }, user_controls: { impersonate_button: 'تسجيل الدخول كمستخدم' } }
+  forum:
+    modal:
+      title: 'تسجيل الدخول كمستخدم آخر'
+      label: 'مع القوة العظمى تأتي مسؤولية كبيرة. من خلال المتابعة ، ستصبح {اسم المستخدم} حتى تقوم بتسجيل الخروج.'
+      placeholder_optional: '(اختياري) قدم سبب التبديل إلى هذا المستخدم'
+      placeholder_required: 'يجب عليك تقديم سبب التبديل إلى هذا المستخدم قبل المتابعة'
+      impersonate_username: 'تسجيل الدخول باسم {اسم المستخدم}'
+    user_controls:
+      impersonate_button: 'تسجيل الدخول كمستخدم'
 fof-byobu:
-    forum: { badges: { is_private: { tooltip: 'مناقشة خاصة' } }, buttons: { add_recipients: المستلمين, submit: موافق, edit_recipients: 'تحرير المستلمين', send_pd: 'إرسال رسالة إلى {username}', cancel: 'إلغاء الأمر', make_public: 'اجعل هذه المناقشة عامة', remove_from_discussion: 'اترك هذه المناقشة الخاصة' }, composer_private_discussion: { submit_button: 'نشر مناقشة خاصة', title_placeholder: 'عنوان المناقشة الخاصة' }, confirm: { make_public: 'هل أنت متأكد من رغبتك في إزالة المستلمين وجعل هذه المناقشة مرئية لأي شخص يمكنه عرض العلامة المعينة؟' }, labels: { recipients: '{العد، الجمع، واحد {{عد} المستلم} الآخر {{عد} المستلمون}}' }, nav: { start_button: 'ناقش على انفراد', nav_item: 'مناقشات خاصة' }, input: { search_recipients: 'مستلم البحث عن طريق كتابة الأحرف الثلاثة الأولى ...' }, search: { headings: { groups: 'مجموعات الأذونات' } }, modal: { titles: { update_recipients: 'تحديث مستلمي {title}', add_recipients: 'إضافة مستلمين إلى مناقشتك' }, labels: { selected_users: 'المستخدمون المحددون', search_field: 'البحث عن مستخدم' }, help: { add_recipients: 'ستكون هذه المناقشة مرئية فقط للمستخدمين الذين تختارهم هنا. مطلوب ما لا يقل عن 1 مستلم (غيرك).', update_recipients: 'ستكون هذه المناقشة مرئية فقط للمستخدمين الذين تختارهم هنا.', selected_users: 'انقر على اسم المستخدم لإزالته.', click_user_to_remove_tooltip: 'انقر للإزالة' } }, post: { recipients_modified: { added_and_removed: '{اسم المستخدم} تمت إضافة المستلمين {تمت إضافتهم} وإزالة {تمت إزالته}.', added: '{اسم المستخدم} المستلمون المضافون {مضاف}.', made_public: '{username} أزال جميع المستلمين وجعل المناقشة عامة', removed: '{اسم المستخدم} تمت إزالة المستلمين {تمت إزالته}.', removed_self: '{اسم المستخدم} غادر المناقشة الخاصة.' } }, user: { settings: { block_pd: 'حظر المناقشات الخاصة' }, byobu_link: 'مناقشات خاصة', dropdown_label: 'مناقشات خاصة' }, notifications: { pd_label: 'شخص ما يدرجني في مناقشة خاصة جديدة', pd_reply_label: 'شخص ما ينشر في مناقشة خاصة أنا مستلم لها', pd_reply_text: '{اسم المستخدم} نشر في مناقشة خاصة أنت جزء منها', pd_text: '{اسم المستخدم} بدأ مناقشة خاصة جديدة معك', pd_user_left_label: 'يترك المستخدم المستلم مناقشة خاصة أنا جزء منها', pd_user_left_text: '{اسم المستخدم} غادر المناقشة الخاصة', pd_added_text: '{اسم المستخدم} أضافك إلى مناقشة خاصة', pd_added_label: 'شخص ما يضيفني إلى مناقشة خاصة موجودة' } }
-    email: { subject: { private_discussion_created: '[مناقشة خاصة] {display_name} بدأت مناقشة خاصة جديدة معك', private_discussion_replied: '[مناقشة خاصة] {display_name} نشر في مناقشة خاصة', recipient_removed: '[مناقشة خاصة] {display_name} غادر المناقشة', private_discussion_added: '[مناقشة خاصة] {display_name} أضافك إلى مناقشة خاصة' }, body: { private_discussion_created: "مرحبا {recipient_display_name} ،\n\n{actor_display_name} بدأت مناقشة خاصة جديدة معك كمستلم: {discussion_title}.\n\nشاهده هنا:\n{discussion_url}\n\nقد تحتاج إلى تسجيل الدخول أولا قبل أن تتمكن من الوصول إلى هذا الرابط.\n", private_discussion_replied: "مرحبا {recipient_display_name} ،\n\n{actor_display_name} منشور في مناقشة خاصة معك كمستلم: {discussion_title}.\n\nشاهده هنا:\n{post_url}\n\nقد تحتاج إلى تسجيل الدخول أولا قبل أن تتمكن من الوصول إلى هذا الرابط.\n", recipient_removed: "مرحبا {recipient_display_name} ،\n\n{actor_display_name} غادر المناقشة الخاصة: {discussion_title}. لن يتمكنوا بعد الآن من عرض أي من محتوياته.\n\nشاهده هنا:\n{discussion_url}\n\nقد تحتاج إلى تسجيل الدخول أولا قبل أن تتمكن من الوصول إلى هذا الرابط.\n", private_discussion_added: "مرحبا {recipient_display_name} ،\n\nأضافك {actor_display_name} إلى مناقشة خاصة موجودة: {discussion_title}.\n\nشاهده هنا:\n{discussion_url}\n\nقد تحتاج إلى تسجيل الدخول أولا قبل أن تتمكن من الوصول إلى هذا الرابط.\n" } }
+  forum:
+    badges:
+      is_private: { tooltip: 'مناقشة خاصة' }
+    buttons:
+      add_recipients: المستلمين
+      submit: موافق
+      edit_recipients: 'تحرير المستلمين'
+      send_pd: 'إرسال رسالة إلى {username}'
+      cancel: 'إلغاء الأمر'
+      make_public: 'اجعل هذه المناقشة عامة'
+      remove_from_discussion: 'اترك هذه المناقشة الخاصة'
+    composer_private_discussion:
+      submit_button: 'نشر مناقشة خاصة'
+      title_placeholder: 'عنوان المناقشة الخاصة'
+    confirm:
+      make_public: 'هل أنت متأكد من رغبتك في إزالة المستلمين وجعل هذه المناقشة مرئية لأي شخص يمكنه عرض العلامة المعينة؟'
+    labels:
+      recipients: '{العد، الجمع، واحد {{عد} المستلم} الآخر {{عد} المستلمون}}'
+    nav:
+      start_button: 'ناقش على انفراد'
+      nav_item: 'مناقشات خاصة'
+    input:
+      search_recipients: 'مستلم البحث عن طريق كتابة الأحرف الثلاثة الأولى ...'
+    search:
+      headings: { groups: 'مجموعات الأذونات' }
+    modal:
+      titles: { update_recipients: 'تحديث مستلمي {title}', add_recipients: 'إضافة مستلمين إلى مناقشتك' }
+      labels: { selected_users: 'المستخدمون المحددون', search_field: 'البحث عن مستخدم' }
+      help: { add_recipients: 'ستكون هذه المناقشة مرئية فقط للمستخدمين الذين تختارهم هنا. مطلوب ما لا يقل عن 1 مستلم (غيرك).', update_recipients: 'ستكون هذه المناقشة مرئية فقط للمستخدمين الذين تختارهم هنا.', selected_users: 'انقر على اسم المستخدم لإزالته.', click_user_to_remove_tooltip: 'انقر للإزالة' }
+    post:
+      recipients_modified: { added_and_removed: '{اسم المستخدم} تمت إضافة المستلمين {تمت إضافتهم} وإزالة {تمت إزالته}.', added: '{اسم المستخدم} المستلمون المضافون {مضاف}.', made_public: '{username} أزال جميع المستلمين وجعل المناقشة عامة', removed: '{اسم المستخدم} تمت إزالة المستلمين {تمت إزالته}.', removed_self: '{اسم المستخدم} غادر المناقشة الخاصة.' }
+    user:
+      settings: { block_pd: 'حظر المناقشات الخاصة' }
+      byobu_link: 'مناقشات خاصة'
+      dropdown_label: 'مناقشات خاصة'
+    notifications:
+      pd_label: 'شخص ما يدرجني في مناقشة خاصة جديدة'
+      pd_reply_label: 'شخص ما ينشر في مناقشة خاصة أنا مستلم لها'
+      pd_reply_text: '{اسم المستخدم} نشر في مناقشة خاصة أنت جزء منها'
+      pd_text: '{اسم المستخدم} بدأ مناقشة خاصة جديدة معك'
+      pd_user_left_label: 'يترك المستخدم المستلم مناقشة خاصة أنا جزء منها'
+      pd_user_left_text: '{اسم المستخدم} غادر المناقشة الخاصة'
+      pd_added_text: '{اسم المستخدم} أضافك إلى مناقشة خاصة'
+      pd_added_label: 'شخص ما يضيفني إلى مناقشة خاصة موجودة'
+  email:
+    subject:
+      private_discussion_created: '[مناقشة خاصة] {display_name} بدأت مناقشة خاصة جديدة معك'
+      private_discussion_replied: '[مناقشة خاصة] {display_name} نشر في مناقشة خاصة'
+      recipient_removed: '[مناقشة خاصة] {display_name} غادر المناقشة'
+      private_discussion_added: '[مناقشة خاصة] {display_name} أضافك إلى مناقشة خاصة'
+    body:
+      private_discussion_created: "مرحبا {recipient_display_name} ،\n\n{actor_display_name} بدأت مناقشة خاصة جديدة معك كمستلم: {discussion_title}.\n\nشاهده هنا:\n{discussion_url}\n\nقد تحتاج إلى تسجيل الدخول أولا قبل أن تتمكن من الوصول إلى هذا الرابط.\n"
+      private_discussion_replied: "مرحبا {recipient_display_name} ،\n\n{actor_display_name} منشور في مناقشة خاصة معك كمستلم: {discussion_title}.\n\nشاهده هنا:\n{post_url}\n\nقد تحتاج إلى تسجيل الدخول أولا قبل أن تتمكن من الوصول إلى هذا الرابط.\n"
+      recipient_removed: "مرحبا {recipient_display_name} ،\n\n{actor_display_name} غادر المناقشة الخاصة: {discussion_title}. لن يتمكنوا بعد الآن من عرض أي من محتوياته.\n\nشاهده هنا:\n{discussion_url}\n\nقد تحتاج إلى تسجيل الدخول أولا قبل أن تتمكن من الوصول إلى هذا الرابط.\n"
+      private_discussion_added: "مرحبا {recipient_display_name} ،\n\nأضافك {actor_display_name} إلى مناقشة خاصة موجودة: {discussion_title}.\n\nشاهده هنا:\n{discussion_url}\n\nقد تحتاج إلى تسجيل الدخول أولا قبل أن تتمكن من الوصول إلى هذا الرابط.\n"
 v17development-flarum-badges:
-    forum: { badge_information: 'معلومات الشارة', all_badges: 'الاطلاع على جميع الشارات', all_users: 'عرض جميع المستخدمين', give_badge: 'إعطاء شارة', update_badge: 'تحديث الشارة', select_badge: 'اختر الشارة', user_has_badge: 'يمتلك المستخدم هذه الشارة بالفعل.', user_no_badges: 'هذا المستخدم ليس لديه أي شارات حتى الآن.', no_received: 'لم يحصل أي مستخدم على هذه الشارة.', save_changes: 'حفظ التغييرات', badge: { badge: علم, badges: شارات, name: 'اسم الشارة', description: 'وصف الشارة', earning_reason: 'سبب كسب الشارة', update_earning_reason: 'تحديث سبب الكسب', no_earning_reason: 'لم يتم تحديد سبب للكسب', earned_on: 'الشارة المكتسبة في', category: 'فئة الشارة', received_on: 'تم الاستلام في {التاريخ}', badge_details: 'تفاصيل الشارة', earned_count: '{عدد، جمع، مستخدم واحد {<b>#</b> حصل على هذه الشارة} مستخدمون آخرون {<b>#</b> حصلوا على هذه الشارة}}', earned_by_count: '{العد ، الجمع ، واحد {حصل عليه <b># المستخدم</b>} آخر {حصل عليه <b># المستخدمين</b>}}', others_link: '+ {العد} المزيد' }, badges_in_card: { title: 'الشارات في بطاقة المستخدم', manage_badges: 'إدارة الشارات', description: 'يمكنك تغيير الشارات المرئية في بطاقة المستخدم الخاصة بك بإحدى شاراتك الأخرى. إذا لم تقم بتحديد أي منها، تحديدها تلقائيا.', select_limit: 'يمكنك تحديد {حد، جمع، واحد {<b>شارة واحدة</b>} آخر {<b># شارات</b>}} لتكون مرئية في بطاقة المستخدم الخاصة بك.', hit_limit: 'لا يوجد سوى مكان ل <b> {حد ، جمع ، واحد {<b>شارة واحدة</b>} آخر {<b># شارات</b>}}</b> في بطاقتك. ألغ تحديد شارة لإفساح المجال لهذه الشارة.' }, moderation: { remove_badge: 'إزالة الشارة من المستخدم', remove_badge_confirm: 'هل أنت متأكد من أنك تريد إزالة هذه الشارة من هذا المستخدم؟', give_badge: 'إعطاء شارة' }, notification: { title: 'لقد تلقيت شارة جديدة', settings: 'لقد تلقيت شارة' }, uncategorized: 'غير مصنف' }
+  forum:
+    badge_information: 'معلومات الشارة'
+    all_badges: 'الاطلاع على جميع الشارات'
+    all_users: 'عرض جميع المستخدمين'
+    give_badge: 'إعطاء شارة'
+    update_badge: 'تحديث الشارة'
+    select_badge: 'اختر الشارة'
+    user_has_badge: 'يمتلك المستخدم هذه الشارة بالفعل.'
+    user_no_badges: 'هذا المستخدم ليس لديه أي شارات حتى الآن.'
+    no_received: 'لم يحصل أي مستخدم على هذه الشارة.'
+    save_changes: 'حفظ التغييرات'
+    badge:
+      badge: علم
+      badges: شارات
+      name: 'اسم الشارة'
+      description: 'وصف الشارة'
+      earning_reason: 'سبب كسب الشارة'
+      update_earning_reason: 'تحديث سبب الكسب'
+      no_earning_reason: 'لم يتم تحديد سبب للكسب'
+      earned_on: 'الشارة المكتسبة في'
+      category: 'فئة الشارة'
+      received_on: 'تم الاستلام في {التاريخ}'
+      badge_details: 'تفاصيل الشارة'
+      earned_count: '{عدد، جمع، مستخدم واحد {<b>#</b> حصل على هذه الشارة} مستخدمون آخرون {<b>#</b> حصلوا على هذه الشارة}}'
+      earned_by_count: '{العد ، الجمع ، واحد {حصل عليه <b># المستخدم</b>} آخر {حصل عليه <b># المستخدمين</b>}}'
+      others_link: '+ {العد} المزيد'
+    badges_in_card:
+      title: 'الشارات في بطاقة المستخدم'
+      manage_badges: 'إدارة الشارات'
+      description: 'يمكنك تغيير الشارات المرئية في بطاقة المستخدم الخاصة بك بإحدى شاراتك الأخرى. إذا لم تقم بتحديد أي منها، تحديدها تلقائيا.'
+      select_limit: 'يمكنك تحديد {حد، جمع، واحد {<b>شارة واحدة</b>} آخر {<b># شارات</b>}} لتكون مرئية في بطاقة المستخدم الخاصة بك.'
+      hit_limit: 'لا يوجد سوى مكان ل <b> {حد ، جمع ، واحد {<b>شارة واحدة</b>} آخر {<b># شارات</b>}}</b> في بطاقتك. ألغ تحديد شارة لإفساح المجال لهذه الشارة.'
+    moderation:
+      remove_badge: 'إزالة الشارة من المستخدم'
+      remove_badge_confirm: 'هل أنت متأكد من أنك تريد إزالة هذه الشارة من هذا المستخدم؟'
+      give_badge: 'إعطاء شارة'
+    notification:
+      title: 'لقد تلقيت شارة جديدة'
+      settings: 'لقد تلقيت شارة'
+    uncategorized: 'غير مصنف'
 v17development-flarum-seo:
-    forum: { profile_title: 'الملف الشخصي ل {اسم المستخدم}', profile_description: 'الملف الشخصي ل {اسم المستخدم} | مناقشات {discussion_count} | {comment_count} المشاركات' }
+  forum:
+    profile_title: 'الملف الشخصي ل {اسم المستخدم}'
+    profile_description: 'الملف الشخصي ل {اسم المستخدم} | مناقشات {discussion_count} | {comment_count} المشاركات'
 the-turk-miserable-users:
-    forum: { miserable_user: { title: 'بائسة {اسم المستخدم}', status_heading: 'وضع بائس', not_miserable_label: 'ليس بائسا', indefinitely_label: 'بائسة إلى أجل غير مسمى', limited_time_label: 'بائسة لفترة محدودة ...', limited_time_days_text: ' أيام', submit_button: 'حفظ التغييرات' }, user_badge: { miserable_user_tooltip: 'مستخدم بائس' }, user_controls: { miserable_user_button: 'مستخدم بائس' } }
-    ref: { miserable_user: 'مستخدم بائس' }
+  forum:
+    miserable_user:
+      title: 'بائسة {اسم المستخدم}'
+      status_heading: 'وضع بائس'
+      not_miserable_label: 'ليس بائسا'
+      indefinitely_label: 'بائسة إلى أجل غير مسمى'
+      limited_time_label: 'بائسة لفترة محدودة ...'
+      limited_time_days_text: ' أيام'
+      submit_button: 'حفظ التغييرات'
+    user_badge:
+      miserable_user_tooltip: 'مستخدم بائس'
+    user_controls:
+      miserable_user_button: 'مستخدم بائس'
+  ref:
+    miserable_user: 'مستخدم بائس'
 sycho-profile-cover:
-    forum: { cover: غطاء, edit_cover: 'تحرير الغلاف', notice: 'الحد الأقصى للحجم: {size}', added: { success: 'تم تحديث غلاف الملف الشخصي.', error: 'تعذر تحميل الصورة.' }, removed: { success: 'تمت إزالة غطاء الملف الشخصي.', error: 'تعذر إزالة الغطاء، حاول مرة أخرى لاحقا.' } }
+  forum:
+    cover: غطاء
+    edit_cover: 'تحرير الغلاف'
+    notice: 'الحد الأقصى للحجم: {size}'
+    added:
+      success: 'تم تحديث غلاف الملف الشخصي.'
+      error: 'تعذر تحميل الصورة.'
+    removed:
+      success: 'تمت إزالة غطاء الملف الشخصي.'
+      error: 'تعذر إزالة الغطاء، حاول مرة أخرى لاحقا.'
 sycho-photoswipe: null
 nearata-tags-color-generator: null
 nearata-prevent-double-posting:
-    forum: { exception: { too_many_replies: 'لا يسمح بأكثر من {عد} ردود متتالية. يرجى تعديل ردك السابق بدلا من ذلك ، أو انتظر حتى يرد عليك شخص ما.' } }
+  forum:
+    exception:
+      too_many_replies: 'لا يسمح بأكثر من {عد} ردود متتالية. يرجى تعديل ردك السابق بدلا من ذلك ، أو انتظر حتى يرد عليك شخص ما.'
 nearata-copy-code-to-clipboard:
-    forum: { copy: 'نسخ إلى الحافظة' }
+  forum:
+    copy: 'نسخ إلى الحافظة'
 migratetoflarum-canonical: null
 michaelbelgium-flarum-profile-views:
-    forum: { user: { viewlist: { title: 'آخر الزوار', guest: ضيف }, view_count_text: '{عدد المشاهدات، الجمع، واحد {عدد المشاهدات} الوقت} آخر {عدد المشاهدات}}' } }
+  forum:
+    user:
+      viewlist: { title: 'آخر الزوار', guest: ضيف }
+      view_count_text: '{عدد المشاهدات، الجمع، واحد {عدد المشاهدات} الوقت} آخر {عدد المشاهدات}}'
 justoverclock-country-flags:
-    forum: { inputCountryCode: 'رمز البلد', saveButton: أنقذ, clickToSelectCountry: 'اختر بلدك', countrySaved: 'البلد أنقذ بنجاح!', field_placeholder: 'تأكيد أعلام الدول', binding_country: 'اكتشفنا أنك لم تقيد مكان وجودك. يرجى ربط بلدك أولا. لا يمكنك نشر الرسائل ومغادرتها إلا بعد ربط بلدك.', binding_country_click: 'انقر الآن' }
+  forum:
+    inputCountryCode: 'رمز البلد'
+    saveButton: أنقذ
+    clickToSelectCountry: 'اختر بلدك'
+    countrySaved: 'البلد أنقذ بنجاح!'
+    field_placeholder: 'تأكيد أعلام الدول'
+    binding_country: 'اكتشفنا أنك لم تقيد مكان وجودك. يرجى ربط بلدك أولا. لا يمكنك نشر الرسائل ومغادرتها إلا بعد ربط بلدك.'
+    binding_country_click: 'انقر الآن'
 username-blacklist:
-    forum: { modal-title: تحذير!, modal-body-first-line: 'تحذير - تم حظر اسم المستخدم <strong>هذا من قبل المسؤول</strong>', modal-body-second-line: 'يرجى اختيار اسم مستخدم آخر لا يخالف إرشادات مجتمعنا وحاول مرة أخرى.' }
-    admin: { blackList: 'اسم المستخدم المدرج في القائمة السوداء', blackList-help: 'اكتب هنا اسم المستخدم الذي تريد حظره أثناء التسجيل (مفصولة بفاصلة)' }
+  forum:
+    modal-title: تحذير!
+    modal-body-first-line: 'تحذير - تم حظر اسم المستخدم <strong>هذا من قبل المسؤول</strong>'
+    modal-body-second-line: 'يرجى اختيار اسم مستخدم آخر لا يخالف إرشادات مجتمعنا وحاول مرة أخرى.'
+  admin:
+    blackList: 'اسم المستخدم المدرج في القائمة السوداء'
+    blackList-help: 'اكتب هنا اسم المستخدم الذي تريد حظره أثناء التسجيل (مفصولة بفاصلة)'
 flarum-ext-socialcards: null
 ianm-synopsis:
-    forum: { user: { settings: { summaries-heading: خلاصه, show-summaries: 'عرض مقتطف من كل مناقشة في قوائم المناقشة (سطح المكتب/الجهاز اللوحي)', show-summaries-mobile: 'عرض مقتطف من كل مناقشة في قوائم المناقشة (الجوال)' } } }
+  forum:
+    user:
+      settings: { summaries-heading: خلاصه, show-summaries: 'عرض مقتطف من كل مناقشة في قوائم المناقشة (سطح المكتب/الجهاز اللوحي)', show-summaries-mobile: 'عرض مقتطف من كل مناقشة في قوائم المناقشة (الجوال)' }
 ianm-syndication:
-    forum: { autodiscovery: { forum_activity: 'نشاط المنتدى', forum_new_discussions: 'مناقشات المنتدى الجديدة', tag_activity: 'نشاط علامة {tag}', tag_new_discussions: 'المناقشات في علامة {tag}', discussion_last_posts: 'هذه المناقشة', user_last_posts: 'المشاركات والتعليقات من قبل هذا المستخدم' }, feeds: { entries: { user_posts: { title_reply: 'رد: {مناقشة}' } }, titles: { main_title: '{forum_name}', main_subtitle: 'آخر المشاركات في المنتدى', main_d_title: 'مناقشات جديدة في {forum_name}', main_d_subtitle: 'أحدث المناقشات في المنتدى', tag_title: 'النشاط في علامة {tag}', tag_subtitle: 'آخر المشاركات في علامة {tag}', tag_d_title: 'مناقشات جديدة في علامة {tag}', tag_d_subtitle: 'أحدث المناقشات في علامة {tag}', discussion_title: '{discussion_name}', discussion_subtitle: 'الرسائل الأخيرة في هذه المناقشة', user_title: '{اسم المستخدم}', user_subtitle: 'أحدث المشاركات والتعليقات من قبل هذا المستخدم.' } }, discussion: { feed_link: علف } }
+  forum:
+    autodiscovery:
+      forum_activity: 'نشاط المنتدى'
+      forum_new_discussions: 'مناقشات المنتدى الجديدة'
+      tag_activity: 'نشاط علامة {tag}'
+      tag_new_discussions: 'المناقشات في علامة {tag}'
+      discussion_last_posts: 'هذه المناقشة'
+      user_last_posts: 'المشاركات والتعليقات من قبل هذا المستخدم'
+    feeds:
+      entries: { user_posts: { title_reply: 'رد: {مناقشة}' } }
+      titles: { main_title: '{forum_name}', main_subtitle: 'آخر المشاركات في المنتدى', main_d_title: 'مناقشات جديدة في {forum_name}', main_d_subtitle: 'أحدث المناقشات في المنتدى', tag_title: 'النشاط في علامة {tag}', tag_subtitle: 'آخر المشاركات في علامة {tag}', tag_d_title: 'مناقشات جديدة في علامة {tag}', tag_d_subtitle: 'أحدث المناقشات في علامة {tag}', discussion_title: '{discussion_name}', discussion_subtitle: 'الرسائل الأخيرة في هذه المناقشة', user_title: '{اسم المستخدم}', user_subtitle: 'أحدث المشاركات والتعليقات من قبل هذا المستخدم.' }
+    discussion:
+      feed_link: علف
 ianm-log-viewer: null
 ianm-html-head: null
 ianm-follow-users:
-    forum: { followed: متبع, followers: '{العد ، الجمع ، واحد {تابع} آخر {أتباع}}', profile_page: { no_following: 'يبدو أنك لا تتابع أي شخص.' }, settings: { notify_new_follower_label: 'شخص ما يتبعني', notify_new_unfollower_label: 'شخص ما يتوقف عن متابعتي', notify_new_discussion_label: 'شخص ما أتابعه يبدأ مناقشة', notify_new_post_label: 'شخص ما أتابعه ينشر في مناقشة حالية', block_follow: 'منع المستخدمين من متابعتي' }, notifications: { new_discussion_text: '{اسم المستخدم} بدأ', new_post_text: '{اسم المستخدم} نشر في مناقشة', new_follower_text: '{اسم المستخدم} تبعك', new_unfollower_text: '{اسم المستخدم} توقف عن متابعتك' }, badge: { label: { follow: 'بعد المناقشات', lurk: 'متابعة كل شيء' } }, filter: { following: 'المستخدمون المتابعون' }, modals: { select_follow_level: { title: 'حدد مستوى المتابعة ل {اسم المستخدم}', description: 'اختر الطريقة التي تريد متابعة <em>{username}</em> بها.', follow_levels_heading: 'متابعة المستويات', follow_select_label: 'اتبع النوع', no_user_attr_provided_err: 'أوه أوه ، حدث خطأ ما أثناء فتح هذا النموذج.', no_user_attr_provided_err_debug: 'لم يتم تمرير أي سمة "مستخدم" إلى نموذج SelectFollowUserLevel عند إنشائه. لا يمكن تقديم مشروط.', save_btn: أنقذ, cancel_btn: 'إلغاء الأمر' } }, profile_link: 'المستخدمون المتابعون', user_controls: { follow_button: اتبع, unfollow_button: 'إلغاء متابعه', change_button: 'تغيير نوع المتابعة' }, index: { follow_tag_button: اتبع, unfollow_tag_button: 'تغيير نوع المتابعة' } }
-    email: { new_discussion_by_user_subject: '[اتبع المستخدم] {عنوان}', new_follower_subject: '[اتبع المستخدم] لديك متابع جديد!', new_post_subject: '[اتبع المستخدم] مشاركة جديدة في {title}', new_discussion_by_user_body: "مرحبا {recipient_display_name} ،\n\n{user_display_name} بدأت مناقشة جديدة: {discussion_title}\n\nللاطلاع على المناقشة الجديدة، يرجى الاطلاع على الرابط التالي:\n\n{discussion_url}\n\n---\n\n{post_content}\n", new_follower_body: "مرحبا {recipient_display_name} ،\n\nبدأ {follower_display_name} في متابعتك، لذا سيتم إعلامهم عند بدء مناقشة جديدة.\n\nلعرض ملفهم الشخصي ، تحقق من الرابط التالي:\n\n{profile_url}\n", new_post_body: "مرحبا {recipient_display_name} ،\n\n{user_display_name} نشر في مناقشة: {discussion_title}\n\nلعرض النشاط الجديد ، تحقق من الرابط التالي:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nلن تتلقى أي إشعارات أخرى حول هذه المناقشة حتى تكون على اطلاع دائم.\n" }
-    lib: { following_link: 'المستخدمون المتابعون', follow: اتبع, change_follow_type: 'تغيير نوع المتابعة', unfollow: 'إلغاء متابعه', follow_levels: { unfollow: { name: 'لا تتبع', description: "لا تتلقى أي إشعارات لنشاط <em>{username}</em>.\n" }, follow: { name: 'متابعة المناقشات', description: "تلقي إشعارات عندما يبدأ <em>{username}</em> مناقشة جديدة جديدة.\n" }, lurk: { name: 'متابعة الكل', description: "تلقي إشعارات عندما يبدأ <em>{username}</em> مناقشة جديدة أو مشاركات داخل أي مناقشة.\n" } } }
+  forum:
+    followed: متبع
+    followers: '{العد ، الجمع ، واحد {تابع} آخر {أتباع}}'
+    profile_page:
+      no_following: 'يبدو أنك لا تتابع أي شخص.'
+    settings:
+      notify_new_follower_label: 'شخص ما يتبعني'
+      notify_new_unfollower_label: 'شخص ما يتوقف عن متابعتي'
+      notify_new_discussion_label: 'شخص ما أتابعه يبدأ مناقشة'
+      notify_new_post_label: 'شخص ما أتابعه ينشر في مناقشة حالية'
+      block_follow: 'منع المستخدمين من متابعتي'
+    notifications:
+      new_discussion_text: '{اسم المستخدم} بدأ'
+      new_post_text: '{اسم المستخدم} نشر في مناقشة'
+      new_follower_text: '{اسم المستخدم} تبعك'
+      new_unfollower_text: '{اسم المستخدم} توقف عن متابعتك'
+    badge:
+      label: { follow: 'بعد المناقشات', lurk: 'متابعة كل شيء' }
+    filter:
+      following: 'المستخدمون المتابعون'
+    modals:
+      select_follow_level: { title: 'حدد مستوى المتابعة ل {اسم المستخدم}', description: 'اختر الطريقة التي تريد متابعة <em>{username}</em> بها.', follow_levels_heading: 'متابعة المستويات', follow_select_label: 'اتبع النوع', no_user_attr_provided_err: 'أوه أوه ، حدث خطأ ما أثناء فتح هذا النموذج.', no_user_attr_provided_err_debug: 'لم يتم تمرير أي سمة "مستخدم" إلى نموذج SelectFollowUserLevel عند إنشائه. لا يمكن تقديم مشروط.', save_btn: أنقذ, cancel_btn: 'إلغاء الأمر' }
+    profile_link: 'المستخدمون المتابعون'
+    user_controls:
+      follow_button: اتبع
+      unfollow_button: 'إلغاء متابعه'
+      change_button: 'تغيير نوع المتابعة'
+    index:
+      follow_tag_button: اتبع
+      unfollow_tag_button: 'تغيير نوع المتابعة'
+  email:
+    new_discussion_by_user_subject: '[اتبع المستخدم] {عنوان}'
+    new_follower_subject: '[اتبع المستخدم] لديك متابع جديد!'
+    new_post_subject: '[اتبع المستخدم] مشاركة جديدة في {title}'
+    new_discussion_by_user_body: "مرحبا {recipient_display_name} ،\n\n{user_display_name} بدأت مناقشة جديدة: {discussion_title}\n\nللاطلاع على المناقشة الجديدة، يرجى الاطلاع على الرابط التالي:\n\n{discussion_url}\n\n---\n\n{post_content}\n"
+    new_follower_body: "مرحبا {recipient_display_name} ،\n\nبدأ {follower_display_name} في متابعتك، لذا سيتم إعلامهم عند بدء مناقشة جديدة.\n\nلعرض ملفهم الشخصي ، تحقق من الرابط التالي:\n\n{profile_url}\n"
+    new_post_body: "مرحبا {recipient_display_name} ،\n\n{user_display_name} نشر في مناقشة: {discussion_title}\n\nلعرض النشاط الجديد ، تحقق من الرابط التالي:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nلن تتلقى أي إشعارات أخرى حول هذه المناقشة حتى تكون على اطلاع دائم.\n"
+  lib:
+    following_link: 'المستخدمون المتابعون'
+    follow: اتبع
+    change_follow_type: 'تغيير نوع المتابعة'
+    unfollow: 'إلغاء متابعه'
+    follow_levels:
+      unfollow: { name: 'لا تتبع', description: "لا تتلقى أي إشعارات لنشاط <em>{username}</em>.\n" }
+      follow: { name: 'متابعة المناقشات', description: "تلقي إشعارات عندما يبدأ <em>{username}</em> مناقشة جديدة جديدة.\n" }
+      lurk: { name: 'متابعة الكل', description: "تلقي إشعارات عندما يبدأ <em>{username}</em> مناقشة جديدة أو مشاركات داخل أي مناقشة.\n" }
 fof-username-request:
-    forum: { nickname_modals: { action: { help_text: 'يرجى التأكد من أن تغيير الاسم المطلوب هذا يتبع إرشادات المنتدى.', decision_title: مقرر, approval_label: صدق, rejected_label: رفض, submit_button: إرسال, reason_title: 'سبب الرفض', success: 'تم إرسال القرار.', name: 'طلب {name} تغيير لقبه إلى "{requestedName}"', title: 'طلب تغيير الاسم المستعار' }, results: { title: 'طلب تغيير الاسم المستعار', approved: 'تمت الموافقة على طلب تغيير الاسم المستعار الخاص بك', new_name: 'تم تغيير اسمك المستعار بنجاح إلى: {name}', rejected: 'تم رفض طلب تغيير اسمك المستعار', reason: 'سبب الرفض: <i>"{السبب}".</i>', resubmit: 'في الوقت الحالي، يمكنك إعادة إرسال طلب تغيير لقب جديد من إعدادات حسابك إذا اخترت ذلك.', dismiss_button: موافق }, request: { title: 'طلب تغيير الاسم المستعار', current_request: 'لقد طلبت بالفعل تغيير لقبك إلى "{name}". يمكنك إما تحديث طلبك أو حذفه.', submit_button: 'إرسال طلب', delete_button: 'حذف الطلب', confirmation_message: 'تم إرسال طلب تغيير اسمك المستعار وهو في انتظار الموافقة.', deleted: 'تم حذف طلب اللقب.', dismiss_button: موافق } }, username_modals: { action: { help_text: 'يرجى التأكد من أن تغيير اسم المستخدم المطلوب هذا يتبع إرشادات المنتدى.', decision_title: مقرر, approval_label: صدق, rejected_label: رفض, submit_button: إرسال, reason_title: 'سبب الرفض', success: 'تم إرسال القرار.', name: 'طلب {name} تغيير اسم المستخدم الخاص به إلى "{requestedName}"', title: 'طلب تغيير اسم المستخدم' }, results: { title: 'طلب تغيير اسم المستخدم', approved: 'تمت الموافقة على طلب تغيير اسم المستخدم الخاص بك', new_name: 'تم تغيير اسم المستخدم الخاص بك بنجاح إلى: {name}', rejected: 'تم رفض طلب تغيير اسم المستخدم الخاص بك', reason: 'سبب الرفض: <i>"{السبب}".</i>', resubmit: 'في هذا الوقت ، يمكنك إعادة إرسال طلب تغيير اسم مستخدم جديد من إعدادات حسابك إذا اخترت ذلك.', dismiss_button: موافق }, request: { title: 'طلب تغيير اسم المستخدم', current_request: 'لقد طلبت بالفعل تغيير اسم المستخدم الخاص بك إلى "{name}". يمكنك إما تحديث طلبك أو حذفه.', submit_button: 'إرسال طلب', delete_button: 'حذف الطلب', confirmation_message: 'تم تقديم طلب تغيير اسم المستخدم الخاص بك وهو في انتظار الموافقة.', deleted: 'تم حذف طلب اسم المستخدم.', dismiss_button: موافق } }, pending_requests: { empty_text: 'لم يتم العثور على طلبات تغيير الاسم.', nickname_item_text: '{name} طلب تغيير الاسم المستعار', nickname_exerpt: 'الاسم المستعار المطلوب: {الاسم المطلوب}', username_item_text: '{name} طلب تغيير اسم المستخدم', username_exerpt: 'اسم المستخدم المطلوب: {الاسم المطلوب}', tooltip: 'طلبات تغيير الاسم', title: 'طلبات تغيير الاسم' }, settings: { nickname_request_button: 'تغيير الاسم المستعار', username_request_button: 'تغيير اسم المستخدم' }, user: { name_history_link: 'تاريخ الاسم' } }
-    ref: { name_change_request: 'طلب تغيير الاسم', name_change_requests: 'طلبات تغيير الاسم', nickname_change_request: 'طلب تغيير الاسم المستعار', nickname_change_requests: 'طلبات تغيير الاسم المستعار', username_change_request: 'طلب تغيير اسم المستخدم', username_change_requests: 'طلبات تغيير اسم المستخدم' }
-    email: { body: { noReasonProvided: 'لم يتم تقديم أي سبب.', approved: "مرحبا {recipient_display_name} ،\n\nتمت الموافقة على طلبك لتغيير اسم المستخدم الخاص بك إلى \"{new_username}\" من قبل {actor_display_name}.\n\nيمكنك الآن تسجيل الدخول باستخدام اسم المستخدم الجديد الخاص بك: {login_url}\n", rejected: "مرحبا {recipient_display_name} ،\n\nتم رفض طلبك لتغيير اسم المستخدم الخاص بك من \"{old_username}\" إلى \"{requested_username}\" بواسطة {actor_display_name}.\n\nالسبب: {السبب}\n" }, subject: { approved: 'وافق {display_name} على تغيير اسم المستخدم الخاص بك إلى {requested_username}', rejected: 'رفض {display_name} تغيير اسم المستخدم إلى {requested_username}' } }
+  forum:
+    nickname_modals:
+      action: { help_text: 'يرجى التأكد من أن تغيير الاسم المطلوب هذا يتبع إرشادات المنتدى.', decision_title: مقرر, approval_label: صدق, rejected_label: رفض, submit_button: إرسال, reason_title: 'سبب الرفض', success: 'تم إرسال القرار.', name: 'طلب {name} تغيير لقبه إلى "{requestedName}"', title: 'طلب تغيير الاسم المستعار' }
+      results: { title: 'طلب تغيير الاسم المستعار', approved: 'تمت الموافقة على طلب تغيير الاسم المستعار الخاص بك', new_name: 'تم تغيير اسمك المستعار بنجاح إلى: {name}', rejected: 'تم رفض طلب تغيير اسمك المستعار', reason: 'سبب الرفض: <i>"{السبب}".</i>', resubmit: 'في الوقت الحالي، يمكنك إعادة إرسال طلب تغيير لقب جديد من إعدادات حسابك إذا اخترت ذلك.', dismiss_button: موافق }
+      request: { title: 'طلب تغيير الاسم المستعار', current_request: 'لقد طلبت بالفعل تغيير لقبك إلى "{name}". يمكنك إما تحديث طلبك أو حذفه.', submit_button: 'إرسال طلب', delete_button: 'حذف الطلب', confirmation_message: 'تم إرسال طلب تغيير اسمك المستعار وهو في انتظار الموافقة.', deleted: 'تم حذف طلب اللقب.', dismiss_button: موافق }
+    username_modals:
+      action: { help_text: 'يرجى التأكد من أن تغيير اسم المستخدم المطلوب هذا يتبع إرشادات المنتدى.', decision_title: مقرر, approval_label: صدق, rejected_label: رفض, submit_button: إرسال, reason_title: 'سبب الرفض', success: 'تم إرسال القرار.', name: 'طلب {name} تغيير اسم المستخدم الخاص به إلى "{requestedName}"', title: 'طلب تغيير اسم المستخدم' }
+      results: { title: 'طلب تغيير اسم المستخدم', approved: 'تمت الموافقة على طلب تغيير اسم المستخدم الخاص بك', new_name: 'تم تغيير اسم المستخدم الخاص بك بنجاح إلى: {name}', rejected: 'تم رفض طلب تغيير اسم المستخدم الخاص بك', reason: 'سبب الرفض: <i>"{السبب}".</i>', resubmit: 'في هذا الوقت ، يمكنك إعادة إرسال طلب تغيير اسم مستخدم جديد من إعدادات حسابك إذا اخترت ذلك.', dismiss_button: موافق }
+      request: { title: 'طلب تغيير اسم المستخدم', current_request: 'لقد طلبت بالفعل تغيير اسم المستخدم الخاص بك إلى "{name}". يمكنك إما تحديث طلبك أو حذفه.', submit_button: 'إرسال طلب', delete_button: 'حذف الطلب', confirmation_message: 'تم تقديم طلب تغيير اسم المستخدم الخاص بك وهو في انتظار الموافقة.', deleted: 'تم حذف طلب اسم المستخدم.', dismiss_button: موافق }
+    pending_requests:
+      empty_text: 'لم يتم العثور على طلبات تغيير الاسم.'
+      nickname_item_text: '{name} طلب تغيير الاسم المستعار'
+      nickname_exerpt: 'الاسم المستعار المطلوب: {الاسم المطلوب}'
+      username_item_text: '{name} طلب تغيير اسم المستخدم'
+      username_exerpt: 'اسم المستخدم المطلوب: {الاسم المطلوب}'
+      tooltip: 'طلبات تغيير الاسم'
+      title: 'طلبات تغيير الاسم'
+    settings:
+      nickname_request_button: 'تغيير الاسم المستعار'
+      username_request_button: 'تغيير اسم المستخدم'
+    user:
+      name_history_link: 'تاريخ الاسم'
+  ref:
+    name_change_request: 'طلب تغيير الاسم'
+    name_change_requests: 'طلبات تغيير الاسم'
+    nickname_change_request: 'طلب تغيير الاسم المستعار'
+    nickname_change_requests: 'طلبات تغيير الاسم المستعار'
+    username_change_request: 'طلب تغيير اسم المستخدم'
+    username_change_requests: 'طلبات تغيير اسم المستخدم'
+  email:
+    body:
+      noReasonProvided: 'لم يتم تقديم أي سبب.'
+      approved: "مرحبا {recipient_display_name} ،\n\nتمت الموافقة على طلبك لتغيير اسم المستخدم الخاص بك إلى \"{new_username}\" من قبل {actor_display_name}.\n\nيمكنك الآن تسجيل الدخول باستخدام اسم المستخدم الجديد الخاص بك: {login_url}\n"
+      rejected: "مرحبا {recipient_display_name} ،\n\nتم رفض طلبك لتغيير اسم المستخدم الخاص بك من \"{old_username}\" إلى \"{requested_username}\" بواسطة {actor_display_name}.\n\nالسبب: {السبب}\n"
+    subject:
+      approved: 'وافق {display_name} على تغيير اسم المستخدم الخاص بك إلى {requested_username}'
+      rejected: 'رفض {display_name} تغيير اسم المستخدم إلى {requested_username}'
 fof-user-bio:
-    forum: { userbioPlaceholder: 'اكتب شيئا عن نفسك', userbioPlaceholderOtherUser: 'اكتب سيرة ذاتية ل {اسم المستخدم}', profile: { cancel_confirm: 'هل أنت متأكد من أنك تريد إلغاء تحرير سيرتك الذاتية؟ ستفقد أي تغييرات أجريتها.', cancel_button: 'إلغاء الأمر', save_button: أنقذ, edit_bio_label: 'تحرير السيرة الذاتية' } }
+  forum:
+    userbioPlaceholder: 'اكتب شيئا عن نفسك'
+    userbioPlaceholderOtherUser: 'اكتب سيرة ذاتية ل {اسم المستخدم}'
+    profile:
+      cancel_confirm: 'هل أنت متأكد من أنك تريد إلغاء تحرير سيرتك الذاتية؟ ستفقد أي تغييرات أجريتها.'
+      cancel_button: 'إلغاء الأمر'
+      save_button: أنقذ
+      edit_bio_label: 'تحرير السيرة الذاتية'
 fof-split:
-    forum: { post: { was_split_to: '{count، جمع، تم تقسيم منشور واحد {{count} إلى {target}.} تم تقسيم منشورات {{count} الأخرى إلى {target}.}}', was_split_from: '{عدد، جمع، واحد {{عد} تم تقسيم منشور من {target}.} تم تقسيم منشورات {{count} أخرى من {target}.}}' }, split: { from: 'انقسام من هنا', to: 'انقسام إلى هنا', cancel: 'إلغاء الانقسام' }, modal: { title: 'انقسام المناقشة', new_discussion_label: 'تحديد عنوان المناقشة الجديدة', submit_button: شق } }
+  forum:
+    post:
+      was_split_to: '{count، جمع، تم تقسيم منشور واحد {{count} إلى {target}.} تم تقسيم منشورات {{count} الأخرى إلى {target}.}}'
+      was_split_from: '{عدد، جمع، واحد {{عد} تم تقسيم منشور من {target}.} تم تقسيم منشورات {{count} أخرى من {target}.}}'
+    split:
+      from: 'انقسام من هنا'
+      to: 'انقسام إلى هنا'
+      cancel: 'إلغاء الانقسام'
+    modal:
+      title: 'انقسام المناقشة'
+      new_discussion_label: 'تحديد عنوان المناقشة الجديدة'
+      submit_button: شق
 fof-socialprofile:
-    forum: { edit: { edit: 'قم بتحرير أزرار الوسائط الاجتماعية الخاصة بك', add: 'أضف أزرارا إلى وسائل التواصل الاجتماعي الخاصة بك', headtitle: 'أزرار التحرير', title: عنوان, url: الرابط, submit: أنقذ, delete: حذف, deletetitle: 'الزر "حذف"', save_disabled_fetching_favicons: 'يتم جلب رمز واحد أو أكثر. الرجاء الانتظار.', favicon: فافيكون, grey_favicon: 'رمادي فافيكون' } }
+  forum:
+    edit:
+      edit: 'قم بتحرير أزرار الوسائط الاجتماعية الخاصة بك'
+      add: 'أضف أزرارا إلى وسائل التواصل الاجتماعي الخاصة بك'
+      headtitle: 'أزرار التحرير'
+      title: عنوان
+      url: الرابط
+      submit: أنقذ
+      delete: حذف
+      deletetitle: 'الزر "حذف"'
+      save_disabled_fetching_favicons: 'يتم جلب رمز واحد أو أكثر. الرجاء الانتظار.'
+      favicon: فافيكون
+      grey_favicon: 'رمادي فافيكون'
 fof-sitemap: null
 fof-share-social:
-    forum: { discussion: { share_button: سهم, share_dropdown_accessible_label: 'تبديل القائمة المنسدلة مشاركة المناقشة' }, modal: { title: سهم, copy_button: نسخ } }
-    lib: { networks: { facebook: 'فيس بوك', twitter: التغريد, linkedin: 'لينكد إن', reddit: رديت, whatsapp: 'واتس اب', telegram: برقية, vkontakte: فكونتاكتي, odnoklassniki: Odnoklassniki, my_mail: عالمي, qq: 'ف ف', qzone: 'كيو زون', native: 'حصة أصلية' } }
+  forum:
+    discussion:
+      share_button: سهم
+      share_dropdown_accessible_label: 'تبديل القائمة المنسدلة مشاركة المناقشة'
+    modal:
+      title: سهم
+      copy_button: نسخ
+  lib:
+    networks:
+      facebook: 'فيس بوك'
+      twitter: التغريد
+      linkedin: 'لينكد إن'
+      reddit: رديت
+      whatsapp: 'واتس اب'
+      telegram: برقية
+      vkontakte: فكونتاكتي
+      odnoklassniki: Odnoklassniki
+      my_mail: عالمي
+      qq: 'ف ف'
+      qzone: 'كيو زون'
+      native: 'حصة أصلية'
 fof-recaptcha:
-    forum: { error: 'حدث خطأ أثناء إرسال reCAPTCHA. حاول مرة أخرى.', unknown_error: 'حدث خطأ غير معروف. تحقق من كلمة التحقق وحاول مرة أخرى.' }
+  forum:
+    error: 'حدث خطأ أثناء إرسال reCAPTCHA. حاول مرة أخرى.'
+    unknown_error: 'حدث خطأ غير معروف. تحقق من كلمة التحقق وحاول مرة أخرى.'
 fof-reactions:
-    forum: { disabled-reaction: 'لا يمكنك استخدام رد الفعل هذا الآن ، يرجى تحديث الصفحة', warning: 'تم تحويل رد فعلك', notification: 'تفاعل {اسم المستخدم} مع {رد فعل} على مشاركتك', settings: { notify_post_reacted_label: 'شخص ما يتفاعل مع إحدى مشاركاتي' }, reacting-own-post: 'لا يمكنك الرد على مشاركتك الخاصة', modal: { title: 'ردود الفعل', anonymous_count: '{العد ، الجمع ، واحد {# مستخدم مجهول} آخر {# المستخدمون المجهولون}}', no_reactions: 'لا توجد ردود فعل حتى الآن' }, mod_item: 'عرض ردود الفعل', react_button_label: تفاعل }
+  forum:
+    disabled-reaction: 'لا يمكنك استخدام رد الفعل هذا الآن ، يرجى تحديث الصفحة'
+    warning: 'تم تحويل رد فعلك'
+    notification: 'تفاعل {اسم المستخدم} مع {رد فعل} على مشاركتك'
+    settings:
+      notify_post_reacted_label: 'شخص ما يتفاعل مع إحدى مشاركاتي'
+    reacting-own-post: 'لا يمكنك الرد على مشاركتك الخاصة'
+    modal:
+      title: 'ردود الفعل'
+      anonymous_count: '{العد ، الجمع ، واحد {# مستخدم مجهول} آخر {# المستخدمون المجهولون}}'
+      no_reactions: 'لا توجد ردود فعل حتى الآن'
+    mod_item: 'عرض ردود الفعل'
+    react_button_label: تفاعل
 fof-profile-image-crop:
-    forum: { modal: { error: { failed_to_load_cropper: 'فشل تحميل أداة اقتصاص الصور.', generic_resize: 'حدث خطأ ما أثناء اقتصاص الصورة وتغيير حجمها.', get_image_data: 'فشل في الاقتصاص. تأكد من تعطيل حماية بصمات الأصابع في متصفحك.' }, help_text: "قد يفشل تحميل الصورة إذا كانت إعدادات خصوصية متصفحك صارمة للغاية. إذا كنت تواجه مشكلة، فجرب تعطيل الحماية من بصمات الأصابع. خلاف ذلك ، يمكنك إما <disableResize>تعطيل ضغط الصورة التي تم اقتصاصها</disableResize> أو <disableCrop>تعطيل الاقتصاص تماما</disableCrop>.\n", submit_button: رفع, submit_crop_button: 'اقتصاص وتحميل' } }
+  forum:
+    modal:
+      error: { failed_to_load_cropper: 'فشل تحميل أداة اقتصاص الصور.', generic_resize: 'حدث خطأ ما أثناء اقتصاص الصورة وتغيير حجمها.', get_image_data: 'فشل في الاقتصاص. تأكد من تعطيل حماية بصمات الأصابع في متصفحك.' }
+      help_text: "قد يفشل تحميل الصورة إذا كانت إعدادات خصوصية متصفحك صارمة للغاية. إذا كنت تواجه مشكلة، فجرب تعطيل الحماية من بصمات الأصابع. خلاف ذلك ، يمكنك إما <disableResize>تعطيل ضغط الصورة التي تم اقتصاصها</disableResize> أو <disableCrop>تعطيل الاقتصاص تماما</disableCrop>.\n"
+      submit_button: رفع
+      submit_crop_button: 'اقتصاص وتحميل'
 fof-prevent-necrobumping:
-    forum: { composer: { warning: { title: 'هذه المناقشة أكثر من <b>{وقت}</b> قديم.', description: 'من المحتمل جدا أنه لا يحتاج إلى مزيد من المناقشة وبالتالي فإن الارتطام به لا يخدم أي غرض.', checkbox_label: 'أدرك أن هذه المناقشة قديمة نوعا ما ولكني ما زلت أرغب في الرد.', error: 'هذه المناقشة قديمة جدا بحيث لا يمكن الرد عليها.' } } }
+  forum:
+    composer:
+      warning: { title: 'هذه المناقشة أكثر من <b>{وقت}</b> قديم.', description: 'من المحتمل جدا أنه لا يحتاج إلى مزيد من المناقشة وبالتالي فإن الارتطام به لا يخدم أي غرض.', checkbox_label: 'أدرك أن هذه المناقشة قديمة نوعا ما ولكني ما زلت أرغب في الرد.', error: 'هذه المناقشة قديمة جدا بحيث لا يمكن الرد عليها.' }
 fof-pretty-mail: null
 fof-polls:
-    forum: { days_remaining: 'ينتهي الاستطلاع {الوقت}.', no_permission: 'ليس لديك إذن للتصويت', poll_ended: 'انتهى هذا الاستطلاع.', public_poll: 'عرض الناخبين', max_votes_allowed: 'يسمح الاستطلاع بالتصويت ل {max ، الجمع ، واحد {# option} {# options}} آخر.', composer_discussion: { add_poll: 'إضافة استطلاع', edit_poll: 'تحرير الاستطلاع' }, modal: { add_title: 'إضافة استطلاع رأي', add_option_label: 'إضافة خيار', date_placeholder: 'تاريخ انتهاء الاستطلاع (اختياري)', edit_title: 'تحرير الاستطلاع', include_question: 'يجب عليك تضمين سؤال', max: 'يمكنك الحصول على 10 إجابات كحد أقصى', min: 'يجب عليك تضمين ما لا يقل عن 2 إجابات', no_voters: 'لا يوجد تصويت', option_placeholder: جواب, image_option_placeholder: 'عنوان URL للصورة (اختياري)', options_label: اجابات, public_poll_label: 'السماح للأشخاص بمعرفة من صوت', allow_multiple_votes_label: 'السماح للأشخاص بالتصويت لخيارات متعددة', max_votes_label: 'الحد الأقصى للأصوات لكل مستخدم', max_votes_help: 'اضبط على 0 للسماح للمستخدمين بالتصويت لجميع الخيارات.', question_placeholder: سؤال, submit: إرسال }, moderation: { delete: 'إزالة الاستطلاع', delete_confirm: 'هل أنت متأكد من أنك تريد حذف هذا الاستطلاع؟', edit: 'تحرير الاستطلاع' }, tooltip: { badge: استطلاع, votes: '{عد، جمع، واحد {# صوت} آخر {# أصوات}}' }, votes_modal: { title: الناخبون } }
+  forum:
+    days_remaining: 'ينتهي الاستطلاع {الوقت}.'
+    no_permission: 'ليس لديك إذن للتصويت'
+    poll_ended: 'انتهى هذا الاستطلاع.'
+    public_poll: 'عرض الناخبين'
+    max_votes_allowed: 'يسمح الاستطلاع بالتصويت ل {max ، الجمع ، واحد {# option} {# options}} آخر.'
+    composer_discussion:
+      add_poll: 'إضافة استطلاع'
+      edit_poll: 'تحرير الاستطلاع'
+    modal:
+      add_title: 'إضافة استطلاع رأي'
+      add_option_label: 'إضافة خيار'
+      date_placeholder: 'تاريخ انتهاء الاستطلاع (اختياري)'
+      edit_title: 'تحرير الاستطلاع'
+      include_question: 'يجب عليك تضمين سؤال'
+      max: 'يمكنك الحصول على 10 إجابات كحد أقصى'
+      min: 'يجب عليك تضمين ما لا يقل عن 2 إجابات'
+      no_voters: 'لا يوجد تصويت'
+      option_placeholder: جواب
+      image_option_placeholder: 'عنوان URL للصورة (اختياري)'
+      options_label: اجابات
+      public_poll_label: 'السماح للأشخاص بمعرفة من صوت'
+      allow_multiple_votes_label: 'السماح للأشخاص بالتصويت لخيارات متعددة'
+      max_votes_label: 'الحد الأقصى للأصوات لكل مستخدم'
+      max_votes_help: 'اضبط على 0 للسماح للمستخدمين بالتصويت لجميع الخيارات.'
+      question_placeholder: سؤال
+      submit: إرسال
+    moderation:
+      delete: 'إزالة الاستطلاع'
+      delete_confirm: 'هل أنت متأكد من أنك تريد حذف هذا الاستطلاع؟'
+      edit: 'تحرير الاستطلاع'
+    tooltip:
+      badge: استطلاع
+      votes: '{عد، جمع، واحد {# صوت} آخر {# أصوات}}'
+    votes_modal:
+      title: الناخبون
 fof-nightmode:
-    ref: { auto: 'تلقائي (بناء على خيارات المتصفح أو الجهاز)', light: 'وضع اليوم', dark: 'الوضع الليلي' }
-    forum: { header: { nightmode_button: 'الوضع الليلي' }, user: { settings: { heading: موضوع, description: 'اختر سمة اللون التي تريد استخدامها في المنتدى.', description2: 'سيتم ربط هذا المظهر بحسابك وينطبق على جميع أجهزتك ما لم تقم بالتبديل إلى المفتاح أدناه لإعدادات كل جهاز.', device_specific_setting_checkbox: 'الاستخدام لكل إعدادات الجهاز', device_specific_setting_checkbox_tooltip: 'سيتم حفظ اختيار المظهر الخاص بك بشكل فردي لكل جهاز من أجهزتك.', auto_unsupported: 'متصفحك لا يدعم الوضع المظلم التلقائي.', option_descriptions: { auto: 'سيتم تحديد المظهر الخاص بك تلقائيا بناء على إعدادات المتصفح أو الجهاز. على سبيل المثال ، إذا تم تمكين الوضع المظلم في iOS ، فستكون المنتديات مظلمة أيضا.', day: 'التجربة الكلاسيكية التي اعتدت عليها. أحب واختبارها.', night: 'أنت قليلا من بومة الليل. أنت تراقب المنتدى في الليل ، بينما تنام الطيور والثعالب تصطاد. أو تفضل فقط الألوان الداكنة!' }, options: { auto: 'تلقائي (بناء على خيارات المتصفح أو الجهاز)', day: 'وضع اليوم', night: 'الوضع الليلي' } } }, day: 'وضع اليوم', night: 'الوضع الليلي' }
+  ref:
+    auto: 'تلقائي (بناء على خيارات المتصفح أو الجهاز)'
+    light: 'وضع اليوم'
+    dark: 'الوضع الليلي'
+  forum:
+    header:
+      nightmode_button: 'الوضع الليلي'
+    user:
+      settings: { heading: موضوع, description: 'اختر سمة اللون التي تريد استخدامها في المنتدى.', description2: 'سيتم ربط هذا المظهر بحسابك وينطبق على جميع أجهزتك ما لم تقم بالتبديل إلى المفتاح أدناه لإعدادات كل جهاز.', device_specific_setting_checkbox: 'الاستخدام لكل إعدادات الجهاز', device_specific_setting_checkbox_tooltip: 'سيتم حفظ اختيار المظهر الخاص بك بشكل فردي لكل جهاز من أجهزتك.', auto_unsupported: 'متصفحك لا يدعم الوضع المظلم التلقائي.', option_descriptions: { auto: 'سيتم تحديد المظهر الخاص بك تلقائيا بناء على إعدادات المتصفح أو الجهاز. على سبيل المثال ، إذا تم تمكين الوضع المظلم في iOS ، فستكون المنتديات مظلمة أيضا.', day: 'التجربة الكلاسيكية التي اعتدت عليها. أحب واختبارها.', night: 'أنت قليلا من بومة الليل. أنت تراقب المنتدى في الليل ، بينما تنام الطيور والثعالب تصطاد. أو تفضل فقط الألوان الداكنة!' }, options: { auto: 'تلقائي (بناء على خيارات المتصفح أو الجهاز)', day: 'وضع اليوم', night: 'الوضع الليلي' } }
+    day: 'وضع اليوم'
+    night: 'الوضع الليلي'
 fof-default-user-preferences: null
 fof-moderator-notes:
-    forum: { no_content_given: 'لا يسمح بملاحظة فارغة.', moderatorNotes: { created_text: '{اسم المستخدم} أنشأ هذه الملاحظة في {date}', add_button: 'ملاحظة جديدة', create-heading: 'إنشاء ملاحظة منسق جديدة', dismiss_button: منجز, input_heading: 'أدخل ملاحظاتك ل <strong>{username}</strong>، (تخفيض السعر مدعوم)', noNotes: 'يبدو أنه لا توجد ملاحظات هنا.', submit_button: 'حفظ الملاحظة', delete: حذف, confirm: 'هل أنت متأكد من أنك تريد حذف هذه الملاحظة؟' }, user: { notes: 'ملاحظات المشرف' } }
-    api: { auto_note: '_I التبديل إلى هذا المستخدم:_ {السبب}', auto_note_actor: '_Switched to_ @{اسم المستخدم}: {السبب}', no_reason_provided: 'لم يتم تقديم سبب' }
+  forum:
+    no_content_given: 'لا يسمح بملاحظة فارغة.'
+    moderatorNotes:
+      created_text: '{اسم المستخدم} أنشأ هذه الملاحظة في {date}'
+      add_button: 'ملاحظة جديدة'
+      create-heading: 'إنشاء ملاحظة منسق جديدة'
+      dismiss_button: منجز
+      input_heading: 'أدخل ملاحظاتك ل <strong>{username}</strong>، (تخفيض السعر مدعوم)'
+      noNotes: 'يبدو أنه لا توجد ملاحظات هنا.'
+      submit_button: 'حفظ الملاحظة'
+      delete: حذف
+      confirm: 'هل أنت متأكد من أنك تريد حذف هذه الملاحظة؟'
+    user:
+      notes: 'ملاحظات المشرف'
+  api:
+    auto_note: '_I التبديل إلى هذا المستخدم:_ {السبب}'
+    auto_note_actor: '_Switched to_ @{اسم المستخدم}: {السبب}'
+    no_reason_provided: 'لم يتم تقديم سبب'
 fof-linguist: null
 fof-html-errors: null
 fof-gamification:
-    forum: { votes: التصويت, vote_title: 'إظهار من صوت', nav: { name: تصنيفات }, ranking: { rank: مكان, name: مستخدم, amount: النقاط }, notification: { upvote: '{اسم المستخدم} تم التصويت على مشاركتك', downvote: '{اسم المستخدم} رفض مشاركتك', prefrences: { vote: 'عندما يتم التصويت على إحدى مشاركاتي لأعلى / لأسفل' } }, user: { card: { points: '{العد، الجمع، واحد {{عد} نقطة} أخرى {{عد} نقطة}}' }, rank: '{رتبة}', votes_link: التصويت }, modal: { downvotes_label: 'الناخبون السلبيون:', title: الناخبون, upvotes_label: 'الناخبون:' }, mod_item: 'عرض الناخبين', voters: { none: 'لا يوجد ناخبون حتى الآن', label: الناخبون, label_none: 'لا يوجد ناخبون' }, post: { upvote_button: 'التصويت كمفيد آخر', downvote_button: 'منشور التصويت السلبي' } }
-    email: { body: { postVoted: "مرحبا {recipient_display_name} ،\n\n{actor_display_name} صوتت للتو على مشاركتك في {discussion_title}.\n\nشاهده هنا: {discussion_url}\n" }, subject: { postVoted: 'تم التصويت على مشاركتك من قبل {display_name}' } }
+  forum:
+    votes: التصويت
+    vote_title: 'إظهار من صوت'
+    nav:
+      name: تصنيفات
+    ranking:
+      rank: مكان
+      name: مستخدم
+      amount: النقاط
+    notification:
+      upvote: '{اسم المستخدم} تم التصويت على مشاركتك'
+      downvote: '{اسم المستخدم} رفض مشاركتك'
+      prefrences: { vote: 'عندما يتم التصويت على إحدى مشاركاتي لأعلى / لأسفل' }
+    user:
+      card: { points: '{العد، الجمع، واحد {{عد} نقطة} أخرى {{عد} نقطة}}' }
+      rank: '{رتبة}'
+      votes_link: التصويت
+    modal:
+      downvotes_label: 'الناخبون السلبيون:'
+      title: الناخبون
+      upvotes_label: 'الناخبون:'
+    mod_item: 'عرض الناخبين'
+    voters:
+      none: 'لا يوجد ناخبون حتى الآن'
+      label: الناخبون
+      label_none: 'لا يوجد ناخبون'
+    post:
+      upvote_button: 'التصويت كمفيد آخر'
+      downvote_button: 'منشور التصويت السلبي'
+  email:
+    body:
+      postVoted: "مرحبا {recipient_display_name} ،\n\n{actor_display_name} صوتت للتو على مشاركتك في {discussion_title}.\n\nشاهده هنا: {discussion_url}\n"
+    subject:
+      postVoted: 'تم التصويت على مشاركتك من قبل {display_name}'
 fof-formatting: null
 fof-drafts:
-    console: { scheduled_drafts_disabled: 'المسودات المجدولة معطلة حاليا في الإعدادات.' }
-    ref: { schedule_draft: 'مسودة الجدول الزمني' }
-    forum: { composer: { title: 'حفظ المسودة', saving: حفظ..., saved: حفظ!, exit_alert: 'تجاهل التغييرات على المسودة؟', discard_empty_draft_alert: 'تجاهل مسودة فارغة؟' }, dropdown: { empty_text: 'لم تقم بحفظ أي مسودات', title: مسودات, delete_all_button: 'حذف جميع المسودات', delete_button: 'حذف المسودة', scheduled_icon_tooltip: 'مجدول ل {datetime}', scheduled_icon_tooltip_formatter: 'L [في] LT', alert: 'هل أنت متأكد من أنك تريد حذف مسودتك؟', delete_all_alert: 'هل أنت متأكد من أنك تريد حذف جميع مسوداتك؟', schedule_button: 'مسودة الجدول الزمني', tooltip: مسودات }, schedule_draft_modal: { text: 'جدولة مسودتك للنشر تلقائيا في وقت لاحق!', scheduled_text: 'مجدول حاليا للنشر على {datetime}.', scheduled_error: 'غير قادر على جدولة مسودة: {خطأ}.', unschedule_button: 'إلغاء الجدول الزمني', unschedule_warning: 'هل أنت متأكد من أنك تريد إلغاء جدولة هذه المسودة؟', reschedule_button: 'اعاده جدوله', schedule_button: جدول, schedule_time_preview: 'سيتم نشر هذه المسودة تلقائيا على <b>{datetime}</b>.', schedule_time_preview_formatter: ذ.م.ل, schedule_time_preview_invalid: 'التاريخ و/أو الوقت غير صالحين', title: 'مسودة الجدول الزمني' }, user: { settings: { drafts_heading: مسودات, draft_autosave_enable: 'تمكين الحفظ التلقائي للمسودة؟', draft_autosave_interval_label: 'الفاصل الزمني للحفظ التلقائي (بالثواني)', draft_autosave_interval_button: 'تحديث الفاصل الزمني', draft_autosave_interval_invalid: 'يجب أن يكون الفاصل الزمني عددا صحيحا أكبر من 4.' } } }
+  console:
+    scheduled_drafts_disabled: 'المسودات المجدولة معطلة حاليا في الإعدادات.'
+  ref:
+    schedule_draft: 'مسودة الجدول الزمني'
+  forum:
+    composer:
+      title: 'حفظ المسودة'
+      saving: حفظ...
+      saved: حفظ!
+      exit_alert: 'تجاهل التغييرات على المسودة؟'
+      discard_empty_draft_alert: 'تجاهل مسودة فارغة؟'
+    dropdown:
+      empty_text: 'لم تقم بحفظ أي مسودات'
+      title: مسودات
+      delete_all_button: 'حذف جميع المسودات'
+      delete_button: 'حذف المسودة'
+      scheduled_icon_tooltip: 'مجدول ل {datetime}'
+      scheduled_icon_tooltip_formatter: 'L [في] LT'
+      alert: 'هل أنت متأكد من أنك تريد حذف مسودتك؟'
+      delete_all_alert: 'هل أنت متأكد من أنك تريد حذف جميع مسوداتك؟'
+      schedule_button: 'مسودة الجدول الزمني'
+      tooltip: مسودات
+    schedule_draft_modal:
+      text: 'جدولة مسودتك للنشر تلقائيا في وقت لاحق!'
+      scheduled_text: 'مجدول حاليا للنشر على {datetime}.'
+      scheduled_error: 'غير قادر على جدولة مسودة: {خطأ}.'
+      unschedule_button: 'إلغاء الجدول الزمني'
+      unschedule_warning: 'هل أنت متأكد من أنك تريد إلغاء جدولة هذه المسودة؟'
+      reschedule_button: 'اعاده جدوله'
+      schedule_button: جدول
+      schedule_time_preview: 'سيتم نشر هذه المسودة تلقائيا على <b>{datetime}</b>.'
+      schedule_time_preview_formatter: ذ.م.ل
+      schedule_time_preview_invalid: 'التاريخ و/أو الوقت غير صالحين'
+      title: 'مسودة الجدول الزمني'
+    user:
+      settings: { drafts_heading: مسودات, draft_autosave_enable: 'تمكين الحفظ التلقائي للمسودة؟', draft_autosave_interval_label: 'الفاصل الزمني للحفظ التلقائي (بالثواني)', draft_autosave_interval_button: 'تحديث الفاصل الزمني', draft_autosave_interval_invalid: 'يجب أن يكون الفاصل الزمني عددا صحيحا أكبر من 4.' }
 fof-best-answer:
-    forum: { answered_badge: اجاب, this_best_answer: 'حدد أفضل إجابة', remove_best_answer: 'إلغاء تحديد أفضل إجابة', best_answer_button: 'أفضل إجابة', best_answer_label: 'تعيين بواسطة <a>{اسم المستخدم}</a> {time_set}', errors: { mismatch: 'الوظيفة المختارة غير موجودة في هذه المناقشة.' }, notification: { best_answer_in_discussion: '{اسم المستخدم} تعيين أفضل إجابة في هذه المناقشة', content: 'يرجى تحديد أفضل إجابة إذا تمت الإجابة على سؤالك', awarded: 'تم تعيين مشاركتك كأفضل إجابة بواسطة {username}', preferences: { awarded_best_answer: 'شخص ما يضع منصبي كأفضل إجابة', best_answer_in_discussion: 'تم تعيين أفضل إجابة في مناقشة شاركت فيها', select_best_answer: 'تذكير تلقائي لتحديد أفضل إجابة في مناقشة بدأتها' } }, index: { ask_question: 'اطرح سؤالا', cannot_ask_question: 'لا يمكن طرح سؤال', solved_link: 'المناقشات التي تم حلها', unsolved_link: 'المناقشات التي لم تحل' }, filter: { all_label: 'جميع الأسئلة', solved_label: 'أسئلة محلولة', unsolved_label: 'أسئلة لم تحل', accessible_label: 'اختيار محلول/لم يحل' }, composer: { titlePlaceholder: 'عنوان السؤال' }, user: { best-answer-count: '{العد ، الجمع ، واحد { {عد} أفضل إجابة} أخرى {{عد} أفضل الإجابات}}' }, search: { discussions_solutions_heading: 'مناقشات مع الحلول', all_discussions_solutions_button: 'ابحثوا عن جميع المناقشات مع حلول لـ "الصراخ"' }, discussion: { jump_to_best_answer_button: 'أفضل رد' } }
-    email: { subject: { awarded: 'موقعك تم تحديده كأفضل إجابة بـ "التلاعب بالاسم"', ba-set: 'أفضل إجابة تم تحديدها من قبل {التلاعب بالاسم"', select: 'هل إستطعت أن تجيب على سؤالك؟' }, body: { awarded: "مرحباً\n\nعمل رائع فقط ضعي منصبك كأفضل إجابة في النقاش {المناقشة } شكراً للمساعدة\n\nشاهده هنا\n", ba-set: "مرحباً\n\n{المُمثّل {المُناقشة تُحدّدُ فقط أفضل إجابة في المناقشة: {المناقشة {الملكية}، الذي شاركتَ فيه.\n\nانظر لهذا\n", select: "مرحباً\n\nفقط أطمئن عليك الآن يجب أن يكون لديك الكثير من الردود على سؤالك آمل أن أحدهم ساعدك على حل مشكلتك\n\nإذا كان الأمر كذلك، سيكون مفيداً حقاً للأعضاء في المستقبل إذا أمكنك وضع إجابة أفضل لسؤالك. سيساعد الناس في نفس المشكلة في العثور على الجواب الذي يحتاجونه، و هو أيضاً شكر كبير للأعضاء الذين ساعدوك. إنّهم يعطون وقتهم طواعية، لذا من الجميل أن نخبرهم أنّهم يبليون حسنًا.\n\nVisit the discussion here: {discussion_url}, and select the most appropriate post as the best answer.\n\nشكراً\n" } }
+  forum:
+    answered_badge: اجاب
+    this_best_answer: 'حدد أفضل إجابة'
+    remove_best_answer: 'إلغاء تحديد أفضل إجابة'
+    best_answer_button: 'أفضل إجابة'
+    best_answer_label: 'تعيين بواسطة <a>{اسم المستخدم}</a> {time_set}'
+    errors:
+      mismatch: 'الوظيفة المختارة غير موجودة في هذه المناقشة.'
+    notification:
+      best_answer_in_discussion: '{اسم المستخدم} تعيين أفضل إجابة في هذه المناقشة'
+      content: 'يرجى تحديد أفضل إجابة إذا تمت الإجابة على سؤالك'
+      awarded: 'تم تعيين مشاركتك كأفضل إجابة بواسطة {username}'
+      preferences: { awarded_best_answer: 'شخص ما يضع منصبي كأفضل إجابة', best_answer_in_discussion: 'تم تعيين أفضل إجابة في مناقشة شاركت فيها', select_best_answer: 'تذكير تلقائي لتحديد أفضل إجابة في مناقشة بدأتها' }
+    index:
+      ask_question: 'اطرح سؤالا'
+      cannot_ask_question: 'لا يمكن طرح سؤال'
+      solved_link: 'المناقشات التي تم حلها'
+      unsolved_link: 'المناقشات التي لم تحل'
+    filter:
+      all_label: 'جميع الأسئلة'
+      solved_label: 'أسئلة محلولة'
+      unsolved_label: 'أسئلة لم تحل'
+      accessible_label: 'اختيار محلول/لم يحل'
+    composer:
+      titlePlaceholder: 'عنوان السؤال'
+    user:
+      best-answer-count: '{العد ، الجمع ، واحد { {عد} أفضل إجابة} أخرى {{عد} أفضل الإجابات}}'
+    search:
+      discussions_solutions_heading: 'مناقشات مع الحلول'
+      all_discussions_solutions_button: 'ابحثوا عن جميع المناقشات مع حلول لـ "الصراخ"'
+    discussion:
+      jump_to_best_answer_button: 'أفضل رد'
+  email:
+    subject:
+      awarded: 'موقعك تم تحديده كأفضل إجابة بـ "التلاعب بالاسم"'
+      ba-set: 'أفضل إجابة تم تحديدها من قبل {التلاعب بالاسم"'
+      select: 'هل إستطعت أن تجيب على سؤالك؟'
+    body:
+      awarded: "مرحباً\n\nعمل رائع فقط ضعي منصبك كأفضل إجابة في النقاش {المناقشة } شكراً للمساعدة\n\nشاهده هنا\n"
+      ba-set: "مرحباً\n\n{المُمثّل {المُناقشة تُحدّدُ فقط أفضل إجابة في المناقشة: {المناقشة {الملكية}، الذي شاركتَ فيه.\n\nانظر لهذا\n"
+      select: "مرحباً\n\nفقط أطمئن عليك الآن يجب أن يكون لديك الكثير من الردود على سؤالك آمل أن أحدهم ساعدك على حل مشكلتك\n\nإذا كان الأمر كذلك، سيكون مفيداً حقاً للأعضاء في المستقبل إذا أمكنك وضع إجابة أفضل لسؤالك. سيساعد الناس في نفس المشكلة في العثور على الجواب الذي يحتاجونه، و هو أيضاً شكر كبير للأعضاء الذين ساعدوك. إنّهم يعطون وقتهم طواعية، لذا من الجميل أن نخبرهم أنّهم يبليون حسنًا.\n\nVisit the discussion here: {discussion_url}, and select the most appropriate post as the best answer.\n\nشكراً\n"
 fof-user-directory:
-    lib: { sort: { most_best_answers: 'أفضل الإجابات', least_best_answers: 'أقل أفضل الإجابات' } }
+  lib:
+    sort:
+      most_best_answers: 'أفضل الإجابات'
+      least_best_answers: 'أقل أفضل الإجابات'
 fof-ban-ips:
-    forum: { modal: { ban_options_only_ip: 'حظر عنوان IP الحالي فقط (<code>{ip}</code>)', ban_options_all_ip: 'حظر جميع عناوين IP المستخدمة بواسطة <i>{username}</i>', ban_ip_no_users: 'لن يتم حظر أي شخص آخر' }, user_badge: { banned_tooltip: المحظوره }, ban_ip_button: 'حظر IP', unban_ip_button: 'إلغاء حظر IP', user_controls: { ban_button: الحظر, unban_button: 'إلغاء الحظر' } }
-    error: { banned_ip_message: 'فشل التفويض.', no_ips_found_message: 'لم يتم العثور على IP (عناوين IP) للمستخدم.' }
-    lib: { modal: { check_button: فحص, save_button: أنقذ, ban_ip_confirmation: 'هل أنت متأكد من أنك تريد حظر استخدام عنوان IP هذا في المنتدى؟ سيؤدي هذا إلى حظر المستخدمين الذين لديهم عنوان (عناوين) IP هذه من تسجيل الدخول والتسجيل.', ban_ip_users: '{عدد ، جمع ، واحد {سيتم حظر المستخدم {المستخدمين}} الآخرين {المستخدمين {المستخدمين} سيتم حظره}}', unban_ip_confirmation: 'هل أنت متأكد من أنك تريد إلغاء حظر هذا المستخدم وجميع المستخدمين الآخرين غير المحظورين بواسطة عناوين IP الأخرى؟', unban_options_only_ip: 'فقط إلغاء حظر IP الحالي (<code>{ip}</code>)', unban_options_all_ip: 'إلغاء حظر جميع عناوين IP المستخدمة بواسطة <i>{username}</i>', unban_ip_no_users: 'لن يتم إلغاء حظر أي شخص آخر', unban_ip_users: '{عدد ، جمع ، واحد {مستخدم {مستخدمون} سيتم إلغاء حظره} آخر {مستخدمون {مستخدمون} سيتم إلغاء حظرهم}}', unbanned_ips: 'غير محظور <code>{ips}</code>.', title: 'حظر IP (ق)', unban_title: 'إلغاء حظر IP (ق)', address_label: 'عنوان بروتوكول الإنترنت', reason_label: سبب, ban_button: الحظر, unban_button: 'إلغاء الحظر' } }
-    ref: { ban_label: الحظر, ban_ip_addresses: 'حظر IP (ق)', ban_ip_button: 'حظر IP', unban_label: 'إلغاء الحظر', unban_ip_addresses: 'إلغاء حظر IP (ق)', unban_ip_button: 'إلغاء حظر IP', address_label: 'عنوان بروتوكول الإنترنت', reason_label: سبب }
+  forum:
+    modal:
+      ban_options_only_ip: 'حظر عنوان IP الحالي فقط (<code>{ip}</code>)'
+      ban_options_all_ip: 'حظر جميع عناوين IP المستخدمة بواسطة <i>{username}</i>'
+      ban_ip_no_users: 'لن يتم حظر أي شخص آخر'
+    user_badge:
+      banned_tooltip: المحظوره
+    ban_ip_button: 'حظر IP'
+    unban_ip_button: 'إلغاء حظر IP'
+    user_controls:
+      ban_button: الحظر
+      unban_button: 'إلغاء الحظر'
+  error:
+    banned_ip_message: 'فشل التفويض.'
+    no_ips_found_message: 'لم يتم العثور على IP (عناوين IP) للمستخدم.'
+  lib:
+    modal:
+      check_button: فحص
+      save_button: أنقذ
+      ban_ip_confirmation: 'هل أنت متأكد من أنك تريد حظر استخدام عنوان IP هذا في المنتدى؟ سيؤدي هذا إلى حظر المستخدمين الذين لديهم عنوان (عناوين) IP هذه من تسجيل الدخول والتسجيل.'
+      ban_ip_users: '{عدد ، جمع ، واحد {سيتم حظر المستخدم {المستخدمين}} الآخرين {المستخدمين {المستخدمين} سيتم حظره}}'
+      unban_ip_confirmation: 'هل أنت متأكد من أنك تريد إلغاء حظر هذا المستخدم وجميع المستخدمين الآخرين غير المحظورين بواسطة عناوين IP الأخرى؟'
+      unban_options_only_ip: 'فقط إلغاء حظر IP الحالي (<code>{ip}</code>)'
+      unban_options_all_ip: 'إلغاء حظر جميع عناوين IP المستخدمة بواسطة <i>{username}</i>'
+      unban_ip_no_users: 'لن يتم إلغاء حظر أي شخص آخر'
+      unban_ip_users: '{عدد ، جمع ، واحد {مستخدم {مستخدمون} سيتم إلغاء حظره} آخر {مستخدمون {مستخدمون} سيتم إلغاء حظرهم}}'
+      unbanned_ips: 'غير محظور <code>{ips}</code>.'
+      title: 'حظر IP (ق)'
+      unban_title: 'إلغاء حظر IP (ق)'
+      address_label: 'عنوان بروتوكول الإنترنت'
+      reason_label: سبب
+      ban_button: الحظر
+      unban_button: 'إلغاء الحظر'
+  ref:
+    ban_label: الحظر
+    ban_ip_addresses: 'حظر IP (ق)'
+    ban_ip_button: 'حظر IP'
+    unban_label: 'إلغاء الحظر'
+    unban_ip_addresses: 'إلغاء حظر IP (ق)'
+    unban_ip_button: 'إلغاء حظر IP'
+    address_label: 'عنوان بروتوكول الإنترنت'
+    reason_label: سبب
 fof-anti-spam:
-    forum: { message: { stopforumspam: { blocked: 'تم العثور على تفاصيل تسجيلك في قاعدة بيانات منع البريد العشوائي ، وبالتالي تم حظر تسجيلك.' } }, spammer_modal: { hard_delete_discussions_label: 'حذف المناقشات', hard_delete_discussions_help: 'سيؤدي هذا إلى حذف جميع المناقشات التي بدأها هذا المستخدم نهائيا. عند التعطيل ، سيتم إخفاء المناقشات بدلا من ذلك.', hard_delete_posts_label: 'حذف المشاركات', hard_delete_posts_help: 'سيؤدي هذا إلى حذف جميع المشاركات (التعليقات والردود وما إلى ذلك) التي قام بها هذا المستخدم نهائيا. عند التعطيل ، سيتم إخفاء المشاركات بدلا من ذلك.', hard_delete_user_label: 'حذف مستخدم', hard_delete_user_help: 'سيؤدي هذا إلى حذف المستخدم نهائيا. عند التعطيل ، سيتم تعليق المستخدم بدلا من ذلك.', intro: 'عند وضع علامة على مستخدم كمرسل بريد عشوائي ، سيتم اتخاذ العديد من الإجراءات ، والتي تعتمد على الإضافات المتاحة في منتداك.', move_discussions_tag_label: 'نقل المناقشات إلى علامة معزولة', move_discussions_tag_help: 'سيؤدي هذا إلى نقل جميع المناقشات التي بدأها هذا المستخدم إلى العلامة التي حددتها في إعدادات المنتدى. عند التعطيل ، سيتم ترك المناقشات في علاماتها الحالية.', process_button: عملية, title: 'وضع علامة على {username} كمرسل بريد عشوائي', report_to_sfs_label: 'تقرير إلى StopForumSpam', report_to_sfs_help: 'سيؤدي هذا إلى الإبلاغ عن التفاصيل الأساسية للمستخدم (اسم المستخدم والبريد الإلكتروني وعنوان IP) إلى StopForumSpam. سيساعد هذا في منع المستخدم من التسجيل في المنتديات الأخرى التي تستخدم خدمة StopForumSpam.' }, user_controls: { spammer_button: 'مرسلو البريد العشوائي' } }
+  forum:
+    message:
+      stopforumspam: { blocked: 'تم العثور على تفاصيل تسجيلك في قاعدة بيانات منع البريد العشوائي ، وبالتالي تم حظر تسجيلك.' }
+    spammer_modal:
+      hard_delete_discussions_label: 'حذف المناقشات'
+      hard_delete_discussions_help: 'سيؤدي هذا إلى حذف جميع المناقشات التي بدأها هذا المستخدم نهائيا. عند التعطيل ، سيتم إخفاء المناقشات بدلا من ذلك.'
+      hard_delete_posts_label: 'حذف المشاركات'
+      hard_delete_posts_help: 'سيؤدي هذا إلى حذف جميع المشاركات (التعليقات والردود وما إلى ذلك) التي قام بها هذا المستخدم نهائيا. عند التعطيل ، سيتم إخفاء المشاركات بدلا من ذلك.'
+      hard_delete_user_label: 'حذف مستخدم'
+      hard_delete_user_help: 'سيؤدي هذا إلى حذف المستخدم نهائيا. عند التعطيل ، سيتم تعليق المستخدم بدلا من ذلك.'
+      intro: 'عند وضع علامة على مستخدم كمرسل بريد عشوائي ، سيتم اتخاذ العديد من الإجراءات ، والتي تعتمد على الإضافات المتاحة في منتداك.'
+      move_discussions_tag_label: 'نقل المناقشات إلى علامة معزولة'
+      move_discussions_tag_help: 'سيؤدي هذا إلى نقل جميع المناقشات التي بدأها هذا المستخدم إلى العلامة التي حددتها في إعدادات المنتدى. عند التعطيل ، سيتم ترك المناقشات في علاماتها الحالية.'
+      process_button: عملية
+      title: 'وضع علامة على {username} كمرسل بريد عشوائي'
+      report_to_sfs_label: 'تقرير إلى StopForumSpam'
+      report_to_sfs_help: 'سيؤدي هذا إلى الإبلاغ عن التفاصيل الأساسية للمستخدم (اسم المستخدم والبريد الإلكتروني وعنوان IP) إلى StopForumSpam. سيساعد هذا في منع المستخدم من التسجيل في المنتديات الأخرى التي تستخدم خدمة StopForumSpam.'
+    user_controls:
+      spammer_button: 'مرسلو البريد العشوائي'
 fof-analytics: null
 flarumite-simple-discussion-views:
-    forum: { modal_resetviews: { title: 'إعادة تعيين عدد مرات عرض المناقشة', submit: إرسال, label: 'تعيين لعرض العدد' }, discussion_controls: { resetviews_button: 'تعيين عدد المشاهدات' } }
+  forum:
+    modal_resetviews:
+      title: 'إعادة تعيين عدد مرات عرض المناقشة'
+      submit: إرسال
+      label: 'تعيين لعرض العدد'
+    discussion_controls:
+      resetviews_button: 'تعيين عدد المشاهدات'
 flarum-sticky:
-    forum: { discussion_controls: { unsticky_button: 'غير لاصق', sticky_button: دبق }, post_stream: { discussion_stickied_text: '{اسم المستخدم} لصق المناقشة {الوقت}.', discussion_unstickied_text: '{اسم المستخدم} غير ملتصق المناقشة {الوقت}.' }, badge: { sticky_tooltip: دبق } }
-    ref: { sticky: دبق }
+  forum:
+    discussion_controls:
+      unsticky_button: 'غير لاصق'
+      sticky_button: دبق
+    post_stream:
+      discussion_stickied_text: '{اسم المستخدم} لصق المناقشة {الوقت}.'
+      discussion_unstickied_text: '{اسم المستخدم} غير ملتصق المناقشة {الوقت}.'
+    badge:
+      sticky_tooltip: دبق
+  ref:
+    sticky: دبق
 flarum-statistics: null
 flarum-pusher:
-    forum: { discussion_list: { show_updates_text: '{العد ، الجمع ، واحد {إظهار # مناقشة محدثة} أخرى {إظهار # مناقشات محدثة}}' } }
+  forum:
+    discussion_list:
+      show_updates_text: '{العد ، الجمع ، واحد {إظهار # مناقشة محدثة} أخرى {إظهار # مناقشات محدثة}}'
 flarum-lock:
-    forum: { badge: { locked_tooltip: مقفل }, discussion_controls: { lock_button: قفل, unlock_button: فتح }, notifications: { discussion_locked_text: '{اسم المستخدم} مقفل' }, post_stream: { discussion_locked_text: '{اسم المستخدم} قفل المناقشة {الوقت}.', discussion_unlocked_text: '{اسم المستخدم} فتح المناقشة {الوقت}.' }, settings: { notify_discussion_locked_label: 'شخص ما يقفل مناقشة بدأتها' } }
+  forum:
+    badge:
+      locked_tooltip: مقفل
+    discussion_controls:
+      lock_button: قفل
+      unlock_button: فتح
+    notifications:
+      discussion_locked_text: '{اسم المستخدم} مقفل'
+    post_stream:
+      discussion_locked_text: '{اسم المستخدم} قفل المناقشة {الوقت}.'
+      discussion_unlocked_text: '{اسم المستخدم} فتح المناقشة {الوقت}.'
+    settings:
+      notify_discussion_locked_label: 'شخص ما يقفل مناقشة بدأتها'
 flarum-likes:
-    forum: { notifications: { post_liked_text: '{اسم المستخدم} أعجبك منشورك', others_text: '{العد ، الجمع ، واحد {# آخر} آخر {# آخرون}}' }, post: { like_link: مثل, liked_by_self_text: '{المستخدمين} مثل هذا.', liked_by_text: '{العد ، الجمع ، واحد {{مستخدمون} يحب هذا} آخر {{مستخدمون} مثل هذا}}.', unlike_link: خلافا, others_link: '{العد ، الجمع ، واحد {# آخر} آخر {# آخرون}}', you_text: أنت }, post_likes: { title: 'المستخدمون الذين يحبون هذا', load_more_button: 'عرض المزيد' }, settings: { notify_post_liked_label: 'شخص ما يحب واحدة من مشاركاتي' }, user: { likes_link: يحب } }
+  forum:
+    notifications:
+      post_liked_text: '{اسم المستخدم} أعجبك منشورك'
+      others_text: '{العد ، الجمع ، واحد {# آخر} آخر {# آخرون}}'
+    post:
+      like_link: مثل
+      liked_by_self_text: '{المستخدمين} مثل هذا.'
+      liked_by_text: '{العد ، الجمع ، واحد {{مستخدمون} يحب هذا} آخر {{مستخدمون} مثل هذا}}.'
+      unlike_link: خلافا
+      others_link: '{العد ، الجمع ، واحد {# آخر} آخر {# آخرون}}'
+      you_text: أنت
+    post_likes:
+      title: 'المستخدمون الذين يحبون هذا'
+      load_more_button: 'عرض المزيد'
+    settings:
+      notify_post_liked_label: 'شخص ما يحب واحدة من مشاركاتي'
+    user:
+      likes_link: يحب
 flarum-emoji:
-    forum: { composer: { emoji_tooltip: 'إدراج رمز تعبيري', type_to_search_text: 'اكتب للبحث عن رمز تعبيري' } }
+  forum:
+    composer:
+      emoji_tooltip: 'إدراج رمز تعبيري'
+      type_to_search_text: 'اكتب للبحث عن رمز تعبيري'
 dhtml-translate:
-    forum: { post: { content: { max: 'المحتوى الخاص بك كبير جدا ، يرجى قراءة إرشاداتنا حول النشر' } } }
+  forum:
+    post:
+      content: { max: 'المحتوى الخاص بك كبير جدا ، يرجى قراءة إرشاداتنا حول النشر' }
 dhtml-persona:
-    forum: { persona: شخص }
+  forum:
+    persona: شخص
 dhtml-leaderboard:
-    forum: { leaderboard: المتصدرين }
+  forum:
+    leaderboard: المتصدرين
 dhtml-gender:
-    forum: { male: ذكر, female: أنثى, other: 'أفضل ان لا اقول', inputGender: جنس, saveButton: أنقذ, clickToSelectGender: 'اختر جنسك', genderSaved: 'تم حفظ الجنس بنجاح!', field_placeholder: 'تأكيد الجنس', binding_gender: 'اكتشفنا أنك لم تحدد جنسك. يرجى تعيين جنسك أولا. لا يمكنك نشر الرسائل ومغادرتها إلا بعد تحديد جنسك.', binding_gender_click: 'انقر الآن' }
+  forum:
+    male: ذكر
+    female: أنثى
+    other: 'أفضل ان لا اقول'
+    inputGender: جنس
+    saveButton: أنقذ
+    clickToSelectGender: 'اختر جنسك'
+    genderSaved: 'تم حفظ الجنس بنجاح!'
+    field_placeholder: 'تأكيد الجنس'
+    binding_gender: 'اكتشفنا أنك لم تحدد جنسك. يرجى تعيين جنسك أولا. لا يمكنك نشر الرسائل ومغادرتها إلا بعد تحديد جنسك.'
+    binding_gender_click: 'انقر الآن'
 flarum-content-pages:
-    forum: { home: وطن, about-us: 'من نحن', guidelines: 'المبادئ التوجيهيه', privacy-policy: 'سياسة الخصوصية', terms-of-use: 'شروط الاستخدام', contact-us: 'اتصل بنا', download-app: 'تحميل التطبيق', discord-chat: 'دردشة الخلاف', tags-cloud: 'الشعارات سحابة', languages: اللغات, leaderboard: المتصدرين }
+  forum:
+    home: وطن
+    about-us: 'من نحن'
+    guidelines: 'المبادئ التوجيهيه'
+    privacy-policy: 'سياسة الخصوصية'
+    terms-of-use: 'شروط الاستخدام'
+    contact-us: 'اتصل بنا'
+    download-app: 'تحميل التطبيق'
+    discord-chat: 'دردشة الخلاف'
+    tags-cloud: 'الشعارات سحابة'
+    languages: اللغات
+    leaderboard: المتصدرين
 dhtml-composer:
-    forum: { composer: { character_counter: 'عداد الأحرف' } }
+  forum:
+    composer:
+      character_counter: 'عداد الأحرف'
 datlechin-birthdays:
-    forum: { user: { birthday_text: 'تاريخ الميلاد: {التاريخ}', age_text: 'العمر: {العمر}' }, change_dob: { title: 'تحرير تاريخ الميلاد', date_of_birth_text: 'تاريخ الميلاد', submit_button: 'حفظ التغييرات' }, settings: { change_dob_label: 'تغيير تاريخ الميلاد', show_dob_date_label: 'عرض يوم وشهر الميلاد', show_dob_year_label: 'عرض سنة الميلاد', show_dob_year_help: 'سيسمح هذا للناس برؤية عمرك.', dob_heading: 'تاريخ الميلاد' }, nav: { nav_item: 'أعياد ميلاد اليوم' }, page: { discussion_count: '{العد، الجمع، واحد {مناقشة: #} أخرى {مناقشات: #}}', post_count: '{العد ، الجمع ، واحد {مشاركة: #} أخرى {مشاركات: #}}' }, edit_user: { dob_heading: 'تاريخ الميلاد' }, sign_up: { dob_placeholder: 'تاريخ الميلاد' } }
-    api: { invalid_dob_message: 'تاريخ الميلاد غير صالح', invalid_age_message: 'يجب ألا يقل عمرك عن {minAge} سنة.' }
-    ref: { date_of_birth: 'تاريخ الميلاد' }
+  forum:
+    user:
+      birthday_text: 'تاريخ الميلاد: {التاريخ}'
+      age_text: 'العمر: {العمر}'
+    change_dob:
+      title: 'تحرير تاريخ الميلاد'
+      date_of_birth_text: 'تاريخ الميلاد'
+      submit_button: 'حفظ التغييرات'
+    settings:
+      change_dob_label: 'تغيير تاريخ الميلاد'
+      show_dob_date_label: 'عرض يوم وشهر الميلاد'
+      show_dob_year_label: 'عرض سنة الميلاد'
+      show_dob_year_help: 'سيسمح هذا للناس برؤية عمرك.'
+      dob_heading: 'تاريخ الميلاد'
+    nav:
+      nav_item: 'أعياد ميلاد اليوم'
+    page:
+      discussion_count: '{العد، الجمع، واحد {مناقشة: #} أخرى {مناقشات: #}}'
+      post_count: '{العد ، الجمع ، واحد {مشاركة: #} أخرى {مشاركات: #}}'
+    edit_user:
+      dob_heading: 'تاريخ الميلاد'
+    sign_up:
+      dob_placeholder: 'تاريخ الميلاد'
+  api:
+    invalid_dob_message: 'تاريخ الميلاد غير صالح'
+    invalid_age_message: 'يجب ألا يقل عمرك عن {minAge} سنة.'
+  ref:
+    date_of_birth: 'تاريخ الميلاد'
 clarkwinkelmann-post-permissions: null
 clarkwinkelmann-emojionearea:
-    forum: { picker_button: 'منتقي الرموز التعبيرية', search_placeholder: بحث... }
+  forum:
+    picker_button: 'منتقي الرموز التعبيرية'
+    search_placeholder: بحث...
 clarkwinkelmann-author-change:
-    forum: { controls: { edit: 'تحرير المؤلف والتاريخ' }, modal: { title-post: 'تحرير مؤلف المنشور والتاريخ', title-discussion: 'تحرير مؤلف المناقشة والتاريخ', user: كاتب, created_at: 'وقت الخلق', edited_at: 'تحرير الوقت', sync-with-discussion: 'المزامنة مع المناقشة', sync-with-post: 'المزامنة مع المشاركة الأولى', sync-impossible: 'لا يمكن العثور على أول مشاركة. حاول التمرير إلى بداية المناقشة.', submit: أنقذ, cancel: 'إلغاء الأمر' }, search: { placeholder: 'البحث عن المستخدمين', type-more: 'اكتب 3 أحرف للبحث في قاعدة البيانات', no-results: 'لا توجد نتائج' } }
+  forum:
+    controls:
+      edit: 'تحرير المؤلف والتاريخ'
+    modal:
+      title-post: 'تحرير مؤلف المنشور والتاريخ'
+      title-discussion: 'تحرير مؤلف المناقشة والتاريخ'
+      user: كاتب
+      created_at: 'وقت الخلق'
+      edited_at: 'تحرير الوقت'
+      sync-with-discussion: 'المزامنة مع المناقشة'
+      sync-with-post: 'المزامنة مع المشاركة الأولى'
+      sync-impossible: 'لا يمكن العثور على أول مشاركة. حاول التمرير إلى بداية المناقشة.'
+      submit: أنقذ
+      cancel: 'إلغاء الأمر'
+    search:
+      placeholder: 'البحث عن المستخدمين'
+      type-more: 'اكتب 3 أحرف للبحث في قاعدة البيانات'
+      no-results: 'لا توجد نتائج'
 blomstra-database-queue: null
 askvortsov-rich-text:
-    lib: { composer: { toggle_button: 'تبديل وضع النص المنسق', insert_button: أدخل, insert_image: { src_placeholder: رابط, title_placeholder: عنوان }, insert_link: { text_placeholder: نص, href_placeholder: الرابط, title_placeholder: 'العنوان (يظهر على تحوم)', remove_button: أبعد }, additional_items_tooltip: 'عناصر تحكم إضافية', bold_tooltip: 'نص غامق <{modifierKey}-b>', code_tooltip: 'رمز مضمن <{modifierKey}-''>', code_block_tooltip: 'إدراج كتلة تعليمات برمجية', header_tooltip: 'التغيير إلى رأس {مستوى} <shift-{modifierKey}-{level}>', horizontal_rule_tooltip: 'إدراج قاعدة أفقية', image_tooltip: 'إضافة صورة', italic_tooltip: 'نص مائل <{modifierKey}-i>', link_tooltip: 'إضافة رابط', ordered_list_tooltip: 'قائمة مرقمة <shift-{modifierKey}-9>', paragraph_tooltip: 'التغيير إلى الفقرة <shift-{modifierKey}-0>', quote_tooltip: 'أدخل اقتباسا <{modifierKey}-q>', spoiler_block_tooltip: 'كتلة المفسد / القائمة المنسدلة', spoiler_inline_tooltip: 'Spoiler <{modifierKey}-;>', strike_tooltip: 'يتوسطه خط <alt-shift-5>', sub_tooltip: 'منخفض <{modifierKey}-,>', sup_tooltip: 'مرتفع <{modifierKey}-.>', text_type_tooltip: 'حدد نوع النص', unordered_list_tooltip: 'قائمة نقطية <shift-{modifierKey}-8>' } }
-    forum: { settings: { composer_heading: ملحن, use_rich_text_editor_label: 'استخدام محرر النص المنسق؟', rich_text_compact_paragraphs_label: 'لا تفصل الفقرات بسطر جديد.' } }
+  lib:
+    composer:
+      toggle_button: 'تبديل وضع النص المنسق'
+      insert_button: أدخل
+      insert_image: { src_placeholder: رابط, title_placeholder: عنوان }
+      insert_link: { text_placeholder: نص, href_placeholder: الرابط, title_placeholder: 'العنوان (يظهر على تحوم)', remove_button: أبعد }
+      additional_items_tooltip: 'عناصر تحكم إضافية'
+      bold_tooltip: 'نص غامق <{modifierKey}-b>'
+      code_tooltip: 'رمز مضمن <{modifierKey}-''>'
+      code_block_tooltip: 'إدراج كتلة تعليمات برمجية'
+      header_tooltip: 'التغيير إلى رأس {مستوى} <shift-{modifierKey}-{level}>'
+      horizontal_rule_tooltip: 'إدراج قاعدة أفقية'
+      image_tooltip: 'إضافة صورة'
+      italic_tooltip: 'نص مائل <{modifierKey}-i>'
+      link_tooltip: 'إضافة رابط'
+      ordered_list_tooltip: 'قائمة مرقمة <shift-{modifierKey}-9>'
+      paragraph_tooltip: 'التغيير إلى الفقرة <shift-{modifierKey}-0>'
+      quote_tooltip: 'أدخل اقتباسا <{modifierKey}-q>'
+      spoiler_block_tooltip: 'كتلة المفسد / القائمة المنسدلة'
+      spoiler_inline_tooltip: 'Spoiler <{modifierKey}-;>'
+      strike_tooltip: 'يتوسطه خط <alt-shift-5>'
+      sub_tooltip: 'منخفض <{modifierKey}-,>'
+      sup_tooltip: 'مرتفع <{modifierKey}-.>'
+      text_type_tooltip: 'حدد نوع النص'
+      unordered_list_tooltip: 'قائمة نقطية <shift-{modifierKey}-8>'
+  forum:
+    settings:
+      composer_heading: ملحن
+      use_rich_text_editor_label: 'استخدام محرر النص المنسق؟'
+      rich_text_compact_paragraphs_label: 'لا تفصل الفقرات بسطر جديد.'
 askvortsov-pwa:
-    forum: { alerts: { optin: 'لقد تم تمكين دفع الإشعارات ، لكنك لم تقم بتكوين هذا الجهاز.', optin_button: تكوين }, discussion_controls: { share_button: سهم }, post_controls: { share_button: سهم, share_api: { title: 'رد {اسم المستخدم} على {title}''' } }, user_controls: { share_button: سهم }, settings: { push_header: دفع, pwa_notifications: { access_default: 'نظرا لقيود المتصفح ، يجب عليك الاشتراك لتلقي إشعارات الدفع على هذا الجهاز.', access_default_button: الاشتراك, access_denied: 'يجب عليك ضبط إعدادات المتصفح لتلقي إشعارات الدفع على هذا الجهاز.', access_denied_button: 'تعرف على كيفية إجراء ذلك', no_browser_support: 'لا يدعم هذا المتصفح دفع الإشعارات لتطبيقات الويب التقدمية.', no_browser_support_button: 'التعرف على المزيد' } } }
-    views: { offline: { header: 'خطأ في الاتصال بالشبكة', text: 'يتطلب هذا التطبيق اتصال شبكة. لا يمكن استخدامه في وضع عدم الاتصال. يرجى التحقق من اتصالك.' } }
+  forum:
+    alerts:
+      optin: 'لقد تم تمكين دفع الإشعارات ، لكنك لم تقم بتكوين هذا الجهاز.'
+      optin_button: تكوين
+    discussion_controls:
+      share_button: سهم
+    post_controls:
+      share_button: سهم
+      share_api: { title: 'رد {اسم المستخدم} على {title}''' }
+    user_controls:
+      share_button: سهم
+    settings:
+      push_header: دفع
+      pwa_notifications: { access_default: 'نظرا لقيود المتصفح ، يجب عليك الاشتراك لتلقي إشعارات الدفع على هذا الجهاز.', access_default_button: الاشتراك, access_denied: 'يجب عليك ضبط إعدادات المتصفح لتلقي إشعارات الدفع على هذا الجهاز.', access_denied_button: 'تعرف على كيفية إجراء ذلك', no_browser_support: 'لا يدعم هذا المتصفح دفع الإشعارات لتطبيقات الويب التقدمية.', no_browser_support_button: 'التعرف على المزيد' }
+  views:
+    offline:
+      header: 'خطأ في الاتصال بالشبكة'
+      text: 'يتطلب هذا التطبيق اتصال شبكة. لا يمكن استخدامه في وضع عدم الاتصال. يرجى التحقق من اتصالك.'
 askvortsov-moderator-warnings:
-    emails: { post_warned: { subject: 'حذرك {warner_display_name} ب {إضرابات، جمع، واحد {# إضراب} آخر {# إضرابات}} في {discussion_title}', body: "مرحبا {warnee_display_name}!\n\nحذرك {warner_display_name} ب {إضرابات، جمع، واحد {# إضراب} آخر {# إضرابات}} في {discussion_title}\n\nتم تقديم السبب التالي:\n\n---\n\n{public_comment}\n" }, user_warned: { subject: 'حذرك {warner_display_name} ب {إضرابات ، جمع ، واحد {# إضراب} آخر {# إضرابات}}', body: "مرحبا {warnee_display_name}!\n\nحذرك {warner_display_name} ب {إضرابات ، جمع ، واحد {# إضراب} آخر {# إضرابات}}\n\nتم تقديم السبب التالي:\n\n---\n\n{public_comment}\n" } }
-    forum: { notifications: { warning_text: '{الإضرابات ، الجمع ، واحد {تم تحذيرك ب # إضراب بواسطة {mod_username}} آخر {تم تحذيرك ب # إضرابات بواسطة {mod_username}}}', warning_no_strikes_text: 'تم تحذيرك من قبل {mod_username} (بدون إنذارات)' }, post: { warning: '{الإضرابات، الجمع، واحد {حذر مع # إضراب بواسطة {mod_username}} آخر {حذر مع # إضرابات من قبل {mod_username}}}', warning_no_strikes: 'تم التحذير بدون ضربات من قبل {mod_username}' }, post_controls: { warning_button: 'تحذير المستخدم' }, user: { warnings: 'تحذيرات المشرف' }, settings: { warning_notification_label: 'مشرف يحذرني' }, validation: { public_comment_required: 'أنت تقدم تعليقا عاما.', invalid_strike_count: 'يجب أن يكون عدد الإنذارات عددا صحيحا بين 0 و 5.' }, warning_controls: { delete_button: أبعد, restore_button: يستعيد, delete_forever_button: 'حذف نهائي' }, warning_list: { add_button: 'تحذير جديد', no_warnings: 'يبدو أنه لا توجد تحذيرات هنا.', warnings: '{الإنذارات، الجمع، واحد {تحذيرات المشرف: # تم تلقي الإنذار} أخرى {تحذيرات المشرف: # الإنذارات المستلمة}}', warnings_no_strikes: 'تحذيرات المشرف: لم يتم تلقي أي إنذارات' }, warning_list_item: { list_item_heading: '{الإضرابات، الجمع، واحد {<strong>#</strong> إضراب، {الوقت}} أخرى {<strong>#</strong> الإضرابات، {الوقت}}}', list_item_heading_hidden: '{إضرابات، جمع، واحد {<strong>#</strong> إضراب، {وقت} <strong>(إزالة)</strong>} أخرى {<strong>#</strong> إضرابات، {وقت} <strong>(إزالة)</strong>}}', public_comment: تحذير, private_comment: 'تعليقات مرئية للمشرف', linked_post: 'منشور مرتبط' }, warning_modal: { confirmation_message: 'تم حفظ تحذيرك. قد تحتاج إلى تحديث الصفحة لرؤيتها.', heading: 'تحذير <strong>{اسم المستخدم}</strong>', strikes_heading: 'كم عدد الضربات التي يجب تطبيقها؟', public_comment_heading: 'لماذا يتلقى <strong>{اسم المستخدم}</strong> هذه التحذيرات؟ ستكون هذه التعليقات مرئية للمستخدم والمشرفين الآخرين.', private_comment_heading: 'لماذا يتلقى <strong>{اسم المستخدم}</strong> هذه التحذيرات؟ ستكون هذه التعليقات مرئية فقط للمشرفين الآخرين.', submit_button: 'حفظ التحذير' } }
+  emails:
+    post_warned:
+      subject: 'حذرك {warner_display_name} ب {إضرابات، جمع، واحد {# إضراب} آخر {# إضرابات}} في {discussion_title}'
+      body: "مرحبا {warnee_display_name}!\n\nحذرك {warner_display_name} ب {إضرابات، جمع، واحد {# إضراب} آخر {# إضرابات}} في {discussion_title}\n\nتم تقديم السبب التالي:\n\n---\n\n{public_comment}\n"
+    user_warned:
+      subject: 'حذرك {warner_display_name} ب {إضرابات ، جمع ، واحد {# إضراب} آخر {# إضرابات}}'
+      body: "مرحبا {warnee_display_name}!\n\nحذرك {warner_display_name} ب {إضرابات ، جمع ، واحد {# إضراب} آخر {# إضرابات}}\n\nتم تقديم السبب التالي:\n\n---\n\n{public_comment}\n"
+  forum:
+    notifications:
+      warning_text: '{الإضرابات ، الجمع ، واحد {تم تحذيرك ب # إضراب بواسطة {mod_username}} آخر {تم تحذيرك ب # إضرابات بواسطة {mod_username}}}'
+      warning_no_strikes_text: 'تم تحذيرك من قبل {mod_username} (بدون إنذارات)'
+    post:
+      warning: '{الإضرابات، الجمع، واحد {حذر مع # إضراب بواسطة {mod_username}} آخر {حذر مع # إضرابات من قبل {mod_username}}}'
+      warning_no_strikes: 'تم التحذير بدون ضربات من قبل {mod_username}'
+    post_controls:
+      warning_button: 'تحذير المستخدم'
+    user:
+      warnings: 'تحذيرات المشرف'
+    settings:
+      warning_notification_label: 'مشرف يحذرني'
+    validation:
+      public_comment_required: 'أنت تقدم تعليقا عاما.'
+      invalid_strike_count: 'يجب أن يكون عدد الإنذارات عددا صحيحا بين 0 و 5.'
+    warning_controls:
+      delete_button: أبعد
+      restore_button: يستعيد
+      delete_forever_button: 'حذف نهائي'
+    warning_list:
+      add_button: 'تحذير جديد'
+      no_warnings: 'يبدو أنه لا توجد تحذيرات هنا.'
+      warnings: '{الإنذارات، الجمع، واحد {تحذيرات المشرف: # تم تلقي الإنذار} أخرى {تحذيرات المشرف: # الإنذارات المستلمة}}'
+      warnings_no_strikes: 'تحذيرات المشرف: لم يتم تلقي أي إنذارات'
+    warning_list_item:
+      list_item_heading: '{الإضرابات، الجمع، واحد {<strong>#</strong> إضراب، {الوقت}} أخرى {<strong>#</strong> الإضرابات، {الوقت}}}'
+      list_item_heading_hidden: '{إضرابات، جمع، واحد {<strong>#</strong> إضراب، {وقت} <strong>(إزالة)</strong>} أخرى {<strong>#</strong> إضرابات، {وقت} <strong>(إزالة)</strong>}}'
+      public_comment: تحذير
+      private_comment: 'تعليقات مرئية للمشرف'
+      linked_post: 'منشور مرتبط'
+    warning_modal:
+      confirmation_message: 'تم حفظ تحذيرك. قد تحتاج إلى تحديث الصفحة لرؤيتها.'
+      heading: 'تحذير <strong>{اسم المستخدم}</strong>'
+      strikes_heading: 'كم عدد الضربات التي يجب تطبيقها؟'
+      public_comment_heading: 'لماذا يتلقى <strong>{اسم المستخدم}</strong> هذه التحذيرات؟ ستكون هذه التعليقات مرئية للمستخدم والمشرفين الآخرين.'
+      private_comment_heading: 'لماذا يتلقى <strong>{اسم المستخدم}</strong> هذه التحذيرات؟ ستكون هذه التعليقات مرئية فقط للمشرفين الآخرين.'
+      submit_button: 'حفظ التحذير'
 askvortsov-discussion-templates:
-    forum: { discussion_controls: { reply_template_button: 'تحرير قالب الرد' }, reply_template: { title: 'تحرير قالب الرد', submit_button: 'حفظ قالب الرد' } }
+  forum:
+    discussion_controls:
+      reply_template_button: 'تحرير قالب الرد'
+    reply_template:
+      title: 'تحرير قالب الرد'
+      submit_button: 'حفظ قالب الرد'

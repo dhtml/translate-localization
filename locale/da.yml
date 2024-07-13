@@ -1,262 +1,1759 @@
 core:
-    forum: { change_email: { incorrect_password_message: 'Den indtastede adgangskode er forkert.', confirm_password_placeholder: 'Bekræft adgangskode', confirmation_message: 'Vi har sendt en bekræftelsesmail til {email}. Hvis den ikke snart ankommer, skal du tjekke din spammappe.', dismiss_button: OK, submit_button: 'Gem ændringer', title: 'Skift e-mail' }, change_password: { send_button: 'Send e-mail til nulstilling af adgangskode', text: 'Klik på knappen nedenfor, og tjek din e-mail for et link til at ændre din adgangskode.', title: 'Skift adgangskode' }, composer: { close_tooltip: Lukke, exit_full_screen_tooltip: 'Afslut fuld skærm', full_screen_tooltip: 'Fuld skærm', minimize_tooltip: Minimere, preview_tooltip: Preview }, composer_discussion: { body_placeholder: 'Skriv et indlæg...', discard_confirmation: 'Du har ikke sendt din diskussion. Ønsker du at kassere det?', submit_button: 'Send diskussion', title_placeholder: 'Diskussionens titel', title: 'Start en diskussion' }, composer_edit: { discard_confirmation: 'Du har ikke gemt dine ændringer. Ønsker du at kassere dem?', edited_message: 'Din redigering blev foretaget.', post_link: 'Post #{nummer} i {diskussion}', submit_button: 'Gem ændringer', view_button: Udsigt }, composer_reply: { discard_confirmation: 'Du har ikke sendt dit svar. Ønsker du at kassere det?', posted_message: 'Dit svar blev sendt.', submit_button: 'Send svar', body_placeholder: 'Skriv et svar...', view_button: Udsigt }, discussion_controls: { cannot_reply_button: 'Kan ikke svare', cannot_reply_text: 'Du har ikke tilladelse til at svare på denne diskussion.', delete_confirmation: 'Er du sikker på, at du vil slette denne diskussion?', log_in_to_reply_button: 'Log ind for at svare', toggle_dropdown_accessible_label: 'Skift rullemenuen Diskussionshandlinger', delete_button: Slette, delete_forever_button: 'Slet for evigt', rename_button: Omdøb, reply_button: Svar, restore_button: Genskabe }, discussion_list: { empty_text: 'Det ser ud til, at der ikke er nogen diskussioner her.', replied_text: '{brugernavn} svarede {siden}', started_text: '{brugernavn} startet {siden}', total_replies_a11y_label: '{tæl, flertal, en {# svar} andet {# svar}}', unread_replies_a11y_label: '{tæl, flertal, et {# ulæst svar} andet {# ulæste svar}}. Markér ulæst {count, flertal, one {reply} other {reply}} som læst.', load_more_button: 'Indlæs mere' }, forgot_password: { email_sent_message: 'Hvis den e-mail, du har indtastet, er registreret hos dette websted, sender vi dig en e-mail med et link til at nulstille din adgangskode. Tjek din spam mappe, hvis du ikke modtager det inden for det næste minut eller to.', not_found_message: 'Der er ingen bruger registreret med denne e-mailadresse.', submit_button: 'Genskab adgangskode', text: 'Indtast din e-mailadresse, og vi vil sende dig et link til at nulstille din adgangskode.', title: 'Glemt adgangskode', dismiss_button: OK, email_placeholder: 'Email e-mail' }, header: { admin_button: 'Administration af administration', back_to_index_tooltip: 'Tilbage til diskussionslisten', locale_dropdown_accessible_label: 'Skift forums landestandard', profile_button: Profil, search_clear_button_accessible_label: 'Ryd søgeforespørgsel', search_placeholder: 'Søg Forum', search_role_label: 'Søg Forum', session_dropdown_accessible_label: 'Skift rullemenuen Sessionsindstillinger', log_in_link: 'Log på', log_out_button: 'Log ud', settings_button: Indstillinger, sign_up_link: 'Tilmeld dig' }, index: { cannot_start_discussion_button: 'Kan ikke starte diskussion', mark_all_as_read_confirmation: 'Er du sikker på, at du vil markere alle diskussioner som læst?', refresh_tooltip: Opdatere, toggle_sidenav_dropdown_accessible_label: 'Toggle navigation dropdown menu', all_discussions_link: 'Alle diskussioner', mark_all_as_read_tooltip: 'Markér alle som læst', meta_title_text: 'Alle diskussioner', start_discussion_button: 'Start en diskussion' }, index_sort: { latest_button: Senest, newest_button: Nyeste, oldest_button: Ældst, relevance_button: Relevans, toggle_dropdown_accessible_label: 'Ændre sortering af diskussionslister', top_button: Top, hot_button: Trendvisning, votes_button: Upvotes, front_button: Forside, popular_button: Populær, unpopular_button: Upopulær }, log_in: { forgot_password_link: 'Glemt adgangskode?', invalid_login_message: 'Dine loginoplysninger var forkerte.', remember_me_label: 'Husk mig', sign_up_text: 'Har du ikke en konto? <a>Tilmeld dig</a>', username_or_email_placeholder: 'Brugernavn eller e-mail', password_placeholder: Kodeord, submit_button: 'Log på', title: 'Log på' }, notifications: { delete_all_confirm: 'Er du sikker på, at du vil slette alle notifikationer? Denne handling kan ikke fortrydes', delete_all_tooltip: 'Slet alle notifikationer', discussion_renamed_text: '{brugernavn} ændrede titlen', empty_text: 'Ingen meddelelser', mark_as_read_tooltip: 'Markér som læst', toggle_dropdown_accessible_label: 'Se meddelelser', mark_all_as_read_tooltip: 'Markér alle som læst', title: Meddelelser, tooltip: Meddelelser }, post: { edited_text: Redigeret, edited_tooltip: '{brugernavn} redigeret {ago}', number_tooltip: 'Indlæg #{nummer}' }, post_controls: { delete_confirmation: 'Er du sikker på, at du vil slette dette indlæg for evigt? Denne handling kan ikke fortrydes.', hide_confirmation: 'Er du sikker på, at du vil slette dette indlæg?', toggle_dropdown_accessible_label: 'Skift rullemenuen Indlægskontrol', push_to_front_button: 'Tryk til FrontPage', pull_from_front_button: 'Træk fra FrontPage', delete_button: Slette, delete_forever_button: 'Slet for evigt', edit_button: Redigere, restore_button: Genskabe }, post_scrubber: { now_link: Nu, original_post_link: 'Oprindeligt indlæg', unread_text: '{count} ulæst', viewing_text: '{count, flertal, en {{index} af {formattedCount} post} anden {{index} af {formattedCount} indlæg}}' }, post_stream: { discussion_renamed_old_tooltip: 'Den gamle titel var: "{old}"', discussion_renamed_text: '{brugernavn} ændrede titlen til {ny} {tid}.', time_lapsed_text: '{punktum} senere', load_more_button: 'Indlæs mere', reply_placeholder: 'Skriv et svar...' }, rename_discussion: { title: 'Omdøb diskussion', submit_button: Omdøb }, search: { all_discussions_button: 'Søg i alle diskussioner efter "{query}"', discussions_heading: Diskussioner, users_heading: Brugere }, security: { browser_on_operating_system: '{browser} på {os}', cannot_terminate_current_session: 'Kan ikke afslutte den aktuelle aktive session. Log ud i stedet.', created: Lavet, current_active_session: 'Aktuel aktiv session', developer_tokens_heading: 'Udvikler tokens', empty_text: 'Det ser ud til, at der ikke er noget at se her.', global_logout: { heading: 'Global Logout', help_text: 'Rydder den aktuelle cookiesession, afslutter alle sessioner, tilbagekalder udviklertokens og ugyldiggør alle e-mailbekræftelser eller e-mails til nulstilling af adgangskode.', log_out_button: 'Log ud' }, hide_access_token: 'Skjul token', last_activity: 'Sidste aktivitet', new_access_token_modal: { submit_button: 'Opret token', title_placeholder: Titel, title: 'Nyt token' }, revoke_access_token: Tilbagekalde, sessions_heading: 'Aktive sessioner', session_terminated: '{count, flertal, en {Session afsluttet} anden {# Sessioner afsluttet}}.', session_termination_failed: 'Der opstod en fejl under afslutning af dine sessioner.', show_access_token: 'Se token', terminate_all_other_sessions: 'Afslut alle andre sessioner', terminate_session: Opsige, token_revoked: 'Token tilbagekaldt.', token_item_title: '{titel} - {token}', token_title_placeholder: /, never: Aldrig, new_access_token_button: 'Nyt token', revoke_access_token_confirmation: 'Er du sikker på, at du vil fortsætte? Denne handling kan ikke fortrydes.', terminate_all_other_sessions_confirmation: 'Er du sikker på, at du vil fortsætte? Denne handling kan ikke fortrydes.', title: Sikkerhed }, settings: { account_heading: Konto, notification_checkbox_a11y_label_template: 'Modtag "{description}"-meddelelser via {method}', notify_by_web_heading: Web, notify_discussion_renamed_label: 'Nogen omdøber en diskussion, jeg startede', privacy_disclose_online_label: 'Tillad andre at se, når jeg er online', privacy_heading: Privatliv, change_email_button: 'Skift e-mail', change_password_button: 'Skift adgangskode', notifications_heading: Meddelelser, notify_by_email_heading: 'Email e-mail', title: Indstillinger }, sign_up: { log_in_text: 'Har du allerede en konto? <a>Log på</a>', welcome_text: 'Velkommen, {brugernavn}!', dismiss_button: OK, email_placeholder: 'Email e-mail', password_placeholder: Kodeord, submit_button: 'Tilmeld dig', title: 'Tilmeld dig', username_placeholder: Brugernavn }, user: { avatar_upload_button: Uploade, avatar_upload_tooltip: 'Upload en ny avatar', in_discussion_text: 'I {diskussion}', joined_date_text: 'Tilmeldte sig {siden}', online_text: Online, posts_empty_text: 'Det ser ud til, at der ikke er nogen indlæg her.', avatar_remove_button: Fjerne, discussions_link: Diskussioner, posts_link: Indlæg, posts_load_more_button: 'Indlæs mere', security_link: Sikkerhed, settings_link: Indstillinger }, user_controls: { button: Kontrol, delete_confirmation: 'Er du sikker på, at du vil slette denne bruger? Brugerens indlæg vil IKKE blive slettet.', delete_error_message: 'Sletning af bruger <i>{brugernavn} ({e-mail})</i> mislykkedes', delete_success_message: 'Bruger <i>{brugernavn} ({email})</i> blev slettet', toggle_dropdown_accessible_label: 'Skift rullemenuen Brugerkontrol', delete_button: Slette, edit_button: Redigere }, user_email_confirmation: { resend_button: 'Send bekræftelses-e-mail igen', sent_message: Sendt, alert_message: 'Vi har sendt en bekræftelsesmail til {email}. Hvis den ikke snart ankommer, skal du tjekke din spammappe.' }, welcome_hero: { hide: 'Skjul velkomstbesked' }, badge: { frontpage_tooltip: 'Markeret som FrontPage' } }
-    lib: { debug_button: Debug, alert: { dismiss_a11y_label: 'Afvis advarsel' }, badge: { hidden_tooltip: Skjult }, dropdown: { toggle_dropdown_accessible_label: 'Skift rullemenuen' }, data_segment: { label: '{etiket}:' }, edit_user: { activate_button: 'Aktivér bruger', groups_heading: Grupper, set_password_label: 'Indstil ny adgangskode', nothing_available: 'Du har ikke tilladelse til at redigere denne bruger.', email_heading: 'Email e-mail', email_label: 'Email e-mail', password_heading: Kodeord, password_label: Kodeord, submit_button: 'Gem ændringer', title: 'Rediger bruger', username_heading: Brugernavn, username_label: Brugernavn }, error: { circular_dependencies_message: 'Der blev fundet cirkulære afhængigheder: {extensions}. Afbryder. Deaktiver en af udvidelserne, og prøv igen.', dependent_extensions_message: 'Kan ikke deaktivere {extension}, før følgende afhængige udvidelser er deaktiveret: {extensions}', extension_initialiation_failed_message: '{extension} blev ikke initialiseret, skal du kontrollere browserkonsollen for yderligere oplysninger.', generic_message: 'Ups! Noget gik galt. Genindlæs siden, og prøv igen.', generic_cross_origin_message: 'Ups! Noget gik galt under en anmodning på tværs af oprindelse. Genindlæs siden, og prøv igen.', missing_dependencies_message: 'Kan ikke aktivere {extension}, før følgende afhængigheder er aktiveret: {extensions}', not_found_message: 'Den anmodede ressource blev ikke fundet.', payload_too_large_message: 'Anmodningens nyttelast var for stor.', permission_denied_message: 'Det har du ikke tilladelse til.', rate_limit_exceeded_message: 'Du går lidt for hurtigt. Prøv igen om et par sekunder.', render_failed_message: 'Vi beklager, men der opstod en fejl under visningen af dette indhold. Hvis du er bruger, kan du prøve igen senere. Hvis du er administrator, kan du finde flere oplysninger i dine Flarum-logfiler.' }, meta_titles: { with_page_title: '{pageNumber, flertal, =1 {{pageTitle} - {forumName}} andet {{pageTitle}: Page # - {forumName}}}', without_page_title: '{pageNumber, flertal, =1 {{forumName}} andet {Page # - {forumName}}}' }, modal: { close: Lukke }, nav: { drawer_button: 'Åbn navigationsskuffe' }, number_suffix: { kilo_text: Til, mega_text: M }, series: { glue_text: ', ', three_text: '{første}, {anden} og {tredje}', two_text: '{første} og {anden}' }, username: { deleted_text: '[udgår]' }, loading_indicator: { accessible_label: Pålæsning... } }
-    views: { confirm_email: { text: 'Klik på knappen nedenfor for at bekræfte din kontos e-mail.', submit_button: 'Bekræft e-mail', title: 'Bekræft e-mail' }, content: { javascript_disabled_message: 'Dette websted ses bedst i en moderne browser med JavaScript aktiveret.', load_error_message: 'Noget gik galt, mens du forsøgte at indlæse den fulde version af dette websted. Prøv at opdatere denne side hårdt for at rette fejlen.', loading_text: Pålæsning... }, error: { csrf_token_mismatch: 'Du har været inaktiv for længe.', csrf_token_mismatch_return_link: 'Gå tilbage for at prøve igen', invalid_confirmation_token: 'Dette bekræftelseslink er allerede blevet brugt eller er ugyldigt.', not_authenticated: 'Du har ikke tilladelse til at få adgang til denne side. Prøv igen, når du er logget ind.', not_found: 'Den side, du anmodede om, blev ikke fundet.', not_found_return_link: 'Tilbage til {forum}', permission_denied: 'Du har ikke tilladelse til at få adgang til denne side.', unknown: 'Der opstod en fejl under forsøg på at indlæse denne side.' }, log_out: { log_out_confirmation: 'Er du sikker på, at du vil logge ud af {forum}?', log_out_button: 'Log ud', title: 'Log ud' }, reset_password: { confirm_password_label: 'Bekræft ny adgangskode', new_password_label: 'Ny adgangskode', submit_button: 'Gem ændringer', title: 'Nulstil din adgangskode' }, discussion: { next_page_button: 'Næste side', previous_page_button: 'Forrige side' }, index: { all_discussions_heading: 'Alle diskussioner', next_page_button: 'Næste side', previous_page_button: 'Forrige side' } }
-    api: { invalid_username_message: 'Brugernavnet må kun indeholde bogstaver, tal og bindestreger.', invalid_filter_type: { must_be_numeric_message: 'Filterfilteret {filter} skal være numerisk.', must_not_be_array_message: 'Filterfilteret {filter} må ikke være et array.', must_not_be_multidimensional_array_message: 'Filterfilteret {filter} må ikke være et flerdimensionelt system.' } }
-    email: { activate_account: { subject: 'Aktivér din nye konto', body: "Hej {brugernavn}!\n\nNogen (forhåbentlig dig!) har tilmeldt sig {forum} med denne e-mail-adresse.\n\nHvis dette var dig, skal du blot klikke på følgende link, og din konto vil blive aktiveret:\n{URL}\n\nHvis du ikke tilmeldte dig, skal du ignorere denne e-mail.\n" }, confirm_email: { subject: 'Bekræft din nye e-mailadresse', body: "Hej {brugernavn}!\n\nNogen (forhåbentlig dig!) har ændret deres e-mail-adresse på {forum} til denne.\n\nHvis dette var dig, skal du blot klikke på følgende link, og din e-mail vil blive bekræftet:\n{URL}\n\nHvis dette ikke var dig, skal du ignorere denne e-mail.\n" }, reset_password: { body: "Hej {brugernavn}!\n\nNogen (forhåbentlig dig!) har indsendt en anmodning om glemt adgangskode til din konto på {forum}.\n\nHvis det var dig, skal du klikke på følgende link for at nulstille din adgangskode:\n{URL}\n\nHvis du ikke ønsker at ændre din adgangskode, skal du bare ignorere denne e-mail, og der sker ikke noget.\n", subject: 'Nulstil din adgangskode' }, send_test: { subject: 'Flarum Email Test', body: "Hej {brugernavn}!\n\nDette er en test-e-mail for at bekræfte, at din Flarum-e-mail-konfiguration fungerer korrekt.\n\nHvis dette var dig, betyder denne e-mail, at din konfiguration fungerer!\n\nHvis dette ikke var dig, skal du ignorere denne e-mail.\n" } }
-    ref: { all_discussions: 'Alle diskussioner', change_email: 'Skift e-mail', change_password: 'Skift adgangskode', color: Farve, confirm_password: 'Bekræft adgangskode', confirm_email: 'Bekræft e-mail', confirmation_email_sent: 'Vi har sendt en bekræftelsesmail til {email}. Hvis den ikke snart ankommer, skal du tjekke din spammappe.', custom_footer_text: 'Tilføj HTML, der skal vises nederst på siden.', custom_footer_title: 'Rediger brugerdefineret sidefod', custom_header_text: 'Tilføj HTML, der skal vises øverst på siden over Flarums egen overskrift.', custom_header_title: 'Rediger brugerdefineret sidehoved', delete: Slette, delete_forever: 'Slet for evigt', discussions: Diskussioner, edit: Redigere, edit_user: 'Rediger bruger', email: 'Email e-mail', extensions: Udvidelser, generic_confirmation_message: 'Er du sikker på, at du vil fortsætte? Denne handling kan ikke fortrydes.', icon: Ikon, icon_text: 'Indtast navnet på enhver <a>FontAwesome-ikonklasse</a>, <em>inklusive</em> <code>fas fa-</code> præfikset.', load_more: 'Indlæs mere', loading: Pålæsning..., log_in: 'Log på', log_out: 'Log ud', mark_all_as_read: 'Markér alle som læst', never: Aldrig, new_token: 'Nyt token', next_page: 'Næste side', notifications: Meddelelser, okay: OK, password: Kodeord, posts: Indlæg, previous_page: 'Forrige side', remove: Fjerne, rename: Omdøb, reply: Svar, reset_your_password: 'Nulstil din adgangskode', restore: Genskabe, save_changes: 'Gem ændringer', search_users: 'Søg efter brugere', security: Sikkerhed, settings: Indstillinger, sign_up: 'Tilmeld dig', some_others: '{tæl, flertal, en {# andet} andet {# andre}}', start_a_discussion: 'Start en diskussion', username: Brugernavn, users: Brugere, view: Udsigt, write_a_reply: 'Skriv et svar...', you: Du }
-    group: { admin: Admin, admins: Administratorer, guest: Gæst, guests: Gæsterne, member: Medlem, members: Medlemmer, mod: Måde, mods: Mods }
+  forum:
+    change_email:
+      incorrect_password_message: 'Den indtastede adgangskode er forkert.'
+      confirm_password_placeholder: 'Bekræft adgangskode'
+      confirmation_message: 'Vi har sendt en bekræftelsesmail til {email}. Hvis den ikke snart ankommer, skal du tjekke din spammappe.'
+      dismiss_button: OK
+      submit_button: 'Gem ændringer'
+      title: 'Skift e-mail'
+    change_password:
+      send_button: 'Send e-mail til nulstilling af adgangskode'
+      text: 'Klik på knappen nedenfor, og tjek din e-mail for et link til at ændre din adgangskode.'
+      title: 'Skift adgangskode'
+    composer:
+      close_tooltip: Lukke
+      exit_full_screen_tooltip: 'Afslut fuld skærm'
+      full_screen_tooltip: 'Fuld skærm'
+      minimize_tooltip: Minimere
+      preview_tooltip: Preview
+    composer_discussion:
+      body_placeholder: 'Skriv et indlæg...'
+      discard_confirmation: 'Du har ikke sendt din diskussion. Ønsker du at kassere det?'
+      submit_button: 'Send diskussion'
+      title_placeholder: 'Diskussionens titel'
+      title: 'Start en diskussion'
+    composer_edit:
+      discard_confirmation: 'Du har ikke gemt dine ændringer. Ønsker du at kassere dem?'
+      edited_message: 'Din redigering blev foretaget.'
+      post_link: 'Post #{nummer} i {diskussion}'
+      submit_button: 'Gem ændringer'
+      view_button: Udsigt
+    composer_reply:
+      discard_confirmation: 'Du har ikke sendt dit svar. Ønsker du at kassere det?'
+      posted_message: 'Dit svar blev sendt.'
+      submit_button: 'Send svar'
+      body_placeholder: 'Skriv et svar...'
+      view_button: Udsigt
+    discussion_controls:
+      cannot_reply_button: 'Kan ikke svare'
+      cannot_reply_text: 'Du har ikke tilladelse til at svare på denne diskussion.'
+      delete_confirmation: 'Er du sikker på, at du vil slette denne diskussion?'
+      log_in_to_reply_button: 'Log ind for at svare'
+      toggle_dropdown_accessible_label: 'Skift rullemenuen Diskussionshandlinger'
+      delete_button: Slette
+      delete_forever_button: 'Slet for evigt'
+      rename_button: Omdøb
+      reply_button: Svar
+      restore_button: Genskabe
+    discussion_list:
+      empty_text: 'Det ser ud til, at der ikke er nogen diskussioner her.'
+      replied_text: '{brugernavn} svarede {siden}'
+      started_text: '{brugernavn} startet {siden}'
+      total_replies_a11y_label: '{tæl, flertal, en {# svar} andet {# svar}}'
+      unread_replies_a11y_label: '{tæl, flertal, et {# ulæst svar} andet {# ulæste svar}}. Markér ulæst {count, flertal, one {reply} other {reply}} som læst.'
+      load_more_button: 'Indlæs mere'
+    forgot_password:
+      email_sent_message: 'Hvis den e-mail, du har indtastet, er registreret hos dette websted, sender vi dig en e-mail med et link til at nulstille din adgangskode. Tjek din spam mappe, hvis du ikke modtager det inden for det næste minut eller to.'
+      not_found_message: 'Der er ingen bruger registreret med denne e-mailadresse.'
+      submit_button: 'Genskab adgangskode'
+      text: 'Indtast din e-mailadresse, og vi vil sende dig et link til at nulstille din adgangskode.'
+      title: 'Glemt adgangskode'
+      dismiss_button: OK
+      email_placeholder: 'Email e-mail'
+    header:
+      admin_button: 'Administration af administration'
+      back_to_index_tooltip: 'Tilbage til diskussionslisten'
+      locale_dropdown_accessible_label: 'Skift forums landestandard'
+      profile_button: Profil
+      search_clear_button_accessible_label: 'Ryd søgeforespørgsel'
+      search_placeholder: 'Søg Forum'
+      search_role_label: 'Søg Forum'
+      session_dropdown_accessible_label: 'Skift rullemenuen Sessionsindstillinger'
+      log_in_link: 'Log på'
+      log_out_button: 'Log ud'
+      settings_button: Indstillinger
+      sign_up_link: 'Tilmeld dig'
+    index:
+      cannot_start_discussion_button: 'Kan ikke starte diskussion'
+      mark_all_as_read_confirmation: 'Er du sikker på, at du vil markere alle diskussioner som læst?'
+      refresh_tooltip: Opdatere
+      toggle_sidenav_dropdown_accessible_label: 'Toggle navigation dropdown menu'
+      all_discussions_link: 'Alle diskussioner'
+      mark_all_as_read_tooltip: 'Markér alle som læst'
+      meta_title_text: 'Alle diskussioner'
+      start_discussion_button: 'Start en diskussion'
+    index_sort:
+      latest_button: Senest
+      newest_button: Nyeste
+      oldest_button: Ældst
+      relevance_button: Relevans
+      toggle_dropdown_accessible_label: 'Ændre sortering af diskussionslister'
+      top_button: Top
+      hot_button: Trendvisning
+      votes_button: Upvotes
+      front_button: Forside
+      popular_button: Populær
+      unpopular_button: Upopulær
+    log_in:
+      forgot_password_link: 'Glemt adgangskode?'
+      invalid_login_message: 'Dine loginoplysninger var forkerte.'
+      remember_me_label: 'Husk mig'
+      sign_up_text: 'Har du ikke en konto? <a>Tilmeld dig</a>'
+      username_or_email_placeholder: 'Brugernavn eller e-mail'
+      password_placeholder: Kodeord
+      submit_button: 'Log på'
+      title: 'Log på'
+    notifications:
+      delete_all_confirm: 'Er du sikker på, at du vil slette alle notifikationer? Denne handling kan ikke fortrydes'
+      delete_all_tooltip: 'Slet alle notifikationer'
+      discussion_renamed_text: '{brugernavn} ændrede titlen'
+      empty_text: 'Ingen meddelelser'
+      mark_as_read_tooltip: 'Markér som læst'
+      toggle_dropdown_accessible_label: 'Se meddelelser'
+      mark_all_as_read_tooltip: 'Markér alle som læst'
+      title: Meddelelser
+      tooltip: Meddelelser
+    post:
+      edited_text: Redigeret
+      edited_tooltip: '{brugernavn} redigeret {ago}'
+      number_tooltip: 'Indlæg #{nummer}'
+    post_controls:
+      delete_confirmation: 'Er du sikker på, at du vil slette dette indlæg for evigt? Denne handling kan ikke fortrydes.'
+      hide_confirmation: 'Er du sikker på, at du vil slette dette indlæg?'
+      toggle_dropdown_accessible_label: 'Skift rullemenuen Indlægskontrol'
+      push_to_front_button: 'Tryk til FrontPage'
+      pull_from_front_button: 'Træk fra FrontPage'
+      delete_button: Slette
+      delete_forever_button: 'Slet for evigt'
+      edit_button: Redigere
+      restore_button: Genskabe
+    post_scrubber:
+      now_link: Nu
+      original_post_link: 'Oprindeligt indlæg'
+      unread_text: '{count} ulæst'
+      viewing_text: '{count, flertal, en {{index} af {formattedCount} post} anden {{index} af {formattedCount} indlæg}}'
+    post_stream:
+      discussion_renamed_old_tooltip: 'Den gamle titel var: "{old}"'
+      discussion_renamed_text: '{brugernavn} ændrede titlen til {ny} {tid}.'
+      time_lapsed_text: '{punktum} senere'
+      load_more_button: 'Indlæs mere'
+      reply_placeholder: 'Skriv et svar...'
+    rename_discussion:
+      title: 'Omdøb diskussion'
+      submit_button: Omdøb
+    search:
+      all_discussions_button: 'Søg i alle diskussioner efter "{query}"'
+      discussions_heading: Diskussioner
+      users_heading: Brugere
+    security:
+      browser_on_operating_system: '{browser} på {os}'
+      cannot_terminate_current_session: 'Kan ikke afslutte den aktuelle aktive session. Log ud i stedet.'
+      created: Lavet
+      current_active_session: 'Aktuel aktiv session'
+      developer_tokens_heading: 'Udvikler tokens'
+      empty_text: 'Det ser ud til, at der ikke er noget at se her.'
+      global_logout: { heading: 'Global Logout', help_text: 'Rydder den aktuelle cookiesession, afslutter alle sessioner, tilbagekalder udviklertokens og ugyldiggør alle e-mailbekræftelser eller e-mails til nulstilling af adgangskode.', log_out_button: 'Log ud' }
+      hide_access_token: 'Skjul token'
+      last_activity: 'Sidste aktivitet'
+      new_access_token_modal: { submit_button: 'Opret token', title_placeholder: Titel, title: 'Nyt token' }
+      revoke_access_token: Tilbagekalde
+      sessions_heading: 'Aktive sessioner'
+      session_terminated: '{count, flertal, en {Session afsluttet} anden {# Sessioner afsluttet}}.'
+      session_termination_failed: 'Der opstod en fejl under afslutning af dine sessioner.'
+      show_access_token: 'Se token'
+      terminate_all_other_sessions: 'Afslut alle andre sessioner'
+      terminate_session: Opsige
+      token_revoked: 'Token tilbagekaldt.'
+      token_item_title: '{titel} - {token}'
+      token_title_placeholder: /
+      never: Aldrig
+      new_access_token_button: 'Nyt token'
+      revoke_access_token_confirmation: 'Er du sikker på, at du vil fortsætte? Denne handling kan ikke fortrydes.'
+      terminate_all_other_sessions_confirmation: 'Er du sikker på, at du vil fortsætte? Denne handling kan ikke fortrydes.'
+      title: Sikkerhed
+    settings:
+      account_heading: Konto
+      notification_checkbox_a11y_label_template: 'Modtag "{description}"-meddelelser via {method}'
+      notify_by_web_heading: Web
+      notify_discussion_renamed_label: 'Nogen omdøber en diskussion, jeg startede'
+      privacy_disclose_online_label: 'Tillad andre at se, når jeg er online'
+      privacy_heading: Privatliv
+      change_email_button: 'Skift e-mail'
+      change_password_button: 'Skift adgangskode'
+      notifications_heading: Meddelelser
+      notify_by_email_heading: 'Email e-mail'
+      title: Indstillinger
+    sign_up:
+      log_in_text: 'Har du allerede en konto? <a>Log på</a>'
+      welcome_text: 'Velkommen, {brugernavn}!'
+      dismiss_button: OK
+      email_placeholder: 'Email e-mail'
+      password_placeholder: Kodeord
+      submit_button: 'Tilmeld dig'
+      title: 'Tilmeld dig'
+      username_placeholder: Brugernavn
+    user:
+      avatar_upload_button: Uploade
+      avatar_upload_tooltip: 'Upload en ny avatar'
+      in_discussion_text: 'I {diskussion}'
+      joined_date_text: 'Tilmeldte sig {siden}'
+      online_text: Online
+      posts_empty_text: 'Det ser ud til, at der ikke er nogen indlæg her.'
+      avatar_remove_button: Fjerne
+      discussions_link: Diskussioner
+      posts_link: Indlæg
+      posts_load_more_button: 'Indlæs mere'
+      security_link: Sikkerhed
+      settings_link: Indstillinger
+    user_controls:
+      button: Kontrol
+      delete_confirmation: 'Er du sikker på, at du vil slette denne bruger? Brugerens indlæg vil IKKE blive slettet.'
+      delete_error_message: 'Sletning af bruger <i>{brugernavn} ({e-mail})</i> mislykkedes'
+      delete_success_message: 'Bruger <i>{brugernavn} ({email})</i> blev slettet'
+      toggle_dropdown_accessible_label: 'Skift rullemenuen Brugerkontrol'
+      delete_button: Slette
+      edit_button: Redigere
+    user_email_confirmation:
+      resend_button: 'Send bekræftelses-e-mail igen'
+      sent_message: Sendt
+      alert_message: 'Vi har sendt en bekræftelsesmail til {email}. Hvis den ikke snart ankommer, skal du tjekke din spammappe.'
+    welcome_hero:
+      hide: 'Skjul velkomstbesked'
+    badge:
+      frontpage_tooltip: 'Markeret som FrontPage'
+  lib:
+    debug_button: Debug
+    alert:
+      dismiss_a11y_label: 'Afvis advarsel'
+    badge:
+      hidden_tooltip: Skjult
+    dropdown:
+      toggle_dropdown_accessible_label: 'Skift rullemenuen'
+    data_segment:
+      label: '{etiket}:'
+    edit_user:
+      activate_button: 'Aktivér bruger'
+      groups_heading: Grupper
+      set_password_label: 'Indstil ny adgangskode'
+      nothing_available: 'Du har ikke tilladelse til at redigere denne bruger.'
+      email_heading: 'Email e-mail'
+      email_label: 'Email e-mail'
+      password_heading: Kodeord
+      password_label: Kodeord
+      submit_button: 'Gem ændringer'
+      title: 'Rediger bruger'
+      username_heading: Brugernavn
+      username_label: Brugernavn
+    error:
+      circular_dependencies_message: 'Der blev fundet cirkulære afhængigheder: {extensions}. Afbryder. Deaktiver en af udvidelserne, og prøv igen.'
+      dependent_extensions_message: 'Kan ikke deaktivere {extension}, før følgende afhængige udvidelser er deaktiveret: {extensions}'
+      extension_initialiation_failed_message: '{extension} blev ikke initialiseret, skal du kontrollere browserkonsollen for yderligere oplysninger.'
+      generic_message: 'Ups! Noget gik galt. Genindlæs siden, og prøv igen.'
+      generic_cross_origin_message: 'Ups! Noget gik galt under en anmodning på tværs af oprindelse. Genindlæs siden, og prøv igen.'
+      missing_dependencies_message: 'Kan ikke aktivere {extension}, før følgende afhængigheder er aktiveret: {extensions}'
+      not_found_message: 'Den anmodede ressource blev ikke fundet.'
+      payload_too_large_message: 'Anmodningens nyttelast var for stor.'
+      permission_denied_message: 'Det har du ikke tilladelse til.'
+      rate_limit_exceeded_message: 'Du går lidt for hurtigt. Prøv igen om et par sekunder.'
+      render_failed_message: 'Vi beklager, men der opstod en fejl under visningen af dette indhold. Hvis du er bruger, kan du prøve igen senere. Hvis du er administrator, kan du finde flere oplysninger i dine Flarum-logfiler.'
+    meta_titles:
+      with_page_title: '{pageNumber, flertal, =1 {{pageTitle} - {forumName}} andet {{pageTitle}: Page # - {forumName}}}'
+      without_page_title: '{pageNumber, flertal, =1 {{forumName}} andet {Page # - {forumName}}}'
+    modal:
+      close: Lukke
+    nav:
+      drawer_button: 'Åbn navigationsskuffe'
+    number_suffix:
+      kilo_text: Til
+      mega_text: M
+    series:
+      glue_text: ', '
+      three_text: '{første}, {anden} og {tredje}'
+      two_text: '{første} og {anden}'
+    username:
+      deleted_text: '[udgår]'
+    loading_indicator:
+      accessible_label: Pålæsning...
+  views:
+    confirm_email:
+      text: 'Klik på knappen nedenfor for at bekræfte din kontos e-mail.'
+      submit_button: 'Bekræft e-mail'
+      title: 'Bekræft e-mail'
+    content:
+      javascript_disabled_message: 'Dette websted ses bedst i en moderne browser med JavaScript aktiveret.'
+      load_error_message: 'Noget gik galt, mens du forsøgte at indlæse den fulde version af dette websted. Prøv at opdatere denne side hårdt for at rette fejlen.'
+      loading_text: Pålæsning...
+    error:
+      csrf_token_mismatch: 'Du har været inaktiv for længe.'
+      csrf_token_mismatch_return_link: 'Gå tilbage for at prøve igen'
+      invalid_confirmation_token: 'Dette bekræftelseslink er allerede blevet brugt eller er ugyldigt.'
+      not_authenticated: 'Du har ikke tilladelse til at få adgang til denne side. Prøv igen, når du er logget ind.'
+      not_found: 'Den side, du anmodede om, blev ikke fundet.'
+      not_found_return_link: 'Tilbage til {forum}'
+      permission_denied: 'Du har ikke tilladelse til at få adgang til denne side.'
+      unknown: 'Der opstod en fejl under forsøg på at indlæse denne side.'
+    log_out:
+      log_out_confirmation: 'Er du sikker på, at du vil logge ud af {forum}?'
+      log_out_button: 'Log ud'
+      title: 'Log ud'
+    reset_password:
+      confirm_password_label: 'Bekræft ny adgangskode'
+      new_password_label: 'Ny adgangskode'
+      submit_button: 'Gem ændringer'
+      title: 'Nulstil din adgangskode'
+    discussion:
+      next_page_button: 'Næste side'
+      previous_page_button: 'Forrige side'
+    index:
+      all_discussions_heading: 'Alle diskussioner'
+      next_page_button: 'Næste side'
+      previous_page_button: 'Forrige side'
+  api:
+    invalid_username_message: 'Brugernavnet må kun indeholde bogstaver, tal og bindestreger.'
+    invalid_filter_type:
+      must_be_numeric_message: 'Filterfilteret {filter} skal være numerisk.'
+      must_not_be_array_message: 'Filterfilteret {filter} må ikke være et array.'
+      must_not_be_multidimensional_array_message: 'Filterfilteret {filter} må ikke være et flerdimensionelt system.'
+  email:
+    activate_account:
+      subject: 'Aktivér din nye konto'
+      body: "Hej {brugernavn}!\n\nNogen (forhåbentlig dig!) har tilmeldt sig {forum} med denne e-mail-adresse.\n\nHvis dette var dig, skal du blot klikke på følgende link, og din konto vil blive aktiveret:\n{URL}\n\nHvis du ikke tilmeldte dig, skal du ignorere denne e-mail.\n"
+    confirm_email:
+      subject: 'Bekræft din nye e-mailadresse'
+      body: "Hej {brugernavn}!\n\nNogen (forhåbentlig dig!) har ændret deres e-mail-adresse på {forum} til denne.\n\nHvis dette var dig, skal du blot klikke på følgende link, og din e-mail vil blive bekræftet:\n{URL}\n\nHvis dette ikke var dig, skal du ignorere denne e-mail.\n"
+    reset_password:
+      body: "Hej {brugernavn}!\n\nNogen (forhåbentlig dig!) har indsendt en anmodning om glemt adgangskode til din konto på {forum}.\n\nHvis det var dig, skal du klikke på følgende link for at nulstille din adgangskode:\n{URL}\n\nHvis du ikke ønsker at ændre din adgangskode, skal du bare ignorere denne e-mail, og der sker ikke noget.\n"
+      subject: 'Nulstil din adgangskode'
+    send_test:
+      subject: 'Flarum Email Test'
+      body: "Hej {brugernavn}!\n\nDette er en test-e-mail for at bekræfte, at din Flarum-e-mail-konfiguration fungerer korrekt.\n\nHvis dette var dig, betyder denne e-mail, at din konfiguration fungerer!\n\nHvis dette ikke var dig, skal du ignorere denne e-mail.\n"
+  ref:
+    all_discussions: 'Alle diskussioner'
+    change_email: 'Skift e-mail'
+    change_password: 'Skift adgangskode'
+    color: Farve
+    confirm_password: 'Bekræft adgangskode'
+    confirm_email: 'Bekræft e-mail'
+    confirmation_email_sent: 'Vi har sendt en bekræftelsesmail til {email}. Hvis den ikke snart ankommer, skal du tjekke din spammappe.'
+    custom_footer_text: 'Tilføj HTML, der skal vises nederst på siden.'
+    custom_footer_title: 'Rediger brugerdefineret sidefod'
+    custom_header_text: 'Tilføj HTML, der skal vises øverst på siden over Flarums egen overskrift.'
+    custom_header_title: 'Rediger brugerdefineret sidehoved'
+    delete: Slette
+    delete_forever: 'Slet for evigt'
+    discussions: Diskussioner
+    edit: Redigere
+    edit_user: 'Rediger bruger'
+    email: 'Email e-mail'
+    extensions: Udvidelser
+    generic_confirmation_message: 'Er du sikker på, at du vil fortsætte? Denne handling kan ikke fortrydes.'
+    icon: Ikon
+    icon_text: 'Indtast navnet på enhver <a>FontAwesome-ikonklasse</a>, <em>inklusive</em> <code>fas fa-</code> præfikset.'
+    load_more: 'Indlæs mere'
+    loading: Pålæsning...
+    log_in: 'Log på'
+    log_out: 'Log ud'
+    mark_all_as_read: 'Markér alle som læst'
+    never: Aldrig
+    new_token: 'Nyt token'
+    next_page: 'Næste side'
+    notifications: Meddelelser
+    okay: OK
+    password: Kodeord
+    posts: Indlæg
+    previous_page: 'Forrige side'
+    remove: Fjerne
+    rename: Omdøb
+    reply: Svar
+    reset_your_password: 'Nulstil din adgangskode'
+    restore: Genskabe
+    save_changes: 'Gem ændringer'
+    search_users: 'Søg efter brugere'
+    security: Sikkerhed
+    settings: Indstillinger
+    sign_up: 'Tilmeld dig'
+    some_others: '{tæl, flertal, en {# andet} andet {# andre}}'
+    start_a_discussion: 'Start en diskussion'
+    username: Brugernavn
+    users: Brugere
+    view: Udsigt
+    write_a_reply: 'Skriv et svar...'
+    you: Du
+  group:
+    admin: Admin
+    admins: Administratorer
+    guest: Gæst
+    guests: Gæsterne
+    member: Medlem
+    members: Medlemmer
+    mod: Måde
+    mods: Mods
 validation:
-    accepted: 'Attributten :skal accepteres.'
-    active_url: 'Attributten :[:] er ikke en gyldig webadresse.'
-    after: 'Attributten :[:] skal være en dato efter :d ate.'
-    after_or_equal: 'Attributten :[:] skal være en dato efter eller lig med :d ate.'
-    alpha: 'Attributten :må kun indeholde bogstaver.'
-    alpha_dash: 'Attributten : må kun indeholde bogstaver, tal, bindestreger og understregninger.'
-    alpha_num: 'Attributten :må kun indeholde bogstaver og tal.'
-    array: 'Attributten : skal være en matrix.'
-    before: 'Attributten :[:] skal være en dato, før :d spiste.'
-    before_or_equal: 'Attributten :[:] skal være en dato før eller lig med :d ate.'
-    between: { numeric: 'Attributten :[:] skal være mellem :min og :max.', file: 'Attributten :[] skal være mellem :min og :max kilobyte.', string: 'Attributten :attribute skal være mellem :min og :max tegn.', array: 'Attributten :[] skal indeholde elementer mellem :min og :max.' }
-    boolean: 'Feltet :attribute skal være sandt eller falsk.'
-    confirmed: 'Bekræftelsen :attribute stemmer ikke overens.'
-    date: 'Attributten :er ikke en gyldig dato.'
-    date_equals: 'Attributten :[:] skal være lig med :d ate.'
-    date_format: 'Attributten :svarer ikke til formatet :format.'
-    different: ':attributten og :other skal være forskellige.'
-    digits: 'Attributten :[]et skal være cifre på :d igits.'
-    digits_between: 'Attributten :[] skal være mellem cifrene :min og :max.'
-    dimensions: 'Attributten :[:] har ugyldige billeddimensioner.'
-    distinct: 'Feltet :attribute har en dubletværdi.'
-    email: 'Attributten :[:] skal være en gyldig mailadresse.'
-    ends_with: 'Attributten :skal slutte med et af følgende: :værdier.'
-    exists: 'Den valgte :attribut er ugyldig.'
-    file: 'Attributten : skal være en fil.'
-    file_too_large: 'Attributten :er for stor.'
-    file_upload_failed: 'Attributten :kunne ikke uploades.'
-    filled: 'Feltet :attribute skal have en værdi.'
-    gt: { numeric: 'Attributten :skal være større end :value.', file: 'Attributten :attribute skal være større end :value kilobytes.', string: 'Attributten :attribute skal være større end :value-tegnene.', array: 'Attributten :[:value] skal indeholde mere end :value-elementer.' }
-    gte: { numeric: 'Attributten :[] skal være større end eller lig med :-værdien.', file: 'Attributten :attribute skal være større end eller lig med :value kilobytes.', string: 'Attributten :attribute skal være større end eller lig med :value-tegnene.', array: 'Attributten :[] skal indeholde elementer af typen :value eller mere.' }
-    image: 'Attributten :[:] skal være et billede.'
-    in: 'Den valgte :attribut er ugyldig.'
-    in_array: 'Feltet :attribute findes ikke i :other.'
-    integer: 'Attributten :skal være et heltal.'
-    ip: 'Attributten :[:] skal være en gyldig IP-adresse.'
-    ipv4: 'Attributten :[:] skal være en gyldig IPv4-adresse.'
-    ipv6: ':attributten skal være en gyldig IPv6-adresse.'
-    json: 'Attributten :[:] skal være en gyldig JSON-streng.'
-    lt: { numeric: 'Attributten :[:] skal være mindre end :value.', file: 'Attributten :attribute skal være mindre end :value kilobytes.', string: 'Attributten :attribute skal være mindre end :value-tegnene.', array: 'Attributten :attribute skal have mindre end :value-elementer.' }
-    lte: { numeric: 'Attributten :[] skal være mindre end eller lig med :-værdien.', file: 'Attributten :[] skal være mindre end eller lig med :value kilobytes.', string: 'Attributten :attribute skal være mindre end eller lig med :value-tegnene.', array: 'Attributten :[:] må ikke indeholde mere end :value-elementer.' }
-    max: { numeric: 'Attributten :[:] må ikke være større end :max.', file: 'Attributten :må ikke være større end :max kilobyte.', string: 'Attributten :attribute må ikke være større end :max-tegn.', array: 'Attributten :[:] må ikke have mere end :max-elementer.' }
-    mimes: 'Attributten :attribute skal være en fil af typen: :values.'
-    mimetypes: 'Attributten :attribute skal være en fil af typen: :values.'
-    min: { numeric: 'Attributten :[:] skal mindst være :min.', file: 'Attributten :[] skal være mindst :min kilobyte.', string: 'Attributten :attribute skal være på mindst :min. tegn.', array: 'Attributten :[:] skal mindst indeholde :min-elementer.' }
-    multiple_of: 'Attributten :[:] skal være et multiplum af :value.'
-    not_in: 'Den valgte :attribut er ugyldig.'
-    not_regex: 'Formatet :attribute er ugyldigt.'
-    numeric: 'Attributten :skal være et tal.'
-    password: 'Adgangskoden er forkert.'
-    present: 'Feltet :attribute skal være til stede.'
-    regex: 'Formatet :attribute er ugyldigt.'
-    required: 'Feltet :attribute er påkrævet.'
-    required_if: 'Feltet :attribute er påkrævet, når :other er :value.'
-    required_unless: 'Feltet :attribute er påkrævet, medmindre :other er i :values.'
-    required_with: 'Feltet :attribute er påkrævet, når :values er til stede.'
-    required_with_all: 'Feltet :attribute er påkrævet, når :values er til stede.'
-    required_without: 'Feltet :attribute er påkrævet, når :values ikke findes.'
-    required_without_all: 'Feltet :attribute er påkrævet, når ingen af :values findes.'
-    prohibited: 'Feltet :attribute er forbudt.'
-    prohibited_if: 'Feltet :attribute er forbudt, når :other er :value.'
-    prohibited_unless: 'Feltet :attribute er forbudt, medmindre :other er i :values.'
-    same: ':attributten og :other skal stemme overens.'
-    size: { numeric: 'Attributten :[:size] skal være :size.', file: 'Attributten :[:size] skal være :size kilobytes.', string: 'Attributten :attribute skal være :size-tegn.', array: 'Attributten :[:] skal indeholde elementer i :størrelse.' }
-    starts_with: 'Attributten :[:] skal starte med et af følgende: :values.'
-    string: 'Attributten :[:] skal være en streng.'
-    timezone: 'Attributten :[:] skal være en gyldig zone.'
-    unique: 'Attributten :er allerede taget.'
-    uploaded: 'Attributten :kunne ikke uploades.'
-    url: 'Formatet :attribute er ugyldigt.'
-    uuid: 'Attributten :[:] skal være et gyldigt UUID.'
-    attributes: { username: brugernavn, password: kodeord, email: E-mail, title: titel, content: indhold, name_singular: 'Entydigt navn', name_plural: 'Flersproget navn', tag_count_primary: 'Antal primære tags', tag_count_secondary: 'Antal sekundære tags' }
-    recaptcha: 'reCAPTCHA-validering mislykkedes.'
-    recaptcha-unknown: 'Der opstod en ukendt fejl under validering af reCAPTCHA ({errors}).'
+  accepted: 'Attributten :skal accepteres.'
+  active_url: 'Attributten :[:] er ikke en gyldig webadresse.'
+  after: 'Attributten :[:] skal være en dato efter :d ate.'
+  after_or_equal: 'Attributten :[:] skal være en dato efter eller lig med :d ate.'
+  alpha: 'Attributten :må kun indeholde bogstaver.'
+  alpha_dash: 'Attributten : må kun indeholde bogstaver, tal, bindestreger og understregninger.'
+  alpha_num: 'Attributten :må kun indeholde bogstaver og tal.'
+  array: 'Attributten : skal være en matrix.'
+  before: 'Attributten :[:] skal være en dato, før :d spiste.'
+  before_or_equal: 'Attributten :[:] skal være en dato før eller lig med :d ate.'
+  between:
+    numeric: 'Attributten :[:] skal være mellem :min og :max.'
+    file: 'Attributten :[] skal være mellem :min og :max kilobyte.'
+    string: 'Attributten :attribute skal være mellem :min og :max tegn.'
+    array: 'Attributten :[] skal indeholde elementer mellem :min og :max.'
+  boolean: 'Feltet :attribute skal være sandt eller falsk.'
+  confirmed: 'Bekræftelsen :attribute stemmer ikke overens.'
+  date: 'Attributten :er ikke en gyldig dato.'
+  date_equals: 'Attributten :[:] skal være lig med :d ate.'
+  date_format: 'Attributten :svarer ikke til formatet :format.'
+  different: ':attributten og :other skal være forskellige.'
+  digits: 'Attributten :[]et skal være cifre på :d igits.'
+  digits_between: 'Attributten :[] skal være mellem cifrene :min og :max.'
+  dimensions: 'Attributten :[:] har ugyldige billeddimensioner.'
+  distinct: 'Feltet :attribute har en dubletværdi.'
+  email: 'Attributten :[:] skal være en gyldig mailadresse.'
+  ends_with: 'Attributten :skal slutte med et af følgende: :værdier.'
+  exists: 'Den valgte :attribut er ugyldig.'
+  file: 'Attributten : skal være en fil.'
+  file_too_large: 'Attributten :er for stor.'
+  file_upload_failed: 'Attributten :kunne ikke uploades.'
+  filled: 'Feltet :attribute skal have en værdi.'
+  gt:
+    numeric: 'Attributten :skal være større end :value.'
+    file: 'Attributten :attribute skal være større end :value kilobytes.'
+    string: 'Attributten :attribute skal være større end :value-tegnene.'
+    array: 'Attributten :[:value] skal indeholde mere end :value-elementer.'
+  gte:
+    numeric: 'Attributten :[] skal være større end eller lig med :-værdien.'
+    file: 'Attributten :attribute skal være større end eller lig med :value kilobytes.'
+    string: 'Attributten :attribute skal være større end eller lig med :value-tegnene.'
+    array: 'Attributten :[] skal indeholde elementer af typen :value eller mere.'
+  image: 'Attributten :[:] skal være et billede.'
+  in: 'Den valgte :attribut er ugyldig.'
+  in_array: 'Feltet :attribute findes ikke i :other.'
+  integer: 'Attributten :skal være et heltal.'
+  ip: 'Attributten :[:] skal være en gyldig IP-adresse.'
+  ipv4: 'Attributten :[:] skal være en gyldig IPv4-adresse.'
+  ipv6: ':attributten skal være en gyldig IPv6-adresse.'
+  json: 'Attributten :[:] skal være en gyldig JSON-streng.'
+  lt:
+    numeric: 'Attributten :[:] skal være mindre end :value.'
+    file: 'Attributten :attribute skal være mindre end :value kilobytes.'
+    string: 'Attributten :attribute skal være mindre end :value-tegnene.'
+    array: 'Attributten :attribute skal have mindre end :value-elementer.'
+  lte:
+    numeric: 'Attributten :[] skal være mindre end eller lig med :-værdien.'
+    file: 'Attributten :[] skal være mindre end eller lig med :value kilobytes.'
+    string: 'Attributten :attribute skal være mindre end eller lig med :value-tegnene.'
+    array: 'Attributten :[:] må ikke indeholde mere end :value-elementer.'
+  max:
+    numeric: 'Attributten :[:] må ikke være større end :max.'
+    file: 'Attributten :må ikke være større end :max kilobyte.'
+    string: 'Attributten :attribute må ikke være større end :max-tegn.'
+    array: 'Attributten :[:] må ikke have mere end :max-elementer.'
+  mimes: 'Attributten :attribute skal være en fil af typen: :values.'
+  mimetypes: 'Attributten :attribute skal være en fil af typen: :values.'
+  min:
+    numeric: 'Attributten :[:] skal mindst være :min.'
+    file: 'Attributten :[] skal være mindst :min kilobyte.'
+    string: 'Attributten :attribute skal være på mindst :min. tegn.'
+    array: 'Attributten :[:] skal mindst indeholde :min-elementer.'
+  multiple_of: 'Attributten :[:] skal være et multiplum af :value.'
+  not_in: 'Den valgte :attribut er ugyldig.'
+  not_regex: 'Formatet :attribute er ugyldigt.'
+  numeric: 'Attributten :skal være et tal.'
+  password: 'Adgangskoden er forkert.'
+  present: 'Feltet :attribute skal være til stede.'
+  regex: 'Formatet :attribute er ugyldigt.'
+  required: 'Feltet :attribute er påkrævet.'
+  required_if: 'Feltet :attribute er påkrævet, når :other er :value.'
+  required_unless: 'Feltet :attribute er påkrævet, medmindre :other er i :values.'
+  required_with: 'Feltet :attribute er påkrævet, når :values er til stede.'
+  required_with_all: 'Feltet :attribute er påkrævet, når :values er til stede.'
+  required_without: 'Feltet :attribute er påkrævet, når :values ikke findes.'
+  required_without_all: 'Feltet :attribute er påkrævet, når ingen af :values findes.'
+  prohibited: 'Feltet :attribute er forbudt.'
+  prohibited_if: 'Feltet :attribute er forbudt, når :other er :value.'
+  prohibited_unless: 'Feltet :attribute er forbudt, medmindre :other er i :values.'
+  same: ':attributten og :other skal stemme overens.'
+  size:
+    numeric: 'Attributten :[:size] skal være :size.'
+    file: 'Attributten :[:size] skal være :size kilobytes.'
+    string: 'Attributten :attribute skal være :size-tegn.'
+    array: 'Attributten :[:] skal indeholde elementer i :størrelse.'
+  starts_with: 'Attributten :[:] skal starte med et af følgende: :values.'
+  string: 'Attributten :[:] skal være en streng.'
+  timezone: 'Attributten :[:] skal være en gyldig zone.'
+  unique: 'Attributten :er allerede taget.'
+  uploaded: 'Attributten :kunne ikke uploades.'
+  url: 'Formatet :attribute er ugyldigt.'
+  uuid: 'Attributten :[:] skal være et gyldigt UUID.'
+  attributes:
+    username: brugernavn
+    password: kodeord
+    email: E-mail
+    title: titel
+    content: indhold
+    name_singular: 'Entydigt navn'
+    name_plural: 'Flersproget navn'
+    tag_count_primary: 'Antal primære tags'
+    tag_count_secondary: 'Antal sekundære tags'
+  recaptcha: 'reCAPTCHA-validering mislykkedes.'
+  recaptcha-unknown: 'Der opstod en ukendt fejl under validering af reCAPTCHA ({errors}).'
 flarum-tags:
-    forum: { all_tags: { meta_description_text: 'Alle tags', meta_title_text: Tags }, choose_tags: { edit_title: 'Rediger tags for {title}', title: 'Vælg tags til din diskussion' }, discussion_controls: { edit_tags_button: 'Rediger tags' }, header: { back_to_tags_tooltip: 'Tilbage til tagliste' }, index: { more_link: Mere..., untagged_link: Ukodede, tags_link: Tags }, post_stream: { added_and_removed_tags_text: '{brugernavn} tilføjede {tagsAdded} og fjernede {tagsRemoved} {time}.', added_tags_text: '{brugernavn} tilføjede {tagsAdded} {time}.', removed_tags_text: '{brugernavn} fjernede {tagsRemoved} {time}.', tags_text: '{count, flertal, en {{tags} tag} andre {{tags} tags}}' }, tag: { meta_description_text: 'Alle diskussioner med tagget {tag}' }, composer_discussion: { choose_tags_link: 'Vælg tags' } }
-    lib: { deleted_tag_text: Slettet, tag_selection_modal: { bypass_requirements: 'Omgå tagkrav', choose_primary_placeholder: '{count, flertal, en {Vælg et primært tag} andet {Vælg # primære tags}}', choose_secondary_placeholder: '{tæl, flertal, en {Vælg 1 tag mere} andet {Vælg # flere tags}}', choose_tags_placeholder: '{tæl, flertal, en {Vælg 1 tag mere} andet {Vælg # flere tags}}', submit_button: OK, title: 'Vælg tags' } }
-    ref: { choose_tags: 'Vælg tags', choose_tags_placeholder: '{tæl, flertal, en {Vælg 1 tag mere} andet {Vælg # flere tags}}', name: Navn, tags: Tags }
+  forum:
+    all_tags:
+      meta_description_text: 'Alle tags'
+      meta_title_text: Tags
+    choose_tags:
+      edit_title: 'Rediger tags for {title}'
+      title: 'Vælg tags til din diskussion'
+    discussion_controls:
+      edit_tags_button: 'Rediger tags'
+    header:
+      back_to_tags_tooltip: 'Tilbage til tagliste'
+    index:
+      more_link: Mere...
+      untagged_link: Ukodede
+      tags_link: Tags
+    post_stream:
+      added_and_removed_tags_text: '{brugernavn} tilføjede {tagsAdded} og fjernede {tagsRemoved} {time}.'
+      added_tags_text: '{brugernavn} tilføjede {tagsAdded} {time}.'
+      removed_tags_text: '{brugernavn} fjernede {tagsRemoved} {time}.'
+      tags_text: '{count, flertal, en {{tags} tag} andre {{tags} tags}}'
+    tag:
+      meta_description_text: 'Alle diskussioner med tagget {tag}'
+    composer_discussion:
+      choose_tags_link: 'Vælg tags'
+  lib:
+    deleted_tag_text: Slettet
+    tag_selection_modal:
+      bypass_requirements: 'Omgå tagkrav'
+      choose_primary_placeholder: '{count, flertal, en {Vælg et primært tag} andet {Vælg # primære tags}}'
+      choose_secondary_placeholder: '{tæl, flertal, en {Vælg 1 tag mere} andet {Vælg # flere tags}}'
+      choose_tags_placeholder: '{tæl, flertal, en {Vælg 1 tag mere} andet {Vælg # flere tags}}'
+      submit_button: OK
+      title: 'Vælg tags'
+  ref:
+    choose_tags: 'Vælg tags'
+    choose_tags_placeholder: '{tæl, flertal, en {Vælg 1 tag mere} andet {Vælg # flere tags}}'
+    name: Navn
+    tags: Tags
 flarum-mentions:
-    forum: { composer: { mention_tooltip: 'Nævn en bruger, gruppe eller et indlæg', reply_to_post_text: 'Svar kommentar fra #{number}' }, mentioned_by: { title: 'Svar på dette indlæg', load_more_button: 'Indlæs mere' }, notifications: { post_mentioned_text: '{brugernavn} svarede på dit indlæg', user_mentioned_text: '{brugernavn} nævnte dig', group_mentioned_text: '{brugernavn} nævnte en gruppe, du er medlem af', others_text: '{tæl, flertal, en {# andet} andet {# andre}}' }, post: { mentioned_by_more_text: '{count} flere svar.', mentioned_by_self_text: '{brugere} svarede på dette.', mentioned_by_text: '{brugere} svarede på dette.', quote_button: Citere, others_text: '{tæl, flertal, en {# andet} andet {# andre}}', reply_link: Svar, you_text: Du }, settings: { notify_post_mentioned_label: 'Nogen svarer på et af mine indlæg', notify_user_mentioned_label: 'Nogen nævner mig i et indlæg', notify_group_mentioned_label: 'Nogen nævner en gruppe, jeg er medlem af, i et opslag' }, user: { mentions_link: Nævner }, post_mention: { deleted_text: '[ukendt]' }, group_mention: { deleted_text: '[ukendt gruppe]' } }
-    email: { post_mentioned: { subject: '{replier_display_name} svarede på dit indlæg i {title}', body: "Hej {recipient_display_name}!\n\n{replier_display_name} svarede på dit indlæg (#{post_number}) i {title}.\n\n{URL}\n\n---\n\n{indhold}\n" }, user_mentioned: { subject: '{mentioner_display_name} nævnte dig i {title}', body: "Hej {recipient_display_name}!\n\n{mentioner_display_name} nævnte dig i et indlæg i {title}.\n\n{URL}\n\n---\n\n{indhold}\n" }, group_mentioned: { subject: '{mentioner_display_name} nævnte en gruppe, du er medlem af, i {title}', body: "Hej {recipient_display_name}!\n\n{mentioner_display_name} nævnte en gruppe, du er medlem af, i {title}.\n\n{URL}\n\n---\n\n{indhold}\n" } }
+  forum:
+    composer:
+      mention_tooltip: 'Nævn en bruger, gruppe eller et indlæg'
+      reply_to_post_text: 'Svar kommentar fra #{number}'
+    mentioned_by:
+      title: 'Svar på dette indlæg'
+      load_more_button: 'Indlæs mere'
+    notifications:
+      post_mentioned_text: '{brugernavn} svarede på dit indlæg'
+      user_mentioned_text: '{brugernavn} nævnte dig'
+      group_mentioned_text: '{brugernavn} nævnte en gruppe, du er medlem af'
+      others_text: '{tæl, flertal, en {# andet} andet {# andre}}'
+    post:
+      mentioned_by_more_text: '{count} flere svar.'
+      mentioned_by_self_text: '{brugere} svarede på dette.'
+      mentioned_by_text: '{brugere} svarede på dette.'
+      quote_button: Citere
+      others_text: '{tæl, flertal, en {# andet} andet {# andre}}'
+      reply_link: Svar
+      you_text: Du
+    settings:
+      notify_post_mentioned_label: 'Nogen svarer på et af mine indlæg'
+      notify_user_mentioned_label: 'Nogen nævner mig i et indlæg'
+      notify_group_mentioned_label: 'Nogen nævner en gruppe, jeg er medlem af, i et opslag'
+    user:
+      mentions_link: Nævner
+    post_mention:
+      deleted_text: '[ukendt]'
+    group_mention:
+      deleted_text: '[ukendt gruppe]'
+  email:
+    post_mentioned:
+      subject: '{replier_display_name} svarede på dit indlæg i {title}'
+      body: "Hej {recipient_display_name}!\n\n{replier_display_name} svarede på dit indlæg (#{post_number}) i {title}.\n\n{URL}\n\n---\n\n{indhold}\n"
+    user_mentioned:
+      subject: '{mentioner_display_name} nævnte dig i {title}'
+      body: "Hej {recipient_display_name}!\n\n{mentioner_display_name} nævnte dig i et indlæg i {title}.\n\n{URL}\n\n---\n\n{indhold}\n"
+    group_mentioned:
+      subject: '{mentioner_display_name} nævnte en gruppe, du er medlem af, i {title}'
+      body: "Hej {recipient_display_name}!\n\n{mentioner_display_name} nævnte en gruppe, du er medlem af, i {title}.\n\n{URL}\n\n---\n\n{indhold}\n"
 flarum-subscriptions:
-    forum: { discussion_controls: { unfollow_button: 'Stop med at følge', unignore_button: Unsir, follow_button: Følge }, notifications: { new_post_text: '{brugernavn} indsendt' }, settings: { follow_after_reply_label: 'Følg automatisk diskussioner, som jeg svarer på', notify_for_all_posts_label: 'Giv besked om hvert nyt indlæg i stedet for kun det sidste i en diskussion', notify_new_post_label: 'Nogen skriver indlæg i en diskussion, jeg følger' }, sub_controls: { following_text: 'Få besked om alle svar.', ignoring_text: 'Bliv aldrig underrettet. Skjul fra diskussionslisten.', not_following_button: 'Følger ikke', not_following_text: 'Få kun besked, når @mentioned.', notify_alert_tooltip: 'Få en forummeddelelse, når der er nye indlæg', notify_email_tooltip: 'Få en mail, når der er nye indlæg', follow_button: Følge, following_button: Følgende, ignoring_button: Ignorerer }, badge: { following_tooltip: Følgende, ignoring_tooltip: Ignorerer }, following: { meta_title_text: Følgende }, index: { following_link: Følgende } }
-    email: { new_post: { subject: '[Nyt indlæg] {titel}', body: "Hej {recipient_display_name}!\n\n{poster_display_name} har lavet et indlæg i en diskussion, du følger: {title}.\n\nFor at se den nye aktivitet, tjek følgende link:\n{URL}\n\n---\n\n{indhold}\n\n---\n\nDu modtager ikke flere notifikationer om denne diskussion, før du er opdateret.\n" } }
-    ref: { follow: Følge, following: Følgende, ignoring: Ignorerer }
+  forum:
+    discussion_controls:
+      unfollow_button: 'Stop med at følge'
+      unignore_button: Unsir
+      follow_button: Følge
+    notifications:
+      new_post_text: '{brugernavn} indsendt'
+    settings:
+      follow_after_reply_label: 'Følg automatisk diskussioner, som jeg svarer på'
+      notify_for_all_posts_label: 'Giv besked om hvert nyt indlæg i stedet for kun det sidste i en diskussion'
+      notify_new_post_label: 'Nogen skriver indlæg i en diskussion, jeg følger'
+    sub_controls:
+      following_text: 'Få besked om alle svar.'
+      ignoring_text: 'Bliv aldrig underrettet. Skjul fra diskussionslisten.'
+      not_following_button: 'Følger ikke'
+      not_following_text: 'Få kun besked, når @mentioned.'
+      notify_alert_tooltip: 'Få en forummeddelelse, når der er nye indlæg'
+      notify_email_tooltip: 'Få en mail, når der er nye indlæg'
+      follow_button: Følge
+      following_button: Følgende
+      ignoring_button: Ignorerer
+    badge:
+      following_tooltip: Følgende
+      ignoring_tooltip: Ignorerer
+    following:
+      meta_title_text: Følgende
+    index:
+      following_link: Følgende
+  email:
+    new_post:
+      subject: '[Nyt indlæg] {titel}'
+      body: "Hej {recipient_display_name}!\n\n{poster_display_name} har lavet et indlæg i en diskussion, du følger: {title}.\n\nFor at se den nye aktivitet, tjek følgende link:\n{URL}\n\n---\n\n{indhold}\n\n---\n\nDu modtager ikke flere notifikationer om denne diskussion, før du er opdateret.\n"
+  ref:
+    follow: Følge
+    following: Følgende
+    ignoring: Ignorerer
 flarum-flags:
-    forum: { flag_post: { confirmation_message: 'Tak, fordi du markerede dette indlæg. Vores moderatorer vil undersøge det.', reason_details_placeholder: 'Yderligere oplysninger (valgfrit)', reason_inappropriate_label: Upassende, reason_inappropriate_text: 'Dette opslag er stødende, krænkende eller overtræder vores <a>retningslinjer for fællesskabet</a>.', reason_missing_message: 'Angiv venligst nogle detaljer til vores moderatorer.', reason_off_topic_label: Off-topic, reason_off_topic_text: 'Dette indlæg er ikke relevant for den aktuelle diskussion og bør flyttes et andet sted hen.', reason_other_label: 'Andet (præciseres)', reason_spam_label: Spam, reason_spam_text: 'Dette indlæg er en annonce.', dismiss_button: OK, submit_button: Flagpost, title: Flagpost }, flagged_posts: { empty_text: 'Ingen flag', item_text: '{brugernavn} i <em>{diskussion}</em>', title: 'Markerede indlæg', tooltip: 'Markerede indlæg' }, post: { dismiss_flag_button: 'Afvis flag', flagged_by_text: 'Markeret med {brugernavn}', flagged_by_with_reason_text: 'Markeret med {brugernavn} som {årsag}' }, post_controls: { flag_button: Flag } }
-    ref: { flag_post: Flagpost, flagged_posts: 'Markerede indlæg' }
+  forum:
+    flag_post:
+      confirmation_message: 'Tak, fordi du markerede dette indlæg. Vores moderatorer vil undersøge det.'
+      reason_details_placeholder: 'Yderligere oplysninger (valgfrit)'
+      reason_inappropriate_label: Upassende
+      reason_inappropriate_text: 'Dette opslag er stødende, krænkende eller overtræder vores <a>retningslinjer for fællesskabet</a>.'
+      reason_missing_message: 'Angiv venligst nogle detaljer til vores moderatorer.'
+      reason_off_topic_label: Off-topic
+      reason_off_topic_text: 'Dette indlæg er ikke relevant for den aktuelle diskussion og bør flyttes et andet sted hen.'
+      reason_other_label: 'Andet (præciseres)'
+      reason_spam_label: Spam
+      reason_spam_text: 'Dette indlæg er en annonce.'
+      dismiss_button: OK
+      submit_button: Flagpost
+      title: Flagpost
+    flagged_posts:
+      empty_text: 'Ingen flag'
+      item_text: '{brugernavn} i <em>{diskussion}</em>'
+      title: 'Markerede indlæg'
+      tooltip: 'Markerede indlæg'
+    post:
+      dismiss_flag_button: 'Afvis flag'
+      flagged_by_text: 'Markeret med {brugernavn}'
+      flagged_by_with_reason_text: 'Markeret med {brugernavn} som {årsag}'
+    post_controls:
+      flag_button: Flag
+  ref:
+    flag_post: Flagpost
+    flagged_posts: 'Markerede indlæg'
 flarum-suspend:
-    forum: { notifications: { user_suspended_text: 'Du er blevet suspenderet i {timeReadable}', user_suspended_indefinite_text: 'Du er blevet suspenderet på ubestemt tid', user_unsuspended_text: 'Du er blevet suspenderet' }, suspension_info: { dismiss_button: Afskedige, indefinite: 'Dette er en ubestemt suspension', limited: 'Denne suspension gælder indtil {date}', title: 'Denne konto er suspenderet' }, suspend_user: { display_message: 'Vis meddelelse til bruger', indefinitely_label: 'Suspenderet på ubestemt tid', limited_time_days_text: ' Dage', limited_time_label: 'Suspenderet i en begrænset periode...', not_suspended_label: 'Ikke suspenderet', placeholder_optional: Valgfri, reason: 'Årsag til suspension', status_heading: 'Status for suspendering', title: 'Suspender {brugernavn}', submit_button: 'Gem ændringer' }, user_badge: { suspended_tooltip: Suspenderet }, user_controls: { suspend_button: Suspendere } }
-    email: { no_reason_given: 'Der blev ikke givet nogen begrundelse for denne suspension.', suspended: { subject: 'Din konto er blevet suspenderet', body: "Hej {recipient_display_name},\n\nDu er blevet suspenderet af følgende årsag:\n\n---\n{suspension_message}\n---\n" }, unsuspended: { subject: 'Din konto er blevet suspenderet', body: "Hej {recipient_display_name},\n\nDe er blevet suspenderet. Du kan gå tilbage til forummet ved at klikke på følgende link:\n\n{forum_url}\n" } }
+  forum:
+    notifications:
+      user_suspended_text: 'Du er blevet suspenderet i {timeReadable}'
+      user_suspended_indefinite_text: 'Du er blevet suspenderet på ubestemt tid'
+      user_unsuspended_text: 'Du er blevet suspenderet'
+    suspension_info:
+      dismiss_button: Afskedige
+      indefinite: 'Dette er en ubestemt suspension'
+      limited: 'Denne suspension gælder indtil {date}'
+      title: 'Denne konto er suspenderet'
+    suspend_user:
+      display_message: 'Vis meddelelse til bruger'
+      indefinitely_label: 'Suspenderet på ubestemt tid'
+      limited_time_days_text: ' Dage'
+      limited_time_label: 'Suspenderet i en begrænset periode...'
+      not_suspended_label: 'Ikke suspenderet'
+      placeholder_optional: Valgfri
+      reason: 'Årsag til suspension'
+      status_heading: 'Status for suspendering'
+      title: 'Suspender {brugernavn}'
+      submit_button: 'Gem ændringer'
+    user_badge:
+      suspended_tooltip: Suspenderet
+    user_controls:
+      suspend_button: Suspendere
+  email:
+    no_reason_given: 'Der blev ikke givet nogen begrundelse for denne suspension.'
+    suspended:
+      subject: 'Din konto er blevet suspenderet'
+      body: "Hej {recipient_display_name},\n\nDu er blevet suspenderet af følgende årsag:\n\n---\n{suspension_message}\n---\n"
+    unsuspended:
+      subject: 'Din konto er blevet suspenderet'
+      body: "Hej {recipient_display_name},\n\nDe er blevet suspenderet. Du kan gå tilbage til forummet ved at klikke på følgende link:\n\n{forum_url}\n"
 blomstra-gdpr:
-    lib: { data: { uploads: { export_description: 'Alle filer uploadet af brugeren.', anonymize_description: 'Fjerner brugerreferencen fra de uploadede filer. Selve filerne forbliver tilgængelige for brugere, der kunne se dem præanonymisering.', delete_description: 'Sletter alle filer, der er uploadet af brugeren.' }, tagsubscription: { export_description: 'Eksporterer oplysninger om abonnementsniveauet for et tag, hvis et sådant findes.', anonymize_description: 'Fjerner brugerens abonnement på tagget.' }, followuser: { export_description: 'Eksportoplysninger om brugere fulgt og brugere følger.', delete_description: 'Sletter alle data, der er relateret til følgende brugere.', anonymize_description: 'Sletter alle data, der er relateret til følgende brugere.' }, bannedipdata: { export_description: 'Hvis en IP-forbudspost er knyttet til en bruger (dvs. brugeren blev udelukket af IP), inkluderes brugerens IP-adresse i eksporten sammen med årsagen til spærringen og oprettelsesdatoen.', anonymize_description: 'Alle IP-adresser, der er knyttet til brugeren, er afkoblet, men selve IP''en forbliver forbudt sammen med årsagen. Sørg for, at der ikke gemmes nogen PII-data i feltet "årsag".' } } }
+  lib:
+    data:
+      uploads: { export_description: 'Alle filer uploadet af brugeren.', anonymize_description: 'Fjerner brugerreferencen fra de uploadede filer. Selve filerne forbliver tilgængelige for brugere, der kunne se dem præanonymisering.', delete_description: 'Sletter alle filer, der er uploadet af brugeren.' }
+      tagsubscription: { export_description: 'Eksporterer oplysninger om abonnementsniveauet for et tag, hvis et sådant findes.', anonymize_description: 'Fjerner brugerens abonnement på tagget.' }
+      followuser: { export_description: 'Eksportoplysninger om brugere fulgt og brugere følger.', delete_description: 'Sletter alle data, der er relateret til følgende brugere.', anonymize_description: 'Sletter alle data, der er relateret til følgende brugere.' }
+      bannedipdata: { export_description: 'Hvis en IP-forbudspost er knyttet til en bruger (dvs. brugeren blev udelukket af IP), inkluderes brugerens IP-adresse i eksporten sammen med årsagen til spærringen og oprettelsesdatoen.', anonymize_description: 'Alle IP-adresser, der er knyttet til brugeren, er afkoblet, men selve IP''en forbliver forbudt sammen med årsagen. Sørg for, at der ikke gemmes nogen PII-data i feltet "årsag".' }
 fof-upload:
-    forum: { media_manager: Mediechef, buttons: { attach: Vedhæfte, upload: Uploade, upload_shared: Fælles, user_uploads: 'Bruger uploads', cancel: Aflyse, media: 'Mine medier', shared_media: 'Delte medier' }, states: { error: Fejl, loading: Uploade, unauthorized: 'Du har ikke tilladelse til at downloade filer' }, validation: { max_size: 'Uploads over {max} kb accepteres ikke.' }, text_preview: { expand: 'Udvid forhåndsvisning', collapse: 'Skjul eksempel', error: "Fejl ved forhåndsvisning af fil. Det kan være blevet slettet, eller det angivne fil-id er ugyldigt.\n", no_snippet_preview: '<preview vises her efter udstationering>', no_snippet: '<Der er ikke noget tilgængeligt eksempelkodestykke>' } }
-    api: { upload_errors: { forbidden_type: 'Det er ikke tilladt at uploade filer af denne type.', unsupported_type: 'Overførselsadapteren understøtter ikke den angivne mimetype: {mime}.', could_not_detect_mime: 'Kunne ikke registrere MIME-typen for denne fil, prøv igen.', max_upload_file_size_ini: 'Upload maksimal filstørrelsesgrænse nået fra php.ini.', max_upload_file_size_form: 'Upload maksimal filstørrelsesgrænse nået fra formularen.', partial_upload: 'Delvis upload.', no_file_uploaded: 'Ingen fil uploadet.', no_upload_tmp_folder: 'Ingen tmp-mappe til upload af filer.', cannot_write_to_disk: 'Kan ikke skrive til disk.', upload_blocked_by_php_extension: 'En php-udvidelse blokerede uploaden.', no_files_made_it_to_upload: 'Upload filer, der ikke er større end {max} kb.' } }
-    lib: { upload-shared-file-modal: { title: 'Ny delt fil', dropzone: 'Træk og slip filer her, eller klik for at gennemse', hide-from-media-gallery: 'Skjul fra brugerens mediegalleri', upload: Uploade }, file_list: { loading: 'Indlæser filer...', empty: 'Der er ingen filer at vise.', release_to_upload: 'Frigiv til upload', modal_empty_desktop: 'Din filliste er tom. Klik på knappen, eller træk en fil hertil for at uploade.', modal_empty_phone: 'Din filliste er tom. Tryk på knappen ovenfor for at uploade en fil.', select_file_a11y_label: 'Vælg fil "{filnavn}"', confirm_selection_btn: '{fileCount, flertal, =0 {Ingen valgt} en {Vælg fil} andet {Vælg filer}}', load_more_files_btn: 'Indlæs flere filer', delete_file_a11y_label: 'Slet filen "{fileName}"', delete_confirmation: 'Er du sikker på, at du vil slette "{filnavn}"?', hide_file: { btn_a11y_label_hide: 'Skjul "{fileName}" fra medieadministratoren', btn_a11y_label_show: 'Vis "{fileName}" i mediehåndteringen', hide_confirmation: 'Er du sikker på, at du vil skjule "{filnavn}"? Hvis du skjuler en fil, fjernes den kun fra din medieadministrator og påvirker ikke eksisterende indlæg.', hide_success: 'Fil skjult', show_confirmation: 'Er du sikker på, at du vil vise "{fileName}"? Hvis du viser en fil, bliver den synlig i din medieadministrator.', show_success: 'Fil vist', hide_fail: 'Filen "{fileName}} kunne ikke skjules"', show_fail: 'Filen "{fileName}" kunne ikke vises;', loading: 'Skjuler fil...' }, hide_shared_file: { btn_a11y_label_hide: 'Gør "{fileName}" privat (ingen offentlig URL)', btn_a11y_label_show: 'Gør "{fileName}" offentlig (med offentlig URL)', hide_confirmation: 'Er du sikker på, at du vil gøre "{fileName}" privat? Hvis du gør en fil privat, fjernes dens offentlige URL, men det påvirker ikke eksisterende indlæg. Det vil heller ikke længere være synligt i medieadministratoren for uautoriserede brugere.', hide_success: 'Fil gjort privat', show_confirmation: 'Er du sikker på, at du vil gøre "{fileName}" offentlig? Hvis du gør en fil offentlig, bliver den tilgængelig for alle med en offentlig URL, og alle kan dele den ved hjælp af medieadministratoren.', show_success: 'Filen blev offentliggjort', hide_fail: 'Filen "{fileName}" kunne ikke gøres privat', show_fail: 'Filen "{fileName}" kunne ikke offentliggøres', loading: 'Gør filen privat...' } } }
+  forum:
+    media_manager: Mediechef
+    buttons:
+      attach: Vedhæfte
+      upload: Uploade
+      upload_shared: Fælles
+      user_uploads: 'Bruger uploads'
+      cancel: Aflyse
+      media: 'Mine medier'
+      shared_media: 'Delte medier'
+    states:
+      error: Fejl
+      loading: Uploade
+      unauthorized: 'Du har ikke tilladelse til at downloade filer'
+    validation:
+      max_size: 'Uploads over {max} kb accepteres ikke.'
+    text_preview:
+      expand: 'Udvid forhåndsvisning'
+      collapse: 'Skjul eksempel'
+      error: "Fejl ved forhåndsvisning af fil. Det kan være blevet slettet, eller det angivne fil-id er ugyldigt.\n"
+      no_snippet_preview: '<preview vises her efter udstationering>'
+      no_snippet: '<Der er ikke noget tilgængeligt eksempelkodestykke>'
+  api:
+    upload_errors:
+      forbidden_type: 'Det er ikke tilladt at uploade filer af denne type.'
+      unsupported_type: 'Overførselsadapteren understøtter ikke den angivne mimetype: {mime}.'
+      could_not_detect_mime: 'Kunne ikke registrere MIME-typen for denne fil, prøv igen.'
+      max_upload_file_size_ini: 'Upload maksimal filstørrelsesgrænse nået fra php.ini.'
+      max_upload_file_size_form: 'Upload maksimal filstørrelsesgrænse nået fra formularen.'
+      partial_upload: 'Delvis upload.'
+      no_file_uploaded: 'Ingen fil uploadet.'
+      no_upload_tmp_folder: 'Ingen tmp-mappe til upload af filer.'
+      cannot_write_to_disk: 'Kan ikke skrive til disk.'
+      upload_blocked_by_php_extension: 'En php-udvidelse blokerede uploaden.'
+      no_files_made_it_to_upload: 'Upload filer, der ikke er større end {max} kb.'
+  lib:
+    upload-shared-file-modal:
+      title: 'Ny delt fil'
+      dropzone: 'Træk og slip filer her, eller klik for at gennemse'
+      hide-from-media-gallery: 'Skjul fra brugerens mediegalleri'
+      upload: Uploade
+    file_list:
+      loading: 'Indlæser filer...'
+      empty: 'Der er ingen filer at vise.'
+      release_to_upload: 'Frigiv til upload'
+      modal_empty_desktop: 'Din filliste er tom. Klik på knappen, eller træk en fil hertil for at uploade.'
+      modal_empty_phone: 'Din filliste er tom. Tryk på knappen ovenfor for at uploade en fil.'
+      select_file_a11y_label: 'Vælg fil "{filnavn}"'
+      confirm_selection_btn: '{fileCount, flertal, =0 {Ingen valgt} en {Vælg fil} andet {Vælg filer}}'
+      load_more_files_btn: 'Indlæs flere filer'
+      delete_file_a11y_label: 'Slet filen "{fileName}"'
+      delete_confirmation: 'Er du sikker på, at du vil slette "{filnavn}"?'
+      hide_file: { btn_a11y_label_hide: 'Skjul "{fileName}" fra medieadministratoren', btn_a11y_label_show: 'Vis "{fileName}" i mediehåndteringen', hide_confirmation: 'Er du sikker på, at du vil skjule "{filnavn}"? Hvis du skjuler en fil, fjernes den kun fra din medieadministrator og påvirker ikke eksisterende indlæg.', hide_success: 'Fil skjult', show_confirmation: 'Er du sikker på, at du vil vise "{fileName}"? Hvis du viser en fil, bliver den synlig i din medieadministrator.', show_success: 'Fil vist', hide_fail: 'Filen "{fileName}} kunne ikke skjules"', show_fail: 'Filen "{fileName}" kunne ikke vises;', loading: 'Skjuler fil...' }
+      hide_shared_file: { btn_a11y_label_hide: 'Gør "{fileName}" privat (ingen offentlig URL)', btn_a11y_label_show: 'Gør "{fileName}" offentlig (med offentlig URL)', hide_confirmation: 'Er du sikker på, at du vil gøre "{fileName}" privat? Hvis du gør en fil privat, fjernes dens offentlige URL, men det påvirker ikke eksisterende indlæg. Det vil heller ikke længere være synligt i medieadministratoren for uautoriserede brugere.', hide_success: 'Fil gjort privat', show_confirmation: 'Er du sikker på, at du vil gøre "{fileName}" offentlig? Hvis du gør en fil offentlig, bliver den tilgængelig for alle med en offentlig URL, og alle kan dele den ved hjælp af medieadministratoren.', show_success: 'Filen blev offentliggjort', hide_fail: 'Filen "{fileName}" kunne ikke gøres privat', show_fail: 'Filen "{fileName}" kunne ikke offentliggøres', loading: 'Gør filen privat...' }
 flarum-bbcode:
-    forum: { quote: { wrote: skrev } }
+  forum:
+    quote:
+      wrote: skrev
 flarum-markdown:
-    lib: { composer: { bold_tooltip: 'Tilføj fed tekst', code_tooltip: 'Indsæt kode', header_tooltip: 'Tilføj sidehovedtekst', image_tooltip: 'Tilføj et billede', italic_tooltip: 'Tilføj kursiv tekst', link_tooltip: 'Tilføj et link', ordered_list_tooltip: 'Tilføje en opstilling med tal/bogstaver', quote_tooltip: 'Indsætte et tilbud', spoiler_tooltip: 'Indsæt en spoiler', strikethrough_tooltip: 'Tilføj gennemstreget tekst', unordered_list_tooltip: 'Tilføje en punktopstilling' } }
+  lib:
+    composer:
+      bold_tooltip: 'Tilføj fed tekst'
+      code_tooltip: 'Indsæt kode'
+      header_tooltip: 'Tilføj sidehovedtekst'
+      image_tooltip: 'Tilføj et billede'
+      italic_tooltip: 'Tilføj kursiv tekst'
+      link_tooltip: 'Tilføj et link'
+      ordered_list_tooltip: 'Tilføje en opstilling med tal/bogstaver'
+      quote_tooltip: 'Indsætte et tilbud'
+      spoiler_tooltip: 'Indsæt en spoiler'
+      strikethrough_tooltip: 'Tilføj gennemstreget tekst'
+      unordered_list_tooltip: 'Tilføje en punktopstilling'
 fof-follow-tags:
-    forum: { settings: { notify_new_discussion_label: 'Nogen opretter en diskussion i et tag, jeg følger', notify_new_post_label: 'Nogen slår noget op i et tag, jeg følger', notify_new_discussion_tag_label: 'Nogen tagger en diskussion igen til et tag, jeg følger' }, index: { follow_tag_button: Følge, unfollow_tag_button: 'Stop med at følge', following: { following_none_label: 'Fulgte diskussioner', following_tags_label: 'Fulgte tags' } }, badge: { following_tag_tooltip: Følgende, lurking_tag_tooltip: Lurer }, sub_controls: { header: 'Abonnement på {tagName}', subscription_label: 'Vælg dit abonnementsniveau for {tagName}', following_text: 'Få besked om alle nye diskussioner.', hiding_text: 'Skjul diskussioner fra siden Alle diskussioner.', ignoring_text: 'Bliv aldrig underrettet.', lurking_text: 'Få besked om alle nye diskussioner og svar.', not_following_button: 'Følger ikke', not_following_text: 'Få kun besked, når @mentioned.', notify_alert_tooltip: 'Få en forummeddelelse, når der er nye diskussioner eller indlæg', notify_email_tooltip: 'Få en mail, når der er nye diskussioner eller indlæg', submit_button: 'Bekræft abonnement', follow_button: Følge, following_button: Følgende, hiding_button: Skjule, ignoring_button: Ignorerer, lurking_button: Lurer }, notifications: { new_discussion_text: '{brugernavn} startet', new_post_text: '{brugernavn} indsendt', new_discussion_tag_text: '{brugernavn} ændrede tagget' }, user: { settings: { heading: 'Følg tags', filter_label: 'Hvad der som standard skal vises på siden Følger' } } }
-    email: { subject: { newDiscussionInTag: '[Tag | Ny diskussion] {title}', newPostInTag: '[Tag | Nyt indlæg] {title}', newDiscussionTag: '[Tag | Ændret tag] {title}' }, body: { newDiscussionInTag: "Hej {recipient_display_name},\n\n{actor_display_name} startede en diskussion i et tag, du følger: {discussion_title}\n\nFor at se den nye diskussion, tjek følgende link:\n{discussion_url}\n\n---\n\n{post_content}\n", newPostInTag: "Hej {recipient_display_name},\n\n{actor_display_name} indsendt i en diskussion om et tag, du følger: {discussion_title}\n\nFor at se den nye aktivitet, tjek følgende link:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nDu modtager ikke flere notifikationer om denne diskussion, før du er opdateret.\n", newDiscussionTag: "Hej {recipient_display_name},\n\n{actor_display_name} har lige ændret tagget i en diskussion med {author_display_name} til et tag, du følger {discussion_title}\n\nFor at se den nye diskussion, tjek følgende link:\n{discussion_url}\n" } }
-    ref: { follow: Følge, following: Følgende, hiding: Skjule, ignoring: Ignorerer, lurking: Lurer, filtering_options: { none: 'Fulgte diskussioner', tags: 'Fulgte tags' } }
+  forum:
+    settings:
+      notify_new_discussion_label: 'Nogen opretter en diskussion i et tag, jeg følger'
+      notify_new_post_label: 'Nogen slår noget op i et tag, jeg følger'
+      notify_new_discussion_tag_label: 'Nogen tagger en diskussion igen til et tag, jeg følger'
+    index:
+      follow_tag_button: Følge
+      unfollow_tag_button: 'Stop med at følge'
+      following: { following_none_label: 'Fulgte diskussioner', following_tags_label: 'Fulgte tags' }
+    badge:
+      following_tag_tooltip: Følgende
+      lurking_tag_tooltip: Lurer
+    sub_controls:
+      header: 'Abonnement på {tagName}'
+      subscription_label: 'Vælg dit abonnementsniveau for {tagName}'
+      following_text: 'Få besked om alle nye diskussioner.'
+      hiding_text: 'Skjul diskussioner fra siden Alle diskussioner.'
+      ignoring_text: 'Bliv aldrig underrettet.'
+      lurking_text: 'Få besked om alle nye diskussioner og svar.'
+      not_following_button: 'Følger ikke'
+      not_following_text: 'Få kun besked, når @mentioned.'
+      notify_alert_tooltip: 'Få en forummeddelelse, når der er nye diskussioner eller indlæg'
+      notify_email_tooltip: 'Få en mail, når der er nye diskussioner eller indlæg'
+      submit_button: 'Bekræft abonnement'
+      follow_button: Følge
+      following_button: Følgende
+      hiding_button: Skjule
+      ignoring_button: Ignorerer
+      lurking_button: Lurer
+    notifications:
+      new_discussion_text: '{brugernavn} startet'
+      new_post_text: '{brugernavn} indsendt'
+      new_discussion_tag_text: '{brugernavn} ændrede tagget'
+    user:
+      settings: { heading: 'Følg tags', filter_label: 'Hvad der som standard skal vises på siden Følger' }
+  email:
+    subject:
+      newDiscussionInTag: '[Tag | Ny diskussion] {title}'
+      newPostInTag: '[Tag | Nyt indlæg] {title}'
+      newDiscussionTag: '[Tag | Ændret tag] {title}'
+    body:
+      newDiscussionInTag: "Hej {recipient_display_name},\n\n{actor_display_name} startede en diskussion i et tag, du følger: {discussion_title}\n\nFor at se den nye diskussion, tjek følgende link:\n{discussion_url}\n\n---\n\n{post_content}\n"
+      newPostInTag: "Hej {recipient_display_name},\n\n{actor_display_name} indsendt i en diskussion om et tag, du følger: {discussion_title}\n\nFor at se den nye aktivitet, tjek følgende link:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nDu modtager ikke flere notifikationer om denne diskussion, før du er opdateret.\n"
+      newDiscussionTag: "Hej {recipient_display_name},\n\n{actor_display_name} har lige ændret tagget i en diskussion med {author_display_name} til et tag, du følger {discussion_title}\n\nFor at se den nye diskussion, tjek følgende link:\n{discussion_url}\n"
+  ref:
+    follow: Følge
+    following: Følgende
+    hiding: Skjule
+    ignoring: Ignorerer
+    lurking: Lurer
+    filtering_options:
+      none: 'Fulgte diskussioner'
+      tags: 'Fulgte tags'
 flarum-nicknames:
-    api: { invalid_nickname_message: 'Dette kaldenavn er ugyldigt. Kontakt din forumadministrator for at få flere oplysninger om regler for kaldenavne.' }
-    ref: { change_nickname: 'Skift kaldenavn', nickname: Kælenavn }
-    forum: { change_nickname: { submit_button: 'Gem ændringer', title: 'Skift kaldenavn' }, edit_user: { nicknames_heading: 'Skift kaldenavn', nicknames_text: Kælenavn }, settings: { change_nickname_button: 'Skift kaldenavn' }, sign_up: { nickname_placeholder: Kælenavn } }
+  api:
+    invalid_nickname_message: 'Dette kaldenavn er ugyldigt. Kontakt din forumadministrator for at få flere oplysninger om regler for kaldenavne.'
+  ref:
+    change_nickname: 'Skift kaldenavn'
+    nickname: Kælenavn
+  forum:
+    change_nickname:
+      submit_button: 'Gem ændringer'
+      title: 'Skift kaldenavn'
+    edit_user:
+      nicknames_heading: 'Skift kaldenavn'
+      nicknames_text: Kælenavn
+    settings:
+      change_nickname_button: 'Skift kaldenavn'
+    sign_up:
+      nickname_placeholder: Kælenavn
 fof-oauth:
-    forum: { log_in: { with_button: 'Log ind med {provider}', with_discord_button: 'Log ind med {provider}', with_facebook_button: 'Log ind med {provider}', with_github_button: 'Log ind med {provider}', with_gitlab_button: 'Log ind med {provider}', with_google_button: 'Log ind med {provider}', with_linkedin_button: 'Log ind med {provider}', with_twitter_button: 'Log ind med {provider}' }, user: { settings: { linked-account: { label: 'Linkede konti', last-used-label: 'Sidst brugt', link-created-label: 'Link oprettet', orphaned-account: 'Du har tidligere logget ind via denne udbyder, men dette forum har deaktiveret login med denne metode siden.', help: 'Disse linkede konti giver dig mulighed for at logge ind på forummet ved hjælp af andre udbydere.', identifier-label: '{udbyder} ID', unlink-confirm: 'Er du sikker på, at du vil fjerne linket med {provider}? Du vil ikke længere kunne logge ind på dette forum, medmindre du godkender igen i fremtiden.' } } }, signup: { username_help: 'Vælg et brugernavn, du vil kende her:' }, unlink: 'Fjern link', error: { bad_verification_code: 'Ugyldigt eller udløbet bekræftelsestoken. Prøv igen.', invalid_state: 'Ugyldig tilstand. Prøv igen.' }, providers: { discord: Uenighed, facebook: Facebook, github: GitHub, gitlab: GitLab, google: Google, linkedin: LinkedIn, twitter: Kvidre } }
-    lib: { providers: { discord: Uenighed, facebook: Facebook, github: GitHub, gitlab: GitLab, twitter: Kvidre, google: Google, linkedin: LinkedIn } }
-    ref: { settings: { app_id: App-id, app_secret: App-hemmelighed, client_id: Klient-id, client_secret: Klienthemmelighed } }
+  forum:
+    log_in:
+      with_button: 'Log ind med {provider}'
+      with_discord_button: 'Log ind med {provider}'
+      with_facebook_button: 'Log ind med {provider}'
+      with_github_button: 'Log ind med {provider}'
+      with_gitlab_button: 'Log ind med {provider}'
+      with_google_button: 'Log ind med {provider}'
+      with_linkedin_button: 'Log ind med {provider}'
+      with_twitter_button: 'Log ind med {provider}'
+    user:
+      settings: { linked-account: { label: 'Linkede konti', last-used-label: 'Sidst brugt', link-created-label: 'Link oprettet', orphaned-account: 'Du har tidligere logget ind via denne udbyder, men dette forum har deaktiveret login med denne metode siden.', help: 'Disse linkede konti giver dig mulighed for at logge ind på forummet ved hjælp af andre udbydere.', identifier-label: '{udbyder} ID', unlink-confirm: 'Er du sikker på, at du vil fjerne linket med {provider}? Du vil ikke længere kunne logge ind på dette forum, medmindre du godkender igen i fremtiden.' } }
+    signup:
+      username_help: 'Vælg et brugernavn, du vil kende her:'
+    unlink: 'Fjern link'
+    error:
+      bad_verification_code: 'Ugyldigt eller udløbet bekræftelsestoken. Prøv igen.'
+      invalid_state: 'Ugyldig tilstand. Prøv igen.'
+    providers:
+      discord: Uenighed
+      facebook: Facebook
+      github: GitHub
+      gitlab: GitLab
+      google: Google
+      linkedin: LinkedIn
+      twitter: Kvidre
+  lib:
+    providers:
+      discord: Uenighed
+      facebook: Facebook
+      github: GitHub
+      gitlab: GitLab
+      twitter: Kvidre
+      google: Google
+      linkedin: LinkedIn
+  ref:
+    settings:
+      app_id: App-id
+      app_secret: App-hemmelighed
+      client_id: Klient-id
+      client_secret: Klienthemmelighed
 fof-impersonate:
-    forum: { modal: { title: 'Log ind som en anden bruger', label: 'Med stor magt følger stort ansvar. Ved at fortsætte bliver du {brugernavn}, indtil du logger ud.', placeholder_optional: '(Valgfrit) Angiv din grund til at skifte til denne bruger', placeholder_required: 'Du skal angive din grund til at skifte til denne bruger, før du fortsætter', impersonate_username: 'Log ind som {brugernavn}' }, user_controls: { impersonate_button: 'Log ind som bruger' } }
+  forum:
+    modal:
+      title: 'Log ind som en anden bruger'
+      label: 'Med stor magt følger stort ansvar. Ved at fortsætte bliver du {brugernavn}, indtil du logger ud.'
+      placeholder_optional: '(Valgfrit) Angiv din grund til at skifte til denne bruger'
+      placeholder_required: 'Du skal angive din grund til at skifte til denne bruger, før du fortsætter'
+      impersonate_username: 'Log ind som {brugernavn}'
+    user_controls:
+      impersonate_button: 'Log ind som bruger'
 fof-byobu:
-    forum: { badges: { is_private: { tooltip: 'Privat diskussion' } }, buttons: { add_recipients: Modtagere, submit: OK, edit_recipients: 'Rediger modtagere', send_pd: 'Send {brugernavn} en besked', cancel: Aflyse, make_public: 'Gør denne diskussion offentlig', remove_from_discussion: 'Forlad denne private diskussion' }, composer_private_discussion: { submit_button: 'Send privat diskussion', title_placeholder: 'Privat diskussion titel' }, confirm: { make_public: 'Er du sikker på, at du vil fjerne modtagerne og gøre denne diskussion synlig for alle, der kan se det tildelte mærke?' }, labels: { recipients: '{count, flertal, en {{count} Modtager} andre {{count} Modtagere}}' }, nav: { start_button: 'Diskuter privat', nav_item: 'Private diskussioner' }, input: { search_recipients: 'Søg modtager ved at skrive de første tre tegn...' }, search: { headings: { groups: Tilladelsesgrupper } }, modal: { titles: { update_recipients: 'Opdater modtagere af {title}', add_recipients: 'Føj modtagere til din diskussion' }, labels: { selected_users: 'Udvalgte brugere', search_field: 'Søg efter bruger' }, help: { add_recipients: 'Denne diskussion vil kun være synlig for de brugere, du vælger her. Der kræves mindst 1 modtager (ud over dig selv).', update_recipients: 'Denne diskussion vil kun være synlig for de brugere, du vælger her.', selected_users: 'Klik på en brugers navn for at fjerne vedkommende.', click_user_to_remove_tooltip: 'Klik for at fjerne' } }, post: { recipients_modified: { added_and_removed: '{brugernavn} tilføjede modtagere {tilføjet} og fjernede {fjernet}.', added: '{brugernavn} tilføjede modtagere {tilføjet}.', made_public: '{brugernavn} fjernede alle modtagere og gjorde diskussionen offentlig', removed: '{brugernavn} fjernede modtagere {fjernet}.', removed_self: '{brugernavn} forlod den private diskussion.' } }, user: { settings: { block_pd: 'Bloker private diskussioner' }, byobu_link: 'Private diskussioner', dropdown_label: 'Private diskussioner' }, notifications: { pd_label: 'Nogen inkluderer mig i en ny privat diskussion', pd_reply_label: 'Nogen skriver indlæg i en privat diskussion, jeg er modtager af', pd_reply_text: '{brugernavn} indsendt i en privat diskussion, du er en del af', pd_text: '{brugernavn} startede en ny privat diskussion med dig', pd_user_left_label: 'En modtagerbruger efterlader en privat diskussion, jeg er en del af', pd_user_left_text: '{brugernavn} forlod den private diskussion', pd_added_text: '{brugernavn} føjede dig til en privat diskussion', pd_added_label: 'Nogen føjer mig til en eksisterende privat diskussion' } }
-    email: { subject: { private_discussion_created: '[Privat diskussion] {display_name} startede en ny privat diskussion med dig', private_discussion_replied: '[Privat diskussion] {display_name} indsendt i en privat diskussion', recipient_removed: '[Privat diskussion] {display_name} forlod diskussionen', private_discussion_added: '[Privat diskussion] {display_name} føjede dig til en privat diskussion' }, body: { private_discussion_created: "Hej {recipient_display_name},\n\n{actor_display_name} startede en ny privat diskussion med dig som modtager: {discussion_title}.\n\nSe den her:\n{discussion_url}\n\nDu skal muligvis logge ind først, før du kan få adgang til dette link.\n", private_discussion_replied: "Hej {recipient_display_name},\n\n{actor_display_name} postet i en privat diskussion med dig som modtager: {discussion_title}.\n\nSe den her:\n{post_url}\n\nDu skal muligvis logge ind først, før du kan få adgang til dette link.\n", recipient_removed: "Hej {recipient_display_name},\n\n{actor_display_name} forlod den private diskussion: {discussion_title}. De vil ikke længere kunne se noget af indholdet.\n\nSe den her:\n{discussion_url}\n\nDu skal muligvis logge ind først, før du kan få adgang til dette link.\n", private_discussion_added: "Hej {recipient_display_name},\n\n{actor_display_name} føjede dig til en eksisterende privat diskussion: {discussion_title}.\n\nSe den her:\n{discussion_url}\n\nDu skal muligvis logge ind først, før du kan få adgang til dette link.\n" } }
+  forum:
+    badges:
+      is_private: { tooltip: 'Privat diskussion' }
+    buttons:
+      add_recipients: Modtagere
+      submit: OK
+      edit_recipients: 'Rediger modtagere'
+      send_pd: 'Send {brugernavn} en besked'
+      cancel: Aflyse
+      make_public: 'Gør denne diskussion offentlig'
+      remove_from_discussion: 'Forlad denne private diskussion'
+    composer_private_discussion:
+      submit_button: 'Send privat diskussion'
+      title_placeholder: 'Privat diskussion titel'
+    confirm:
+      make_public: 'Er du sikker på, at du vil fjerne modtagerne og gøre denne diskussion synlig for alle, der kan se det tildelte mærke?'
+    labels:
+      recipients: '{count, flertal, en {{count} Modtager} andre {{count} Modtagere}}'
+    nav:
+      start_button: 'Diskuter privat'
+      nav_item: 'Private diskussioner'
+    input:
+      search_recipients: 'Søg modtager ved at skrive de første tre tegn...'
+    search:
+      headings: { groups: Tilladelsesgrupper }
+    modal:
+      titles: { update_recipients: 'Opdater modtagere af {title}', add_recipients: 'Føj modtagere til din diskussion' }
+      labels: { selected_users: 'Udvalgte brugere', search_field: 'Søg efter bruger' }
+      help: { add_recipients: 'Denne diskussion vil kun være synlig for de brugere, du vælger her. Der kræves mindst 1 modtager (ud over dig selv).', update_recipients: 'Denne diskussion vil kun være synlig for de brugere, du vælger her.', selected_users: 'Klik på en brugers navn for at fjerne vedkommende.', click_user_to_remove_tooltip: 'Klik for at fjerne' }
+    post:
+      recipients_modified: { added_and_removed: '{brugernavn} tilføjede modtagere {tilføjet} og fjernede {fjernet}.', added: '{brugernavn} tilføjede modtagere {tilføjet}.', made_public: '{brugernavn} fjernede alle modtagere og gjorde diskussionen offentlig', removed: '{brugernavn} fjernede modtagere {fjernet}.', removed_self: '{brugernavn} forlod den private diskussion.' }
+    user:
+      settings: { block_pd: 'Bloker private diskussioner' }
+      byobu_link: 'Private diskussioner'
+      dropdown_label: 'Private diskussioner'
+    notifications:
+      pd_label: 'Nogen inkluderer mig i en ny privat diskussion'
+      pd_reply_label: 'Nogen skriver indlæg i en privat diskussion, jeg er modtager af'
+      pd_reply_text: '{brugernavn} indsendt i en privat diskussion, du er en del af'
+      pd_text: '{brugernavn} startede en ny privat diskussion med dig'
+      pd_user_left_label: 'En modtagerbruger efterlader en privat diskussion, jeg er en del af'
+      pd_user_left_text: '{brugernavn} forlod den private diskussion'
+      pd_added_text: '{brugernavn} føjede dig til en privat diskussion'
+      pd_added_label: 'Nogen føjer mig til en eksisterende privat diskussion'
+  email:
+    subject:
+      private_discussion_created: '[Privat diskussion] {display_name} startede en ny privat diskussion med dig'
+      private_discussion_replied: '[Privat diskussion] {display_name} indsendt i en privat diskussion'
+      recipient_removed: '[Privat diskussion] {display_name} forlod diskussionen'
+      private_discussion_added: '[Privat diskussion] {display_name} føjede dig til en privat diskussion'
+    body:
+      private_discussion_created: "Hej {recipient_display_name},\n\n{actor_display_name} startede en ny privat diskussion med dig som modtager: {discussion_title}.\n\nSe den her:\n{discussion_url}\n\nDu skal muligvis logge ind først, før du kan få adgang til dette link.\n"
+      private_discussion_replied: "Hej {recipient_display_name},\n\n{actor_display_name} postet i en privat diskussion med dig som modtager: {discussion_title}.\n\nSe den her:\n{post_url}\n\nDu skal muligvis logge ind først, før du kan få adgang til dette link.\n"
+      recipient_removed: "Hej {recipient_display_name},\n\n{actor_display_name} forlod den private diskussion: {discussion_title}. De vil ikke længere kunne se noget af indholdet.\n\nSe den her:\n{discussion_url}\n\nDu skal muligvis logge ind først, før du kan få adgang til dette link.\n"
+      private_discussion_added: "Hej {recipient_display_name},\n\n{actor_display_name} føjede dig til en eksisterende privat diskussion: {discussion_title}.\n\nSe den her:\n{discussion_url}\n\nDu skal muligvis logge ind først, før du kan få adgang til dette link.\n"
 v17development-flarum-badges:
-    forum: { badge_information: 'Oplysninger om badge', all_badges: 'Se alle badges', all_users: 'Se alle brugere', give_badge: 'Giv badge', update_badge: 'Opdater badge', select_badge: 'Vælg badge', user_has_badge: 'Brugeren har allerede dette badge.', user_no_badges: 'Denne bruger har endnu ingen badges.', no_received: 'Ingen bruger har opnået dette badge.', save_changes: 'Gem ændringer', badge: { badge: Badge, badges: Badges, name: 'Badgens navn', description: 'Beskrivelse af badge', earning_reason: 'Årsag til optjening af badge', update_earning_reason: 'Opdater indtjeningsårsag', no_earning_reason: 'Der er ikke angivet nogen indtjeningsårsag', earned_on: 'Badge optjent den', category: 'Badge kategori', received_on: 'Modtaget den {dato}', badge_details: 'Oplysninger om badge', earned_count: '{count, flertal, en {<b># bruger</b> har optjent dette badge} andre {<b># brugere</b> har optjent dette badge}}', earned_by_count: '{count, flertal, en {Earned by <b># user</b>} other {Earned by <b># users</b>}}', others_link: '+ {count} Mere' }, badges_in_card: { title: 'Badges på brugerkort', manage_badges: 'Administrer badges', description: 'Du kan ændre de synlige badges på dit brugerkort med et af dine andre badges. Hvis du ikke vælger nogen, vælges de automatisk.', select_limit: 'Du kan vælge {limit, flertal, én {<b>én badge</b>} anden {<b># badges</b>}} for at være synlig på dit brugerkort.', hit_limit: 'Der er kun plads til <b> {limit, flertal, et {<b>et badge</b>} andet {<b># badges</b>}}</b> på dit kort. Fjern markeringen af et badge for at gøre plads til dette badge.' }, moderation: { remove_badge: 'Fjern badge fra bruger', remove_badge_confirm: 'Er du sikker på, at du vil fjerne dette badge fra denne bruger?', give_badge: 'Giv badge' }, notification: { title: 'Du har modtaget et nyt badge', settings: 'Jeg har modtaget et badge' }, uncategorized: Uncategorized }
+  forum:
+    badge_information: 'Oplysninger om badge'
+    all_badges: 'Se alle badges'
+    all_users: 'Se alle brugere'
+    give_badge: 'Giv badge'
+    update_badge: 'Opdater badge'
+    select_badge: 'Vælg badge'
+    user_has_badge: 'Brugeren har allerede dette badge.'
+    user_no_badges: 'Denne bruger har endnu ingen badges.'
+    no_received: 'Ingen bruger har opnået dette badge.'
+    save_changes: 'Gem ændringer'
+    badge:
+      badge: Badge
+      badges: Badges
+      name: 'Badgens navn'
+      description: 'Beskrivelse af badge'
+      earning_reason: 'Årsag til optjening af badge'
+      update_earning_reason: 'Opdater indtjeningsårsag'
+      no_earning_reason: 'Der er ikke angivet nogen indtjeningsårsag'
+      earned_on: 'Badge optjent den'
+      category: 'Badge kategori'
+      received_on: 'Modtaget den {dato}'
+      badge_details: 'Oplysninger om badge'
+      earned_count: '{count, flertal, en {<b># bruger</b> har optjent dette badge} andre {<b># brugere</b> har optjent dette badge}}'
+      earned_by_count: '{count, flertal, en {Earned by <b># user</b>} other {Earned by <b># users</b>}}'
+      others_link: '+ {count} Mere'
+    badges_in_card:
+      title: 'Badges på brugerkort'
+      manage_badges: 'Administrer badges'
+      description: 'Du kan ændre de synlige badges på dit brugerkort med et af dine andre badges. Hvis du ikke vælger nogen, vælges de automatisk.'
+      select_limit: 'Du kan vælge {limit, flertal, én {<b>én badge</b>} anden {<b># badges</b>}} for at være synlig på dit brugerkort.'
+      hit_limit: 'Der er kun plads til <b> {limit, flertal, et {<b>et badge</b>} andet {<b># badges</b>}}</b> på dit kort. Fjern markeringen af et badge for at gøre plads til dette badge.'
+    moderation:
+      remove_badge: 'Fjern badge fra bruger'
+      remove_badge_confirm: 'Er du sikker på, at du vil fjerne dette badge fra denne bruger?'
+      give_badge: 'Giv badge'
+    notification:
+      title: 'Du har modtaget et nyt badge'
+      settings: 'Jeg har modtaget et badge'
+    uncategorized: Uncategorized
 v17development-flarum-seo:
-    forum: { profile_title: 'Profil af {brugernavn}', profile_description: 'Profil af {brugernavn} | {discussion_count} diskussioner | {comment_count} indlæg' }
+  forum:
+    profile_title: 'Profil af {brugernavn}'
+    profile_description: 'Profil af {brugernavn} | {discussion_count} diskussioner | {comment_count} indlæg'
 the-turk-miserable-users:
-    forum: { miserable_user: { title: 'Elendig {brugernavn}', status_heading: 'Elendig status', not_miserable_label: 'Ikke elendigt', indefinitely_label: 'Elendig på ubestemt tid', limited_time_label: 'Elendig i en begrænset periode. . .', limited_time_days_text: ' Dage', submit_button: 'Gem ændringer' }, user_badge: { miserable_user_tooltip: 'Elendig bruger' }, user_controls: { miserable_user_button: 'Elendig bruger' } }
-    ref: { miserable_user: 'Elendig bruger' }
+  forum:
+    miserable_user:
+      title: 'Elendig {brugernavn}'
+      status_heading: 'Elendig status'
+      not_miserable_label: 'Ikke elendigt'
+      indefinitely_label: 'Elendig på ubestemt tid'
+      limited_time_label: 'Elendig i en begrænset periode. . .'
+      limited_time_days_text: ' Dage'
+      submit_button: 'Gem ændringer'
+    user_badge:
+      miserable_user_tooltip: 'Elendig bruger'
+    user_controls:
+      miserable_user_button: 'Elendig bruger'
+  ref:
+    miserable_user: 'Elendig bruger'
 sycho-profile-cover:
-    forum: { cover: Dække, edit_cover: 'Rediger omslag', notice: 'Maksimal størrelse: {size}', added: { success: 'Profilomslag opdateret.', error: 'Billedet kunne ikke uploades.' }, removed: { success: 'Profildæksel fjernet.', error: 'Kunne ikke fjerne dækslet, prøv igen senere.' } }
+  forum:
+    cover: Dække
+    edit_cover: 'Rediger omslag'
+    notice: 'Maksimal størrelse: {size}'
+    added:
+      success: 'Profilomslag opdateret.'
+      error: 'Billedet kunne ikke uploades.'
+    removed:
+      success: 'Profildæksel fjernet.'
+      error: 'Kunne ikke fjerne dækslet, prøv igen senere.'
 sycho-photoswipe: null
 nearata-tags-color-generator: null
 nearata-prevent-double-posting:
-    forum: { exception: { too_many_replies: 'Det er ikke tilladt at have flere på hinanden følgende {count}-svar. Rediger dit tidligere svar i stedet, eller vent på, at nogen svarer dig.' } }
+  forum:
+    exception:
+      too_many_replies: 'Det er ikke tilladt at have flere på hinanden følgende {count}-svar. Rediger dit tidligere svar i stedet, eller vent på, at nogen svarer dig.'
 nearata-copy-code-to-clipboard:
-    forum: { copy: 'Kopier til udklipsholder' }
+  forum:
+    copy: 'Kopier til udklipsholder'
 migratetoflarum-canonical: null
 michaelbelgium-flarum-profile-views:
-    forum: { user: { viewlist: { title: 'Sidste besøgende', guest: Gæst }, view_count_text: '{viewcount, flertal, en {viewcount} time} andet {viewcount} gange}}' } }
+  forum:
+    user:
+      viewlist: { title: 'Sidste besøgende', guest: Gæst }
+      view_count_text: '{viewcount, flertal, en {viewcount} time} andet {viewcount} gange}}'
 justoverclock-country-flags:
-    forum: { inputCountryCode: Landekode, saveButton: Spare, clickToSelectCountry: 'Vælg dit land', countrySaved: 'Land med succes reddet!', field_placeholder: 'Bekræft landeflag', binding_country: 'Vi opdagede, at du ikke har bundet dit opholdssted. Forbind venligst dit land først. Du kan kun sende og efterlade beskeder, når du har linket dit land.', binding_country_click: 'Klik nu' }
+  forum:
+    inputCountryCode: Landekode
+    saveButton: Spare
+    clickToSelectCountry: 'Vælg dit land'
+    countrySaved: 'Land med succes reddet!'
+    field_placeholder: 'Bekræft landeflag'
+    binding_country: 'Vi opdagede, at du ikke har bundet dit opholdssted. Forbind venligst dit land først. Du kan kun sende og efterlade beskeder, når du har linket dit land.'
+    binding_country_click: 'Klik nu'
 username-blacklist:
-    forum: { modal-title: Advarsel!, modal-body-first-line: 'Advarsel - Dette brugernavn er <strong>blokeret af administratoren</strong>', modal-body-second-line: 'Vælg et andet brugernavn, der ikke overtræder vores retningslinjer for fællesskabet, og prøv igen.' }
-    admin: { blackList: 'Sortlistet brugernavn', blackList-help: 'Skriv her brugernavn, som du vil blokere under registreringen (adskilt af komma)' }
+  forum:
+    modal-title: Advarsel!
+    modal-body-first-line: 'Advarsel - Dette brugernavn er <strong>blokeret af administratoren</strong>'
+    modal-body-second-line: 'Vælg et andet brugernavn, der ikke overtræder vores retningslinjer for fællesskabet, og prøv igen.'
+  admin:
+    blackList: 'Sortlistet brugernavn'
+    blackList-help: 'Skriv her brugernavn, som du vil blokere under registreringen (adskilt af komma)'
 flarum-ext-socialcards: null
 ianm-synopsis:
-    forum: { user: { settings: { summaries-heading: Synopsis, show-summaries: 'Vis et uddrag fra hver diskussion på diskussionslister (desktop/tablet)', show-summaries-mobile: 'Vis et uddrag fra hver diskussion på diskussionslister (mobil)' } } }
+  forum:
+    user:
+      settings: { summaries-heading: Synopsis, show-summaries: 'Vis et uddrag fra hver diskussion på diskussionslister (desktop/tablet)', show-summaries-mobile: 'Vis et uddrag fra hver diskussion på diskussionslister (mobil)' }
 ianm-syndication:
-    forum: { autodiscovery: { forum_activity: 'Forum aktivitet', forum_new_discussions: 'Forummets nye diskussioner', tag_activity: 'Aktivitet for tagget {tag}', tag_new_discussions: 'Diskussioner i tagget {tag}', discussion_last_posts: 'Denne diskussion', user_last_posts: 'Indlæg og kommentarer fra denne bruger' }, feeds: { entries: { user_posts: { title_reply: 'Re: {diskussion}' } }, titles: { main_title: '{forum_name}', main_subtitle: 'Sidste indlæg i forummet', main_d_title: 'Nye diskussioner i {forum_name}', main_d_subtitle: 'De nyeste diskussioner i forummet', tag_title: 'Aktivitet i tagget {tag}', tag_subtitle: 'Sidste indlæg i tagget {tag}', tag_d_title: 'Nye diskussioner i tagget {tag}', tag_d_subtitle: 'De nyeste diskussioner i tagget {tag}', discussion_title: '{discussion_name}', discussion_subtitle: 'Sidste budskaber i denne diskussion', user_title: '{brugernavn}', user_subtitle: 'Seneste indlæg & kommentarer fra denne bruger.' } }, discussion: { feed_link: Fodre } }
+  forum:
+    autodiscovery:
+      forum_activity: 'Forum aktivitet'
+      forum_new_discussions: 'Forummets nye diskussioner'
+      tag_activity: 'Aktivitet for tagget {tag}'
+      tag_new_discussions: 'Diskussioner i tagget {tag}'
+      discussion_last_posts: 'Denne diskussion'
+      user_last_posts: 'Indlæg og kommentarer fra denne bruger'
+    feeds:
+      entries: { user_posts: { title_reply: 'Re: {diskussion}' } }
+      titles: { main_title: '{forum_name}', main_subtitle: 'Sidste indlæg i forummet', main_d_title: 'Nye diskussioner i {forum_name}', main_d_subtitle: 'De nyeste diskussioner i forummet', tag_title: 'Aktivitet i tagget {tag}', tag_subtitle: 'Sidste indlæg i tagget {tag}', tag_d_title: 'Nye diskussioner i tagget {tag}', tag_d_subtitle: 'De nyeste diskussioner i tagget {tag}', discussion_title: '{discussion_name}', discussion_subtitle: 'Sidste budskaber i denne diskussion', user_title: '{brugernavn}', user_subtitle: 'Seneste indlæg & kommentarer fra denne bruger.' }
+    discussion:
+      feed_link: Fodre
 ianm-log-viewer: null
 ianm-html-head: null
 ianm-follow-users:
-    forum: { followed: Fulgt, followers: '{tæl, flertal, en {Følger} anden {Følger}}', profile_page: { no_following: 'Det ser ud til, at du ikke følger nogen.' }, settings: { notify_new_follower_label: 'Nogen følger mig', notify_new_unfollower_label: 'Nogen holder op med at følge mig', notify_new_discussion_label: 'En person, jeg følger, starter en diskussion', notify_new_post_label: 'En person, jeg følger, indlæg i en eksisterende diskussion', block_follow: 'Forhindre brugere i at følge mig' }, notifications: { new_discussion_text: '{brugernavn} startet', new_post_text: '{brugernavn} indsendt i en diskussion', new_follower_text: '{brugernavn} fulgte dig', new_unfollower_text: '{brugernavn} holdt op med at følge dig' }, badge: { label: { follow: 'Efter diskussioner', lurk: 'Efter alle' } }, filter: { following: 'Fulgte brugere' }, modals: { select_follow_level: { title: 'Vælg følgeniveau for {brugernavn}', description: 'Vælg, hvordan du vil følge <em>{brugernavn}</em>.', follow_levels_heading: 'Følg niveauer', follow_select_label: 'Følg type', no_user_attr_provided_err: 'Åh åh, noget gik galt, mens du åbnede denne modal.', no_user_attr_provided_err_debug: 'Der blev ikke overført nogen attribut ''bruger'' til SelectFollowUserLevel-modalen, da den blev oprettet. Modal kan ikke gengives.', save_btn: Spare, cancel_btn: Aflyse } }, profile_link: 'Fulgte brugere', user_controls: { follow_button: Følge, unfollow_button: 'Stop med at følge', change_button: 'Skift følgetype' }, index: { follow_tag_button: Følge, unfollow_tag_button: 'Skift følgetype' } }
-    email: { new_discussion_by_user_subject: '[Følg bruger] {titel}', new_follower_subject: '[Følg bruger] Du har fået en ny følger!', new_post_subject: '[Følg bruger] Nyt indlæg i {title}', new_discussion_by_user_body: "Hej {recipient_display_name},\n\n{user_display_name} startede en ny diskussion: {discussion_title}\n\nFor at se den nye diskussion, tjek følgende link:\n\n{discussion_url}\n\n---\n\n{post_content}\n", new_follower_body: "Hej {recipient_display_name},\n\n{follower_display_name} begyndte at følge dig, så de får besked, når du starter en ny diskussion.\n\nFor at se deres profil, tjek følgende link:\n\n{profile_url}\n", new_post_body: "Hej {recipient_display_name},\n\n{user_display_name} Indlæg i en diskussion: {discussion_title}\n\nFor at se den nye aktivitet, tjek følgende link:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nDu modtager ikke flere notifikationer om denne diskussion, før du er opdateret.\n" }
-    lib: { following_link: 'Fulgte brugere', follow: Følge, change_follow_type: 'Skift følgetype', unfollow: 'Stop med at følge', follow_levels: { unfollow: { name: 'Følg ikke', description: "Modtag ingen notifikationer om <em>{brugernavn}</em>s aktivitet.\n" }, follow: { name: 'Følg diskussioner', description: "Modtag meddelelser, når <em>{brugernavn}</em> starter en ny diskussion.\n" }, lurk: { name: 'Følg alle', description: "Modtag meddelelser, når <em>{brugernavn}</em> starter en ny diskussion eller indlæg i en diskussion.\n" } } }
+  forum:
+    followed: Fulgt
+    followers: '{tæl, flertal, en {Følger} anden {Følger}}'
+    profile_page:
+      no_following: 'Det ser ud til, at du ikke følger nogen.'
+    settings:
+      notify_new_follower_label: 'Nogen følger mig'
+      notify_new_unfollower_label: 'Nogen holder op med at følge mig'
+      notify_new_discussion_label: 'En person, jeg følger, starter en diskussion'
+      notify_new_post_label: 'En person, jeg følger, indlæg i en eksisterende diskussion'
+      block_follow: 'Forhindre brugere i at følge mig'
+    notifications:
+      new_discussion_text: '{brugernavn} startet'
+      new_post_text: '{brugernavn} indsendt i en diskussion'
+      new_follower_text: '{brugernavn} fulgte dig'
+      new_unfollower_text: '{brugernavn} holdt op med at følge dig'
+    badge:
+      label: { follow: 'Efter diskussioner', lurk: 'Efter alle' }
+    filter:
+      following: 'Fulgte brugere'
+    modals:
+      select_follow_level: { title: 'Vælg følgeniveau for {brugernavn}', description: 'Vælg, hvordan du vil følge <em>{brugernavn}</em>.', follow_levels_heading: 'Følg niveauer', follow_select_label: 'Følg type', no_user_attr_provided_err: 'Åh åh, noget gik galt, mens du åbnede denne modal.', no_user_attr_provided_err_debug: 'Der blev ikke overført nogen attribut ''bruger'' til SelectFollowUserLevel-modalen, da den blev oprettet. Modal kan ikke gengives.', save_btn: Spare, cancel_btn: Aflyse }
+    profile_link: 'Fulgte brugere'
+    user_controls:
+      follow_button: Følge
+      unfollow_button: 'Stop med at følge'
+      change_button: 'Skift følgetype'
+    index:
+      follow_tag_button: Følge
+      unfollow_tag_button: 'Skift følgetype'
+  email:
+    new_discussion_by_user_subject: '[Følg bruger] {titel}'
+    new_follower_subject: '[Følg bruger] Du har fået en ny følger!'
+    new_post_subject: '[Følg bruger] Nyt indlæg i {title}'
+    new_discussion_by_user_body: "Hej {recipient_display_name},\n\n{user_display_name} startede en ny diskussion: {discussion_title}\n\nFor at se den nye diskussion, tjek følgende link:\n\n{discussion_url}\n\n---\n\n{post_content}\n"
+    new_follower_body: "Hej {recipient_display_name},\n\n{follower_display_name} begyndte at følge dig, så de får besked, når du starter en ny diskussion.\n\nFor at se deres profil, tjek følgende link:\n\n{profile_url}\n"
+    new_post_body: "Hej {recipient_display_name},\n\n{user_display_name} Indlæg i en diskussion: {discussion_title}\n\nFor at se den nye aktivitet, tjek følgende link:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nDu modtager ikke flere notifikationer om denne diskussion, før du er opdateret.\n"
+  lib:
+    following_link: 'Fulgte brugere'
+    follow: Følge
+    change_follow_type: 'Skift følgetype'
+    unfollow: 'Stop med at følge'
+    follow_levels:
+      unfollow: { name: 'Følg ikke', description: "Modtag ingen notifikationer om <em>{brugernavn}</em>s aktivitet.\n" }
+      follow: { name: 'Følg diskussioner', description: "Modtag meddelelser, når <em>{brugernavn}</em> starter en ny diskussion.\n" }
+      lurk: { name: 'Følg alle', description: "Modtag meddelelser, når <em>{brugernavn}</em> starter en ny diskussion eller indlæg i en diskussion.\n" }
 fof-username-request:
-    forum: { nickname_modals: { action: { help_text: 'Sørg for, at denne ønskede ændring af kaldenavne følger forummets retningslinjer.', decision_title: Beslutning, approval_label: Godkende, rejected_label: Afvise, submit_button: Indsende, reason_title: 'Årsag til afvisning', success: 'Afgørelse sendt.', name: '{name} har anmodet om at ændre deres kaldenavn til "{requestName}"', title: 'Anmodning om ændring af kaldenavn' }, results: { title: 'Anmodning om ændring af kaldenavn', approved: 'Din anmodning om ændring af kaldenavn er blevet godkendt', new_name: 'Dit kaldenavn er blevet ændret til: {name}', rejected: 'Din anmodning om ændring af kaldenavn blev afvist', reason: 'Årsag til afvisning: <i>"{årsag}"</i>.', resubmit: 'På nuværende tidspunkt kan du genindsende en anmodning om ændring af et nyt kaldenavn fra dine kontoindstillinger, hvis du ønsker det.', dismiss_button: OK }, request: { title: 'Anmod om ændring af kaldenavn', current_request: 'Du har allerede anmodet om at ændre dit kaldenavn til "{name}". Du kan enten opdatere din anmodning eller slette den.', submit_button: 'Indsend anmodning', delete_button: 'Slet anmodning', confirmation_message: 'Din anmodning om ændring af kaldenavn er blevet indsendt og afventer godkendelse.', deleted: 'Anmodning om kaldenavn slettet.', dismiss_button: OK } }, username_modals: { action: { help_text: 'Sørg for, at denne ønskede ændring af brugernavn følger forummets retningslinjer.', decision_title: Beslutning, approval_label: Godkende, rejected_label: Afvise, submit_button: Indsende, reason_title: 'Årsag til afvisning', success: 'Afgørelse sendt.', name: '{name} har anmodet om at ændre deres brugernavn til "{requestName}"', title: 'Anmodning om ændring af brugernavn' }, results: { title: 'Anmodning om ændring af brugernavn', approved: 'Din anmodning om ændring af brugernavn er blevet godkendt', new_name: 'Dit brugernavn er blevet ændret til: {name}', rejected: 'Din anmodning om ændring af brugernavn blev afvist', reason: 'Årsag til afvisning: <i>"{årsag}"</i>.', resubmit: 'På nuværende tidspunkt kan du genindsende en anmodning om ændring af nyt brugernavn fra dine kontoindstillinger, hvis du ønsker det.', dismiss_button: OK }, request: { title: 'Anmod om ændring af brugernavn', current_request: 'Du har allerede anmodet om at ændre dit brugernavn til "{name}". Du kan enten opdatere din anmodning eller slette den.', submit_button: 'Indsend anmodning', delete_button: 'Slet anmodning', confirmation_message: 'Din anmodning om ændring af brugernavn er blevet indsendt og afventer godkendelse.', deleted: 'Anmodning om brugernavn slettet.', dismiss_button: OK } }, pending_requests: { empty_text: 'Der blev ikke fundet nogen anmodninger om navneændring.', nickname_item_text: '{navn} anmodede om ændring af kaldenavn', nickname_exerpt: 'Ønsket kaldenavn: {requestName}', username_item_text: '{navn} anmodede om ændring af brugernavn', username_exerpt: 'Ønsket brugernavn: {requestName}', tooltip: 'Anmodninger om navneændring', title: 'Anmodninger om navneændring' }, settings: { nickname_request_button: 'Skift kaldenavn', username_request_button: 'Skift brugernavn' }, user: { name_history_link: 'Navn historie' } }
-    ref: { name_change_request: 'Anmodning om navneændring', name_change_requests: 'Anmodninger om navneændring', nickname_change_request: 'Anmodning om ændring af kaldenavn', nickname_change_requests: 'Anmodninger om ændring af kaldenavn', username_change_request: 'Anmodning om ændring af brugernavn', username_change_requests: 'Anmodninger om ændring af brugernavn' }
-    email: { body: { noReasonProvided: 'Ingen grund angivet.', approved: "Hej {recipient_display_name},\n\nDin anmodning om at ændre dit brugernavn til \"{new_username}\" er blevet godkendt af {actor_display_name}.\n\nDu kan nu logge ind med dit nye brugernavn: {login_url}\n", rejected: "Hej {recipient_display_name},\n\nDin anmodning om at ændre dit brugernavn fra \"{old_username}\" til \"{requested_username}\" er blevet afvist af {actor_display_name}.\n\nÅrsag: {årsag}\n" }, subject: { approved: '{display_name} godkendte, at dit brugernavn blev ændret til {requested_username}', rejected: '{display_name} afviste din ændring af brugernavn til {requested_username}' } }
+  forum:
+    nickname_modals:
+      action: { help_text: 'Sørg for, at denne ønskede ændring af kaldenavne følger forummets retningslinjer.', decision_title: Beslutning, approval_label: Godkende, rejected_label: Afvise, submit_button: Indsende, reason_title: 'Årsag til afvisning', success: 'Afgørelse sendt.', name: '{name} har anmodet om at ændre deres kaldenavn til "{requestName}"', title: 'Anmodning om ændring af kaldenavn' }
+      results: { title: 'Anmodning om ændring af kaldenavn', approved: 'Din anmodning om ændring af kaldenavn er blevet godkendt', new_name: 'Dit kaldenavn er blevet ændret til: {name}', rejected: 'Din anmodning om ændring af kaldenavn blev afvist', reason: 'Årsag til afvisning: <i>"{årsag}"</i>.', resubmit: 'På nuværende tidspunkt kan du genindsende en anmodning om ændring af et nyt kaldenavn fra dine kontoindstillinger, hvis du ønsker det.', dismiss_button: OK }
+      request: { title: 'Anmod om ændring af kaldenavn', current_request: 'Du har allerede anmodet om at ændre dit kaldenavn til "{name}". Du kan enten opdatere din anmodning eller slette den.', submit_button: 'Indsend anmodning', delete_button: 'Slet anmodning', confirmation_message: 'Din anmodning om ændring af kaldenavn er blevet indsendt og afventer godkendelse.', deleted: 'Anmodning om kaldenavn slettet.', dismiss_button: OK }
+    username_modals:
+      action: { help_text: 'Sørg for, at denne ønskede ændring af brugernavn følger forummets retningslinjer.', decision_title: Beslutning, approval_label: Godkende, rejected_label: Afvise, submit_button: Indsende, reason_title: 'Årsag til afvisning', success: 'Afgørelse sendt.', name: '{name} har anmodet om at ændre deres brugernavn til "{requestName}"', title: 'Anmodning om ændring af brugernavn' }
+      results: { title: 'Anmodning om ændring af brugernavn', approved: 'Din anmodning om ændring af brugernavn er blevet godkendt', new_name: 'Dit brugernavn er blevet ændret til: {name}', rejected: 'Din anmodning om ændring af brugernavn blev afvist', reason: 'Årsag til afvisning: <i>"{årsag}"</i>.', resubmit: 'På nuværende tidspunkt kan du genindsende en anmodning om ændring af nyt brugernavn fra dine kontoindstillinger, hvis du ønsker det.', dismiss_button: OK }
+      request: { title: 'Anmod om ændring af brugernavn', current_request: 'Du har allerede anmodet om at ændre dit brugernavn til "{name}". Du kan enten opdatere din anmodning eller slette den.', submit_button: 'Indsend anmodning', delete_button: 'Slet anmodning', confirmation_message: 'Din anmodning om ændring af brugernavn er blevet indsendt og afventer godkendelse.', deleted: 'Anmodning om brugernavn slettet.', dismiss_button: OK }
+    pending_requests:
+      empty_text: 'Der blev ikke fundet nogen anmodninger om navneændring.'
+      nickname_item_text: '{navn} anmodede om ændring af kaldenavn'
+      nickname_exerpt: 'Ønsket kaldenavn: {requestName}'
+      username_item_text: '{navn} anmodede om ændring af brugernavn'
+      username_exerpt: 'Ønsket brugernavn: {requestName}'
+      tooltip: 'Anmodninger om navneændring'
+      title: 'Anmodninger om navneændring'
+    settings:
+      nickname_request_button: 'Skift kaldenavn'
+      username_request_button: 'Skift brugernavn'
+    user:
+      name_history_link: 'Navn historie'
+  ref:
+    name_change_request: 'Anmodning om navneændring'
+    name_change_requests: 'Anmodninger om navneændring'
+    nickname_change_request: 'Anmodning om ændring af kaldenavn'
+    nickname_change_requests: 'Anmodninger om ændring af kaldenavn'
+    username_change_request: 'Anmodning om ændring af brugernavn'
+    username_change_requests: 'Anmodninger om ændring af brugernavn'
+  email:
+    body:
+      noReasonProvided: 'Ingen grund angivet.'
+      approved: "Hej {recipient_display_name},\n\nDin anmodning om at ændre dit brugernavn til \"{new_username}\" er blevet godkendt af {actor_display_name}.\n\nDu kan nu logge ind med dit nye brugernavn: {login_url}\n"
+      rejected: "Hej {recipient_display_name},\n\nDin anmodning om at ændre dit brugernavn fra \"{old_username}\" til \"{requested_username}\" er blevet afvist af {actor_display_name}.\n\nÅrsag: {årsag}\n"
+    subject:
+      approved: '{display_name} godkendte, at dit brugernavn blev ændret til {requested_username}'
+      rejected: '{display_name} afviste din ændring af brugernavn til {requested_username}'
 fof-user-bio:
-    forum: { userbioPlaceholder: 'Skriv noget om dig selv', userbioPlaceholderOtherUser: 'Skriv en biografi til {brugernavn}', profile: { cancel_confirm: 'Er du sikker på, at du vil annullere redigeringen af din biografi? Du mister eventuelle ændringer, du har foretaget.', cancel_button: Aflyse, save_button: Spare, edit_bio_label: 'Rediger biografi' } }
+  forum:
+    userbioPlaceholder: 'Skriv noget om dig selv'
+    userbioPlaceholderOtherUser: 'Skriv en biografi til {brugernavn}'
+    profile:
+      cancel_confirm: 'Er du sikker på, at du vil annullere redigeringen af din biografi? Du mister eventuelle ændringer, du har foretaget.'
+      cancel_button: Aflyse
+      save_button: Spare
+      edit_bio_label: 'Rediger biografi'
 fof-split:
-    forum: { post: { was_split_to: '{count, flertal, et {{count} indlæg blev opdelt til {target}.} andre {{count} indlæg blev opdelt til {target}.}}', was_split_from: '{count, flertal, et {{count} indlæg blev delt fra {target}.} andre {{count} indlæg blev delt fra {target}.}}' }, split: { from: 'Split herfra', to: 'Split til her', cancel: 'Annuller opdeling' }, modal: { title: 'Delt diskussion', new_discussion_label: 'Angiv titlen på den nye diskussion', submit_button: Splitte } }
+  forum:
+    post:
+      was_split_to: '{count, flertal, et {{count} indlæg blev opdelt til {target}.} andre {{count} indlæg blev opdelt til {target}.}}'
+      was_split_from: '{count, flertal, et {{count} indlæg blev delt fra {target}.} andre {{count} indlæg blev delt fra {target}.}}'
+    split:
+      from: 'Split herfra'
+      to: 'Split til her'
+      cancel: 'Annuller opdeling'
+    modal:
+      title: 'Delt diskussion'
+      new_discussion_label: 'Angiv titlen på den nye diskussion'
+      submit_button: Splitte
 fof-socialprofile:
-    forum: { edit: { edit: 'Rediger dine knapper til sociale medier', add: 'Føj knapper til dine sociale medier', headtitle: 'Rediger knapper', title: Titel, url: URL-adresse, submit: Spare, delete: Slette, deletetitle: 'Knappen Slet', save_disabled_fetching_favicons: 'Et eller flere ikoner hentes. Vent venligst.', favicon: Favicon, grey_favicon: 'Grå favicon' } }
+  forum:
+    edit:
+      edit: 'Rediger dine knapper til sociale medier'
+      add: 'Føj knapper til dine sociale medier'
+      headtitle: 'Rediger knapper'
+      title: Titel
+      url: URL-adresse
+      submit: Spare
+      delete: Slette
+      deletetitle: 'Knappen Slet'
+      save_disabled_fetching_favicons: 'Et eller flere ikoner hentes. Vent venligst.'
+      favicon: Favicon
+      grey_favicon: 'Grå favicon'
 fof-sitemap: null
 fof-share-social:
-    forum: { discussion: { share_button: Aktie, share_dropdown_accessible_label: 'Skift rullemenuen Diskussionsdeling' }, modal: { title: Aktie, copy_button: Eksemplar } }
-    lib: { networks: { facebook: Facebook, twitter: Kvidre, linkedin: LinkedIn, reddit: Reddit, whatsapp: WhatsApp, telegram: Telegram, vkontakte: VKontakte, odnoklassniki: Odnoklassniki, my_mail: 'Min verden', qq: QQ, qzone: QZone, native: 'Indbygget andel' } }
+  forum:
+    discussion:
+      share_button: Aktie
+      share_dropdown_accessible_label: 'Skift rullemenuen Diskussionsdeling'
+    modal:
+      title: Aktie
+      copy_button: Eksemplar
+  lib:
+    networks:
+      facebook: Facebook
+      twitter: Kvidre
+      linkedin: LinkedIn
+      reddit: Reddit
+      whatsapp: WhatsApp
+      telegram: Telegram
+      vkontakte: VKontakte
+      odnoklassniki: Odnoklassniki
+      my_mail: 'Min verden'
+      qq: QQ
+      qzone: QZone
+      native: 'Indbygget andel'
 fof-recaptcha:
-    forum: { error: 'Der opstod en fejl under indsendelse af reCAPTCHA. Prøv igen.', unknown_error: 'Der opstod en ukendt fejl. Kontroller captcha, og prøv igen.' }
+  forum:
+    error: 'Der opstod en fejl under indsendelse af reCAPTCHA. Prøv igen.'
+    unknown_error: 'Der opstod en ukendt fejl. Kontroller captcha, og prøv igen.'
 fof-reactions:
-    forum: { disabled-reaction: 'Du kan ikke bruge denne reaktion lige nu, opdater venligst siden', warning: 'Din reaktion blev konverteret', notification: '{brugernavn} reagerede med {reaktion} på dit indlæg', settings: { notify_post_reacted_label: 'Nogen reagerer på et af mine opslag' }, reacting-own-post: 'Du kan ikke reagere på dit eget indlæg', modal: { title: Reaktioner, anonymous_count: '{count, flertal, en {# anonym bruger} andre {# anonyme brugere}}', no_reactions: 'Ingen reaktioner endnu' }, mod_item: 'Se reaktioner', react_button_label: Reagere }
+  forum:
+    disabled-reaction: 'Du kan ikke bruge denne reaktion lige nu, opdater venligst siden'
+    warning: 'Din reaktion blev konverteret'
+    notification: '{brugernavn} reagerede med {reaktion} på dit indlæg'
+    settings:
+      notify_post_reacted_label: 'Nogen reagerer på et af mine opslag'
+    reacting-own-post: 'Du kan ikke reagere på dit eget indlæg'
+    modal:
+      title: Reaktioner
+      anonymous_count: '{count, flertal, en {# anonym bruger} andre {# anonyme brugere}}'
+      no_reactions: 'Ingen reaktioner endnu'
+    mod_item: 'Se reaktioner'
+    react_button_label: Reagere
 fof-profile-image-crop:
-    forum: { modal: { error: { failed_to_load_cropper: 'Billedbeskæreren kunne ikke indlæses.', generic_resize: 'Noget gik galt under beskæring og ændring af størrelsen på billedet.', get_image_data: 'Kunne ikke beskære. Sørg for, at din browsers fingeraftryksbeskyttelse er deaktiveret.' }, help_text: "Billedoverførslen mislykkes muligvis, hvis din browsers privatlivsindstillinger er meget strenge. Hvis du har problemer, kan du prøve at deaktivere fingeraftryksbeskyttelse. Ellers kan du enten <disableResize>deaktivere komprimering af det beskårne billede</disableResize> eller <disableCrop>deaktivere beskæring helt</disableCrop>.\n", submit_button: Uploade, submit_crop_button: 'Beskær og upload' } }
+  forum:
+    modal:
+      error: { failed_to_load_cropper: 'Billedbeskæreren kunne ikke indlæses.', generic_resize: 'Noget gik galt under beskæring og ændring af størrelsen på billedet.', get_image_data: 'Kunne ikke beskære. Sørg for, at din browsers fingeraftryksbeskyttelse er deaktiveret.' }
+      help_text: "Billedoverførslen mislykkes muligvis, hvis din browsers privatlivsindstillinger er meget strenge. Hvis du har problemer, kan du prøve at deaktivere fingeraftryksbeskyttelse. Ellers kan du enten <disableResize>deaktivere komprimering af det beskårne billede</disableResize> eller <disableCrop>deaktivere beskæring helt</disableCrop>.\n"
+      submit_button: Uploade
+      submit_crop_button: 'Beskær og upload'
 fof-prevent-necrobumping:
-    forum: { composer: { warning: { title: 'Denne diskussion er mere end <b>{tid}</b> gammel.', description: 'Det er meget sandsynligt, at det ikke behøver yderligere diskussion, og derfor tjener det ikke noget formål at støde på det.', checkbox_label: 'Jeg er klar over, at denne diskussion er temmelig gammel, men vil alligevel gerne svare.', error: 'Denne diskussion er for gammel til at svare på.' } } }
+  forum:
+    composer:
+      warning: { title: 'Denne diskussion er mere end <b>{tid}</b> gammel.', description: 'Det er meget sandsynligt, at det ikke behøver yderligere diskussion, og derfor tjener det ikke noget formål at støde på det.', checkbox_label: 'Jeg er klar over, at denne diskussion er temmelig gammel, men vil alligevel gerne svare.', error: 'Denne diskussion er for gammel til at svare på.' }
 fof-pretty-mail: null
 fof-polls:
-    forum: { days_remaining: 'Meningsmålingen slutter {time}.', no_permission: 'Du har ikke tilladelse til at stemme', poll_ended: 'Denne meningsmåling er afsluttet.', public_poll: 'Se vælgere', max_votes_allowed: 'Afstemning tillader afstemning for {max, flertal, en {# option} andre {# muligheder}}.', composer_discussion: { add_poll: 'Tilføj meningsmåling', edit_poll: 'Rediger meningsmåling' }, modal: { add_title: 'Tilføj en meningsmåling', add_option_label: 'Tilføj en mulighed', date_placeholder: 'Slutdato for meningsmåling (valgfrit)', edit_title: 'Rediger meningsmåling', include_question: 'Du skal inkludere et spørgsmål', max: 'Du kan maksimalt få 10 svar', min: 'Du skal inkludere mindst 2 svar', no_voters: 'Ingen stemmer', option_placeholder: Svare, image_option_placeholder: 'URL-adresse til billede (valgfrit)', options_label: Svar, public_poll_label: 'Lad folk se, hvem der stemte', allow_multiple_votes_label: 'Tillad folk at stemme på flere muligheder', max_votes_label: 'Maks. antal stemmer pr. bruger', max_votes_help: 'Indstil til 0 for at give brugerne mulighed for at stemme på alle indstillinger.', question_placeholder: Spørgsmål, submit: Indsende }, moderation: { delete: 'Fjern meningsmåling', delete_confirm: 'Er du sikker på, at du vil slette denne meningsmåling?', edit: 'Rediger meningsmåling' }, tooltip: { badge: Meningsmåling, votes: '{tæl, flertal, en {# stemme} andre {# stemmer}}' }, votes_modal: { title: Vælgere } }
+  forum:
+    days_remaining: 'Meningsmålingen slutter {time}.'
+    no_permission: 'Du har ikke tilladelse til at stemme'
+    poll_ended: 'Denne meningsmåling er afsluttet.'
+    public_poll: 'Se vælgere'
+    max_votes_allowed: 'Afstemning tillader afstemning for {max, flertal, en {# option} andre {# muligheder}}.'
+    composer_discussion:
+      add_poll: 'Tilføj meningsmåling'
+      edit_poll: 'Rediger meningsmåling'
+    modal:
+      add_title: 'Tilføj en meningsmåling'
+      add_option_label: 'Tilføj en mulighed'
+      date_placeholder: 'Slutdato for meningsmåling (valgfrit)'
+      edit_title: 'Rediger meningsmåling'
+      include_question: 'Du skal inkludere et spørgsmål'
+      max: 'Du kan maksimalt få 10 svar'
+      min: 'Du skal inkludere mindst 2 svar'
+      no_voters: 'Ingen stemmer'
+      option_placeholder: Svare
+      image_option_placeholder: 'URL-adresse til billede (valgfrit)'
+      options_label: Svar
+      public_poll_label: 'Lad folk se, hvem der stemte'
+      allow_multiple_votes_label: 'Tillad folk at stemme på flere muligheder'
+      max_votes_label: 'Maks. antal stemmer pr. bruger'
+      max_votes_help: 'Indstil til 0 for at give brugerne mulighed for at stemme på alle indstillinger.'
+      question_placeholder: Spørgsmål
+      submit: Indsende
+    moderation:
+      delete: 'Fjern meningsmåling'
+      delete_confirm: 'Er du sikker på, at du vil slette denne meningsmåling?'
+      edit: 'Rediger meningsmåling'
+    tooltip:
+      badge: Meningsmåling
+      votes: '{tæl, flertal, en {# stemme} andre {# stemmer}}'
+    votes_modal:
+      title: Vælgere
 fof-nightmode:
-    ref: { auto: 'Automatisk (baseret på browser- eller enhedsindstillinger)', light: Dag-tilstand, dark: Nat-tilstand }
-    forum: { header: { nightmode_button: Nat-tilstand }, user: { settings: { heading: Tema, description: 'Vælg hvilket farvetema du vil bruge på forummet.', description2: 'Dette tema vil blive knyttet til din konto og gælder for alle dine enheder, medmindre du skifter kontakten nedenfor for pr. Enhedsindstillinger.', device_specific_setting_checkbox: 'Brug pr. enhedsindstillinger', device_specific_setting_checkbox_tooltip: 'Dit temavalg gemmes individuelt for hver af dine enheder.', auto_unsupported: 'Din browser understøtter ikke automatisk mørk tilstand.', option_descriptions: { auto: 'Dit tema vælges automatisk baseret på dine browser- eller enhedsindstillinger. For eksempel, hvis du har mørk tilstand aktiveret i iOS, vil foraene også være mørke.', day: 'Den klassiske oplevelse, som du er vant til. Elsket og testet.', night: 'Du er lidt af en natteravn. Du våger over forummet om natten, mens fuglene sover og rævene jager. Eller du foretrækker bare de mørkere farver!' }, options: { auto: 'Automatisk (baseret på browser- eller enhedsindstillinger)', day: Dag-tilstand, night: Nat-tilstand } } }, day: Dag-tilstand, night: Nat-tilstand }
+  ref:
+    auto: 'Automatisk (baseret på browser- eller enhedsindstillinger)'
+    light: Dag-tilstand
+    dark: Nat-tilstand
+  forum:
+    header:
+      nightmode_button: Nat-tilstand
+    user:
+      settings: { heading: Tema, description: 'Vælg hvilket farvetema du vil bruge på forummet.', description2: 'Dette tema vil blive knyttet til din konto og gælder for alle dine enheder, medmindre du skifter kontakten nedenfor for pr. Enhedsindstillinger.', device_specific_setting_checkbox: 'Brug pr. enhedsindstillinger', device_specific_setting_checkbox_tooltip: 'Dit temavalg gemmes individuelt for hver af dine enheder.', auto_unsupported: 'Din browser understøtter ikke automatisk mørk tilstand.', option_descriptions: { auto: 'Dit tema vælges automatisk baseret på dine browser- eller enhedsindstillinger. For eksempel, hvis du har mørk tilstand aktiveret i iOS, vil foraene også være mørke.', day: 'Den klassiske oplevelse, som du er vant til. Elsket og testet.', night: 'Du er lidt af en natteravn. Du våger over forummet om natten, mens fuglene sover og rævene jager. Eller du foretrækker bare de mørkere farver!' }, options: { auto: 'Automatisk (baseret på browser- eller enhedsindstillinger)', day: Dag-tilstand, night: Nat-tilstand } }
+    day: Dag-tilstand
+    night: Nat-tilstand
 fof-default-user-preferences: null
 fof-moderator-notes:
-    forum: { no_content_given: 'En tom note er ikke tilladt.', moderatorNotes: { created_text: '{brugernavn} oprettede denne note den {dato}', add_button: 'Ny note', create-heading: 'Opret en ny moderatornote', dismiss_button: Gjort, input_heading: 'Indtast dine noter til <strong>{brugernavn}</strong>, (markdown understøttes)', noNotes: 'Det ser ud til, at der ikke er nogen noter her.', submit_button: 'Gem bemærkning', delete: Slette, confirm: 'Er du sikker på, at du vil slette denne note?' }, user: { notes: 'Redaktør Noter' } }
-    api: { auto_note: '_I skiftede til denne bruger:_ {reason}', auto_note_actor: '_Switched to_ @{brugernavn}: {årsag}', no_reason_provided: 'Ingen grund angivet' }
+  forum:
+    no_content_given: 'En tom note er ikke tilladt.'
+    moderatorNotes:
+      created_text: '{brugernavn} oprettede denne note den {dato}'
+      add_button: 'Ny note'
+      create-heading: 'Opret en ny moderatornote'
+      dismiss_button: Gjort
+      input_heading: 'Indtast dine noter til <strong>{brugernavn}</strong>, (markdown understøttes)'
+      noNotes: 'Det ser ud til, at der ikke er nogen noter her.'
+      submit_button: 'Gem bemærkning'
+      delete: Slette
+      confirm: 'Er du sikker på, at du vil slette denne note?'
+    user:
+      notes: 'Redaktør Noter'
+  api:
+    auto_note: '_I skiftede til denne bruger:_ {reason}'
+    auto_note_actor: '_Switched to_ @{brugernavn}: {årsag}'
+    no_reason_provided: 'Ingen grund angivet'
 fof-linguist: null
 fof-html-errors: null
 fof-gamification:
-    forum: { votes: Stemmer, vote_title: 'Vis, hvem der stemte', nav: { name: Placeringer }, ranking: { rank: Sted, name: Bruger, amount: Point }, notification: { upvote: '{brugernavn} opstemte dit indlæg', downvote: '{brugernavn} nedstemte dit indlæg', prefrences: { vote: 'Når et af mine indlæg er op/ned stemt' } }, user: { card: { points: '{count, flertal, en { {count} point} anden {{count} point}}' }, rank: '{rang}', votes_link: Stemmer }, modal: { downvotes_label: 'Downvoters:', title: Vælgere, upvotes_label: 'Upvoters:' }, mod_item: 'Se vælgere', voters: { none: 'Ingen vælgere endnu', label: Vælgere, label_none: 'Ingen vælgere' }, post: { upvote_button: 'Upvote indlæg', downvote_button: 'Downvote indlæg' } }
-    email: { body: { postVoted: "Hej {recipient_display_name},\n\n{actor_display_name} har lige stemt på dit indlæg i {discussion_title}.\n\nSe den her: {discussion_url}\n" }, subject: { postVoted: 'Dit indlæg blev stemt om af {display_name}' } }
+  forum:
+    votes: Stemmer
+    vote_title: 'Vis, hvem der stemte'
+    nav:
+      name: Placeringer
+    ranking:
+      rank: Sted
+      name: Bruger
+      amount: Point
+    notification:
+      upvote: '{brugernavn} opstemte dit indlæg'
+      downvote: '{brugernavn} nedstemte dit indlæg'
+      prefrences: { vote: 'Når et af mine indlæg er op/ned stemt' }
+    user:
+      card: { points: '{count, flertal, en { {count} point} anden {{count} point}}' }
+      rank: '{rang}'
+      votes_link: Stemmer
+    modal:
+      downvotes_label: 'Downvoters:'
+      title: Vælgere
+      upvotes_label: 'Upvoters:'
+    mod_item: 'Se vælgere'
+    voters:
+      none: 'Ingen vælgere endnu'
+      label: Vælgere
+      label_none: 'Ingen vælgere'
+    post:
+      upvote_button: 'Upvote indlæg'
+      downvote_button: 'Downvote indlæg'
+  email:
+    body:
+      postVoted: "Hej {recipient_display_name},\n\n{actor_display_name} har lige stemt på dit indlæg i {discussion_title}.\n\nSe den her: {discussion_url}\n"
+    subject:
+      postVoted: 'Dit indlæg blev stemt om af {display_name}'
 fof-formatting: null
 fof-drafts:
-    console: { scheduled_drafts_disabled: 'Planlagte kladder er i øjeblikket deaktiveret i indstillingerne.' }
-    ref: { schedule_draft: 'Planlæg kladde' }
-    forum: { composer: { title: 'Gem kladde', saving: Besparelse..., saved: Gemt!, exit_alert: 'Kassere ændringer i kladde?', discard_empty_draft_alert: 'Kassér tomt udkast?' }, dropdown: { empty_text: 'Du har ikke gemt nogen kladder', title: Udkast, delete_all_button: 'Slet alle kladder', delete_button: 'Slet kladde', scheduled_icon_tooltip: 'Planlagt til {datetime}', scheduled_icon_tooltip_formatter: 'L [at] LT', alert: 'Er du sikker på, at du vil slette din kladde?', delete_all_alert: 'Er du sikker på, at du vil slette alle dine kladder?', schedule_button: 'Planlæg kladde', tooltip: Udkast }, schedule_draft_modal: { text: 'Planlæg dit udkast til automatisk at blive sendt på et senere tidspunkt!', scheduled_text: 'I øjeblikket planlagt til at blive sendt på {datetime}.', scheduled_error: 'Kladden kunne ikke planlægges: {error}.', unschedule_button: 'Fjern tidsplan', unschedule_warning: 'Er du sikker på, at du vil fjerne tidsplanen for dette udkast?', reschedule_button: Omplanlægge, schedule_button: Køreplan, schedule_time_preview: 'Dette udkast offentliggøres automatisk den <b>{datetime}</b>.', schedule_time_preview_formatter: LLLL, schedule_time_preview_invalid: 'Ugyldigt dato og/eller klokkeslæt', title: 'Planlæg kladde' }, user: { settings: { drafts_heading: Udkast, draft_autosave_enable: 'Aktivere kladde til automatisk lagring?', draft_autosave_interval_label: 'Automatisk lagringsinterval (sekunder)', draft_autosave_interval_button: Opdateringsinterval, draft_autosave_interval_invalid: 'Intervallet skal være et heltal større end 4.' } } }
+  console:
+    scheduled_drafts_disabled: 'Planlagte kladder er i øjeblikket deaktiveret i indstillingerne.'
+  ref:
+    schedule_draft: 'Planlæg kladde'
+  forum:
+    composer:
+      title: 'Gem kladde'
+      saving: Besparelse...
+      saved: Gemt!
+      exit_alert: 'Kassere ændringer i kladde?'
+      discard_empty_draft_alert: 'Kassér tomt udkast?'
+    dropdown:
+      empty_text: 'Du har ikke gemt nogen kladder'
+      title: Udkast
+      delete_all_button: 'Slet alle kladder'
+      delete_button: 'Slet kladde'
+      scheduled_icon_tooltip: 'Planlagt til {datetime}'
+      scheduled_icon_tooltip_formatter: 'L [at] LT'
+      alert: 'Er du sikker på, at du vil slette din kladde?'
+      delete_all_alert: 'Er du sikker på, at du vil slette alle dine kladder?'
+      schedule_button: 'Planlæg kladde'
+      tooltip: Udkast
+    schedule_draft_modal:
+      text: 'Planlæg dit udkast til automatisk at blive sendt på et senere tidspunkt!'
+      scheduled_text: 'I øjeblikket planlagt til at blive sendt på {datetime}.'
+      scheduled_error: 'Kladden kunne ikke planlægges: {error}.'
+      unschedule_button: 'Fjern tidsplan'
+      unschedule_warning: 'Er du sikker på, at du vil fjerne tidsplanen for dette udkast?'
+      reschedule_button: Omplanlægge
+      schedule_button: Køreplan
+      schedule_time_preview: 'Dette udkast offentliggøres automatisk den <b>{datetime}</b>.'
+      schedule_time_preview_formatter: LLLL
+      schedule_time_preview_invalid: 'Ugyldigt dato og/eller klokkeslæt'
+      title: 'Planlæg kladde'
+    user:
+      settings: { drafts_heading: Udkast, draft_autosave_enable: 'Aktivere kladde til automatisk lagring?', draft_autosave_interval_label: 'Automatisk lagringsinterval (sekunder)', draft_autosave_interval_button: Opdateringsinterval, draft_autosave_interval_invalid: 'Intervallet skal være et heltal større end 4.' }
 fof-best-answer:
-    forum: { answered_badge: Besvaret, this_best_answer: 'Vælg bedste svar', remove_best_answer: 'Fravælg Bedste svar', best_answer_button: 'Bedste svar', best_answer_label: 'indstillet af <a>{brugernavn}</a> {time_set}', errors: { mismatch: 'Valgt indlæg findes ikke i denne diskussion.' }, notification: { best_answer_in_discussion: '{brugernavn} sæt et bedste svar i denne diskussion', content: 'Vælg venligst et bedste svar, hvis dit spørgsmål er blevet besvaret', awarded: 'Dit indlæg blev angivet som det bedste svar af {brugernavn}', preferences: { awarded_best_answer: 'Nogen sætter mit indlæg som et bedste svar', best_answer_in_discussion: 'Et bedste svar er sat i en diskussion, jeg deltog i', select_best_answer: 'En automatisk påmindelse om at vælge det bedste svar i en diskussion, jeg startede' } }, index: { ask_question: 'Stil et spørgsmål', cannot_ask_question: 'Kan ikke stille et spørgsmål', solved_link: 'Løste diskussioner', unsolved_link: 'Uløste diskussioner' }, filter: { all_label: 'Alle spørgsmål', solved_label: 'Løste spørgsmål', unsolved_label: 'Uløste spørgsmål', accessible_label: 'Løst/uløst udvalg' }, composer: { titlePlaceholder: 'Spørgsmålets titel' }, user: { best-answer-count: '{tæl, flertal, en { {count} bedste svar} andet {{count} bedste svar}}' }, search: { discussions_solutions_heading: 'Diskussioner med løsninger', all_discussions_solutions_button: 'Søg i alle diskussioner med løsninger til "{query}"' }, discussion: { jump_to_best_answer_button: 'Vis bedste svar' } }
-    email: { subject: { awarded: 'Dit indlæg blev sat som det bedste svar af {display_name}', ba-set: 'Et bedste svar blev sat af {display_name}', select: 'Har du formået at få dit spørgsmål besvaret?' }, body: { awarded: "Hej {re Modtager_display_name},\n\nFantastisk job, {actor_display_name} Bare sæt dit indlæg som det bedste svar i diskussionen: {discussion_titel}. Tak for at hjælpe ud.\n\nSe det her: {discussion_url}\n", ba-set: "Hej {re Modtager_display_name},\n\n{actor_display_name} bare angive et bedste svar i diskussionen: {discussion_title}, som du deltog i.\n\nTjek det ud: {discussion_url}\n", select: "Hej {re Modtager_display_name},\n\nBare tjekke ind; nu skal du have masser af svar på dit spørgsmål: {discussion_title}. Forhåbentlig har en af dem hjulpet dig med at løse dit problem.\n\nHvis det så, ville det være virkelig nyttigt for fremtidige medlemmer, hvis du kunne indstille et bedste svar på dit spørgsmål. Det vil hjælpe folk med det samme problem finde svaret, de har brug for, og det er også en stor tak til de medlemmer, der hjalp dig. De giver deres tid frivilligt, så det er rart at lade dem vide, at de gør godt.\n\nBesøg diskussionen her: {discussion_url}, og vælg det mest passende indlæg som det bedste svar.\n\nTak!\n" } }
+  forum:
+    answered_badge: Besvaret
+    this_best_answer: 'Vælg bedste svar'
+    remove_best_answer: 'Fravælg Bedste svar'
+    best_answer_button: 'Bedste svar'
+    best_answer_label: 'indstillet af <a>{brugernavn}</a> {time_set}'
+    errors:
+      mismatch: 'Valgt indlæg findes ikke i denne diskussion.'
+    notification:
+      best_answer_in_discussion: '{brugernavn} sæt et bedste svar i denne diskussion'
+      content: 'Vælg venligst et bedste svar, hvis dit spørgsmål er blevet besvaret'
+      awarded: 'Dit indlæg blev angivet som det bedste svar af {brugernavn}'
+      preferences: { awarded_best_answer: 'Nogen sætter mit indlæg som et bedste svar', best_answer_in_discussion: 'Et bedste svar er sat i en diskussion, jeg deltog i', select_best_answer: 'En automatisk påmindelse om at vælge det bedste svar i en diskussion, jeg startede' }
+    index:
+      ask_question: 'Stil et spørgsmål'
+      cannot_ask_question: 'Kan ikke stille et spørgsmål'
+      solved_link: 'Løste diskussioner'
+      unsolved_link: 'Uløste diskussioner'
+    filter:
+      all_label: 'Alle spørgsmål'
+      solved_label: 'Løste spørgsmål'
+      unsolved_label: 'Uløste spørgsmål'
+      accessible_label: 'Løst/uløst udvalg'
+    composer:
+      titlePlaceholder: 'Spørgsmålets titel'
+    user:
+      best-answer-count: '{tæl, flertal, en { {count} bedste svar} andet {{count} bedste svar}}'
+    search:
+      discussions_solutions_heading: 'Diskussioner med løsninger'
+      all_discussions_solutions_button: 'Søg i alle diskussioner med løsninger til "{query}"'
+    discussion:
+      jump_to_best_answer_button: 'Vis bedste svar'
+  email:
+    subject:
+      awarded: 'Dit indlæg blev sat som det bedste svar af {display_name}'
+      ba-set: 'Et bedste svar blev sat af {display_name}'
+      select: 'Har du formået at få dit spørgsmål besvaret?'
+    body:
+      awarded: "Hej {re Modtager_display_name},\n\nFantastisk job, {actor_display_name} Bare sæt dit indlæg som det bedste svar i diskussionen: {discussion_titel}. Tak for at hjælpe ud.\n\nSe det her: {discussion_url}\n"
+      ba-set: "Hej {re Modtager_display_name},\n\n{actor_display_name} bare angive et bedste svar i diskussionen: {discussion_title}, som du deltog i.\n\nTjek det ud: {discussion_url}\n"
+      select: "Hej {re Modtager_display_name},\n\nBare tjekke ind; nu skal du have masser af svar på dit spørgsmål: {discussion_title}. Forhåbentlig har en af dem hjulpet dig med at løse dit problem.\n\nHvis det så, ville det være virkelig nyttigt for fremtidige medlemmer, hvis du kunne indstille et bedste svar på dit spørgsmål. Det vil hjælpe folk med det samme problem finde svaret, de har brug for, og det er også en stor tak til de medlemmer, der hjalp dig. De giver deres tid frivilligt, så det er rart at lade dem vide, at de gør godt.\n\nBesøg diskussionen her: {discussion_url}, og vælg det mest passende indlæg som det bedste svar.\n\nTak!\n"
 fof-user-directory:
-    lib: { sort: { most_best_answers: 'De bedste svar', least_best_answers: 'Mindst bedste svar' } }
+  lib:
+    sort:
+      most_best_answers: 'De bedste svar'
+      least_best_answers: 'Mindst bedste svar'
 fof-ban-ips:
-    forum: { modal: { ban_options_only_ip: 'Forbyd kun aktuel IP (<code>{ip}</code>)', ban_options_all_ip: 'Forbyd alle IP-adresser, der bruges af <i>{brugernavn}</i>', ban_ip_no_users: 'Ingen andre vil blive udelukket' }, user_badge: { banned_tooltip: Forbudt }, ban_ip_button: 'Forbyd IP', unban_ip_button: 'Fjern forbud mod IP', user_controls: { ban_button: Forbud, unban_button: 'Fjern forbud' } }
-    error: { banned_ip_message: 'Godkendelsen mislykkedes.', no_ips_found_message: 'Der blev ikke fundet nogen IP(''er) for brugeren.' }
-    lib: { modal: { check_button: Kontrollere, save_button: Spare, ban_ip_confirmation: 'Er du sikker på, at du vil blokere denne IP-adresse fra brug på forummet? Dette vil blokere brugere med denne IP-adresse (er) fra at logge ind og registrere.', ban_ip_users: '{count, flertal, en {User {users} vil blive forbudt} andre {Users {users} vil blive forbudt}}', unban_ip_confirmation: 'Er du sikker på, at du vil fjerne forbuddet mod denne bruger og alle andre brugere, der ikke er forbudt af andre IP''er?', unban_options_only_ip: 'Fjern kun blokering af aktuel IP (<code>{ip}</code>)', unban_options_all_ip: 'Fjern blokering af alle IP''er, der bruges af <i>{brugernavn}</i>', unban_ip_no_users: 'Ingen andre vil blive forbudt', unban_ip_users: '{count, flertal, en {User {users} vil blive unbanned} andre {Users {users} vil blive unbanned}}', unbanned_ips: 'Ikke forbudt <code>{ips}</code>.', title: 'Forbyd IP(''er)', unban_title: 'Fjern forbud mod IP(''er)', address_label: IP-adresse, reason_label: Årsag, ban_button: Forbud, unban_button: 'Fjern forbud' } }
-    ref: { ban_label: Forbud, ban_ip_addresses: 'Forbyd IP(''er)', ban_ip_button: 'Forbyd IP', unban_label: 'Fjern forbud', unban_ip_addresses: 'Fjern forbud mod IP(''er)', unban_ip_button: 'Fjern forbud mod IP', address_label: IP-adresse, reason_label: Årsag }
+  forum:
+    modal:
+      ban_options_only_ip: 'Forbyd kun aktuel IP (<code>{ip}</code>)'
+      ban_options_all_ip: 'Forbyd alle IP-adresser, der bruges af <i>{brugernavn}</i>'
+      ban_ip_no_users: 'Ingen andre vil blive udelukket'
+    user_badge:
+      banned_tooltip: Forbudt
+    ban_ip_button: 'Forbyd IP'
+    unban_ip_button: 'Fjern forbud mod IP'
+    user_controls:
+      ban_button: Forbud
+      unban_button: 'Fjern forbud'
+  error:
+    banned_ip_message: 'Godkendelsen mislykkedes.'
+    no_ips_found_message: 'Der blev ikke fundet nogen IP(''er) for brugeren.'
+  lib:
+    modal:
+      check_button: Kontrollere
+      save_button: Spare
+      ban_ip_confirmation: 'Er du sikker på, at du vil blokere denne IP-adresse fra brug på forummet? Dette vil blokere brugere med denne IP-adresse (er) fra at logge ind og registrere.'
+      ban_ip_users: '{count, flertal, en {User {users} vil blive forbudt} andre {Users {users} vil blive forbudt}}'
+      unban_ip_confirmation: 'Er du sikker på, at du vil fjerne forbuddet mod denne bruger og alle andre brugere, der ikke er forbudt af andre IP''er?'
+      unban_options_only_ip: 'Fjern kun blokering af aktuel IP (<code>{ip}</code>)'
+      unban_options_all_ip: 'Fjern blokering af alle IP''er, der bruges af <i>{brugernavn}</i>'
+      unban_ip_no_users: 'Ingen andre vil blive forbudt'
+      unban_ip_users: '{count, flertal, en {User {users} vil blive unbanned} andre {Users {users} vil blive unbanned}}'
+      unbanned_ips: 'Ikke forbudt <code>{ips}</code>.'
+      title: 'Forbyd IP(''er)'
+      unban_title: 'Fjern forbud mod IP(''er)'
+      address_label: IP-adresse
+      reason_label: Årsag
+      ban_button: Forbud
+      unban_button: 'Fjern forbud'
+  ref:
+    ban_label: Forbud
+    ban_ip_addresses: 'Forbyd IP(''er)'
+    ban_ip_button: 'Forbyd IP'
+    unban_label: 'Fjern forbud'
+    unban_ip_addresses: 'Fjern forbud mod IP(''er)'
+    unban_ip_button: 'Fjern forbud mod IP'
+    address_label: IP-adresse
+    reason_label: Årsag
 fof-anti-spam:
-    forum: { message: { stopforumspam: { blocked: 'Oplysninger om din registrering er fundet i en spamforebyggelsesdatabase, derfor er din registrering blevet blokeret.' } }, spammer_modal: { hard_delete_discussions_label: 'Slet diskussioner', hard_delete_discussions_help: 'Dette sletter permanent alle diskussioner, der er startet af denne bruger. Når de er deaktiveret, skjules diskussioner i stedet.', hard_delete_posts_label: 'Slet indlæg', hard_delete_posts_help: 'Dette vil permanent slette alle indlæg (kommentarer, svar osv.) foretaget af denne bruger. Når de er deaktiveret, skjules indlæg i stedet.', hard_delete_user_label: 'Slet bruger', hard_delete_user_help: 'Dette sletter brugeren permanent. Når deaktiveret, suspenderes brugeren i stedet.', intro: 'Når du markerer en bruger som spammer, udføres flere handlinger, hvilket afhænger af de udvidelser, der er tilgængelige på dit forum.', move_discussions_tag_label: 'Flyt diskussioner til mærket i karantæne', move_discussions_tag_help: 'Dette flytter alle diskussioner, der er startet af denne bruger, til det tag, du angav i forumindstillingerne. Når de er deaktiveret, forbliver diskussioner i deres aktuelle tags.', process_button: Proces, title: 'Markér {brugernavn} som spammer', report_to_sfs_label: 'Rapporter til StopForumSpam', report_to_sfs_help: 'Dette vil rapportere brugerens grundlæggende detaljer (brugernavn, e-mail, IP-adresse) til StopForumSpam. Dette forhindrer brugeren i at registrere sig på andre fora, der bruger tjenesten StopForumSpam.' }, user_controls: { spammer_button: Spammer } }
+  forum:
+    message:
+      stopforumspam: { blocked: 'Oplysninger om din registrering er fundet i en spamforebyggelsesdatabase, derfor er din registrering blevet blokeret.' }
+    spammer_modal:
+      hard_delete_discussions_label: 'Slet diskussioner'
+      hard_delete_discussions_help: 'Dette sletter permanent alle diskussioner, der er startet af denne bruger. Når de er deaktiveret, skjules diskussioner i stedet.'
+      hard_delete_posts_label: 'Slet indlæg'
+      hard_delete_posts_help: 'Dette vil permanent slette alle indlæg (kommentarer, svar osv.) foretaget af denne bruger. Når de er deaktiveret, skjules indlæg i stedet.'
+      hard_delete_user_label: 'Slet bruger'
+      hard_delete_user_help: 'Dette sletter brugeren permanent. Når deaktiveret, suspenderes brugeren i stedet.'
+      intro: 'Når du markerer en bruger som spammer, udføres flere handlinger, hvilket afhænger af de udvidelser, der er tilgængelige på dit forum.'
+      move_discussions_tag_label: 'Flyt diskussioner til mærket i karantæne'
+      move_discussions_tag_help: 'Dette flytter alle diskussioner, der er startet af denne bruger, til det tag, du angav i forumindstillingerne. Når de er deaktiveret, forbliver diskussioner i deres aktuelle tags.'
+      process_button: Proces
+      title: 'Markér {brugernavn} som spammer'
+      report_to_sfs_label: 'Rapporter til StopForumSpam'
+      report_to_sfs_help: 'Dette vil rapportere brugerens grundlæggende detaljer (brugernavn, e-mail, IP-adresse) til StopForumSpam. Dette forhindrer brugeren i at registrere sig på andre fora, der bruger tjenesten StopForumSpam.'
+    user_controls:
+      spammer_button: Spammer
 fof-analytics: null
 flarumite-simple-discussion-views:
-    forum: { modal_resetviews: { title: 'Nulstille antallet af diskussionsvisninger', submit: Indsende, label: 'Indstil til visningsantal' }, discussion_controls: { resetviews_button: 'Indstil antal visninger' } }
+  forum:
+    modal_resetviews:
+      title: 'Nulstille antallet af diskussionsvisninger'
+      submit: Indsende
+      label: 'Indstil til visningsantal'
+    discussion_controls:
+      resetviews_button: 'Indstil antal visninger'
 flarum-sticky:
-    forum: { discussion_controls: { unsticky_button: Unsticky, sticky_button: Klæbrig }, post_stream: { discussion_stickied_text: '{brugernavn} satte diskussionen {tid} fast.', discussion_unstickied_text: '{brugernavn} løsnede diskussionen {tid}.' }, badge: { sticky_tooltip: Klæbrig } }
-    ref: { sticky: Klæbrig }
+  forum:
+    discussion_controls:
+      unsticky_button: Unsticky
+      sticky_button: Klæbrig
+    post_stream:
+      discussion_stickied_text: '{brugernavn} satte diskussionen {tid} fast.'
+      discussion_unstickied_text: '{brugernavn} løsnede diskussionen {tid}.'
+    badge:
+      sticky_tooltip: Klæbrig
+  ref:
+    sticky: Klæbrig
 flarum-statistics: null
 flarum-pusher:
-    forum: { discussion_list: { show_updates_text: '{tæl, flertal, en {Vis # opdateret diskussion} andet {Vis # opdaterede diskussioner}}' } }
+  forum:
+    discussion_list:
+      show_updates_text: '{tæl, flertal, en {Vis # opdateret diskussion} andet {Vis # opdaterede diskussioner}}'
 flarum-lock:
-    forum: { badge: { locked_tooltip: Låst }, discussion_controls: { lock_button: Lås, unlock_button: Låse }, notifications: { discussion_locked_text: '{brugernavn} låst' }, post_stream: { discussion_locked_text: '{brugernavn} låste diskussionen {tid}.', discussion_unlocked_text: '{brugernavn} låste diskussionen op {tid}.' }, settings: { notify_discussion_locked_label: 'Nogen låser en diskussion, jeg har startet' } }
+  forum:
+    badge:
+      locked_tooltip: Låst
+    discussion_controls:
+      lock_button: Lås
+      unlock_button: Låse
+    notifications:
+      discussion_locked_text: '{brugernavn} låst'
+    post_stream:
+      discussion_locked_text: '{brugernavn} låste diskussionen {tid}.'
+      discussion_unlocked_text: '{brugernavn} låste diskussionen op {tid}.'
+    settings:
+      notify_discussion_locked_label: 'Nogen låser en diskussion, jeg har startet'
 flarum-likes:
-    forum: { notifications: { post_liked_text: '{brugernavn} synes godt om dit indlæg', others_text: '{tæl, flertal, en {# andet} andet {# andre}}' }, post: { like_link: 'Synes om', liked_by_self_text: '{brugere} på denne måde.', liked_by_text: '{tæl, flertal, en {{brugere} kan lide dette} andre {{brugere} som denne}}.', unlike_link: Ulig, others_link: '{tæl, flertal, en {# andet} andet {# andre}}', you_text: Du }, post_likes: { title: 'Brugere der kan lide dette', load_more_button: 'Indlæs mere' }, settings: { notify_post_liked_label: 'Nogen synes godt om et af mine indlæg' }, user: { likes_link: Holder } }
+  forum:
+    notifications:
+      post_liked_text: '{brugernavn} synes godt om dit indlæg'
+      others_text: '{tæl, flertal, en {# andet} andet {# andre}}'
+    post:
+      like_link: 'Synes om'
+      liked_by_self_text: '{brugere} på denne måde.'
+      liked_by_text: '{tæl, flertal, en {{brugere} kan lide dette} andre {{brugere} som denne}}.'
+      unlike_link: Ulig
+      others_link: '{tæl, flertal, en {# andet} andet {# andre}}'
+      you_text: Du
+    post_likes:
+      title: 'Brugere der kan lide dette'
+      load_more_button: 'Indlæs mere'
+    settings:
+      notify_post_liked_label: 'Nogen synes godt om et af mine indlæg'
+    user:
+      likes_link: Holder
 flarum-emoji:
-    forum: { composer: { emoji_tooltip: 'Indsæt emoji', type_to_search_text: 'Skriv for at søge efter en emoji' } }
+  forum:
+    composer:
+      emoji_tooltip: 'Indsæt emoji'
+      type_to_search_text: 'Skriv for at søge efter en emoji'
 dhtml-translate:
-    forum: { post: { content: { max: 'Dit indhold er for stort, læs venligst vores retningslinjer for opslag' } } }
+  forum:
+    post:
+      content: { max: 'Dit indhold er for stort, læs venligst vores retningslinjer for opslag' }
 dhtml-persona:
-    forum: { persona: Person }
+  forum:
+    persona: Person
 dhtml-leaderboard:
-    forum: { leaderboard: Rangliste }
+  forum:
+    leaderboard: Rangliste
 dhtml-gender:
-    forum: { male: Mandlig, female: Kvindelig, other: 'Foretrækker ikke at sige', inputGender: Køn, saveButton: Spare, clickToSelectGender: 'Vælg dit køn', genderSaved: 'Køn med succes reddet!', field_placeholder: 'Bekræft køn', binding_gender: 'Vi opdagede, at du ikke har angivet dit køn. Angiv dit køn først. Du kan kun sende og efterlade beskeder, når du har angivet dit køn.', binding_gender_click: 'Klik nu' }
+  forum:
+    male: Mandlig
+    female: Kvindelig
+    other: 'Foretrækker ikke at sige'
+    inputGender: Køn
+    saveButton: Spare
+    clickToSelectGender: 'Vælg dit køn'
+    genderSaved: 'Køn med succes reddet!'
+    field_placeholder: 'Bekræft køn'
+    binding_gender: 'Vi opdagede, at du ikke har angivet dit køn. Angiv dit køn først. Du kan kun sende og efterlade beskeder, når du har angivet dit køn.'
+    binding_gender_click: 'Klik nu'
 flarum-content-pages:
-    forum: { home: Hjem, about-us: 'Om os', guidelines: Retningslinjer, privacy-policy: 'Håndtering af persondata', terms-of-use: 'Vilkår for brug', contact-us: 'Kontakt os', download-app: 'Hent app', discord-chat: Discord-chat, tags-cloud: 'Tags Cloud', languages: Sprog, leaderboard: Rangliste }
+  forum:
+    home: Hjem
+    about-us: 'Om os'
+    guidelines: Retningslinjer
+    privacy-policy: 'Håndtering af persondata'
+    terms-of-use: 'Vilkår for brug'
+    contact-us: 'Kontakt os'
+    download-app: 'Hent app'
+    discord-chat: Discord-chat
+    tags-cloud: 'Tags Cloud'
+    languages: Sprog
+    leaderboard: Rangliste
 dhtml-composer:
-    forum: { composer: { character_counter: 'Tæller af tegn' } }
+  forum:
+    composer:
+      character_counter: 'Tæller af tegn'
 datlechin-birthdays:
-    forum: { user: { birthday_text: 'Fødselsdag: {dato}', age_text: 'Alder: {alder}' }, change_dob: { title: 'Rediger fødselsdato', date_of_birth_text: Fødselsdag, submit_button: 'Gem ændringer' }, settings: { change_dob_label: 'Skift fødselsdato', show_dob_date_label: 'Vis fødselsdag og -måned', show_dob_year_label: 'Vis fødselsår', show_dob_year_help: 'Dette giver folk mulighed for at se din alder.', dob_heading: Fødselsdag }, nav: { nav_item: 'Dagens fødselsdage' }, page: { discussion_count: '{tæl, flertal, en {Diskussion: #} andet {Diskussioner: #}}', post_count: '{count, flertal, en {Post: #} andet {Indlæg: #}}' }, edit_user: { dob_heading: Fødselsdag }, sign_up: { dob_placeholder: Fødselsdag } }
-    api: { invalid_dob_message: 'Ugyldig fødselsdato', invalid_age_message: 'Din alder skal være mindst {minAge} år gammel.' }
-    ref: { date_of_birth: Fødselsdag }
+  forum:
+    user:
+      birthday_text: 'Fødselsdag: {dato}'
+      age_text: 'Alder: {alder}'
+    change_dob:
+      title: 'Rediger fødselsdato'
+      date_of_birth_text: Fødselsdag
+      submit_button: 'Gem ændringer'
+    settings:
+      change_dob_label: 'Skift fødselsdato'
+      show_dob_date_label: 'Vis fødselsdag og -måned'
+      show_dob_year_label: 'Vis fødselsår'
+      show_dob_year_help: 'Dette giver folk mulighed for at se din alder.'
+      dob_heading: Fødselsdag
+    nav:
+      nav_item: 'Dagens fødselsdage'
+    page:
+      discussion_count: '{tæl, flertal, en {Diskussion: #} andet {Diskussioner: #}}'
+      post_count: '{count, flertal, en {Post: #} andet {Indlæg: #}}'
+    edit_user:
+      dob_heading: Fødselsdag
+    sign_up:
+      dob_placeholder: Fødselsdag
+  api:
+    invalid_dob_message: 'Ugyldig fødselsdato'
+    invalid_age_message: 'Din alder skal være mindst {minAge} år gammel.'
+  ref:
+    date_of_birth: Fødselsdag
 clarkwinkelmann-post-permissions: null
 clarkwinkelmann-emojionearea:
-    forum: { picker_button: Emoji-vælger, search_placeholder: Søge... }
+  forum:
+    picker_button: Emoji-vælger
+    search_placeholder: Søge...
 clarkwinkelmann-author-change:
-    forum: { controls: { edit: 'Rediger forfatter og dato' }, modal: { title-post: 'Rediger indlæggets forfatter og dato', title-discussion: 'Rediger diskussionens forfatter og dato', user: Forfatter, created_at: Oprettelsestid, edited_at: 'Rediger tid', sync-with-discussion: 'Synkroniser med diskussion', sync-with-post: 'Synkroniser med første indlæg', sync-impossible: 'Kan ikke finde første indlæg. Prøv at rulle til starten af diskussionen.', submit: Spare, cancel: Aflyse }, search: { placeholder: 'Søg efter brugere', type-more: 'Skriv 3 tegn for at søge i databasen', no-results: 'Ingen resultater' } }
+  forum:
+    controls:
+      edit: 'Rediger forfatter og dato'
+    modal:
+      title-post: 'Rediger indlæggets forfatter og dato'
+      title-discussion: 'Rediger diskussionens forfatter og dato'
+      user: Forfatter
+      created_at: Oprettelsestid
+      edited_at: 'Rediger tid'
+      sync-with-discussion: 'Synkroniser med diskussion'
+      sync-with-post: 'Synkroniser med første indlæg'
+      sync-impossible: 'Kan ikke finde første indlæg. Prøv at rulle til starten af diskussionen.'
+      submit: Spare
+      cancel: Aflyse
+    search:
+      placeholder: 'Søg efter brugere'
+      type-more: 'Skriv 3 tegn for at søge i databasen'
+      no-results: 'Ingen resultater'
 blomstra-database-queue: null
 askvortsov-rich-text:
-    lib: { composer: { toggle_button: 'Skift RTF-tilstand', insert_button: Indsætte, insert_image: { src_placeholder: Sammenkæde, title_placeholder: Titel }, insert_link: { text_placeholder: Tekst, href_placeholder: URL-adresse, title_placeholder: 'Titel (vises, når markøren holdes over)', remove_button: Fjerne }, additional_items_tooltip: 'Yderligere kontrolelementer', bold_tooltip: 'Fed tekst <{modifierKey}-b>', code_tooltip: 'Indbygget kode <{modifierKey}-''>', code_block_tooltip: 'Indsæt en kodeblok', header_tooltip: 'Skift til overskrift {level} <shift-{modifierKey}-{level}>', horizontal_rule_tooltip: 'Indsæt vandret streg', image_tooltip: 'Tilføj et billede', italic_tooltip: 'Kursiv tekst <{modifierKey}-i>', link_tooltip: 'Tilføj et link', ordered_list_tooltip: 'Opstilling med tal/bogstaver <shift-{modifierKey}-9>', paragraph_tooltip: 'Skift til afsnit <shift-{modifierKey}-0>', quote_tooltip: 'Indsæt et citat <{modifierKey}-q>', spoiler_block_tooltip: 'Bloker spoiler/dropdown', spoiler_inline_tooltip: 'Spoiler <{modifierKey}-;>', strike_tooltip: 'Gennemstregning <alt-shift-5>', sub_tooltip: 'Sænket skrift <{modifierKey}-,>', sup_tooltip: 'Hævet <{modifierKey}-.>', text_type_tooltip: 'Vælg teksttype', unordered_list_tooltip: 'Punktopstilling <shift-{modifierKey}-8>' } }
-    forum: { settings: { composer_heading: Komponist, use_rich_text_editor_label: 'Brug RTF-editor?', rich_text_compact_paragraphs_label: 'Adskil ikke afsnit med nye linjer.' } }
+  lib:
+    composer:
+      toggle_button: 'Skift RTF-tilstand'
+      insert_button: Indsætte
+      insert_image: { src_placeholder: Sammenkæde, title_placeholder: Titel }
+      insert_link: { text_placeholder: Tekst, href_placeholder: URL-adresse, title_placeholder: 'Titel (vises, når markøren holdes over)', remove_button: Fjerne }
+      additional_items_tooltip: 'Yderligere kontrolelementer'
+      bold_tooltip: 'Fed tekst <{modifierKey}-b>'
+      code_tooltip: 'Indbygget kode <{modifierKey}-''>'
+      code_block_tooltip: 'Indsæt en kodeblok'
+      header_tooltip: 'Skift til overskrift {level} <shift-{modifierKey}-{level}>'
+      horizontal_rule_tooltip: 'Indsæt vandret streg'
+      image_tooltip: 'Tilføj et billede'
+      italic_tooltip: 'Kursiv tekst <{modifierKey}-i>'
+      link_tooltip: 'Tilføj et link'
+      ordered_list_tooltip: 'Opstilling med tal/bogstaver <shift-{modifierKey}-9>'
+      paragraph_tooltip: 'Skift til afsnit <shift-{modifierKey}-0>'
+      quote_tooltip: 'Indsæt et citat <{modifierKey}-q>'
+      spoiler_block_tooltip: 'Bloker spoiler/dropdown'
+      spoiler_inline_tooltip: 'Spoiler <{modifierKey}-;>'
+      strike_tooltip: 'Gennemstregning <alt-shift-5>'
+      sub_tooltip: 'Sænket skrift <{modifierKey}-,>'
+      sup_tooltip: 'Hævet <{modifierKey}-.>'
+      text_type_tooltip: 'Vælg teksttype'
+      unordered_list_tooltip: 'Punktopstilling <shift-{modifierKey}-8>'
+  forum:
+    settings:
+      composer_heading: Komponist
+      use_rich_text_editor_label: 'Brug RTF-editor?'
+      rich_text_compact_paragraphs_label: 'Adskil ikke afsnit med nye linjer.'
 askvortsov-pwa:
-    forum: { alerts: { optin: 'Du har aktiveret push-meddelelser, men har ikke konfigureret denne enhed.', optin_button: Konfigurere }, discussion_controls: { share_button: Aktie }, post_controls: { share_button: Aktie, share_api: { title: '{brugernavn}s svar til {title}''' } }, user_controls: { share_button: Aktie }, settings: { push_header: Skubbe, pwa_notifications: { access_default: 'På grund af browserbegrænsninger skal du tilmelde dig for at modtage push-meddelelser på denne enhed.', access_default_button: 'Tilmeld dig', access_denied: 'Du skal justere dine browserindstillinger for at modtage push-meddelelser på denne enhed.', access_denied_button: Lære, no_browser_support: 'Denne browser understøtter ikke push-meddelelser til progressive webapps.', no_browser_support_button: 'Lær mere' } } }
-    views: { offline: { header: 'Fejl ved netværksforbindelse', text: 'Denne app kræver en netværksforbindelse; Det kan ikke bruges offline. Kontroller din forbindelse.' } }
+  forum:
+    alerts:
+      optin: 'Du har aktiveret push-meddelelser, men har ikke konfigureret denne enhed.'
+      optin_button: Konfigurere
+    discussion_controls:
+      share_button: Aktie
+    post_controls:
+      share_button: Aktie
+      share_api: { title: '{brugernavn}s svar til {title}''' }
+    user_controls:
+      share_button: Aktie
+    settings:
+      push_header: Skubbe
+      pwa_notifications: { access_default: 'På grund af browserbegrænsninger skal du tilmelde dig for at modtage push-meddelelser på denne enhed.', access_default_button: 'Tilmeld dig', access_denied: 'Du skal justere dine browserindstillinger for at modtage push-meddelelser på denne enhed.', access_denied_button: Lære, no_browser_support: 'Denne browser understøtter ikke push-meddelelser til progressive webapps.', no_browser_support_button: 'Lær mere' }
+  views:
+    offline:
+      header: 'Fejl ved netværksforbindelse'
+      text: 'Denne app kræver en netværksforbindelse; Det kan ikke bruges offline. Kontroller din forbindelse.'
 askvortsov-moderator-warnings:
-    emails: { post_warned: { subject: '{warner_display_name} advarede dig med {strikes, flertal, one {# strike} other {# strikes}} in {discussion_title}', body: "Hej {warnee_display_name}!\n\n{warner_display_name} advarede dig med {strikes, flertal, one {# strike} other {# strikes}} in {discussion_title}\n\nDer blev givet følgende begrundelse:\n\n---\n\n{public_comment}\n" }, user_warned: { subject: '{warner_display_name} advarede dig med {strikes, flertal, en {# strike} other {# strikes}}', body: "Hej {warnee_display_name}!\n\n{warner_display_name} advarede dig med {strikes, flertal, en {# strike} other {# strikes}}\n\nDer blev givet følgende begrundelse:\n\n---\n\n{public_comment}\n" } }
-    forum: { notifications: { warning_text: '{strejker, flertal, en {Du blev advaret med # strejke af {mod_username}} andet {Du blev advaret med # strejker af {mod_username}}}', warning_no_strikes_text: 'Du blev advaret af {mod_username} (ingen strafklip)' }, post: { warning: '{strejker, flertal, en {Advaret med # strejke af {mod_username}} andet {Advaret med # strejker af {mod_username}}}', warning_no_strikes: 'Advaret uden strafklip af {mod_username}' }, post_controls: { warning_button: 'Advar bruger' }, user: { warnings: 'Advarsler fra moderator' }, settings: { warning_notification_label: 'En moderator advarer mig' }, validation: { public_comment_required: 'Du giver mest en offentlig kommentar.', invalid_strike_count: 'Antallet af strafklip skal være et heltal mellem 0 og 5.' }, warning_controls: { delete_button: Fjerne, restore_button: Genskabe, delete_forever_button: 'Slet permanent' }, warning_list: { add_button: 'Ny advarsel', no_warnings: 'Det ser ud til, at der ikke er nogen advarsler her.', warnings: '{strafklip, flertal, en {Moderatoradvarsler: # Strejke modtaget} andet {Moderatoradvarsler: # Markeringer modtaget}}', warnings_no_strikes: 'Moderatoradvarsler: Ingen markeringer modtaget' }, warning_list_item: { list_item_heading: '{markeringer, flertal, en {<strong>#</strong> strejke, {tid}} andre {<strong>#</strong> markeringer, {tid}}}', list_item_heading_hidden: '{markeringer, flertal, en {<strong>#</strong> markering, {tid} <strong>(fjernet)</strong>} andre {<strong>#</strong> markeringer, {tid} <strong>(fjernet)</strong>}}', public_comment: Advarsel, private_comment: 'Kommentarer, der er synlige for moderatoren', linked_post: 'Linket indlæg' }, warning_modal: { confirmation_message: 'Din advarsel er blevet gemt. Du skal muligvis opdatere siden for at se den.', heading: 'Advar <strong>{brugernavn}</strong>', strikes_heading: 'Hvor mange strejker skal anvendes?', public_comment_heading: 'Hvorfor modtager <strong>{brugernavn}</strong> disse advarsler? Disse kommentarer vil være synlige for brugeren og andre moderatorer.', private_comment_heading: 'Hvorfor modtager <strong>{brugernavn}</strong> disse advarsler? Disse kommentarer vil KUN være synlige for andre moderatorer.', submit_button: 'Gem advarsel' } }
+  emails:
+    post_warned:
+      subject: '{warner_display_name} advarede dig med {strikes, flertal, one {# strike} other {# strikes}} in {discussion_title}'
+      body: "Hej {warnee_display_name}!\n\n{warner_display_name} advarede dig med {strikes, flertal, one {# strike} other {# strikes}} in {discussion_title}\n\nDer blev givet følgende begrundelse:\n\n---\n\n{public_comment}\n"
+    user_warned:
+      subject: '{warner_display_name} advarede dig med {strikes, flertal, en {# strike} other {# strikes}}'
+      body: "Hej {warnee_display_name}!\n\n{warner_display_name} advarede dig med {strikes, flertal, en {# strike} other {# strikes}}\n\nDer blev givet følgende begrundelse:\n\n---\n\n{public_comment}\n"
+  forum:
+    notifications:
+      warning_text: '{strejker, flertal, en {Du blev advaret med # strejke af {mod_username}} andet {Du blev advaret med # strejker af {mod_username}}}'
+      warning_no_strikes_text: 'Du blev advaret af {mod_username} (ingen strafklip)'
+    post:
+      warning: '{strejker, flertal, en {Advaret med # strejke af {mod_username}} andet {Advaret med # strejker af {mod_username}}}'
+      warning_no_strikes: 'Advaret uden strafklip af {mod_username}'
+    post_controls:
+      warning_button: 'Advar bruger'
+    user:
+      warnings: 'Advarsler fra moderator'
+    settings:
+      warning_notification_label: 'En moderator advarer mig'
+    validation:
+      public_comment_required: 'Du giver mest en offentlig kommentar.'
+      invalid_strike_count: 'Antallet af strafklip skal være et heltal mellem 0 og 5.'
+    warning_controls:
+      delete_button: Fjerne
+      restore_button: Genskabe
+      delete_forever_button: 'Slet permanent'
+    warning_list:
+      add_button: 'Ny advarsel'
+      no_warnings: 'Det ser ud til, at der ikke er nogen advarsler her.'
+      warnings: '{strafklip, flertal, en {Moderatoradvarsler: # Strejke modtaget} andet {Moderatoradvarsler: # Markeringer modtaget}}'
+      warnings_no_strikes: 'Moderatoradvarsler: Ingen markeringer modtaget'
+    warning_list_item:
+      list_item_heading: '{markeringer, flertal, en {<strong>#</strong> strejke, {tid}} andre {<strong>#</strong> markeringer, {tid}}}'
+      list_item_heading_hidden: '{markeringer, flertal, en {<strong>#</strong> markering, {tid} <strong>(fjernet)</strong>} andre {<strong>#</strong> markeringer, {tid} <strong>(fjernet)</strong>}}'
+      public_comment: Advarsel
+      private_comment: 'Kommentarer, der er synlige for moderatoren'
+      linked_post: 'Linket indlæg'
+    warning_modal:
+      confirmation_message: 'Din advarsel er blevet gemt. Du skal muligvis opdatere siden for at se den.'
+      heading: 'Advar <strong>{brugernavn}</strong>'
+      strikes_heading: 'Hvor mange strejker skal anvendes?'
+      public_comment_heading: 'Hvorfor modtager <strong>{brugernavn}</strong> disse advarsler? Disse kommentarer vil være synlige for brugeren og andre moderatorer.'
+      private_comment_heading: 'Hvorfor modtager <strong>{brugernavn}</strong> disse advarsler? Disse kommentarer vil KUN være synlige for andre moderatorer.'
+      submit_button: 'Gem advarsel'
 askvortsov-discussion-templates:
-    forum: { discussion_controls: { reply_template_button: 'Rediger svarskabelon' }, reply_template: { title: 'Rediger svarskabelon', submit_button: 'Gem svarskabelon' } }
+  forum:
+    discussion_controls:
+      reply_template_button: 'Rediger svarskabelon'
+    reply_template:
+      title: 'Rediger svarskabelon'
+      submit_button: 'Gem svarskabelon'
