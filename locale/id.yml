@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: Login
     event-conferences: Sitemap
     showcase: Login
+    tags: Tags
+    more: Sitemap
+    general-discussion: 'Diskusi Umum'
+    technology-articles: Artikel
+    coding-challenges: 'Coding Tantangan'
+    q-a: 'Bagian Q / A'
+    artificial-intelligence: 'Intel Xeon'
+    computer-science: 'Ilmu Komputer'
+    programming-languages: 'Bahasa Pemrograman'
+    development-tools: 'Alat Pengembangan'
+    software-development: 'Pengembangan Perangkat Lunak'
+    frontend-development: 'Pembangunan Frontend'
+    backend-development: 'Pengembangan Backend'
+    software-engineering: 'Teknik Perangkat Lunak'
+    cybersecurity: Login
 dhtml-composer:
   forum:
     composer:

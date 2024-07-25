@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: Konferensi
     event-conferences: 'Peristiwa / Konferensi'
     showcase: Koper
+    tags: Tags
+    more: 'Amerika Serikat'
+    general-discussion: 'Diskusi Umum'
+    technology-articles: 'Artikel Teknologi Teknologi Terapan'
+    coding-challenges: 'Tantangan yang Penuh Tantangan'
+    q-a: 'Bagian Q/A'
+    artificial-intelligence: 'Kecerdasan Buatan'
+    computer-science: 'Sains Komputer'
+    programming-languages: 'Bahasa Pemrograman'
+    development-tools: 'Alatan Pembangunan'
+    software-development: 'Pengembangan Perangkat Lunak Software'
+    frontend-development: 'Pembangunan Frontend'
+    backend-development: 'Pembangunan Backend'
+    software-engineering: 'Rekayasa Perangkat Lunak'
+    cybersecurity: 'Keamanan Siber'
 dhtml-composer:
   forum:
     composer:

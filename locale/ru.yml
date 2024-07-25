@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: Конференции
     event-conferences: 'События / Конференции'
     showcase: Показка
+    tags: Теги
+    more: Больше
+    general-discussion: 'Общее обсуждение'
+    technology-articles: 'Технологические статьи'
+    coding-challenges: 'Проблемы кодирования'
+    q-a: 'Q/A Раздел'
+    artificial-intelligence: 'Искусственный интеллект'
+    computer-science: 'Компьютерная наука'
+    programming-languages: 'Языки программирования'
+    development-tools: 'Инструменты развития'
+    software-development: 'Программное обеспечение'
+    frontend-development: 'Frontend Development'
+    backend-development: 'Резервное развитие'
+    software-engineering: 'Программное обеспечение'
+    cybersecurity: Кибербезопасность
 dhtml-composer:
   forum:
     composer:

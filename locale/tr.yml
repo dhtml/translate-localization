@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: Konferanslar
     event-conferences: 'Etkinlikler / Konferanslar'
     showcase: Do
+    tags: Etiketler
+    more: 'Daha fazla'
+    general-discussion: 'Genel Tartışma'
+    technology-articles: 'Teknoloji Makaleler'
+    coding-challenges: 'Coding Challenges'
+    q-a: 'Q/A Bölüm'
+    artificial-intelligence: 'Yapay Zeka'
+    computer-science: 'Bilgisayar Bilimi'
+    programming-languages: 'Programlama Dilleri'
+    development-tools: 'Geliştirme Araçları'
+    software-development: 'Yazılım Geliştirme'
+    frontend-development: 'Frontend Development'
+    backend-development: 'Backend Development'
+    software-engineering: 'Yazılım Mühendisliği'
+    cybersecurity: 'Siber güvenlik'
 dhtml-composer:
   forum:
     composer:

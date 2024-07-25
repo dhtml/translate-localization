@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: Konferencijos
     event-conferences: 'Renginiai / konferencijos'
     showcase: Šliaužiklis
+    tags: Tags
+    more: More
+    general-discussion: 'Bendrosios diskusijos'
+    technology-articles: 'Technologijos straipsniai'
+    coding-challenges: 'Kodavimo uždaviniai'
+    q-a: 'Q / A sekcija'
+    artificial-intelligence: 'Dirbtinis intelektas'
+    computer-science: 'Kompiuterių mokslas'
+    programming-languages: 'Programavimo kalbos'
+    development-tools: 'Plėtros priemonės'
+    software-development: 'Programinės įrangos kūrimas'
+    frontend-development: 'Kliūčių kūrimas'
+    backend-development: Comment
+    software-engineering: 'Programinės įrangos inžinerija'
+    cybersecurity: 'kibernetinis saugumas'
 dhtml-composer:
   forum:
     composer:

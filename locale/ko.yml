@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: 컨퍼런스
     event-conferences: '행사 / 회의'
     showcase: '기타 제품'
+    tags: 태그
+    more: '더 보기'
+    general-discussion: '일반 토론'
+    technology-articles: '기술 기사'
+    coding-challenges: '코딩 도전'
+    q-a: 'Q/A 단면도'
+    artificial-intelligence: 인공지능
+    computer-science: '컴퓨터 과학'
+    programming-languages: '언어 선택'
+    development-tools: '개발 도구'
+    software-development: '소프트웨어 개발'
+    frontend-development: 'Frontend 개발'
+    backend-development: '백엔드 개발'
+    software-engineering: '소프트웨어 공학'
+    cybersecurity: '사이버 보안'
 dhtml-composer:
   forum:
     composer:

@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: অধিবেশন
     event-conferences: '%s / %s আলোচনা করা হচ্ছে'
     showcase: 'ছোট করে প্রদর্শন করা হবে'
+    tags: ট্যাগ
+    more: মডেল
+    general-discussion: 'সাধারণ আলোচনা'
+    technology-articles: 'প্রযুক্তি বার্তা'
+    coding-challenges: 'কোড লিখন চ্যালেঞ্জ'
+    q-a: 'Q/A বিভাগ'
+    artificial-intelligence: 'কৃতিম মেধা'
+    computer-science: 'কম্পিউটার বিজ্ঞান'
+    programming-languages: 'প্রোগ্রামিং ভাষা'
+    development-tools: 'ডিভেলপমেন্টের সামগ্রী'
+    software-development: 'সফ্টওয়্যার ডিভেলপমেন্ট'
+    frontend-development: 'সম্মুখপ্রান্ত ডেভেলপমেন্টName'
+    backend-development: 'ব্যাক-এন্ড নির্মাণের সামগ্রী'
+    software-engineering: 'সফ্টওয়্যার প্রকৌশল'
+    cybersecurity: 'সাইবার নিরাপত্তা'
 dhtml-composer:
   forum:
     composer:

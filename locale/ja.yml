@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: カンファレンス
     event-conferences: イベント・会議
     showcase: ショーケース
+    tags: タグ
+    more: ニュース
+    general-discussion: ディスカッション
+    technology-articles: 技術記事
+    coding-challenges: コーディングチャレンジ
+    q-a: 'Q/A セクション'
+    artificial-intelligence: 人工知能
+    computer-science: コンピュータサイエンス
+    programming-languages: プログラミング言語
+    development-tools: 開発ツール
+    software-development: ソフトウェア開発
+    frontend-development: フロントエンド開発
+    backend-development: バックエンド開発
+    software-engineering: ソフトウェア工学
+    cybersecurity: サイバーセキュリティ
 dhtml-composer:
   forum:
     composer:

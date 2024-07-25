@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: 'การ ประชุม'
     event-conferences: 'เหตุการณ์ / วาระ การ ประชุม'
     showcase: แสดงตัวพิมพ์เล็ก
+    tags: แท็ก
+    more: เพิ่มเติม
+    general-discussion: อภิปรายทั่วไป
+    technology-articles: บทความเกี่ยวกับเทคโนโลยี
+    coding-challenges: 'ข้อ ท้าทาย ใน การ จัด การ'
+    q-a: 'ช่อง Q/A'
+    artificial-intelligence: ปัญญาประดิษฐ์
+    computer-science: วิทยาศาสตร์คอมพิวเตอร์
+    programming-languages: 'โปรแกรมภาษาต่าง ๆ'
+    development-tools: เครื่องมือพัฒนา
+    software-development: การพัฒนาซอฟต์แวร์
+    frontend-development: การพัฒนากองหน้า
+    backend-development: การพัฒนาโปรแกรมเบื้องหลัง
+    software-engineering: วิศวกรรมซอฟต์แวร์
+    cybersecurity: ความปลอดภัยแบบไซเบอร์
 dhtml-composer:
   forum:
     composer:

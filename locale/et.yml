@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: Konverentsid
     event-conferences: 'Sündmused / konverentsid'
     showcase: Esitlus
+    tags: Tags
+    more: Rohkem
+    general-discussion: 'Üldine arutelu'
+    technology-articles: Tehnoloogiaartiklid
+    coding-challenges: Kodeerimisraskused
+    q-a: 'Q/A jagu'
+    artificial-intelligence: Tehisintellekt
+    computer-science: Arvutiteadus
+    programming-languages: Programmeerimiskeeled
+    development-tools: 'Arendamise tööriistad'
+    software-development: 'Tarkvara arendamine'
+    frontend-development: 'Esiplaani arendamine'
+    backend-development: 'Taustaprogrammi arendus'
+    software-engineering: Tarkvaratehnika
+    cybersecurity: Küberturvalisus
 dhtml-composer:
   forum:
     composer:

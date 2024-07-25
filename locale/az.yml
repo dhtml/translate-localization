@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: Konfrans
     event-conferences: ' Events / Konfrans'
     showcase: Elanlar
+    tags: Taqlar
+    more: 'Daha çox'
+    general-discussion: 'Baş müzakirə'
+    technology-articles: Texnologiya
+    coding-challenges: 'Coding Challenges'
+    q-a: Q/A
+    artificial-intelligence: Sifariş
+    computer-science: 'Kompüter Elmləri'
+    programming-languages: Proqramlar
+    development-tools: Proqramlar
+    software-development: Proqram
+    frontend-development: Qeydiyyat
+    backend-development: 'Daxili İnkişaf'
+    software-engineering: Proqramlar
+    cybersecurity: Sifariş
 dhtml-composer:
   forum:
     composer:

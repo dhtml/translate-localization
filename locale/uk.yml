@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: Конференції
     event-conferences: 'Події / конференції'
     showcase: 'Показати регістр'
+    tags: Мітки
+    more: Більше
+    general-discussion: 'Загальне обговорення'
+    technology-articles: 'Статті з технології'
+    coding-challenges: 'Труднощі загоювання'
+    q-a: 'Розділ Q/A'
+    artificial-intelligence: 'Комп''ютерна розвідка'
+    computer-science: 'Комп''ютерна наука'
+    programming-languages: 'Мови програмування'
+    development-tools: 'Інструменти для розробки'
+    software-development: 'Розвиток програм'
+    frontend-development: 'Графічний інтерфейс для розробки'
+    backend-development: 'Розробка сервера'
+    software-engineering: 'Програмне забезпечення'
+    cybersecurity: Кібербезпеки
 dhtml-composer:
   forum:
     composer:

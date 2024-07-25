@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: کانفرنس
     event-conferences: 'واقعات / کانفرنس'
     showcase: طےشدہ
+    tags: ٹیگز
+    more: مزید
+    general-discussion: 'عمومی معلومات'
+    technology-articles: 'ٹیکنالوجی کے مضامین'
+    coding-challenges: 'مشکلات کا سامنا کرنا'
+    q-a: 'کی/ایک سیکشن'
+    artificial-intelligence: ذہانت
+    computer-science: 'کمپیوٹر سائنس'
+    programming-languages: زبانیں
+    development-tools: 'ترقیاتی آلات'
+    software-development: 'سافٹ وئیر ڈویلپمنٹ'
+    frontend-development: 'دفاعی ترقی'
+    backend-development: ترقی
+    software-engineering: 'سوفٹ ویئر ڈیوائس'
+    cybersecurity: تحفظ
 dhtml-composer:
   forum:
     composer:

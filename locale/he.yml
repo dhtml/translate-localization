@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: ועידת
     event-conferences: 'אירועים / כנסים'
     showcase: Showcase
+    tags: תגיות
+    more: 'עוד יותר'
+    general-discussion: 'דיון כללי'
+    technology-articles: 'מאמרים טכנולוגיים'
+    coding-challenges: 'אתגרים משותפים'
+    q-a: 'סעיף Q/A'
+    artificial-intelligence: 'אינטליגנציה מלאכותית'
+    computer-science: 'מדעי המחשב'
+    programming-languages: 'שפות תכנות'
+    development-tools: 'פיתוח כלים'
+    software-development: 'פיתוח תוכנה'
+    frontend-development: 'פיתוח החזית'
+    backend-development: 'חזרה לפיתוח'
+    software-engineering: 'הנדסת תוכנה'
+    cybersecurity: 'אבטחת סייבר'
 dhtml-composer:
   forum:
     composer:

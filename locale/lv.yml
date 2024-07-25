@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: Konferences
     event-conferences: 'Pasākumi / Konferences'
     showcase: 'Rādīt parametru'
+    tags: Tags
+    more: Vairāk
+    general-discussion: 'Vispārēja diskusija'
+    technology-articles: 'Tehnoloģiskie izstrādājumi'
+    coding-challenges: 'Kodēšanas problēmas'
+    q-a: 'Q/A sadaļa'
+    artificial-intelligence: 'Mākslīgais intelekts'
+    computer-science: Datorzinātnes
+    programming-languages: 'Plānošanas valodas'
+    development-tools: 'Izstrādes rīki'
+    software-development: 'Programmatūras izstrāde'
+    frontend-development: 'Priekšpuses izstrāde'
+    backend-development: 'Aizmugures izstrāde'
+    software-engineering: 'Programmatūras inženierija'
+    cybersecurity: Kiberdrošība
 dhtml-composer:
   forum:
     composer:

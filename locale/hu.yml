@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: Konferencia
     event-conferences: 'Események / konferenciák'
     showcase: Bemutató
+    tags: Címkék
+    more: Több
+    general-discussion: 'Általános vita'
+    technology-articles: 'Technológiai cikkek'
+    coding-challenges: 'Coding kihívások'
+    q-a: 'Q/A szakasz'
+    artificial-intelligence: 'Mesterséges intelligencia'
+    computer-science: Számítógép-tudomány
+    programming-languages: 'Programozási nyelvek'
+    development-tools: 'Fejlesztési eszközök'
+    software-development: Szoftverfejlesztés
+    frontend-development: 'Frontend fejlesztés'
+    backend-development: 'Backend fejlesztés'
+    software-engineering: Szoftvermérnök
+    cybersecurity: Kiberbiztonság
 dhtml-composer:
   forum:
     composer:

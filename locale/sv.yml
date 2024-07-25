@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: Konferenser
     event-conferences: Evenemang/konferenser
     showcase: Showcase
+    tags: Taggar
+    more: Mer
+    general-discussion: 'Allmänna diskussioner'
+    technology-articles: 'Tekniska artiklar'
+    coding-challenges: Kodningsutmaningar
+    q-a: Q/A-avsnitt
+    artificial-intelligence: 'Artificiell intelligens'
+    computer-science: Datorvetenskap
+    programming-languages: Programmeringsspråk
+    development-tools: utvecklingsverktyg
+    software-development: Programvaruutveckling
+    frontend-development: 'Frontend utveckling'
+    backend-development: 'Backend Development'
+    software-engineering: 'Software Engineering'
+    cybersecurity: Cybersäkerhet
 dhtml-composer:
   forum:
     composer:

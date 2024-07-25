@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: '第 二 章'
     event-conferences: '第 二 章'
     showcase: 顯示大小寫
+    tags: Tags
+    more: 更多
+    general-discussion: '第 二 章'
+    technology-articles: 科技文章
+    coding-challenges: 編碼挑戰
+    q-a: Q/A科
+    artificial-intelligence: 有人工智能
+    computer-science: 電腦科學
+    programming-languages: 編程語言
+    development-tools: 發展工具
+    software-development: 軟體發展
+    frontend-development: 前端發展
+    backend-development: 后端發展
+    software-engineering: 軟體工程
+    cybersecurity: '2. 网络安全'
 dhtml-composer:
   forum:
     composer:

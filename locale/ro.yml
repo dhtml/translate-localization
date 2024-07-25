@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: Conferințe
     event-conferences: 'Evenimente / Conferinţe'
     showcase: Spectacol
+    tags: Tags
+    more: 'Mai mult'
+    general-discussion: 'Discuţii generale'
+    technology-articles: 'Articole tehnologice'
+    coding-challenges: 'Provocări de codificare'
+    q-a: 'Secțiunea Q/A'
+    artificial-intelligence: 'Inteligență artificială'
+    computer-science: Informatica
+    programming-languages: 'Limbi de programare'
+    development-tools: 'Instrumente de dezvoltare'
+    software-development: 'Dezvoltarea de software'
+    frontend-development: 'Dezvoltare Frontend'
+    backend-development: 'Dezvoltarea platformei'
+    software-engineering: 'Inginerie software'
+    cybersecurity: 'Securitatea cibernetică'
 dhtml-composer:
   forum:
     composer:

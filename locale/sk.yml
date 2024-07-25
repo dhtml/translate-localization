@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: Konferencie
     event-conferences: 'Podujatia / Konferencie'
     showcase: Ukážka
+    tags: Tagy
+    more: Viac
+    general-discussion: 'Všeobecná diskusia'
+    technology-articles: 'Technologické články'
+    coding-challenges: 'Kódovacie výzvy'
+    q-a: 'Q/A Sekcia'
+    artificial-intelligence: 'Umelá inteligencia'
+    computer-science: 'Počítačová veda'
+    programming-languages: 'Programovacie jazyky'
+    development-tools: 'Vývojové nástroje'
+    software-development: 'Vývoj softvéru'
+    frontend-development: 'Predný rozvoj'
+    backend-development: 'Vývoj backend'
+    software-engineering: 'Softvérové inžinierstvo'
+    cybersecurity: 'Kybernetická bezpečnosť'
 dhtml-composer:
   forum:
     composer:

@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: Konferencoj
     event-conferences: 'Okazaĵoj / Konferencoj'
     showcase: Showcase
+    tags: Tags
+    more: Pli
+    general-discussion: 'Ĝenerala diskuto'
+    technology-articles: 'Teknikaj artikoloj'
+    coding-challenges: 'Akceli defiojn'
+    q-a: 'Q/A sekcio'
+    artificial-intelligence: 'Artefarita inteligenteco'
+    computer-science: Komputilscienco
+    programming-languages: programlingvoj
+    development-tools: 'Evoluo Iloj'
+    software-development: Softvarevoluo
+    frontend-development: 'Ĉefa evoluo'
+    backend-development: 'Malantaŭa Evoluo'
+    software-engineering: Softvarinĝenieristiko
+    cybersecurity: Cybersecurity
 dhtml-composer:
   forum:
     composer:

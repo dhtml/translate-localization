@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: Συνέδρια
     event-conferences: 'Εκδηλώσεις / Συνέδρια'
     showcase: 'Εμφάνιση προχείρου'
+    tags: Ετικέτες
+    more: Περισσότερα
+    general-discussion: 'Γενική συζήτηση'
+    technology-articles: 'Άρθρα τεχνολογίας'
+    coding-challenges: 'Προκλήσεις Κωδικοποίησης'
+    q-a: 'Τμήμα Q/A'
+    artificial-intelligence: 'Τεχνητή Νοημοσύνη'
+    computer-science: 'Επιστήμη των υπολογιστών'
+    programming-languages: 'Γλώσσες προγραμματισμού'
+    development-tools: 'Εργαλεία ανάπτυξης'
+    software-development: 'Ανάπτυξη Λογισμικού'
+    frontend-development: 'Ανάπτυξη περιβάλλοντος'
+    backend-development: 'Ανάπτυξη συστήματος υποστήριξης'
+    software-engineering: 'Μηχανική λογισμικού'
+    cybersecurity: Κυβερνοασφάλεια
 dhtml-composer:
   forum:
     composer:

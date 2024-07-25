@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: 'کنفرانس ها'
     event-conferences: 'حوادث / کنفرانس ها'
     showcase: نمایشگاه
+    tags: Tags
+    more: 'بیشتر بیشتر بیشتر'
+    general-discussion: 'بحث عمومی'
+    technology-articles: 'مقالات تکنولوژی'
+    coding-challenges: 'چالش های مشترک'
+    q-a: 'بخش Q/A'
+    artificial-intelligence: 'هوش مصنوعی'
+    computer-science: 'علوم کامپیوتر'
+    programming-languages: 'زبان های برنامه نویسی'
+    development-tools: 'ابزارهای توسعه'
+    software-development: 'توسعه نرم افزار'
+    frontend-development: 'توسعه Frontend'
+    backend-development: 'بازگشت توسعه'
+    software-engineering: 'Software Engineering'
+    cybersecurity: 'امنیت سایبری'
 dhtml-composer:
   forum:
     composer:

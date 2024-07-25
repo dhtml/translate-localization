@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: Конференције
     event-conferences: 'Догађаји / конференције'
     showcase: Приказ
+    tags: Tags
+    more: Више
+    general-discussion: 'Општа дискусија'
+    technology-articles: 'Технолошки чланци'
+    coding-challenges: 'Кодирање изазова'
+    q-a: 'К / А секција'
+    artificial-intelligence: 'Вештачка интелигенција'
+    computer-science: 'Kompjuterska nauka'
+    programming-languages: 'програмски језици'
+    development-tools: 'Алатке за развој'
+    software-development: 'Софтвер развој'
+    frontend-development: 'Обрни развој'
+    backend-development: 'Позадина развоја'
+    software-engineering: 'Софтверски инжењеринг'
+    cybersecurity: 'Сајбер безбедност'
 dhtml-composer:
   forum:
     composer:

@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: 会议
     event-conferences: 活动/会议
     showcase: 显示大小写
+    tags: Tags
+    more: 再来
+    general-discussion: 一般性讨论
+    technology-articles: 技术文章
+    coding-challenges: 编码挑战
+    q-a: Q/A科
+    artificial-intelligence: 人工智能
+    computer-science: 计算机科学
+    programming-languages: 编程语言
+    development-tools: 开发工具
+    software-development: 软件开发
+    frontend-development: 前端开发
+    backend-development: 后端开发
+    software-engineering: 软件工程
+    cybersecurity: 网络安全
 dhtml-composer:
   forum:
     composer:

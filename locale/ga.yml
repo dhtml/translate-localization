@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: 'Amharc ar gach eolas'
     event-conferences: 'Imeachtaí / Comhdhálacha'
     showcase: Taispeáin
+    tags: Clibeanna
+    more: 'Tuilleadh eolais'
+    general-discussion: 'Plé ginearálta'
+    technology-articles: 'Airteagail Teicneolaíochta'
+    coding-challenges: 'Dúshláin Coding'
+    q-a: 'Rannóg Q/A'
+    artificial-intelligence: 'Faisnéis Shaorga'
+    computer-science: 'irl - Library Service'
+    programming-languages: 'Teangacha Clárú'
+    development-tools: 'Uirlisí Forbartha'
+    software-development: 'Forbairt Bogearraí'
+    frontend-development: 'Forbairt Tosaigh'
+    backend-development: 'Deontais Ardoideachais (DAO)'
+    software-engineering: 'Innealtóireacht Bogearraí'
+    cybersecurity: Cibearshlándáil
 dhtml-composer:
   forum:
     composer:

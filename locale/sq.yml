@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: Konferenca
     event-conferences: 'Ngjarje / konferenca'
     showcase: Shfaq
+    tags: Tags
+    more: 'Më shumë'
+    general-discussion: 'Diskutim i përgjithshëm'
+    technology-articles: 'Artikuj teknologjie'
+    coding-challenges: 'Sfida të rënda'
+    q-a: 'Zgjedhja Q/A'
+    artificial-intelligence: 'Inteligjenca artificiale'
+    computer-science: 'Shkencë kompjuteri'
+    programming-languages: 'Programimi i gjuhëve'
+    development-tools: 'Mjete zhvillimi'
+    software-development: 'Programet Zhvillimi'
+    frontend-development: 'Zhvillimi ballor'
+    backend-development: Zhvillimi
+    software-engineering: 'Programet Inxhinieri'
+    cybersecurity: 'Siguria në Internet'
 dhtml-composer:
   forum:
     composer:

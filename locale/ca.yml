@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: Conferèncias
     event-conferences: 'Esdeveniments / conferències'
     showcase: 'Mostra la caixa'
+    tags: Etiquetes
+    more: Més
+    general-discussion: 'Conferencia general'
+    technology-articles: 'Articles de tecnologia'
+    coding-challenges: 'Repte de la codificació'
+    q-a: 'Secció Q/A'
+    artificial-intelligence: 'Intel·ligència artificial'
+    computer-science: 'Ciència de l''ordinador'
+    programming-languages: 'Idiomes de programació'
+    development-tools: 'Eines de desenvolupament'
+    software-development: 'Desenvolupament del programari'
+    frontend-development: 'Desenvolupament per Frontal'
+    backend-development: 'Desenvolupament del dorsal'
+    software-engineering: 'Enginyeria de programari'
+    cybersecurity: 'La inseguretat'
 dhtml-composer:
   forum:
     composer:

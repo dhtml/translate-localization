@@ -1233,6 +1233,21 @@ flarum-content-pages:
     conferences: Konferenssit
     event-conferences: Tapahtumat/konferenssit
     showcase: Näyttely
+    tags: Tunnisteet
+    more: 'Lisää enemmän'
+    general-discussion: Yleiskeskustelu
+    technology-articles: 'Teknologian artikkeleita'
+    coding-challenges: 'Koodaa haasteita'
+    q-a: Q/A-osasto
+    artificial-intelligence: 'Keinotekoinen älykkyys'
+    computer-science: Tietokonetiede
+    programming-languages: Ohjelmointikielet
+    development-tools: Kehitystyökalut
+    software-development: Ohjelmistokehitys
+    frontend-development: 'Etusivu Kehitys'
+    backend-development: Taustakehitys
+    software-engineering: Ohjelmistotekniikka
+    cybersecurity: Kyberturvallisuus
 dhtml-composer:
   forum:
     composer:
