@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'ٹیگز کلاؤڈ'
     languages: زبانیں
     leaderboard: 'لیڈر بورڈ'
+    live: زندہ
+    live-coding: 'جاگو !'
+    challenges: مشکلات
+    dev-challenges: 'درپیش مشکلات'
+    jobs: کام
+    community: کمیونٹی
+    dev-jobs: دیوتا
+    job-posting: ایوب
+    job-postings: 'ایوب کی تحریر'
+    workshops: ورکس
+    dev-workshops: دیوی‌موس
+    events: واقعات
+    conferences: کانفرنس
+    event-conferences: 'واقعات / کانفرنس'
+    showcase: طےشدہ
 dhtml-composer:
   forum:
     composer:

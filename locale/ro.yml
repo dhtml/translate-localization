@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'Tag-uri: Cloud'
     languages: Limbi
     leaderboard: Clasament
+    live: Live
+    live-coding: 'Codificare live'
+    challenges: Provocări
+    dev-challenges: 'Dev Challenges'
+    jobs: 'Locuri de muncă'
+    community: Comunitate
+    dev-jobs: 'Dev Jobs'
+    job-posting: 'Postare job'
+    job-postings: Postări
+    workshops: Ateliere
+    dev-workshops: 'Ateliere Dev'
+    events: Evenimente
+    conferences: Conferințe
+    event-conferences: 'Evenimente / Conferinţe'
+    showcase: Spectacol
 dhtml-composer:
   forum:
     composer:

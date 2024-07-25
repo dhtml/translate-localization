@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: '태그 : 구름'
     languages: 언어들
     leaderboard: 리더보드
+    live: 지원하다
+    live-coding: '라이브 코딩'
+    challenges: 공지사항
+    dev-challenges: 'Dev 도전'
+    jobs: 한국어
+    community: '- 연혁'
+    dev-jobs: 'Dev 작업'
+    job-posting: 채용공고
+    job-postings: 채용공고
+    workshops: '회사 소개'
+    dev-workshops: 'Dev 워크숍'
+    events: (주)
+    conferences: 컨퍼런스
+    event-conferences: '행사 / 회의'
+    showcase: '기타 제품'
 dhtml-composer:
   forum:
     composer:

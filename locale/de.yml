@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'Schlagwörter Wolke'
     languages: Sprachen
     leaderboard: Bestenliste
+    live: Leben
+    live-coding: 'Live Coating'
+    challenges: Herausforderungen
+    dev-challenges: 'Dev Challenges'
+    jobs: Jobs
+    community: Gemeinschaft
+    dev-jobs: Stellenangebote
+    job-posting: Stellenangebote
+    job-postings: Stellenangebote
+    workshops: Veranstaltungen
+    dev-workshops: Workshops
+    events: Veranstaltungen
+    conferences: Konferenzen
+    event-conferences: 'Veranstaltungen / Konferenzen'
+    showcase: Fall
 dhtml-composer:
   forum:
     composer:

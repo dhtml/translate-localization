@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'Žymės Debesis'
     languages: Kalbų
     leaderboard: 'Lyderių lentelė'
+    live: Gyvi
+    live-coding: 'Gyvas kodavimas'
+    challenges: Iššūkiai
+    dev-challenges: 'Dev iššūkiai'
+    jobs: 'Darbo vietos'
+    community: Bendrija
+    dev-jobs: 'Dev Jobs'
+    job-posting: 'Darbo vieta'
+    job-postings: 'Darbo vietos'
+    workshops: Seminarai
+    dev-workshops: 'Dev dirbtuvės'
+    events: Įvykiai
+    conferences: Konferencijos
+    event-conferences: 'Renginiai / konferencijos'
+    showcase: Šliaužiklis
 dhtml-composer:
   forum:
     composer:

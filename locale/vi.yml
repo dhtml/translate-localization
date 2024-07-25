@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'tags: Đám mây'
     languages: 'Ngôn ngữ'
     leaderboard: 'Bảng xếp hạng'
+    live: Sống
+    live-coding: 'Công cụ & xoá'
+    challenges: 'Thử thách'
+    dev-challenges: 'Những thử thách cam go'
+    jobs: 'Công việc'
+    community: 'Ghi chú'
+    dev-jobs: 'Công việc thiết lập'
+    job-posting: 'Gửi công việc'
+    job-postings: 'Gửi công việc'
+    workshops: 'Thợ mộc'
+    dev-workshops: 'Những xưởng làm việc cố định'
+    events: 'Sự kiện'
+    conferences: 'Các cuộc họp'
+    event-conferences: 'Sự kiện / Hội nghị'
+    showcase: Hiện
 dhtml-composer:
   forum:
     composer:

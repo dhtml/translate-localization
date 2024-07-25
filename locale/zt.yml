@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'Tags Cloud'
     languages: Languages
     leaderboard: Leaderboard
+    live: 有活
+    live-coding: 活的編碼
+    challenges: 挑戰
+    dev-challenges: 'Dev 挑戰'
+    jobs: 工作
+    community: 社區
+    dev-jobs: 'Dev 工作'
+    job-posting: 工作寄出
+    job-postings: 工作名
+    workshops: 讲习班
+    dev-workshops: 'Dev 工作坊'
+    events: 事件
+    conferences: '第 二 章'
+    event-conferences: '第 二 章'
+    showcase: 顯示大小寫
 dhtml-composer:
   forum:
     composer:

@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'Tags Cloud'
     languages: Languages
     leaderboard: Leaderboard
+    live: Mabuhay
+    live-coding: Pamumuhay
+    challenges: 'Mga Hamon'
+    dev-challenges: 'Alisin ang mga Hamon'
+    jobs: Trabaho
+    community: Pamayanan
+    dev-jobs: 'Maglabas ng Trabaho'
+    job-posting: 'Trabaho Pagkatapos ng Trabaho'
+    job-postings: 'Mga Posting sa Trabaho'
+    workshops: 'Mga Akda'
+    dev-workshops: 'Mag - iwan ng mga Akda'
+    events: 'Mga Pangyayari'
+    conferences: 'Mga Komperensiya'
+    event-conferences: 'Mga Pangyayari / Komperensiya'
+    showcase: Pagtatanghal
 dhtml-composer:
   forum:
     composer:

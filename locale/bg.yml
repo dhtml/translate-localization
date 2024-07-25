@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'Етикети Облак'
     languages: Езици
     leaderboard: Класиране
+    live: Живи
+    live-coding: 'Кодиране на живо'
+    challenges: Предизвикателствата
+    dev-challenges: 'Dev предизвикателства'
+    jobs: Работа
+    community: Общност
+    dev-jobs: 'Dev Jobs'
+    job-posting: 'Публикуване на работа'
+    job-postings: 'Постове за работа'
+    workshops: Работилници
+    dev-workshops: 'Дев Работилници'
+    events: Събития
+    conferences: Конференции
+    event-conferences: 'Събития / Конференции'
+    showcase: Показване
 dhtml-composer:
   forum:
     composer:

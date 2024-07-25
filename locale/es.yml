@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'Etiquetas Nube'
     languages: Idiomas
     leaderboard: 'Tabla de clasificación'
+    live: Vivir
+    live-coding: 'Codificación en vivo'
+    challenges: Desafíos
+    dev-challenges: 'Dev Challenges'
+    jobs: Empleo
+    community: Comunidad
+    dev-jobs: 'Dev Jobs'
+    job-posting: 'Puestos de trabajo'
+    job-postings: 'Puestos de trabajo'
+    workshops: Talleres
+    dev-workshops: 'Talleres de Dev'
+    events: Eventos
+    conferences: Conferencias
+    event-conferences: 'Eventos / Conferencias'
+    showcase: Showcase
 dhtml-composer:
   forum:
     composer:

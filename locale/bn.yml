@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'ট্যাগ: ক্লাউড'
     languages: ভাষাগুলো
     leaderboard: লিডারবোর্ড
+    live: লাইভ
+    live-coding: 'লাইভ কোডিং'
+    challenges: চ্যালেঞ্জ
+    dev-challenges: প্রতিদ্বন্দ্বিতাগুলো
+    jobs: কাজ
+    community: সম্প্রদায়
+    dev-jobs: সময়কাল
+    job-posting: 'কর্ম পোস্ট করা হচ্ছে'
+    job-postings: 'পোস্ট করার কাজ'
+    workshops: কর্মশালা
+    dev-workshops: '৩ পরিবারের জন্য সাহায্য'
+    events: ঘটনাসমূহ
+    conferences: অধিবেশন
+    event-conferences: '%s / %s আলোচনা করা হচ্ছে'
+    showcase: 'ছোট করে প্রদর্শন করা হবে'
 dhtml-composer:
   forum:
     composer:

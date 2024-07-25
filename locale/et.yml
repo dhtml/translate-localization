@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'Sildid Pilv'
     languages: Keeled
     leaderboard: Edetabel
+    live: Elusad
+    live-coding: 'Elus kodeerimine'
+    challenges: Väljakutsed
+    dev-challenges: 'Dev väljakutsed'
+    jobs: Tööd
+    community: Ühendus
+    dev-jobs: 'Dev Jobs'
+    job-posting: 'Töö postitamine'
+    job-postings: Töökuulutused
+    workshops: Seminarid
+    dev-workshops: 'Dev Workshops'
+    events: Sündmused
+    conferences: Konverentsid
+    event-conferences: 'Sündmused / konverentsid'
+    showcase: Esitlus
 dhtml-composer:
   forum:
     composer:

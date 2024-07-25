@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'Tags: Cloud'
     languages: Språk
     leaderboard: Resultatliste
+    live: Live
+    live-coding: 'Live Coding'
+    challenges: Utfordringer
+    dev-challenges: Dev-utfordringer
+    jobs: Jobber
+    community: Samfunn
+    dev-jobs: 'Dev jobber'
+    job-posting: Jobbinnlegg
+    job-postings: 'Job Postings'
+    workshops: Verksteder
+    dev-workshops: 'Dev Workshops'
+    events: Events
+    conferences: Konferanser
+    event-conferences: Events/konferanser
+    showcase: 'Vis alle'
 dhtml-composer:
   forum:
     composer:

@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'Tags: Wolk'
     languages: Talen
     leaderboard: Klassement
+    live: Levend
+    live-coding: 'Live coding'
+    challenges: Uitdagingen
+    dev-challenges: 'Dev Challenges'
+    jobs: Taken
+    community: Gemeenschap
+    dev-jobs: 'Dev Jobs'
+    job-posting: Jobposting
+    job-postings: Vacatures
+    workshops: Werkplaatsen
+    dev-workshops: 'Dev Workshops'
+    events: Gebeurtenissen
+    conferences: Conferenties
+    event-conferences: 'Evenementen / Conferenties'
+    showcase: Tonen
 dhtml-composer:
   forum:
     composer:

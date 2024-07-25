@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'Taggar: Moln'
     languages: Språk
     leaderboard: Topplista
+    live: 'Livet Live'
+    live-coding: 'Live Coding'
+    challenges: Utmaningar
+    dev-challenges: 'Dev utmaningar'
+    jobs: Jobb
+    community: gemenskap
+    dev-jobs: 'Dev Jobs'
+    job-posting: 'Job Posting'
+    job-postings: 'Job Postings'
+    workshops: Workshops
+    dev-workshops: 'Dev Workshops'
+    events: Händelser
+    conferences: Konferenser
+    event-conferences: Evenemang/konferenser
+    showcase: Showcase
 dhtml-composer:
   forum:
     composer:

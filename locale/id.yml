@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'Tag Awan'
     languages: Bahasa
     leaderboard: 'Papan peringkat'
+    live: Login
+    live-coding: Login
+    challenges: Login
+    dev-challenges: 'Tantangan Dev'
+    jobs: Sitemap
+    community: Login
+    dev-jobs: 'Pekerjaan Dev'
+    job-posting: Login
+    job-postings: Login
+    workshops: Login
+    dev-workshops: Login
+    events: Sitemap
+    conferences: Login
+    event-conferences: Sitemap
+    showcase: Login
 dhtml-composer:
   forum:
     composer:

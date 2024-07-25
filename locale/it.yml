@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'tag Nuvola'
     languages: Lingue
     leaderboard: Classifica
+    live: Livelli
+    live-coding: 'Codardo vivo'
+    challenges: Sfide
+    dev-challenges: 'Sfide Dev'
+    jobs: Occupazione
+    community: Comunità
+    dev-jobs: 'Dev Jobs'
+    job-posting: 'Posto di lavoro'
+    job-postings: 'Posti di lavoro'
+    workshops: Workshop
+    dev-workshops: 'Seminari Dev'
+    events: Eventi
+    conferences: Conferenze
+    event-conferences: 'Eventi / conferenze'
+    showcase: Showcase
 dhtml-composer:
   forum:
     composer:

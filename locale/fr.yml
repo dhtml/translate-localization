@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'Mots-clés Nuage'
     languages: Traduction
     leaderboard: Classement
+    live: Vivre
+    live-coding: 'Codage vivant'
+    challenges: Défis
+    dev-challenges: 'Défis du développement'
+    jobs: Emploi
+    community: Communauté
+    dev-jobs: 'Dev Jobs'
+    job-posting: Emploi
+    job-postings: 'Postes de travail'
+    workshops: Ateliers
+    dev-workshops: 'Ateliers Dev'
+    events: Événements
+    conferences: Conférences
+    event-conferences: 'Événements / Conférences'
+    showcase: Afficher
 dhtml-composer:
   forum:
     composer:

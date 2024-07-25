@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'Метки: облако'
     languages: Языки
     leaderboard: 'Таблица лидеров'
+    live: 'Жив Live Live'
+    live-coding: 'Live Coding'
+    challenges: Проблемы
+    dev-challenges: 'Девять вызовов'
+    jobs: Джобс
+    community: Сообщество
+    dev-jobs: 'Dev Jobs'
+    job-posting: 'Публикация работы'
+    job-postings: 'Опубликование работы'
+    workshops: 'Рабочие совещания'
+    dev-workshops: 'Dev Workshops'
+    events: События
+    conferences: Конференции
+    event-conferences: 'События / Конференции'
+    showcase: Показка
 dhtml-composer:
   forum:
     composer:

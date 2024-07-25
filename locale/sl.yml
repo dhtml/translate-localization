@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'oznake Oblak'
     languages: Jezikih
     leaderboard: 'Lestvica najboljših'
+    live: Živi
+    live-coding: 'Živo kodiranje'
+    challenges: Izzivi
+    dev-challenges: 'Izzivi Dev'
+    jobs: Opravila
+    community: Skupnost
+    dev-jobs: 'Dev Jobs'
+    job-posting: 'Pošiljanje opravil'
+    job-postings: 'Delovna mesta'
+    workshops: Delavnice
+    dev-workshops: 'Delavnice Dev'
+    events: Dogodki
+    conferences: Konference
+    event-conferences: 'Dogodki / Konference'
+    showcase: Prikaži
 dhtml-composer:
   forum:
     composer:

@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'Címkék Felhő'
     languages: Nyelvek
     leaderboard: Ranglista
+    live: Élő
+    live-coding: 'Élő kódolás'
+    challenges: Kihívások
+    dev-challenges: 'Dev kihívások'
+    jobs: Munkahelyek
+    community: Közösség
+    dev-jobs: 'Dev Jobs'
+    job-posting: 'Job Posting'
+    job-postings: 'Job Postings'
+    workshops: Műhelyek
+    dev-workshops: 'Dev Workshops'
+    events: Események
+    conferences: Konferencia
+    event-conferences: 'Események / konferenciák'
+    showcase: Bemutató
 dhtml-composer:
   forum:
     composer:

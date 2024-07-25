@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'Awan Tag'
     languages: Bahasa-bahasa
     leaderboard: 'Papan pendahulu'
+    live: Hidup
+    live-coding: 'Live Coding'
+    challenges: Tantangan
+    dev-challenges: Challenges
+    jobs: Tugas
+    community: Komunitas
+    dev-jobs: '♪ Dev Jobs ♪'
+    job-posting: 'Pos Pekerjaan'
+    job-postings: 'Pos Pekerjaan'
+    workshops: Workshops
+    dev-workshops: Workshops
+    events: Peristiwa
+    conferences: Konferensi
+    event-conferences: 'Peristiwa / Konferensi'
+    showcase: Koper
 dhtml-composer:
   forum:
     composer:

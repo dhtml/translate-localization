@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'Tags Cloud'
     languages: Gjuhët
     leaderboard: 'Kryeqëndra e kantonit është'
+    live: Jeto
+    live-coding: 'Koding i gjallë'
+    challenges: Sfidat
+    dev-challenges: 'Sfidat e shkatërrimit'
+    jobs: Punë
+    community: Komuniteti
+    dev-jobs: 'Punët e Dev'
+    job-posting: Puna
+    job-postings: 'Posta pune'
+    workshops: Workshops
+    dev-workshops: 'Dev Workshops'
+    events: Evente
+    conferences: Konferenca
+    event-conferences: 'Ngjarje / konferenca'
+    showcase: Shfaq
 dhtml-composer:
   forum:
     composer:

@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'टैग: बादल'
     languages: भाषाओं
     leaderboard: लीडरबोर्ड
+    live: लाइव
+    live-coding: 'लाइव कोडिंग'
+    challenges: चुनौतियां
+    dev-challenges: 'देव चैलेंज'
+    jobs: नौकरियां
+    community: समुदाय
+    dev-jobs: 'देव नौकरियां'
+    job-posting: 'नौकरी पोस्टिंग'
+    job-postings: 'नौकरी पोस्टिंग'
+    workshops: कार्यशालाएं
+    dev-workshops: 'देव कार्यशालाएं'
+    events: आयोजन
+    conferences: सम्मेलन
+    event-conferences: 'आयोजन / सम्मेलन'
+    showcase: शोकेस
 dhtml-composer:
   forum:
     composer:

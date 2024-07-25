@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'Tags Cloud'
     languages: Languages
     leaderboard: Leaderboard
+    live: Živi
+    live-coding: 'Живи кодирање'
+    challenges: Izazovi
+    dev-challenges: 'Дев изазов'
+    jobs: послови
+    community: Zajednica
+    dev-jobs: 'Дев Џобс'
+    job-posting: 'Постављање послова'
+    job-postings: 'Поставке послова'
+    workshops: 'радне радње'
+    dev-workshops: 'Dev Radionice'
+    events: Догађаји
+    conferences: Конференције
+    event-conferences: 'Догађаји / конференције'
+    showcase: Приказ
 dhtml-composer:
   forum:
     composer:

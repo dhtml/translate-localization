@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'Tagi Chmura'
     languages: Języki
     leaderboard: 'Tablica wyników'
+    live: Żywe
+    live-coding: 'Kodowanie na żywo'
+    challenges: Wyzwania
+    dev-challenges: 'Dev Challenges'
+    jobs: 'Miejsca pracy'
+    community: Wspólnota
+    dev-jobs: 'Dev Jobs'
+    job-posting: 'Wysyłanie zadań'
+    job-postings: 'Posty pracy'
+    workshops: Warsztaty
+    dev-workshops: 'Warsztaty Dev'
+    events: Wydarzenia
+    conferences: Konferencje
+    event-conferences: 'Wydarzenia / Konferencje'
+    showcase: Wyświetlacz
 dhtml-composer:
   forum:
     composer:

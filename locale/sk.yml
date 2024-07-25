@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'Tagy Cloud'
     languages: Jazyky
     leaderboard: 'Rebríček najlepších'
+    live: Žiť
+    live-coding: 'Live Coding'
+    challenges: Výzvy
+    dev-challenges: 'Dev Challenges'
+    jobs: Aktuality
+    community: Slovenčina
+    dev-jobs: 'Dev Jobs'
+    job-posting: 'Pracovný príspevok'
+    job-postings: 'Pracovné príspevky'
+    workshops: Workshopy
+    dev-workshops: 'Dev Workshopy'
+    events: Aktuality
+    conferences: Konferencie
+    event-conferences: 'Podujatia / Konferencie'
+    showcase: Ukážka
 dhtml-composer:
   forum:
     composer:

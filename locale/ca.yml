@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'etiquetes: Núvol'
     languages: Idiomes
     leaderboard: 'Taula de classificació'
+    live: Viu
+    live-coding: 'Codificació en directe'
+    challenges: Repte
+    dev-challenges: 'Reptes Dev'
+    jobs: Treballs
+    community: Comunitat
+    dev-jobs: 'Tasques de Dev'
+    job-posting: 'Posting de treball'
+    job-postings: 'Articles de treball'
+    workshops: Workshops
+    dev-workshops: 'Dev Workshops'
+    events: Esdeveniments
+    conferences: Conferèncias
+    event-conferences: 'Esdeveniments / conferències'
+    showcase: 'Mostra la caixa'
 dhtml-composer:
   forum:
     composer:

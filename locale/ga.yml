@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'Clibeanna Cloud'
     languages: Teangacha
     leaderboard: 'Clár ceannaire'
+    live: 'Beo agus Beo'
+    live-coding: 'Coding Beo'
+    challenges: Dúshláin
+    dev-challenges: 'Dev Challenges'
+    jobs: 'irl - Library Service'
+    community: 'Pobail agus Fiontair'
+    dev-jobs: 'irl - Library Service'
+    job-posting: 'Post a fhógairt'
+    job-postings: 'Post a fhógairt'
+    workshops: 'Amharc ar gach eolas'
+    dev-workshops: 'Cruinnithe na Comhairle'
+    events: 'Amharc ar gach eolas'
+    conferences: 'Amharc ar gach eolas'
+    event-conferences: 'Imeachtaí / Comhdhálacha'
+    showcase: Taispeáin
 dhtml-composer:
   forum:
     composer:

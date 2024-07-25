@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'แท็ก เมฆ'
     languages: ภาษา
     leaderboard: ลีดเดอร์บอร์ด
+    live: สด
+    live-coding: เรียงต่อเนื่อง
+    challenges: ปัญหา
+    dev-challenges: 'ข้อ ท้าทาย'
+    jobs: งาน
+    community: ชุมชน
+    dev-jobs: 'เด วีส์'
+    job-posting: 'งาน โพสต์'
+    job-postings: 'งาน โพสต์'
+    workshops: 'โรง งาน'
+    dev-workshops: 'เด วีส์ ช็อป'
+    events: เหตุการณ์
+    conferences: 'การ ประชุม'
+    event-conferences: 'เหตุการณ์ / วาระ การ ประชุม'
+    showcase: แสดงตัวพิมพ์เล็ก
 dhtml-composer:
   forum:
     composer:

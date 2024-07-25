@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'תגיות ענן'
     languages: שפות
     leaderboard: 'לוח התוצאות'
+    live: 'Live Live'
+    live-coding: 'Live Coding'
+    challenges: אתגרים
+    dev-challenges: אתגרים
+    jobs: משרות
+    community: קהילה
+    dev-jobs: 'Dev Jobs'
+    job-posting: 'עבודה Posting'
+    job-postings: 'עבודה Postings'
+    workshops: סדנאות
+    dev-workshops: 'סדנאות Dev'
+    events: אירועים
+    conferences: ועידת
+    event-conferences: 'אירועים / כנסים'
+    showcase: Showcase
 dhtml-composer:
   forum:
     composer:

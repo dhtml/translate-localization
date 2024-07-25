@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'Tags Cloud'
     languages: Sprog
     leaderboard: Rangliste
+    live: 'Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live'
+    live-coding: 'Live Coding'
+    challenges: Udfordringer
+    dev-challenges: 'Udvikling af udfordringer'
+    jobs: 'Jobs Jobs Jobs'
+    community: 'Fællesskabets fællesskab'
+    dev-jobs: 'Dev Jobs'
+    job-posting: Jobopgørelse
+    job-postings: Jobindlæg
+    workshops: Workshops
+    dev-workshops: 'Dev Workshops'
+    events: 'Begivenheder Events'
+    conferences: Konferencer
+    event-conferences: 'Begivenheder / konference'
+    showcase: Showcase
 dhtml-composer:
   forum:
     composer:

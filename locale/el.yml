@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'Ετικέτες: Cloud'
     languages: Γλώσσες
     leaderboard: 'Πίνακας κορυφαίων'
+    live: Ζωντανά
+    live-coding: 'Ζωντανή κωδικοποίηση'
+    challenges: Προκλήσεις
+    dev-challenges: 'Προκλήσεις Dev'
+    jobs: Εργασίες
+    community: Κοινότητα
+    dev-jobs: 'Εργασία Dev'
+    job-posting: 'Απόθεση εργασίας'
+    job-postings: 'Θέσεις εργασίας'
+    workshops: Εργαστήρια
+    dev-workshops: 'Εργαστήρια Dev'
+    events: Γεγονότα
+    conferences: Συνέδρια
+    event-conferences: 'Εκδηλώσεις / Συνέδρια'
+    showcase: 'Εμφάνιση προχείρου'
 dhtml-composer:
   forum:
     composer:

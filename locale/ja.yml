@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'タグ クラウド'
     languages: 言語
     leaderboard: リーダーボード
+    live: ライブ
+    live-coding: ライブコーディング
+    challenges: チャレンジ
+    dev-challenges: 'Dev Challenges(デベロッ チャレンジズ)'
+    jobs: 求人情報
+    community: コミュニティ
+    dev-jobs: Devジョブ
+    job-posting: 求人投稿
+    job-postings: 求人投稿
+    workshops: ワークショップ
+    dev-workshops: 'Dev ワークショップ'
+    events: イベント
+    conferences: カンファレンス
+    event-conferences: イベント・会議
+    showcase: ショーケース
 dhtml-composer:
   forum:
     composer:

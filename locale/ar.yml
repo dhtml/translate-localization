@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'الشعارات سحابة'
     languages: اللغات
     leaderboard: المتصدرين
+    live: الحياة
+    live-coding: 'الزينة الحية'
+    challenges: التحديات
+    dev-challenges: 'دال - التحديات'
+    jobs: الوظائف
+    community: المجتمع
+    dev-jobs: 'ديف جوب'
+    job-posting: الوظائف
+    job-postings: الوظائف
+    workshops: 'حلقات العمل'
+    dev-workshops: 'حلقات عمل ديف'
+    events: الأحداث
+    conferences: المؤتمرات
+    event-conferences: المناسبات/المؤتمرات
+    showcase: عرض
 dhtml-composer:
   forum:
     composer:

@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'Etiketler Bulut'
     languages: Diller
     leaderboard: 'Liderler Sıralaması'
+    live: 'Canlı Canlı Canlı Canlı'
+    live-coding: 'Canlı Coding'
+    challenges: Challenges
+    dev-challenges: 'Dev Challenges'
+    jobs: 'Jobs Jobs'
+    community: 'Topluluk Topluluğu'
+    dev-jobs: 'Dev Jobs'
+    job-posting: 'İş Posting'
+    job-postings: 'İş Postings'
+    workshops: Atölyeler
+    dev-workshops: 'Dev Workshopss'
+    events: 'Etkinlikler Etkinlikler Etkinlikler'
+    conferences: Konferanslar
+    event-conferences: 'Etkinlikler / Konferanslar'
+    showcase: Do
 dhtml-composer:
   forum:
     composer:

@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'Tags Nuvem'
     languages: Idiomas
     leaderboard: 'Tabela de classificação'
+    live: 'Ao vivo'
+    live-coding: 'Codificação ao vivo'
+    challenges: Desafios
+    dev-challenges: 'Desafios de Dev'
+    jobs: Empregos
+    community: 'Comunidade Europeia'
+    dev-jobs: 'Empregos de Dev'
+    job-posting: 'Postagem de Emprego'
+    job-postings: 'Postagens de Emprego'
+    workshops: Oficinas
+    dev-workshops: 'Oficinas de Dev'
+    events: Eventos
+    conferences: Conferências
+    event-conferences: 'Eventos / Conferências'
+    showcase: Showcase
 dhtml-composer:
   forum:
     composer:

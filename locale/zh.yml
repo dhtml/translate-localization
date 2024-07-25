@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'Tags Cloud'
     languages: Languages
     leaderboard: Leaderboard
+    live: 现场直播
+    live-coding: 实时编码
+    challenges: 挑战
+    dev-challenges: 挑战
+    jobs: 工作
+    community: 社区
+    dev-jobs: 发展工作
+    job-posting: 职位张贴
+    job-postings: 工作海报
+    workshops: 讲习班
+    dev-workshops: 发展讲习班
+    events: 活动
+    conferences: 会议
+    event-conferences: 活动/会议
+    showcase: 显示大小写
 dhtml-composer:
   forum:
     composer:

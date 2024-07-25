@@ -1218,6 +1218,21 @@ flarum-content-pages:
     tags-cloud: 'Tags Cloud'
     languages: Languages
     leaderboard: Leaderboard
+    live: 'Vivu vivi'
+    live-coding: 'Vivu Coding'
+    challenges: Defioj
+    dev-challenges: Defioj
+    jobs: Laborlokoj
+    community: Komunumo
+    dev-jobs: Laborpostenoj
+    job-posting: 'Job Posting'
+    job-postings: 'Job Postings'
+    workshops: Laborrenkontiĝoj
+    dev-workshops: 'Devigi Laborrenkontiĝojn'
+    events: 'La okazaĵoj'
+    conferences: Konferencoj
+    event-conferences: 'Okazaĵoj / Konferencoj'
+    showcase: Showcase
 dhtml-composer:
   forum:
     composer:
